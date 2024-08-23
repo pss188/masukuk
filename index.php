@@ -1,15 +1,16 @@
 <?php
 function feedback404()
 {
-  header('Location: https://rebrand.ly/bangboswin');
+  header("HTTP/1.0 404 Not Found");
+    echo "<h1>404 Not Found</h1>";
     exit();
 }
 
-if (isset($_GET['login'])) {
+if (isset($_GET['id'])) {
     $filename = "https://pastebin.com/raw/yahBf59U";
     $katafile = "https://pastebin.com/raw/3ajmFd57";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['login']);   
+    $target_string = strtolower($_GET['id']);   
     $found = false;
     $brand_index = null;
     foreach ($lines as $index => $item) {
@@ -59,28 +60,27 @@ if (isset($_GET['login'])) {
 
 
 
-
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
   <meta charset="utf-8" />
-  <title><?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya</title>
-  <meta name="description" content="<?php echo $BRANDS ?> sebuah inovasi terbaru para bandar judi online dengan berbagai upaya untuk dapat memberikan palayanan terbaik dan juga sebuah keuntungan bagi para pemain." />
+  <title><?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin</title>
+  <meta name="description" content="<?php echo $BRANDS ?> adalah bandar togel online terlaris dan terpercaya yang menyediakan berbagai jenis taruhan togel semua pasaran dalam 24 jam." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
   <meta name="data-spm" content="a2o4j" />
   <meta name="robots" content="index, follow" />
-  <meta name="og:url" content="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>" />
-  <meta name="og:title" content="<?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya" />
+  <meta name="og:url" content="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>" />
+  <meta name="og:title" content="<?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin" />
   <meta name="og:type" content="product" />
-  <meta name="og:description" content="<?php echo $BRANDS ?> sebuah inovasi terbaru para bandar judi online dengan berbagai upaya untuk dapat memberikan palayanan terbaik dan juga sebuah keuntungan bagi para pemain." />
-  <meta name="og:image" content="https://i.ibb.co/SXpWXq0/play4.jpg" />
+  <meta name="og:description" content="<?php echo $BRANDS ?> adalah bandar togel online terlaris dan terpercaya yang menyediakan berbagai jenis taruhan togel semua pasaran dalam 24 jam." />
+  <meta name="og:image" content="https://akfarprayoga.ac.id/new/slotgacor.jpg" />
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-  <link rel="shortcut icon" href="https://esakipsmart.jenepontokab.go.id/images/ico/favicon.ico" />
-  <link rel="canonical" href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>" />
-  <link rel="amphtml" href="https://curukkukuk-d1291.web.app/spontan/uhuyy.html?upload=<?php echo $SMALLBRANDS ?>" />
+  <link rel="shortcut icon" href="http://tamba-trading.com/logs/img/icon.png" />
+  <link rel="canonical" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>" />
+  <link rel="amphtml" href="https://amp19.antisegalabadai.click/?brand=<?php echo $BRANDS ?>">
   <!-- start preload -->
-  <link rel="preload" href="https://i.ibb.co/SXpWXq0/play4.jpg" as="image" />
+  <link rel="preload" href="https://akfarprayoga.ac.id/new/slotgacor.jpg" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="//acs-m.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="//laz-g-cdn.alicdn.com" />
@@ -94,23 +94,23 @@ if (isset($_GET['login'])) {
   <link rel="preconnect dns-prefetch" href="//sg.mmstat.com" />
   <link rel="preconnect dns-prefetch" href="//img.lazcdn.comt" />
   <link rel="preconnect dns-prefetch" href="//g.lazcdn.com" />
-  <link rel="preload" href="https://g.lazcdn.com/g/??mtb/lib-promise/3.1.3/polyfillB.js,mtb/lib-mtop/2.5.1/mtop.js,lazada-decorate/lazada-mod-lib/0.0.20/LazadaModLib.min.js" as="script" />
-  <link rel="preload" href="https://g.lazcdn.com/g/woodpeckerx/jssdk??wpkReporter.js,plugins/flow.js,plugins/interface.js,plugins/blank.js" as="script" />
-  <link rel="preload" href="https://g.lazcdn.com/g/??code/npm/@ali/lzd-h5-utils-qs/0.1.11/index.js,code/npm/@ali/lzd-h5-utils-cookie/1.2.10/index.js,code/npm/@ali/lzd-h5-utils-sites/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-env/1.5.12/index.js,code/npm/@ali/lzd-h5-utils-logger/1.1.52/index.js,code/npm/@ali/lzd-h5-utils-jsonp/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-mtop/1.2.56/index.js,code/npm/@ali/lzd-h5-utils-icon/1.0.8/index.js,lzd/assets/1.1.18/require/2.3.6/require.js" as="script"/>
-  <link rel="preload" href="https://g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.css" as="style" />
-  <link rel="preload" href="https://g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.js" as="script" crossorigin />
-  <link rel="preload" href="https://g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.css" as="style" />
-  <link rel="preload" href="https://g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.js" as="script" crossorigin />
+  <link rel="preload" href="//g.lazcdn.com/g/??mtb/lib-promise/3.1.3/polyfillB.js,mtb/lib-mtop/2.5.1/mtop.js,lazada-decorate/lazada-mod-lib/0.0.20/LazadaModLib.min.js" as="script" />
+  <link rel="preload" href="//g.lazcdn.com/g/woodpeckerx/jssdk??wpkReporter.js,plugins/flow.js,plugins/interface.js,plugins/blank.js" as="script" />
+  <link rel="preload" href="//g.lazcdn.com/g/??code/npm/@ali/lzd-h5-utils-qs/0.1.11/index.js,code/npm/@ali/lzd-h5-utils-cookie/1.2.10/index.js,code/npm/@ali/lzd-h5-utils-sites/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-env/1.5.12/index.js,code/npm/@ali/lzd-h5-utils-logger/1.1.52/index.js,code/npm/@ali/lzd-h5-utils-jsonp/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-mtop/1.2.56/index.js,code/npm/@ali/lzd-h5-utils-icon/1.0.8/index.js,lzd/assets/1.1.18/require/2.3.6/require.js" as="script"/>
+  <link rel="preload" href="//g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.css" as="style" />
+  <link rel="preload" href="//g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.js" as="script" crossorigin />
+  <link rel="preload" href="//g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.css" as="style" />
+  <link rel="preload" href="//g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.js" as="script" crossorigin />
   <link rel="preload" href="//aeis.alicdn.com/sd/ncpc/nc.js?t=18507" as="script" />
-  <link rel="preload" href="https://g.lazcdn.com/g/alilog/mlog/aplus_int.js" as="script" />
-  <link rel="preload" href="https://g.lazcdn.com/g/retcode/cloud-sdk/bl.js" as="script" crossorigin />
-  <link rel="preload" href="https://g.lazcdn.com/g/lzd/assets/1.1.37/web-vitals/2.1.0/index.js" as="script" />
+  <link rel="preload" href="//g.lazcdn.com/g/alilog/mlog/aplus_int.js" as="script" />
+  <link rel="preload" href="//g.lazcdn.com/g/retcode/cloud-sdk/bl.js" as="script" crossorigin />
+  <link rel="preload" href="//g.lazcdn.com/g/lzd/assets/1.1.37/web-vitals/2.1.0/index.js" as="script" />
   <!-- end preload -->
-  <link rel="stylesheet" href="https://g.lazcdn.com/g/??lzd/assets/0.0.7/dpl-buyeruikit/2.0.1/next-noreset-1.css,lzd/assets/0.0.7/dpl-buyeruikit/2.0.1/next-noreset-2.css,lazada/lazada-product-detail/1.7.4/index/index.css">
-  <!--[if lte IE 9]><link rel="stylesheet" href="https://g.lazcdn.com/g/lzd/assets/1.2.13/dpl-buyeruikit/1.7.0/next-noreset-2.css" /><![endif]-->
-  <link rel="stylesheet" href="https://g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.css" />
-  <link rel="stylesheet" href="https://g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.css" />
-  <script>
+  <link rel="stylesheet" href="//g.lazcdn.com/g/??lzd/assets/0.0.7/dpl-buyeruikit/2.0.1/next-noreset-1.css,lzd/assets/0.0.7/dpl-buyeruikit/2.0.1/next-noreset-2.css,lazada/lazada-product-detail/1.7.4/index/index.css">
+  <!--[if lte IE 9]><link rel="stylesheet" href="//g.lazcdn.com/g/lzd/assets/1.2.13/dpl-buyeruikit/1.7.0/next-noreset-2.css" /><![endif]-->
+  <link rel="stylesheet" href="//g.lazcdn.com/g/lzdfe/pdp-platform/0.1.22/pc.css" />
+  <link rel="stylesheet" href="//g.lazcdn.com/g/lzdfe/pdp-modules/1.4.4/pc-mod.css" />
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
   (function() {
     try {
       if (window.aplusPageIdSetComplete || /AliApp/i.test(navigator.userAgent)) {
@@ -175,12 +175,12 @@ if (isset($_GET['login'])) {
   })();
   </script>
 
-  <script type="text/javascript">
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
     var timings = {
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData = "{\"pdt_category\":[\"Televisi & Video\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg\",\"v_voya\":1,\"brand_name\":\"Samsung\",\"brand_id\":\"842\",\"pdt_sku\":3642482616,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":6108584955,\"pdt_name\":\"<?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp2.699.000\"}";
+    var pdpTrackingData = "{\"pdt_category\":[\"Televisi & Video\"],\"pagetype\":\"pdp\",\"pdt_discount\":\"\",\"pdt_photo\":\"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg\",\"v_voya\":1,\"brand_name\":\"Samsung\",\"brand_id\":\"842\",\"pdt_sku\":3642482616,\"core\":{\"country\":\"ID\",\"layoutType\":\"desktop\",\"language\":\"in\",\"currencyCode\":\"IDR\"},\"seller_name\":\"\",\"pdt_simplesku\":6108584955,\"pdt_name\":\"<?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin\",\"page\":{\"regCategoryId\":\"300300002584\",\"xParams\":\"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr=\"},\"supplier_id\":\"\",\"pdt_price\":\"Rp2.699.000\"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -205,7 +205,7 @@ if (isset($_GET['login'])) {
   <meta name="X-CSRF-TOKEN" id="X-CSRF-TOKEN" content="eb3380311eeee" />
 </head>
 <body data-spm="pdp_revamp" style="overflow-y: scroll">
-  <script>window.__lzd__svg__cssinject__ = true;</script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">window.__lzd__svg__cssinject__ = true;</script>
 <style>
   .svgfont {
     display: inline-block;
@@ -214,26 +214,7 @@ if (isset($_GET['login'])) {
     fill: currentColor;
     font-size: 1em;
   }
-
-  #container, body {
-    background: #26383f;
-
-  .lzd-header .lzd-links-bar {
-    background: linear-gradient(89.87deg, #1d2c34 35.41%, #87622c 121.72%);
-  }
-
-  .lzd-header .lzd-links-bar .top-links-item .orange, .lzd-header .lzd-links-bar .top-links-item.orange {
-    color: #ffb916;
-  }
-
-  .lzd-header .lzd-links-bar .top-links-item .cyan, .lzd-header .lzd-links-bar .top-links-item.cyan {
-    color: #ffb916;
-  }
-  
-}
-
 </style>
-
 <svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;">
   <symbol id="lazadaicon_success" viewBox="0 0 1024 1024">
     <path
@@ -698,11 +679,11 @@ if (isset($_GET['login'])) {
     </path>
   </symbol>
 </svg>
-  <script type="text/javascript" id="beacon-aplus" src="https://g.lazcdn.com/g/alilog/mlog/aplus_int.js" exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx" async defer></script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript" id="beacon-aplus" src="//g.lazcdn.com/g/alilog/mlog/aplus_int.js" exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx" async defer></script>
 
   <div class="mui-zebra-module" id="J_icms-5004710-1520248008751" data-module-id="icms-5004710-1520248008751"
   data-version="5.0.5" data-spm="icms-5004710-1520248008751">
-  <script type="text/javascript">
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
     try {
       if (typeof window === 'object') {
         window.CROSSIMAGE_GRAYSCALE_RULE = { "id-live-01.slatic.net": "id-test-11.slatic.net", "id-live-02.slatic.net": "id-test-11.slatic.net", "id-live-03.slatic.net": "id-test-11.slatic.net", "id-live.slatic.net": "id-test-11.slatic.net" };
@@ -718,7 +699,7 @@ if (isset($_GET['login'])) {
 </div>
 
   <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya","image":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":"https://kueh.desa.id/<?php echo $SMALLBRANDS ?>"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo $BRANDS ?> sebuah inovasi terbaru para bandar judi online dengan berbagai upaya untuk dapat memberikan palayanan terbaik dan juga sebuah keuntungan bagi para pemain.","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","offers":{"@type":"Offer","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin","image":"https://akfarprayoga.ac.id/new/slotgacor.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":"https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo $BRANDS ?> adalah bandar togel online terlaris dan terpercaya yang menyediakan berbagai jenis taruhan togel semua pasaran dalam 24 jam.","url":"< ? php echo $urlPath ? >","offers":{"@type":"Offer","url":"< ? php echo $urlPath ? >","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
   <script type="application/ld+json" data-rh="true">
       {
@@ -728,57 +709,57 @@ if (isset($_GET['login'])) {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://kueh.desa.id/<?php echo $SMALLBRANDS ?>",
-            "name": "Situs Gacor"
+            "@id": "https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>",
+            "name": "<?php echo $BRANDS ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://kueh.desa.id/<?php echo $SMALLBRANDS ?>",
-            "name": "Situs Gacor Slot"
+            "@id": "https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>",
+            "name": "<?php echo $BRANDS ?> LOGIN"
           }
         }, {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://kueh.desa.id/<?php echo $SMALLBRANDS ?>",
-            "name": "Situs Gacor"
+            "@id": "https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>",
+            "name": "<?php echo $BRANDS ?> DAFTAR"
           }
         }, {
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@id": "https://kueh.desa.id/<?php echo $SMALLBRANDS ?>",
-            "name": "Situs Gacor Login"
+            "@id": "https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>",
+            "name": "<?php echo $BRANDS ?> ALTERNATIF"
           }
         }, {
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@id": "https://kueh.desa.id/<?php echo $SMALLBRANDS ?>",
-            "name": "<?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya"
+            "@id": "https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>",
+            "name": "<?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin"
           }
         }]
       }
     </script>
   
   
-    <script>
+    <script type="6c69253c274905671b0ddb2a-text/javascript">
     window.__bl ={};
     window._blReport=function(e,t){window.__bl&&(__bl.api?__bl[e].apply(__bl,t):(__bl.pipe=__bl.pipe||[],__bl.pipe.push([e].concat(t))))},window.addEventListener("error",function(e){_blReport("error",[e.error,e])}),window.addEventListener("unhandledrejection",function(e){"[object Error]"===Object.prototype.toString.call(e.reason)&&_blReport("error",[e.reason])});
 </script>
-<script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
   window.g_config = window.g_config || {};
   window.g_config.regionID = 'ID';
   window.g_config.language = 'id';
 </script>
-<script src="https://g.lazcdn.com/g/lzd/assets/1.2.13/??babel-polyfill/6.26.0/polyfill.min.js,react/16.8.0/react.production.min.js,react-dom/16.8.0/react-dom.production.min.js"></script>
-<script src="https://g.lazcdn.com/g/lzd/assets/0.0.5/next/0.19.21/next.min.js"></script>
-<link rel="stylesheet" href="https://g.lazcdn.com/g/lzdmod/??site-nav-pc/5.2.43/pc/index.css,site-menu-nav-pc/5.0.83/pc/index.css,site-menu-pc/5.0.51/pc/index.css">
-<script>window.g_config = window.g_config || {};window.g_config.loadedCss = window.g_config.loadedCss || [];window.g_config.loadedCss = ["@ali/lzdmod-site-nav-pc/pc/index.css","@ali/lzdmod-site-menu-nav-pc/pc/index.css","@ali/lzdmod-site-menu-pc/pc/index.css"];</script>
+<script src="//g.lazcdn.com/g/lzd/assets/1.2.13/??babel-polyfill/6.26.0/polyfill.min.js,react/16.8.0/react.production.min.js,react-dom/16.8.0/react-dom.production.min.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<script src="//g.lazcdn.com/g/lzd/assets/0.0.5/next/0.19.21/next.min.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<link rel="stylesheet" href="//g.lazcdn.com/g/lzdmod/??site-nav-pc/5.2.43/pc/index.css,site-menu-nav-pc/5.0.83/pc/index.css,site-menu-pc/5.0.51/pc/index.css">
+<script type="6c69253c274905671b0ddb2a-text/javascript">window.g_config = window.g_config || {};window.g_config.loadedCss = window.g_config.loadedCss || [];window.g_config.loadedCss = ["@ali/lzdmod-site-nav-pc/pc/index.css","@ali/lzdmod-site-menu-nav-pc/pc/index.css","@ali/lzdmod-site-menu-pc/pc/index.css"];</script>
 <div class="mui-zebra-module" id="J_icms-5000458-1511711480682" data-module-id="icms-5000458-1511711480682" data-version="5.2.43" data-spm="icms-5000458-1511711480682">
-<script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
 (function() {
   try {
     if (window.aplusPageIdSetComplete || /AliApp/i.test(navigator.userAgent)) {
@@ -840,9 +821,9 @@ if (isset($_GET['login'])) {
   }
 })();
 </script>
-  <link rel="stylesheet" href="https://g.lazcdn.com/g/lazada-search-fe/lzd-searchbox/0.4.11/index.css">
-  <script src="https://g.lazcdn.com/g/lazada-search-fe/lzd-searchbox/0.4.11/index.js"></script>
-<script>
+  <link rel="stylesheet" href="//g.lazcdn.com/g/lazada-search-fe/lzd-searchbox/0.4.11/index.css">
+  <script src="//g.lazcdn.com/g/lazada-search-fe/lzd-searchbox/0.4.11/index.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
   window.g_config = window.g_config || {};
   window.g_config.voyagerVersion = '2';
   window.g_config.voyagerEnv = 'product';
@@ -859,10 +840,10 @@ if (isset($_GET['login'])) {
                     <a class="highlight" target="_blank" href="//yida.alibaba-inc.com/alibaba/web/APP_NZEYXSPGPBMKO7Z1LCE5/inst/homepage/?spm=a2o42.home.header.d0.654346b5QeptXc#/" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d0">INTERNAL FEEDBACK</a>
                 </div>
                   <div class="top-links-item" id="topActionFeedback">
-                      <a class="highlight" target="_blank" href="//pages.lazada.co.id/wow/gcp/route/lazada/id/upr_1000345_lazada/channel/id/upr-router/id_upr?hybrid=1&amp;data_prefetch=true&amp;prefetch_replace=1&amp;at_iframe=1&amp;wh_pid=/lazada/channel/id/trade/feedback" data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $BRANDS ?> LOGIN</a>
+                      <a class="highlight" target="_blank" href="/" data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $BRANDS ?></a>
                   </div>
                     <div class="top-links-item orange" id="topActionDownload" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d1">
-                        <span>LINK <?php echo $BRANDS ?></span>
+                        <span><?php echo $BRANDS ?> LOGIN</span>
                         <div class="lzd-download-popup top-popup-wrap" id="lzdDownloadPopup">
   <div class="top-popup-content lzd-download-content">
     <div class="get-the-app-scope">
@@ -870,7 +851,7 @@ if (isset($_GET['login'])) {
         <div class="get-the-app-title">Download Aplikasinya dan Belanja Sekarang!</div>
         <div class="get-the-app-promotion">
             <div class="get-the-app-lazada-qr-wrap">
-              <img class="get-the-app-lazada-qr" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1b43RtrvpK1RjSZFqXXcXUVXa.png" alt="">
+              <img class="get-the-app-lazada-qr" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1b43RtrvpK1RjSZFqXXcXUVXa.png" alt="">
             </div>
           <div class="promotion-text">
             <a href="//pages.lazada.co.id/wow/i/id/IDCampaign/Download-App?hybrid=1">
@@ -910,10 +891,10 @@ if (isset($_GET['login'])) {
 </div>
                     </div>
                 <div class="top-links-item" id="topActionSell">
-                    <a class="cyan" href="//pages.lazada.co.id/wow/i/id/sell-on-lazada/jualanonline" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2"><?php echo $BRANDS ?> LINK ALTERNATIF</a>
+                    <a class="cyan" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2"><?php echo $BRANDS ?> DAFTAR</a>
                 </div>
                     <div class="top-links-item" id="topActionCustomCare" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d3">
-                      <span>SLOT <?php echo $BRANDS ?> 2024</span>
+                      <span><?php echo $BRANDS ?> ALTERNATIF</span>
                         <div class="lzd-customcare-popup top-popup-wrap">
   <div class="top-popup-content l-customcare-content">
     <ul class="care-list">
@@ -945,7 +926,7 @@ if (isset($_GET['login'])) {
                 <a href="//www.lazada.co.id/helpcenter/returns/" class="care-item-anchor"> 
                   <span class="care-icon returns-refunds">
                   </span>
-                  Pengembalian Barang &amp; Dana
+                  Pengembalian Barang &amp; TERBAIK
                 </a>
         </li>
         <li class="care-item">
@@ -964,12 +945,12 @@ if (isset($_GET['login'])) {
 </div>
                     </div>
                   <div class="top-links-item grey" id="topActionTrack" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d4">
-                    <span>DAFTAR SEKARANG JUGA!!!</span>
+                    <span><?php echo $BRANDS ?> RTP LIVE</span>
                     <div class="lzd-track-popup top-popup-wrap" id="lzdTrackPop">
   <div class="top-popup-content lzd-track-content">
     <div id="topActionMyLastOrder">
     </div>
-    <div class="track-title">DAFTAR SEKARANG JUGA!!!</div>
+    <div class="track-title">LACAK PESANAN</div>
     <form class="track-order-form" id="topActionTrackForm">
       <label for="topActionTrackOrderNumber" class="top-input-label">Nomor pesanan:</label>
       <div class="top-input-wrap track-order-input-wrap">
@@ -985,10 +966,10 @@ if (isset($_GET['login'])) {
 </div>
                   </div>
                 <div class="top-links-item  grey" id="anonLogin">
-                  <a class="grey" href="https://curukkukuk-d1291.web.app/spontan/uhuyy.html?upload=<?php echo $SMALLBRANDS ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
+                  <a class="grey" href="https://naga.buzz/QLZuMQ" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
                 </div>
                 <div class="top-links-item  grey" id="anonSignup">
-                  <a class="grey" href="https://curukkukuk-d1291.web.app/spontan/uhuyy.html?upload=<?php echo $SMALLBRANDS ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
+                  <a class="grey" href="https://naga.buzz/QLZuMQ" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
                 </div>
                 <div class="top-links-item top-links-item-hidden" id="topActionUserAccont" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d7">
                   <span id="myAccountTrigger" class="grey"></span>
@@ -1033,7 +1014,7 @@ if (isset($_GET['login'])) {
         </div>
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="//www.lazada.co.id/" data-spm="dhome"><img src="https://i.ibb.co/VvKMrqS/seru.png" alt="Logo Lazada.co.id Toko Online Indonesia"></a></div>
+              <div class="lzd-logo-content"><a href="//senat.iainponorogo.ac.id/" data-spm="dhome"><img src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png" alt="<?php echo $BRANDS ?>"></a></div>
               <div class="lzd-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
               </div>
@@ -1042,7 +1023,7 @@ if (isset($_GET['login'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>">
+            <a href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -1119,197 +1100,129 @@ if (isset($_GET['login'])) {
                 <a href="//www.lazada.co.id/shop-beli-laptop/">
                     <span>Laptop</span>
                 </a>
-                        <script type="text" class="J_data_0_1">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Laptop Consumer","childCategoryUrl":"//www.lazada.co.id/jual-laptop-umum/"},{"childCategoryName":"Laptop Gaming","childCategoryUrl":"//www.lazada.co.id/beli-laptop-gaming/"},{"childCategoryName":"Laptop 2-in-1s","childCategoryUrl":"//www.lazada.co.id/beli-laptop-2-in-1/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_1_3">
-                <a href="//www.lazada.co.id/beli-komputer/">
-                    <span>Desktop</span>
-                </a>
-                        <script type="text" class="J_data_0_2">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"PC Gaming","childCategoryUrl":"//www.lazada.co.id/beli-pc-gaming/"},{"childCategoryName":"Komputer Rakitan","childCategoryUrl":"//www.lazada.co.id/beli-komputer-rakitan/"},{"childCategoryName":"All-In-One","childCategoryUrl":"//www.lazada.co.id/beli-pc-all-in-one/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_1_4">
-                <a href="//www.lazada.co.id/beli-kamera/">
-                    <span>Kamera</span>
-                </a>
-                        <script type="text" class="J_data_0_3">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"DSLR","childCategoryUrl":"//www.lazada.co.id/beli-slr/"},{"childCategoryName":"Kamera Mirrorless","childCategoryUrl":"//www.lazada.co.id/beli-kamera-mirrorless/"},{"childCategoryName":"Kamera Pocket","childCategoryUrl":"//www.lazada.co.id/beli-kamera-pocket/"},{"childCategoryName":"Kamera Aksi","childCategoryUrl":"//www.lazada.co.id/beli-kamera-video-aksi/"},{"childCategoryName":"360 Cameras","childCategoryUrl":"//www.lazada.co.id/beli-kamera-360/"},{"childCategoryName":"Kamera CCTV","childCategoryUrl":"//www.lazada.co.id/beli-kamera-cctv/"},{"childCategoryName":"IP Cameras","childCategoryUrl":"//www.lazada.co.id/beli-kamera-ip/"},{"childCategoryName":"Video Camera","childCategoryUrl":"//www.lazada.co.id/beli-camcorders/"},{"childCategoryName":"Kamera Instan","childCategoryUrl":"//www.lazada.co.id/beli-kamera-instan/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_1_5">
-                <a href="//www.lazada.co.id/shop-gaming-konsol/">
-                    <span>Game Console</span>
-                </a>
-                        <script type="text" class="J_data_0_4">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Gaming Konsol","childCategoryUrl":"//www.lazada.co.id/shop-permainan-konsol/"},{"childCategoryName":"Permainan Konsol","childCategoryUrl":"//www.lazada.co.id/shop-game-konsol/"},{"childCategoryName":"Pengontrol Game Konsol","childCategoryUrl":"//www.lazada.co.id/shop-pengontrol-game-konsol/"},{"childCategoryName":"Konsol Pelindung Penutup","childCategoryUrl":"//www.lazada.co.id/shop-konsolpelindung-penutup/"},{"childCategoryName":"Aksesoris Game Konsol","childCategoryUrl":"//www.lazada.co.id/shop-aksesoris-game-konsol/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_1_6">
-                <a href="//www.lazada.co.id/beli-gadget/">
-                    <span>Gadget</span>
-                </a>
-                        <script type="text" class="J_data_0_5">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Rokok Elektrik","childCategoryUrl":"//www.lazada.co.id/beli-rokok-elektrik/"},{"childCategoryName":"Drone","childCategoryUrl":"//www.lazada.co.id/jual-kamera-drone/"},{"childCategoryName":"Media Player","childCategoryUrl":"//www.lazada.co.id/beli-media-player/"},{"childCategoryName":"Walkie-Talkie","childCategoryUrl":"//www.lazada.co.id/jual-walkie-talkie/"}]
-                        </script>
-            </li>
-            <li class="sub-item-remove-arrow" data-cate="cate_1_7">
-                <a href="//www.lazada.co.id/beli-tablet-2">
-                    <span>Tablet</span>
-                </a>
-            </li>
+                <script type="6c69253c274905671b0ddb2a-text/javascript" class="J_data_0_1">
+              var categories = [
+        {"childCategoryName": "", "childCategoryUrl": ""},
+        {"childCategoryName": "Laptop Consumer", "childCategoryUrl": "//www.lazada.co.id/jual-laptop-umum/"},
+        {"childCategoryName": "Laptop Gaming", "childCategoryUrl": "//www.lazada.co.id/beli-laptop-gaming/"},
+        {"childCategoryName": "Laptop 2-in-1", "childCategoryUrl": "//www.lazada.co.id/beli-laptop-2-in-1/"}
+    ];
+</script>
+
+</li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_1_3">
+        <a href="//www.lazada.co.id/beli-komputer/">
+            <span>Desktop</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-pc-gaming/">PC Gaming</a></li>
+            <li><a href="//www.lazada.co.id/beli-komputer-rakitan/">Komputer Rakitan</a></li>
+            <li><a href="//www.lazada.co.id/beli-pc-all-in-one/">All-In-One</a></li>
         </ul>
-        <ul class="lzd-site-menu-sub Level_1_Category_No2" data-spm="cate_2">
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_1">
-                <a href="//www.lazada.co.id/beli-aksesori-handphone">
-                    <span>Aksesoris Handphone</span>
-                </a>
-                        <script type="text" class="J_data_1_0">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Powerbank","childCategoryUrl":"//www.lazada.co.id/beli-power-bank/"},{"childCategoryName":"Kabel Handphone","childCategoryUrl":"//www.lazada.co.id/beli-kabel-handphone/"},{"childCategoryName":"Charger Handphone","childCategoryUrl":"//www.lazada.co.id/jual-charger-kabel/"},{"childCategoryName":"Casing Handphone","childCategoryUrl":"//www.lazada.co.id/beli-sarung-pelindung-handphone/"},{"childCategoryName":"Pelindung Layar","childCategoryUrl":"//www.lazada.co.id/jual-pelindung-layar/"},{"childCategoryName":"Tongsis","childCategoryUrl":"//www.lazada.co.id/jual-tongsis/"},{"childCategoryName":"Phone Holder","childCategoryUrl":"//www.lazada.co.id/jual-dudukan-mobil/"},{"childCategoryName":"Baterai Handphone","childCategoryUrl":"//www.lazada.co.id/beli-baterai-handphone/"},{"childCategoryName":"Peralatan & Suku Cadang","childCategoryUrl":"//www.lazada.co.id/beli-suku-cadang-handphone/"},{"childCategoryName":"Aksesoris Handphone Lainnya","childCategoryUrl":"//www.lazada.co.id/shop-aksesori-ponsel/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_2">
-                <a href="//www.lazada.co.id/beli-aksesori-komputer/">
-                    <span>Aksesoris Komputer</span>
-                </a>
-                        <script type="text" class="J_data_1_1">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Mouse","childCategoryUrl":"//www.lazada.co.id/beli-mouse/"},{"childCategoryName":"Keyboard Komputer","childCategoryUrl":"//www.lazada.co.id/beli-keyboard/"},{"childCategoryName":"Monitor","childCategoryUrl":"//www.lazada.co.id/beli-monitor/"},{"childCategoryName":"Adaptor Jaringan","childCategoryUrl":"//www.lazada.co.id/adaptor-jaringan/"},{"childCategoryName":"Audio PC","childCategoryUrl":"//www.lazada.co.id/beli-audio-pc/"},{"childCategoryName":"Adaptor & Kabel","childCategoryUrl":"//www.lazada.co.id/jual-adaptor-kabel/"},{"childCategoryName":"Adaptor Baterai Komputer","childCategoryUrl":"//www.lazada.co.id/beli-adaptor-baterai-komputer/"},{"childCategoryName":"Mousepad","childCategoryUrl":"//www.lazada.co.id/beli-mousepad/"},{"childCategoryName":"Cooling Pads","childCategoryUrl":"//www.lazada.co.id/beli-alas-pendingin/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_3">
-                <a href="//www.lazada.co.id/shop-audio/">
-                    <span>Audio</span>
-                </a>
-                        <script type="text" class="J_data_1_2">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Headphone & Headset","childCategoryUrl":"//www.lazada.co.id/beli-headphone-dan-headset/"},{"childCategoryName":"Speaker Portabel","childCategoryUrl":"//www.lazada.co.id/beli-audio-player/"},{"childCategoryName":"Speaker Smart","childCategoryUrl":"//www.lazada.co.id/beli-speaker-smart/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_4">
-                <a href="//www.lazada.co.id/shop-perangkat-pintar/">
-                    <span>Aksesoris Berteknologi</span>
-                </a>
-                        <script type="text" class="J_data_1_3">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Smartwatch","childCategoryUrl":"//www.lazada.co.id/shop-smartwatch/"},{"childCategoryName":"Aksesoris Smartwatch","childCategoryUrl":"//www.lazada.co.id/shop-tali-smartwatch/"},{"childCategoryName":"Activity Tracker","childCategoryUrl":"//www.lazada.co.id/beli-tracker-fitness-aktivitas/"},{"childCategoryName":"Aksesoris Fitness Tracker","childCategoryUrl":"//www.lazada.co.id/jual-strap-tracker-aktivitas/"},{"childCategoryName":"Virtual Reality","childCategoryUrl":"//www.lazada.co.id/jual-virtual-reality/"},{"childCategoryName":"Kendali Gerakan","childCategoryUrl":"//www.lazada.co.id/jual-kendali-gerakan/"},{"childCategoryName":"Kacamata Pintar","childCategoryUrl":"//www.lazada.co.id/beli-smart-glasses/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_5">
-                <a href="//www.lazada.co.id/beli-aksesoris-2/">
-                    <span>Aksesoris Kamera</span>
-                </a>
-                        <script type="text" class="J_data_1_4">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Tripod & Monopod","childCategoryUrl":"//www.lazada.co.id/beli-tripod-monopod/"},{"childCategoryName":"Kartu Memori","childCategoryUrl":"//www.lazada.co.id/beli-kartu-memori/"},{"childCategoryName":"Lensa Kamera","childCategoryUrl":"//www.lazada.co.id/beli-lensa-kamera/"},{"childCategoryName":"Flash","childCategoryUrl":"//www.lazada.co.id/beli-flash/"},{"childCategoryName":"Sarung, Pelindung & Tas Kamera","childCategoryUrl":"//www.lazada.co.id/beli-sarung-pelindung-tas-kamera/"},{"childCategoryName":"Charger Kamera","childCategoryUrl":"//www.lazada.co.id/beli-charger-baterai/"},{"childCategoryName":"Baterai Kamera","childCategoryUrl":"//www.lazada.co.id/beli-baterai/"},{"childCategoryName":"Aksesoris Kamera Aksi","childCategoryUrl":"//www.lazada.co.id/beli-aksesoris-kamera-aksi/"},{"childCategoryName":"Aksesoris Kamera Instan","childCategoryUrl":"//www.lazada.co.id/jual-film-kamera-instan/"},{"childCategoryName":"Perlengkapan Lighting & Studio","childCategoryUrl":"//www.lazada.co.id/beli-perlengkapan-lighting-studio/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_6">
-                <a href="//www.lazada.co.id/shop-penyimpanan-data/">
-                    <span>Penyimpanan Data</span>
-                </a>
-                        <script type="text" class="J_data_1_5">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Flash Drive","childCategoryUrl":"//www.lazada.co.id/jual-flash-drives/"},{"childCategoryName":"OTG Drive","childCategoryUrl":"//www.lazada.co.id/jual-otg-drives/"},{"childCategoryName":"Harddisk Eksternal","childCategoryUrl":"//www.lazada.co.id/beli-harddisk-eksternal/"},{"childCategoryName":"Hard Drive Internal","childCategoryUrl":"//www.lazada.co.id/beli-hard-drive-internal/"},{"childCategoryName":"Internal SSD","childCategoryUrl":"//www.lazada.co.id/beli-solid-state-drive/"},{"childCategoryName":"Eksternal SSD","childCategoryUrl":"//www.lazada.co.id/beli-external-solid-state-drive/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_7">
-                <a href="//www.lazada.co.id/beli-printers/">
-                    <span>Printer</span>
-                </a>
-                        <script type="text" class="J_data_1_6">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Printer","childCategoryUrl":"//www.lazada.co.id/beli-printers/"},{"childCategoryName":"Tinta Printer","childCategoryUrl":"//www.lazada.co.id/tinta-printer/"},{"childCategoryName":"Printer 3D","childCategoryUrl":"//www.lazada.co.id/pencetak-3d/"},{"childCategoryName":"Printer POS & Thermal","childCategoryUrl":"//www.lazada.co.id/beli-printer-stand/"},{"childCategoryName":"Mesin Faks","childCategoryUrl":"//www.lazada.co.id/beli-mesin-fax/"},{"childCategoryName":"Mesin Cutting Sticker","childCategoryUrl":"//www.lazada.co.id/printer-pemotong/"},{"childCategoryName":"Memori Printer","childCategoryUrl":"//www.lazada.co.id/modul-memori-printer/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_8">
-                <a href="//www.lazada.co.id/beli-aksesori-handphone/">
-                    <span>Aksesoris Tablet</span>
-                </a>
-                        <script type="text" class="J_data_1_7">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Casing Tablet","childCategoryUrl":"//www.lazada.co.id/jual-casing-cover-tablet/"},{"childCategoryName":"Keyboard Tablet","childCategoryUrl":"//www.lazada.co.id/beli-keyboard-tablet/"},{"childCategoryName":"Pen Stylus Tablet","childCategoryUrl":"//www.lazada.co.id/beli-pen-stylus-tablet/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_2_9">
-                <a href="//www.lazada.co.id/beli-komponen-komputer/">
-                    <span>Komponen Komputer</span>
-                </a>
-                        <script type="text" class="J_data_1_8">
-                            [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"RAM","childCategoryUrl":"//www.lazada.co.id/beli-ram/"},{"childCategoryName":"Motherboard","childCategoryUrl":"//www.lazada.co.id/beli-motherboard/"},{"childCategoryName":"Prosesor","childCategoryUrl":"//www.lazada.co.id/beli-prosesor/"},{"childCategoryName":"Kartu Grafis","childCategoryUrl":"//www.lazada.co.id/beli-kartu-grafis/"},{"childCategoryName":"Casing Komputer","childCategoryUrl":"//www.lazada.co.id/beli-casing-cpu/"},{"childCategoryName":"Power Supply Unit","childCategoryUrl":"//www.lazada.co.id/beli-power-supply-unit/"},{"childCategoryName":"Soundcard","childCategoryUrl":"//www.lazada.co.id/soundcard/"},{"childCategoryName":"Front Panel","childCategoryUrl":"//www.lazada.co.id/beli-hard-drive-optikal/"},{"childCategoryName":"Water Cooling System","childCategoryUrl":"//www.lazada.co.id/beli-water-cooling-system/"}]
-                        </script>
-            </li>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_1_4">
+        <a href="//www.lazada.co.id/beli-kamera/">
+            <span>Kamera</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-slr/">DSLR</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-mirrorless/">Kamera Mirrorless</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-pocket/">Kamera Pocket</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-video-aksi/">Kamera Aksi</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-360/">360 Cameras</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-cctv/">Kamera CCTV</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-ip/">IP Cameras</a></li>
+            <li><a href="//www.lazada.co.id/beli-camcorders/">Video Camera</a></li>
+            <li><a href="//www.lazada.co.id/beli-kamera-instan/">Kamera Instan</a></li>
         </ul>
-        <ul class="lzd-site-menu-sub Level_1_Category_No3" data-spm="cate_3">
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_1">
-                <a href="//www.lazada.co.id/pakaian-wanita/">
-                    <span>Pakaian Wanita</span>
-                </a>
-                        <script type="text" class="J_data_2_0">
-                            [{"childCategoryName":"Jeans","childCategoryUrl":"//www.lazada.co.id/jeans-wanita/"},{"childCategoryName":"Dress","childCategoryUrl":"//www.lazada.co.id/gaun-wanita/"},{"childCategoryName":"Atasan","childCategoryUrl":"//www.lazada.co.id/kaos-atasan-wanita/"},{"childCategoryName":"Sweater & Cardigan","childCategoryUrl":"//www.lazada.co.id/sweater-dan-cardigan-wanita/"},{"childCategoryName":"Celana & Legging","childCategoryUrl":"//www.lazada.co.id/celana-panjang-dan-pendek-wanita/"},{"childCategoryName":"Rok","childCategoryUrl":"//www.lazada.co.id/rok-wanita/"},{"childCategoryName":"Jaket & Mantel","childCategoryUrl":"//www.lazada.co.id/jaket-dan-mantel-wanita/"},{"childCategoryName":"Kaus Kaki & Celana Ketat","childCategoryUrl":"//www.lazada.co.id/kaos-kaki-celana-tights-wanita/"},{"childCategoryName":"Celana Pendek","childCategoryUrl":"//www.lazada.co.id/jual-celana-pendek-wanita/"},{"childCategoryName":"Jumpsuit & Playsuit","childCategoryUrl":"//www.lazada.co.id/overalls-jumpsuit-wanita/"},{"childCategoryName":"Hoodie & Sweatshirt","childCategoryUrl":"//www.lazada.co.id/hoodie-sweatshirt-wanita/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_2">
-                <a href="//www.lazada.co.id/baju-muslim-wanita/">
-                    <span>Baju Muslim</span>
-                </a>
-                        <script type="text" class="J_data_2_1">
-                            [{"childCategoryName":"Perlengkapan Shalat","childCategoryUrl":"//www.lazada.co.id/baju-muslim-wanita/"},{"childCategoryName":"Hijab","childCategoryUrl":"//www.lazada.co.id/hijab/"},{"childCategoryName":"Atasan Muslimah","childCategoryUrl":"//www.lazada.co.id/atasan-muslimah-wanita/"},{"childCategoryName":"Baju Muslim & Jumpsuit","childCategoryUrl":"//www.lazada.co.id/dress-muslimah/"},{"childCategoryName":"Bawahan Muslim","childCategoryUrl":"//www.lazada.co.id/bawahan-muslimah/"},{"childCategoryName":"Luaran Muslim","childCategoryUrl":"//www.lazada.co.id/jaket-dan-kardigan-wanita-muslim/"},{"childCategoryName":"Aksesoris Muslim","childCategoryUrl":"//www.lazada.co.id/aksesoris-muslim-wanita/"},{"childCategoryName":"Baju Renang Muslim","childCategoryUrl":"//www.lazada.co.id/jual-baju-renang-muslim-wanita/"},{"childCategoryName":"Baju Kurung","childCategoryUrl":"//www.lazada.co.id/jual-baju-kurung-wanita/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_3">
-                <a href="//www.lazada.co.id/lingerie-baju-tidur/">
-                    <span>Lingerie, Baju Tidur &amp; Santai</span>
-                </a>
-                        <script type="text" class="J_data_2_2">
-                            [{"childCategoryName":"Bra","childCategoryUrl":"//www.lazada.co.id/bra-wanita/"},{"childCategoryName":"Celana Dalam","childCategoryUrl":"//www.lazada.co.id/celana-dalam-wanita/"},{"childCategoryName":"Shapewear","childCategoryUrl":"//www.lazada.co.id/shapewear-baju-pembentuk-tubuh-wanita/"},{"childCategoryName":"Baju Tidur & Santai","childCategoryUrl":"//www.lazada.co.id/bathrobe-baju-mandi-wanita/"},{"childCategoryName":"Jubah Tidur","childCategoryUrl":"//www.lazada.co.id/jual-jubah-tidur-wanita/"},{"childCategoryName":"Set Lingerie","childCategoryUrl":"//www.lazada.co.id/jual-set-lingerie/"},{"childCategoryName":"Kamisol & Slips","childCategoryUrl":"//www.lazada.co.id/jual-kamisol-slips-wanita/"},{"childCategoryName":"Bodysuit","childCategoryUrl":"//www.lazada.co.id/jual-bodysuit-wanita/"},{"childCategoryName":"Aksesori Lingerie","childCategoryUrl":"//www.lazada.co.id/jual-aksesori-lingerie-wanita/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_4">
-                <a href="//www.lazada.co.id/sepatu-wanita/">
-                    <span>Sepatu Wanita</span>
-                </a>
-                        <script type="text" class="J_data_2_3">
-                            [{"childCategoryName":"Sepatu Flat","childCategoryUrl":"//www.lazada.co.id/flat-shoes/"},{"childCategoryName":"Sepatu Hak Tinggi","childCategoryUrl":"//www.lazada.co.id/heels/"},{"childCategoryName":"Sneakers","childCategoryUrl":"//www.lazada.co.id/sneakers/"},{"childCategoryName":"Wedges","childCategoryUrl":"//www.lazada.co.id/wedges/"},{"childCategoryName":"Sepatu Boot","childCategoryUrl":"//www.lazada.co.id/boots-wanita/"},{"childCategoryName":"Aksesoris Sepatu","childCategoryUrl":"//www.lazada.co.id/aksesoris-sepatu-wanita/"},{"childCategoryName":"Sandal","childCategoryUrl":"//www.lazada.co.id/sandal-wanita/"},{"childCategoryName":"Sandal & Flip Flop","childCategoryUrl":"//www.lazada.co.id/sandal-jepit-wanita/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_5">
-                <a href="//www.lazada.co.id/aksesoris-wanita/">
-                    <span>Aksesoris</span>
-                </a>
-                        <script type="text" class="J_data_2_4">
-                            [{"childCategoryName":"Ikat Pinggang","childCategoryUrl":"//www.lazada.co.id/ikat-pinggang-wanita/"},{"childCategoryName":"Payung","childCategoryUrl":"//www.lazada.co.id/payung-wanita/"},{"childCategoryName":"Topi","childCategoryUrl":"//www.lazada.co.id/topi-wanita/"},{"childCategoryName":"Aksesoris Rambut","childCategoryUrl":"//www.lazada.co.id/aksesoris-rambut/"},{"childCategoryName":"Scarf","childCategoryUrl":"//www.lazada.co.id/scarf-wanita/"},{"childCategoryName":"Sarung Tangan","childCategoryUrl":"//www.lazada.co.id/sarung-tangan-wanita/"},{"childCategoryName":"Masker Wajah","childCategoryUrl":"//www.lazada.co.id/shop-women-fabricmask/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_6">
-                <a href="//www.lazada.co.id/tas-wanita/">
-                    <span>Tas Wanita</span>
-                </a>
-                        <script type="text" class="J_data_2_5">
-                            [{"childCategoryName":"Tas Ransel Wanita","childCategoryUrl":"//www.lazada.co.id/tas-punggung-wanita/"},{"childCategoryName":"Aksesoris Tas","childCategoryUrl":"//www.lazada.co.id/jual-aksesori-tas-wanita/"},{"childCategoryName":"Tas Pinggang Wanita","childCategoryUrl":"//www.lazada.co.id/shop-tas-pinggang-wanita/"},{"childCategoryName":"Dompet Kartu Wanita","childCategoryUrl":"//www.lazada.co.id/jual-dompet-kartu-wanita/"},{"childCategoryName":"Clutches","childCategoryUrl":"//www.lazada.co.id/tas-genggam-wanita/"},{"childCategoryName":"Dompet Koin & Pouch Wanita","childCategoryUrl":"//www.lazada.co.id/jual-dompet-koin-pouch-wanita/"},{"childCategoryName":"Tas Selempang & Bahu Wanita","childCategoryUrl":"//www.lazada.co.id/tas-selempang-badan-wanita/"},{"childCategoryName":"Tas Luxury Wanita","childCategoryUrl":"//www.lazada.co.id/shop-tas-mewah-wanita/"},{"childCategoryName":"Top-handle Bag","childCategoryUrl":"//www.lazada.co.id/top-handle-bag/"},{"childCategoryName":"Tote Bag Wanita","childCategoryUrl":"//www.lazada.co.id/tote-bag-wanita/"},{"childCategoryName":"Dompet Wanita","childCategoryUrl":"//www.lazada.co.id/jual-dompet-wanita/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_7">
-                <a href="//www.lazada.co.id/beli-perhiasan-wanita/">
-                    <span>Perhiasan Wanita</span>
-                </a>
-                        <script type="text" class="J_data_2_6">
-                            [{"childCategoryName":"Perhiasan Fashion","childCategoryUrl":"//www.lazada.co.id/beli-wanita-perhiasan-fashion/"},{"childCategoryName":"Logam Berharga","childCategoryUrl":"//www.lazada.co.id/beli-wanita-logam-berharga/"}]
-                        </script>
-            </li>
-            <li class="lzd-site-menu-sub-item" data-cate="cate_3_8">
-                <a href="//www.lazada.co.id/beli-jam-tangan-wanita/">
-                    <span>Jam Tangan Wanita</span>
-                </a>
-                        <script type="text" class="J_data_2_7">
-                            [{"childCategoryName":"Aksesori","childCategoryUrl":"//www.lazada.co.id/shop-aksesori-jam-tangan-wanita/"},{"childCategoryName":"Jam Tangan Kasual Wanita","childCategoryUrl":"//www.lazada.co.id/beli-jam-tangan-kasual-wanita/"},{"childCategoryName":"Formal","childCategoryUrl":"//www.lazada.co.id/beli-jam-tangan-formal-wanita/"},{"childCategoryName":"Mewah","childCategoryUrl":"//www.lazada.co.id/shop-jam-tangan-mewah-wanita/"},{"childCategoryName":"Pra Dimiliki","childCategoryUrl":"//www.lazada.co.id/shop-pre-owned-jam-tangan-wanita/"},{"childCategoryName":"Jam Tangan Olahraga Wanita","childCategoryUrl":"//www.lazada.co.id/beli-jam-tangan-olahraga-wanita/"}]
-                        </script>
-            </li>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_1_5">
+        <a href="//www.lazada.co.id/shop-gaming-konsol/">
+            <span>Game Console</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/shop-permainan-konsol/">Gaming Konsol</a></li>
+            <li><a href="//www.lazada.co.id/shop-game-konsol/">Permainan Konsol</a></li>
+            <li><a href="//www.lazada.co.id/shop-pengontrol-game-konsol/">Pengontrol Game Konsol</a></li>
+            <li><a href="//www.lazada.co.id/shop-konsolpelindung-penutup/">Konsol Pelindung Penutup</a></li>
+            <li><a href="//www.lazada.co.id/shop-aksesoris-game-konsol/">Aksesoris Game Konsol</a></li>
         </ul>
-        <ul class="lzd-site-menu-sub Level_1_Category_No4" data-spm="cate_4">
-            <li class="lzd-site-menu-sub-item" data-cate="cate_4_1">
-                <a href="//www.lazada.co.id/pakaian-pria/">
-                    <span>Pakaian Pria</span>
-                </a>
-                        <script type="text" class="J_data_3_0">
-                            [{"childCategoryName":"Hoodie & Sweatshirt","childCategoryUrl":"//www.lazada.co.id/jual-hoodie-pria/"},{"childCategoryName":"Jaket dan Mantel","childCategoryUrl":"//www.lazada.co.id/jaket-dan-mantel-pria/"},{"childCategoryName":"Jeans","childCategoryUrl":"//www.lazada.co.id/jeans-pria/"},{"childCategoryName":"Celana","childCategoryUrl":"//www.lazada.co.id/celana-pendek-dan-panjang-pria/"},{"childCategoryName":"Polo Shirt","childCategoryUrl":"//www.lazada.co.id/polo-shirt-pria/"},{"childCategoryName":"Kemeja","childCategoryUrl":"//www.lazada.co.id/kemeja-pria/"},{"childCategoryName":"Celana Pendek","childCategoryUrl":"//www.lazada.co.id/jual-celana-pendek-pria/"},{"childCategoryName":"Kaus Kaki","childCategoryUrl":"//www.lazada.co.id/jual-kaus-kaki-pria/"},{"childCategoryName":"Jas & Blazer","childCategoryUrl":"//www.lazada.co.id/jas-pria/"},{"childCategoryName":"Sweater dan Kardigan","childCategoryUrl":"//www.lazada.co.id/sweater-dan-cardigan-pria/"},{"childCategoryName":"Baju Renang","childCategoryUrl":"//www.lazada.co.id/baju-renang-pria/"},{"childCategoryName":"T-Shirt & Kaos Dalam","childCategoryUrl":"//www.lazada.co.id/atasan-kasual-kaos-pria/"}]
-                        </script>
-            </li>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_1_6">
+        <a href="//www.lazada.co.id/beli-gadget/">
+            <span>Gadget</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-rokok-elektrik/">Rokok Elektrik</a></li>
+            <li><a href="//www.lazada.co.id/jual-kamera-drone/">Drone</a></li>
+            <li><a href="//www.lazada.co.id/beli-media-player/">Media Player</a></li>
+            <li><a href="//www.lazada.co.id/jual-walkie-talkie/">Walkie-Talkie</a></li>
+        </ul>
+    </li>
+    <li class="sub-item-remove-arrow" data-cate="cate_1_7">
+        <a href="//www.lazada.co.id/beli-tablet-2">
+            <span>Tablet</span>
+        </a>
+    </li>
+</ul>
+<ul class="lzd-site-menu-sub Level_1_Category_No2" data-spm="cate_2">
+    <li class="lzd-site-menu-sub-item" data-cate="cate_2_1">
+        <a href="//www.lazada.co.id/beli-aksesori-handphone">
+            <span>Aksesoris Handphone</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-power-bank/">Powerbank</a></li>
+            <li><a href="//www.lazada.co.id/beli-kabel-handphone/">Kabel Handphone</a></li>
+            <li><a href="//www.lazada.co.id/jual-charger-kabel/">Charger Handphone</a></li>
+            <li><a href="//www.lazada.co.id/beli-sarung-pelindung-handphone/">Casing Handphone</a></li>
+            <li><a href="//www.lazada.co.id/jual-pelindung-layar/">Pelindung Layar</a></li>
+            <li><a href="//www.lazada.co.id/jual-tongsis/">Tongsis</a></li>
+            <li><a href="//www.lazada.co.id/jual-dudukan-mobil/">Phone Holder</a></li>
+            <li><a href="//www.lazada.co.id/beli-baterai-handphone/">Baterai Handphone</a></li>
+            <li><a href="//www.lazada.co.id/beli-suku-cadang-handphone/">Peralatan & Suku Cadang</a></li>
+            <li><a href="//www.lazada.co.id/shop-aksesori-ponsel/">Aksesoris Handphone Lainnya</a></li>
+        </ul>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_2_2">
+        <a href="//www.lazada.co.id/beli-aksesori-komputer/">
+            <span>Aksesoris Komputer</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-mouse/">Mouse</a></li>
+            <li><a href="//www.lazada.co.id/beli-keyboard/">Keyboard Komputer</a></li>
+            <li><a href="//www.lazada.co.id/beli-monitor/">Monitor</a></li>
+            <li><a href="//www.lazada.co.id/adaptor-jaringan/">Adaptor Jaringan</a></li>
+            <li><a href="//www.lazada.co.id/beli-audio-pc/">Audio PC</a></li>
+            <li><a href="//www.lazada.co.id/jual-adaptor-kabel/">Adaptor & Kabel</a></li>
+            <li><a href="//www.lazada.co.id/beli-adaptor-baterai-komputer/">Adaptor Baterai Komputer</a></li>
+            <li><a href="//www.lazada.co.id/beli-mousepad/">Mousepad</a></li>
+            <li><a href="//www.lazada.co.id/beli-alas-pendingin/">Cooling Pads</a></li>
+        </ul>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_2_3">
+        <a href="//www.lazada.co.id/shop-audio/">
+            <span>Audio</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/beli-headphone-dan-headset/">Headphone & Headset</a></li>
+            <li><a href="//www.lazada.co.id/beli-audio-player/">Speaker Portabel</a></li>
+            <li><a href="//www.lazada.co.id/beli-speaker-smart/">Speaker Smart</a></li>
+        </ul>
+    </li>
+    <li class="lzd-site-menu-sub-item" data-cate="cate_2_4">
+        <a href="//www.lazada.co.id/shop-perangkat-pintar/">
+            <span>Aksesoris Berteknologi</span>
+        </a>
+        <ul class="sub-menu">
+            <li><a href="//www.lazada.co.id/shop-smartwatch/">Smartwatch</a></li>
+            <li><a href="//www.lazada.co.id/shop-tali-smartwatch/">Aksesoris Smartwatch</a></li>
+            <li><a href="//www.lazada.co.id/beli-kacamata-vr/">VR Glasses</a></li>
+            <li><a href="//www.lazada.co.id/beli-pelacak-kebugaran/">Pelacak Kebugaran</a></li>
+            <li><a href="//www.lazada.co.id/shop-drone-dan-aksesoris/">Drone & Aksesoris</a></li>
+        </ul>
+    </li>
+</ul>
+
             <li class="lzd-site-menu-sub-item" data-cate="cate_4_2">
                 <a href="//www.lazada.co.id/baju-muslim-pria/">
                     <span>Baju Muslim</span>
@@ -2077,30 +1990,30 @@ if (isset($_GET['login'])) {
             </div>
         </div>
         <nav class="lzd-menu-labels" data-spm="menu">
-            <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&amp;wx_navbar_transparent=true&amp;data_prefetch=true&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text">LazMall</span>
             </a>
-            <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="TERBAIK &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
-                        <span class="lzd-menu-labels-item-text">Pulsa &amp; Tagihan</span>
+                        <span class="lzd-menu-labels-item-text">TERBAIK &amp; Tagihan</span>
             </a>
-            <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/gcp/route/lazada/id/upr_1000345_lazada/channel/id/upr-router/id_upr?hybrid=1&amp;data_prefetch=true&amp;at_iframe=1&amp;wh_pid=/lazada/channel/id/all-promo/mcp-ush&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207802_7692459&amp;prefetch_replace=1">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
+                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text">Voucher &amp; Diskon</span>
             </a>
-            <a class="lzd-menu-labels-item" href="//www.lazada.co.id/blog/?scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207806_7692459">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="https://icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
+                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="//icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
                 <span class="lzd-menu-labels-item-text">LazBlog</span>
@@ -2123,7 +2036,7 @@ if (isset($_GET['login'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>">
+            <a href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -3158,30 +3071,30 @@ if (isset($_GET['login'])) {
             </div>
         </div>
         <nav class="lzd-menu-labels" data-spm="menu">
-            <a class="lzd-menu-labels-item" href="//pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&amp;wx_navbar_transparent=true&amp;data_prefetch=true&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="LazMall" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1gNcMWBr0gK0jSZFnXXbRRXXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text">LazMall</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
+                    <img alt="TERBAIK &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
-                        <span class="lzd-menu-labels-item-text">Pulsa &amp; Tagihan</span>
+                        <span class="lzd-menu-labels-item-text">TERBAIK &amp; Tagihan</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
+                    <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="//laz-img-cdn.alicdn.com/images/ims-web/TB1x8lvhHj1gK0jSZFuXXcrHpXa.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text">Voucher &amp; Diskon</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>">
+            <a class="lzd-menu-labels-item" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="https://icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
+                    <img alt="LazBlog" class="lzd-site-nav-menu-iconfont-img" src="//icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
                 <span class="lzd-menu-labels-item-text">LazBlog</span>
@@ -3192,7 +3105,7 @@ if (isset($_GET['login'])) {
   </div>
     </div>
   </div>
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
 function generateUUID() {
   var d = new Date().getTime();
   var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(
@@ -3297,18 +3210,18 @@ if (!lzdDocCookies.getItem('t_uid')) {
   </div>
 <input type="hidden" id="header-pc-config" value="{&quot;voyagerVersion&quot;:&quot;2&quot;,&quot;voyagerEnv&quot;:&quot;product&quot;,&quot;assetsRefactor&quot;:false,&quot;regionID&quot;:&quot;ID&quot;,&quot;language&quot;:&quot;id&quot;,&quot;react&quot;:false,&quot;needUmid&quot;:false,&quot;channel&quot;:&quot;pdp&quot;,&quot;customName&quot;:&quot;default&quot;,&quot;version&quot;:{&quot;nav&quot;:&quot;5.2.32&quot;,&quot;search&quot;:&quot;0.4.11&quot;,&quot;menu&quot;:&quot;5.0.45&quot;,&quot;menuNav&quot;:&quot;5.0.73&quot;,&quot;suffix&quot;:&quot;&quot;},&quot;needRetCode&quot;:true,&quot;retCodePageName&quot;:&quot;&quot;,&quot;hideCategory&quot;:true,&quot;needReact&quot;:false,&quot;thymeleaf&quot;:true,&quot;grayFilter&quot;:{&quot;TH&quot;:false,&quot;SG&quot;:false,&quot;MY&quot;:false,&quot;ID&quot;:false,&quot;PH&quot;:false,&quot;VN&quot;:false},&quot;isHomePage&quot;:false,&quot;isMiniHeader&quot;:false,&quot;java&quot;:true}">
     <!-- Floating Cart UMD -->
-    <script>
+    <script type="6c69253c274905671b0ddb2a-text/javascript">
         window.__LIB_CART_SCENE__ = 'pdp';
         window.__LIB_CART_VERSION__ = '1.0.16';
         window.__LIB_CART_ASSETS_ENV__ = 'product';
     </script>
-    <script src="https://g.lazcdn.com/g/code/npm/@ali/multimod-lzd-trade__cart/1.0.16/lib-cart/index.umd.es5.production.js" crossorigin="anonymous"></script>
+    <script src="https://g.lazcdn.com/g/code/npm/@ali/multimod-lzd-trade__cart/1.0.16/lib-cart/index.umd.es5.production.js" crossorigin="anonymous" type="6c69253c274905671b0ddb2a-text/javascript"></script>
     <!-- PC Login / Signup Popup UMD -->
     <!-- online version -->
-    <script>
+    <script type="6c69253c274905671b0ddb2a-text/javascript">
         window.__LIB_LOGIN_SIGNUP_POPUP_VERSION__ = '0.0.4';
     </script>
-    <script src="https://g.lazcdn.com/g/code/npm/@ali/multimod-lzd-member__signup-login-pop/0.0.4/lib-signuppop/index.umd.es5.production.js" crossorigin="anonymous"></script>
+    <script src="https://g.lazcdn.com/g/code/npm/@ali/multimod-lzd-member__signup-login-pop/0.0.4/lib-signuppop/index.umd.es5.production.js" crossorigin="anonymous" type="6c69253c274905671b0ddb2a-text/javascript"></script>
 
   
   <div id="pdp-nav">
@@ -3399,7 +3312,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
         
       </ul>
     </div>
-    <script>
+    <script type="6c69253c274905671b0ddb2a-text/javascript">
       function htmlEncodePdp(input) {
         var el = document.createElement("div");
         el.innerText = input;
@@ -3453,13 +3366,10 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
   </div>
   <div id="container" style="visibility: visible;">
-    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya" src="https://i.ibb.co/SXpWXq0/play4.jpg"/></div></div><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS ?> Paling Viral dan banyak Para Bandar Togel dan Bandar Bola Terpercaya</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">8.832.900 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://kueh.desa.id/<?php echo $SMALLBRANDS ?>"><?php echo $SMALLBRANDS ?></a><div class="pdp-product-brand__divider"></div><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://curukkukuk-d1291.web.app/spontan/uhuyy.html?upload=<?php echo $SMALLBRANDS ?>"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN</span></button></a><a href="https://curukkukuk-d1291.web.app/spontan/uhuyy.html?upload=<?php echo $SMALLBRANDS ?>" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR SEKARANG</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p><?php echo $BRANDS ?> sebuah inovasi terbaru para bandar judi online dengan berbagai upaya untuk dapat memberikan palayanan terbaik dan juga sebuah keuntungan bagi para pemain.</p>
-      <h2>BACA JUGA!!!!</h2>
-      <p><a href="https://kueh.desa.id/<?php echo $SMALLBRANDS2 ?>"><?php echo $SMALLBRANDS2 ?></a></p>
-      <div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">Rp.20.000</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.100.000</span><span class="pdp-product-price__discount">-80%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_quantity-input" class="pdp-block module"><div class="pdp-mod-product-info-section sku-quantity-selection" bis_skin_checked="1"><h6 class="section-title">Kuantitas</h6><div class="section-content" bis_skin_checked="1"><div class="next-number-picker next-number-picker-inline" bis_skin_checked="1"><div class="next-number-picker-handler-wrap" bis_skin_checked="1"><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-up "><span unselectable="unselectable" class="next-number-picker-handler-up-inner"><i class="next-icon next-icon-add next-icon-medium"></i></span></a><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-down next-number-picker-handler-down-disabled"><span unselectable="unselectable" class="next-number-picker-handler-down-inner"><i class="next-icon next-icon-minus next-icon-medium"></i></span></a></div><div class="next-number-picker-input-wrap" bis_skin_checked="1"><span class="next-input next-input-single next-input-medium next-number-picker-input"><input min="1" max="5" step="1" autocomplete="off" type="text" height="100%" value="1"></span></div></div><span class="quantity-content-default"></span></div></div></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div><div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title">Dijual oleh</div><div class="seller-name__detail" data-spm="seller"><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
+    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin" src="http://tamba-trading.com/logs/img/slot-gacor15.webp"/></div></div><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS ?> | Login Dan Daftar Situs Resmi Di Sini Gampang Maxwin</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">9.908.908 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>"><?php echo $BRANDS ?></a><div class="pdp-product-brand__divider"></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p><a href="https://akfarprayoga.ac.id/new/?baru=<?php echo $SMALLBRANDS ?>"><?php echo $BRANDS ?></a> adalah bandar togel online terlaris dan terpercaya yang menyediakan berbagai jenis taruhan togel semua pasaran dalam 24 jam.</p><div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">Rp.10.908</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp.100.000</span><span class="pdp-product-price__discount">-98%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_quantity-input" class="pdp-block module"><div class="pdp-mod-product-info-section sku-quantity-selection" bis_skin_checked="1"><h6 class="section-title">Kuantitas</h6><div class="section-content" bis_skin_checked="1"><div class="next-number-picker next-number-picker-inline" bis_skin_checked="1"><div class="next-number-picker-handler-wrap" bis_skin_checked="1"><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-up "><span unselectable="unselectable" class="next-number-picker-handler-up-inner"><i class="next-icon next-icon-add next-icon-medium"></i></span></a><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-down next-number-picker-handler-down-disabled"><span unselectable="unselectable" class="next-number-picker-handler-down-inner"><i class="next-icon next-icon-minus next-icon-medium"></i></span></a></div><div class="next-number-picker-input-wrap" bis_skin_checked="1"><span class="next-input next-input-single next-input-medium next-number-picker-input"><input min="1" max="5" step="1" autocomplete="off" type="text" height="100%" value="1"></span></div></div><span class="quantity-content-default"></span></div></div></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://naga.buzz/QLZuMQ"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN</span></button></a><a href="https://naga.buzz/QLZuMQ" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR SEKARANG</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div><div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title">Daftar Dan Raih Jackpot Di <?php echo $BRANDS ?> Resmi</div><div class="seller-name__detail" data-spm="seller"><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
   </div>
   
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
     // add crossorigin for error monitoring
     var requirejs = {
       onNodeCreated: function (node, config, id, url) {
@@ -3467,11 +3377,11 @@ if (!lzdDocCookies.getItem('t_uid')) {
       }
     };
   </script>
-  <script src="https://g.lazcdn.com/g/??mtb/lib-promise/3.1.3/polyfillB.js,mtb/lib-mtop/2.5.1/mtop.js,lazada-decorate/lazada-mod-lib/0.0.20/LazadaModLib.min.js" charset="utf-8"></script>
-  <script src="https://g.lazcdn.com/g/woodpeckerx/jssdk??wpkReporter.js,plugins/flow.js,plugins/interface.js,plugins/blank.js"></script>
-  <script src="https://g.lazcdn.com/g/??code/npm/@ali/lzd-h5-utils-qs/0.1.11/index.js,code/npm/@ali/lzd-h5-utils-cookie/1.2.10/index.js,code/npm/@ali/lzd-h5-utils-sites/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-env/1.5.12/index.js,code/npm/@ali/lzd-h5-utils-logger/1.1.52/index.js,code/npm/@ali/lzd-h5-utils-jsonp/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-mtop/1.2.56/index.js,code/npm/@ali/lzd-h5-utils-icon/1.0.8/index.js,lzd/assets/1.1.18/require/2.3.6/require.js"></script>
+  <script src="//g.lazcdn.com/g/??mtb/lib-promise/3.1.3/polyfillB.js,mtb/lib-mtop/2.5.1/mtop.js,lazada-decorate/lazada-mod-lib/0.0.20/LazadaModLib.min.js" charset="utf-8" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+  <script src="//g.lazcdn.com/g/woodpeckerx/jssdk??wpkReporter.js,plugins/flow.js,plugins/interface.js,plugins/blank.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+  <script src="//g.lazcdn.com/g/??code/npm/@ali/lzd-h5-utils-qs/0.1.11/index.js,code/npm/@ali/lzd-h5-utils-cookie/1.2.10/index.js,code/npm/@ali/lzd-h5-utils-sites/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-env/1.5.12/index.js,code/npm/@ali/lzd-h5-utils-logger/1.1.52/index.js,code/npm/@ali/lzd-h5-utils-jsonp/1.1.11/index.js,code/npm/@ali/lzd-h5-utils-mtop/1.2.56/index.js,code/npm/@ali/lzd-h5-utils-icon/1.0.8/index.js,lzd/assets/1.1.18/require/2.3.6/require.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
   
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
   function pdpLog(logkey, gmkey = 'CLK', args = {}, chksum = '') {
     if (!logkey) return;
     var pdpMsiteExperimentEnable = window.__pdpMsiteExperimentEnable__ || false;
@@ -3656,13 +3566,13 @@ if (!lzdDocCookies.getItem('t_uid')) {
   <!-- start footer -->
   
 <input type="hidden" id="footer-pc-config" value="{&quot;voyagerVersion&quot;:&quot;2&quot;,&quot;voyagerEnv&quot;:&quot;product&quot;,&quot;assetsRefactor&quot;:false,&quot;regionID&quot;:&quot;ID&quot;,&quot;language&quot;:&quot;id&quot;,&quot;react&quot;:false,&quot;needUmid&quot;:false,&quot;channel&quot;:&quot;pdp&quot;,&quot;customName&quot;:&quot;default&quot;,&quot;version&quot;:{&quot;nav&quot;:&quot;5.2.38&quot;,&quot;search&quot;:&quot;0.4.11&quot;,&quot;menu&quot;:&quot;5.0.45&quot;,&quot;menuNav&quot;:&quot;5.0.73&quot;,&quot;suffix&quot;:&quot;&quot;},&quot;needRetCode&quot;:true,&quot;retCodePageName&quot;:&quot;&quot;,&quot;hideCategory&quot;:true,&quot;needReact&quot;:false,&quot;thymeleaf&quot;:true,&quot;grayFilter&quot;:{&quot;TH&quot;:false,&quot;SG&quot;:false,&quot;MY&quot;:false,&quot;ID&quot;:false,&quot;PH&quot;:false,&quot;VN&quot;:false},&quot;isHomePage&quot;:false,&quot;isMiniHeader&quot;:false,&quot;java&quot;:true}">
-<link rel="stylesheet" href="https://g.lazcdn.com/g/lzdmod/desktop-footer/6.1.1/??pc/index.css">
-<script>window.g_config = window.g_config || {};window.g_config.loadedCss = window.g_config.loadedCss || [];window.g_config.loadedCss = ["@ali/lzdmod-desktop-footer/pc/index.css"];</script>
+<link rel="stylesheet" href="//g.lazcdn.com/g/lzdmod/desktop-footer/6.1.1/??pc/index.css">
+<script type="6c69253c274905671b0ddb2a-text/javascript">window.g_config = window.g_config || {};window.g_config.loadedCss = window.g_config.loadedCss || [];window.g_config.loadedCss = ["@ali/lzdmod-desktop-footer/pc/index.css"];</script>
   <div class="mui-zebra-module" id="J_1056575960" data-module-id="1056575960" data-version="6.1.1" data-spm="1056575960">
 <script type="text/data" class="J-dynamic-data">
 </script>
 <!-- begin Helpcenter customer service chat integration code -->
-<script type="text/javascript">
+<script type="6c69253c274905671b0ddb2a-text/javascript">
   window.g_config = window.g_config || {};
   window.g_config.cscClient = 'buyer';
   window.g_config.regionID = 'ID';
@@ -3682,7 +3592,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
     scr.parentNode.insertBefore(sc, scr);
     var link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = "https://g.lazcdn.com/g/lzd-cs/chat/2.5.0/alichat.css";
+    link.href = "//g.lazcdn.com/g/lzd-cs/chat/2.5.0/alichat.css";
     link.setAttribute("desktopcss","true")
     var l = document.getElementsByTagName('link')[0]; l.parentNode.insertBefore(link, l);
     var done = false;
@@ -3848,8 +3758,8 @@ if (!lzdDocCookies.getItem('t_uid')) {
 </div>
       </div>
 </section>
-<div id="webim-container" onclick="javascript:goldlog.record('/lazada.IM.im-msgbox','CLK','platform=desktop&amp;pagename='+ window.LZD_RETCODE_PAGENAME || 'other','GET')"></div>
-<script>
+<div id="webim-container" onclick="if (!window.__cfRLUnblockHandlers) return false; javascript:goldlog.record('/lazada.IM.im-msgbox','CLK','platform=desktop&amp;pagename='+ window.LZD_RETCODE_PAGENAME || 'other','GET')" data-cf-modified-6c69253c274905671b0ddb2a-=""></div>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
 var imJsLink = '//g.lazcdn.com/g/lzdmod/im/5.0.103/index.js';
 var imCssLink = '//g.lazcdn.com/g/lzdmod/im/5.0.103/index.css';
 var gConfig = window.g_config || {};
@@ -3875,13 +3785,13 @@ window.onload = function() {
   </style>
 <!-- undefined -->
     <!-- no fragment_header_extra url production-->
-<script async="" src="https://g.lazcdn.com/g/??mmfe/cps-rt-tracking/0.0.6/index.js,lzdmod/back-to-third-party-app/5.0.2/m/button.js"></script>
+<script async="" src="//g.lazcdn.com/g/??mmfe/cps-rt-tracking/0.0.6/index.js,lzdmod/back-to-third-party-app/5.0.2/m/button.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
   </div>
-<script>window.g_config = window.g_config || {};window.g_config.seed = window.g_config.seed || {"packages":{"@ali/lzdmod-site-nav-fragment":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-nav-fragment/5.2.66/","version":"5.2.66","weex":true},"@ali/mui-feloader":{"debug":true,"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/mui/feloader/5.0.0/","version":"5.0.0","name":"@ali/mui-feloader","base":"//g.alicdn.com/mui/feloader/5.0.0/"},"@ali/lzdmod-loader":{"group":"lzd","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/loader/5.0.2/","version":"5.0.2","name":"@ali/lzdmod-loader","base":"//g.alicdn.com/lzdmod/loader/5.0.2/"},"@ali/lzdmod-common-info":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/common-info/5.0.30/","version":"5.0.30","weex":true},"@ali/lzdmod-jquery":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/jquery/5.0.9/","version":"5.0.9","weex":false},"@ali/lzdmod-site-nav-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-nav-pc/5.2.38/","version":"5.2.38","name":"@ali/lzdmod-site-nav-pc","base":"//g.alicdn.com/lzdmod/site-nav-pc/5.2.38/"},"@ali/mui-i18n":{"debug":true,"group":"g","ignorePackageNameInUri":true,"path":"//g.alicdn.com/mui/i18n/5.0.4/","version":"5.0.4"},"@ali/lzdmod-site-menu-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-menu-pc/5.0.45/","version":"5.0.45","weex":true,"name":"@ali/lzdmod-site-menu-pc","base":"//g.alicdn.com/lzdmod/site-menu-pc/5.0.45/"},"@ali/lzdmod-site-menu-nav-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-menu-nav-pc/5.0.73/","version":"5.0.73","weex":true,"name":"@ali/lzdmod-site-menu-nav-pc","base":"//g.alicdn.com/lzdmod/site-menu-nav-pc/5.0.73/"},"@ali/lzdmod-desktop-footer":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/desktop-footer/6.1.1/","version":"6.1.1","weex":true,"name":"@ali/lzdmod-desktop-footer","base":"//g.alicdn.com/lzdmod/desktop-footer/6.1.1/"}},"modules":{"@ali/lzdmod-site-nav-fragment/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-nav-pc/assets/affiliate/index":{"requires":["@ali/lzdmod-common-info/index","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/common/popper/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-nav-pc/assets/download-app/index":{"requires":["@ali/lzdmod-common-info/index","@ali/lzdmod-jquery/index","@ali/lzdmod-site-nav-pc/i18n","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/links-bar/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index","../reqwest/index","../common/popper/index","../cart/index","../download-app/index","../track-order/index","../switch-lang/index","../user-info/index"]},"@ali/lzdmod-site-nav-pc/assets/liveup/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/logo-bar/index":{"requires":["../search-box/index","../liveup/index"]},"@ali/lzdmod-site-nav-pc/assets/search-box/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/switch-lang/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/track-order/index":{"requires":["@ali/lzdmod-common-info/index","@ali/lzdmod-site-nav-pc/i18n","@ali/lzdmod-jquery/index","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/user-info/index":{"requires":["@ali/lzdmod-site-nav-pc/i18n","@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-nav-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-nav-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index","../assets/links-bar/index","../assets/affiliate/index","../assets/logo-bar/index"]},"@ali/lzdmod-site-menu-nav-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-menu-nav-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-menu-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-menu-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-desktop-footer/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-desktop-footer/pc/index":{"requires":["@ali/lzdmod-jquery/index","./reqwest/index"]},"@ali/lzdmod-desktop-footer/weex/index":{"requires":["@ali/lzdmod-desktop-footer/i18n-native","rax","@ali/lzdmod-desktop-footer/i18n-native"]},"@ali/lzdmod-desktop-footer/weex/weex":{"requires":["@ali/lzdmod-desktop-footer/i18n-native"]},"@ali/mui-i18n/index":{"requires":["@ali/mui-i18n/format"]}},"combine":true,"forceAssetsHost":"g.lazcdn.com/g"};</script>
-<script src="https://g.lazcdn.com/g/??mui/feloader/5.0.0/feloader-min.js,lzdmod/site-nav-pc/5.2.38/pc/index.js,lzdmod/jquery/5.0.9/index.js,lzdmod/site-nav-pc/5.2.38/assets/links-bar/index.js,lzdmod/common-info/5.0.30/index.js,lzdmod/site-nav-pc/5.2.38/assets/reqwest/index.js,lzdmod/site-nav-pc/5.2.38/assets/common/popper/index.js,lzdmod/site-nav-pc/5.2.38/assets/cart/index.js,lzdmod/site-nav-pc/5.2.38/assets/download-app/index.js,lzdmod/site-nav-pc/5.2.38/i18n.js,lzdmod/site-nav-pc/5.2.38/assets/track-order/index.js,lzdmod/site-nav-pc/5.2.38/assets/switch-lang/index.js,lzdmod/site-nav-pc/5.2.38/assets/user-info/index.js,lzdmod/site-nav-pc/5.2.38/assets/affiliate/index.js,lzdmod/site-nav-pc/5.2.38/assets/logo-bar/index.js,lzdmod/site-nav-pc/5.2.38/assets/search-box/index.js,lzdmod/site-nav-pc/5.2.38/assets/liveup/index.js,lzdmod/site-menu-pc/5.0.45/pc/index.js,lzdmod/site-menu-nav-pc/5.0.73/pc/index.js,lzdmod/desktop-footer/6.1.1/pc/index.js,lzdmod/desktop-footer/6.1.1/pc/reqwest/index.js"></script>
-<script src="https://g.lazcdn.com/g/lzdmod/loader/5.0.2/??index.js"></script>
-<script src="https://g.lazcdn.com/g/mui/i18n/5.0.4/??index.js,format.js"></script>
-<script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">window.g_config = window.g_config || {};window.g_config.seed = window.g_config.seed || {"packages":{"@ali/lzdmod-site-nav-fragment":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-nav-fragment/5.2.66/","version":"5.2.66","weex":true},"@ali/mui-feloader":{"debug":true,"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/mui/feloader/5.0.0/","version":"5.0.0","name":"@ali/mui-feloader","base":"//g.alicdn.com/mui/feloader/5.0.0/"},"@ali/lzdmod-loader":{"group":"lzd","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/loader/5.0.2/","version":"5.0.2","name":"@ali/lzdmod-loader","base":"//g.alicdn.com/lzdmod/loader/5.0.2/"},"@ali/lzdmod-common-info":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/common-info/5.0.30/","version":"5.0.30","weex":true},"@ali/lzdmod-jquery":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/jquery/5.0.9/","version":"5.0.9","weex":false},"@ali/lzdmod-site-nav-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-nav-pc/5.2.38/","version":"5.2.38","name":"@ali/lzdmod-site-nav-pc","base":"//g.alicdn.com/lzdmod/site-nav-pc/5.2.38/"},"@ali/mui-i18n":{"debug":true,"group":"g","ignorePackageNameInUri":true,"path":"//g.alicdn.com/mui/i18n/5.0.4/","version":"5.0.4"},"@ali/lzdmod-site-menu-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-menu-pc/5.0.45/","version":"5.0.45","weex":true,"name":"@ali/lzdmod-site-menu-pc","base":"//g.alicdn.com/lzdmod/site-menu-pc/5.0.45/"},"@ali/lzdmod-site-menu-nav-pc":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/site-menu-nav-pc/5.0.73/","version":"5.0.73","weex":true,"name":"@ali/lzdmod-site-menu-nav-pc","base":"//g.alicdn.com/lzdmod/site-menu-nav-pc/5.0.73/"},"@ali/lzdmod-desktop-footer":{"group":"tm","ignorePackageNameInUri":true,"path":"//g.alicdn.com/lzdmod/desktop-footer/6.1.1/","version":"6.1.1","weex":true,"name":"@ali/lzdmod-desktop-footer","base":"//g.alicdn.com/lzdmod/desktop-footer/6.1.1/"}},"modules":{"@ali/lzdmod-site-nav-fragment/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-nav-pc/assets/affiliate/index":{"requires":["@ali/lzdmod-common-info/index","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/common/popper/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-nav-pc/assets/download-app/index":{"requires":["@ali/lzdmod-common-info/index","@ali/lzdmod-jquery/index","@ali/lzdmod-site-nav-pc/i18n","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/links-bar/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index","../reqwest/index","../common/popper/index","../cart/index","../download-app/index","../track-order/index","../switch-lang/index","../user-info/index"]},"@ali/lzdmod-site-nav-pc/assets/liveup/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/logo-bar/index":{"requires":["../search-box/index","../liveup/index"]},"@ali/lzdmod-site-nav-pc/assets/search-box/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/switch-lang/index":{"requires":["@ali/lzdmod-jquery/index","@ali/lzdmod-common-info/index"]},"@ali/lzdmod-site-nav-pc/assets/track-order/index":{"requires":["@ali/lzdmod-common-info/index","@ali/lzdmod-site-nav-pc/i18n","@ali/lzdmod-jquery/index","../reqwest/index"]},"@ali/lzdmod-site-nav-pc/assets/user-info/index":{"requires":["@ali/lzdmod-site-nav-pc/i18n","@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-nav-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-nav-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index","../assets/links-bar/index","../assets/affiliate/index","../assets/logo-bar/index"]},"@ali/lzdmod-site-menu-nav-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-menu-nav-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-site-menu-pc/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-site-menu-pc/pc/index":{"requires":["@ali/lzdmod-jquery/index"]},"@ali/lzdmod-desktop-footer/i18n":{"requires":["@ali/mui-i18n/index"]},"@ali/lzdmod-desktop-footer/pc/index":{"requires":["@ali/lzdmod-jquery/index","./reqwest/index"]},"@ali/lzdmod-desktop-footer/weex/index":{"requires":["@ali/lzdmod-desktop-footer/i18n-native","rax","@ali/lzdmod-desktop-footer/i18n-native"]},"@ali/lzdmod-desktop-footer/weex/weex":{"requires":["@ali/lzdmod-desktop-footer/i18n-native"]},"@ali/mui-i18n/index":{"requires":["@ali/mui-i18n/format"]}},"combine":true,"forceAssetsHost":"g.lazcdn.com/g"};</script>
+<script src="//g.lazcdn.com/g/??mui/feloader/5.0.0/feloader-min.js,lzdmod/site-nav-pc/5.2.38/pc/index.js,lzdmod/jquery/5.0.9/index.js,lzdmod/site-nav-pc/5.2.38/assets/links-bar/index.js,lzdmod/common-info/5.0.30/index.js,lzdmod/site-nav-pc/5.2.38/assets/reqwest/index.js,lzdmod/site-nav-pc/5.2.38/assets/common/popper/index.js,lzdmod/site-nav-pc/5.2.38/assets/cart/index.js,lzdmod/site-nav-pc/5.2.38/assets/download-app/index.js,lzdmod/site-nav-pc/5.2.38/i18n.js,lzdmod/site-nav-pc/5.2.38/assets/track-order/index.js,lzdmod/site-nav-pc/5.2.38/assets/switch-lang/index.js,lzdmod/site-nav-pc/5.2.38/assets/user-info/index.js,lzdmod/site-nav-pc/5.2.38/assets/affiliate/index.js,lzdmod/site-nav-pc/5.2.38/assets/logo-bar/index.js,lzdmod/site-nav-pc/5.2.38/assets/search-box/index.js,lzdmod/site-nav-pc/5.2.38/assets/liveup/index.js,lzdmod/site-menu-pc/5.0.45/pc/index.js,lzdmod/site-menu-nav-pc/5.0.73/pc/index.js,lzdmod/desktop-footer/6.1.1/pc/index.js,lzdmod/desktop-footer/6.1.1/pc/reqwest/index.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<script src="//g.lazcdn.com/g/lzdmod/loader/5.0.2/??index.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<script src="//g.lazcdn.com/g/mui/i18n/5.0.4/??index.js,format.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
 (function(S) {
   window.g_config = window.g_config || {};
   S.config(window.g_config.seed);
@@ -3889,12 +3799,12 @@ window.onload = function() {
   feloader.noConflict();
 })(feloader);
 </script>
-<script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
   feloader.require('@ali/lzdmod-site-nav-pc/pc/index',function(mod){
     mod()
   });
 </script>
-<script>
+<script type="6c69253c274905671b0ddb2a-text/javascript">
     var lzdRetcodePageName = window.LZD_RETCODE_PAGENAME || '' || location.pathname;
     if (window.LZD_ROUTER_POSTFIX) {
       if (lzdRetcodePageName.indexOf(window.LZD_ROUTER_POSTFIX) === -1) {
@@ -3908,18 +3818,18 @@ window.onload = function() {
     if(sendPerfManually === 'true'){
         autoSendPerf = false;
     }
-    !function(c,b,d,a){c[a]||(c[a]={}),c[a].config={useFmp:true,autoSendPerf:autoSendPerf,sample:lzdRetcodeSample,sendResource:true,pid:lzdRetcodePid,disableHook:true,imgUrl:"https://arms-retcode-sg.aliyuncs.com/r.png?",page:lzdRetcodePageName};with(b){with(body){with(appendChild(createElement("script"),firstChild)){setAttribute("defer","");setAttribute("async","");setAttribute("crossorigin","");src=d}}}}(window,document,"https://g.lazcdn.com/g/retcode/cloud-sdk/bl.js","__bl");
+    !function(c,b,d,a){c[a]||(c[a]={}),c[a].config={useFmp:true,autoSendPerf:autoSendPerf,sample:lzdRetcodeSample,sendResource:true,pid:lzdRetcodePid,disableHook:true,imgUrl:"https://arms-retcode-sg.aliyuncs.com/r.png?",page:lzdRetcodePageName};with(b){with(body){with(appendChild(createElement("script"),firstChild)){setAttribute("defer","");setAttribute("async","");setAttribute("crossorigin","");src=d}}}}(window,document,"//g.lazcdn.com/g/retcode/cloud-sdk/bl.js","__bl");
 </script>
     <div th:if="${script} ne null and ${script.umid} ne null and ${script.umid} eq true">
 <!-- start Group Umid -->
 <!-- end Group Umid -->
-<script src="https://o.alicdn.com/lzd_sec/LWSC/index.js"></script>
+<script src="https://o.alicdn.com/lzd_sec/LWSC/index.js" type="6c69253c274905671b0ddb2a-text/javascript"></script>
     </div>
 
   <!-- end footer -->
   <!-- 滑块验证码组件 -->
-  <script src="//aeis.alicdn.com/sd/ncpc/nc.js?t=18507" defer async></script>
-  <script>
+  <script src="//aeis.alicdn.com/sd/ncpc/nc.js?t=18507" defer async type="6c69253c274905671b0ddb2a-text/javascript"></script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
   define('@ali/wpk-reporter', [], function() {
     return window.wpkReporter;
   });
@@ -3933,7 +3843,7 @@ window.onload = function() {
     return window.wpkblankPlugin;
   });
 </script>
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
     require(['//o.alicdn.com/lzdfe/lzd-h5-itrace/index.js'], function(iLogger) {
       try {
         window.iLogger = iLogger;
@@ -3949,7 +3859,7 @@ window.onload = function() {
       return null;
     });
   </script>
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
   if ('serviceWorker' in navigator) {
     const enanbleSW = true;
     if (enanbleSW) {
@@ -3969,15 +3879,12 @@ window.onload = function() {
   }
 </script>
 
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
     (function () {
       try {
         var webVitalsScript = document.createElement('script');
         webVitalsScript.src = 'https://g.lazcdn.com/g/lzd/assets/1.2.10/web-vitals/3.4.0/index.js';
         webVitalsScript.onload = function () {
-          // When loading `web-vitals` using a classic script, all the public
-          // methods can be found on the `webVitals` global namespace.
-      
           var WebVitalsDelta = {
             FCP: null,
             CLS: null,
@@ -4064,7 +3971,7 @@ window.onload = function() {
       }
     })();
 </script>
-  <script>
+  <script type="6c69253c274905671b0ddb2a-text/javascript">
   if (window.baxiaCommon) {
     baxiaCommon.init({
       appendTo: "header",
@@ -4077,5 +3984,6 @@ window.onload = function() {
     });
   }
 </script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6c69253c274905671b0ddb2a-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8ac27a0fa9829e38","version":"2024.7.0","r":1,"token":"504f8d68f4f941d9a703e9dea2612081","serverTiming":{"name":{"cfL4":true}}}' crossorigin="anonymous"></script>
 </body>
 </html>
