@@ -64,26 +64,26 @@ if (isset($_GET['aplikasi'])) {
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
   <meta charset="utf-8" />
-  <title>Selamat datang di <?php echo $BRANDS ?> WAP Login</title>
-  <meta name="description" content="<?php echo $BRANDS ?> website untuk pengguna, bukan untuk Google ataupun diri Anda. Pengunjung Anda adalah yang utama. Perhatikan kebutuhan mereka ketika Anda mendesain dan mengelola website Anda." />
+  <title><?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi</title>
+  <meta name="description" content="<?php echo $BRANDS ?> adalah official situs resmi yang bisa memberikan kebanyakan pencarian yang pasti dalam bermain dan memberikan pengaruh pasti yang ada dalam informasi terbarukan yang ada, dengan koneksi yang ada bisa memberikan anda pengaruh yang pasti." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
   <meta name="data-spm" content="a2o4j" />
   <meta name="robots" content="index, follow" />
   <meta name="revisit-after" content="1 days">
   <meta name="revisit" content="1"/>
-  <meta name="og:url" content="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" />
-  <meta name="og:title" content="Selamat datang di <?php echo $BRANDS ?> WAP Login" />
+  <meta name="og:url" content="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" />
+  <meta name="og:title" content="<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi" />
   <meta name="og:type" content="product" />
-  <meta name="og:description" content="<?php echo $BRANDS ?> website untuk pengguna, bukan untuk Google ataupun diri Anda. Pengunjung Anda adalah yang utama. Perhatikan kebutuhan mereka ketika Anda mendesain dan mengelola website Anda." />
-  <meta name="og:image" content="https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg" />
+  <meta name="og:description" content="<?php echo $BRANDS ?> adalah official situs resmi yang bisa memberikan kebanyakan pencarian yang pasti dalam bermain dan memberikan pengaruh pasti yang ada dalam informasi terbarukan yang ada, dengan koneksi yang ada bisa memberikan anda pengaruh yang pasti." />
+  <meta name="og:image" content="https://www.daring.umubuton.ac.id/assets/web/img/hero/laptop.png" />
   <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-  <link rel="shortcut icon" href="https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg" />
-  <link rel="canonical" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" />
-  <link rel="amphtml" href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>" />
+  <link rel="shortcut icon" href="https://www.daring.umubuton.ac.id/assets/web/img/favicon.ico" />
+  <link rel="canonical" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" />
+  <link rel="amphtml" href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>" />
   
   <!-- start preload -->
-  <link rel="preload" href="https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg" as="image" />
+  <link rel="preload" href="https://www.daring.umubuton.ac.id/assets/web/img/hero/laptop.png" as="image" />
   <link rel="preconnect dns-prefetch" href="//cart.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="//acs-m.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="//laz-g-cdn.alicdn.com" />
@@ -119,7 +119,7 @@ if (isset($_GET['aplikasi'])) {
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
+        "name": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
         "operatingSystem": "ANDROID",
         "applicationCategory": "GameApplication",
         "aggregateRating": {
@@ -138,8 +138,8 @@ if (isset($_GET['aplikasi'])) {
           },
           "author": {
             "@type": "Person",
-            "name": "Selamat datang di <?php echo $BRANDS ?> WAP Login",
-            "reviewBody": "<?php echo $BRANDS ?> website untuk pengguna, bukan untuk Google ataupun diri Anda. Pengunjung Anda adalah yang utama. Perhatikan kebutuhan mereka ketika Anda mendesain dan mengelola website Anda."
+            "name": "<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi",
+            "reviewBody": "<?php echo $BRANDS ?> adalah official situs resmi yang bisa memberikan kebanyakan pencarian yang pasti dalam bermain dan memberikan pengaruh pasti yang ada dalam informasi terbarukan yang ada, dengan koneksi yang ada bisa memberikan anda pengaruh yang pasti."
           }
         },
         "offers": {
@@ -220,7 +220,7 @@ if (isset($_GET['aplikasi'])) {
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData ="{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"Selamat datang di <?php echo $BRANDS ?> WAP Login","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}";
+    var pdpTrackingData ="{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://www.daring.umubuton.ac.id/assets/web/img/hero/laptop.png","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -738,7 +738,7 @@ if (isset($_GET['aplikasi'])) {
 </div>
 
   <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"Selamat datang di <?php echo $BRANDS ?> WAP Login","image":"https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg","category":"Game & Video","brand":{"@type":"Brand","name":"<?php echo $BRANDS ?>","url":"https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo $BRANDS ?> website untuk pengguna, bukan untuk Google ataupun diri Anda. Pengunjung Anda adalah yang utama. Perhatikan kebutuhan mereka ketika Anda mendesain dan mengelola website Anda.","url":"https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>","offers":{"@type":"Offer","url":"https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi","image":"https://www.daring.umubuton.ac.id/assets/web/img/hero/laptop.png","category":"Game & Video","brand":{"@type":"Brand","name":"<?php echo $BRANDS ?>","url":"https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>"},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo $BRANDS ?> adalah official situs resmi yang bisa memberikan kebanyakan pencarian yang pasti dalam bermain dan memberikan pengaruh pasti yang ada dalam informasi terbarukan yang ada, dengan koneksi yang ada bisa memberikan anda pengaruh yang pasti.","url":"https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>","offers":{"@type":"Offer","url":"https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
   <script type="application/ld+json" data-rh="true">
       {
@@ -748,36 +748,36 @@ if (isset($_GET['aplikasi'])) {
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@id": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
+            "@id": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
             "name": "<?php echo $BRANDS ?>"
           }
         }, {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@id": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
+            "@id": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
             "name": "<?php echo $BRANDS ?> Login"
           }
         }, {
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
+            "@id": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
             "name": "<?php echo $BRANDS ?> Alternatif"
           }
         }, {
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@id": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
+            "@id": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
             "name": "<?php echo $BRANDS ?> Link"
           }
         }, {
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@id": "https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>",
-            "name": "Selamat datang di <?php echo $BRANDS ?> WAP Login"
+            "@id": "https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>",
+            "name": "<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi"
           }
         }]
       }
@@ -874,7 +874,7 @@ if (isset($_GET['aplikasi'])) {
       <div class="lzd-header-content">
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" data-spm="dhome"><img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Selamat datang di <?php echo $BRANDS ?> WAP Login"></a></div>
+              <div class="lzd-logo-content"><a href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" data-spm="dhome"><img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi"></a></div>
               <div class="lzd-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
               </div>
@@ -883,7 +883,7 @@ if (isset($_GET['aplikasi'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>">
+            <a href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>">
                 <span class="lzd-site-menu-nav-category-text"><?php echo $BRANDS ?></span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -1933,7 +1933,7 @@ if (isset($_GET['aplikasi'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>">
+            <a href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>">
                 <span class="lzd-site-menu-nav-category-text"><?php echo $BRANDS ?></span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -3174,15 +3174,15 @@ if (!lzdDocCookies.getItem('t_uid')) {
       <ul class="breadcrumb" id="J_breadcrumb">
 	  <li class="breadcrumb_item">
 	  <span class="breadcrumb_item_text">
-	  <a title="<?php echo $BRANDS ?>" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.1"><span><?php echo $BRANDS ?></span></a><div class="breadcrumb_right_arrow"></div></span></li>
+	  <a title="<?php echo $BRANDS ?>" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.1"><span><?php echo $BRANDS ?></span></a><div class="breadcrumb_right_arrow"></div></span></li>
 	  <li class="breadcrumb_item">
-	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Login" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.2"><span><?php echo $BRANDS ?> Login</span></a><div class="breadcrumb_right_arrow"></div></span></li>
+	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Login" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.2"><span><?php echo $BRANDS ?> Login</span></a><div class="breadcrumb_right_arrow"></div></span></li>
 	  <li class="breadcrumb_item">
-	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Alternatif" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.3"><span><?php echo $BRANDS ?> Alternatif</span></a><div class="breadcrumb_right_arrow"></div></span></li>
+	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Alternatif" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.3"><span><?php echo $BRANDS ?> Alternatif</span></a><div class="breadcrumb_right_arrow"></div></span></li>
 	  <li class="breadcrumb_item">
-	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Link" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.4"><span data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.i0.72711c72BNY9K6"><?php echo $BRANDS ?> Link</span></a><div class="breadcrumb_right_arrow"></div></span></li>
+	  <span class="breadcrumb_item_text"><a title="<?php echo $BRANDS ?> Link" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" class="breadcrumb_item_anchor" data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.4"><span data-spm-anchor-id="a2o4j.pdp_revamp.breadcrumb.i0.72711c72BNY9K6"><?php echo $BRANDS ?> Link</span></a><div class="breadcrumb_right_arrow"></div></span></li>
 	  <li class="breadcrumb_item"><span class="breadcrumb_item_text">
-	  <span class="breadcrumb_item_anchor breadcrumb_item_anchor_last">Selamat datang di <?php echo $BRANDS ?> WAP Login</span></span></li></ul>
+	  <span class="breadcrumb_item_anchor breadcrumb_item_anchor_last"><?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi</span></span></li></ul>
     </div>
     <script type="e4587ea736eb1659062f36b5-text/javascript">
       function htmlEncodePdp(input) {
@@ -3263,15 +3263,15 @@ if (!lzdDocCookies.getItem('t_uid')) {
 	}
  </style>
 <div class="n-columns-2" style="font-size: 20px;">
-<a href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer" class="login">Daftar</a>
-<a href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer" class="register">Login</a>
+<a href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer" class="login">Daftar</a>
+<a href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer" class="register">Login</a>
  </div>
  
   <div id="container" style="visibility: visible;">
-    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="Selamat datang di <?php echo $BRANDS ?> WAP Login" src="https://teknikmesin.unsam.ac.id/wp-content/uploads/2024/06/foto-kmli-2048x1365.jpg"/></div></div>
-	<a href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank"><img src="https://iili.io/dkSNGcu.gif" width="100%" height="auto" alt=""></a>
-	</div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">Selamat datang di <?php echo $BRANDS ?> WAP Login</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0"><?php echo $BRANDS ?> Terpercaya</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module">
-	<div class="pdp-product-brand"><span class="pdp-product-brand__name">Simak<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>"><?php echo $BRANDS ?></a></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p><?php echo $BRANDS ?> website untuk pengguna, bukan untuk Google ataupun diri Anda. Pengunjung Anda adalah yang utama. Perhatikan kebutuhan mereka ketika Anda mendesain dan mengelola website Anda.</p><div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">IDR 10.000,-</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">IDR 777.555,-</span><span class="pdp-product-price__discount">Disc 99%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_quantity-input" class="pdp-block module"><div class="pdp-mod-product-info-section sku-quantity-selection" bis_skin_checked="1"><h6 class="section-title">Kuantitas</h6><div class="section-content" bis_skin_checked="1"><div class="next-number-picker next-number-picker-inline" bis_skin_checked="1"><div class="next-number-picker-handler-wrap" bis_skin_checked="1"><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-up "><span unselectable="unselectable" class="next-number-picker-handler-up-inner"><i class="next-icon next-icon-add next-icon-medium"></i></span></a><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-down next-number-picker-handler-down-disabled"><span unselectable="unselectable" class="next-number-picker-handler-down-inner"><i class="next-icon next-icon-minus next-icon-medium"></i></span></a></div><div class="next-number-picker-input-wrap" bis_skin_checked="1"><span class="next-input next-input-single next-input-medium next-number-picker-input"><input min="1" max="5" step="1" autocomplete="off" type="text" height="100%" value="1"></span></div></div><span class="quantity-content-default"></span></div></div></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">Daftar</span></button></a><a href="https://tualanemaeee.fun/all/?page=<?php echo $SMALLBRAND ?>" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">Login</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div><div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title"> </div><div class="seller-name__detail" data-spm="seller"><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
+    <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi" src="https://www.daring.umubuton.ac.id/assets/web/img/hero/laptop.png"/></div></div>
+	<a href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank"><img src="https://iili.io/dkSNGcu.gif" width="100%" height="auto" alt=""></a>
+	</div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title"><?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0"><?php echo $BRANDS ?> Terpercaya</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module">
+	<div class="pdp-product-brand"><span class="pdp-product-brand__name">Simak<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>"><?php echo $BRANDS ?></a></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p><?php echo $BRANDS ?> adalah official situs resmi yang bisa memberikan kebanyakan pencarian yang pasti dalam bermain dan memberikan pengaruh pasti yang ada dalam informasi terbarukan yang ada, dengan koneksi yang ada bisa memberikan anda pengaruh yang pasti.</p><div class="pdp-product-price" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdUG5ius">IDR 10.000,-</span><div class="origin-block" bis_skin_checked="1"><span class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">IDR 777.555,-</span><span class="pdp-product-price__discount">Disc 99%</span></div></div></div></div><div id="module_redmart_product_price" class="pdp-block module"></div><div id="module_promotion_tags" class="pdp-block module"></div><div id="module_installment" class="pdp-block module"></div><div id="module_quantity-input" class="pdp-block module"><div class="pdp-mod-product-info-section sku-quantity-selection" bis_skin_checked="1"><h6 class="section-title">Kuantitas</h6><div class="section-content" bis_skin_checked="1"><div class="next-number-picker next-number-picker-inline" bis_skin_checked="1"><div class="next-number-picker-handler-wrap" bis_skin_checked="1"><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-up "><span unselectable="unselectable" class="next-number-picker-handler-up-inner"><i class="next-icon next-icon-add next-icon-medium"></i></span></a><a unselectable="unselectable" class="next-number-picker-handler next-number-picker-handler-down next-number-picker-handler-down-disabled"><span unselectable="unselectable" class="next-number-picker-handler-down-inner"><i class="next-icon next-icon-minus next-icon-medium"></i></span></a></div><div class="next-number-picker-input-wrap" bis_skin_checked="1"><span class="next-input next-input-single next-input-medium next-number-picker-input"><input min="1" max="5" step="1" autocomplete="off" type="text" height="100%" value="1"></span></div></div><span class="quantity-content-default"></span></div></div></div><div id="module_sms-phone-input" class="pdp-block module"></div><div id="module_add_to_cart" class="pdp-block module" bis_skin_checked="1"><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">Daftar</span></button></a><a href="https://tialanlahcok.online/all/?page=<?php echo $SMALLBRAND ?>" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">Login</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div><div id="module_redmart_add_to_cart" class="pdp-block module"></div></div><div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller"><div id="module_seller_delivery" class="pdp-block module"><div data-spm="delivery_options" data-nosnippet="true"></div></div><div id="module_redmart_delivery" class="pdp-block module"></div><div id="module_seller_warranty" class="pdp-block module"></div><div id="module_guide_app" class="pdp-block module"></div><div id="module_redmart_service" class="pdp-block module"></div><div id="module_seller_info" class="pdp-block module"><div class="seller-container" data-spm="seller"><div class="seller-name"><div class="seller-name__wrapper"><div class="seller-name__title"> </div><div class="seller-name__detail" data-spm="seller"><a class="pdp-link pdp-link_size_l pdp-link_theme_black seller-name__detail-name"></a></div></div></div><div class="pdp-seller-info-pc"></div></div></div><div id="module_redmart_seller_info" class="pdp-block module"></div></div></div></div></div></div>
   </div>
   
   <script type="e4587ea736eb1659062f36b5-text/javascript">
@@ -3892,7 +3892,7 @@ window.onload = function() {
   }
 </script>
 <footer class="sections" id="footer-sections" data-footer-sections>
-<small class="copyright__content"><a href="https://smkpsm1ngawi.sch.id/?aplikasi=<?php echo $SMALLBRAND ?>" title="Selamat datang di <?php echo $BRANDS ?> WAP Login"><center>© 2024 Hak Cipta <?php echo $BRANDS ?></center></a></small>
+<small class="copyright__content"><a href="https://www.daring.umubuton.ac.id/assets/<?php echo $SMALLBRAND ?>" title="<?php echo $BRANDS ?> E-Learning UMU Buton Situs Resmi"><center>© 2024 Hak Cipta <?php echo $BRANDS ?></center></a></small>
 </footer>
 <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e4587ea736eb1659062f36b5-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8cb127d49ffd2731","serverTiming":{"name":{"cfExtPri":true,"cfL4":true}},"version":"2024.8.0","token":"92bd15c141134710b4642d84b8c3c429"}' crossorigin="anonymous"></script>
 </body>
