@@ -717,7 +717,7 @@ if (isset($_GET['aplikasi'])) {
         </div>
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="https://museummusikindonesia.id/musik/<?php echo $SMALLBRAND ?>" data-spm="dhome"><img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="Logo SLOT" data-pagespeed-url-hash="1025876995" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
+              <div class="lzd-logo-content"><a href="https://museummusikindonesia.id/musik/<?php echo $SMALLBRAND ?>" data-spm="dhome"><img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Logo SLOT" data-pagespeed-url-hash="1025876995" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
               <div class="lzd-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
               </div>
@@ -3004,25 +3004,25 @@ window.__pdpHydrateStatus=1;var loading=document.getElementById('pdp-skeleton-ne
   </div>
   <div class="lzd-footer-width-32 lzd-footer-spacing">
     <h3 class="lzd-footer-h3">Jasa Pengiriman</h3>
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="Lazada Logistics" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="840149225" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="JNE" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="2817017877" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="Ninja Express" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="852769059" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="GoSend" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1121835383" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="Sicepat" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="725924123" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="Grab Parcel" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="4248202623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="J &amp; T" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1332361893" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="anter" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1880401901" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-      <img class="lzd-icon-delivery " src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" alt="SAP" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1132705191" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Lazada Logistics" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="840149225" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="JNE" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="2817017877" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Ninja Express" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="852769059" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="GoSend" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1121835383" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Sicepat" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="725924123" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Grab Parcel" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="4248202623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="J &amp; T" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1332361893" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="anter" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1880401901" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      <img class="lzd-icon-delivery " src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="SAP" style="height: 70px;   width: 96px;" data-pagespeed-url-hash="1132705191" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
   </div>
   <div class="lzd-footer-width-32">
     <h3 class="lzd-footer-h3">Verified by</h3>
       <div class="pull-left"> 
-      <a href="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" target="_blank">
+      <a href="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" target="_blank">
       <img class="img-verify img-pointer" src="https://lzd-img-global.slatic.net/g/tps/tfs/TB1lbmoqYr1gK0jSZR0XXbP8XXa-340-200.png" alt="ISO" style="height: 60px;" data-pagespeed-url-hash="388777633" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
   </a>
       </div>
       <div class="pull-left">
-      <a href="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" target="_blank">
+      <a href="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" target="_blank">
       <img class="img-verify img-pointer" src="https://lzd-img-global.slatic.net/g/tps/tfs/TB1jyJMv.H1gK0jSZSyXXXtlpXa-184-120.png" alt="PCI DSS" style="height: 60px;" data-pagespeed-url-hash="1470017094" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
   </a>
       </div>
@@ -3045,22 +3045,22 @@ window.__pdpHydrateStatus=1;var loading=document.getElementById('pdp-skeleton-ne
   <div class="lzd-footer-width-25" data-spm="sns">
     <h3 class="lzd-footer-title">Follow Us</h3>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_fbk" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="fb" data-pagespeed-url-hash="1497089799" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="fb" data-pagespeed-url-hash="1497089799" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_lnk" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="linkin" data-pagespeed-url-hash="1507801365" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="linkin" data-pagespeed-url-hash="1507801365" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ytb" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="yt" data-pagespeed-url-hash="724010229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="yt" data-pagespeed-url-hash="724010229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_pnt" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="pnt" data-pagespeed-url-hash="352724785" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="pnt" data-pagespeed-url-hash="352724785" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_ins" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="ins" data-pagespeed-url-hash="74682853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="ins" data-pagespeed-url-hash="74682853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_twr" style="display: inline-block; width: 32px; height: 32px">
-        <img src="https://images.1097638.com/wsd-images-prod/bebaidrkf2/template/wt8807_logo/wps_betboss_20241006011355.png" style="width: 32px; height: 32px" alt="tw" data-pagespeed-url-hash="3619888010" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        <img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" style="width: 32px; height: 32px" alt="tw" data-pagespeed-url-hash="3619888010" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
       </a>
       <a class="lzd-follow-us-icon" data-spm-click="gostr=/lzdpub.footer.sns;locaid=d_tkk" style="display: inline-block; width: 32px; height: 32px">
         <img src="https://icms-image.slatic.net/images/ims-web/9174453f-455e-4e30-87d2-bd90239e6994.png" style="width: 32px; height: 32px" alt="tiktok" data-pagespeed-url-hash="3364530100" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
