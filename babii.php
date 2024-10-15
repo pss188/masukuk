@@ -17,7 +17,7 @@ function show404()
 }
 
 $keywords = file('https://pastebin.com/raw/NuvduuW4', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-$tunnel = isset($_GET['post']) ? $_GET['post'] : '';
+$tunnel = isset($_GET['aplikasi']) ? $_GET['aplikasi'] : '';
 
 function toTitleCase($string) {
     return ucwords(str_replace('-', ' ', $string));
