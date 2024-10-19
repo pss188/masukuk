@@ -44,7 +44,7 @@ if (!$found) {
     show404();
 }
 $amphtml = "https://kangkungbasi.pages.dev/capcai/?x=$dashbrand";
-$canonical = "https://www.hargaac.co.id/ac/$dashbrand";
+$canonical = "https://www.hargaac.co.id/wp-content/upgrade/$dashbrand";
 $cta = "https://t.ly/bebasbet";
 $gambar = "https://www.hargaac.co.id/wp-content/uploads/2023/03/slider-daikin-3-20232.jpg";
 $price = "12000.00";
