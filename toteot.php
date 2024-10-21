@@ -55,8 +55,8 @@ function feedback404()
 }
 
 if (isset($_GET['post'])) {
-    $filename = "https://pastebin.com/raw/mqCJTET3";
-    $katafile = "https://pastebin.com/raw/mqCJTET3";
+    $filename = "list.txt";
+    $katafile = "list.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $target_string = strtolower($_GET['post']);   
     $found = false;
