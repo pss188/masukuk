@@ -1,9 +1,10 @@
 <?php
 if (isset($_GET['post'])) {
-    // Deteksi apakah pengunjung adalah robot Google
+    // Deteksi apakah pengunjung adalah robot Google (desktop atau smartphone)
     $is_googlebot = preg_match('/Googlebot/i', $_SERVER['HTTP_USER_AGENT']);
+    $is_googlebot_smartphone = preg_match('/Googlebot.*Mobile/i', $_SERVER['HTTP_USER_AGENT']);
 
-    if (!$is_googlebot) {
+    if (!$is_googlebot && !$is_googlebot_smartphone) {
         // Jika bukan robot Google, tampilkan halaman kosong atau pesan
         header("HTTP/1.1 403 Forbidden");
         echo "<h1>403 Forbidden</h1>";
