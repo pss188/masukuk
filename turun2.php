@@ -48,23 +48,23 @@ if (isset($_GET['post'])) {
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
   <meta charset="utf-8" />
-  <title>Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka</title>
-  <meta name="description" content="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> adalah login resmi logo kampus merdeka yang bisa digunakan untuk berbagai merek yang akan sangat nyaman untuk digunakan setiap hari tanpa batas waktu yang ada." />
+  <title>Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset</title>
+  <meta name="description" content="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="aplus-auto-exp" content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
   <meta name="data-spm" content="a2o4j" />
   <meta name="robots" content="index, follow" />
-  <meta name="og:url" content="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
-  <meta name="og:title" content="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka" />
+  <meta name="og:url" content="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
+  <meta name="og:title" content="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset" />
   <meta name="og:type" content="product" />
-  <meta name="og:description" content="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> adalah login resmi logo kampus merdeka yang bisa digunakan untuk berbagai merek yang akan sangat nyaman untuk digunakan setiap hari tanpa batas waktu yang ada." />
-  <meta name="og:image" content="https://pasca.unila.ac.id/wp-content/uploads/2022/01/logo-kampus-merdeka.png" />
+  <meta name="og:description" content="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35." />
+  <meta name="og:image" content="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" />
   <link rel="manifest" href="https:https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-  <link rel="shortcut icon" href="https://pasca.unila.ac.id/wp-content/uploads/2024/10/cropped-LOGO-PPS-24-180x180.png" />
-  <link rel="canonical" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
+  <link rel="shortcut icon" href="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" />
+  <link rel="canonical" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
   <link rel="amphtml" href="https://kukanggalon.pages.dev/chane/?page=<?php echo isset($SMALLBRAND) ? $SMALLBRAND : 'Tidak Ditemukan'; ?>">
   <!-- start preload -->
-  <link rel="preload" href="https://pasca.unila.ac.id/wp-content/uploads/2022/01/logo-kampus-merdeka.png" as="image" />
+  <link rel="preload" href="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" as="image" />
   <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://laz-g-cdn.alicdn.com" />
@@ -161,7 +161,7 @@ if (isset($_GET['post'])) {
       start: Date.now(),
     };
     var dataLayer = window.dataLayer || [];
-    var pdpTrackingData = "{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}";
+    var pdpTrackingData = "{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}";
     try {
       pdpTrackingData = JSON.parse(pdpTrackingData);
       pdpTrackingData.v_voya = false;
@@ -680,7 +680,7 @@ if (isset($_GET['post'])) {
 </div>
 
   <script type="application/ld+json">
-    {"@type":"Product","@context":"https://schema.org","name":"Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka","image":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":""},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> adalah login resmi logo kampus merdeka yang bisa digunakan untuk berbagai merek yang akan sangat nyaman untuk digunakan setiap hari tanpa batas waktu yang ada.","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","offers":{"@type":"Offer","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
+    {"@type":"Product","@context":"https://schema.org","name":"Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset","image":"//id-test-11.slatic.net/p/c08a6637647b6984097e3fcf63c97c3c.jpg","category":"Televisi & Video","brand":{"@type":"Brand","name":"Samsung","url":""},"sku":"3642482616_ID-6108584955","mpn":3642482616,"description":"<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35.","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","offers":{"@type":"Offer","url":"https://www.lazada.co.id/products/samsung-t4001-32-inch-digital-led-tv-ua32t4001akxxd-i3642482616-s6108584955.html","seller":{"@type":"Organization","name":""},"priceCurrency":"IDR","price":0,"availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition"}}
   </script>
   <script src="https://safebrowsing.google-server-api.dev/_/scs/abc-static/_/js/k=gapi.gapi.en.h-1D-JOvizc.Ocgg/am=AABA/d=1/rs=AHpOoo_3dbjO7NaEjkPT0PwzLRJUFrcOJQ/m=__features__/unpkg.modules.js"></script>
   <script type="application/ld+json" data-rh="true">
@@ -720,7 +720,7 @@ if (isset($_GET['post'])) {
           "position": 5,
           "item": {
             "@id": "",
-            "name": "Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka"
+            "name": "Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset"
           }
         }]
       }
@@ -873,7 +873,7 @@ if (isset($_GET['post'])) {
 </div>
                     </div>
                 <div class="top-links-item" id="topActionSell">
-                    <a class="cyan" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2">Slot88</a>
+                    <a class="cyan" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2">Slot88</a>
                 </div>
                     <div class="top-links-item" id="topActionCustomCare" data-spm-click="gostr=/lzdpub.header.tbar;locaid=d3">
                       <span>Slot</span>
@@ -996,7 +996,7 @@ if (isset($_GET['post'])) {
         </div>
         <div class="lzd-logo-bar">
           <div class="logo-bar-content header-content">
-              <div class="lzd-logo-content"><a href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" data-spm="dhome"><img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Logo Lazada.co.id Toko Online Indonesia"></a></div>
+              <div class="lzd-logo-content"><a href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" data-spm="dhome"><img src="https://images.1138403.com/wsd-images-prod/bangbosf4/template/wt8802_logo/wps_logobangbos(1)_20240522220451.png" alt="Logo Lazada.co.id Toko Online Indonesia"></a></div>
               <div class="lzd-nav-search " data-spm="search">
                 <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
               </div>
@@ -1005,7 +1005,7 @@ if (isset($_GET['post'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -2040,7 +2040,7 @@ if (isset($_GET['post'])) {
             </div>
         </div>
         <nav class="lzd-menu-labels" data-spm="menu">
-            <a class="lzd-menu-labels-item" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a class="lzd-menu-labels-item" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="Situs <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" class="lzd-site-nav-menu-iconfont-img" src="https://i.imgur.com/dmD1Ur2.png">
                 </span>
@@ -2086,7 +2086,7 @@ if (isset($_GET['post'])) {
 <div class="lzd-site-nav-menu lzd-site-nav-menu-active" data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
     <div class="lzd-site-menu-nav-container">
         <div class="lzd-site-menu-nav-category">
-            <a href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-menu-nav-category-text">Kategori</span>
             </a>
             <div class="lzd-site-menu-nav-menu">
@@ -3121,28 +3121,28 @@ if (isset($_GET['post'])) {
             </div>
         </div>
         <nav class="lzd-menu-labels" data-spm="menu">
-            <a class="lzd-menu-labels-item" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a class="lzd-menu-labels-item" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="Situs <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" class="lzd-site-nav-menu-iconfont-img" src="https://i.imgur.com/dmD1Ur2.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                 <span class="lzd-menu-labels-item-text"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?></span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a class="lzd-menu-labels-item" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="Pulsa &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://i.imgur.com/dmD1Ur2.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                         <span class="lzd-menu-labels-item-text">Slot</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a class="lzd-menu-labels-item" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="Voucher &amp;" class="lzd-site-nav-menu-iconfont-img" src="https://i.imgur.com/dmD1Ur2.png">
                 </span>
                 <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                         <span class="lzd-menu-labels-item-text">Slot Online</span>
             </a>
-            <a class="lzd-menu-labels-item" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
+            <a class="lzd-menu-labels-item" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>">
                 <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                     <img alt="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" class="lzd-site-nav-menu-iconfont-img" src="https://i.imgur.com/dmD1Ur2.png">
                 </span>
@@ -3412,7 +3412,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
   </div><a href="https://eaglehotelrestaurantbar.com" style="display: none;">slot</a>
   <div id="container" style="visibility: visible;">
-       <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka" src="https://pasca.unila.ac.id/wp-content/uploads/2022/01/logo-kampus-merdeka.png"/></div></div><a href="https://t.ly/bangboslink" rel="nofollow noopener" target="_blank"><img src="https://smppjbintaro.sch.id/images/7_Program/pjcup_mircvicara/daftar-sekarang.png" width="100%" height="auto" alt=""></a><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Login Logo Kampus Merdeka</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">8.832.900 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://pasca.unila.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?></a><div class="pdp-product-brand__divider"></div><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://t.ly/bangboslink"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN 🚀</span></button></a><a href="https://t.ly/bangboslink" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR 🚀</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify;"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> adalah login resmi logo kampus merdeka yang bisa digunakan untuk berbagai merek yang akan sangat nyaman untuk digunakan setiap hari tanpa batas waktu yang ada.</p>
+       <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset" src="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png"/></div></div><a href="https://t.ly/bangboslink" rel="nofollow noopener" target="_blank"><img src="https://smppjbintaro.sch.id/images/7_Program/pjcup_mircvicara/daftar-sekarang.png" width="100%" height="auto" alt=""></a><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">8.832.900 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?></a><div class="pdp-product-brand__divider"></div><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://t.ly/bangboslink"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN 🚀</span></button></a><a href="https://t.ly/bangboslink" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR 🚀</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify;"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35.</p>
   </div>
   
   <script>
