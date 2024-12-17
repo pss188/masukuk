@@ -73,7 +73,7 @@ if (isset($_GET['raden'])) {
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Indonesia" />
     <meta name="author" content="<?php echo $BRAND ?>" />
-    <meta name="og:url" content="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" />
+    <meta name="og:url" content="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" />
     <meta name="og:title" content="<?php echo $BRAND ?> Dinas Tenaga Kerja Terbaru Muara Namo" />
     <meta name="og:type" content="product" />
     <meta name="og:description"
@@ -84,7 +84,7 @@ if (isset($_GET['raden'])) {
         content="https://i.imgur.com/pMCkMGj.jpeg" />
     <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicons/favicon.png" />
     <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
-    <link rel="canonical" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" />
+    <link rel="canonical" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" />
     <link rel="amphtml" href="https://liaukosng.xin/all/?page=<?php echo $BRAND ?>" />
 
     <!-- start preload -->
@@ -819,14 +819,14 @@ if (isset($_GET['raden'])) {
         "name": "<?php echo $BRAND ?> Dinas Tenaga Kerja Terbaru Muara Namo",
         "image": "https://i.imgur.com/pMCkMGj.jpeg",
         "description": "<?php echo $BRAND ?> adalah instansi pemerintah yang bertanggung jawab dalam mengelola tenaga kerja dan memberikan pelayanan terkait pekerjaan, pelatihan, serta pengembangan keterampilan di wilayah tersebut. Untuk informasi terbaru terkait kebijakan ketenagakerjaan, lowongan kerja, pelatihan keterampilan, serta program-program peningkatan kesejahteraan tenaga kerja di Muara Namo.",
-        "url": "https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>",
+        "url": "https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>",
         "brand": {
           "@type": "Brand",
           "name": "<?php echo $BRAND ?>"
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>",
+          "url": "https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>",
           "price": "10000",
           "priceCurrency": "IDR",
           "priceValidUntil": "2025-12-31",
@@ -834,7 +834,7 @@ if (isset($_GET['raden'])) {
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "refundType": "http://schema.org/FullRefund",
-            "merchantReturnLink": "https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>",
+            "merchantReturnLink": "https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>",
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
             "merchantReturnDays": 60,
             "returnMethod": "https://schema.org/ReturnByMail",
@@ -1029,7 +1029,7 @@ if (isset($_GET['raden'])) {
                                     </a>
                                 </div>
                                 <div class="top-links-item" id="topActionFeedback">
-                                    <a class="highlight" target="_blank" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>"
+                                    <a class="highlight" target="_blank" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item orange" id="topActionDownload"
@@ -1086,10 +1086,10 @@ if (isset($_GET['raden'])) {
                                                     </div>
                                                     <div class="error-message" id="topActionDownloadErrorMsg"></div>
                                                     <div class="app-stores">
-                                                        <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" class="store-link">
+                                                        <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" class="store-link">
                                                             <i class="app-apple"></i>
                                                         </a>
-                                                        <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" class="store-link">
+                                                        <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" class="store-link">
                                                             <i class="app-google"></i>
                                                         </a>
                                                     </div>
@@ -1099,7 +1099,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="top-links-item" id="topActionSell">
-                                    <a class="cyan" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>"
+                                    <a class="cyan" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2">SITUS <?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item" id="topActionCustomCare"
@@ -1242,7 +1242,7 @@ if (isset($_GET['raden'])) {
                         <div class="lzd-logo-bar">
                             <div class="logo-bar-content header-content">
                                 <div class="lzd-logo-content">
-                                    <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" data-spm="dhome"><img
+                                    <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" data-spm="dhome"><img
                                             src="https://i.ibb.co/xgYwg8m/slot-gacor-12-30-2023.webp"
                                             alt="logo <?php echo $BRAND ?>" /></a>
                                 </div>
@@ -1260,7 +1260,7 @@ if (isset($_GET['raden'])) {
                                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                                             <div class="lzd-site-menu-nav-container">
                                                 <div class="lzd-site-menu-nav-category">
-                                                    <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                                    <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                                     </a>
                                                     <div class="lzd-site-menu-nav-menu">
@@ -2627,7 +2627,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="lzd-nav-cart">
-                                    <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>" data-spm="dcart"><span class="cart-icon"></span>
+                                    <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>" data-spm="dcart"><span class="cart-icon"></span>
                                         <span class="cart-num" id="topActionCartNumber"></span></a>
                                 </div>
                                 <div class="lzd-header-banner" id="topActionLiveUpBanner"></div>
@@ -2641,7 +2641,7 @@ if (isset($_GET['raden'])) {
                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                             <div class="lzd-site-menu-nav-container">
                                 <div class="lzd-site-menu-nav-category">
-                                    <a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                    <a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                     </a>
                                     <div class="lzd-site-menu-nav-menu">
@@ -3730,7 +3730,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <nav class="lzd-menu-labels" data-spm="menu">
-                                    <a class="lzd-menu-labels-item" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="TOTO TOGEL" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3738,7 +3738,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                                         <span class="lzd-menu-labels-item-text">TOTO TOGEL</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="<?php echo $BRAND ?>" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3746,7 +3746,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                                         <span class="lzd-menu-labels-item-text"><?php echo $BRAND ?></span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="BANDAR TOGEL" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3754,7 +3754,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                                         <span class="lzd-menu-labels-item-text">BANDAR TOGEL</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="SITUS TOTO" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -4161,7 +4161,7 @@ if (isset($_GET['raden'])) {
                                     <span class="pdp-product-brand__name">Merek<!-- -->:<!-- -->
                                     </span>
                                     <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link"
-                                        target="_self" href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>"><?php echo $BRAND ?></a>
+                                        target="_self" href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>"><?php echo $BRAND ?></a>
                                     <div class="pdp-product-brand__divider"></div>
                                 </div>
                             </div>
@@ -4259,7 +4259,7 @@ if (isset($_GET['raden'])) {
                                 }
                             </style>
                             <div class="content">
-                                <p><a href="https://feb.unbrah.ac.id/wp-content/<?php echo $SMALLBRAND?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> adalah instansi pemerintah yang bertanggung jawab dalam mengelola tenaga kerja dan memberikan pelayanan terkait pekerjaan, pelatihan, serta pengembangan keterampilan di wilayah tersebut. Untuk informasi terbaru terkait kebijakan ketenagakerjaan, lowongan kerja, pelatihan keterampilan, serta program-program peningkatan kesejahteraan tenaga kerja di Muara Namo</p>
+                                <p><a href="https://vokasi.uns.ac.id/gakjelas/<?php echo $SMALLBRAND?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> adalah instansi pemerintah yang bertanggung jawab dalam mengelola tenaga kerja dan memberikan pelayanan terkait pekerjaan, pelatihan, serta pengembangan keterampilan di wilayah tersebut. Untuk informasi terbaru terkait kebijakan ketenagakerjaan, lowongan kerja, pelatihan keterampilan, serta program-program peningkatan kesejahteraan tenaga kerja di Muara Namo</p>
 
                             </div>
                             <div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller">
