@@ -1,48 +1,29 @@
 <?php
-function show404() 
-{
+
+function feedback404() {
   header("HTTP/1.0 404 Not Found");
-  echo "
-    <!DOCTYPE HTML PUBLIC '-//IETF//DTD HTML 2.0//EN'>
-    <html><head>
-    <title>403 Forbidden</title>
-    </head><body>
-    <h1>Forbidden</h1>
-    <p>You don't have permission to access this resource.</p>
-    <hr>
-    </body>
-    </html>
-  ";
-  exit;
+  echo "<h1>Website sedang Maintance</h1>";
+  echo "<p>Pekerjaan-pekerjaan kecil yang selesai dilakukan lebih baik daripada rencana-rencana besar yang hanya didiskusikan.</p>";
+  echo "<p>- Peter Marshall -</p>";
+
 }
 
-if (isset($_GET['raden'])) {
-    $filename = "jemp.txt";
 
-    if (file_exists($filename)) {
-        $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    } else {
-        feedback404();
-    }
-
-    $target_string = strtolower(trim($_GET['raden']));   
-    $found = false;
-    $brand_index = null;
-
-    foreach ($lines as $index => $item) {
+if (isset($_GET['blog'])) {
+    $filename = "list.txt";
+    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $target_string = strtolower($_GET['blog']);
+    foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
             $SMALLBRAND = $target_string;
-            $found = true;
-            $brand_index = $index;
-            break;
         }
     }
-
-    if ($found) {
+    if (isset($BRAND)) {
+        $BRANDS = $BRAND;
+        $SMALLBRANDS = $SMALLBRAND;
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
         $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        
         if (isset($fullUrl)) {
             $parsedUrl = parse_url($fullUrl);
             $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
@@ -50,18 +31,20 @@ if (isset($_GET['raden'])) {
             $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
             $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
             $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
-            
-            // Encode URL components (handle spaces and special characters)
-            $encodedUrl = urlencode($baseUrl);
-            $urlPath = $encodedUrl; // URL yang sudah diencode
+            $urlPath = $baseUrl;
+        } else {
+            echo "URL saat ini tidak didefinisikan.";
         }
-
     } else {
         feedback404();
+        exit();
     }
 } else {
     feedback404();
+    exit();
 }
+
+
 ?>
 
 
@@ -71,10 +54,10 @@ if (isset($_GET['raden'])) {
 <head>
     <meta charset="utf-8" />
     <title>
-        <?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang
+        <?php echo $BRAND ?> Sekolah Kejuruan Terpercaya
     </title>
     <meta name="description"
-        content="<?php echo $BRAND ?> adalah sebuah amanah besar yang melibatkan segenap kemampuan intelektual, emosional, dan spiritual. Jika seorang guru hanya melibatkan sisi intelektual saja maka ia akan menjadi guru yang teoritis yang tidak diimbangi dengan pemahaman spiritual dan penyaluran emosional yang benar. Dan jika seorang guru hanya melibatkan sisi emosional saja ia akan menjadi guru yang temperamental. Maka perlu ada keseimbangan diantara ketiganya." />
+        content="<?php echo $BRAND ?> telah menjadi pilihan utama bagi siswa yang ingin melanjutkan pendidikan ke jenjang yang lebih tinggi telah mencetak ribuan lulusan yang sukses berkarier di berbagai bidang." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="aplus-auto-exp"
         content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
@@ -82,22 +65,22 @@ if (isset($_GET['raden'])) {
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Indonesia" />
     <meta name="author" content="<?php echo $BRAND ?>" />
-    <meta name="og:url" content="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" />
-    <meta name="og:title" content="<?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang" />
+    <meta name="og:url" content="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" />
+    <meta name="og:title" content="<?php echo $BRAND ?> Sekolah Kejuruan Terpercaya" />
     <meta name="og:type" content="product" />
     <meta name="og:description"
-        content="<?php echo $BRAND ?> adalah sebuah amanah besar yang melibatkan segenap kemampuan intelektual, emosional, dan spiritual. Jika seorang guru hanya melibatkan sisi intelektual saja maka ia akan menjadi guru yang teoritis yang tidak diimbangi dengan pemahaman spiritual dan penyaluran emosional yang benar. Dan jika seorang guru hanya melibatkan sisi emosional saja ia akan menjadi guru yang temperamental. Maka perlu ada keseimbangan diantara ketiganya." />
+        content="<?php echo $BRAND ?> telah menjadi pilihan utama bagi siswa yang ingin melanjutkan pendidikan ke jenjang yang lebih tinggi telah mencetak ribuan lulusan yang sukses berkarier di berbagai bidang." />
     <meta name="keywords"
-        content="<?php echo $BRAND ?>, <?php echo $BRAND ?> login, situs <?php echo $BRAND ?>" />
+        content="<?php echo $SMALLBRAND ?>" />
     <meta name="og:image"
-        content="https://i.imgur.com/zxL7yXQ.jpeg" />
-    <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicons/favicon.png" />
+        content="https://i.postimg.cc/vTV2z9Kt/mama.jpg" />
+    <link rel="icon" type="image/x-icon" href="https://iili.io/2oRSccg.jpg" />
     <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
-    <link rel="canonical" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" />
-    <link rel="amphtml" href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" />
+    <link rel="canonical" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" />
+    <link rel="amphtml" href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" />
 
     <!-- start preload -->
-    <link rel="preload" href="https://i.imgur.com/zxL7yXQ.jpeg"
+    <link rel="preload" href="https://i.postimg.cc/vTV2z9Kt/mama.jpg"
         as="image" />
     <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
     <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
@@ -204,7 +187,7 @@ if (isset($_GET['raden'])) {
         };
         var dataLayer = window.dataLayer || [];
         var pdpTrackingData =
-            '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://i.imgur.com/zxL7yXQ.jpeg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
+            '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://i.postimg.cc/vTV2z9Kt/mama.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRAND ?> Sekolah Kejuruan Terpercaya","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
         try {
             pdpTrackingData = JSON.parse(pdpTrackingData);
             pdpTrackingData.v_voya = false;
@@ -825,17 +808,17 @@ if (isset($_GET['raden'])) {
       {
         "@context": "https://schema.org/",
         "@type": "Product",
-        "name": "<?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang",
-        "image": "https://i.imgur.com/zxL7yXQ.jpeg",
-        "description": "<?php echo $BRAND ?> adalah sebuah amanah besar yang melibatkan segenap kemampuan intelektual, emosional, dan spiritual. Jika seorang guru hanya melibatkan sisi intelektual saja maka ia akan menjadi guru yang teoritis yang tidak diimbangi dengan pemahaman spiritual dan penyaluran emosional yang benar. Dan jika seorang guru hanya melibatkan sisi emosional saja ia akan menjadi guru yang temperamental. Maka perlu ada keseimbangan diantara ketiganya.",
-        "url": "https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>",
+        "name": "<?php echo $BRAND ?> Sekolah Kejuruan Terpercaya",
+        "image": "https://i.postimg.cc/vTV2z9Kt/mama.jpg",
+        "description": "<?php echo $BRAND ?> telah menjadi pilihan utama bagi siswa yang ingin melanjutkan pendidikan ke jenjang yang lebih tinggi telah mencetak ribuan lulusan yang sukses berkarier di berbagai bidang.",
+        "url": "https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>",
         "brand": {
           "@type": "Brand",
           "name": "<?php echo $BRAND ?>"
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>",
+          "url": "https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>",
           "price": "10000",
           "priceCurrency": "IDR",
           "priceValidUntil": "2025-12-31",
@@ -843,7 +826,7 @@ if (isset($_GET['raden'])) {
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "refundType": "http://schema.org/FullRefund",
-            "merchantReturnLink": "https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>",
+            "merchantReturnLink": "https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>",
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
             "merchantReturnDays": 60,
             "returnMethod": "https://schema.org/ReturnByMail",
@@ -1038,7 +1021,7 @@ if (isset($_GET['raden'])) {
                                     </a>
                                 </div>
                                 <div class="top-links-item" id="topActionFeedback">
-                                    <a class="highlight" target="_blank" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>"
+                                    <a class="highlight" target="_blank" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item orange" id="topActionDownload"
@@ -1095,10 +1078,10 @@ if (isset($_GET['raden'])) {
                                                     </div>
                                                     <div class="error-message" id="topActionDownloadErrorMsg"></div>
                                                     <div class="app-stores">
-                                                        <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" class="store-link">
+                                                        <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" class="store-link">
                                                             <i class="app-apple"></i>
                                                         </a>
-                                                        <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" class="store-link">
+                                                        <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" class="store-link">
                                                             <i class="app-google"></i>
                                                         </a>
                                                     </div>
@@ -1108,7 +1091,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="top-links-item" id="topActionSell">
-                                    <a class="cyan" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>"
+                                    <a class="cyan" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2">SITUS <?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item" id="topActionCustomCare"
@@ -1191,11 +1174,11 @@ if (isset($_GET['raden'])) {
                                 </div>
 
                                 <div class="top-links-item grey" id="anonLogin">
-                                    <a class="grey" href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>"
+                                    <a class="grey" href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
                                 </div>
                                 <div class="top-links-item grey" id="anonSignup">
-                                    <a class="grey" href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>"
+                                    <a class="grey" href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
                                 </div>
                                 <div class="top-links-item top-links-item-hidden" id="topActionUserAccont"
@@ -1251,13 +1234,13 @@ if (isset($_GET['raden'])) {
                         <div class="lzd-logo-bar">
                             <div class="logo-bar-content header-content">
                                 <div class="lzd-logo-content">
-                                    <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" data-spm="dhome"><img
-                                            src="https://i.ibb.co/xgYwg8m/slot-gacor-12-30-2023.webp"
+                                    <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" data-spm="dhome"><img
+                                            src="https://kuarasa.top/logo.png"
                                             alt="logo <?php echo $BRAND ?>" /></a>
                                 </div>
                                 <div class="lzd-nav-search" data-spm="search">
                                     <marquee behavior="" direction="">
-                                          <?php echo $BRAND ?> adalah sebuah amanah besar yang melibatkan segenap kemampuan intelektual, emosional, dan spiritual. Jika seorang guru hanya melibatkan sisi intelektual saja maka ia akan menjadi guru yang teoritis yang tidak diimbangi dengan pemahaman spiritual dan penyaluran emosional yang benar. Dan jika seorang guru hanya melibatkan sisi emosional saja ia akan menjadi guru yang temperamental. Maka perlu ada keseimbangan diantara ketiganya
+                                          <?php echo $BRAND ?> telah menjadi pilihan utama bagi siswa yang ingin melanjutkan pendidikan ke jenjang yang lebih tinggi telah mencetak ribuan lulusan yang sukses berkarier di berbagai bidang.
                                     </marquee>
                                     <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
                                 </div>
@@ -1269,7 +1252,7 @@ if (isset($_GET['raden'])) {
                                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                                             <div class="lzd-site-menu-nav-container">
                                                 <div class="lzd-site-menu-nav-category">
-                                                    <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                                    <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                                     </a>
                                                     <div class="lzd-site-menu-nav-menu">
@@ -2636,7 +2619,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="lzd-nav-cart">
-                                    <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>" data-spm="dcart"><span class="cart-icon"></span>
+                                    <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>" data-spm="dcart"><span class="cart-icon"></span>
                                         <span class="cart-num" id="topActionCartNumber"></span></a>
                                 </div>
                                 <div class="lzd-header-banner" id="topActionLiveUpBanner"></div>
@@ -2650,7 +2633,7 @@ if (isset($_GET['raden'])) {
                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                             <div class="lzd-site-menu-nav-container">
                                 <div class="lzd-site-menu-nav-category">
-                                    <a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                    <a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                     </a>
                                     <div class="lzd-site-menu-nav-menu">
@@ -3739,7 +3722,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <nav class="lzd-menu-labels" data-spm="menu">
-                                    <a class="lzd-menu-labels-item" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="TOTO TOGEL" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3747,7 +3730,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
                                         <span class="lzd-menu-labels-item-text">TOTO TOGEL</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="<?php echo $BRAND ?>" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3755,7 +3738,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                                         <span class="lzd-menu-labels-item-text"><?php echo $BRAND ?></span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="BANDAR TOGEL" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3763,7 +3746,7 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
                                         <span class="lzd-menu-labels-item-text">BANDAR TOGEL</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>">
+                                    <a class="lzd-menu-labels-item" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="SITUS TOTO" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -4073,8 +4056,8 @@ if (isset($_GET['raden'])) {
                             <div class="gallery-preview-panel">
                                 <div class="gallery-preview-panel__content">
                                     <img class="pdp-mod-common-image gallery-preview-panel__image"
-                                        alt="<?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang"
-                                        src="https://i.imgur.com/zxL7yXQ.jpeg" />
+                                        alt="<?php echo $BRAND ?> Sekolah Kejuruan Terpercaya"
+                                        src="https://i.postimg.cc/vTV2z9Kt/mama.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -4120,12 +4103,12 @@ if (isset($_GET['raden'])) {
                                 <div class="pdp-product-title">
                                     <div class="pdp-mod-product-badge-wrapper">
                                         <h1 class="pdp-mod-product-badge-title">
-                                            <?php echo $BRAND ?> Login SMP Islam Terpadu As Salam Malang
+                                            <?php echo $BRAND ?> Sekolah Kejuruan Terpercaya
                                         </h1>
                                         <div class="n-columns-2">
-                                            <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noreferrer"
+                                            <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer"
                                                 class="login">LOGIN</a>
-                                            <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noreferrer"
+                                            <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer"
                                                 class="register">DAFTAR</a>
                                         </div>
                                     </div>
@@ -4170,7 +4153,7 @@ if (isset($_GET['raden'])) {
                                     <span class="pdp-product-brand__name">Merek<!-- -->:<!-- -->
                                     </span>
                                     <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link"
-                                        target="_self" href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>"><?php echo $BRAND ?></a>
+                                        target="_self" href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>"><?php echo $BRAND ?></a>
                                     <div class="pdp-product-brand__divider"></div>
                                 </div>
                             </div>
@@ -4268,7 +4251,7 @@ if (isset($_GET['raden'])) {
                                 }
                             </style>
                             <div class="content">
-                                <p><a href="https://admin.smpitassalammalang.sch.id/<?php echo $SMALLBRAND?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> adalah sebuah amanah besar yang melibatkan segenap kemampuan intelektual, emosional, dan spiritual. Jika seorang guru hanya melibatkan sisi intelektual saja maka ia akan menjadi guru yang teoritis yang tidak diimbangi dengan pemahaman spiritual dan penyaluran emosional yang benar. Dan jika seorang guru hanya melibatkan sisi emosional saja ia akan menjadi guru yang temperamental. Maka perlu ada keseimbangan diantara ketiganya</p>
+                                <p><a href="https://smkn1barabai.sch.id/srikan/?blog=<?php echo $SMALLBRAND ?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> telah menjadi pilihan utama bagi siswa yang ingin melanjutkan pendidikan ke jenjang yang lebih tinggi telah mencetak ribuan lulusan yang sukses berkarier di berbagai bidang.</p>
 
                             </div>
                             <div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller">
@@ -4978,27 +4961,27 @@ if (isset($_GET['raden'])) {
         }
     </style>
     <div class="fixed-footer">
-        <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/b7xLqRHm.png" alt="PROMO <?php echo $BRAND ?>">
             Promosi
         </a>
-        <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/ZHjG06fN.png" alt="LOGIN <?php echo $BRAND ?>">
             Login
         </a>
-        <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank" class="tada">
+        <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank" class="tada">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/oZiKl4eN.png" alt="DAFTAR <?php echo $BRAND ?>">
             Daftar
         </a>
-        <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/iL49K1wl.webp" alt="LINK <?php echo $BRAND ?>">
             Link
         </a>
-        <a href="https://susukansaja.top/page/?google=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank"
+        <a href="https://kuarasa.top/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank"
             class="js_live_chat_link live-chat-link">
             <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/Rv9PWSHi.png" alt="LIVECHAT <?php echo $BRAND ?>">
