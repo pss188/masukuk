@@ -1,39 +1,29 @@
 <?php
+
 function feedback404() {
-  header("HTTP/1.0 404 Not Found"); 
-  echo "<h1>404 - Situs Sedang Dalam Pemeliharaan</h1>"; 
-  echo "<p>Maaf, situs ini sedang dalam pemeliharaan. Silakan coba lagi nanti.</p>";
-  exit(); 
+  header("HTTP/1.0 404 Not Found");
+  echo "<h1>Website sedang Maintance</h1>";
+  echo "<p>Pekerjaan-pekerjaan kecil yang selesai dilakukan lebih baik daripada rencana-rencana besar yang hanya didiskusikan.</p>";
+  echo "<p>- Peter Marshall -</p>";
+
 }
 
 
-if (isset($_GET['raden'])) {
-    $filename = "lulus.txt";
-
-    if (file_exists($filename)) {
-        $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    } else {
-        feedback404();
-    }
-
-    $target_string = strtolower(trim($_GET['raden']));   
-    $found = false;
-    $brand_index = null;
-
-    foreach ($lines as $index => $item) {
+if (isset($_GET['blog'])) {
+    $filename = "list.txt";
+    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $target_string = strtolower($_GET['blog']);
+    foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
             $SMALLBRAND = $target_string;
-            $found = true;
-            $brand_index = $index;
-            break;
         }
     }
-
-    if ($found) {
+    if (isset($BRAND)) {
+        $BRANDS = $BRAND;
+        $SMALLBRANDS = $SMALLBRAND;
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
         $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        
         if (isset($fullUrl)) {
             $parsedUrl = parse_url($fullUrl);
             $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
@@ -41,18 +31,20 @@ if (isset($_GET['raden'])) {
             $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
             $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
             $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
-            
-            // Encode URL components (handle spaces and special characters)
-            $encodedUrl = urlencode($baseUrl);
-            $urlPath = $encodedUrl; // URL yang sudah diencode
+            $urlPath = $baseUrl;
+        } else {
+            echo "URL saat ini tidak didefinisikan.";
         }
-
     } else {
         feedback404();
+        exit();
     }
 } else {
     feedback404();
+    exit();
 }
+
+
 ?>
 
 
@@ -62,10 +54,10 @@ if (isset($_GET['raden'])) {
 <head>
     <meta charset="utf-8" />
     <title>
-        <?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital
+        <?php echo $BRAND ?> ANALISIS KELAYAKAN
     </title>
     <meta name="description"
-        content="<?php echo $BRAND ?> mencakup berbagai hal terkait Sistem Informasi Manajemen (SIM) yang dirancang untuk memudahkan pengelolaan data dan administrasi di madrasah. SIM Madrasah Digital adalah platform yang mengintegrasikan berbagai proses penting seperti pendaftaran siswa, absensi, nilai akademik, dan pelaporan keuangan secara online. Dengan adanya sistem ini, madrasah dapat melakukan pemantauan dan pengelolaan data secara lebih efisien, akurat, dan transparan." />
+        content="<?php echo $BRAND ?> merupakan sebagai sumber pendapatan petani utamanya dalam memenuhi sebagian kebutuhan." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="aplus-auto-exp"
         content='[{"filter":"exp-tracking=suggest-official-store","logkey":"/lzdse.result.os_impr","props":["href"],"tag":"a"}]' />
@@ -73,22 +65,22 @@ if (isset($_GET['raden'])) {
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Indonesia" />
     <meta name="author" content="<?php echo $BRAND ?>" />
-    <meta name="og:url" content="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" />
-    <meta name="og:title" content="<?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital" />
+    <meta name="og:url" content="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" />
+    <meta name="og:title" content="<?php echo $BRAND ?> ANALISIS KELAYAKAN" />
     <meta name="og:type" content="product" />
     <meta name="og:description"
-        content="<?php echo $BRAND ?> mencakup berbagai hal terkait Sistem Informasi Manajemen (SIM) yang dirancang untuk memudahkan pengelolaan data dan administrasi di madrasah. SIM Madrasah Digital adalah platform yang mengintegrasikan berbagai proses penting seperti pendaftaran siswa, absensi, nilai akademik, dan pelaporan keuangan secara online. Dengan adanya sistem ini, madrasah dapat melakukan pemantauan dan pengelolaan data secara lebih efisien, akurat, dan transparan." />
+        content="<?php echo $BRAND ?> merupakan sebagai sumber pendapatan petani utamanya dalam memenuhi sebagian kebutuhan." />
     <meta name="keywords"
-        content="<?php echo $BRAND ?>, <?php echo $BRAND ?> login, situs <?php echo $BRAND ?>" />
+        content="<?php echo $SMALLBRAND ?>" />
     <meta name="og:image"
-        content="https://i.imgur.com/2pTFwbL.jpeg" />
-    <link rel="icon" type="image/x-icon" href="https://github.githubassets.com/favicons/favicon.png" />
+        content="https://imagizer.imageshack.com/img924/1703/YKBQZL.jpg" />
+    <link rel="icon" type="image/x-icon" href="https://makanmalam.xin/favicon.png" />
     <link rel="manifest" href="https://g.lazcdn.com/g/lzdfe/pwa-assets/5.0.7/manifest/id.json" />
-    <link rel="canonical" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" />
-    <link rel="amphtml" href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" />
+    <link rel="canonical" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" />
+    <link rel="amphtml" href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" />
 
     <!-- start preload -->
-    <link rel="preload" href="https://i.imgur.com/2pTFwbL.jpeg"
+    <link rel="preload" href="https://imagizer.imageshack.com/img924/1703/YKBQZL.jpg"
         as="image" />
     <link rel="preconnect dns-prefetch" href="https://cart.lazada.co.id" />
     <link rel="preconnect dns-prefetch" href="https://acs-m.lazada.co.id" />
@@ -163,7 +155,7 @@ if (isset($_GET['raden'])) {
                     return randend;
                 };
                 var pageid = getRand();
-                var aq = window.aplus_queue || (window.aplus_queue = []);
+                var aq = window.aplus_queue ||(window.aplus_queue = []);
                 aq.push({
                     action: "aplus.appendMetaInfo",
                     arguments: ["aplus-cpvdata", { pageid: pageid }],
@@ -195,7 +187,7 @@ if (isset($_GET['raden'])) {
         };
         var dataLayer = window.dataLayer || [];
         var pdpTrackingData =
-            '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://i.imgur.com/2pTFwbL.jpeg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
+            '{"pdt_category":["Televisi & Video"],"pagetype":"pdp","pdt_discount":"","pdt_photo":"https://imagizer.imageshack.com/img924/1703/YKBQZL.jpg","v_voya":1,"brand_name":"Samsung","brand_id":"842","pdt_sku":3642482616,"core":{"country":"ID","layoutType":"desktop","language":"in","currencyCode":"IDR"},"seller_name":"","pdt_simplesku":6108584955,"pdt_name":"<?php echo $BRAND ?> ANALISIS KELAYAKAN","page":{"regCategoryId":"300300002584","xParams":"_p_typ=pdp&_p_ispdp=1&_p_item=3642482616_ID-6108584955&_p_prod=3642482616&_p_sku=6108584955&_p_slr="},"supplier_id":"","pdt_price":"Rp2.699.000"}';
         try {
             pdpTrackingData = JSON.parse(pdpTrackingData);
             pdpTrackingData.v_voya = false;
@@ -520,8 +512,7 @@ if (isset($_GET['raden'])) {
             </path>
         </symbol>
         <symbol id="lazadaicon_standard" viewBox="0 0 1024 1024">
-            <path
-                d="M601.6 268.8h-68.266667V196.266667h68.266667v72.533333z m332.8 529.066667V128H234.666667c-8.533333 0-12.8 4.266667-21.333334 8.533333-8.533333 8.533333-8.533333 25.6 4.266667 34.133334l230.4 200.533333-162.133333 166.4L170.666667 435.2c-8.533333-8.533333-25.6-8.533333-34.133334 4.266667-8.533333 8.533333-8.533333 25.6 4.266667 34.133333l68.266667 59.733333v273.066667H426.666667l17.066666 34.133333c0 4.266667 12.8 25.6 34.133334 34.133334 4.266667 0 8.533333 4.266667 17.066666 4.266666s17.066667-4.266667 29.866667-8.533333l12.8-4.266667c4.266667 4.266667 12.8 8.533333 17.066667 12.8 4.266667 4.266667 8.533333 4.266667 17.066666 4.266667s21.333333-4.266667 34.133334-8.533333l12.8-4.266667c4.266667 4.266667 12.8 8.533333 17.066666 12.8 4.266667 0 8.533333 4.266667 17.066667 4.266667s21.333333-4.266667 34.133333-8.533334l17.066667-12.8c4.266667 4.266667 8.533333 4.266667 17.066667 8.533334 4.266667 0 8.533333 4.266667 12.8 4.266666 8.533333 0 17.066667-4.266667 29.866666-8.533333 8.533333-4.266667 12.8-17.066667 4.266667-25.6-4.266667-8.533333-17.066667-12.8-29.866667-4.266667l-4.266666 4.266667c-4.266667 0-4.266667-4.266667-4.266667-8.533333l-51.2-106.666667c-4.266667-8.533333-17.066667-17.066667-29.866667-8.533333-8.533333 4.266667-17.066667 17.066667-8.533333 25.6l42.666667 93.866666-17.066667 8.533334c-4.266667 4.266667-8.533333 4.266667-12.8 4.266666-4.266667 0-4.266667-4.266667-8.533333-8.533333l-38.4-85.333333c-8.533333-34.133333-21.333333-38.4-29.866667-34.133334-8.533333 4.266667-17.066667 17.066667-12.8 25.6l29.866667 68.266667-12.8 8.533333c-4.266667 4.266667-12.8 4.266667-17.066667 4.266667-4.266667-4.266667-8.533333-4.266667-8.533333-8.533333l-21.333334-55.466667c-4.266667-8.533333-17.066667-17.066667-29.866666-12.8-8.533333 4.266667-17.066667 17.066667-12.8 25.6l17.066666 38.4-12.8 4.266667c-4.266667 4.266667-8.533333 4.266667-12.8 4.266666-4.266667 0-4.266667-4.266667-4.266666-4.266666l-38.4-81.066667v-4.266667l-72.533334-157.866666-29.866666 29.866666 64 145.066667H256v-179.2l17.066667 17.066667c4.266667 4.266667 8.533333 4.266667 17.066666 4.266666 4.266667 0 12.8-4.266667 17.066667-4.266666l196.266667-200.533334c8.533333-8.533333 4.266667-25.6-4.266667-34.133333L294.4 179.2h187.733333V298.666667h162.133334V179.2h243.2v584.533333h-106.666667l-68.266667-140.8 55.466667 17.066667c4.266667 0 29.866667 4.266667 55.466667-8.533333 8.533333-4.266667 25.6-21.333333 29.866666-46.933334v-4.266666c4.266667-8.533333-4.266667-17.066667-8.533333-21.333334l-196.266667-102.4h-4.266666-4.266667l-110.933333-17.066666-34.133334 29.866666 136.533334 21.333334 179.2 93.866666c-4.266667 4.266667-4.266667 12.8-8.533334 17.066667-4.266667 4.266667-17.066667 4.266667-21.333333 4.266667l-89.6-25.6-8.533333-21.333334c-4.266667-8.533333-17.066667-17.066667-29.866667-8.533333-8.533333 4.266667-17.066667 17.066667-8.533333 25.6l25.6 46.933333 68.266666 140.8 21.333334 34.133334h174.933333z">
+            <pathd="M601.6 268.8h-68.266667V196.266667h68.266667v72.533333z m332.8 529.066667V128H234.666667c-8.533333 0-12.8 4.266667-21.333334 8.533333-8.533333 8.533333-8.533333 25.6 4.266667 34.133334l230.4 200.533333-162.133333 166.4L170.666667 435.2c-8.533333-8.533333-25.6-8.533333-34.133334 4.266667-8.533333 8.533333-8.533333 25.6 4.266667 34.133333l68.266667 59.733333v273.066667H426.666667l17.066666 34.133333c0 4.266667 12.8 25.6 34.133334 34.133334 4.266667 0 8.533333 4.266667 17.066666 4.266666s17.066667-4.266667 29.866667-8.533333l12.8-4.266667c4.266667 4.266667 12.8 8.533333 17.066667 12.8 4.266667 4.266667 8.533333 4.266667 17.066666 4.266667s21.333333-4.266667 34.133334-8.533333l12.8-4.266667c4.266667 4.266667 12.8 8.533333 17.066666 12.8 4.266667 0 8.533333 4.266667 17.066667 4.266667s21.333333-4.266667 34.133333-8.533334l17.066667-12.8c4.266667 4.266667 8.533333 4.266667 17.066667 8.533334 4.266667 0 8.533333 4.266667 12.8 4.266666 8.533333 0 17.066667-4.266667 29.866666-8.533333 8.533333-4.266667 12.8-17.066667 4.266667-25.6-4.266667-8.533333-17.066667-12.8-29.866667-4.266667l-4.266666 4.266667c-4.266667 0-4.266667-4.266667-4.266667-8.533333l-51.2-106.666667c-4.266667-8.533333-17.066667-17.066667-29.866667-8.533333-8.533333 4.266667-17.066667 17.066667-8.533333 25.6l42.666667 93.866666-17.066667 8.533334c-4.266667 4.266667-8.533333 4.266667-12.8 4.266666-4.266667 0-4.266667-4.266667-8.533333-8.533333l-38.4-85.333333c-8.533333-34.133333-21.333333-38.4-29.866667-34.133334-8.533333 4.266667-17.066667 17.066667-12.8 25.6l29.866667 68.266667-12.8 8.533333c-4.266667 4.266667-12.8 4.266667-17.066667 4.266667-4.266667-4.266667-8.533333-4.266667-8.533333-8.533333l-21.333334-55.466667c-4.266667-8.533333-17.066667-17.066667-29.866666-12.8-8.533333 4.266667-17.066667 17.066667-12.8 25.6l17.066666 38.4-12.8 4.266667c-4.266667 4.266667-8.533333 4.266667-12.8 4.266666-4.266667 0-4.266667-4.266667-4.266666-4.266666l-38.4-81.066667v-4.266667l-72.533334-157.866666-29.866666 29.866666 64 145.066667H256v-179.2l17.066667 17.066667c4.266667 4.266667 8.533333 4.266667 17.066666 4.266666 4.266667 0 12.8-4.266667 17.066667-4.266666l196.266667-200.533334c8.533333-8.533333 4.266667-25.6-4.266667-34.133333L294.4 179.2h187.733333V298.666667h162.133334V179.2h243.2v584.533333h-106.666667l-68.266667-140.8 55.466667 17.066667c4.266667 0 29.866667 4.266667 55.466667-8.533333 8.533333-4.266667 25.6-21.333333 29.866666-46.933334v-4.266666c4.266667-8.533333-4.266667-17.066667-8.533333-21.333334l-196.266667-102.4h-4.266666-4.266667l-110.933333-17.066666-34.133334 29.866666 136.533334 21.333334 179.2 93.866666c-4.266667 4.266667-4.266667 12.8-8.533334 17.066667-4.266667 4.266667-17.066667 4.266667-21.333333 4.266667l-89.6-25.6-8.533333-21.333334c-4.266667-8.533333-17.066667-17.066667-29.866667-8.533333-8.533333 4.266667-17.066667 17.066667-8.533333 25.6l25.6 46.933333 68.266666 140.8 21.333334 34.133334h174.933333z">
             </path>
         </symbol>
         <symbol id="lazadaicon_expressDelivery" viewBox="0 0 1401 1024">
@@ -785,8 +776,7 @@ if (isset($_GET['raden'])) {
         <symbol id="lazadaicon_great" viewBox="0 0 1024 1024">
             <path
                 d="M136.533333 849.066667h140.8v-426.666667H136.533333v426.666667z m785.066667-388.266667c0-38.4-34.133333-72.533333-72.533333-72.533333h-226.133334l34.133334-162.133334V213.333333c0-12.8-4.266667-29.866667-17.066667-38.4l-38.4-38.4-230.4 234.666667c-12.8 12.8-21.333333 34.133333-21.333333 51.2v354.133333c0 38.4 34.133333 72.533333 72.533333 72.533334h320c29.866667 0 55.466667-17.066667 64-42.666667l106.666667-251.733333c4.266667-8.533333 4.266667-17.066667 4.266666-25.6v-68.266667h4.266667z">
-            </path>
-        </symbol>
+            </path></symbol>
     </svg>
     <script type="text/javascript" id="beacon-aplus" src="https://g.lazcdn.com/g/alilog/mlog/aplus_int.js"
         exparams="clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx" async defer></script>
@@ -816,17 +806,17 @@ if (isset($_GET['raden'])) {
       {
         "@context": "https://schema.org/",
         "@type": "Product",
-        "name": "<?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital",
-        "image": "https://i.imgur.com/2pTFwbL.jpeg",
-        "description": "<?php echo $BRAND ?> mencakup berbagai hal terkait Sistem Informasi Manajemen (SIM) yang dirancang untuk memudahkan pengelolaan data dan administrasi di madrasah. SIM Madrasah Digital adalah platform yang mengintegrasikan berbagai proses penting seperti pendaftaran siswa, absensi, nilai akademik, dan pelaporan keuangan secara online. Dengan adanya sistem ini, madrasah dapat melakukan pemantauan dan pengelolaan data secara lebih efisien, akurat, dan transparan.",
-        "url": "https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>",
+        "name": "<?php echo $BRAND ?> ANALISIS KELAYAKAN",
+        "image": "https://imagizer.imageshack.com/img924/1703/YKBQZL.jpg",
+        "description": "<?php echo $BRAND ?> merupakan sebagai sumber pendapatan petani utamanya dalam memenuhi sebagian kebutuhan.",
+        "url": "https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>",
         "brand": {
           "@type": "Brand",
           "name": "<?php echo $BRAND ?>"
         },
         "offers": {
           "@type": "Offer",
-          "url": "https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>",
+          "url": "https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>",
           "price": "10000",
           "priceCurrency": "IDR",
           "priceValidUntil": "2025-12-31",
@@ -834,7 +824,7 @@ if (isset($_GET['raden'])) {
           "hasMerchantReturnPolicy": {
             "@type": "MerchantReturnPolicy",
             "refundType": "http://schema.org/FullRefund",
-            "merchantReturnLink": "https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>",
+            "merchantReturnLink": "https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>",
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
             "merchantReturnDays": 60,
             "returnMethod": "https://schema.org/ReturnByMail",
@@ -898,7 +888,7 @@ if (isset($_GET['raden'])) {
             "@type": "Person",
             "name": "Aji Suhardi"
           },
-          "reviewBody": "Product di Bandar Toto Togel Hits Terbaik"
+          "reviewBody": "Product di Bandar HOME Hits Terbaik"
         }
       }
     </script>
@@ -979,8 +969,7 @@ if (isset($_GET['raden'])) {
                         randend = randend.substr(0, 42);
                         return randend;
                     };
-                    var pageid = getRand();
-                    var aq = window.aplus_queue || (window.aplus_queue = []);
+                    var pageid = getRand();var aq = window.aplus_queue || (window.aplus_queue = []);
                     aq.push({
                         action: "aplus.appendMetaInfo",
                         arguments: ["aplus-cpvdata", { pageid: pageid }],
@@ -1029,7 +1018,7 @@ if (isset($_GET['raden'])) {
                                     </a>
                                 </div>
                                 <div class="top-links-item" id="topActionFeedback">
-                                    <a class="highlight" target="_blank" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>"
+                                    <a class="highlight" target="_blank" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=dfeedback"><?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item orange" id="topActionDownload"
@@ -1054,15 +1043,15 @@ if (isset($_GET['raden'])) {
                                                                 href="https://pages.lazada.co.id/wow/i/id/IDCampaign/Download-App?hybrid=1">
                                                                 <div class="get-the-app-download-text">
                                                                     <p>
-                                                                        Daftar situs <?php echo $BRAND ?> pasti bayar:
+                                                                        <?php echo $BRAND ?>:
                                                                     </p>
                                                                     <ul>
                                                                         <li>Banyak Bonusnya</li>
                                                                         <li>Produk Eksklusif di App</li>
                                                                         <li>
-                                                                            Rekomendasi Situs Toto Togel Terbaik
+                                                                            Rekomendasi <?php echo $BRAND ?>
                                                                         </li>
-                                                                        <li><?php echo $BRAND ?> Bandar Situs toto</li>
+                                                                        <li><?php echo $BRAND ?></li>
                                                                     </ul>
                                                                 </div>
                                                             </a>
@@ -1086,10 +1075,9 @@ if (isset($_GET['raden'])) {
                                                     </div>
                                                     <div class="error-message" id="topActionDownloadErrorMsg"></div>
                                                     <div class="app-stores">
-                                                        <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" class="store-link">
-                                                            <i class="app-apple"></i>
-                                                        </a>
-                                                        <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" class="store-link">
+                                                        <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" class="store-link">
+                                                            <i class="app-apple"></i></a>
+                                                        <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" class="store-link">
                                                             <i class="app-google"></i>
                                                         </a>
                                                     </div>
@@ -1099,12 +1087,12 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="top-links-item" id="topActionSell">
-                                    <a class="cyan" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>"
+                                    <a class="cyan" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d2">SITUS <?php echo $BRAND ?></a>
                                 </div>
                                 <div class="top-links-item" id="topActionCustomCare"
                                     data-spm-click="gostr=/lzdpub.header.tbar;locaid=d3">
-                                    <span>TOTO TOGEL</span>
+                                    <span>HOME</span>
                                     <div class="lzd-customcare-popup top-popup-wrap">
                                         <div class="top-popup-content l-customcare-content">
                                             <ul class="care-list">
@@ -1155,7 +1143,7 @@ if (isset($_GET['raden'])) {
                                 </div>
                                 <div class="top-links-item grey" id="topActionTrack"
                                     data-spm-click="gostr=/lzdpub.header.tbar;locaid=d4">
-                                    <span>BANDAR SITUS TOTO</span>
+                                    <span>LIST PRODUK</span>
                                     <div class="lzd-track-popup top-popup-wrap" id="lzdTrackPop">
                                         <div class="top-popup-content lzd-track-content">
                                             <div id="topActionMyLastOrder"></div>
@@ -1182,11 +1170,11 @@ if (isset($_GET['raden'])) {
                                 </div>
 
                                 <div class="top-links-item grey" id="anonLogin">
-                                    <a class="grey" href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>"
+                                    <a class="grey" href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d5">LOGIN</a>
                                 </div>
                                 <div class="top-links-item grey" id="anonSignup">
-                                    <a class="grey" href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>"
+                                    <a class="grey" href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>"
                                         data-spm-click="gostr=/lzdpub.header.tbar;locaid=d6">DAFTAR</a>
                                 </div>
                                 <div class="top-links-item top-links-item-hidden" id="topActionUserAccont"
@@ -1242,13 +1230,13 @@ if (isset($_GET['raden'])) {
                         <div class="lzd-logo-bar">
                             <div class="logo-bar-content header-content">
                                 <div class="lzd-logo-content">
-                                    <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" data-spm="dhome"><img
-                                            src="https://i.ibb.co/xgYwg8m/slot-gacor-12-30-2023.webp"
+                                    <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" data-spm="dhome"><img
+                                            src="https://makanmalam.xin/logo.png"
                                             alt="logo <?php echo $BRAND ?>" /></a>
                                 </div>
                                 <div class="lzd-nav-search" data-spm="search">
                                     <marquee behavior="" direction="">
-                                          <?php echo $BRAND ?> mencakup berbagai hal terkait Sistem Informasi Manajemen (SIM) yang dirancang untuk memudahkan pengelolaan data dan administrasi di madrasah. SIM Madrasah Digital adalah platform yang mengintegrasikan berbagai proses penting seperti pendaftaran siswa, absensi, nilai akademik, dan pelaporan keuangan secara online. Dengan adanya sistem ini, madrasah dapat melakukan pemantauan dan pengelolaan data secara lebih efisien, akurat, dan transparan
+                                          <?php echo $BRAND ?> merupakan sebagai sumber pendapatan petani utamanya dalam memenuhi sebagian kebutuhan.
                                     </marquee>
                                     <div id="button" data-spm-click="gostr=/lzdpub.header.search;locaid=d_go"></div>
                                 </div>
@@ -1260,7 +1248,7 @@ if (isset($_GET['raden'])) {
                                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                                             <div class="lzd-site-menu-nav-container">
                                                 <div class="lzd-site-menu-nav-category">
-                                                    <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                                    <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                                     </a>
                                                     <div class="lzd-site-menu-nav-menu">
@@ -1284,8 +1272,7 @@ if (isset($_GET['raden'])) {
                                                                         </a>
                                                                     </li>
                                                                     <li class="lzd-site-menu-root-item"
-                                                                        id="Level_1_Category_No3">
-                                                                        <a>
+                                                                        id="Level_1_Category_No3"><a>
                                                                             <span>Fashion &amp; Aksesoris Wanita</span>
                                                                         </a>
                                                                     </li>
@@ -1368,8 +1355,7 @@ if (isset($_GET['raden'])) {
                                                                             <a
                                                                                 href="https://www.lazada.co.id/beli-komputer/">
                                                                                 <span>Desktop</span>
-                                                                            </a>
-                                                                            <script type="text" class="J_data_0_2">
+                                                                            </a><script type="text" class="J_data_0_2">
                                           [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"PC Gaming","childCategoryUrl":"https://www.lazada.co.id/beli-pc-gaming/"},{"childCategoryName":"Komputer Rakitan","childCategoryUrl":"https://www.lazada.co.id/beli-komputer-rakitan/"},{"childCategoryName":"All-In-One","childCategoryUrl":"https://www.lazada.co.id/beli-pc-all-in-one/"}]
                                         </script>
                                                                         </li>
@@ -1420,8 +1406,7 @@ if (isset($_GET['raden'])) {
                                                                                 <span>Aksesoris Handphone</span>
                                                                             </a>
                                                                             <script type="text" class="J_data_1_0">
-                                          [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Powerbank","childCategoryUrl":"https://www.lazada.co.id/beli-power-bank/"},{"childCategoryName":"Kabel Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-kabel-handphone/"},{"childCategoryName":"Charger Handphone","childCategoryUrl":"https://www.lazada.co.id/jual-charger-kabel/"},{"childCategoryName":"Casing Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-sarung-pelindung-handphone/"},{"childCategoryName":"Pelindung Layar","childCategoryUrl":"https://www.lazada.co.id/jual-pelindung-layar/"},{"childCategoryName":"Tongsis","childCategoryUrl":"https://www.lazada.co.id/jual-tongsis/"},{"childCategoryName":"Phone Holder","childCategoryUrl":"https://www.lazada.co.id/jual-dudukan-mobil/"},{"childCategoryName":"Baterai Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-baterai-handphone/"},{"childCategoryName":"Peralatan & Suku Cadang","childCategoryUrl":"https://www.lazada.co.id/beli-suku-cadang-handphone/"},{"childCategoryName":"Aksesoris Handphone Lainnya","childCategoryUrl":"https://www.lazada.co.id/shop-aksesori-ponsel/"}]
-                                        </script>
+                                          [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Powerbank","childCategoryUrl":"https://www.lazada.co.id/beli-power-bank/"},{"childCategoryName":"Kabel Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-kabel-handphone/"},{"childCategoryName":"Charger Handphone","childCategoryUrl":"https://www.lazada.co.id/jual-charger-kabel/"},{"childCategoryName":"Casing Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-sarung-pelindung-handphone/"},{"childCategoryName":"Pelindung Layar","childCategoryUrl":"https://www.lazada.co.id/jual-pelindung-layar/"},{"childCategoryName":"Tongsis","childCategoryUrl":"https://www.lazada.co.id/jual-tongsis/"},{"childCategoryName":"Phone Holder","childCategoryUrl":"https://www.lazada.co.id/jual-dudukan-mobil/"},{"childCategoryName":"Baterai Handphone","childCategoryUrl":"https://www.lazada.co.id/beli-baterai-handphone/"},{"childCategoryName":"Peralatan & Suku Cadang","childCategoryUrl":"https://www.lazada.co.id/beli-suku-cadang-handphone/"},{"childCategoryName":"Aksesoris Handphone Lainnya","childCategoryUrl":"https://www.lazada.co.id/shop-aksesori-ponsel/"}]</script>
                                                                         </li>
                                                                         <li class="lzd-site-menu-sub-item"
                                                                             data-cate="cate_2_2">
@@ -1520,8 +1505,7 @@ if (isset($_GET['raden'])) {
                                                                             data-cate="cate_3_2">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/baju-muslim-wanita/">
-                                                                                <span>Baju Muslim</span>
-                                                                            </a>
+                                                                                <span>Baju Muslim</span></a>
                                                                             <script type="text" class="J_data_2_1">
                                           [{"childCategoryName":"Perlengkapan Shalat","childCategoryUrl":"https://www.lazada.co.id/baju-muslim-wanita/"},{"childCategoryName":"Hijab","childCategoryUrl":"https://www.lazada.co.id/hijab/"},{"childCategoryName":"Atasan Muslimah","childCategoryUrl":"https://www.lazada.co.id/atasan-muslimah-wanita/"},{"childCategoryName":"Baju Muslim & Jumpsuit","childCategoryUrl":"https://www.lazada.co.id/dress-muslimah/"},{"childCategoryName":"Bawahan Muslim","childCategoryUrl":"https://www.lazada.co.id/bawahan-muslimah/"},{"childCategoryName":"Luaran Muslim","childCategoryUrl":"https://www.lazada.co.id/jaket-dan-kardigan-wanita-muslim/"},{"childCategoryName":"Aksesoris Muslim","childCategoryUrl":"https://www.lazada.co.id/aksesoris-muslim-wanita/"},{"childCategoryName":"Baju Renang Muslim","childCategoryUrl":"https://www.lazada.co.id/jual-baju-renang-muslim-wanita/"},{"childCategoryName":"Baju Kurung","childCategoryUrl":"https://www.lazada.co.id/jual-baju-kurung-wanita/"}]
                                         </script>
@@ -1617,8 +1601,7 @@ if (isset($_GET['raden'])) {
                                                                                 <span>Pakaian Dalam</span>
                                                                             </a>
                                                                             <script type="text" class="J_data_3_2">
-                                          [{"childCategoryName":"Celana Dalam","childCategoryUrl":"https://www.lazada.co.id/celana-dalam-pria/"},{"childCategoryName":"Pakaian Tidur","childCategoryUrl":"https://www.lazada.co.id/baju-tidur-pria/"},{"childCategoryName":"Boxer","childCategoryUrl":"https://www.lazada.co.id/pakaian-dalam-boxer-pria/"},{"childCategoryName":"Thongs  & Lainnya","childCategoryUrl":"https://www.lazada.co.id/pakaian-dalam-pria-thongs-lainnya/"}]
-                                        </script>
+                                          [{"childCategoryName":"Celana Dalam","childCategoryUrl":"https://www.lazada.co.id/celana-dalam-pria/"},{"childCategoryName":"Pakaian Tidur","childCategoryUrl":"https://www.lazada.co.id/baju-tidur-pria/"},{"childCategoryName":"Boxer","childCategoryUrl":"https://www.lazada.co.id/pakaian-dalam-boxer-pria/"},{"childCategoryName":"Thongs  & Lainnya","childCategoryUrl":"https://www.lazada.co.id/pakaian-dalam-pria-thongs-lainnya/"}]</script>
                                                                         </li>
                                                                         <li class="lzd-site-menu-sub-item"
                                                                             data-cate="cate_4_4">
@@ -1820,8 +1803,7 @@ if (isset($_GET['raden'])) {
                                                                         </li>
                                                                         <li class="lzd-site-menu-sub-item"
                                                                             data-cate="cate_6_6">
-                                                                            <a
-                                                                                href="https://www.lazada.co.id/beli-parfum/">
+                                                                            <ahref="https://www.lazada.co.id/beli-parfum/">
                                                                                 <span>Parfum</span>
                                                                             </a>
                                                                             <script type="text" class="J_data_5_5">
@@ -1868,8 +1850,7 @@ if (isset($_GET['raden'])) {
                                           [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Kondom","childCategoryUrl":"https://www.lazada.co.id/beli-kondom"},{"childCategoryName":"Pelumas","childCategoryUrl":"https://www.lazada.co.id/beli-pelumas"}]
                                         </script>
                                                                         </li>
-                                                                        <li class="lzd-site-menu-sub-item"
-                                                                            data-cate="cate_6_11">
+                                                                        <li class="lzd-site-menu-sub-item"data-cate="cate_6_11">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/beli-perawatan-tubuh-kesehatan-pria/">
                                                                                 <span>Perawatan Pria</span>
@@ -1952,8 +1933,7 @@ if (isset($_GET['raden'])) {
                                         </script>
                                                                         </li>
                                                                         <li class="lzd-site-menu-sub-item"
-                                                                            data-cate="cate_7_7">
-                                                                            <a
+                                                                            data-cate="cate_7_7"><a
                                                                                 href="https://www.lazada.co.id/jual-perlengkapan-kamar-bayi/">
                                                                                 <span>Kamar Bayi</span>
                                                                             </a>
@@ -2215,8 +2195,7 @@ if (isset($_GET['raden'])) {
                                                                         <li class="lzd-site-menu-sub-item"
                                                                             data-cate="cate_9_11">
                                                                             <a
-                                                                                href="https://www.lazada.co.id/beli-media-musik-dan-buku/">
-                                                                                <span>Media, Musik &amp; Buku</span>
+                                                                                href="https://www.lazada.co.id/beli-media-musik-dan-buku/"><span>Media, Musik &amp; Buku</span>
                                                                             </a>
                                                                             <script type="text" class="J_data_8_10">
                                           [{"childCategoryName":"Instrumen Musik","childCategoryUrl":"https://www.lazada.co.id/instrumen-musik/"},{"childCategoryName":"Buku","childCategoryUrl":"https://www.lazada.co.id/buku/"},{"childCategoryName":"Musik","childCategoryUrl":"https://www.lazada.co.id/lagu/"},{"childCategoryName":"Majalah","childCategoryUrl":"https://www.lazada.co.id/majalah/"},{"childCategoryName":"Film","childCategoryUrl":"https://www.lazada.co.id/film/"}]
@@ -2267,8 +2246,7 @@ if (isset($_GET['raden'])) {
                                           [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Selai & Madu","childCategoryUrl":"https://www.lazada.co.id/beli-makanan-minuman-selai-madu-spread/"},{"childCategoryName":"Oatmeal","childCategoryUrl":"https://www.lazada.co.id/beli-oatmeal/"},{"childCategoryName":"Sereal Sarapan","childCategoryUrl":"https://www.lazada.co.id/beli-sereal/"},{"childCategoryName":"Tepung Pancake & Waffle","childCategoryUrl":"https://www.lazada.co.id/beli-pancake-waffle/"},{"childCategoryName":"Bars","childCategoryUrl":"https://www.lazada.co.id/shop-bar/"}]
                                         </script>
                                                                         </li>
-                                                                        <li class="lzd-site-menu-sub-item"
-                                                                            data-cate="cate_10_5">
+                                                                        <li class="lzd-site-menu-sub-item"data-cate="cate_10_5">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/beli-makanan-minuman-hasil-segar">
                                                                                 <span>Buah &amp; Sayur</span>
@@ -2324,8 +2302,7 @@ if (isset($_GET['raden'])) {
                                                                             data-cate="cate_11_1">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/baju-olahraga-pria/">
-                                                                                <span>Baju Olahraga Pria</span>
-                                                                            </a>
+                                                                                <span>Baju Olahraga Pria</span></a>
                                                                             <script type="text" class="J_data_10_0">
                                           [{"childCategoryName":"Celana Olahraga Pria","childCategoryUrl":"https://www.lazada.co.id/celana-panjang-dan-pendek-olahraga-pria/"},{"childCategoryName":"Kaos Olahraga Pria","childCategoryUrl":"https://www.lazada.co.id/kaos-olahraga-pria/"},{"childCategoryName":"Jaket Olahraga Pria","childCategoryUrl":"https://www.lazada.co.id/jaket-dan-parka-olahraga-pria/"},{"childCategoryName":"Pakaian Renang Pria","childCategoryUrl":"https://www.lazada.co.id/pakaian-renang-dan-selancar-pria/"},{"childCategoryName":"Jersey Olahraga Pria","childCategoryUrl":"https://www.lazada.co.id/jual-jersey-olahraga-pria/"},{"childCategoryName":"Celana Pendek Pria","childCategoryUrl":"https://www.lazada.co.id/jual-celana-pendek-olahraga-pria/"},{"childCategoryName":"Hoodies Pria","childCategoryUrl":"https://www.lazada.co.id/hoodies-pria/"},{"childCategoryName":"Topi Olahraga Pria","childCategoryUrl":"https://www.lazada.co.id/jual-topi-olahraga-pria/"},{"childCategoryName":"Tas Ransel Sport Pria","childCategoryUrl":"https://www.lazada.co.id/tas-ransel-sport-pria/"},{"childCategoryName":"Tas Serut Pria","childCategoryUrl":"https://www.lazada.co.id/tas-serut-pria/"},{"childCategoryName":"Tas Duffel Pria","childCategoryUrl":"https://www.lazada.co.id/tas-duffel-pria/"},{"childCategoryName":"Gym Tote Pria","childCategoryUrl":"https://www.lazada.co.id/gym-tote-pria/"}]
                                         </script>
@@ -2400,8 +2377,7 @@ if (isset($_GET['raden'])) {
                                           [{"childCategoryName":"Kapal","childCategoryUrl":"https://www.lazada.co.id/jual-kapal/"},{"childCategoryName":"Peralatan Menyelam","childCategoryUrl":"https://www.lazada.co.id/diving-snorkeling/"},{"childCategoryName":"Peralatan Renang","childCategoryUrl":"https://www.lazada.co.id/renang/"},{"childCategoryName":"Papan Renang","childCategoryUrl":"https://www.lazada.co.id/jual-olahraga-papan/"},{"childCategoryName":"Tubing dan Towables","childCategoryUrl":"https://www.lazada.co.id/jual-tubing-towables/"},{"childCategoryName":"Akesesoris Olahraga Air","childCategoryUrl":"https://www.lazada.co.id/jual-aksesoris-olahraga-air/"}]
                                         </script>
                                                                         </li>
-                                                                        <li class="lzd-site-menu-sub-item"
-                                                                            data-cate="cate_11_9">
+                                                                        <li class="lzd-site-menu-sub-item"data-cate="cate_11_9">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/latihan-dan-fitness/">
                                                                                 <span>Gym, Yoga &amp; Fitness</span>
@@ -2447,8 +2423,7 @@ if (isset($_GET['raden'])) {
                                                                             data-cate="cate_12_1">
                                                                             <a
                                                                                 href="https://www.lazada.co.id/shop-auto-parts-spares/">
-                                                                                <span>Suku Cadang &amp; Peralatan
-                                                                                    Mobil</span>
+                                                                                <span>Suku Cadang &amp; PeralatanMobil</span>
                                                                             </a>
                                                                             <script type="text" class="J_data_11_0">
                                           [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Lampu, Bohlam & LED","childCategoryUrl":"https://www.lazada.co.id/shop-bohlam-led-hid/"},{"childCategoryName":"Rem","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-brake-system/"},{"childCategoryName":"Suspensi","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-shocks-struts-suspension/"},{"childCategoryName":"Suku Cadang Mesin","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-engine-parts/"},{"childCategoryName":"Suku Cadang Body","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-body-parts/"},{"childCategoryName":"Knalpot & Aksesoris","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-exhaust-emissions/"},{"childCategoryName":"Aki Mobil","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-batteries-accessories/"},{"childCategoryName":"Wiper & Aksesoris","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-windshield-wipers-washers/"},{"childCategoryName":"Klakson & Aksesoris","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-horns-accessories/"},{"childCategoryName":"Peralatan Pengapian & Kelistrikan","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-ignition-electrical/"},{"childCategoryName":"Peralatan & Suku Cadang Lainya","childCategoryUrl":"https://www.lazada.co.id/shop-automotive-trim/"}]
@@ -2487,8 +2462,7 @@ if (isset($_GET['raden'])) {
                                                                         </li>
                                                                         <li class="lzd-site-menu-sub-item"
                                                                             data-cate="cate_12_5">
-                                                                            <a
-                                                                                href="https://www.lazada.co.id/shop-perawatan-mobil/">
+                                                                            <ahref="https://www.lazada.co.id/shop-perawatan-mobil/">
                                                                                 <span>Perawatan &amp; Pengkilat
                                                                                     Mobil</span>
                                                                             </a>
@@ -2581,18 +2555,17 @@ if (isset($_GET['raden'])) {
                                                         href="//pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&amp;wx_navbar_transparent=true&amp;data_prefetch=true&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459">
                                                         <span
                                                             class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                                                            <img alt="TOTO TOGEL" class="lzd-site-nav-menu-iconfont-img"
+                                                            <img alt="HOME" class="lzd-site-nav-menu-iconfont-img"
                                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
                                                         </span>
                                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
-                                                        <span class="lzd-menu-labels-item-text">TOTO TOGEL</span>
+                                                        <span class="lzd-menu-labels-item-text">HOME</span>
                                                     </a>
                                                     <a class="lzd-menu-labels-item"
                                                         href="//pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&amp;scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459">
                                                         <span
                                                             class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                                                            <img alt="Pulsa &amp;"
-                                                                class="lzd-site-nav-menu-iconfont-img"
+                                                            <img alt="Pulsa &amp;"class="lzd-site-nav-menu-iconfont-img"
                                                                 src="//laz-img-cdn.alicdn.com/images/ims-web/TB1Je4vhRr0gK0jSZFnXXbRRXXa.png" />
                                                         </span>
                                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
@@ -2627,7 +2600,7 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <div class="lzd-nav-cart">
-                                    <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>" data-spm="dcart"><span class="cart-icon"></span>
+                                    <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>" data-spm="dcart"><span class="cart-icon"></span>
                                         <span class="cart-num" id="topActionCartNumber"></span></a>
                                 </div>
                                 <div class="lzd-header-banner" id="topActionLiveUpBanner"></div>
@@ -2641,7 +2614,7 @@ if (isset($_GET['raden'])) {
                             data-mod-name="@ali/lzdmod-site-menu-nav-pc/pc/index" data-config="{}">
                             <div class="lzd-site-menu-nav-container">
                                 <div class="lzd-site-menu-nav-category">
-                                    <a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                    <a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-menu-nav-category-text">Kategori</span>
                                     </a>
                                     <div class="lzd-site-menu-nav-menu">
@@ -2683,8 +2656,7 @@ if (isset($_GET['raden'])) {
                                                     </li>
                                                     <li class="lzd-site-menu-root-item" id="Level_1_Category_No7">
                                                         <a>
-                                                            <span>Bayi &amp; Mainan</span>
-                                                        </a>
+                                                            <span>Bayi &amp; Mainan</span></a>
                                                     </li>
                                                     <li class="lzd-site-menu-root-item" id="Level_1_Category_No8">
                                                         <a>
@@ -2850,8 +2822,7 @@ if (isset($_GET['raden'])) {
                                 </script>
                                                         </li>
                                                         <li class="lzd-site-menu-sub-item" data-cate="cate_3_2">
-                                                            <a href="https://www.lazada.co.id/baju-muslim-wanita/">
-                                                                <span>Baju Muslim</span>
+                                                            <a href="https://www.lazada.co.id/baju-muslim-wanita/"><span>Baju Muslim</span>
                                                             </a>
                                                             <script type="text" class="J_data_2_1">
                                   [{"childCategoryName":"Perlengkapan Shalat","childCategoryUrl":"https://www.lazada.co.id/baju-muslim-wanita/"},{"childCategoryName":"Hijab","childCategoryUrl":"https://www.lazada.co.id/hijab/"},{"childCategoryName":"Atasan Muslimah","childCategoryUrl":"https://www.lazada.co.id/atasan-muslimah-wanita/"},{"childCategoryName":"Baju Muslim & Jumpsuit","childCategoryUrl":"https://www.lazada.co.id/dress-muslimah/"},{"childCategoryName":"Bawahan Muslim","childCategoryUrl":"https://www.lazada.co.id/bawahan-muslimah/"},{"childCategoryName":"Luaran Muslim","childCategoryUrl":"https://www.lazada.co.id/jaket-dan-kardigan-wanita-muslim/"},{"childCategoryName":"Aksesoris Muslim","childCategoryUrl":"https://www.lazada.co.id/aksesoris-muslim-wanita/"},{"childCategoryName":"Baju Renang Muslim","childCategoryUrl":"https://www.lazada.co.id/jual-baju-renang-muslim-wanita/"},{"childCategoryName":"Baju Kurung","childCategoryUrl":"https://www.lazada.co.id/jual-baju-kurung-wanita/"}]
@@ -3397,7 +3368,7 @@ if (isset($_GET['raden'])) {
                                                                 <span>Binatu &amp; Alat Kebersihan</span>
                                                             </a>
                                                             <script type="text" class="J_data_8_6">
-                                  [{"childCategoryName":"Gantungan Baju","childCategoryUrl":"https://www.lazada.co.id/gantungan-baju/"},{"childCategoryName":"Keranjang Baju","childCategoryUrl":"https://www.lazada.co.id/keranjang-cucian/"},{"childCategoryName":"Jemuran Pakaian","childCategoryUrl":"https://www.lazada.co.id/rak-pengering/"},{"childCategoryName":"Alat Binatu & Setrika","childCategoryUrl":"https://www.lazada.co.id/beli-alat-binatu-setrika/"},{"childCategoryName":"Meja Setrika","childCategoryUrl":"https://www.lazada.co.id/papan-setrika/"},{"childCategoryName":"Produk Kebersihan","childCategoryUrl":"https://www.lazada.co.id/beli-makanan-minuman-pembersihan/"},{"childCategoryName":"Sapu & Alat Pel","childCategoryUrl":"https://www.lazada.co.id/beli-sapu-pel/"},{"childCategoryName":"Lap Kain Penghilang Debu","childCategoryUrl":"https://www.lazada.co.id/shop-Sapu-Sikat-Kemoceng/"},{"childCategoryName":"Sikat Pembersih","childCategoryUrl":"https://www.lazada.co.id/beli-makanan-minuman-aksesoris-pembersih/"},{"childCategoryName":"Tempat Sampah","childCategoryUrl":"https://www.lazada.co.id/tempat-sampah/"}]
+                                  [{"childCategoryName":"Gantungan Baju","childCategoryUrl":"https://www.lazada.co.id/gantungan-baju/"},{"childCategoryName":"Keranjang Baju","childCategoryUrl":"https://www.lazada.co.id/keranjang-cucian/"},{"childCategoryName":"Jemuran Pakaian","childCategoryUrl":"https://www.lazada.co.id/rak-pengering/"},{"childCategoryName":"AlatBinatu & Setrika","childCategoryUrl":"https://www.lazada.co.id/beli-alat-binatu-setrika/"},{"childCategoryName":"Meja Setrika","childCategoryUrl":"https://www.lazada.co.id/papan-setrika/"},{"childCategoryName":"Produk Kebersihan","childCategoryUrl":"https://www.lazada.co.id/beli-makanan-minuman-pembersihan/"},{"childCategoryName":"Sapu & Alat Pel","childCategoryUrl":"https://www.lazada.co.id/beli-sapu-pel/"},{"childCategoryName":"Lap Kain Penghilang Debu","childCategoryUrl":"https://www.lazada.co.id/shop-Sapu-Sikat-Kemoceng/"},{"childCategoryName":"Sikat Pembersih","childCategoryUrl":"https://www.lazada.co.id/beli-makanan-minuman-aksesoris-pembersih/"},{"childCategoryName":"Tempat Sampah","childCategoryUrl":"https://www.lazada.co.id/tempat-sampah/"}]
                                 </script>
                                                         </li>
                                                         <li class="lzd-site-menu-sub-item" data-cate="cate_9_8">
@@ -3437,8 +3408,7 @@ if (isset($_GET['raden'])) {
                                                         </li>
                                                     </ul>
                                                     <ul class="lzd-site-menu-sub Level_1_Category_No10"
-                                                        data-spm="cate_10">
-                                                        <li class="lzd-site-menu-sub-item" data-cate="cate_10_1">
+                                                        data-spm="cate_10"><li class="lzd-site-menu-sub-item" data-cate="cate_10_1">
                                                             <a href="https://www.lazada.co.id/beli-minuman/">
                                                                 <span>Minuman</span>
                                                             </a>
@@ -3697,8 +3667,7 @@ if (isset($_GET['raden'])) {
                                   [{"childCategoryName":"","childCategoryUrl":""},{"childCategoryName":"Bohlam, LED & Rumah Lampu","childCategoryUrl":"https://www.lazada.co.id/shop-penerangan/"},{"childCategoryName":"Rem & Suspensi","childCategoryUrl":"https://www.lazada.co.id/shop-motorcycle-brakes-suspension/"},{"childCategoryName":"Knalpot & Aksesoris","childCategoryUrl":"https://www.lazada.co.id/moto-knalpot-system-pembuangan/"},{"childCategoryName":"Aki Motor & Aksesoris","childCategoryUrl":"https://www.lazada.co.id/shop-moto-batteries-accessories/"},{"childCategoryName":"Kaca / Cermin","childCategoryUrl":"https://www.lazada.co.id/shop-motorcycle-mirrors/"},{"childCategoryName":"Filter Motor","childCategoryUrl":"https://www.lazada.co.id/shop-saringan-udara/"},{"childCategoryName":"Suku Cadang Bodi & Rangka","childCategoryUrl":"https://www.lazada.co.id/shop-motorcycle-body-frame/"},{"childCategoryName":"Suku Cadang Mesin","childCategoryUrl":"https://www.lazada.co.id/shop-motorcycle-drivetrain-transmission/"},{"childCategoryName":"Busi","childCategoryUrl":"https://www.lazada.co.id/shop-busi-motor/"},{"childCategoryName":"Suku Cadang Motor Lainnya","childCategoryUrl":"https://www.lazada.co.id/shop-motorcycle-stands-accessories/"}]
                                 </script>
                                                         </li>
-                                                        <li class="lzd-site-menu-sub-item" data-cate="cate_12_10">
-                                                            <a
+                                                        <li class="lzd-site-menu-sub-item" data-cate="cate_12_10"><a
                                                                 href="https://www.lazada.co.id/shop-motorcycle-exterior-accessories/">
                                                                 <span>Aksesoris &amp; Elektronik Motor</span>
                                                             </a>
@@ -3730,15 +3699,15 @@ if (isset($_GET['raden'])) {
                                     </div>
                                 </div>
                                 <nav class="lzd-menu-labels" data-spm="menu">
-                                    <a class="lzd-menu-labels-item" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                    <a class="lzd-menu-labels-item" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                                            <img alt="TOTO TOGEL" class="lzd-site-nav-menu-iconfont-img"
+                                            <img alt="HOME" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
                                         </span>
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-LazMall">&#xe629;</i>-->
-                                        <span class="lzd-menu-labels-item-text">TOTO TOGEL</span>
+                                        <span class="lzd-menu-labels-item-text">HOME</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                    <a class="lzd-menu-labels-item" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
                                             <img alt="<?php echo $BRAND ?>" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
@@ -3746,21 +3715,21 @@ if (isset($_GET['raden'])) {
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-MobileTop1">&#xe768;</i>-->
                                         <span class="lzd-menu-labels-item-text"><?php echo $BRAND ?></span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                    <a class="lzd-menu-labels-item" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                                            <img alt="BANDAR TOGEL" class="lzd-site-nav-menu-iconfont-img"
+                                            <img alt="LIST" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
                                         </span>
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-channel-Vouchers">&#xe76a;</i>-->
-                                        <span class="lzd-menu-labels-item-text">BANDAR TOGEL</span>
+                                        <span class="lzd-menu-labels-item-text">LIST</span>
                                     </a>
-                                    <a class="lzd-menu-labels-item" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>">
+                                    <a class="lzd-menu-labels-item" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>">
                                         <span class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon">
-                                            <img alt="SITUS TOTO" class="lzd-site-nav-menu-iconfont-img"
+                                            <img alt="PRODUK" class="lzd-site-nav-menu-iconfont-img"
                                                 src="https://imgsaya.io/download/AXDNwWVl.gif" />
                                         </span>
                                         <!--<i class="lzd-site-nav-menu-iconfont lzd-menu-labels-item-icon lazada-ic-Categories">&#xe765;</i>-->
-                                        <span class="lzd-menu-labels-item-text">SITUS TOTO</span>
+                                        <span class="lzd-menu-labels-item-text">PRODUK</span>
                                     </a>
                                 </nav>
                             </div>
@@ -3952,8 +3921,7 @@ if (isset($_GET['raden'])) {
                         font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
                         max-width: 200px;
                         white-space: nowrap;
-                        line-height: 16px;
-                        overflow: hidden;
+                        line-height: 16px;overflow: hidden;
                         text-overflow: ellipsis;
                     }
 
@@ -4064,8 +4032,8 @@ if (isset($_GET['raden'])) {
                             <div class="gallery-preview-panel">
                                 <div class="gallery-preview-panel__content">
                                     <img class="pdp-mod-common-image gallery-preview-panel__image"
-                                        alt="<?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital"
-                                        src="https://i.imgur.com/2pTFwbL.jpeg" />
+                                        alt="<?php echo $BRAND ?> ANALISIS KELAYAKAN"
+                                        src="https://imagizer.imageshack.com/img924/1703/YKBQZL.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -4111,12 +4079,12 @@ if (isset($_GET['raden'])) {
                                 <div class="pdp-product-title">
                                     <div class="pdp-mod-product-badge-wrapper">
                                         <h1 class="pdp-mod-product-badge-title">
-                                            <?php echo $BRAND ?> Informasi Penting Seputar SIM Madrasah Digital
+                                            <?php echo $BRAND ?> ANALISIS KELAYAKAN
                                         </h1>
                                         <div class="n-columns-2">
-                                            <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noreferrer"
+                                            <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer"
                                                 class="login">LOGIN</a>
-                                            <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noreferrer"
+                                            <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noreferrer"
                                                 class="register">DAFTAR</a>
                                         </div>
                                     </div>
@@ -4140,7 +4108,7 @@ if (isset($_GET['raden'])) {
                                                     src="https://i.gyazo.com/7b17449b7b047a1f1a859a29ec996e97.png" />
                                             </div>
                                             <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-review-summary__link"
-                                                data-spm-anchor-id="12anj4u.pdp_revamp.0.0">11.111 Penilaian</a>
+                                                data-spm-anchor-id="12anj4u.pdp_revamp.0.0">2.534.442 Penilaian</a>
                                         </div>
                                     </div>
                                 </div>
@@ -4161,7 +4129,7 @@ if (isset($_GET['raden'])) {
                                     <span class="pdp-product-brand__name">Merek<!-- -->:<!-- -->
                                     </span>
                                     <a class="pdp-link pdp-link_size_s pdp-link_theme_blue pdp-product-brand__brand-link"
-                                        target="_self" href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>"><?php echo $BRAND ?></a>
+                                        target="_self" href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>"><?php echo $BRAND ?></a>
                                     <div class="pdp-product-brand__divider"></div>
                                 </div>
                             </div>
@@ -4175,10 +4143,10 @@ if (isset($_GET['raden'])) {
                                             <div class="pdp-product-price" bis_skin_checked="1">
                                                 <span
                                                     class="notranslate pdp-price pdp-price_type_normal pdp-price_color_orange pdp-price_size_xl"
-                                                    data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdUG5ius">Rp 10.000</span>
+                                                    data-spm-anchor-id="12anj4u.pdp_revamp.0.i0.241073bdUG5ius">Rp 53.000</span>
                                                 <div class="origin-block" bis_skin_checked="1">
                                                     <span
-                                                        class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp 100.000</span><span
+                                                        class="notranslate pdp-price pdp-price_type_deleted pdp-price_color_lightgray pdp-price_size_xs">Rp 530.000</span><span
                                                         class="pdp-product-price__discount">-90%</span>
                                                 </div>
                                             </div>
@@ -4199,8 +4167,7 @@ if (isset($_GET['raden'])) {
                                                     <div class="next-number-picker-handler-wrap" bis_skin_checked="1">
                                                         <a unselectable="unselectable"
                                                             class="next-number-picker-handler next-number-picker-handler-up">
-                                                            <span unselectable="unselectable"
-                                                                class="next-number-picker-handler-up-inner"><i
+                                                            <span unselectable="unselectable"class="next-number-picker-handler-up-inner"><i
                                                                     class="next-icon next-icon-add next-icon-medium"></i></span>
                                                         </a>
                                                         <a unselectable="unselectable"
@@ -4259,7 +4226,7 @@ if (isset($_GET['raden'])) {
                                 }
                             </style>
                             <div class="content">
-                                <p><a href="https://mtsn1pati.sch.id/mas/<?php echo $SMALLBRAND ?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> mencakup berbagai hal terkait Sistem Informasi Manajemen (SIM) yang dirancang untuk memudahkan pengelolaan data dan administrasi di madrasah. SIM Madrasah Digital adalah platform yang mengintegrasikan berbagai proses penting seperti pendaftaran siswa, absensi, nilai akademik, dan pelaporan keuangan secara online. Dengan adanya sistem ini, madrasah dapat melakukan pemantauan dan pengelolaan data secara lebih efisien, akurat, dan transparan</p>
+                                <p><a href="https://mikhmon.pbw.ac.id/layak/?blog=<?php echo $SMALLBRAND ?>"><strong  style="color: rgb(255, 0, 0);"><?php echo $BRAND ?></strong></a> merupakan sebagai sumber pendapatan petani utamanya dalam memenuhi sebagian kebutuhan.</p>
 
                             </div>
                             <div id="block-O-HF3LN4YVI" class="pdp-block pdp-block__delivery-seller">
@@ -4324,8 +4291,7 @@ if (isset($_GET['raden'])) {
                                                 return (
                                                     encodeURIComponent(key) +
                                                     "=" +
-                                                    encodeURIComponent(args[key])
-                                                );
+                                                    encodeURIComponent(args[key]));
                                             })
                                             .join("&");
                                         query = "&" + query;
@@ -4536,8 +4502,7 @@ if (isset($_GET['raden'])) {
                                                     <div class="pull-left" style="width: 290px">
                                                         <a class="lzd-footer-sprit pull-left icon-appStore-footer icon-appstore-footer"
                                                             href="https://bit.ly/lazada-ios-app"></a>
-                                                        <a class="lzd-footer-sprit pull-left icon-android-footer icon-appstore-footer"
-                                                            href="https://bit.ly/lazada-android-app"></a>
+                                                        <a class="lzd-footer-sprit pull-left icon-android-footer icon-appstore-footer"href="https://bit.ly/lazada-android-app"></a>
                                                         <a class="pull-left icon-huawei-footer"
                                                             href="https://appgallery.huawei.com/#/app/C100164557"></a>
                                                     </div>
@@ -4622,8 +4587,7 @@ if (isset($_GET['raden'])) {
                                                 <a class="lzd-footer-sprit lzd-footer-country country-ph"
                                                     href="https://www.lazada.com.ph"></a>
                                                 <a class="lzd-footer-sprit lzd-footer-country country-sg"
-                                                    href="https://www.lazada.sg"></a>
-                                                <a class="lzd-footer-sprit lzd-footer-country country-th"
+                                                    href="https://www.lazada.sg"></a><a class="lzd-footer-sprit lzd-footer-country country-th"
                                                     href="https://www.lazada.co.th"></a>
                                                 <a class="lzd-footer-sprit lzd-footer-country country-vn"
                                                     href="https://www.lazada.vn"></a>
@@ -4841,8 +4805,7 @@ if (isset($_GET['raden'])) {
                                                     };
                                                     window.__wpk.report({
                                                         category: categories[name],
-                                                        msg: window.location.host,
-                                                        wl_avgv1: delta,
+                                                        msg: window.location.host,wl_avgv1: delta,
                                                         bl1:
                                                             entry &&
                                                                 Object.prototype.toString.call(entry) ===
@@ -4969,27 +4932,27 @@ if (isset($_GET['raden'])) {
         }
     </style>
     <div class="fixed-footer">
-        <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/b7xLqRHm.png" alt="PROMO <?php echo $BRAND ?>">
             Promosi
         </a>
-        <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/ZHjG06fN.png" alt="LOGIN <?php echo $BRAND ?>">
             Login
         </a>
-        <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank" class="tada">
+        <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank" class="tada">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/oZiKl4eN.png" alt="DAFTAR <?php echo $BRAND ?>">
             Daftar
         </a>
-        <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank">
+        <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank">
             <img layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/iL49K1wl.webp" alt="LINK <?php echo $BRAND ?>">
             Link
         </a>
-        <a href="https://rongorong.xin/all/?page=<?php echo $BRAND ?>" rel="nofollow noopener" target="_blank"
+        <a href="https://makanmalam.xin/new/?page=<?php echo $SMALLBRAND ?>" rel="nofollow noopener" target="_blank"
             class="js_live_chat_link live-chat-link">
             <img class="live-chat-icon" layout="intrinsic" height="20px" width="20px"
                 src="https://imgsaya.io/download/Rv9PWSHi.png" alt="LIVECHAT <?php echo $BRAND ?>">
