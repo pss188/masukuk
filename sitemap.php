@@ -1,5 +1,5 @@
 <?php
-$listFile = 'https://pastebin.com/raw/tmRM07Ln'; 
+$listFile = 'lulus.txt'; 
 $listContent = file_get_contents($listFile);
 
 if ($listContent === false) {
@@ -13,7 +13,7 @@ $posts = explode(PHP_EOL, trim($listContent));
 $pages = [];
 
 foreach ($posts as $post) {
-    $url = 'https://www.hargaac.co.id/ac/' . trim($post);
+    $url = 'https://pesanku.co.id/?bangbos=' . trim($post);
     $pages[] = [
         'loc' => $url,
         'lastmod' => date('Y-m-d'),
