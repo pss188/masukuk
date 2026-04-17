@@ -1,7615 +1,4012 @@
-<!DOCTYPE html>
-<html lang="en-GB" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" data-user-id="1135369000" data-user-login-name="r6cailhwo6qt62hc" data-user-is-seller="false" style="--vh: 18.23px;"><head>
-<script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KWW5SS" nonce=""></script><script async="" defer src="https://www.etsy.com/include/tags.js"></script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KWW5SS" nonce=""></script><script async="" defer src="https://www.etsy.com/include/tags.js"></script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KWW5SS" nonce=""></script><script async="" defer src="https://www.etsy.com/include/tags.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-1001213127&amp;cx=c&amp;gtm=4e5a10" nonce=""></script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js" nonce=""></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KWW5SS" nonce=""></script><script async="" defer src="https://www.etsy.com/include/tags.js"></script><script>if (window.performance && performance.mark) performance.mark("TTP")</script>
-<title>JENDELATOTO Slot Gacor Slot88 Situs Slot Resmi Terpercaya Slot Thailand Maxwin</title>
-<link rel="amphtml" href="https://insurancecoveredbabyformula.pages.dev/" />
-<link rel="canonical" href="https://insurancecoveredbabyformula.com/" />
-<meta name="description" content="Jendelatoto koleksi lengkap slot gacor Slot88 di situs slot resmi terpercaya kami Dapatkan pengalaman bermain slot Thailand asli dengan peluang maxwin tertinggi Daftar sekarang dan raih kemenangan besar." />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta http-equiv="content-language" content="en-ID" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="pinterest" content="nosearch" />
-<meta name="copyright" content="SLOT GACOR" />
-<meta name="author" content="SLOT GACOR" />
-<meta name="distribution" content="global" />
-<meta name="publisher" content="SLOT GACOR" />
-<meta name="robots" content="index, follow" />
-<meta name="rating" content="general" />
-<meta name="csrf_nonce" content="3:1758149097:dhZrk-AdJ47e9IJVdmcu4hbuTQxs:8485c7771677cb0c66bf59dd26bcf28f220d75631d44099ba3e9430bdb590555" />
-<meta name="uaid_nonce" content="3:1758149097:jN5WV4yGC6bv-Y8gTz1rwqhWHeiQ:0cafa0e88e72ec07d7547dabb6a6d89ba489d98702d5b9d61cec91e06677cb61" />
-<meta property="fb:app_id" content="89186614300" />
-<meta name="css_dist_path" content="/ac/sasquatch/css/" />
-<meta name="dist" content="202509171758147727" />
-<meta name="twitter:site" content="@Etsy" value="" />   
-<meta name="twitter:card" content="summary_large_image" value="" />
-<meta name="twitter:app:name:iphone" content="Etsy" value="" />
-<meta name="twitter:app:url:iphone" content="etsy://listing/1790774795?ref=TwitterProductCard" value="" />
-<meta name="twitter:app:id:iphone" content="477128284" value="" />
-<meta name="twitter:app:name:ipad" content="Etsy" value="" />
-<meta name="twitter:app:url:ipad" content="etsy://listing/1790774795?ref=TwitterProductCard" value="" />
-<meta name="twitter:app:id:ipad" content="477128284" value="" />
-<meta name="twitter:app:name:googleplay" content="Etsy" value="" />
-<meta name="twitter:app:url:googleplay" content="etsy://listing/1790774795?ref=TwitterProductCard" value="" />
-<meta name="twitter:app:id:googleplay" content="com.etsy.android" value="" />
-<meta property="og:title" content="JENDELATOTO Slot Gacor Slot88 Situs Slot Resmi Terpercaya Slot Thailand Maxwin" />
-<meta property="og:description" content="Jendelatoto koleksi lengkap slot gacor Slot88 di situs slot resmi terpercaya kami Dapatkan pengalaman bermain slot Thailand asli dengan peluang maxwin tertinggi Daftar sekarang dan raih kemenangan besar." />
-<meta property="og:type" content="product" />
-<meta property="og:url" content="https://insurancecoveredbabyformula.com/" />
-<meta property="og:image" content="https://imagizer.imageshack.com/img924/157/C6MWMM.jpg" />
-<meta property="product:price:amount" content="5.20" /><meta property="product:price:currency" content="USD" />
-<link rel="shortcut icon" href="https://insurancecoveredbabyformula.pages.dev/favicon.png" />
-<link rel="icon" href="https://insurancecoveredbabyformula.pages.dev/favicon.png" type="image/png" sizes="32x32" />
-<link rel="icon" href="https://insurancecoveredbabyformula.pages.dev/favicon.png" type="image/png" sizes="16x16" />
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" sizes="180x180" />
-<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="rgb(241, 100, 30)" />
-<link rel="manifest" href="/site.webmanifest" />
-<meta name="apple-mobile-web-app-title" content="Etsy" /><meta name="application-name" content="Etsy" /><meta name="msapplication-TileColor" content="#F1641E" /><meta name="theme-color" content="rgb(255, 255, 255)" />
-<link rel="preconnect" href="//i.etsystatic.com" crossorigin="anonymous" />
-<link rel="preconnect" href="//i.etsystatic.com" />
-<link rel="preconnect" href="//v.etsystatic.com" />
-<link rel="preconnect" href="//v.etsystatic.com" crossorigin="anonymous" />
-<link rel="preload" as="image" imagesrcset="https://imagizer.imageshack.com/img924/157/C6MWMM.jpg" fetchpriority="high" />
-<link rel="alternate" href="https://insurancecoveredbabyformula.com/" hreflang="en" />
-<link rel="alternate" href="https://www.etsy.com/fi-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-FI" />
-<link rel="alternate" href="https://www.etsy.com/au/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-AU" />
-<link rel="alternate" href="https://www.etsy.com/ca/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-CA" />
-<link rel="alternate" href="https://www.etsy.com/dk-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-DK" />
-<link rel="alternate" href="https://www.etsy.com/hk-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-HK" />
-<link rel="alternate" href="https://www.etsy.com/ie/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-IE" />
-<link rel="alternate" href="https://www.etsy.com/il-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-IL" />
-<link rel="alternate" href="https://www.etsy.com/in-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-IN" />
-<link rel="alternate" href="https://www.etsy.com/nz/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-NZ" />
-<link rel="alternate" href="https://www.etsy.com/no-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-NO" />
-<link rel="alternate" href="https://www.etsy.com/se-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-SE" />
-<link rel="alternate" href="https://www.etsy.com/sg-en/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-SG" />
-<link rel="alternate" href="https://www.etsy.com/uk/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="en-GB" />
-<link rel="alternate" href="https://www.etsy.com/de/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="de" />
-<link rel="alternate" href="https://www.etsy.com/at/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="de-AT" />
-<link rel="alternate" href="https://www.etsy.com/ch/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="de-CH" />
-<link rel="alternate" href="https://www.etsy.com/fr/listing/1790774795/impression-club-de-lecture-affiche" hreflang="fr" />
-<link rel="alternate" href="https://www.etsy.com/ca-fr/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="fr-CA" />
-<link rel="alternate" href="https://www.etsy.com/nl/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="nl" />
-<link rel="alternate" href="https://www.etsy.com/be/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="nl-BE" />
-<link rel="alternate" href="https://www.etsy.com/it/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="it" />
-<link rel="alternate" href="https://www.etsy.com/es/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="es" />
-<link rel="alternate" href="https://www.etsy.com/mx/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="es-MX" />
-<link rel="alternate" href="https://www.etsy.com/jp/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="ja" />
-<link rel="alternate" href="https://www.etsy.com/pl/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="pl" />
-<link rel="alternate" href="https://www.etsy.com/pt/listing/1790774795/book-club-print-bookish-poster-trendy" hreflang="pt" />
-<link rel="alternate" href="https://insurancecoveredbabyformula.com/" hreflang="x-default" />
-<link rel="alternate" href="https://insurancecoveredbabyformula.com/" hreflang="en-US" />
-<script nonce="">
-    !function(e){var r=e.__etsy_logging={};r.errorQueue=[],e.onerror=function(e,o,t,n,s){r.errorQueue.push([e,o,t,n,s])},r.firedEvents=[];r.perf={e:[],t:!1,MARK_MEASURE_PREFIX:"_etsy_mark_measure_",prefixMarkMeasure:function(e){return"_etsy_mark_measure_"+e}},e.PerformanceObserver&&(r.perf.o=new PerformanceObserver((function(e){r.perf.e=r.perf.e.concat(e.getEntries())})),r.perf.o.observe({entryTypes:["element","navigation","longtask","paint","mark","measure","resource","layout-shift"]}));var o=[];r.eventpipe={q:o,logEvent:function(e){o.push(e)},logEventImmediately:function(e){o.push(e)}};var t=!(Object.assign&&Object.values&&Object.fromEntries&&e.Promise&&Promise.prototype.finally&&e.NodeList&&NodeList.prototype.forEach),n=!!e.CefSharp||!!e.__pw_resume,s=!e.PerformanceObserver||!PerformanceObserver.supportedEntryTypes||0===PerformanceObserver.supportedEntryTypes.length,a=!e.navigator||!e.navigator.sendBeacon,p=t||n,u=[];t&&u.push("fp"),s&&u.push("fo"),a&&u.push("fb"),n&&u.push("fg"),r.bots={isBot:p,botCheck:u}}(window);
-</script>
-<link rel="stylesheet" href="https://www.etsy.com/dac/site-chrome/components/components.ba269cdecb93d2,site-chrome/header/header.c0f395ece04ab8,web-toolkit-v2/modules/subway/subway.ba269cdecb93d2,__modules__CategoryNav__src__/Views/ButtonMenu/Menu.02149cde20b454,__modules__CategoryNav__src__/Views/DropdownMenu/Menu.ba269cdecb93d2,site-chrome/footer/footer.ba269cdecb93d2,gdpr/settings-overlay.ba269cdecb93d2.css?variant=sasquatch" type="text/css" />
-<link rel="stylesheet" href="https://www.etsy.com/dac/neu/modules/listing_card_no_imports.ba269cdecb93d2,common/stars-svg.ba269cdecb93d2,neu/modules/favorite_listing_button.ba269cdecb93d2,neu/modules/quickview.ba269cdecb93d2,listzilla/responsive/listing-page-desktop.ba269cdecb93d2,category-nav/v2/breadcrumb_nav.fe3bd9d216295e,common/grid.fe3bd9d216295e,listings3/similar-items.ba269cdecb93d2,neu/common/responsive_listing_grid.ba269cdecb93d2,neu/modules/favorite_button_defaults_no_imports.ba269cdecb93d2,common/listing_card_text_badge.fe3bd9d216295e,neu/modules/listing_card_signals.9293ad9010af5b,__modules__ListingPage__src__/TrustSuiteBanner/styles.ba269cdecb93d2,web-toolkit-v2/modules/banners/banners.ba269cdecb93d2,web-toolkit-v2/modules/forms/radios.ba269cdecb93d2,__modules__Favorites__src__/MiniCollectionsMenu/View.ba269cdecb93d2,web-toolkit-v2/modules/panels/panels.ba269cdecb93d2,listing-page/image-carousel/responsive.ba269cdecb93d2,listzilla/image-overlay.ba269cdecb93d2,__modules__ListingPage__src__/Price/styles.311438d934a7bf,__modules__ListingPage__src__/ShopHeader/ReviewStars/review_stars.02149cde20b454,common/simple-overlay.fe3bd9d216295e,neu/payment_icons.fe3bd9d216295e,neu/apple_pay.fe3bd9d216295e,neu/google_pay.ba269cdecb93d2,listings3/checkout/single-listing.ba269cdecb93d2,common/forms_no_import.ba269cdecb93d2,listzilla/responsive/apple-pay.fe3bd9d216295e,shop2/modules/regulatory-seller-details.fe3bd9d216295e,shop2/modules/seller-additional-details.fe3bd9d216295e,neu/common/follow-shop-button.fe3bd9d216295e,listzilla/responsive/review-content-modal.ba269cdecb93d2,appreciation_photos/photo_overlay.ba269cdecb93d2,listzilla/reviews/reviews_skeleton.fe3bd9d216295e,listzilla/reviews/reviews-section.ba269cdecb93d2,reviews/header.ba269cdecb93d2,listzilla/reviews/variations.ba269cdecb93d2,listzilla/responsive/max-height-review.fe3bd9d216295e,reviews/categorical-tags.ba269cdecb93d2,web-toolkit-v2/modules/chips/selectable_chip.ba269cdecb93d2,web-toolkit-v2/modules/chips/chip_group.ba269cdecb93d2,sort-by-reviews.3affa09ef32549,web-toolkit-v2/modules/dialogs/sheets.ba269cdecb93d2,__modules__Reviews__src__/DeepDive/ListingPage/styles.ba269cdecb93d2,listzilla/responsive/tags.ba269cdecb93d2,__modules__ListingPage__src__/SellerCred/Header/styles.ba269cdecb93d2,shop2/common/rating-and-reviews-count.ba269cdecb93d2,__modules__ListingPage__src__/SellerCred/Badges/styles.ba269cdecb93d2,__modules__ListingPage__src__/Recommendations/RecsRibbon/view.ba269cdecb93d2,web-toolkit-v2/modules/forms/checkboxes.ba269cdecb93d2,web-toolkit-v2/modules/action_groups/action_groups.c0f395ece04ab8,favorites/collection/list.ba269cdecb93d2,favorites/collection/row.ba269cdecb93d2,favorites/adaptive-height-desktop.ba269cdecb93d2,__modules__ConditionalSaleInterstitial__src__/styles.02149cde20b454,__modules__CollectionRecs__src__/Views/Grid/view.ba269cdecb93d2,__modules__CollectionRecs__src__/Views/Card/view.ba269cdecb93d2.css?variant=sasquatch" type="text/css" />
+    
 
-        <script>
-    //todo: this is from https://stackoverflow.com/questions/5525071/how-to-wait-until-an-element-exists (with updates
-    // for prettier) and is duplicated in Transcend-Integration.ts. Ideally we would find a place both
-    // files could call.
-    function waitForElm(selector) {
-        return new Promise((resolve) => {
-            if (document.querySelector(selector)) {
-                return resolve(document.querySelector(selector));
-            }
-
-            const observer = new MutationObserver(() => {
-                if (document.querySelector(selector)) {
-                    observer.disconnect();
-                    resolve(document.querySelector(selector));
-                }
-            });
-
-            // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
-            observer.observe(document.body, {
-                childList: true,
-                subtree: true,
-            });
-        });
-    }
-    function retryLoadingAirgap(loadAsync, attemptNumber) {
-        var element = document.createElement("script");
-        element.type = "text/javascript";
-        element.src = "https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js";
-        if (loadAsync) {
-            element.setAttribute('data-cfasync', true);
-            element.async = true;
-        }
-
-        element.onerror = (error) => {
-            if (attemptNumber < 3) {
-                window.__etsy_logging.eventpipe.logEvent({
-                        event_name: `transcend_cmp_airgap_preliminary_failure`,
-                    airgap_url: 'https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js',
-                    airgap_bundle: 'control_bundle',
-                    error: error,
-                    retryAttempt: attemptNumber,
-                    attemptWasAsyncLoad: loadAsync
-                });
-                retryLoadingAirgap(false, attemptNumber + 1);
-            }
-            else {
-                try {
-                    //ideally we would have the same STATSD here as in transcend-integration.ts
-                    //but we can't import STATSD into mustache files.  This only occurs 0.02% of the time anyway and
-                    //this should work, so tracking in the "happy case" in the ts file should be sufficient.
-                    window.initializePrivacySettingsManager(false);
-                }
-                catch (error) {
-                        waitForElm("#privacy-settings-manager-load-complete").then(()=> {
-                            window.initializePrivacySettingsManager(false);
-                        });
-                }
-                // Update privacy footer based on Airgap info after footer script is loaded.
-                waitForElm("#footer-script-loaded").then(()=> {
-                    window.updatePrivacySettingsFooterTextBasedOnRegime();
-                });
-
-                window.__etsy_logging.eventpipe.logEvent({
-                    event_name: `transcend_cmp_airgap_load_failure`,
-                    airgap_url: 'https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js',
-                    airgap_bundle: 'control_bundle',
-                    error: error,
-                    retryAttempts: attemptNumber
-                });
-            }
-        }
-
-        var head = document.getElementsByTagName('head')[0];
-        head.appendChild(element);
-    }
-
-    function handleErrorLoadingAirgap() {
-        window.__etsy_logging.eventpipe.logEvent({
-            event_name: `transcend_cmp_airgap_preliminary_failure`,
-            airgap_url: 'https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js',
-            airgap_bundle: 'control_bundle',
-            retryAttempt: 1,
-            attemptWasAsyncLoad: true
-        });
-
-        retryLoadingAirgap(true, 2);
-    }
-</script>
-
-<script data-cfasync="true" data-ui="off" src="https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js" onerror="(function() { handleErrorLoadingAirgap(); })()" async=""></script>
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <title>JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand</title>
+    <meta name="description" content="JENDELATOTO adalah Perbandingan Mahjong Ways 2 scatter hitam dengan Mahjong Ways 3 untuk menentukan mana lebih gacor. Lengkap dengan tips dari pemain Slot88 dan slot Thailand.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://els.id/pricelist/">
+    <link rel="amphtml" href="https://elspricelist.pages.dev/">
+    <link rel="alternate" hreflang="id-id" href="https://elspricelist.pages.dev/"/>
+    <link rel="alternate" href="https://elspricelist.pages.dev/"/>
+    <link rel="alternate" hreflang="id" href="https://elspricelist.pages.dev/"/>
+    <link rel="alternate" hreflang="en" href="https://elspricelist.pages.dev/"/>
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="JENDELATOTO">
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand">
+    <meta property="og:description" content="JENDELATOTO adalah Perbandingan Mahjong Ways 2 scatter hitam dengan Mahjong Ways 3 untuk menentukan mana lebih gacor. Lengkap dengan tips dari pemain Slot88 dan slot Thailand.">
+    <meta property="og:url" content="https://els.id/pricelist/">
+    <meta property="og:image" content="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg">
+    <meta property="og:image:alt" content="JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand">
+  <meta property="product:price:amount" content="5000">
+  <meta property="product:price:currency" content="IDR">
+  <meta property="product:availability" content="out of stock">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand">
+  <meta name="twitter:description" content="JENDELATOTO adalah Perbandingan Mahjong Ways 2 scatter hitam dengan Mahjong Ways 3 untuk menentukan mana lebih gacor. Lengkap dengan tips dari pemain Slot88 dan slot Thailand.">
+  <meta name="twitter:image" content="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg">
   
-
-            <meta name="robots" content="max-image-preview:large" />
-
-
-
-        <script type="application/ld+json">
-        {
-        "@type":"Product",
-        "@context":"https://schema.org",
-        "url":"https://insurancecoveredbabyformula.com/",
-        "name":"SLOT GACOR",
-        "sku":"1790774795",
-        "gtin":"n/a",
-        "description":"Jendelatoto koleksi lengkap slot gacor Slot88 di situs slot resmi terpercaya kami Dapatkan pengalaman bermain slot Thailand asli dengan peluang maxwin tertinggi Daftar sekarang dan raih kemenangan besar.",
-        "image":[{"@type":"ImageObject",
-        "@context":"https://schema.org",
-        "author":"SLOT GACOR",
-        "contentURL":"https://imagizer.imageshack.com/img924/157/C6MWMM.jpg",
-        "description":null,
-        "thumbnail":"https://imagizer.imageshack.com/img924/157/C6MWMM.jpg"}],
-        "category":"SLOT GACOR < SLOT ONLINE < SLOT RESMI",
-        "brand":{"@type":"Brand",
-        "@context":"https://schema.org",
-        "name":"SLOT GACOR"},
-        "logo":"https://imagizer.imageshack.com/img924/157/C6MWMM.jpg",
-        "aggregateRating":{"@type":"AggregateRating",
-        "ratingValue":"5.0",
-        "reviewCount":129},
-        "offers":{"@type":"Offer",
-        "eligibleQuantity":852,
-        "price":"97962",
-        "priceCurrency":"IDR",
-        "availability":"https://schema.org/InStock",
-        "shippingDetails":{"@type":"OfferShippingDetails",
-        "shippingRate":{"@type":"MonetaryAmount",
-        "value":"0",
-        "currency":"IDR"}}},
-        "review":[{"@type":"Review",
-        "reviewRating":{"@type":"Rating",
-        "ratingValue":5,
-        "bestRating":5},
-        "datePublished":"2025-04-23",
-        "reviewBody":"it printed off really beautifully!",
-        "author":{"@type":"Person",
-        "name":"SLOT GACOR"}},{
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating",
-        "ratingValue":5,"bestRating":5},
-        "datePublished":"2025-04-16",
-        "reviewBody":"Perfect add to my gallery wall!",
-        "author":{"@type":"Person",
-        "name":"SLOT GACOR"}},{
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating",
-        "ratingValue":5,"bestRating":5},
-        "datePublished":"2025-01-20",
-        "reviewBody":"Great quality download! The image printed so well",
-        "author":{"@type":"Person",
-        "name":"SLOT GACOR"}},{
-        "@type":"Review",
-        "reviewRating":{"@type":"Rating",
-        "ratingValue":5,"bestRating":5},
-        "datePublished":"2024-12-07",
-        "reviewBody":"printed and it looks perfect",
-        "author":{"@type":"Person","name":"SLOT GACOR"}}]
-        }
-        </script>
-
-        <script type="application/ld+json">{
-        "@context":"https://schema.org",
-        "@type":"BreadcrumbList",
-        "itemListElement":[
-        {
-          "@type":"ListItem",
-          "position":1,
-          "name":"SLOT GACOR",
-          "item":"https://insurancecoveredbabyformula.com/"
-        },
-        {
-          "@type":"ListItem",
-          "position":2,
-          "name":"SLOT ONLINE",
-          "item":"https://insurancecoveredbabyformula.com/"
-        },
-        {
-          "@type":"ListItem",
-          "position":3,
-          "name":"SLOT RESMI",
-          "item":"https://insurancecoveredbabyformula.com/"
-        }
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://els.id/pricelist/#website",
+    "url": "https://els.id/pricelist/",
+    "name": "JENDELATOTO",
+    "inLanguage": "id",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://els.id/pricelist/",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "/#organization",
+    "name": "JENDELATOTO",
+    "url": "https://els.id/pricelist/",
+    "logo": "https://elspricelist.pages.dev/logo.png"
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand",
+    "sku": "1S83N0990RID",
+    "image": [
+      "https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg"
+    ],
+    "url": "https://els.id/pricelist/",
+    "description": "JENDELATOTO adalah Perbandingan Mahjong Ways 2 scatter hitam dengan Mahjong Ways 3 untuk menentukan mana lebih gacor. Lengkap dengan tips dari pemain Slot88 dan slot Thailand.",
+    "category": "TOTO 4D",
+    "brand": {
+      "@type": "Brand",
+      "name": "JENDELATOTO"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://els.id/pricelist/",
+      "priceCurrency": "IDR",
+      "price": "5000",
+      "priceValidUntil": "2027-03-01",
+      "availability": "https://schema.org/OutOfStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "JENDELATOTO",
+        "url": "https://els.id/pricelist/"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "64995",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "JENDELATOTO",
+        "item": "https://els.id/pricelist/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "TOTO 4D",
+        "item": "https://els.id/pricelist/"
+      }
     ]
-}
-</script>       
-
-        <meta property="al:ios:url" content="etsy://listing/1790774795?ref=applinks_ios" /><meta property="al:ios:app_store_id" content="477128284" /><meta property="al:ios:app_name" content="Etsy" /><meta property="al:android:url" content="etsy://listing/1790774795?ref=applinks_android" /><meta property="al:android:package" content="com.etsy.android" /><meta property="al:android:app_name" content="Etsy" />
-
-
-
-
-        <script nonce="">__webpack_public_path__ = "https://www.etsy.com/ac/evergreenVendor/js/en-GB/";</script>
-
-
-
-        <link type="application/opensearchdescription+xml" rel="search" href="/osdd.php" title="Etsy" />
-    <script async="" src="//resources.xg4ken.com/js/v2/ktag.js?tid=KT-N3E88-3EB"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1001213127/?random=1759429333056&amp;cv=11&amp;fst=1759429333056&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5a10v879674188z86935543za200zb6935543zd6935543xea&amp;gcd=13t3t3t3t5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~104948813~115480710~115616985~115834636~115834638~115868795~115868797&amp;u_w=412&amp;u_h=732&amp;url=https://insurancecoveredbabyformula.com/;frm=0&amp;tiba=JENDELATOTO Slot Gacor Slot88 Situs Slot Resmi Terpercaya Slot Thailand Maxwin;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;uaa=&amp;uab=&amp;uafvl=&amp;uamb=0&amp;uam=&amp;uap=&amp;uapv=&amp;uaw=0&amp;_tu=CA&amp;data=ecomm_prodid%3D%3Becomm_pagetype%3Dother%3Becomm_totalvalue%3D%3Becomm_rec_prodid%3D%3Becomm_category%3D%3Becomm_pvalue%3D%3Becomm_quantity%3D%3Ba%3D%3Bg%3D%3Bhasaccount%3Dtrue%3Bcqs%3D%3Brp%3D%3Bly%3D%3Bhs%3D%3B_google_crm_id%3D%3Bads_data_redaction%3Dfalse&amp;rfmt=3&amp;fmt=4" nonce=""></script><script src="https://bat.bing.com/p/action/20013160.js" type="text/javascript" async="" data-ueto="ueto_c60237d29f"></script><script async="" src="//resources.xg4ken.com/js/v2/ktag.js?tidx3dKT-N3E88-3EB"></script><script src="https://bat.bing.com/p/action/20013160.js" type="text/javascript" async="" data-ueto="ueto_5369c69510"></script><script async="" src="//resources.xg4ken.com/js/v2/ktag.js?tidx3dKT-N3E88-3EB"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1001213127/?random=1762905600080&amp;cv=11&amp;fst=1762905600080&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5b71v879674188z86935543za200zd879674188xea&amp;gcd=13t3t3t3t5l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~105322304~115583767~115616986~115938466~115938469~116194002~116217636~116217638~116251935~116251937~116424828&amp;u_w=412&amp;u_h=732&amp;url=http%3A%2F%2Fesahub.rcmrd.org%2F&amp;frm=0&amp;tiba=SLOT GACOR%20%23%20Link%20Bandar%20Situs%20Slot%20Gacor%20Resmi%20Terpercaya%20Game%20Online%20Terbaik%20Hari%20Ini&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;_tu=CA&amp;data=ecomm_prodid%3D%3Becomm_pagetype%3Dother%3Becomm_totalvalue%3D%3Becomm_rec_prodid%3D%3Becomm_category%3D%3Becomm_pvalue%3D%3Becomm_quantity%3D%3Ba%3D%3Bg%3D%3Bhasaccount%3Dtrue%3Bcqs%3D%3Brp%3D%3Bly%3D%3Bhs%3D%3B_google_crm_id%3D%3Bads_data_redaction%3Dfalse&amp;rfmt=3&amp;fmt=4"></script><script async="" src="//resources.xg4ken.com/js/v2/ktag.js?tidx3dKT-N3E88-3EB"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1001213127/?random=1763104368078&amp;cv=11&amp;fst=1763104368078&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be5bc1v879674188z86935543za200zd879674188xea&amp;gcd=13t3t3t3t5l1&amp;dma=0&amp;tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115583767~115938465~115938469~116217636~116217638&amp;u_w=1024&amp;u_h=1024&amp;url=http%3A%2F%2Fesahub.rcmrd.org%2F&amp;frm=0&amp;tiba=SLOT GACOR%20%23%20Link%20Bandar%20Situs%20Slot%20Gacor%20Resmi%20Terpercaya%20Game%20Online%20Terbaik%20Hari%20Ini&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;_tu=CA&amp;data=ecomm_prodid%3D%3Becomm_pagetype%3Dother%3Becomm_totalvalue%3D%3Becomm_rec_prodid%3D%3Becomm_category%3D%3Becomm_pvalue%3D%3Becomm_quantity%3D%3Ba%3D%3Bg%3D%3Bhasaccount%3Dtrue%3Bcqs%3D%3Brp%3D%3Bly%3D%3Bhs%3D%3B_google_crm_id%3D%3Bads_data_redaction%3Dfalse&amp;rfmt=3&amp;fmt=4"></script><script src="https://bat.bing.com/p/action/20013160.js" type="text/javascript" async="" data-ueto="ueto_b7fedf6cb5"></script>
- </head>
-<div style="display:none">
-<a href="https://insurancecoveredbabyformula.com/">slot --sedia(wingacor77.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">jeboltogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor zeus</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">virtus77</a>
-<a href="https://insurancecoveredbabyformula.com/">asokavip</a>
-<a href="https://insurancecoveredbabyformula.com/">bataraslot</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor mami188@</a>
-<a href="https://insurancecoveredbabyformula.com/">mami188 server thailand</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo500</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor maxwin mantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">holiganbet</a>
-<a href="https://insurancecoveredbabyformula.com/">tata4d slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --fujiwin88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(gaco88gacor.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinguci788.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">depobos79.online -💯</a>
-<a href="https://insurancecoveredbabyformula.com/">depobosku131.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos866.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos321.online -regis</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos212gs.online -regis</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos799.net -wedeh</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos919 online</a>
-<a href="https://insurancecoveredbabyformula.com/">wd yuk win</a>
-<a href="https://insurancecoveredbabyformula.com/">situshokiwin123.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">situsslot805.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">mancingduit</a>
-<a href="https://insurancecoveredbabyformula.com/">mancing duit</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(dower88.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">polabet303</a>
-<a href="https://insurancecoveredbabyformula.com/">situspragmatic789.online -x5000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan28</a>
-<a href="https://insurancecoveredbabyformula.com/">jambitogel</a>
-<a href="https://insurancecoveredbabyformula.com/">ratu303</a>
-<a href="https://insurancecoveredbabyformula.com/">opaltogel</a>
-<a href="https://insurancecoveredbabyformula.com/">timur99</a>
-<a href="https://insurancecoveredbabyformula.com/">link judi</a>
-<a href="https://insurancecoveredbabyformula.com/">pptoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs togel</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic1000win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">pgtotogel.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">pg898slot.online -89</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzagac0r1.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzagacor1.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza100.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzavip303.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza88max</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong877.online -jepe</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888enakcuaan.world -7</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gac0rwin.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888pastiwdbos.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888kasihjp.com -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888bisamaxwin.cyou -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88ki.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777mahjong07.world -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777gac0rwin.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777pastiwdbos.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77mantap.site -jos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777 aplikasi</a>
-<a href="https://insurancecoveredbabyformula.com/">sloit771</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777idr</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus139win.online -link</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus77duar.online -on</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusolo322.site -jos</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusbet111.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus369mantap.com -up-</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusbet218.net -o</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus881.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus x1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --on(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong login gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs mahjong login gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">ling gaming --pg gempa77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --terpercaya betslots88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming gp gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong -- com gempa777 🎯</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdelta79jp.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbyon988.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwede111.online -yuk</a>
-<a href="https://insurancecoveredbabyformula.com/">slotqq909.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotzeus168.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotasia188.online -o</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --tn7(tante777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong -- terpercaya betslots88</a>
-<a href="https://insurancecoveredbabyformula.com/">slotmpopelangi.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --resmi(www.pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacoran --resmi(pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacorans --gempa777.com-</a>
-<a href="https://insurancecoveredbabyformula.com/">linktoto121.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">linkgcr789.online -gas</a>
-<a href="https://insurancecoveredbabyformula.com/">linkgacor678.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">linkcuan897.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online stationplay.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online vario 89</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana cicil</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana tanpa deposit</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana gratis tanpa deposit</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi server Thailand</a>
-<a href="https://insurancecoveredbabyformula.com/">depobos alternatif daftar login game </a>
-<a href="https://insurancecoveredbabyformula.com/">online resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">depobos79.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos212gc.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos178.online -jepe</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos18slot.online -ok</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos234 Online</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos78 Online</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacoran --138(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacorans --on(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacoran --resmi(nagatoto168.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacoranst --777(gempa777.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacoran --yes(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacoran --yes(nagatoto168.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs maxwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot maxwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs maxwin99</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin17play.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinhero788.online -gcr</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinbos</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinbos link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinbos link</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinbos me</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin bomb bonanza</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp maxwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777 login</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777 login alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">pasti maxwin777 login</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777 apk</a>
-<a href="https://insurancecoveredbabyformula.com/">super maxwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin777 login registration</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot108win.online -best</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotjos88.online -8</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus711</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin555.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus138a.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza pirates</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza 1000</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza pirates demo</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza235.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza1stwon.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzaslot007.site -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong333</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongjp88</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongslot789.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong337.online -jepe</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong911slot.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">princess x1000</a>
-<a href="https://insurancecoveredbabyformula.com/">princes x knight</a>
-<a href="https://insurancecoveredbabyformula.com/">princes x1000</a>
-<a href="https://insurancecoveredbabyformula.com/">princes x1000 demo</a>
-<a href="https://insurancecoveredbabyformula.com/">demomantra889.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktoto488.online -🏧</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktoto login alternatif bitly</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktotole777.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktoto apk login</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktoto login wiki</a>
-<a href="https://insurancecoveredbabyformula.com/">sundatogel.site</a>
-<a href="https://insurancecoveredbabyformula.com/">mega338link. com -</a>
-<a href="https://insurancecoveredbabyformula.com/">presidenslot333 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">togelup898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">togel666jp.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">raja win678.com</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.online</a>
-<a href="https://insurancecoveredbabyformula.com/">gopay303 slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor sultankoin99--com</a>
-<a href="https://insurancecoveredbabyformula.com/">sambal toto</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin 6789 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor win678.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor power301.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --game(dower88.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pasti(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor r5--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor citypages.pro</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --rajahoki123</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --situs(dower88.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto789.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel888win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgwin233.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza666.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsmahadewa88.online =</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbelutjp88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorspin99.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">koko500</a>
-<a href="https://insurancecoveredbabyformula.com/">borneo789</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Dana</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor678.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsayamjago.online ---</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotidr --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --login-duren77</a>
-<a href="https://insurancecoveredbabyformula.com/">123 --depo77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">zara4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor777</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotstation --www(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jonitogel login</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">indratogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong dora77</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong bingoslot 88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor camar4444</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin308.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkwin308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor toto lintas88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 988--988slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana stationplay.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana virus88</a>
-<a href="https://insurancecoveredbabyformula.com/">777 slot online dana</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot maxwin fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot maxwin fixislot.ccc</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot maxwin fixislot.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot maxwin dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin fixislot.id</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot maxwin fixislot.info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot online dana</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris mami188@@</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot qris bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 4d</a>
-<a href="https://insurancecoveredbabyformula.com/">kisah88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot4d</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot4d link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot4d</a>
-<a href="https://insurancecoveredbabyformula.com/">raden slot4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pgsoft1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mami188@</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gonbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --mahjong500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi m77🙏</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi jaya38</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi m77--com</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplaywin1233b.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi winlive4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --kaya33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 pragmatic218</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 gacor200.wulyf.org</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 tokemantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 koicuan88s.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 gacor okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">gudang slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77 prada4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77 login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77 slot21</a>
-<a href="https://insurancecoveredbabyformula.com/">surga slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">ninja slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">bintang slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">seven slot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaik inter77.io</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand ironman138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand mataslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand www.dewabos138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia 365</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia bet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia 365 login</a>
-<a href="https://insurancecoveredbabyformula.com/">dana slot asia</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto --dutalotre</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto toto80</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto --(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto lazadatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --rtp(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pptoto login</a>
-<a href="https://insurancecoveredbabyformula.com/">pptoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">pptoto alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">pptoto link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa m77</a>
-<a href="https://insurancecoveredbabyformula.com/">link bola live</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa tri miya4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa</a>
-<a href="https://insurancecoveredbabyformula.com/">link game --pg(tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa tanpa potongan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa miya4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot sektorplay88.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --(jos889)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">scatter hitam kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor microvip88 sga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --on(betmantra88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online dana</a>
-<a href="https://insurancecoveredbabyformula.com/">link bola --bola88</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">pascol4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">pascol4d slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">pascol4d 4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">pascol4d togel</a>
-<a href="https://insurancecoveredbabyformula.com/">pascol4d 4d link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link --baru(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot toto gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situswin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --77super.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link bola</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pgsoft1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor d8@@(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot --77super</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --sektorplay88.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot pragmatic stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot spbu777-resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">demo pg slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaik jntwin</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel login</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel link</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel login alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">ohtogel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp ohtogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mami188@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online resmi-ligamaster77</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --link asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">pangkalantoto togel</a>
-<a href="https://insurancecoveredbabyformula.com/">sonic88 login</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pragmatic</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor818.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pragmatic maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pragmatic play</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic demo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini kpr88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini jostoto@</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor 988slot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 988slot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99-vip</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --a1(haha303a1)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor b2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor c3--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor e2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor d9--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor f2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --masuk(dower88)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo SLOT PULSA</a>
-<a href="https://insurancecoveredbabyformula.com/">demo SLOT PULSA soft</a>
-<a href="https://insurancecoveredbabyformula.com/">demo SLOT PULSA gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">akun demo SLOT PULSA</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA demo</a>
-<a href="https://insurancecoveredbabyformula.com/">demo SLOT PULSA soft mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA soft dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis slot togel</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis slot togel login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot togel 88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot togel</a>
-<a href="https://insurancecoveredbabyformula.com/">link bola indonesia</a>
-<a href="https://insurancecoveredbabyformula.com/">casibom giriÅŸ</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --303(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor sultankoin99.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislot.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(exo88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(dower88)login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --www(dower88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor viobet.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.dirgawin88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pro(2waybet)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor (988cnn).com</a>
-<a href="https://insurancecoveredbabyformula.com/">link bonus(topanwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108 --(topanwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(gaco88gacor.com)login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --fuji(fujiwin88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(2waybet)â—â—</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ketuanaga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --king999.vegas</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor arena333.orgðŸ‘„</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor h1--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor g2--(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor in--tokowin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --win(viobet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --cwdbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor j2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(tokowin99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --yuki77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor apk-tokowin99-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pragmatic77ðŸŽ°</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --duren77(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(enakcuan)ðŸ¥‡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajacuan69.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajahoki123</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --ihokibetðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --king999</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot bonanza</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --(enakcuan)ðŸš€</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --terbaik(queenslot99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --gacor(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor olx138.nexus ðŸ”¥</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --dt138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --terpercaya(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA -- dt138</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor olx138.nexus ðŸ”¥</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --terpercaya(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --evohokiðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --thailand(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --ihokibetðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --evohokiðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor j2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --masuk(gercep88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gaco88(g88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor j2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sgptoto368</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --galaxy77*</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --serubet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --togel138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --terbaik(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --leomantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --rumahtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --ihokibetðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --(dower88.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor k2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor qris(tokowin99-bebas)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--(evo88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot ong368bisa.dev</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor l3--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor (tokowin99.com)instan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor marinerscoveap.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(wingacor77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs sabung ayam--masuk(borneo303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --(japri138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --situs303id</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --king999*</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(spin707)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --resmi(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --login(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --spinbet99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(dower88.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --jajantogelðŸš€</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --100 (duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --jp(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor m1--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --gacor (dower88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(yukiresmiai.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --tokowin99-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --âœ”jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --situs(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --gacor(77superslot)ðŸ––</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --terpercaya(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --vipdewa.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --situs(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi terbaru--gboslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gacor(ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --mekar99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online -- (exo88.world)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gacor(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --gacor(galaxy77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --vegas338ðŸš€</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --(rajacuan69)-link</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand miya4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --resmi(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor o3--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --hakabet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --ðŸ’‹arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online kaptenasia</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --terbaru(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pgsoft1000</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --a1(agentbetting.77)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --terpercaya(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --qris(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --versi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --iboplay.bet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --a1(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --7nagatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --server(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --kaptenasia</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--resmi(77 super)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor pp.pp hoki</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --versi(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --king999</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --titan777</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --kastotoðŸ¤‘</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --queenslot99</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --terbaru(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --thailand(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdelta138a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot masuk--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand =(kenari69)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --- mahoni88</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --gacor(77superslot)â˜„</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor-tokowin99-bebas</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --âœ¨(dt138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --viobet.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --win(wingacor77.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ++pragmatic218</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --gacor(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --ya(japri138)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(spin707)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs toto --paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --dukuntoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --indo78</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --vegas338â­</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --resmi(77superslot)ðŸ––</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --evohokiðŸ’‹</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --jp(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a1--fila88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor acgwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor lgolux</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- (exo88.shop)ðŸ’¦</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor p5--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(rajabet)818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(naga)818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(kingwin)868.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor x--hahasurga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --server(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokowin99.com(bebas)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --✨(dt138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link --daftar(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okebray.id</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --daftar(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot toto gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi online</a>
-<a href="https://insurancecoveredbabyformula.com/">slot303 haha303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --sektorplay88.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi online terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi online terbaik</a>
-<a href="https://insurancecoveredbabyformula.com/">situs resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi online resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor juragankoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okesultan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor titan777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi gacor spbu777-resmi</a>>
-<a href="https://insurancecoveredbabyformula.com/">link slot terbaik mainaku</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gacor okebray tergacor</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot gratis main</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor q2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT BRI</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT BCA</a>
-<a href="https://insurancecoveredbabyformula.com/">situs judi gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">POLA MAXWIN</a>
-<a href="https://insurancecoveredbabyformula.com/">mega pulsa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">POLA JACKPOT</a>
-<a href="https://insurancecoveredbabyformula.com/">link resmi --resmi(duren77.daftar)</a>
-<a href="https://insurancecoveredbabyformula.com/">link resmi login(pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">IDN SLOT</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT SLOT PULSA</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --jp(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --(angkasa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo pragmatic</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --raja(bet818.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --rtp(slotgacor919.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar akun slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --slotzeus88</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot sultankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">pulsa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot terbaik dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --ww(nagamaxwin333.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --bebas(tokowin99.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot terbaik fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor rajadewa138--pot</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor evohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor 988slot-com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot terbaik</a>
-<a href="https://insurancecoveredbabyformula.com/">togel4d</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor 337sports.login</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor 988slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot terbaik stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --masuk(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor www.hobicuanjp.org</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --rajadewa138--com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot as-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor www.yhteys.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --online(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot gacor laris88</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotting --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor kambing78.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link login slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 2025</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 2025</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pasti cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situs pasti cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">link pasti cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situs pasti jp</a>
-<a href="https://insurancecoveredbabyformula.com/">link pasti jp</a>
-<a href="https://insurancecoveredbabyformula.com/">situs main bentar maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin x500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin x1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini pasti wd</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini mahjong 1</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini mahjong 2</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini mahjong 3</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini pasti maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini pasti cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini pasti menang</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini 2025</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pasti menang</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini anti rungkad</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini rtp tertinggi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hoki</a>
-<a href="https://insurancecoveredbabyformula.com/">pgsoft gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">link pp gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">link pragmatic gacor malam ini</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor malam ini pragmatic play</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini prargmatic</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor malam ini terbaru 2025</a>
-<a href="https://insurancecoveredbabyformula.com/">judol88</a>
-<a href="https://insurancecoveredbabyformula.com/">judol888</a>
-<a href="https://insurancecoveredbabyformula.com/">judol77</a>
-<a href="https://insurancecoveredbabyformula.com/">judol777</a>
-<a href="https://insurancecoveredbabyformula.com/">judolslot</a>
-<a href="https://insurancecoveredbabyformula.com/">judolmantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">judol123</a>
-<a href="https://insurancecoveredbabyformula.com/">judi123</a>
-<a href="https://insurancecoveredbabyformula.com/">judi88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi888</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">gobertoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gopay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand</a>
-<a href="https://insurancecoveredbabyformula.com/">bahasa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot45</a>
-<a href="https://insurancecoveredbabyformula.com/">kingmahazeus</a>
-<a href="https://insurancecoveredbabyformula.com/">megahoki</a>
-<a href="https://insurancecoveredbabyformula.com/">sarjanaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">paritoto</a>
-<a href="https://insurancecoveredbabyformula.com/">hemat138</a>
-<a href="https://insurancecoveredbabyformula.com/">okta388</a>
-<a href="https://insurancecoveredbabyformula.com/">qq333bet</a>
-<a href="https://insurancecoveredbabyformula.com/">daun77</a>
-<a href="https://insurancecoveredbabyformula.com/">topcer88</a>
-<a href="https://insurancecoveredbabyformula.com/">gta777</a>
-<a href="https://insurancecoveredbabyformula.com/">cpgtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">agen89</a>
-<a href="https://insurancecoveredbabyformula.com/">kursi777</a>
-<a href="https://insurancecoveredbabyformula.com/">boy303</a>
-<a href="https://insurancecoveredbabyformula.com/">ego777</a>
-<a href="https://insurancecoveredbabyformula.com/">lunar778</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo2888</a>
-<a href="https://insurancecoveredbabyformula.com/">qqslot</a>
-<a href="https://insurancecoveredbabyformula.com/">qqslot777</a>
-<a href="https://insurancecoveredbabyformula.com/">ojol77</a>
-<a href="https://insurancecoveredbabyformula.com/">jpmantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki99</a>
-<a href="https://insurancecoveredbabyformula.com/">hitamslot</a>
-<a href="https://insurancecoveredbabyformula.com/">api288</a>
-<a href="https://insurancecoveredbabyformula.com/">evostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88jp</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88max</a>
-<a href="https://insurancecoveredbabyformula.com/">BTN4D</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88bet</a>
-<a href="https://insurancecoveredbabyformula.com/">mpocash</a>
-<a href="https://insurancecoveredbabyformula.com/">amantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">nanastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">king177</a>
-<a href="https://insurancecoveredbabyformula.com/">slot969</a>
-<a href="https://insurancecoveredbabyformula.com/">macancuan</a>
-<a href="https://insurancecoveredbabyformula.com/">11bola</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming dirgawin88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">padi777</a>
-<a href="https://insurancecoveredbabyformula.com/">fun4d</a>
-<a href="https://insurancecoveredbabyformula.com/">megavip</a>
-<a href="https://insurancecoveredbabyformula.com/">jasabola</a>
-<a href="https://insurancecoveredbabyformula.com/">hoktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">fokus77</a>
-<a href="https://insurancecoveredbabyformula.com/">serubet</a>
-<a href="https://insurancecoveredbabyformula.com/">rusa33/a>
-<a href="https://insurancecoveredbabyformula.com/">akarslot777</a>
-<a href="https://insurancecoveredbabyformula.com/">rusuntoto</a>
-<a href="https://insurancecoveredbabyformula.com/">dolantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">angkasa77</a>
-<a href="https://insurancecoveredbabyformula.com/">aob303</a>
-<a href="https://insurancecoveredbabyformula.com/">bangkok4d</a>
-<a href="https://insurancecoveredbabyformula.com/">bento138</a>
-<a href="https://insurancecoveredbabyformula.com/">bigbet99</a>
-<a href="https://insurancecoveredbabyformula.com/">casino4d</a>
-<a href="https://insurancecoveredbabyformula.com/">dynastipoker</a>
-<a href="https://insurancecoveredbabyformula.com/">gaming88</a>
-<a href="https://insurancecoveredbabyformula.com/">gerhana777</a>
-<a href="https://insurancecoveredbabyformula.com/">raja778</a>
-<a href="https://insurancecoveredbabyformula.com/">sakti77</a>
-<a href="https://insurancecoveredbabyformula.com/">pasti99</a>
-<a href="https://insurancecoveredbabyformula.com/">ib88slot</a>
-<a href="https://insurancecoveredbabyformula.com/">bola501</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT GACOR SIANG INI</a>
-<a href="https://insurancecoveredbabyformula.com/">SUPERBET77</a>
-<a href="https://insurancecoveredbabyformula.com/">GUDANG777</a>
-<a href="https://insurancecoveredbabyformula.com/">KURSI77</a>
-<a href="https://insurancecoveredbabyformula.com/">LIGA303</a>
-<a href="https://insurancecoveredbabyformula.com/">LOTUS88</a>
-<a href="https://insurancecoveredbabyformula.com/">MACAUSLOT168</a>
-<a href="https://insurancecoveredbabyformula.com/">aladdin666</a>
-<a href="https://insurancecoveredbabyformula.com/">idcash</a>
-<a href="https://insurancecoveredbabyformula.com/">indolottery88</a>
-<a href="https://insurancecoveredbabyformula.com/">jebol togel</a>
-<a href="https://insurancecoveredbabyformula.com/">nadim togel</a>
-<a href="https://insurancecoveredbabyformula.com/">tiktak togel</a>
-<a href="https://insurancecoveredbabyformula.com/">cong togel</a>
-<a href="https://insurancecoveredbabyformula.com/">bosswin168</a>
-<a href="https://insurancecoveredbabyformula.com/">pulitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">puli toto</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo222</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo1212</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo2121</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo121</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo212</a>
-<a href="https://insurancecoveredbabyformula.com/">jokerbet</a>
-<a href="https://insurancecoveredbabyformula.com/">gbo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mpotower</a>
-<a href="https://insurancecoveredbabyformula.com/">hokibet</a>
-<a href="https://insurancecoveredbabyformula.com/">ojktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">tayo4d</a>
-<a href="https://insurancecoveredbabyformula.com/">tante4d</a>
-<a href="https://insurancecoveredbabyformula.com/">wifitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">ladangmpo</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo1221</a>
-<a href="https://insurancecoveredbabyformula.com/">mpoid</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo800</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo100</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo007</a>
-<a href="https://insurancecoveredbabyformula.com/">mpogacor</a>
-<a href="https://insurancecoveredbabyformula.com/">suletoto</a>
-<a href="https://insurancecoveredbabyformula.com/">sule toto</a>
-<a href="https://insurancecoveredbabyformula.com/">suletogel</a>
-<a href="https://insurancecoveredbabyformula.com/">surgaplay</a>
-<a href="https://insurancecoveredbabyformula.com/">barunatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin288</a>
-<a href="https://insurancecoveredbabyformula.com/">mpogacor88</a>
-<a href="https://insurancecoveredbabyformula.com/">joglototo</a>
-<a href="https://insurancecoveredbabyformula.com/">jogjatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">musang889</a>
-<a href="https://insurancecoveredbabyformula.com/">flokitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">evohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">dewatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">games138</a>
-<a href="https://insurancecoveredbabyformula.com/">roma777</a>
-<a href="https://insurancecoveredbabyformula.com/">pejuang88</a>
-<a href="https://insurancecoveredbabyformula.com/">rusa333</a>
-<a href="https://insurancecoveredbabyformula.com/">empire88</a>
-<a href="https://insurancecoveredbabyformula.com/">ziatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">prima777</a>
-<a href="https://insurancecoveredbabyformula.com/">lumbung888</a>
-<a href="https://insurancecoveredbabyformula.com/">pakdetoto</a>
-<a href="https://insurancecoveredbabyformula.com/">bimatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">qq1212</a>
-<a href="https://insurancecoveredbabyformula.com/">mposlot</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo4d</a>
-<a href="https://insurancecoveredbabyformula.com/">dapurtogel</a>
-<a href="https://insurancecoveredbabyformula.com/">onetogel</a>
-<a href="https://insurancecoveredbabyformula.com/">hp138</a>
-<a href="https://insurancecoveredbabyformula.com/">minion88</a>
-<a href="https://insurancecoveredbabyformula.com/">oasistoto</a>
-<a href="https://insurancecoveredbabyformula.com/">balitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">rapi88</a>
-<a href="https://insurancecoveredbabyformula.com/">dewanaga777</a>
-<a href="https://insurancecoveredbabyformula.com/">jeboltoto</a>
-<a href="https://insurancecoveredbabyformula.com/">nenektoto</a>
-<a href="https://insurancecoveredbabyformula.com/">fendi88</a>
-<a href="https://insurancecoveredbabyformula.com/">tiktaktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">eurototo</a>
-<a href="https://insurancecoveredbabyformula.com/">mansion777</a>
-<a href="https://insurancecoveredbabyformula.com/">nadimtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">padi77</a>
-<a href="https://insurancecoveredbabyformula.com/">rp777</a>
-<a href="https://insurancecoveredbabyformula.com/">raja88</a>
-<a href="https://insurancecoveredbabyformula.com/">suges4d</a>
-<a href="https://insurancecoveredbabyformula.com/">indoslot</a>
-<a href="https://insurancecoveredbabyformula.com/">bandargaming</a>
-<a href="https://insurancecoveredbabyformula.com/">rajagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">danatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">pasarbaris</a>
-<a href="https://insurancecoveredbabyformula.com/">kantorbola</a>
-<a href="https://insurancecoveredbabyformula.com/">scatter hitam</a>
-<a href="https://insurancecoveredbabyformula.com/">luxury77</a>
-<a href="https://insurancecoveredbabyformula.com/">amdbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">siap4d</a>
-<a href="https://insurancecoveredbabyformula.com/">raya123</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo play</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo asia</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo1222</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo444</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo707</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo dana</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo pulsa</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mpo</a>
-<a href="https://insurancecoveredbabyformula.com/">dewahoki</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorbos</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorbet</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa666</a>
-<a href="https://insurancecoveredbabyformula.com/">petir77</a>
-<a href="https://insurancecoveredbabyformula.com/">medusa888</a>
-<a href="https://insurancecoveredbabyformula.com/">tambang88</a>
-<a href="https://insurancecoveredbabyformula.com/">padi188</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawd</a>
-<a href="https://insurancecoveredbabyformula.com/">axl77</a>
-<a href="https://insurancecoveredbabyformula.com/">dewi77</a>
-<a href="https://insurancecoveredbabyformula.com/">bolago</a>
-<a href="https://insurancecoveredbabyformula.com/">kalkulator parlay</a>
-<a href="https://insurancecoveredbabyformula.com/">barito88</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT777</a>
-<a href="https://insurancecoveredbabyformula.com/">GACORMAXWIN</a>
-<a href="https://insurancecoveredbabyformula.com/">XNXX</a>
-<a href="https://insurancecoveredbabyformula.com/">jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">live draw sdy</a>
-<a href="https://insurancecoveredbabyformula.com/">live draw sgp</a>
-<a href="https://insurancecoveredbabyformula.com/">live draw macau </a>
-<a href="https://insurancecoveredbabyformula.com/">tokyo4d</a>
-<a href="https://insurancecoveredbabyformula.com/">jarwo123</a>
-<a href="https://insurancecoveredbabyformula.com/">togel hk </a>
-<a href="https://insurancecoveredbabyformula.com/">syairsdy.com</a>
-<a href="https://insurancecoveredbabyformula.com/">xnxx com</a>
-<a href="https://insurancecoveredbabyformula.com/">maha zeus</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic play</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bet 200</a>
-<a href="https://insurancecoveredbabyformula.com/">mporef</a>
-<a href="https://insurancecoveredbabyformula.com/">omtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">omutoto</a>
-<a href="https://insurancecoveredbabyformula.com/">akun demo</a>
-<a href="https://insurancecoveredbabyformula.com/">yowestoto</a>
-<a href="https://insurancecoveredbabyformula.com/">bandot4d</a>
-<a href="https://insurancecoveredbabyformula.com/">totomacau</a>
-<a href="https://insurancecoveredbabyformula.com/">cinta4d</a>
-<a href="https://insurancecoveredbabyformula.com/">bangtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">judi mpo</a>
-<a href="https://insurancecoveredbabyformula.com/">wintoto</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">beton88</a>
-<a href="https://insurancecoveredbabyformula.com/">beton888</a>
-<a href="https://insurancecoveredbabyformula.com/">juaratoto</a>
-<a href="https://insurancecoveredbabyformula.com/">bustoto</a>
-<a href="https://insurancecoveredbabyformula.com/">yamahatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">marvel123</a>
-<a href="https://insurancecoveredbabyformula.com/">paristoto</a>
-<a href="https://insurancecoveredbabyformula.com/">mamabet</a>
-<a href="https://insurancecoveredbabyformula.com/">pasar4d</a>
-<a href="https://insurancecoveredbabyformula.com/">dewajoker</a>
-<a href="https://insurancecoveredbabyformula.com/">888bet</a>
-<a href="https://insurancecoveredbabyformula.com/">bet99</a>
-<a href="https://insurancecoveredbabyformula.com/">bet88</a>
-<a href="https://insurancecoveredbabyformula.com/">bet77</a>
-<a href="https://insurancecoveredbabyformula.com/">91dewa</a>
-<a href="https://insurancecoveredbabyformula.com/">qqasia88</a>
-<a href="https://insurancecoveredbabyformula.com/">lawu88</a>
-<a href="https://insurancecoveredbabyformula.com/">canggu4d</a>
-<a href="https://insurancecoveredbabyformula.com/">abadibet</a>
-<a href="https://insurancecoveredbabyformula.com/">bangsawan88</a>
-<a href="https://insurancecoveredbabyformula.com/">manilabet</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa4d</a>
-<a href="https://insurancecoveredbabyformula.com/">pulau888</a>
-<a href="https://insurancecoveredbabyformula.com/">qq555</a>
-<a href="https://insurancecoveredbabyformula.com/">qq666</a>
-<a href="https://insurancecoveredbabyformula.com/">qq888</a>
-<a href="https://insurancecoveredbabyformula.com/">qq999</a>
-<a href="https://insurancecoveredbabyformula.com/">qqnusa</a>
-<a href="https://insurancecoveredbabyformula.com/">qqpulsa</a>
-<a href="https://insurancecoveredbabyformula.com/">bos77</a>
-<a href="https://insurancecoveredbabyformula.com/">kelapatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">sayaptoto</a>
-<a href="https://insurancecoveredbabyformula.com/">ibutoto</a>
-<a href="https://insurancecoveredbabyformula.com/">bulantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">doktertoto </a>
-<a href="https://insurancecoveredbabyformula.com/">slot303</a>
-<a href="https://insurancecoveredbabyformula.com/">pelakortoto</a>
-<a href="https://insurancecoveredbabyformula.com/">agen183</a>
-<a href="https://insurancecoveredbabyformula.com/">mandiri77</a>
-<a href="https://insurancecoveredbabyformula.com/">vespa4d </a>
-<a href="https://insurancecoveredbabyformula.com/">edan77</a>
-<a href="https://insurancecoveredbabyformula.com/">pintu togel</a>
-<a href="https://insurancecoveredbabyformula.com/">wjo777</a>
-<a href="https://insurancecoveredbabyformula.com/">kaisar777</a>
-<a href="https://insurancecoveredbabyformula.com/">vegastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">paito taiwan</a>
-<a href="https://insurancecoveredbabyformula.com/">aztec168</a>
-<a href="https://insurancecoveredbabyformula.com/">bangbos</a>
-<a href="https://insurancecoveredbabyformula.com/">andara138</a>
-<a href="https://insurancecoveredbabyformula.com/">waktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">cong4d</a>
-<a href="https://insurancecoveredbabyformula.com/">dosentoto</a>
-<a href="https://insurancecoveredbabyformula.com/">panutantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">iogsport</a>
-<a href="https://insurancecoveredbabyformula.com/">arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">angkanet</a>
-<a href="https://insurancecoveredbabyformula.com/">bunga189</a>
-<a href="https://insurancecoveredbabyformula.com/">angkabet</a>
-<a href="https://insurancecoveredbabyformula.com/">ladangtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">sule4d</a>
-<a href="https://insurancecoveredbabyformula.com/">wdyuk</a>
-<a href="https://insurancecoveredbabyformula.com/">bni4d</a>
-<a href="https://insurancecoveredbabyformula.com/">situs 888</a>
-<a href="https://insurancecoveredbabyformula.com/">brio4d</a>
-<a href="https://insurancecoveredbabyformula.com/">ovogg</a>
-<a href="https://insurancecoveredbabyformula.com/">topjitu</a>
-<a href="https://insurancecoveredbabyformula.com/">gasing77</a>
-<a href="https://insurancecoveredbabyformula.com/">bromo777</a>
-<a href="https://insurancecoveredbabyformula.com/">agen88</a>
-<a href="https://insurancecoveredbabyformula.com/">supraslot</a>
-<a href="https://insurancecoveredbabyformula.com/">ciutoto</a>
-<a href="https://insurancecoveredbabyformula.com/">dana4d</a>
-<a href="https://insurancecoveredbabyformula.com/">topanwin</a>
-<a href="https://insurancecoveredbabyformula.com/">ladangtoto2</a>
-<a href="https://insurancecoveredbabyformula.com/">nettoto</a>
-<a href="https://insurancecoveredbabyformula.com/">luxury33</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --forwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88sah.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88nax.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin108.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">wukong288</a>
-<a href="https://insurancecoveredbabyformula.com/">detikbola</a>
-<a href="https://insurancecoveredbabyformula.com/">dinda77</a>
-<a href="https://insurancecoveredbabyformula.com/">storebet88</a>
-<a href="https://insurancecoveredbabyformula.com/">takohoki168</a>
-<a href="https://insurancecoveredbabyformula.com/">dubaispin168</a>
-<a href="https://insurancecoveredbabyformula.com/">11tbet</a>
-<a href="https://insurancecoveredbabyformula.com/">eetoto</a>
-<a href="https://insurancecoveredbabyformula.com/">perangwd188</a>
-<a href="https://insurancecoveredbabyformula.com/">taksu787</a>
-<a href="https://insurancecoveredbabyformula.com/">rumah258</a>
-<a href="https://insurancecoveredbabyformula.com/">petik168</a>
-<a href="https://insurancecoveredbabyformula.com/">belanja4d</a>
-<a href="https://insurancecoveredbabyformula.com/">pisang77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online </a>
-<a href="https://insurancecoveredbabyformula.com/">ubertoto</a>
-<a href="https://insurancecoveredbabyformula.com/">jual toto</a>
-<a href="https://insurancecoveredbabyformula.com/">lunatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">uang77</a>
-<a href="https://insurancecoveredbabyformula.com/">gb777</a>
-<a href="https://insurancecoveredbabyformula.com/">thor138</a>
-<a href="https://insurancecoveredbabyformula.com/">mpovegas</a>
-<a href="https://insurancecoveredbabyformula.com/">megahoki888</a>
-<a href="https://insurancecoveredbabyformula.com/">sr866</a>
-<a href="https://insurancecoveredbabyformula.com/">oborslot777</a>
-<a href="https://insurancecoveredbabyformula.com/">66kbet</a>
-<a href="https://insurancecoveredbabyformula.com/">alphaslot777</a>
-<a href="https://insurancecoveredbabyformula.com/">gogo77</a>
-<a href="https://insurancecoveredbabyformula.com/">eurotogel</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan88win.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotratu79.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorbet11.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs783.com =</a>
-<a href="https://insurancecoveredbabyformula.com/">winslot567.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">menang111.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongbet308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotgacor11.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotraja777.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin3031.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinking55 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos808.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos108 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot99win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra882.com =</a>
-<a href="https://insurancecoveredbabyformula.com/">situs proxy</a>
-<a href="https://insurancecoveredbabyformula.com/">situs cuaca889.com --</a>
-<a href="https://insurancecoveredbabyformula.com/">situs game --tpwin</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorzeus66.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">indoslot567.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --ugslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan288.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewawin111.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiterus-88.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtop567.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88live.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ratuwin99.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinvip55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki10000.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan158.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto08a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus323.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotbet11 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">winslot755.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan99hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --cuaca889@</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos878.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs game --regis(tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin678 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan37.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothoki999.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot222win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot999win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotyukinih.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --danaslot77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">menang slotidr --satu(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs783.com +</a>
-<a href="https://insurancecoveredbabyformula.com/">indomantra887.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">bigwin308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --www(77betsport)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --www(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming -(dewajitu)</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin555.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjackpotpewe.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bola com--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdelta138.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpototo</a>
-<a href="https://insurancecoveredbabyformula.com/">mpohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo600</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo900</a>
-<a href="https://insurancecoveredbabyformula.com/">mporaja</a>
-<a href="https://insurancecoveredbabyformula.com/">mporatu</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganbet308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin22.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus99win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstopplywn.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">asiawin308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">winhoki55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">win308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">situswin308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(jawawin.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --about(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming -- idrhoki138</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --sport(dewabos138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situsayamjago.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinoke303.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwingacor55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --🍭duren777🍭</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --game(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --game(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatichoki999.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto206b.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgacorhoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotayamjago.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot222win2.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan678.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos155.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos789.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotvip11 .com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong -www(jambu33.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinoke307.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin818.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotpewetop.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotinter77b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --gempa777.com💪</a>
-<a href="https://insurancecoveredbabyformula.com/">totojitu202.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmaticwin363.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olx333win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">depo76win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --jeruk33@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --daftar(teh33.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">win slot108 com</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbonanza8.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot100jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot99jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot222win3.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstotonline.win -</a>
-<a href="https://insurancecoveredbabyformula.com/">situswin308.asia -legit</a>
-<a href="https://insurancecoveredbabyformula.com/">situsslotwina.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wingacor805.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkvip99jp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotwin22.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">gampang --duren77</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpo669win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan88.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplaywin888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ratujackpot99.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop305.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotinter77a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin55b.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus131.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto202win.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin68.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotcuan200.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121d.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --ok(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">garudavip88.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpowin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --www(jawawin.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinplay99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --⛄login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108vip.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic99hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsspin200.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin282.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88cax.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88sah.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris bet 78</a>
-<a href="https://insurancecoveredbabyformula.com/">situs toto 4d</a>
-<a href="https://insurancecoveredbabyformula.com/">depo 10000-</a>
-<a href="https://insurancecoveredbabyformula.com/">nusawin77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">langit666bos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">indosbobet88 link</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alex308.online +</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewagacor881.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --haha(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan111.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">bigwin308.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">langit --🍭login(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba777</a>
-<a href="https://insurancecoveredbabyformula.com/">srikandi89</a>
-<a href="https://insurancecoveredbabyformula.com/">jayawin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sgptoto49. com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777kapalgg.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surya707bet.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">suryawin66.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">data hk</a>
-<a href="https://insurancecoveredbabyformula.com/">data sgp</a>
-<a href="https://insurancecoveredbabyformula.com/">data sdy</a>
-<a href="https://insurancecoveredbabyformula.com/">data macau</a>
-<a href="https://insurancecoveredbabyformula.com/">paito sdy</a>
-<a href="https://insurancecoveredbabyformula.com/">paito hk</a>
-<a href="https://insurancecoveredbabyformula.com/">paito sgp</a>
-<a href="https://insurancecoveredbabyformula.com/">paito macau</a>
-<a href="https://insurancecoveredbabyformula.com/">paito lotto</a>
-<a href="https://insurancecoveredbabyformula.com/">keluaran hk</a>
-<a href="https://insurancecoveredbabyformula.com/">keluaran macau</a>
-<a href="https://insurancecoveredbabyformula.com/">keluaran sgp</a>
-<a href="https://insurancecoveredbabyformula.com/">keluaran sdy</a>
-<a href="https://insurancecoveredbabyformula.com/">prediksi macau</a>
-<a href="https://insurancecoveredbabyformula.com/">prediksi hk</a>
-<a href="https://insurancecoveredbabyformula.com/">prediksi sgp</a>
-<a href="https://insurancecoveredbabyformula.com/">panentop77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">latopwin77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin212.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin876.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinoke308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --petir138</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin775.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkyukinet.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">nagacuan789.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonus slotting --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">bonus slotting --⛄login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">depo96win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan888jp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">cuanhoki123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">idnwin103.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin130a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">idnjepe103.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot222win6.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto305a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsyukyuki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs88dewa.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos87.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">rajabet818.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">polonia127.win -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin180.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotanakslot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong2000.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888kapalgg.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88hobicuan.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkplaywin1233a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --max(wayang88official.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --jakartacash.com</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">megatopwin88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartopwin77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus99win1.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game -- www 77betsport</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --gempa777💯</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --🎰duren777🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">mpowin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor105.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slotidr --www(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --🎰game(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">rajaslot10000.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajaslot50.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">arjuna308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin789.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto777.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin100a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88prowin online</a>
-<a href="https://insurancecoveredbabyformula.com/">situstoto678.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto15a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawah307.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkanakslotc.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot100menang.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartopjepe77.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotanakslot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsbelutjp77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinoke501.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">asiawin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">asia155.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin363.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmaticplay99.asia +</a>
-<a href="https://insurancecoveredbabyformula.com/">elang177win.online @</a>
-<a href="https://insurancecoveredbabyformula.com/">situsanakslotb.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --daftar(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic99hoki2.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --👻login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --👾login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --login(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto789a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">link108menang.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop100.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos500.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotresmi.asia +</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor678a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto771.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --max(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin188bb. com</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslot66.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic878win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(ligamaster77.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmaticplay99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkwin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linktotoslot.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --max(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs mahjong --jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situsplaywin1233a.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">elang77bos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888enakcuan.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88sah.online +</a>
-<a href="https://insurancecoveredbabyformula.com/">totowin222 com</a>
-<a href="https://insurancecoveredbabyformula.com/">totowin108.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos808 com</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganwin707.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin308.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot105.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotwin88.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --top(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">arjuna308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexiswintrs88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --www(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --ligamaster77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming -- forwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">olx333win2.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">polo127win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alex308.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">bandarslotjepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto772.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic99hokia.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotinter77s.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88fav.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusagacor88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplaywin123aa.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdelta138c.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --terbaik(ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">olxjp88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuscuan323.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin66.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">888slotenakcuan.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartopwin77.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan115.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121g.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">langit919bos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">winsuper777.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto777a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin137.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop305a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs game --ligamaster77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">kilatwin456a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsbelutjp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop306.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situswin212.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --com(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">olx333win3.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki500menang.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorvip11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwah306.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --gempa777.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">elang186win.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin55bc.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza887.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">macauwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor678b.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgsultan678.com --</a>
-<a href="https://insurancecoveredbabyformula.com/">kisah88 login</a>
-<a href="https://insurancecoveredbabyformula.com/">kisah88 daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">linkmenang888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin307.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotinter77f.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan88.online ----</a>
-<a href="https://insurancecoveredbabyformula.com/">kisah88 rtp</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki800menang.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --new(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgwin233c.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --( gempa777 com )</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic883.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza111.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawah305a.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin100b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsplaywin123aa.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagagacor15.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100z.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto77b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic887hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto535.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777dax.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin666.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linktoto363.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwah305b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin303wina.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot101jackpot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin200a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bigwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situscun33.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslots353.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto363.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotcun33.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwinplay123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplay666.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstotos11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsbelutjp88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121h.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzavip66.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pg88win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotwin77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang188jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">congtop707win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ratuwin88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">asiawin707.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">elang777wd.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pajaktop4d.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin33.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin44.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hebatslot77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo888slot.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo588gacor.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki159win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">777 --🥩login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">777slotenakcuan.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">777 --🍭login🍭(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">777 --💢login(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjajantogel.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjostech.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktop778.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">royalslot11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situscuanjp88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop305b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinkilat22.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawah308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawah88abc.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor108bet.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --game(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan999jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">cuan37.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin22.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwah305c.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100d.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jaya707win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">kilat720win.world -top</a>
-<a href="https://insurancecoveredbabyformula.com/">rupiahtop77.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">vip568win.world -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">dewawin77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto777b.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situswin2025.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">dingdong7jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jnt707win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin2025.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotabc88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotsrp.com apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slothoki777.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olx363win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexiswin1001.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin212.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwdbanyak123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olx1338.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgacormicrostar88.art -</a>
-<a href="https://insurancecoveredbabyformula.com/">depobosku.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">pisangslot66.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwinplay123b.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstoto789.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos308.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos155.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin200z.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77c.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77f.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88hoki885.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdelta138win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rupiahtop88.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan77rzp.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">winslot108.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">asianslot177.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">qq888bos.com =</a>
-<a href="https://insurancecoveredbabyformula.com/">top707win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacormax111.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza887.com +</a>
-<a href="https://insurancecoveredbabyformula.com/">togel888win2.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">pg878win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">joker123kapalgacor.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pos177slot.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">judigame88.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel999hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">kilat388win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ziatop177win.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">rtpmenang123th.online @</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor565.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">depo25jackpot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">starwin80.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzaslot55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus99win3.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwah305d.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin707.shop -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin876.com +</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin778.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbelut77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotcun33a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88win.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop305c.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin333.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus555win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus187slot.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">megamaxwin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusawin11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo3303win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar707win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --terbaik(dwptogeltech.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situshoki909.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs mahjong --(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">situsplaywin1233c.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --daftar(tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --gempa777.com🎯</a>
-<a href="https://insurancecoveredbabyformula.com/">dingdongtop88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtogel636.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olx777win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwinplay81.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin185.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotresmi.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgzeus118.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang170jepe.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra887enakcuanjhepe.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatichoki333.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic84.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel777win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotins --sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">linkwede2025.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --baru(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan79.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganwin707.website -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop909.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin131.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop306a.com +</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslot99.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang177jepe.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">link slotinss --www(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --@(http//pahlaviha.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusmax305.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinspin66.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">dingdong7jepe online</a>
-<a href="https://insurancecoveredbabyformula.com/">winslot109.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto121jp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto289.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin200wg.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga868.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">royalgacor11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop78.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888enakcuan world</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaratoto777c.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki888jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88jitu.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pajaktop4d.online -duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbig99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pajaktop4d.online -menang</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwintop118.site -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongjostoto.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar66win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pghoki999.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">empire888bos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus77win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus1000gex.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawinpro889a.com -login-</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100s.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo222play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos155.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">888slotansawin.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">888slotezmaxwin.online -88</a>
-<a href="https://insurancecoveredbabyformula.com/">888slotgudang.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">888 --🍭login(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">togel805jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiwin888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">topwin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang166slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstotowin108.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">vip568win.world -we</a>
-<a href="https://insurancecoveredbabyformula.com/">garuda307win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongpch777.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwede168.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexiswin307.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo2025win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaraoke777.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin876.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">asia707win.online +</a>
-<a href="https://insurancecoveredbabyformula.com/">ratujackpot356.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor789.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">ratumaxwin111.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mega308maxwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megaoke777.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel888jitu.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgmax305.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot222.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto878.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola88win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">empire999hoki.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong baru 234 -</a>
-<a href="https://insurancecoveredbabyformula.com/">wd99lancar.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza111win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotmacrovip805.art -</a>
-<a href="https://insurancecoveredbabyformula.com/">bolajosbet.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">macauwin707.online -vip-</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzawin188.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888zeus00.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">royalwin999.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ajaib808win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusawin55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtop888b.com -gas-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot33cun.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan88a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin131.com +</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinpch303.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus108kps.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linktoto99jitu.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkmenang909.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --daftar(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situszeus909.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">situs2025maxwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">top707win.online -gacor-</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88gas.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77c.com - remix</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot212.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin67.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">win1001link.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">winhoki919.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">rtpmantra88.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">777mahjongtop.world -1</a>
-<a href="https://insurancecoveredbabyformula.com/">777 --🎰login(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin707.online -best-</a>
-<a href="https://insurancecoveredbabyformula.com/">ajaibjago79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">elang197slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">jutawanslot177.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagaemas11.com -win</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa22play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77f.com - cache</a>
-<a href="https://insurancecoveredbabyformula.com/">burungjp368.site -wde</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi 🧨 gacor 77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">situscun33a.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusmax778.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar11jitu.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">pgwin234.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88zeus.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinpch303.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">bobatop68.site -win</a>
-<a href="https://insurancecoveredbabyformula.com/">gboway88ad.com --</a>
-<a href="https://insurancecoveredbabyformula.com/">gbojepe77.space -menang</a>
-<a href="https://insurancecoveredbabyformula.com/">dragon808win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">badak161slot.online -777</a>
-<a href="https://insurancecoveredbabyformula.com/">badak177slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot767.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ledak338jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ceriatop88.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet777win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet880.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">tupai887slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megaoke778.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusjpx5oowow.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong202jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang161slot.online -777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot99jackpot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatichoki33.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongjostoto.online - -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin300abz.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">ledakwin88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus989win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">cuanhoki500s.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiwin808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ovotop68.site -wde-</a>
-<a href="https://insurancecoveredbabyformula.com/">winslot500.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajaplay333.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotmacrovip805.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin1001.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexiscuantrs88.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">depo30jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --jakartacash</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar308.online -vip-</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --depo(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin77b.com - flush</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming www.perchingbar.eu</a>
-<a href="https://insurancecoveredbabyformula.com/">pgmax787.site +</a>
-<a href="https://insurancecoveredbabyformula.com/">situstoto989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">megagcr788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong101.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --gempa777.com💲</a>
-<a href="https://insurancecoveredbabyformula.com/">macau308win.online -jp-</a>
-<a href="https://insurancecoveredbabyformula.com/">jayawin707.online +</a>
-<a href="https://insurancecoveredbabyformula.com/">hebatslot77.online -menang</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusgcr788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwingcr788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777lax.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslot333.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswinmax.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin878.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin876.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop100.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos308.com -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganjago79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzakas88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusa808.online -regis</a>
-<a href="https://insurancecoveredbabyformula.com/">goltogel87.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis808.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">alexismaxwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garudavip88.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">empire888jepe.online -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">slotvip878.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin1888.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin288q.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganmaxwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pggcr788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot98slt.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwingcr355.online -oke</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --login(jostoto)</a
-<a href="https://insurancecoveredbabyformula.com/">megawin989.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanisototo.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel805hkd.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtogel898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">olxcuantrs88.org -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang166win.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin81.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot909alternatif.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbelut79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongduren777.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinplay55.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor234.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">megagcr355.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawarslot505.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaraoke788.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">macau202.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtop79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88sah.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel898jitu.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin71.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spaceman88kapalgg.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bolajosbet.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet1jp788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet880.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawede88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajaslot678.com -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo99win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">qqdewa8899.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">qq888bos.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewagacor881.com -win</a>
-<a href="https://insurancecoveredbabyformula.com/">situsbelutjp79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situshoki707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkgacor989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot313.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">evostop177win.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">888duren777jep.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">jonito99.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pulau789win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpotwin356.com -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot2025maxwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">badak199win.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwingope355.online -link</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza99new.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplay666.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong880.shop -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong818.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot565.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot363win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situsslotpw123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan212.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777duren.online -top-</a>
-<a href="https://insurancecoveredbabyformula.com/">slotkw99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judiduren777.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongjajantogel.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga778.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100jp.com --</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa805jp.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor898.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">wd11play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola909.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotzeus707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin876.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslot99.world -one</a>
-<a href="https://insurancecoveredbabyformula.com/">rtpliveslot.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstoto363.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88idsakti.shop -</a>
-<a href="https://insurancecoveredbabyformula.com/">ambon111win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbonus999.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawinpro889a.com -ab</a>
-<a href="https://insurancecoveredbabyformula.com/">asiawin1001.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jaya828.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos188.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">badak177jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ollowin989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplaywin123.art -</a>
-<a href="https://insurancecoveredbabyformula.com/">megaslot606.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus898win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusgas355.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusgope355.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88win.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">jayamantra88apkgg.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga505.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">888gacorwin777.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">agenwin778.online -win778-</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777sup.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777mahjongwd.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus222play.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin81.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsdelta138aa.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garudavip801.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot55tko.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinapk355.online -sip</a>
-<a href="https://insurancecoveredbabyformula.com/">agentogel83.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtogel123.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">dewagacor51.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">depositduren777.shop -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola805.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjp55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">scatterhitamduren777.shop -</a>
-<a href="https://insurancecoveredbabyformula.com/">scatter337.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">777gacorwin88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">777 --pg(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">kilatgacor456.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">togel88vip.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">togel705hkd.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzakas88.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza111slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">joker123win.world -one</a>
-<a href="https://insurancecoveredbabyformula.com/">hujantop77.online -toto-</a>
-<a href="https://insurancecoveredbabyformula.com/">slottop.refugee.tv -</a>
-<a href="https://insurancecoveredbabyformula.com/">situshoki808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot21.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeuswin788.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin999.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos302.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanisgacorwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto805win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">deposit808slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">panentop77.online -top77</a>
-<a href="https://insurancecoveredbabyformula.com/">musangwon88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">asiabetwin11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa666jos.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">royalplay999.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">royal181win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olloslot778.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">nagawin100max.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">empire777win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">starwing70.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmaticjosbet.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">elang808win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rtpslotbonus.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pgbet200aa.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantop355.online -link</a>
-<a href="https://insurancecoveredbabyformula.com/">ledak338win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartop68wde.site -1wins</a>
-<a href="https://insurancecoveredbabyformula.com/">jagoan808win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --xtraplay88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --login(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs79mahjong.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs79jagozeus.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">winhoki989.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdadu88ss.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megaceban788.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanza111.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa808jp.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">linktoto989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotlink88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga868.org -win</a>
-<a href="https://insurancecoveredbabyformula.com/">naga788.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">musang127slot.world -888</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos222.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin778.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis22win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">vegaswin808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatichoki898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">pg898slot.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --login(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --daftar(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgratisbonus.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgacor666.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">situslowin79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bentoslot234.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888zeus01.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gox.world -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --gempa777💎</a>
-<a href="https://insurancecoveredbabyformula.com/">badak127slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">777zeustop.world -77</a>
-<a href="https://insurancecoveredbabyformula.com/">777gacorloginslot.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">slotzeuspw123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktotole777.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs mahjong --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor667.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">emas808.online -cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor333.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">topslot505.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">joker123win.world -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">sultanoke1889.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultan989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinslot11.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotomset288.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot78.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus159zxc.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongwin127.world -77</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --slot(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">winhoki363.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos301.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet2jp355.site -top</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet365bet.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">elang127slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot51.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo578slot.online -play</a>
-<a href="https://insurancecoveredbabyformula.com/">rajatop99.com -win</a>
-<a href="https://insurancecoveredbabyformula.com/">ceriatop88.online -menang-</a>
-<a href="https://insurancecoveredbabyformula.com/">wd11play online</a>
-<a href="https://insurancecoveredbabyformula.com/">macau307.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos99.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">judigameduren777.site -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">judislotpw123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgcr777.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawarbet2025.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga305.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusawin77.online -play</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtop79.online -🏧</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan803.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel999sgp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">tokyo186wins.site -2win</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin383.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">vegas103.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">vegas808slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel888jitu.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanisototo.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin54.world -88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot15took.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorwin56.online -max</a>
-<a href="https://insurancecoveredbabyformula.com/">situsomset288.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstkw99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --new(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">ratuvip999.online -gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus1000gex.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplay666.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajajepe108.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">juraganpw123.online -🏧</a>
-<a href="https://insurancecoveredbabyformula.com/">linktotowin11.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --resmi(tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">zona108.online -cuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situsraja132jp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot56win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinjaya788.site -top</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa809win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusanjaya788.site -top</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgacor666.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotraja345.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togelhoki888vip.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusgaming111.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">linkcepatkaya.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet1jpjaya.site -top</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet880.online +</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --login(7meter)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(betslots88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --168wbtoto.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mposlot818.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmaticjosbet.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong189.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorwin678.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">betwin818.com -play</a>
-<a href="https://insurancecoveredbabyformula.com/">musangwin288aa.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotking808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxslot567.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatoto79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatogel888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin51gacor.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsdelta138jp.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewagacor212.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar2025win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">megawahjaya788.site -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">toto705hkd.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotresmibonus.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mekar808win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">win818gacor.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus218.net -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888hehe.space -tigerasia88</a>
-<a href="https://insurancecoveredbabyformula.com/">slotslowin79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonus147zxc.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonus133.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">semut177jepe.online -top-</a>
-<a href="https://insurancecoveredbabyformula.com/">badak138slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">baimslot177.site -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">cong778.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">kantorslot77.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">kerang177win.world -top-</a>
-<a href="https://insurancecoveredbabyformula.com/">jago366win.site -777-</a>
-<a href="https://insurancecoveredbabyformula.com/">hebat388win.space -777-</a>
-<a href="https://insurancecoveredbabyformula.com/">garudaslot801.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gasing127slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">dragon223won.world -03</a>
-<a href="https://insurancecoveredbabyformula.com/">dragon888win.website -</a>
-<a href="https://insurancecoveredbabyformula.com/">depositpg777.site -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">soju123playwin.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sinar778win.site -777-</a>
-<a href="https://insurancecoveredbabyformula.com/">suster177win.site -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">servertop159.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">planet898win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">pggope355.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">ovo68wde.site -2wins</a>
-<a href="https://insurancecoveredbabyformula.com/">rajajudi108.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">empire999vip.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">qris177win.space -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">slotcepatkaya.net -</a>
-<a href="https://insurancecoveredbabyformula.com/">depo20win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">elang818jepe.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situshoki8080.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">scatterhitam159.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba707win online</a>
-<a href="https://insurancecoveredbabyformula.com/">judicepatkaya.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis717.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis99gacor.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiwin909.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsraja383.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">surga178win.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsking707.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtop79.online --win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot11ts.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkslot218.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">linkgacor787.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">linkjoker808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdboss55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos300.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">asia828.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusa121.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotmenang989.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togelvip789.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong --slot(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartogel898.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">pgsoft77slot.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiwin889.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotgacorhoki2025.online -jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot9toko.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situstoto858.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjongpw123.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">togel905win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --login(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin885.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatop808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis711.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet888play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet887.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">megaspin999.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">mega108.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">congtoto88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin288pro.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88scatter.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gacors.world -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">situs77yukivvip.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgaplayme8.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsraja132hoki.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gbo399win.space -777-</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotjajan.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslotduren777.space -77-</a>
-<a href="https://insurancecoveredbabyformula.com/">asiabet383.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorwin383.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">888gacorloginslot.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">888duren777gac0r.site -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">alexistoto79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">koitotowin77.online =</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjuaratoto282.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ceriabet383.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">777slotezmaxwin.online -www-</a>
-<a href="https://insurancecoveredbabyformula.com/">scatter397.asia -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor2025.online -now</a>
-<a href="https://insurancecoveredbabyformula.com/">alexistoto79.online --win</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --(vipgobetasia.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">vip805win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusa11play.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slottotoslot100.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slothago66.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotwin308.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusbet218.net -wine</a>
-<a href="https://insurancecoveredbabyformula.com/">nanastoto7sl0t.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo578win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin303b.com -ab</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888hehe.space -vip-</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gox world</a>
-<a href="https://insurancecoveredbabyformula.com/">garuda818.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantaragope788.online -gcr</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtogel88.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">scatterhitam159.online -top-</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong127win.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatoto79.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">deposit50win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin288rich.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawinvip108 world</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos301 online</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola705.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot707.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba708win online</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa808win.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa887slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa805jp com</a>
-<a href="https://insurancecoveredbabyformula.com/">megawahjaya788.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">megawin383.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">spaceman8.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanisototo.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">hokiwin805.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">dragon805win.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">royalgacor256.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ollowin989 online</a>
-<a href="https://insurancecoveredbabyformula.com/">slot77yukivvip.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">bonanzakas88.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot98antonslt.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotmega567.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos300slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">ledak338vip.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rupiahtotowin88.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">jonito808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jnt199.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situsnaga808.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">situszeus108.online -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">situsjp308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --pp(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --gp(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjp168.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplay666.space -</a>
-<a href="https://insurancecoveredbabyformula.com/">alexistop808.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88jos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777gacirs.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777gacors.world -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">megahoki887.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">badak151slot.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">kilatgacor789.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin86.world -88</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin54.world -77</a>
-<a href="https://insurancecoveredbabyformula.com/">spaceman889.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola99.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola77.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judibola88.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot138.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">judislotpw123.online --</a>
-<a href="https://insurancecoveredbabyformula.com/">mposlot178.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">jonitogelole77.online =</a>
-<a href="https://insurancecoveredbabyformula.com/">togel666win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki888win.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor2025.online -i-</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartogel88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartop11.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjp186win.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinslot111.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusslotonline.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotqq808.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">linktoto887.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">linkjp308.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">linkdepo808.online -win-</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacorans --gempa777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">nusantarajaya355.online -bcr</a>
-<a href="https://insurancecoveredbabyformula.com/">badak177win.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888mahjong12.world -777</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gacorkang.world -win</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra888gacors.world -88</a>
-<a href="https://insurancecoveredbabyformula.com/">ratu818win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">scatter166.site -66wde</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet365jp.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobetjaya1jp.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet885.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobetjaya788.online -gcr</a>
-<a href="https://insurancecoveredbabyformula.com/">koitoto79.online --win</a>
-<a href="https://insurancecoveredbabyformula.com/">koitoto2025.online -1</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatoto77new.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">zona717.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">naga3355.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rajawin222.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">macau188.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">slotplay555.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garuda15vip.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garuda158.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">garudawin383.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">bentoslot235.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis66gacor.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gacorwin03.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">judionlineduren777.space -77-</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa889win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">toto128.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">royalslot55.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos101.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">sultantoto232.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --login(sloto89.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --rtp(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">megagoceng788.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">zeusjaya788.online -top</a>
-<a href="https://insurancecoveredbabyformula.com/">congtogel138.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">depobos889.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotbonus79jago.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin886.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinjaya355.online -vvip</a>
-<a href="https://insurancecoveredbabyformula.com/">sultangacor345.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slothobicuan88.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">surga177bet.store -777-</a>
-<a href="https://insurancecoveredbabyformula.com/">surgawin19.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situsgacor678.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus988.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos87.world -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos889.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rupiahtotowin77.world -</a>
-<a href="https://insurancecoveredbabyformula.com/">spacemanwin54 world</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot777.store -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinslot66.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwinvip888.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slotvip717.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">slotjp555.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jnt777sl0t.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">nusa22slot.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">situswww.ceritafilm.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">jnetoto77new.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot988win.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">rupiah151slot.space -777</a>
-<a href="https://insurancecoveredbabyformula.com/">depobosku777.world -in</a>
-<a href="https://insurancecoveredbabyformula.com/">judislot128.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">goltogel131.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartotonew2025.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartogel989.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">pulauwin234.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">empire888slot.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">empire999wd.online -win</a>
-<a href="https://insurancecoveredbabyformula.com/">nusa818.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan169.online -vip</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan887.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">kpktotoresmi777.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">lunatogel79.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">gopay303win.site -</a>
-<a href="https://insurancecoveredbabyformula.com/">qq888jos.online -</a>
-<a href="https://insurancecoveredbabyformula.com/">qqslot777jambu com</a>
-<a href="https://insurancecoveredbabyformula.com/">slotdepo666.com -</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --win(wingacor77.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">bola slot --josbet--</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor login --(77superslot.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @www.3plworldwide.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor login --77super.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --(agen878)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --ihokibet💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --terpercaya(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --terbaik(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --maxwin(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik chr--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik c--gboslot</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --winstar138</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik www.mami188-br.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik hari-ini-gboslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor o3--suria88-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --suria88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --gacor(depo77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --terpercaya(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --keren138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pragmatic218</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --ketuanaga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya fav77🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(suria88)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --(agen878)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --luxury345</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279💸</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rupiahtoto💡</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rupiahtoto🌐</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --isototo🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot -- apitoto login</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --jp(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --login(jos889)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online -- (exo88.shop)⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(jos889)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pragmatic77🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gaco88(g88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online - exo88.biz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --terbaru(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online jambu33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online -- slot duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --💋arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor h5--(suria88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(suria88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor (988cnn).com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --kado77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor daftar m77</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --playwin123@</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --playwin123.mediacom.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor (bola88-vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --7nagatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor @koingacor789.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways teshoki</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --slot(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --🦁gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor sultankoin99.win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --permata888🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slotbola88-vip</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --✨(dt138)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways -- kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --kastoto🤑</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --wdterus(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --💸gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --win(99onlinesports)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --daftar(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --pasti(agen878)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --versi(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor g--login(gaco88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor www.dewabos138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --register(dewabos138.blog)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(enakcuan.slot)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(duren77.maxwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --online(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(geber88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot f3--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">casino online --airbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">casino online @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">casino online --ihokibet💋</a>
-<a href="https://insurancecoveredbabyformula.com/">casino online evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">casino online --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(pragmatic218)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --daftar(gaco88)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(gudang4d)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways SLOT PULSA.pphoki</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways 🎮asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways b2--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(rajabet)818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --(rajabet)818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pragmatic77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --evohoki❤</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --deposit(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(oxliga)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --resmi(77superslot)🖖</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --server(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways =(kenari69)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways www.dewabos138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --ihokibet❤</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(77superslot)resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor --100 (duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor +-jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor --slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor -- gercep88</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --gercep88</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --goal55</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --(gaco88)login</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --gercep88</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --jp(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --oxliga</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor --slot(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --win(wingacor77.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --tokyoslot.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online km-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --jp(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor-lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --💸(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --situs(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --join(gercep88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gacor(77superslot)🖖</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --terpercaya(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor x--idrslot138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --hondaSLOT PULSA</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gacor(77superslot)☄</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --indo777📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --asia128📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(japri138.online)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --🎮asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --⚽indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @matauangslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ⭐ asg55.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ♥ asg55.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --ihokibet💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --kingsports99</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-kaya33.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dt138.it.com --gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --www(depo77.info)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo (ligamaster77.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --kckslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot bisabet1.com</a>
-<a href="https://insurancecoveredbabyformula.com/">agen togel --king4d🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot (klikslots.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel --sektorplay88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel --rupiahtoto🌐</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --gacor(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --rajabandar88</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --wbocash</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --gacor(ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --resmi(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --enak@(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways baik-goal55</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --maxwin(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --slot(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --cwdbet</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --login(paus4d)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --ihokibet💋</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --terbaik(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot terpercaya-gboslot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --masuk(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">link togel --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">link togel --ihokibet💋</a>
-<a href="https://insurancecoveredbabyformula.com/">link togel --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways @--indo78</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways -- bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot apk --77superslot🏆</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">poker online a--singapoker</a>
-<a href="https://insurancecoveredbabyformula.com/">poker online --terbaik(99onlinepoker🔥)</a>
-<a href="https://insurancecoveredbabyformula.com/">poker --easywin(99onlinepoker)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--(playwin123)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot-+❤️haha303-ku</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpotsektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--login(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--link(rajahoki123)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--gacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--(123playwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--link(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--evohoki❤️</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--ihokibet❤️</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --a1(haha303a1)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(gaco88-login)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --slot(duren77.daftar)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --login.enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--gbowin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --playwin123resmi.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor g--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --kaya33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(77superslot)terbaik</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(queenslot99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --terbaik(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --playwin123💫</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --dazbet</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--gaco88(g88)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpotmekar99</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpotlektoto</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--(oxliga)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--viral99🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--duren77(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --di(singaasia.app)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --resmi(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --ihokibet❤</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --situs(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya midasplay 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --gacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --gacor(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --oxliga</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways www(pphoki)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor r29--arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --homebet88📍</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor +-klikslots</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --koko288.mantap</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --evohoki❤</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(japri138.online)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways best-asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --login(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --🏆(bupatitogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA sloto89.com</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --www(agen878)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA login --(77superslot.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --www(depo77.info)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA @nana4d-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA login -- 77super com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online www.vegas338.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(jajantogel)--</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik nusagg</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik -+asg55</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor cc--multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(rajabet818.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --online(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --v1(homebet88v1.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways game apk</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">WOLES TOGEL</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto --77superslot🔱</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways aplikasi</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways games</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --vegas338⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways gpn</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA 5000</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA tri</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA smartfren</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA xl tanpa potongan</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bet</a>
-<a href="https://insurancecoveredbabyformula.com/">goodbet303</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bet kecil</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --arunabet</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways138</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways77</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--pasti(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--gacor(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--daftar(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--terbaru(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --🔱resmi(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --vegas338⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(homebet88)💰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --resmi(galaxy77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bet88 login</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bet888</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bet88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi betSLOT PULSA</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --(hoki108).id</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --asli(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --asli(indo777)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSAjp</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA login hboplay99p</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jackpot168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 2025</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jackpot108 link alternatif</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online monitor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online paly</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 180</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --🔱gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --link(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online digital--gboslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online offline</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ways 2</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ways 2 demo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 2 demo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 3</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online -- login jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --apk(tokowin99.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor b9--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">GAME SLOT OFFLINE TERBAIK</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpotwww.homebet88.pro</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--slot(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--playwin123@</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--deposit(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Jackpot--sektorplay88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pasti(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor q2 --(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot acor a2 --suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(multibet88.met)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --ww(rajawin555.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(slotgacor919.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88🏆</a>
-<a href="https://insurancecoveredbabyformula.com/">Slot Terbaik --ihokibet❤</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --link(rajahoki123)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(77superslot)resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot bola(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --juragankoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">Mahjong Ways --vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --(rubah4d)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --(isototo)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --login-(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --login(japri138)🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --oxliga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online vip--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot daftar(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --koko288.daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ee-koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor km--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.mami188-br.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --jajantogel--</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(paus4d)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --oxliga</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99.info</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --🔥(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor - a-gaco88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor f3--(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --airbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- pragmatic77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --@viral99🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bukagaming.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sip33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(tante777.fun)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(spin707🔥)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gacha168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor titan777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor normalbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --super(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --jam(tokowin99.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tante777-pasti</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --lengkap(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.londonorient.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.yhteys.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --biaya(tokowin99.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor v8--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor s8--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor d8--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a5--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a2--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor o3--suria88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor virus88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor goal55🌟</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --max(tante777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(topanwins)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --a1(topanwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(arjuna96net.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(topanwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --idrhoki138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --288(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --ww(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --77super</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slotting --duren77</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin slot --🟢motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin --mm(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">togel --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs togel --(goldenjitu)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi vip--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --solo(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --win(wingacor77.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --deposit(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --🧨gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi 🔝indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --🔱gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --jp(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --join(gercep88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --login(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --bonus(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --new(pragmatic218)🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">link pg --@(http//tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --pg(tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --mpocuan88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --idrhoki138</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --(99onlinesport)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --best(path-tajir365.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --jambu33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --qris(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --gudang138(jp)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --⚡vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --vegas338⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --(vipdewa)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --daftar(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --arunabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --link(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot rtp --👾game(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot rtp --👻game(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot rtp --game(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot rtp --💪game(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slotin --77betsport</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slotidr --77betsport</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --💰game(danaslot77)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --🀄game(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --www(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --🀄duren777🀄</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --www(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --gempa777💢</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gbowin.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --gempa777.com💲</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --2000.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --gempa777.com🎯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --🎰situs(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --vipdewa.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --danaslot77.com👑</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --daftar(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --gempa777.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --gempa777.com💪</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --ugslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --danaslot77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(jatibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --apk(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --apk(hagoslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --sso(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --teh33@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong -toto(tpwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --terbaik(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --gempa(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --online(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet agen provip805 idn</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --mantapwd</a>
-<a href="https://insurancecoveredbabyformula.com/">judi bola --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --www(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(jambu33.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --333(jeruk33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --jeruk33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --(hondaslot77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --💵vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --sektorplay88⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(jambu33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --terbaru(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(jeruk33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(arunabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong www.vegas338.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --vipdewa</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --gudang138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --🚀vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin rtp--vegas338⭐</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin --77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin teshoki</a>
-<a href="https://insurancecoveredbabyformula.com/">game --www(kingsports99)</a>
-<a href="https://insurancecoveredbabyformula.com/">game --online(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">game online --situs(jeruk33)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs official --topanwin</a>
-<a href="https://insurancecoveredbabyformula.com/">situs proxy --bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs proxy --hobicuan</a>
-<a href="https://insurancecoveredbabyformula.com/">situs ultra --bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --maxwin(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --gacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor dewakoin99 no.1</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --asik(japri138)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --agen(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --maxwin(tajir365)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor ✅--arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor 988slot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --sektorplay88.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(slotjos)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs game --(tpwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs thailand --login(kingsports99)</a>
-<a href="https://insurancecoveredbabyformula.com/">link --top(bisabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot @naga818.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --solo(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">link resmi --(tpwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">link resmi --dt138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link resmi -(tpwin)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --resmi(agen878)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor --daftar(gaco88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor 🎮asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(vipdewa-play.org)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --situs(ketuanaga)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --game(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor pandora188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online kodok hoki889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sop88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --ok(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(bisabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --a(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --cuan(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --slot(ketuanaga)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 🔝indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(77super)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --solo(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(indosbobet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(arunabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --real(kastoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gacor(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --daftar(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --slot(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77--daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(delta138)login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pro(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mekar99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --⚡vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --vegas338🤟</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --server(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --resmi(77superslot)🖐</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --vegas338⭐</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --🚀vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --situs(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --ihokibet❤</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --(77superslot)resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs online o-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --new(idrhoki138.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --(arjuna96net.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --forwin777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --f(wayangmantra88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --138(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --99onlinesports💰</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --tpwin</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel --sektorplay.fun⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel essebet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar togel 189.com@</a>
-<a href="https://insurancecoveredbabyformula.com/">bet slot --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia --terbaru(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asia --🟢motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jepang --gacor(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jepang --vegas338⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jepang --⭐vegas338.com</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --🟢motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --🎁motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --7nagatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gempa --(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --game(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --mu(@depo77)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --@(http//tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --link(nusantaratoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --(arjuna96net.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --daftar(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --baru(nusantaratoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --terbaru(99onlinesport)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --resmi(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --login(99onlinesport)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --oke(nusantaratoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --link(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --mobile(indosbobet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --indosbobet88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --pragmatic218🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --gempa777.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">akun gacor --77superslot🌀</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot --77superslot💰</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88alternatif.com =</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 www.kubiktekno.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 online --💸sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --⚡vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --vegas338⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --asli(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --qris(asia128)</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --gacor(77superslot)����</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --gacor(77superslot)☄</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --indo777📌</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --asia128📌</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --(japri138.online)</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --🎮asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 --⚽indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 @matauangslot</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 ⭐ asg55.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mantra88 ♥ asg55.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot 🔝indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotstation --777(motowin77)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot 🔝indo777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot --mahjong(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot --ways(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot 🔝 indo777 com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slotting --(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --🎲sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --🌀sso77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --🎁motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --evohoki💋</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus --77super</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus --duren(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus 🔝indo777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic --hondaslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic --togel(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic --tergacor(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">raja132 --com</a>
-<a href="https://insurancecoveredbabyformula.com/">rajavip 108.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gempa777💢</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 --🀄login(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 --🥩login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 --🎯login(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 --👻login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 --login-duren77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 --🥩login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 --⛄login(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 --🍭login🍭(duren77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --mantap(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --dower88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --ez338</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --topanwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --depo77</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting --daftar(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting--mantap(haha 303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slotting--bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108 --mantap(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108 --bisa(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slottins --depo77</a>
-<a href="https://insurancecoveredbabyformula.com/">link slottins --nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">link slotinss --www(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot108 top</a>
-<a href="https://insurancecoveredbabyformula.com/">depo --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">link pg --(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">link pg --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link pg --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link pg --(arunabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --game(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --💪game(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp --👾game(sso77)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA slot apk</a>
-<a href="https://insurancecoveredbabyformula.com/">pg --login(99onlinesport)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --depo77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --(gempa777.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot --gempa777.com💢</a>
-<a href="https://insurancecoveredbabyformula.com/">pgslot -- gempa777 com 💯</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --@(http//tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --terbaru(99onlinesport)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --link(nusantaratoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --resmi(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --resmi(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --daftar(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --mobile(indosbobet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA --daftar(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">SLOT PULSA depo77.web --</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --top(nusantaratoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --daftar(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --game(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen --game(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slotting --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slotidr --motowin77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --303(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --168(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --((yuki77))</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --ligamaster77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --jakartacash</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --gempa777.com💲</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --77betsport</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game -- klikslots com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --nusagg.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game --sektorplay88.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">judi game -- provider 77betsport</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --99onlinesport</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --jakartacash.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --sektorplay88.com💯</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming -- dt138</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --login(idrhoki138)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gaming --top(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --303(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gaming --evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link bonus @=topwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --daftar(kawanmenang)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(jeruk33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(ligamaster77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot apk</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot itu seperti apa</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot terbaru facebook</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot gratis saldo tanpa deposit</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slotting --login(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --333(jambu33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong -- teh33</a>
-<a href="https://insurancecoveredbabyformula.com/">pgsoft okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --terbaru(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot @-nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --resmi(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --togel(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">netralbet login slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link login slot gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot gacor bk8</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot gacor ltn88</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot online</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot gacor dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --login(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">togel4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --nusagg</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar agen slot</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot 777</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot w2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link agen slot</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot online terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot provip805.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot klikslots.com</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --(sektorplay88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --camar4444</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--dorahoki</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor108 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot tajir365</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88-link</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.it</a>
-<a href="https://insurancecoveredbabyformula.com/">agen108 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor provip805</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --slotzeus88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor raja168.com</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba77 link slot</a>
-<a href="https://insurancecoveredbabyformula.com/">agen108 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tokyoslot.net 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacha168</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--link(www.arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">multibet88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip-sultankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor evohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">bola slot josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor eos77.it.com 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor200.wulyf.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pagodagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor d1-petanitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor piala88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--winlive4d</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba 77 slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor login(pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ((tajir365.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(tante777).fun</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor multibet88--</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot --jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot dewakoin99.com daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88-pro</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokowin99.com)instan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tiket100</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99--daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.web</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">btv168 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">spinbet99 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88-go</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --ez338vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pagoda168</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">pgdewa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">gopay303 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor microvip88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gatotkaca89</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sip777.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot z--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --juragankoin99🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77#1</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --wow388🇰🇭</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88-a</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bos288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip--juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">bola slot --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pagodagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot-multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor aa-suka86</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor titan778.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online www.homebet88.pro</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99---daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --garudagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.co</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor es--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online tokyoslot.net 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.suka86.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --🔥kantortoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot multibet88-terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gcslot.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pagoda168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --wow388📌</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot tante777➙terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">slot m77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --link(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo pg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77🔗</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor indo--dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot z--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru betslots88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor online@multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray tergacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --wow388</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --zeus88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online lektoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-carawd88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi tante777.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi caesarplay 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --gacor(tante777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming kodokhoki889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(fufuslot.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">olx slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot kdslot.🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99--asli</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot singaasia.app</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sip777💰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray.com.</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ++gacha168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi inter77@@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77.com💧</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 988slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --pas(pol88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot w2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot hboplay99</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online z--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sehoki.online🔥🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online koitoto✅</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rupiahtoto🏆</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislots.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online y--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor online--dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bukagaming.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sukauang.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77.com✓</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor titan775.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor cr7vip--🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">spinbet99 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dewakoin99 qris</a>
-<a href="https://insurancecoveredbabyformula.com/">t6 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">pg77 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot bandarbola855</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislot.net</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot homebet88-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot olx128</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-gelek4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bs108.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot de--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot 988slot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okesultan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online w1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13.cc</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot mami188@</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot c5--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor juragankoin99--slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99 no#1</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor agentotoplay🧧</a>
-<a href="https://insurancecoveredbabyformula.com/">angkasa138 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot badai100.net</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot kongbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 337sports-slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor normalbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kambing78.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.xyz gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --@gacorwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --agentotoplay</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot w1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray.com login.</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sehoki.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor daftar(pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(sektorplay88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okebray.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(wow388)inc.org</a>
-<a href="https://insurancecoveredbabyformula.com/">bola slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77-so</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mpo888.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --vip(wayang88)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --mitosbet88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor slot--asia303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77.io</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -?multibet88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">mponusa slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bos288 qris</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ares188</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rupiahtoto💰</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor juragankoin99-main</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sip777.it.com⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 2025 mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ketuanaga</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --asia(asia303)</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot koitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --ringbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba 77 link slot</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dewakoin99 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot pgsoft1000</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot y--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --madu777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(viral99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot ++isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot ee-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot dewacukong88</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot ~~tajir365</a>
-<a href="https://insurancecoveredbabyformula.com/">mawar slot</a>
-<a href="https://insurancecoveredbabyformula.com/">homebet88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor@--winlive4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor z--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot ++jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99--pasti</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot a--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor normalbet.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor m77.obsoletecoin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot olympus slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --@gacorwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ez338(vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi x--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --ekatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online tante777-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor asia303.online</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mahjong dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot cr7vip🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kokohoki.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokyoslot.net 🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">akun demo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77™</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mainaku</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot centrorescatelaspumas.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ++slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --wow388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming topanwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.hfbnyc.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot 337sports.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot koko5000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77#2</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor faktabet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --hanabi88--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi ironman138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 👍 faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs online slot gacor fokus777</a>
-<a href="https://insurancecoveredbabyformula.com/">imba slot</a>
-<a href="https://insurancecoveredbabyformula.com/">preman69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sehoki.com☀🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online benderahoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor microstar88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99-it</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor indo78-slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor spbu777-terbaik</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kunti69 link</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi mm-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online homebet88=gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.it.co</a>
-<a href="https://insurancecoveredbabyformula.com/">lumba77 slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor x--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online terpercaya sultankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(pragmatic218)🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot x--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- wow388💕</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--fixplay666</a>
-<a href="https://insurancecoveredbabyformula.com/">dewakoin99 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bs108.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor wow388-🇮🇩🔴</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --k1(max389)🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online x--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jayavegas.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99-resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online megasloto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin bos288</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki108 .slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @-(sip777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terpercaya dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor (tajir365</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13.info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor id.evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sehoki.com☀️🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rtpgacor paduka500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okesultan-com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor b3--asia303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor katsu5</a>
-<a href="https://insurancecoveredbabyformula.com/">dewacuan slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor t1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana hoki236.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot virtusplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot stationbett.com 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --sip777💰</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rupiahtoto💎</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor #--wow388👇🏻</a>
-<a href="https://insurancecoveredbabyformula.com/">tobrut 99 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --sip777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @titan777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 🔥 stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">dewi slot 108.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --menang123</a>
-<a href="https://insurancecoveredbabyformula.com/">slot m77--resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot m77--bergabung</a>
-<a href="https://insurancecoveredbabyformula.com/">idn slot gacor hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --a1(haha303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hari ini badai100.net</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --garudagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor u2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot forwin77.aepnetworks.com =</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot --asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 🔥 fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor teshoki.id</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor koin55--login</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot m77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --cashback(max389)👈</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot dewakoin99.masuk gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong ways macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">pg soft iqosudud.id slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mpopelangi slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(fufuslot.com)#</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a2--max389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --a88(arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot nex777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 888 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor winlive4d com</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki108 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki108 slot-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mpo888</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online teslatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot es--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot 988slot-com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi inter77-satu</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot +-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tokyoslot.net ✅</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-petanitoto</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --daftar(arjuna96)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.tokowin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor rajadewa138-qris</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot terlengkap</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mlb66.me</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.gacor 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bk--k200m</a>
-<a href="https://insurancecoveredbabyformula.com/">slot cuanhoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.fyi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacha168 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot centrorescatelaspumas.org</a>
-<a href="https://insurancecoveredbabyformula.com/">bd36 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tanganjudi</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot 988slot.net</a>
-<a href="https://insurancecoveredbabyformula.com/">situs macan388 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot rekomendasi google</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor mataslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okesultan.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(teh33)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot jacktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor one-dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --bonus120%(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terpercaya mataslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet.situs</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot ez338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot game m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --situs(ibet899)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(kastoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor-lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot sultankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.ai</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279🍀</a>
-<a href="https://insurancecoveredbabyformula.com/">situs okebray.com slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor esebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sehoki.com☀️🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor win88.com pastiwd</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot ez338(vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99.daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --$(situs23)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor macauslot🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.rajaos.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --nagakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88-main</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --viral99💙</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi b--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor108🤟</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --jos889--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gg wow388🎯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg77.pg</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa200 slot--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ((wayang88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --kaya33</a>
-<a href="https://insurancecoveredbabyformula.com/">pena slot</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-spbu777-resmi-com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --regis(arjuna96)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99-qris</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ktp88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99 no.1</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewazeus33.online</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online fokus777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online jaya38</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor.saranapelangi.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279💲</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --fufuslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mari--m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi glowin88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot 988slot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor royal138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(fufuslot.com)@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pragmatic218</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --@(http//tajirnow.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor station--bet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online terpercaya-jco69✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -🏆homebet88.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --1b3(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --max(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --👉🏻wow388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kwardariau.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot situs pg77</a>
-<a href="https://insurancecoveredbabyformula.com/">alexis slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot scatter hitam macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sehoki.com☀️🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot prada4d.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya mahjong500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bb--max389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --jutawantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online de--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">jago168 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot winslot88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pg(asia303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot normalbet88</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --wow388💪🏻</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.gacor pasti</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor lumba77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru pphoki.com-login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi sip777💰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bola 389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 1mania</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor b9--max389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dadu13.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi inter77--mantap</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pasti mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sip777.it.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor m77.cx</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pagodagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">rajacuan69 slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor bukagaming.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fipbet.com✅</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot terbaru mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --slot(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">presiden slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gcslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">liga2000 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot www.dewabos138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand -- arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mami188--top</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi -- arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a-virus88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot olympus --slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot kado77 gacor hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo mahjong</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa200 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot mm-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --daftar(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet 💎</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot tus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online okesultan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kokogacor77.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.gboslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor arena333.org👄</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor wow388 🇮 🇩 🔴</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor l2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --login(kastoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --kokohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --cashback(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">sule slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online v2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor200.wulyf.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pol88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot win88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor@-jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">bintang11 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(net33)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online bandarkoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot online-spbu777-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --168wbtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --masuk(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot inter77🤣</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gagah4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor200.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ol-wingacor77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor provip805.net</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot pragmatic mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi multibet88--gp</a>
-<a href="https://insurancecoveredbabyformula.com/">microstar88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --akun(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --daftar(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot togel rupiah777</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor mami188 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo 2023 gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana cagurbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor budaya777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mataslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --situs(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--a88(arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --📌(wow388.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs main slot sultankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot tridewi.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --www(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gacor(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajasloto</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --pol88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot daftar-multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online essebet.com 🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">surga19 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online lgogoal</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(winning303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pialatoto.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-no#1-✯spbu777✯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(hahacuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">rajabandot slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(apibet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bang jago</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pg77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sukauang.id</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot titan777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot forwin77</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">cinta69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --{2waybet}--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot iqosrokok.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --situs(hobicuan.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewazeus33.online</a>
-<a href="https://insurancecoveredbabyformula.com/">pos4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okesultan.com💥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fomototo.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot id--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot maxwin fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tokyoslot.com 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gagah4d</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot id--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online inter77-bagus</a>
-<a href="https://insurancecoveredbabyformula.com/">link rtp slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --jajantogel--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --www(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">mild88 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor mpopelangi</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo pg soft</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ++ a88(arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor x3--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pphoki.com-pp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya eos77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor link normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot beluttop.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosplay👍</a>
-<a href="https://insurancecoveredbabyformula.com/">slot batoto.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot pagodagacor</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor normalbet link</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99--slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin fipbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sehoki.com💎🔥💎</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jos</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --join(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor j2--(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot m77.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 fixislot.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gagah4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 5000 --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mainaku88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.988bni.com</a>
-<a href="https://insurancecoveredbabyformula.com/">london 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online scatter911.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor-jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot depo mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor raja168 terbesar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.kdslotaktif.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray.id.</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajacuan69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor jktgame 🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online scatter911</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(javabetsport</a>
-<a href="https://insurancecoveredbabyformula.com/">toyo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor200 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pg77</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">mitosplay agen slot 2025 no.1 di indonesia</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pg soft</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar36 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online nagakoin99.id</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --login(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online w2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor kpr88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13.fun</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislot.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tokyoslot.net 🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mami188 jp</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--(josbet)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terpercaya-jco69✔</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor pasti satria89</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --slot828🎁</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fipbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77--official</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor h2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bento4d.com</a>
-<a href="https://insurancecoveredbabyformula.com/">sizi99 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot okebray.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot fixislot.com maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online multibet88@2025</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor juragankoin99-daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor (tokowin99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor parsonsguitars.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo slot gacor terbaik 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --gacor(kelinci88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor id.pphoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bocahgacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor [evohoki.com]</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana slot367</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming -- auto(max389)@@</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --daftar(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor.penidabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajacuan</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot temposlot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --(winning303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --max389🤩</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor @--wow388🏮</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 fixislot.ryan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot microstar88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(agentotoplay)🧧</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor h1--(wow388)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot mpopelangi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --ringbet88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online normalbet.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pedro4d</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor online dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor108 @slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online c5--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --sektorplay88</a>
-<a href="https://insurancecoveredbabyformula.com/">link daftar slot gacor bank338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 fixislot--io</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(kastoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">okesultan slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot —evohoki📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor c5--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">sultan slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi c5--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-(boston138)</a>
-<a href="https://insurancecoveredbabyformula.com/">panen77 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot hanabi-88</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279👑</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot bimahoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mpopelangi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www(tokowin99).info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot macauslot.com🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --login(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --asia303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot g--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya hanabi88--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online fav77🍊</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --link(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot +-jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --gudang4d🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">nanastoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --pol88🀄</a>
-<a href="https://insurancecoveredbabyformula.com/">slot badai100.com</a>
-<a href="https://insurancecoveredbabyformula.com/">agam 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">88big slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot l--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixislot.id</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot --slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi cuan365</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-jco69✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot kamboja login paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online juragankoin99 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor homebet88--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juragankoin99-net</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">bighoki slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewakoin99 masuk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online boleh77 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online m77🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">london slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot btv168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru tigerkoin88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor kamboja paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot sehoki.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot kamboja paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online inter77-link</a>
-<a href="https://insurancecoveredbabyformula.com/">milan69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot kamboja --paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --gacor(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot kamboja ((paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(max389)389.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot server faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot resmi mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot lucky99</a>
-<a href="https://insurancecoveredbabyformula.com/">koko88 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana mojok34</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor terbaik dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rupiah777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --dutalotre</a>
-<a href="https://insurancecoveredbabyformula.com/">ug slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot provip805 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sip777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor++link(www.arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kicau788.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi sultankoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">dewapoker slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(gempa777)--</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot rajacuan69-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationplay.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 💯 -- (exo88.biz)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor viva368</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jadwal188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo pubtogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --dewa200</a>
-<a href="https://insurancecoveredbabyformula.com/">slot wingacor77</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor sop88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --jajantogel🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(viobet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">jaya slot apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya nusa gg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pesiarbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gudang4d-login</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot www.pglucky88.win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mami188**</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--sejuta77</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --sip777</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot gacor-spbu777-✯</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot nusa gg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --situs(asiktoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(77superslot)--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor k1 --(max389)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--arjuna88(arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --login(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor of--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">e200m slot</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">cctv slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sultankoin99.com daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(jumpatoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hqtoto805.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online teshoki.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">poker88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(multibet88)🥇</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot k--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dari--inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana rupiah777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online golden666</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(www.pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg-gacor-spbu777✯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ini--inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(nusa gg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor btv168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kambing78-com</a>
-<a href="https://insurancecoveredbabyformula.com/">wdbos slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot bandarliga🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot123.link</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kunti69 situs</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot --hercules99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">jco 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rubik slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajacuan69-maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewakoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279♛</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor slot--sejuta77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online k--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot f--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot singaasia.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --ibet899</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot b--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot pglucky88.win</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet.net</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot jawara79</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pg77.ac</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">arne slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor.⁂spbu777alt.xyz⁂</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor osaka88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajadewa138-mobile</a>
-<a href="https://insurancecoveredbabyformula.com/">olx slot @mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okebray.net.</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor200 slot-slot</a>
-<a href="https://insurancecoveredbabyformula.com/">poros77 slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip-juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot panen88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fixi slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot jostoto</a>
-<a href="https://insurancecoveredbabyformula.com/">indo slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor nagakoin99.com-a</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaik dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 88 bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(dower88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --teslatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru badai100.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-boston138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot macauslot.com📈🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --togel279🍄</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mantra88</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --(sektorplay88)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --slot(nusagg.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot z--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.pphoki.com--pg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --qris(goal55)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gacorway.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online bocahgacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online naga888.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --jutawantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">agen abah slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot ez338(vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">mesin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot yowinslot</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">9naga slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mainzeus</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online tokyoslot.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor mpopelangi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor slot775</a>
-<a href="https://insurancecoveredbabyformula.com/">slot initoto88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor-rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-josbet--</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor sultankoin99.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-kaya33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --angkasa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand -+winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-spbu777-resmi-com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor-#✯spbu777✯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 fixislot.store</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77--🤣</a>
-<a href="https://insurancecoveredbabyformula.com/">slot asli m77</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot +-winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">shopee slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris www.slothomebet88.info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi w1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi w2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot paris88 server kamboja</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sehoki.com-kece💎🔥💎</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot pol88💯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ⭐7dewa⭐</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor gacor368</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot no limit</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">garuda999 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot --login(jos889)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot kambing78.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor alexis500</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot online paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --jajantogel--</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot terbaru paris88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor gampang menang 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet ✅</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtoto @slot online</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --isototo✅</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(jackpot108)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor microvip88.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor macauslot 📈🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gampang menang 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 88 fixislot.ccc</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">slot fokus777</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --login(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand www.dewabos138.blog</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris win88.blue</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru stationbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 188--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya caesarplay 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">bantengmerah slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot asian4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewa mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot heylink ratuular77</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot 988slot--com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sektorplay88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tante777➤resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi q2--javabetsport</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sehoki.com-kece💎🔥💎</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--josbet--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor m--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">raja slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi km-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa200 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya klikslots.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">agam69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot juragankoin99 gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor iboplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www--royal138</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --main(kelinci88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pragmatic88</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot juara100.org situs</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --link(www.arjuna88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">cina sipit slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tante777-vip👈</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot80-</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --angkasa138</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot terpercaya-jco69✔</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor kpr88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor boleh77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot zeus juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">abk slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bbca4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(agen108)🤙</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor --sloto89</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaik fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi tuanslot88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor +indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru 77betsports</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(vipdewa)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot kckslot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor online inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi--dewakoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --agentotoplay</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor z-bos303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pulsa88👑</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sukabet.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot (bola88-vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --fav77🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong ways 388macan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor eos77.it.com 🟢</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor slot fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --link(panen88)</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --79(jago79)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot happympo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mitosbetting</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online boleh77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --sektorplay88</a>
-<a href="https://insurancecoveredbabyformula.com/">rans303 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor.provip805</a>
-<a href="https://insurancecoveredbabyformula.com/">detik 11 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">idks slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru mpo888</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbetting</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online indo78</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --kaya33</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor mataslot77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sukauang.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maplay789</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pgslot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--(boston138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sehoki.online-kece💎🔥💎</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online tante777.vip</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kambing78</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --rajadewa138--</a>
-<a href="https://insurancecoveredbabyformula.com/">koko88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sehoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot forwin77.com resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bank338 gates of olympus</a>
-<a href="https://insurancecoveredbabyformula.com/">slot forwin77.com resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pg-agen108</a>
-<a href="https://insurancecoveredbabyformula.com/">daya138 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand cagurbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot resmi markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">jktjkt slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp gacor --slot(klikslots)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor rajadewa138.qris✓</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor win88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pphoki.com-idn</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor mitosbetting</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sehoki.com-kece💎🔥💎</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokyoslot.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mainaku</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewasport88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online borneo303 💲</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana sip777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor idrhoki</a>
-<a href="https://insurancecoveredbabyformula.com/">raja138 slot terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya evohoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okesultan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --macan388--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot casino okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vespa69-play</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online u2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokowin99.com(promosi)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fujiwin88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --wow388🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(pol88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi suka86.net</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor sop88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- 👉🏻(wow388top.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">sk slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet88👈</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --angkasa138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(totowin567.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot resmi kabelbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor japri138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online multibet88-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">langit69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin iqosudud.id slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --tokowin99-|</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mapan 777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --qqaxioo</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot (bola88-vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor an-tokowin99</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --depo77--info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --📌(wow388.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">bonge slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor fixislot.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">jutawantoto slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --olxtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">hopeng slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --gacor108🥇</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot daftar-nex777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot kasta69</a>
-<a href="https://insurancecoveredbabyformula.com/">nagita slot</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot zeus</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet 🐉</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor essebet.org</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">timnas4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">server thailand slot @indo78</a>
-<a href="https://insurancecoveredbabyformula.com/">t6 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --masuk(arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini --qqaxioo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot@asia303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor liga357.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mami188-jy</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --fav77✅</a>
-<a href="https://insurancecoveredbabyformula.com/">klikhoki slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mpo play microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot gacor markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot wa-inaslot777</a>
-<a href="https://insurancecoveredbabyformula.com/">banteng69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo mirip asli</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong bento4d.gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">fufu slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bk1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gatotkaca89</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot terpercaya mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">besti69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot 988slot.info</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online situs koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa lancartoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor scatter hitam macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.gacor login</a>
-<a href="https://insurancecoveredbabyformula.com/">jutawantoto slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">zigzag slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --vip(tante777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --situs(jeruk33aceh.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">empire88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 2025 mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">brojp slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi win88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot laris88.ws</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajadewa138--</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">kakap 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor arjuna88🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rokokbet.toto</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot bolavitaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot www.ufo777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor seri777</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot forwin77.com</a>
-<a href="https://insurancecoveredbabyformula.com/">jackpot108 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot online mainaku</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor h--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya laris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kokohoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor login kunti69</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot go--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">bang jago slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor -- slot arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dadu13.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot titan777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot fintechsupercharger.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --angkasa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jco69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor suraeats.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --depo77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ironman138</a>
-<a href="https://insurancecoveredbabyformula.com/">jablay123 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor bento4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(galaxy77)💍</a>
-<a href="https://insurancecoveredbabyformula.com/">slot ez m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --daftar(asiktoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --(angkasa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.com.login</a>
-<a href="https://insurancecoveredbabyformula.com/">liga 5000 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okebray login</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gacor markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot scatter --(macan388)--</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor mainaku</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot jackpot108--</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor slot-rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewazeus33.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor liga357.amp</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor--galaxy77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor banget--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">naga 2000 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">obor138 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru --angkasa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pagoda168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 essebet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor live-rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot klikslots.com</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot -- link sektorplay88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi jeruk33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sehoki🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online spbu777-terbaik</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor server faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --agen108</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77.io</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin slot fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru www.pphoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">jablay123 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor karbon88 situs</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot kamustoto🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">indokasino slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot --terbaik(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --suneo138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana pol88-88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online fav77🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto tus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">tokekwin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs bank338 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">asia 303--slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --(agen108)🐦⬛️</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(asiktoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot honda</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 188-happybet188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online macauslot 🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">ayu slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gdtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor *king999</a>
-<a href="https://insurancecoveredbabyformula.com/">agen69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor.penidabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot game inter77.io</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin jaytoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --gacor(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --komandan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot naga888.com login</a>
-<a href="https://insurancecoveredbabyformula.com/">petir108 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gacor dewazeus33.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(wede168)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot auto-tante777⌝</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor g11bet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot www--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --sip777</a>
-<a href="https://insurancecoveredbabyformula.com/">jaya slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot agentotoplay🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot dax69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor raja168 qris</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot garuda999 pro</a>
-<a href="https://insurancecoveredbabyformula.com/">sampoerna slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor kpr88 login</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(garudagacor)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot homebet88-super</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor provip805 org</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --sip33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor teshoki.me</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot jutawantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --asiktoto--</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot hari ini mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot cuan365</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--(nagatoto168)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">visitorbet slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot pol88✅</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online www.arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gampang menang</a>
-<a href="https://insurancecoveredbabyformula.com/">bola slot singaasia.app</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacha168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(dutalotre)</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor-motobolaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">bbo303 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">hondatoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">8278 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot jutawantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor royal138.🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">ara slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot id--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- 📌(wow388top.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor nusagg.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(sektorplay88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online www.hfbnyc.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru spbu777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-slot(arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi rajadewa138-pot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --login(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fomototo..com</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot mpo microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">20 slot demo gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot tante777->terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor fixislot.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online maxwin fixislot.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor istanabet.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online tradisibet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77ok</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.saranapelangi.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot @-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot777 slot --terbaik(ez338)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot dewazeus33.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru laris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana ---exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hoki carawd88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online explore138</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot gacor markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">mesin slot --hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(asiktoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot -@rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs mitosbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tajir5000.com</a>
-<a href="https://insurancecoveredbabyformula.com/">kongbet slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mpo777--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi +-bolavitaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69-maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dewacuan</a>
-<a href="https://insurancecoveredbabyformula.com/">akun demo slot pg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sultankoin99.vip.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor 2025 mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris gacor--(vegas338)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor slot-mitosbet88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link --slot(pragmatic218)🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mackillopinstitute.org.au</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa slot abahslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --(agen108)🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor istanabet 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --login(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot microvip88</a>
-<a href="https://insurancecoveredbabyformula.com/">mpopelangi online slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot deposit 1000 samosir88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bet 200 --exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mitosbet88🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">alexistogel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">pola slot gampang menang mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jutawantoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor kpr88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot server gacor faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">hbo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot togel dutalotre.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot-spbu777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">bo slot terpercaya mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -wbocash</a>
-<a href="https://insurancecoveredbabyformula.com/">john slot</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot m.pglucky88.win</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-timur188</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot dax69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online andalan-tante777✿</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --2waybet</a>
-<a href="https://insurancecoveredbabyformula.com/">extra slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rusa33 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot maplayasia</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot bento4d.resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">situs kunti69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor essebet.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --join(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor novaslot88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --queenslot99</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor --slot(duren777)🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor nada777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor cr--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">jutawantoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">royal slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --super(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">istana slot</a>
-<a href="https://insurancecoveredbabyformula.com/">kaos togel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana dax69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot nagatoto168.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gacor368</a>
-<a href="https://insurancecoveredbabyformula.com/">jeju slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot laris88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi senayan bet</a>
-<a href="https://insurancecoveredbabyformula.com/">naga empire slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana kabelbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bb-exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi pm-mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --(enakcuan)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana hanabi88</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --slot828</a>
-<a href="https://insurancecoveredbabyformula.com/">slot88 slot --terbaik(ez338)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo wild bounty</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo slot microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot gacor-168wbtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online @-slotjos</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot a1---asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor koko288</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">situs gacor slot--rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor gampang menang mitosplay.fun</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot +-bolavitaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor agentotoplay🧧</a>
-<a href="https://insurancecoveredbabyformula.com/">hokidewa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo slot gacor terbaik mitosplay.fun</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot --rajacuan69-</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --pragmatic218🦠🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">aset 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot vgowin.com</a>
-<a href="https://insurancecoveredbabyformula.com/">london 69 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor spbu777-terpercaya🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajacuan69-69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor top(pphoki.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya 🎯🎯(arya88indoo.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jawara79🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">ajo89 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pusatjudionline</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor --kudaputih88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gampang menang mitosplay.fun</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --cus(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot sip777💰</a>
-<a href="https://insurancecoveredbabyformula.com/">kawi777 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot pol88slot.link</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya jametkuproy88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor --(kastoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pgsoft1000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --asiktoto✅</a>
-<a href="https://insurancecoveredbabyformula.com/">aplikasi slot</a>
-<a href="https://insurancecoveredbabyformula.com/">a200m slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online aloha4</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mpo--ufo777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -@lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">m77 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online sgmwin.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">pagoda 168 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(vipdewa)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot server mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet88.#1🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jawara79⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor live--rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --wibu69jp-jp</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor server mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">olx slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot www.beijingpiehouse.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi +-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ---(enakcuan)-@daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor *raja138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor a--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online terpercaya slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor-lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online q2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69-login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online terbaik ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online padangtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot123</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor p2--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor agen108-1</a>
-<a href="https://insurancecoveredbabyformula.com/">jutawantoto slot gacor gampang maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online com--slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-gelek4d</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor bukagaming.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --max(borneo303.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs inter77</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --link(jawara79)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi spbu777.com-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot 777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor viartoto</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtoto slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini ez338(vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sinardewa</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --bisabet🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --link(spinbet99.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --@javabetsport</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">toto12 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">api naga slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaik nagakoin99.com</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot bolabagus33</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor tus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">quark slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bukagaming.net</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi halo4d</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa slot 99</a>
-<a href="https://insurancecoveredbabyformula.com/">info situs slot gacor kode4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi sip777.com💰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(asia303)</a>
-<a href="https://insurancecoveredbabyformula.com/">kaiko slot</a>
-<a href="https://insurancecoveredbabyformula.com/">pgbet slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor -- (exo88.xyz)🎰</a>
-<a href="https://insurancecoveredbabyformula.com/">poni slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor-lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">hitam slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mpo 2025 mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot vip kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 5000 --(jajantogel)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot stationbet 💥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online pol88slot.link</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --evohoki🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bonus @nota4d-100%</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --depo77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --2waybet@🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot alexistogel</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor laskar138</a>
-<a href="https://insurancecoveredbabyformula.com/">f200m slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi m77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online dewakoin99-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor maxwin mahadewa88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(sultan188)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot pp--koko5000</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">husky slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ^garudagacor^</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --kelinci88--</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot spbu777.com-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot online kpr88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dewa 389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mpopelangi mpo</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot 📌asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">dino69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor multibet88@2025</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gcslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot inter77@@</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --(ibet899)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini situs-kode4d🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor dewazeus33-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">koko288 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot besar</a>
-<a href="https://insurancecoveredbabyformula.com/">situs link slot gacor laskar138</a>
-<a href="https://insurancecoveredbabyformula.com/">nasa4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --rajacuan69-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pandawara4d.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor idrhoki138.com max</a>
-<a href="https://insurancecoveredbabyformula.com/">slot game okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">ulartoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gacor okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot garuda999 √</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot cagurbet</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">olx slot(bisabet)</a>
-<a href="https://insurancecoveredbabyformula.com/">depo slot com--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot sgptoto368.xyz</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot pg gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa1000 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sop88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online v1--multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sejuta77</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot toto5000</a>
-<a href="https://insurancecoveredbabyformula.com/">cici4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">ahli slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --988bet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-spbu777</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --(gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --(enakcuan)-slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --www(teh33.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --jago368</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --sp99(spinbet99.net)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi gacor--lpo88--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor o2--(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online bandar55</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pol88✅</a>
-<a href="https://insurancecoveredbabyformula.com/">stars77 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">tiket 200 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot gacor hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot batara88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vespa69.jp</a>
-<a href="https://insurancecoveredbabyformula.com/">mainaku slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot www.enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor--delta138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi www.arjuna88.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 🔥 --2waybet</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --(homebet88)🏆</a>
-<a href="https://insurancecoveredbabyformula.com/">slot link --jekpot88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --www(jeruk33aceh.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">congtogel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi--delta138</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot kubiktekno</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.mami188.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dutalotre</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi hboplay99</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa abah slot</a>
-<a href="https://insurancecoveredbabyformula.com/">turnamen slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online terpercaya stationbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot cr--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --viral99🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor essebet 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor-@lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor rajadewa138--login</a>
-<a href="https://insurancecoveredbabyformula.com/">kuningtoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online ramuan88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor spinbet99-login</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --vegas338🏆️</a>
-<a href="https://insurancecoveredbabyformula.com/">slot idn hqtoto805.com</a>
-<a href="https://insurancecoveredbabyformula.com/">data togel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin slot --vegas338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor wikislot</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot @nono4d-4d</a>
-<a href="https://insurancecoveredbabyformula.com/">spaceman slot</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">tobrut99 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor fomototo-me</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">maxwin slot --resmi(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --macan388--</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor king999</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot a-mami-188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --join(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">dubai slot</a>
-<a href="https://insurancecoveredbabyformula.com/">kijangwin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77-maju</a>
-<a href="https://insurancecoveredbabyformula.com/">slot apk</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bank mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --rajacuan69--</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin juragankoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana 1bandar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --duren777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot --77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot m77</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot tawa777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-gelek4d-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(wingacor77)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jp fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi bocahgacor</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --winlive4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor station bet</a>
-<a href="https://insurancecoveredbabyformula.com/">mawartoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor idn fixislot.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kapten33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sukabet.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot olympus</a>
-<a href="https://insurancecoveredbabyformula.com/">zeus slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.canobiefan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewazeus33.slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot provip805</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini hokiraja</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --rokokbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 168wbtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor okesultan.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot saranapelangi</a>
-<a href="https://insurancecoveredbabyformula.com/">kantin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">dewasport88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --gacor200</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot -qris(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">big777 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru mitosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot penghasil uang langsung ke dana tanpa deposit</a>
-<a href="https://insurancecoveredbabyformula.com/">watitoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot duta76</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dadu13.org</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 2024</a>
-<a href="https://insurancecoveredbabyformula.com/">dukun slot</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --teslatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet slot -⭐indo777</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor istana168.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --maxwin(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hari ini slot775 inamoratafilm.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online resmi slot69</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --🐲multibet88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot www.ligamaster77-resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo1221 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">latoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot dewazeus33.org</a>
-<a href="https://insurancecoveredbabyformula.com/">7276 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rajabandot slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor new anakslotmain.com</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot zeus 1000</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar jaya slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo --winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.essebet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo rupiah</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --pol88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi o--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot siambet88.pro</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor senayan bet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot casino slot775 www.inamoratafilm.com</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --rajacuan69-</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot macrovip805</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor 2025 terbaru mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor108 --slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbesar fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">interwin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --royal138🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot --fav77--</a>
-<a href="https://insurancecoveredbabyformula.com/">becek win slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo olympus</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --btv168👍</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor alexis500.net✅</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --slot828</a>
-<a href="https://insurancecoveredbabyformula.com/">slot baru slot775 www.inamoratafilm.com</a>
-<a href="https://insurancecoveredbabyformula.com/">mekswin slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --pragmatic218 (vip)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo mahjong 2</a>
-<a href="https://insurancecoveredbabyformula.com/">slot free inamoratafilm.com slot775</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sehoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot toto --77superslot🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hondaslot hotel</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot b2--asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --fav77🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot game --kastoto</a>
-<a href="https://insurancecoveredbabyformula.com/">rajamuda slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 988bet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mataslot77</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot @--wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot rajacuan69🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">luxury slot</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor jacktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bs108.net</a>
-<a href="https://insurancecoveredbabyformula.com/">slot depo 10k</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot 88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot hobicuan.top</a>
-<a href="https://insurancecoveredbabyformula.com/">miototo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">idn slot hqtoto805</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki dewa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo spaceman</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot okebos 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor slot-cr7sip</a>
-<a href="https://insurancecoveredbabyformula.com/">jkt jkt slot</a>
-<a href="https://insurancecoveredbabyformula.com/">homebet88 #slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot bank338</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot terbaru essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor-lpo88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot macan388 situs gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaik satria89</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg ---@spbu777</a>
-<a href="https://insurancecoveredbabyformula.com/">pulau88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru --agen108</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online teshoki</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot enakcuan</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot demo</a>
-<a href="https://insurancecoveredbabyformula.com/">login slot --lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor esse bet</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor tante777-terbaik🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --fav77💰</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">bejo88 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor viral faktabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 1nwin.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --terbaru arena333</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor kantortoto.one</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot spaceman</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot timeoutjeans.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi vgowin.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online 388macan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online meriah4d🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bs108.org</a>
-<a href="https://insurancecoveredbabyformula.com/">sortoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">tanjung 899 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --join(multibet88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor situs23*login</a>
-<a href="https://insurancecoveredbabyformula.com/">212 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor -(gelek4d)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --a virus88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot v2--homebet88</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot winning303.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor yokaislot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor miya4d login</a>
-<a href="https://insurancecoveredbabyformula.com/">vw108 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg --gempa777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot judi pol88🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777</a>
-<a href="https://insurancecoveredbabyformula.com/">jelly slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --resmi(kelinci88)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot wingacor77.net</a>
-<a href="https://insurancecoveredbabyformula.com/">liga 200 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online jco69</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pestoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot hargatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">juragan69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot --pragmatic218-🦠</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor sehoki.online🔥🔥🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --multibet88)(</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot --lpo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bs108.biz</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor duta76.city</a>
-<a href="https://insurancecoveredbabyformula.com/">talas 89 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor gelek4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot casino hboplay99 sch</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor slot ufo777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --jajantogel</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online resmi-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor --(*arjuna88.com*</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 79 --jago79</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot forwin77.com resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online go--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot resmi dadu13</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand--galaxy77</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">3446 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69.maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --(sektorplay88.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor smatag45.net</a>
-<a href="https://insurancecoveredbabyformula.com/">dewa slot 389</a>
-<a href="https://insurancecoveredbabyformula.com/">rajin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor resmi spbu777.com-terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online slot775.inamoratafilm.com</a>
-<a href="https://insurancecoveredbabyformula.com/">sbobet slot asia128</a>
-<a href="https://insurancecoveredbabyformula.com/">rejekibet slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --@wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">rakyat slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69 🌟</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gampang maxwin ez338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor terbesar dewazeus33.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi -+winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi toto80</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot mpo888</a>
-<a href="https://insurancecoveredbabyformula.com/">bro138 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor laris88 terpercaya</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot rajacuan69-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">abc slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --borneo303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mantap-rajadewa138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online eos77.it.com 🟢</a>
-<a href="https://insurancecoveredbabyformula.com/">babe138 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --cuanhoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 4d</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sukabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot tergacor mitosfakta108</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot ---wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --winlive4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot sakura</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor stationbet.com 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ombaktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online @penaslot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot jco69-terpercaya✔</a>
-<a href="https://insurancecoveredbabyformula.com/">pejuang slot</a>
-<a href="https://insurancecoveredbabyformula.com/">ajak slot</a>
-<a href="https://insurancecoveredbabyformula.com/">sgp777 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">jual toto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">8658 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand dewazeus33situs.com</a>
-<a href="https://insurancecoveredbabyformula.com/">olympus slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot magnumbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot jco69.com</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot --(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot --qris(borneo303)</a>
-<a href="https://insurancecoveredbabyformula.com/">inatogel slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --(klikslots).com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">akun slot --gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor juara100.org medal</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hoki mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot wild bounty</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --fav77🍮</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --paus4d</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gopay --panen88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo winning303-maxwin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand pphoki.com-1</a>
-<a href="https://insurancecoveredbabyformula.com/">kdg789 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --sis(duren777)</a>
-<a href="https://insurancecoveredbabyformula.com/">bondan69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --situs(arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor hari ini dewazeus33</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor arjuna88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi yestoto.id</a>
-<a href="https://insurancecoveredbabyformula.com/">nami55 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot --🤙(agen108)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor megajudi303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor liga357.alt</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor initoto88 login</a>
-<a href="https://insurancecoveredbabyformula.com/">slot hobi --hobicuan</a>
-<a href="https://insurancecoveredbabyformula.com/">qq slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot teslatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">pragmatic play --pragmatic77 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">wa slot</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot --nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor-rajacuan69</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot @ligamaster77.it.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru pphoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">panji slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --panen88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot w1--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pandawin✅</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --🌀gacor(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor inter77.xxx</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana bolagg</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(winning303)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya --lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi rajacuan69-daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong --asiktoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot maxwin 69jp-wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --bintangjudi</a>
-<a href="https://insurancecoveredbabyformula.com/">sigma slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot nagatoto168-com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 777 normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot gacor microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong sektorplay88.com🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot rajadewa138 com</a>
-<a href="https://insurancecoveredbabyformula.com/">rusa 33 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot --resmi(77superslot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --agen(klikslots.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">alexistogel login rtp slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bandarkoin99</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor raja138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor link fixislot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor@-@wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo zeus</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 88 normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot sektorplay88-</a>
-<a href="https://insurancecoveredbabyformula.com/">slot ufo777</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot liga357-amp</a>
-<a href="https://insurancecoveredbabyformula.com/">daftar slot gacor microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mudah menang markigas88</a>
-<a href="https://insurancecoveredbabyformula.com/">zipzap slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot qris cagurbet</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot aloha4d</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot rajacuan69-gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">matrix slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-bandarliga</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot nolimit</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online agen putin138.com</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot microvip88 sga</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot online nagatoto168.com</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor essebet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana --🧨gol88</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot --klik(hanabi88)</a>
-<a href="https://insurancecoveredbabyformula.com/">janda slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --resmi(klikslots)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --satu(mekar99)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi teshoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online katsu5</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online koko288 situs</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --rajadewa138--com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor 88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 200</a>
-<a href="https://insurancecoveredbabyformula.com/">mpopelangi slot gacor</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --77superslot</a>
-<a href="https://insurancecoveredbabyformula.com/">dax69 slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">mesinkoin slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mpo383 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">cheat slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online nagatoto168.com</a>
-<a href="https://insurancecoveredbabyformula.com/">bet slot ratuular77</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot @winning303</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot rajacuan69.gratis</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor-timur188</a>
-<a href="https://insurancecoveredbabyformula.com/">balak66 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi okesultan.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online haha303</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot badai100.net</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--(jostoto)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi teshoki🤤</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --max389</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --alexis500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 777 normalbet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor slotgacor200.com</a>
-<a href="https://insurancecoveredbabyformula.com/">hoki slot mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor essebet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor www.fiti.gov.co</a>
-<a href="https://insurancecoveredbabyformula.com/">sakura slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor ufo777.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online rajacuan69-terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet88🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online idrhoki138jp.xyz login</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --(gacor108)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bonus rupiah777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online =wibu69jp</a>
-<a href="https://insurancecoveredbabyformula.com/">wibu69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot --asia303</a>
-<a href="https://insurancecoveredbabyformula.com/">hrv slot</a>
-<a href="https://insurancecoveredbabyformula.com/">depo slot</a>
-<a href="https://insurancecoveredbabyformula.com/">joker slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pulsa pol88-login</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot rajacuan69-terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini padangtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor magnumbet.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo nolimit city</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --hore168✯</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bonanza macan388</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">hunter slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaik ids388</a>
-<a href="https://insurancecoveredbabyformula.com/">unsur 138 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor-bisabet</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vespa69-id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mono77-login 🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bonanzaslot88</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor win88-online terbaru</a>
-<a href="https://insurancecoveredbabyformula.com/">slot pg --🧨gol88</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot --duatoto</a>
-<a href="https://insurancecoveredbabyformula.com/">multibet88 --(slot)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot games olx128</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online idrslot⚡</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor dewazeus33.daftar</a>
-<a href="https://insurancecoveredbabyformula.com/">olxtoto login slot</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot gacor --josbet</a>
-<a href="https://insurancecoveredbabyformula.com/">server slot laskar138</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor hari ini server luar</a>
-<a href="https://insurancecoveredbabyformula.com/">mega slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru --(king999)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand --🎯(arya88indoo.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor (gempa777)</a>
-<a href="https://insurancecoveredbabyformula.com/">bocil slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot --gacor(rajacuan69)</a>
-<a href="https://insurancecoveredbabyformula.com/">buku mimpi slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong bank338</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo anti rungkad</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot isototo</a>
-<a href="https://insurancecoveredbabyformula.com/">kastoto slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tertinggi tajir365</a>
-<a href="https://insurancecoveredbabyformula.com/">agen slot okebray</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --jago79(com)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor gacor200.id</a>
-<a href="https://insurancecoveredbabyformula.com/">slot agen-liga357</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi p--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 10k evo88</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --(jekpot88)</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot ❤️goal55</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor alexis500</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor mitosbet 777</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online gacor microstar88</a>
-<a href="https://insurancecoveredbabyformula.com/">link gacor slot hobicuan1.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online login-nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">bandar slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor tokyoslot.net 💰</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo anti lag</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mataslot</a>
-<a href="https://insurancecoveredbabyformula.com/">1121 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">dana game apk slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo nolimit</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --(multibet88)🥇</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor cuanhoki</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor --slot(koko288)</a>
-<a href="https://insurancecoveredbabyformula.com/">surgaplay slot</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot qq--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor pagodawin</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online go-lpo88📌</a>
-<a href="https://insurancecoveredbabyformula.com/">gacor pragmatic218 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">mega777 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor vip--m77</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot online</a>
-<a href="https://insurancecoveredbabyformula.com/">kokoplay slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi de--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">livechat slot resmi 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">apk slot jawara79</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 88 resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">preman 69 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terpercaya inter77#1</a>
-<a href="https://insurancecoveredbabyformula.com/">mahjong slot</a>
-<a href="https://insurancecoveredbabyformula.com/">arai slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor beluthoki.com</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot --jos889🚀</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot 88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot terbaru sip777🔥</a>
-<a href="https://insurancecoveredbabyformula.com/">slot bonus mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">slot thailand evo88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online wow388✅</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot --daftar(isototo)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor terbaru 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi arya88</a>
-<a href="https://insurancecoveredbabyformula.com/">main slot a1--jos889</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor og tajir365</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor nagatoto168</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi inter77#1</a>
-<a href="https://insurancecoveredbabyformula.com/">game slot 168wbtoto</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot gacor terbaik 2025 mitosplay.com</a>
-<a href="https://insurancecoveredbabyformula.com/">bandot slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi go--mami188</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot hokiterus88.support</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot hari ini</a>
-<a href="https://insurancecoveredbabyformula.com/">rtp slot exototo</a>
-<a href="https://insurancecoveredbabyformula.com/">raja slot jambu33</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot bento4d.tergacor</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --pro(rajadewa138)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot --(arya88.link)</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gacor bgt.suka86</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online --kaisarjudi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot gaming --(kaisarjudi)</a>
-<a href="https://insurancecoveredbabyformula.com/">usaha188 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot mahjong —vipdewa</a>
-<a href="https://insurancecoveredbabyformula.com/">judi slot online bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot online vip-slot80</a>
-<a href="https://insurancecoveredbabyformula.com/">pg slot demo</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot gacor--leoslot88</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dana ids388 resmi</a>
-<a href="https://insurancecoveredbabyformula.com/">slot resmi --pg(ligamaster77.it.com)</a>
-<a href="https://insurancecoveredbabyformula.com/">situs slot demo stationplay</a>
-<a href="https://insurancecoveredbabyformula.com/">demo slot nolimit city</a>
-<a href="https://insurancecoveredbabyformula.com/">ledak 388 slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot dadu</a>
-<a href="https://insurancecoveredbabyformula.com/">pos4d slot login</a>
-<a href="https://insurancecoveredbabyformula.com/">toto slot bukagaming</a>
-<a href="https://insurancecoveredbabyformula.com/">slot demo iosbet</a>
-<a href="https://insurancecoveredbabyformula.com/">link slot --hanabi88--</a>
-<a href="https://insurancecoveredbabyformula.com/">janda4d slot</a>
-<a href="https://insurancecoveredbabyformula.com/">slot 77</a>
-</div>
-    <body class="ui-toolkit transitional-wide etsy-has-it-design is-responsive no-touch en-GB IDR ID wt-browser-has-no-hover-support" data-language="en-GB" data-currency="IDR" data-region="ID" data-hover-none="true" data-visual-focus-state="true" data-mobile-viewport-height="true">
-
-        <script nonce="">
-    !function(a,b,c,d,e,f){a.ddjskey=e;a.ddoptions=f||null;var m=b.createElement(c),n=b.getElementsByTagName(c)[0];m.async=1,m.defer=1,m.src=d,n.parentNode.insertBefore(m,n)}(window,document,"script","https://www.etsy.com/include/tags.js", "D013AA612AB2224D03B2318D0F5B19", {
-        endpoint:"https://www.etsy.com/include/tags.js",
-        ajaxListenerPath: true,
-        enableTagEvents: true,
-        overrideAbortFetch: true,
-        abortAsyncOnChallengeDisplay: true,
-        disableAutoRefreshOnCaptchaPassed: false,
-        replayAfterChallenge: true
-    });
-
-    var DD_BLOCKED_EVENT_NAME = "dd_blocked";
-    var DD_RESPONSE_DISPLAYED_EVENT_NAME = "dd_response_displayed";
-    var DD_RESPONSE_ERROR_EVENT_NAME = "dd_response_error";
-
-    window.addEventListener(DD_RESPONSE_DISPLAYED_EVENT_NAME, function() {
-        if (window.Sentry && window.Sentry.setTag) {
-            window.Sentry.setTag(DD_RESPONSE_DISPLAYED_EVENT_NAME, true);
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Apa itu JENDELATOTO Toto Slot online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JENDELATOTO merupakan platform digital yang menyediakan layanan Toto Slot online resmi dengan sistem terintegrasi yang menghadirkan data akurat, cepat, dan Gampang diakses oleh pengguna."
         }
-    });
-
-    window.addEventListener(DD_BLOCKED_EVENT_NAME, function() {
-        if (window.Sentry && window.Sentry.setTag) {
-            window.Sentry.setTag(DD_BLOCKED_EVENT_NAME, true);
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah JENDELATOTO menyediakan data Macau terpercaya?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, JENDELATOTO menghadirkan data Macau terpercaya yang diperbarui secara konsisten sehingga pengguna dapat memantau hasil dengan lebih jelas dan akurat."
         }
-    });
-
-    window.addEventListener(DD_RESPONSE_ERROR_EVENT_NAME, function() {
-        if (window.Sentry && window.Sentry.setTag) {
-            window.Sentry.setTag(DD_RESPONSE_ERROR_EVENT_NAME, true);
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah JENDELATOTO bisa diakses melalui smartphone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Platform JENDELATOTO dirancang responsif sehingga dapat diakses melalui smartphone, tablet, maupun desktop dengan tampilan yang tetap ringan dan stabil."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Apa keunggulan JENDELATOTO dibanding platform lain?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keunggulan JENDELATOTO terletak pada sistem pembaruan data yang cepat, tampilan yang terstruktur, serta akses yang stabil sehingga memberikan pengalaman penggunaan yang lebih efisien."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah tersedia fitur tambahan di JENDELATOTO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JENDELATOTO menyediakan berbagai fitur modern yang membantu pengguna dalam memantau data, membaca hasil, serta meningkatkan kenyamanan dalam mengakses informasi setiap saat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mengapa banyak pengguna memilih JENDELATOTO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Banyak pengguna memilih JENDELATOTO karena sistemnya yang konsisten, data yang akurat, serta keGampangan akses yang membuat pengalaman menjadi lebih praktis dan terpercaya."
+        }
+      }
+    ]
+  }
+  </script>
+    <!-- User Session Data -->
+      <meta name="csrf-token" content="9ce6e4a17f7cc189893df9e47789b13e98829450d516a0cae5ca7b5f43e5dadc">
+    <meta name="user-logged-in" content="false">
+    <meta name="user-id" content="0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  
+    <link rel="shortcut icon" href="https://elspricelist.pages.dev/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/style.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/bottom-nav.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/search-suggest.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/product-detail.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/product-grid.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/site-notice.css">
+          <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/benchmark.css">
+      <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/product-filters.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/mega-menu-tiles.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/product-compare.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/product-card-actions.css">
+    <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/modal.css">
+        
+          <link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/reviews-points.css">
+  </head>
+  <body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        JENDELATOTO SITUS TOTO 4D Terbaik
+      </div>
+      <div class="topbar-right">
+        <a href="#">JENDELATOTO</a>
+        <a href="#">Livechat</a>
+        <a href="#">Promo</a>
+        <a href="#">Daftar</a>
+      </div>
+    </div>
+  </header>
+  
+  <nav class="navbar">
+    <nav class="navbar-logo" style="width: 100%;">
+      <div class="container nav-inner" style="justify-items: center; justify-content: center;">
+          <a href="/" class="logo-mobile">
+            <img src="https://elspricelist.pages.dev/logo.png" alt="JENDELATOTO" height="40">
+          </a>
+      </div>
+  </nav>
+    <div class="container nav-inner">
+      <a href="/" class="logo">
+        <img src="https://elspricelist.pages.dev/logo.png" alt="JENDELATOTO" height="40">
+      </a>
+  
+      
+      <form class="search" method="get" action="#">
+        <input type="hidden" name="page" value="produk">
+        
+        <!-- Search Icon (Desktop) -->
+        <button type="submit" class="search-icon-btn" id="searchBtn" aria-label="Cari">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+        </button>
+        
+        <input type="text" name="q" id="searchInput" placeholder="Cari JENDELATOTO"
+               value="" autocomplete="off"> 
+        
+        <div class="search-suggest" id="searchSuggest" hidden></div>
+      </form>
+  
+      <div class="nav-actions">
+        <!--<button class="icon-btn" id="notifBtn" title="Notifikasi">🔔</button>-->
+        <button class="icon-btn cart-indicator" id="cartBtn" title="Keranjang">
+          🛒 <span id="cartCount" class="badge" data-role="cart-badge" aria-live="polite">0</span>
+        </button>
+        
+        
+          <span id="compareCount" class="badge" data-role="compare-badge" aria-live="polite">0</span>
+        </button>
+        
+        <!-- Dynamic login/logout button -->
+              <button class="login-btn" id="loginBtn" aria-label="Masuk">
+          <span class="login-text">Masuk</span>
+          <span class="login-ico" aria-hidden="true">😊</span>
+        </button>
+            </div>
+    </div>
+  
+    <div class="container" style="display: flex; align-items: center;">
+        
+  
+        <div class="mega-cats-wrapper">
+          <div class="mega-cats container" id="megaCatsScroll" style="padding-left: 5px !important;">
+                        <a class="" href="https://els.id/pricelist/">
+                JENDELATOTO            </a>
+                        <a class="" href="https://els.id/pricelist/">
+                TOTO 4D            </a>
+                        <a class="" href="https://els.id/pricelist/">
+                AGEN SLOT            </a>
+                        <a class="" href="https://els.id/pricelist/">
+                SLOT ONLINE            </a>
+                        <a class="" href="https://els.id/pricelist/">
+                SITUS TOTO 4D            </a>
+                    </div>
+          <div class="mega-cats-fade" id="megaCatsFade"></div>
+        </div>
+    </div>
+  </nav>
+  
+  <!-- Panel Mega Menu - Outside navbar for full-screen -->
+  <div class="mm2-panel" data-mm2="panel" role="dialog" aria-label="Kategori">
+    <div class="mm2-view is-active" data-mm2="top"></div>
+    <div class="mm2-view" data-mm2="detail"></div>
+  </div>
+  
+  <!-- Backdrop - Outside navbar for full-screen -->
+  <div class="mm2-backdrop" data-mm2="backdrop"></div>
+  
+  <!-- Mobile Bottom Navigation -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav-inner">
+      <!-- Home -->
+      <a href="/" class="bottom-nav-item" id="bottomHomeBtn" data-page="home">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 010 1.06l-.03.03a.75.75 0 01-1.06 0l-8.16-8.16-8.16 8.16a.75.75 0 01-1.06 0l-.03-.03a.75.75 0 010-1.06l8.69-8.69z"/>
+            <path d="M12 5.5l-7.5 7.5v8.25c0 .414.336.75.75.75h3.75v-6h6v6h3.75a.75.75 0 00.75-.75V13l-7.5-7.5z"/>
+          </svg>
+        </div>
+        <span class="bottom-nav-item-label">Home</span>
+      </a>
+  
+      <!-- Kategori -->
+      <button class="bottom-nav-item" id="bottomCategoryBtn" data-mm2="trigger" aria-label="Kategori">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3 5.25A.75.75 0 013.75 4.5h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 6.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"/>
+          </svg>
+        </div>
+        <span class="bottom-nav-item-label">Kategori</span>
+      </button>
+  
+      <!-- Keranjang -->
+      <button class="bottom-nav-item" id="bottomCartBtn">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/>
+            <circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"/>
+          </svg>
+          <span class="bottom-nav-item-badge" id="bottomCartCount">0</span>
+        </div>
+        <span class="bottom-nav-item-label">Keranjang</span>
+      </button>
+  
+      <!-- Compare -->
+      <button class="bottom-nav-item" id="bottomCompareBtn">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 11 21 7 17 3"/>
+            <path d="M21 7H9"/>
+            <polyline points="7 21 3 17 7 13"/>
+            <path d="M15 17H3"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21.75 6.75a.75.75 0 00-.75-.75H9a.75.75 0 000 1.5h10.19L15.22 11.47a.75.75 0 001.06 1.06l4.5-4.5a.75.75 0 00.22-.53.75.75 0 00-.22-.53l-.03-.03zM8.78 12.47L4.28 16.97a.75.75 0 000 1.06l4.5 4.5a.75.75 0 001.06-1.06L6.06 18H15a.75.75 0 000-1.5H4.81l3.97-3.97a.75.75 0 00-1.06-1.06z"/>
+          </svg>
+          <span class="bottom-nav-item-badge" id="bottomCompareCount" style="display:none;">0</span>
+        </div>
+        <span class="bottom-nav-item-label">Compare</span>
+      </button>
+  
+      <!-- Chat - Always show, check login in JavaScript -->
+      <button class="bottom-nav-item" id="bottomChatBtn" data-page="chat">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" opacity="0.85">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+          </svg>
+          <span class="bottom-nav-item-badge" id="bottomChatCount" style="display:none;">0</span>
+        </div>
+        <span class="bottom-nav-item-label">Chat</span>
+      </button>
+  
+      <!-- Akun -->
+          <button class="bottom-nav-item" id="bottomLoginBtn">
+        <div class="bottom-nav-item-icon">
+          <!-- Outlined icon (default) -->
+          <svg class="icon-outlined" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <!-- Filled icon (active) -->
+          <svg class="icon-filled" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd"/>
+          </svg>
+        </div>
+        <span class="bottom-nav-item-label">Login</span>
+      </button>
+          </svg>
+        </div>
+      </button>
+        </div>
+  </nav>
+  
+  <!-- Mobile User Menu Bottom Sheet -->
+  
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">
+  (function(){
+    const btn = document.getElementById('megaMoreBtn');
+    const dd  = document.getElementById('megaMoreDropdown');
+    if(!btn || !dd) return;
+  
+    function openDD(){
+      dd.hidden = false;
+      btn.setAttribute('aria-expanded','true');
+      document.addEventListener('click', outside, {capture:true});
+      document.addEventListener('keydown', esc);
+    }
+    function closeDD(){
+      if(dd.hidden) return;
+      dd.hidden = true;
+      btn.setAttribute('aria-expanded','false');
+      document.removeEventListener('click', outside, {capture:true});
+      document.removeEventListener('keydown', esc);
+    }
+    function toggle(){ dd.hidden ? openDD() : closeDD(); }
+    function outside(e){
+      if(!dd.contains(e.target) && e.target !== btn){
+        closeDD();
+      }
+    }
+    function esc(e){
+      if(e.key === 'Escape'){
+        closeDD();
+        btn.focus();
+      }
+    }
+    btn.addEventListener('click', toggle);
+  })();
+  
+  // ========== HORIZONTAL SCROLL FADE INDICATOR ==========
+  (function(){
+    const megaCats = document.getElementById('megaCatsScroll');
+    const fade = document.getElementById('megaCatsFade');
+    if (!megaCats || !fade) return;
+  
+    function updateFade() {
+      const scrollLeft = megaCats.scrollLeft;
+      const scrollWidth = megaCats.scrollWidth;
+      const clientWidth = megaCats.clientWidth;
+      const maxScroll = scrollWidth - clientWidth;
+      
+      // Hide fade when scrolled to end (within 10px tolerance)
+      if (maxScroll - scrollLeft <= 10) {
+        fade.style.opacity = '0';
+      } else {
+        fade.style.opacity = '1';
+      }
+    }
+  
+    // Update on scroll
+    megaCats.addEventListener('scroll', updateFade, { passive: true });
+    
+    // Update on resize
+    window.addEventListener('resize', updateFade, { passive: true });
+    
+    // Initial check
+    setTimeout(updateFade, 100);
+  })();
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    var input = document.getElementById('searchInput');
+    if (!input) return;
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        var form = input.form;
+        if (!form) return;
+        if (typeof form.requestSubmit === 'function') form.requestSubmit();
+        else form.submit();
+      }
     });
-</script>
-
+  });
+  
+  
+  (function(){
+    const cartBtn = document.getElementById('cartBtn');
+    if (cartBtn) {
+      cartBtn.addEventListener('click', function(e) {
+        e.preventDefault();
         
-
+        const checkLogin = () => {
+          return window.isUserLoggedIn ? window.isUserLoggedIn() : false;
+        };
         
-
-        <div data-above-header="" class="wt-z-index-5 wt-position-relative">
-            
-            
-
-        </div>
-
-        <div data-selector="header-cat-nav-wrapper" data-menu-ui="menubar">
-<div id="gnav-header" class=" gnav-header global-nav v2-toolkit-gnav-header wt-z-index-6 wt-bg-white wt-position-relative " data-as-version="10_12672349415_19" data-count-ajax="" data-show-suggested-searches-in-as="1" data-show-gift-card-cta-in-as="1" data-as-personalized="1" data-as-extras="{&amp;quot;expt&amp;quot;:&amp;quot;all_xml&amp;quot;,&amp;quot;lang&amp;quot;:&amp;quot;en-GB&amp;quot;,&amp;quot;extras&amp;quot;:[]}" data-cheact="1" data-gnav-header="">
-    <header id="gnav-header-inner" class="global-enhancements-header wt-display-flex-xs wt-justify-content-space-between wt-align-items-center wt-width-full wt-body-max-width wt-pl-xs-2 wt-pr-xs-2 wt-pl-lg-6 wt-pr-lg-6 wt-bb-xs wt-bb-lg-none gnav-header-inner wt-pt-lg-2 
-        
-        " role="banner">
-
-        <script nonce="">!function(e){var r=e.__etsy_logging;if(r&&r.perf&&r.perf.prefixMarkMeasure){var n=r.perf.prefixMarkMeasure("logo_render");e.performance&&e.performance.mark&&e.requestAnimationFrame((function(){setTimeout((function(){e.performance.mark(n)}))}))}}(window);</script>
-
-            <nav class="wt-hide-xs wt-show-lg">
-                <div data-clg-id="WtMenu" class="wt-menu wt-tooltip ge-menu--body-below-trigger wt-tooltip--disabled-touch dropdown-category-menu wt-menu--bottom wt-menu--left" data-wt-menu="" data-wt-tooltip="true" data-menu-body-below-trigger="true" data-close-on-select="true" data-hide-trigger-on-open="false" data-animate-in="true" data-contain-focus="false" data-open-direction-vert="bottom" data-open-direction-horiz="left" data-open-direction-force="true" data-menu-type="action">
-       
-        <button type="button" class="wt-menu__trigger wt-btn wt-btn--transparent header-button wt-mr-xs-1 wt-btn--small" aria-haspopup="true" aria-expanded="false" data-wt-menu-trigger="" data-level="0" data-overlay-trigger-selector="overlay-trigger-ele">
-          <span class="etsy-icon wt-mr-xs-1 wt-icon--smaller">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 18 18">
-              <rect x="2" y="8" width="14" height="2"></rect>
-              <rect x="2" y="13" width="14" height="2"></rect>
-              <rect x="2" y="3" width="14" height="2"></rect>
-            </svg>
-          </span>
-          Categories
-        </button>
-
-        <div data-neu-spec-placeholder="1" id="bd2c69bf978c5288825b3623782eb9a1">
-    <script type="text/json" data-neu-spec-placeholder-data="1">{"spec_name":"EtsyModulesCategoryNavSpecsDropdownCatNavDropdownSubmenu","args":[]}</script>
-    <div>
-    
-        
-</div>
-</div>
-
-        <span class="ge-menu__body-caret wt-z-index-10 wt-bg-white wt-position-absolute wt-bl-xs wt-bt-xs wt-br-xs-none wt-bb-xs-none"></span>
-
-</div>
-            </nav>
-
-        <div class="wt-width-full wt-display-flex-xs wt-pr-lg-3 wt-flex-lg-1 order-mobile-tablet-2" data-hamburger-search-container="">
-            <button data-id="hamburger" class="wt-btn wt-btn--transparent wt-btn--icon wt-hide-lg
-               wt-btn--transparent-flush-left
-                         wt-mb-xs-2
-               
-               wt-mb-lg-0
-               header-button" aria-controls="mobile-catnav-overlay" tab-index="0">
-          <span class="wt-screen-reader-only">
-                    Browse
-          </span>
-          <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 7H3V5h18zm-5 6H3v-2h13zm5 6H3v-2h18z"></path></svg></span>
-     </button>
-            <div class="wt-display-inline-block wt-flex-xs-1 wt-pl-lg-0
-                wt-mb-xs-2
-        
-        wt-mb-lg-0">
-    <form id="gnav-search" class="global-enhancements-search-nav wt-position-relative wt-display-flex-xs" method="GET" action="/search.php" role="search" data-gnav-search="" data-ge-search-clearable="" data-trending-searches="1">
-
-        <label for="global-enhancements-search-query" class="wt-label wt-screen-reader-only">
-   Search for items or shops
-</label>
-<div class="search-container" data-id="search-bar">
-    <div class="wt-input-btn-group global-enhancements-search-input-btn-group emphasized_search_bar emphasized_search_bar_grey_bg search-bar-container" data-id="search-suggestions-trigger">
-        <input id="global-enhancements-search-query" data-id="search-query" data-search-input="" type="text" name="search_query" class="wt-input wt-input-btn-group__input global-enhancements-search-input-btn-group__input
-                    wt-pr-xs-7
-                                        
-                    " placeholder="Search for anything" value="" autocomplete="off" autocorrect="off" autocapitalize="off" role="combobox" aria-autocomplete="both" aria-controls="global-enhancements-search-suggestions" aria-expanded="false" />
-        <button type="button" class="wt-btn wt-btn--transparent wt-btn--icon wt-btn--small position-absolute-important wt-position-right wt-z-index-9 wt-animated  wt-animated--is-hidden
-            
-            search-close-btn-margin-right " data-search-close-btn="">
-            <span class="wt-screen-reader-only">Clear search</span>
-            <span class="wt-icon wt-icon--smaller wt-nudge-t-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
-        </button>
-        <button type="submit" class="wt-input-btn-group__btn global-enhancements-search-input-btn-group__btn
-                
-                " value="Search" aria-label="Search" data-id="gnav-search-submit-button">
-            
-            <span class="wt-icon wt-nudge-b-2 wt-nudge-r-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 19a8.46 8.46 0 0 0 5.262-1.824l4.865 4.864 1.414-1.414-4.865-4.865A8.5 8.5 0 1 0 10.5 19m0-2a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13"></path></svg></span>
-        </button>
-    </div>
-    <div id="global-enhancements-search-suggestions" class="global-nav-menu__body
-            search-suggestions-container
-             wt-width-full wt-max-width-full
-            " data-id="search-suggestions">
-    </div>
-</div>
-
-<input id="search-js-router-enabled" type="hidden" value="true" />
-<input type="hidden" value="all" name="search_type" id="search-type" />
-    </form>
-</div>
-        </div>
-
-        <a data-selector="skip-to-content-marketplace" class="global-enhancements-skip-to-content wt-screen-reader-only wt-focusable" href="#content">
-    <div id="skip-to-content-wrapper" class="wt-display-flex-xs wt-align-items-center wt-justify-content-center wt-body-max-width wt-width-full wt-height-full wt-position-absolute wt-position-top wt-position-left wt-position-right wt-bg-denim wt-z-index-10">
-        <label class="wt-btn wt-btn--transparent wt-btn--light">
-            Skip to Content
-        </label>
-    </div>
-</a>
-
-        
-
-        <div class="mobile-catnav-wrapper wt-overlay wt-overlay--peek wt-overlay--peek-left wt-p-xs-0" data-wt-overlay="" id="mobile-catnav-overlay" aria-hidden="true" aria-modal="false" role="dialog">
-        </div>
-
-        <div class="wt-flex-shrink-xs-0" data-primary-nav-container="">
-            <nav aria-label="Main">
-    <ul class="wt-display-flex-xs wt-justify-content-space-between wt-list-unstyled wt-m-xs-0 wt-align-items-center">
-        <li data-favorites-nav-container="" data-ge-nav-menu="favorites" data-ge-hover-event-name="gnav_hover_favorites_menu">
-
-</li>
-
-
-
-
-<li>
-<div data-clg-id="WtMenu" class="wt-menu wt-tooltip ge-menu ge-menu--body-below-trigger ge-menu--help wt-tooltip--disabled-touch" data-wt-menu="" data-wt-tooltip="true" data-ge-nav-menu="help" data-ge-nav-event-name="gnav_show_help_menu" data-ge-hover-event-name="gnav_hover_help_menu" data-menu-body-below-trigger="true" data-hide-trigger-on-open="false" data-animate-in="true" data-close-on-select="true" data-contain-focus="false" data-open-direction-vert="bottom" data-open-direction-horiz="right" data-open-direction-force="true" data-menu-type="action">
-    <button data-clg-id="WtMenuTrigger" type="button" class="wt-menu__trigger wt-btn wt-btn--transparent wt-tooltip__trigger help-menu-trigger wt-btn--icon wt-pr-xs-1 wt-display-inline-flex-xs reduced-margin-xs header-button" aria-haspopup="true" aria-expanded="false" data-wt-menu-trigger="" aria-describedby="ge-tooltip-label-help" aria-label="Help &amp; Support" data-overlay-trigger-selector="overlay-trigger-ele">
-        <span class="wt-menu__trigger__label">            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 1 10-10 10.013 10.013 0 0 1-10 10m0-18a8 8 0 1 0 8 8 8.01 8.01 0 0 0-8-8"></path><path d="M12 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m1-4h-2a3.04 3.04 0 0 1 1.7-2.379c.8-.566 1.3-.947 1.3-1.621a2 2 0 1 0-4 0H8a4 4 0 1 1 8 0 4 4 0 0 1-2.152 3.259c-.33.186-.62.438-.848.741"></path></svg></span>
-</span>
-        <span class="wt-icon wt-menu__trigger__caret"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="16.5 10 12 16 7.5 10 16.5 10"></polygon></svg></span>
-</button>
-        <span id="ge-tooltip-label-help" role="tooltip">Help &amp; Support</span>
-
-<div data-clg-id="WtMenuBody" role="menu" class="wt-menu__body ge-help-menu-dimensions wt-display-flex-xs wt-flex-direction-column-xs wt-pb-xs-2" data-wt-menu-body="">
-                <ul class="wt-list-unstyled">
-                <li class="wt-sem-text-primary wt-list-unstyled">
-    <h4 class="wt-text-title-01 wt-mt-xs-1" aria-label="Help &amp; Support">Help &amp; Support</h4>
-</li><li class="wt-sem-text-primary wt-list-unstyled wt-pt-xs-1 wt-pb-xs-1">
-    <div class="wt-bt-xs"></div>
-</li><div class="wt-mt-xs-3 wt-mb-xs-3 wt-mr-xs-3 wt-ml-xs-3">
-    <p class="wt-text-body-small">
-        Reach out to the seller first for help with an existing order. If you ever need us, Etsy has your back.
-    </p>
-</div>
-    <button tabindex="0" class="wt-btn wt-btn--transparent wt-btn--small wt-mb-xs-3" data-selector="help_menu_cta_button">
-        Go to Purchases
-        <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m18.414 12-5.707 5.707-1.414-1.414L14.586 13H6v-2h8.586l-3.293-3.293 1.414-1.414z"></path></svg></span>
-    </button><li class="wt-sem-text-primary wt-list-unstyled wt-pt-xs-1 wt-pb-xs-1">
-    <div class="wt-bt-xs"></div>
-</li><div class="wt-pt-xs-3">
-</div><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/etsy-purchase-protection?ref=hdr_help_menu" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div>
-            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 37" fill="none" aria-hidden="true" focusable="false">
-<path d="M18.24 7.37659C21.615 5.26159 26.205 5.95159 29.175 8.90659C32.76 12.4916 32.76 18.2816 29.175 21.8666L25.935 25.1066" fill="#4D6BC6"></path>
-<path d="M26.7449 25.9015L25.1249 24.2815L28.3649 21.0415C31.4849 17.9215 31.4849 12.8365 28.3649 9.70152C25.7549 7.09152 21.7499 6.52152 18.8549 8.33652L17.6399 6.40152C21.4349 4.01652 26.6249 4.73652 29.9849 8.09652C34.0049 12.1165 34.0049 18.6565 29.9849 22.6765L26.7449 25.9165V25.9015Z" fill="#222222"></path>
-<path d="M30.0601 19.1965L26.4601 15.5965L19.7701 8.90652C16.1851 5.32152 10.3951 5.32152 6.81009 8.90652C3.22509 12.4915 3.22509 18.2815 6.81009 21.8665L11.4301 26.4865L14.6701 29.7265C15.5701 30.6265 17.0101 30.6265 17.9101 29.7265C18.8101 28.8265 18.8101 27.3865 17.9101 26.4865L16.6201 25.1965L19.5301 28.1065C20.4301 29.0065 21.8701 29.0065 22.7701 28.1065C23.6701 27.2065 23.6701 25.7665 22.7701 24.8665L23.5801 25.6765C24.4801 26.5765 25.9201 26.5765 26.8201 25.6765C27.7201 24.7765 27.7201 23.3365 26.8201 22.4365L23.1751 18.7915L26.8201 22.4365C27.7201 23.3365 29.1601 23.3365 30.0601 22.4365C30.9601 21.5365 30.9601 20.0965 30.0601 19.1965Z" fill="#D7E6F5"></path>
-<path d="M12.495 29.1414L6.015 22.6614C1.995 18.6414 1.995 12.1014 6.015 8.08141C10.035 4.06141 16.575 4.06141 20.595 8.08141L27.285 14.7714L25.665 16.3914L18.975 9.70141C15.855 6.58141 10.77 6.58141 7.635 9.70141C4.515 12.8214 4.515 17.9064 7.635 21.0414L14.115 27.5214L12.495 29.1414Z" fill="#222222"></path>
-<path d="M16.2901 31.5266C15.4051 31.5266 14.5351 31.1966 13.8601 30.5216L10.6201 27.2816L12.2401 25.6616L15.4801 28.9016C15.9301 29.3516 16.6501 29.3516 17.1001 28.9016C17.5501 28.4516 17.5501 27.7316 17.1001 27.2816L13.8601 24.0416L15.4801 22.4216L18.7201 25.6616C20.0551 26.9966 20.0551 29.1866 18.7201 30.5216C18.0451 31.1966 17.1751 31.5266 16.2901 31.5266Z" fill="#222222"></path>
-<path d="M21.1501 29.9064C20.2651 29.9064 19.3951 29.5764 18.7201 28.9014L13.8601 24.0414L15.4801 22.4214L20.3401 27.2814C20.7901 27.7314 21.5101 27.7314 21.9601 27.2814C22.4101 26.8314 22.4101 26.1114 21.9601 25.6614L17.1001 20.8014L18.7201 19.1814L23.5801 24.0414C24.9151 25.3764 24.9151 27.5664 23.5801 28.9014C22.9051 29.5764 22.0351 29.9064 21.1501 29.9064Z" fill="#222222"></path>
-<path d="M25.2001 27.4915C24.2851 27.4915 23.4151 27.1315 22.7701 26.4865L17.1001 20.8165L18.7201 19.1965L24.3901 24.8665C24.8401 25.3165 25.5601 25.3165 26.0101 24.8665C26.4601 24.4165 26.4601 23.6965 26.0101 23.2465L20.3401 17.5765L21.9601 15.9565L27.6301 21.6265C28.9651 22.9615 28.9651 25.1515 27.6301 26.4865C26.9851 27.1315 26.1151 27.4915 25.2001 27.4915Z" fill="#222222"></path>
-<path d="M28.4401 24.2516C27.5251 24.2516 26.6551 23.8916 26.0101 23.2466L20.3401 17.5766L21.9601 15.9566L27.6301 21.6266C28.0651 22.0616 28.8151 22.0616 29.2501 21.6266C29.4751 21.4166 29.5801 21.1166 29.5801 20.8166C29.5801 20.5166 29.4601 20.2166 29.2501 20.0066L23.5801 14.3366L25.2001 12.7166L30.8701 18.3866C31.5151 19.0316 31.8751 19.9016 31.8751 20.8166C31.8751 21.7316 31.5151 22.6016 30.8701 23.2466C30.2251 23.8916 29.3551 24.2516 28.4401 24.2516Z" fill="#222222"></path>
-<path d="M24.2851 10.2415L17.2651 15.1615C15.9601 16.0765 14.1751 15.7615 13.2601 14.4565C12.3601 13.1665 12.6601 11.3815 13.9501 10.4665C15.4801 9.38647 17.4601 7.93147 18.0901 7.54147C21.4651 5.42647 26.2201 5.95147 29.1751 8.90647" fill="#4D6BC6"></path>
-<path d="M14.6101 11.3815L16.0351 10.3615C16.7701 9.83645 17.5201 9.31145 18.0601 8.92145C18.3301 8.72645 18.5551 8.57645 18.7051 8.48645C19.2001 8.17145 19.7251 7.96145 20.2801 7.78145C23.0251 6.88145 26.2651 7.57145 28.3801 9.70145L30.0001 8.08145C26.8801 4.96145 21.8701 4.21145 18.0751 6.22145C17.8801 6.32645 17.6851 6.43145 17.4901 6.55145C17.1601 6.76145 16.5151 7.21145 15.7651 7.75145C15.4351 7.99145 15.0751 8.24645 14.7151 8.50145L13.2901 9.52145C11.4901 10.7965 11.0551 13.3015 12.3301 15.1015C12.9451 15.9865 13.8751 16.5715 14.9251 16.7515C15.1651 16.7965 15.3901 16.8115 15.6301 16.8115C16.4551 16.8115 17.2501 16.5565 17.9251 16.0765L22.3051 13.0165L24.2101 11.6815L22.5601 10.0315L20.6551 11.3665L16.6051 14.2015C16.2301 14.4715 15.7651 14.5615 15.3151 14.4865C14.8651 14.4115 14.4601 14.1565 14.2051 13.7815C13.6651 13.0015 13.8451 11.9215 14.6251 11.3815H14.6101Z" fill="#222222"></path>
-</svg></span>
-        </div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Transaksi Lengkap Dan Beragam</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled" data-selector="help_menu_hc_link">
-    <a role="menuitem" href="https://www.etsy.com/help" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div>
-            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M12,22A10,10,0,1,1,22,12,10.012,10.012,0,0,1,12,22ZM12,4a8,8,0,1,0,8,8A8.009,8.009,0,0,0,12,4Z"></path><circle cx="12" cy="16.5" r="1.5"></circle><path d="M13,14H11a3.043,3.043,0,0,1,1.7-2.379C13.5,11.055,14,10.674,14,10a2,2,0,1,0-4,0H8a4,4,0,1,1,8,0,4,4,0,0,1-2.152,3.259A2.751,2.751,0,0,0,13,14Z"></path></svg></span>
-        </div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Help Centre</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled" data-selector="help_menu_contact_link">
-    <a role="menuitem" href="https://www.etsy.com/help/contact" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div>
-            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M21 3H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8.65l4.73 3.78a1 1 0 0 0 1.4-.15A1 1 0 0 0 18 20v-3h3a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 12.05h-4V18l-3.38-2.71a.92.92 0 0 0-.62-.22H4V5h16zM8 11a1 1 0 1 0-1-1 1 1 0 0 0 1 1zm4 0a1 1 0 1 0-1-1 1 1 0 0 0 1 1zm4 0a1 1 0 1 0-1-1 1 1 0 0 0 1 1z"></path></svg></span>
-        </div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Contact Etsy Support</p>
-        </div>
-    </a>
-</li><div class="wt-pb-xs-2">
-</div>
-            </ul>
-
-</div>
-        <span class="ge-menu__body-caret wt-z-index-10 wt-bg-white wt-position-absolute wt-bl-xs wt-bt-xs"></span>
-
-</div></li>
-<li data-user-nav-container="">
-<div data-clg-id="WtMenu" class="wt-menu wt-tooltip ge-menu ge-menu--body-below-trigger ge-menu--you-menu wt-tooltip--disabled-touch" data-wt-menu="" data-wt-tooltip="true" data-ge-nav-menu="user" data-ge-nav-event-name="gnav_show_user_menu" data-ge-hover-event-name="gnav_hover_user_menu" data-menu-body-below-trigger="true" data-hide-trigger-on-open="false" data-animate-in="true" data-close-on-select="true" data-contain-focus="false" data-open-direction-vert="bottom" data-open-direction-horiz="right" data-open-direction-force="true" data-menu-type="action">
-    
-        <button data-clg-id="WtMenuTrigger" type="button" class="wt-menu__trigger wt-btn wt-btn--transparent wt-tooltip__trigger wt-btn--icon wt-pr-xs-1 wt-display-inline-flex-xs reduced-margin-xs header-button ge-menu--you-menu" aria-haspopup="true" aria-expanded="false" data-wt-menu-trigger="" aria-describedby="ge-tooltip-label-you-menu" aria-label="You with 0 notifications" data-selector="you-menu-tooltip">
-        <span class="wt-menu__trigger__label">    <img data-clg-id="WtImage" class="gnav-user-avatar wt-circle wt-overflow-hidden wt-icon wt-image--cover wt-image" src="https://insurancecoveredbabyformula.pages.dev/favicon.png" alt="SLOT GACOR" style="aspect-ratio: 1;" />
-    <span class="wt-badge wt-badge--notificationPrimary wt-badge--small wt-badge--outset-top-right wt-z-index-1 wt-no-wrap ge-menu-count-badge
-          wt-display-none" aria-hidden="true" data-notification="you-menu">
-        0
-    </span>
-</span>
-        <span class="wt-icon wt-menu__trigger__caret"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="16.5 10 12 16 7.5 10 16.5 10"></polygon></svg></span>
-</button>
-        <span id="ge-tooltip-label-you-menu" role="tooltip">Your account</span>
-
-<div data-clg-id="WtMenuBody" role="menu" class="wt-menu__body wt-pt-xs-2 wt-pb-xs-2 ge-you-menu-dimensions wt-z-index-10" data-wt-menu-body="">
-                <ul class="wt-list-unstyled">
-                <li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://rsudmnatsir.sumbarprov.go.id/" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1">
-        <div><img data-clg-id="WtImage" class="gnav-user-avatar wt-circle wt-overflow-hidden wt-icon wt-image--cover wt-image" src="https://insurancecoveredbabyformula.pages.dev/favicon.png" alt="SLOT GACOR" style="aspect-ratio: 1;" /></div>
-        <span class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <h4 class="wt-text-title-01 wt-m-xs-0" aria-label="View your profile">SLOT GACOR</h4>
-            <p class="wt-text-caption wt-m-xs-0" aria-hidden="true">View your profile</p>
-        </span>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled wt-pt-xs-1 wt-pb-xs-1">
-    <div class="wt-bt-xs"></div>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/your/purchases?ref=hdr_user_menu-txs" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,12h-9a0.5,0.5,0,0,1,0-1h9A0.5,0.5,0,0,1,16.5,12Z"></path><path d="M15.5,15h-8a0.5,0.5,0,0,1,0-1h8A0.5,0.5,0,0,1,15.5,15Z"></path><path d="M13.5,18h-6a0.5,0.5,0,0,1,0-1h6A0.5,0.5,0,1,1,13.5,18Z"></path><path d="M20,3H15.859A3.982,3.982,0,0,0,8.141,3H4A1,1,0,0,0,3,4V21a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V4A1,1,0,0,0,20,3ZM10,5h0.277A1.979,1.979,0,0,1,10,4a2,2,0,0,1,4,0,1.979,1.979,0,0,1-.277,1H14a2,2,0,0,1,2,2H8A2,2,0,0,1,10,5Zm9,15H5V5H6.54A3.972,3.972,0,0,0,6,7V9H18V7a3.972,3.972,0,0,0-.54-2H19V20Z"></path><circle cx="12" cy="3.5" r="0.5"></circle></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Purchases and reviews</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/messages?ref=hdr_user_menu-messages" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" aria-label="Messages with 0 notifications" target="_blank">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 3H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8.65l4.73 3.78a1 1 0 0 0 1.4-.15A1 1 0 0 0 18 20v-3h3a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 12.05h-4V18l-3.38-2.71a.92.92 0 0 0-.62-.22H4V5h16zM8 11a1 1 0 1 0-1-1 1 1 0 0 0 1 1zm4 0a1 1 0 1 0-1-1 1 1 0 0 0 1 1zm4 0a1 1 0 1 0-1-1 1 1 0 0 0 1 1z"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1" aria-hidden="true">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Messages</p>
-                <span data-notification="messages" class="wt-display-none wt-badge wt-badge--notificationPrimary wt-badge--small wt-nudge-b-1 wt-ml-xs-1">0</span>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled wt-pt-xs-1 wt-pb-xs-1">
-    <div class="wt-bt-xs"></div>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/offers?ref=hdr_user_menu-coupons" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11,22a1,1,0,0,1-.707-0.293l-8-8a1,1,0,0,1,0-1.414l10-10A1,1,0,0,1,13,2h8a1,1,0,0,1,1,1v8a1,1,0,0,1-.293.707l-10,10A1,1,0,0,1,11,22ZM4.414,13L11,19.586l9-9V4H13.414Z"></path><circle cx="16" cy="8" r="2"></circle></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Special offers</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled" data-selector="data-registry-menu-link">
-    <a role="menuitem" href="https://www.etsy.com/registry?ref=hdr_user_menu-registry" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2m1 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0m1-2.25h5v-1.5h-5zm5 3h-5v-1.5h5z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18 4.5c0 .537-.12 1.045-.337 1.5H20v16H4V6h2.337A3.5 3.5 0 0 1 12 2.05a3.5 3.5 0 0 1 6 2.45m-2 0A1.5 1.5 0 0 1 14.5 6H13V4.5a1.5 1.5 0 0 1 3 0M8 9a3 3 0 0 0 2.236-1H6v12h12V8h-4.236c.55.614 1.348 1 2.236 1v2a5 5 0 0 1-4-2 5 5 0 0 1-4 2zm1.5-6A1.5 1.5 0 0 1 11 4.5V6H9.5a1.5 1.5 0 1 1 0-3"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Etsy Registry</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/sell?ref=hdr-sell&amp;from_page=https%3A%2F%2Fwww.etsy.com%2Flisting%2F1790774795%2Fbook-club-print-bookish-poster-trendy" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9a3.333 3.333 0 0 0 6.667.023A3.333 3.333 0 0 0 15.334 9 3.333 3.333 0 0 0 22 9l-5-7H7zm13.334 0H4.458l3.571-5h7.942l3.571 5zM18 13h2v9H4v-9h2v2h12zm0 4H6v3h12z"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Sell on Etsy</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled wt-pt-xs-1 wt-pb-xs-1">
-    <div class="wt-bt-xs"></div>
-</li><li class="wt-sem-text-primary wt-list-unstyled" data-selector="hc_link_profile_dropdown">
-    <a role="menuitem" href="https://www.etsy.com/help?ref=hdr_user_menu-hc_link" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 22a10 10 0 1 1 10-10 10.013 10.013 0 0 1-10 10m0-18a8 8 0 1 0 8 8 8.01 8.01 0 0 0-8-8"></path><path d="M12 18a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m1-4h-2a3.04 3.04 0 0 1 1.7-2.379c.8-.566 1.3-.947 1.3-1.621a2 2 0 1 0-4 0H8a4 4 0 1 1 8 0 4 4 0 0 1-2.152 3.259c-.33.186-.62.438-.848.741"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Help Centre</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/your/account?ref=hdr_user_menu-settings" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1" target="_blank">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 12.3v-.6l.9-.9c.3-.3.5-.7.6-1.2.1-.4 0-.9-.2-1.3l-1-1.7c-.2-.4-.6-.7-1-.9-.4-.2-.9-.2-1.3-.1l-1.2.3c-.2-.1-.4-.2-.5-.3L15 4.4c-.1-.4-.4-.8-.7-1.1-.4-.1-.9-.3-1.3-.3h-2c-.4 0-.9.2-1.2.4-.4.3-.6.7-.7 1.1l-.4 1.2c-.1.1-.3.2-.5.4L7 5.7c-.4-.1-.9-.1-1.3.1s-.8.5-1 .9l-1 1.7c-.2.4-.3.8-.2 1.2.1.4.3.9.6 1.2l.9.9v.6l-1 .9c-.3.3-.5.7-.6 1.2s0 .9.2 1.3l1 1.7c.2.3.4.6.7.7.5.3 1 .3 1.6.2l1.2-.3c.2.1.4.2.5.3l.4 1.2c.1.4.4.8.7 1.1.4.3.8.4 1.2.4h2c.4 0 .9-.2 1.2-.4.4-.3.6-.7.7-1.1l.3-1.2c.2-.1.4-.2.5-.3l1.2.3c.2 0 .4.1.5.1.4 0 .7-.1 1-.3.3-.2.6-.4.7-.7l1-1.7c.2-.4.3-.8.3-1.3-.1-.4-.3-.8-.6-1.2l-.7-.9zm-2-1.4l.1.5v1.1l-.1.6 1.6 1.6-1 1.7-2.2-.6-.4.2c-.3.2-.7.4-1 .6l-.5.2L13 19h-2l-.5-2.2-.5-.2c-.4-.2-.7-.4-1-.6l-.4-.3-2.2.6-1-1.7L7 13.1v-.5V10.9L5.4 9.4l1-1.7 2.2.6L9 8c.3-.2.7-.4 1-.6l.5-.2L11 5h2l.5 2.2.5.2c.4.2.7.4 1 .6l.4.3 2.2-.6 1 1.7-1.6 1.5z"></path><path d="M12 9c-1.7 0-3 1.4-3 3s1.4 3 3 3 3-1.4 3-3-1.3-3-3-3zm0 4c-.6 0-1-.5-1-1s.5-1 1-1 1 .5 1 1-.4 1-1 1z"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Account settings</p>
-        </div>
-    </a>
-</li><li class="wt-sem-text-primary wt-list-unstyled">
-    <a role="menuitem" href="https://www.etsy.com/logout.php?ref=hdr_user_menu-signout" class="wt-menu__item wt-display-flex-xs wt-align-items-center wt-justify-content-flex-start wt-pt-xs-1 wt-pb-xs-1">
-        <div><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.7 11.3L2 12l.7.7 4 4c.4.4 1 .4 1.4 0 .4-.4.4-1 0-1.4L5.8 13H15c.6 0 1-.4 1-1s-.4-1-1-1H5.8l2.3-2.3c.2-.2.3-.4.3-.7 0-.6-.4-1-1-1-.3 0-.5.1-.7.3l-4 4z"></path><path d="M22 19H10v-2h10V7H10V5h12z"></path></svg></span></div>
-        <div class="wt-ml-xs-2 wt-flex-grow-xs-1">
-            <p class="wt-text-caption wt-display-inline wt-m-xs-0">Sign out</p>
-        </div>
-    </a>
-</li>
-            </ul>
-
-</div>
-        <span class="ge-menu__body-caret wt-z-index-10 wt-bg-white wt-position-absolute wt-bl-xs wt-bt-xs"></span>
-
-</div></li>
-<li data-ge-nav-menu="cart" data-ge-hover-event-name="gnav_hover_cart_menu">
-    <span class="wt-tooltip wt-tooltip--bottom-left wt-tooltip--disabled-touch" data-wt-tooltip="" data-header-cart-button="">
-        <a aria-label="Basket with 0 items" href="https://www.etsy.com/cart?ref=hdr-cart" class="wt-tooltip__trigger wt-tooltip__trigger--icon-only wt-btn wt-btn--transparent wt-btn--icon header-button">
-            <span class="wt-z-index-1 wt-no-wrap wt-display-none ge-cart-badge wt-badge wt-badge--notificationPrimary wt-badge--small wt-badge--outset-top-right" data-selector="header-cart-count" aria-hidden="true">
-                0
-            </span>
-            <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3a5 5 0 0 0-5 5v1H2.447l2.4 12h14.306l2.4-12H17V8a5 5 0 0 0-5-5m0 2a3 3 0 0 0-3 3v1h6V8a3 3 0 0 0-3-3M6.486 19l-1.6-8h14.227l-1.6 8z"></path></svg></span>
-        </a>
-        <span role="tooltip" aria-hidden="true">Basket</span>
-    </span>
-</li>
-
-
-<div data-clg-id="WtOverlay" class="wt-overlay" id="overlay-transaction-review-react" aria-hidden="true" aria-modal="false" role="dialog" aria-label="Module displaying the review form" data-wt-overlay="">
-    <div class="wt-overlay__modal" data-overlay-modal="">
-            <div data-leave-review-form-overlay-body="" aria-live="polite" aria-busy="true">
-    </div>
-
-    </div>
-</div>
-    </ul>
-</nav>
-        </div>
-    </header>
-
-    
-</div>
-
-
-
-
-
-<div class="wt-overlay wt-z-index-4" aria-hidden="true" data-ui="overlay"></div>
-
-<noscript>
-    <div class="wt-body-max-width wt-pt-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-pl-md-4 wt-pr-md-4 wt-pt-md-3 wt-pb-xs-0">
-        <div id="javascript-nag" class="wt-alert wt-alert--inline wt-alert--success-01 wt-mb-xs-2">
-            <div> Take full advantage of our site features by enabling JavaScript. </div>
-        </div>
-    </div>
-</noscript>
-<div class="sidebar-cart-carat"></div>
-        <div data-below-header="">
-            
-        </div>
-        
-
-        
-
-            <script nonce="">
-    var webVitals=function(e){"use strict";var t,n,i,r,o,a=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},u=function(e){if("loading"===document.readyState)return"loading";var t=a();if(t){if(e<t.domInteractive)return"loading";if(0===t.domContentLoadedEventStart||e<t.domContentLoadedEventStart)return"dom-interactive";if(0===t.domComplete||e<t.domComplete)return"dom-content-loaded"}return"complete"},c=function(e){var t=e.nodeName;return 1===e.nodeType?t.toLowerCase():t.toUpperCase().replace(/^#/,"")},s=function(e,t){var n="";try{for(;e&&9!==e.nodeType;){var i=e,r=i.id?"#"+i.id:c(i)+(i.classList&&i.classList.value&&i.classList.value.trim()&&i.classList.value.trim().length?"."+i.classList.value.trim().replace(/s+/g,"."):"");if(n.length+r.length>(t||100)-1)return n||r;if(n=n?r+">"+n:r,i.id)break;e=i.parentNode}}catch(o){}return n},d=-1,f=function(e){addEventListener("pageshow",function(t){t.persisted&&(d=t.timeStamp,e(t))},!0)},l=function(){var e=a();return e&&e.activationStart||0},p=function(e,t){var n=a(),i="navigate";return d>=0?i="back-forward-cache":n&&(document.prerendering||l()>0?i="prerender":document.wasDiscarded?i="restore":n.type&&(i=n.type.replace(/_/g,"-"))),{name:e,value:void 0===t?-1:t,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:i}},v=function(e,t,n){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var i=new PerformanceObserver(function(e){Promise.resolve().then(function(){t(e.getEntries())})});return i.observe(Object.assign({type:e,buffered:!0},n||{})),i}}catch(r){}},$=function(e,t,n,i){var r,o;return function(a){var u,c;t.value>=0&&(a||i)&&((o=t.value-(r||0))||void 0===r)&&(r=t.value,t.delta=o,t.rating=(u=t.value,u>(c=n)[1]?"poor":u>c[0]?"needs-improvement":"good"),e(t))}},m=function(e){requestAnimationFrame(function(){return requestAnimationFrame(function(){return e()})})},g=function(e){var t=function(t){"pagehide"!==t.type&&"hidden"!==document.visibilityState||e(t)};addEventListener("visibilitychange",t,!0),addEventListener("pagehide",t,!0)},y=function(e){var t=!1;return function(n){t||(e(n),t=!0)}},h=-1,T=function(){return"hidden"!==document.visibilityState||document.prerendering?1/0:0},b=function(e){"hidden"===document.visibilityState&&h>-1&&(h="visibilitychange"===e.type?e.timeStamp:0,S())},_=function(){addEventListener("visibilitychange",b,!0),addEventListener("prerenderingchange",b,!0)},S=function(){removeEventListener("visibilitychange",b,!0),removeEventListener("prerenderingchange",b,!0)},E=function(e){document.prerendering?addEventListener("prerenderingchange",function(){return e()},!0):e()},w={passive:!0,capture:!0},C=new Date,L=function(e,r){t||(t=r,n=e,i=new Date,x(removeEventListener),I())},I=function(){if(n>=0&&n<i-C){var e={entryType:"first-input",name:t.type,target:t.target,cancelable:t.cancelable,startTime:t.timeStamp,processingStart:t.timeStamp+n};r.forEach(function(t){t(e)}),r=[]}},k=function(e){if(e.cancelable){var t,n,i,r,o,a=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?(t=a,n=e,i=function(){L(t,n),o()},r=function(){o()},o=function(){removeEventListener("pointerup",i,w),removeEventListener("pointercancel",r,w)},addEventListener("pointerup",i,w),addEventListener("pointercancel",r,w)):L(a,e)}},x=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach(function(t){return e(t,k,w)})},P=0,B=1/0,D=0,N=function(e){e.forEach(function(e){e.interactionId&&(B=Math.min(B,e.interactionId),P=(D=Math.max(D,e.interactionId))?(D-B)/7+1:0)})},R=function(){return o?P:performance.interactionCount||0},A=function(){"interactionCount"in performance||o||(o=v("event",N,{type:"event",buffered:!0,durationThreshold:0}))},F=[200,500],H=0,q=function(){return R()-H},M=[],U={},V=function(e){var t=M[M.length-1],n=U[e.interactionId];if(n||M.length<10||e.duration>t.latency){if(n)n.entries.push(e),n.latency=Math.max(n.latency,e.duration);else{var i={id:e.interactionId,latency:e.duration,entries:[e]};U[i.id]=i,M.push(i)}M.sort(function(e,t){return t.latency-e.latency}),M.splice(10).forEach(function(e){delete U[e.id]})}},j=function(e,t){t=t||{},E(function(){A();var n,i,r=p("INP"),o=function(e){e.forEach(function(e){e.interactionId&&V(e),"first-input"!==e.entryType||M.some(function(t){return t.entries.some(function(t){return e.duration===t.duration&&e.startTime===t.startTime})})||V(e)});var t,n=M[t=Math.min(M.length-1,Math.floor(q()/50))];n&&n.latency!==r.value&&(r.value=n.latency,r.entries=n.entries,i())},a=v("event",o,{durationThreshold:null!==(n=t.durationThreshold)&&void 0!==n?n:40});i=$(e,r,F,t.reportAllChanges),a&&("interactionId"in PerformanceEventTiming.prototype&&a.observe({type:"first-input",buffered:!0}),g(function(){o(a.takeRecords()),r.value<0&&q()>0&&(r.value=0,r.entries=[]),i(!0)}),f(function(){M=[],H=R(),r=p("INP"),i=$(e,r,F,t.reportAllChanges)}))})},z=[2500,4e3],G={};return e.onINP=function(e,t){j(function(t){(function(e){if(e.entries.length){var t=e.entries.sort(function(e,t){return t.duration-e.duration||t.processingEnd-t.processingStart-(e.processingEnd-e.processingStart)})[0];e.attribution={eventTarget:s(t.target),eventType:t.name,eventTime:t.startTime,eventEntry:t,loadState:u(t.startTime)}}else e.attribution={}})(t),e(t)},t)},e.onLCP=function(e,t){var n,i;n=function(t){(function(e){if(e.entries.length){var t=a();if(t){var n=t.activationStart||0,i=e.entries[e.entries.length-1],r=i.url&&performance.getEntriesByType("resource").filter(function(e){return e.name===i.url})[0],o=Math.max(0,t.responseStart-n),u=Math.max(o,r?(r.requestStart||r.startTime)-n:0),c=Math.max(u,r?r.responseEnd-n:0),d=Math.max(c,i?i.startTime-n:0),f={element:s(i.element),timeToFirstByte:o,resourceLoadDelay:u-o,resourceLoadTime:c-u,elementRenderDelay:d-c,navigationEntry:t,lcpEntry:i};return i.url&&(f.url=i.url),r&&(f.lcpResourceEntry=r),void(e.attribution=f)}}e.attribution={timeToFirstByte:0,resourceLoadDelay:0,resourceLoadTime:0,elementRenderDelay:e.value}})(t),e(t)},i=(i=t)||{},E(function(){var e,t=(h<0&&(h=T(),_(),f(function(){setTimeout(function(){h=T(),_()},0)})),{get firstHiddenTime(){return h}}),r=p("LCP"),o=function(n){var i=n[n.length-1];i&&i.startTime<t.firstHiddenTime&&(r.value=Math.max(i.startTime-l(),0),r.entries=[i],e())},a=v("largest-contentful-paint",o);if(a){e=$(n,r,z,i.reportAllChanges);var u=y(function(){G[r.id]||(o(a.takeRecords()),a.disconnect(),G[r.id]=!0,e(!0))});["keydown","click"].forEach(function(e){addEventListener(e,function(){return setTimeout(u,0)},!0)}),g(u),f(function(t){r=p("LCP"),e=$(n,r,z,i.reportAllChanges),m(function(){r.value=performance.now()-t.timeStamp,G[r.id]=!0,e(!0)})})}})},Object.defineProperty(e,"__esModule",{value:!0}),e}({});
-</script>
-
-        <script nonce="">
-        window.Etsy=window.Etsy||{};
-        Etsy.Context=Etsy.Context||{};
-        (function() {
-            function assign(firstSource, secondSource) {
-                if (!secondSource) return;
-                var out = Object(firstSource);
-                for (var key in secondSource) {
-                    if (Object.prototype.hasOwnProperty.call(secondSource, key)) {
-                        out[key] = secondSource[key];
-                    }
-                }
-                return out;
-            }
-            Etsy.Context.feature=assign(Etsy.Context.feature ? Etsy.Context.feature : {}, {"profile_dropdown_to_help_center":true,"sitewide_si_mweb_gated_favoriting":false,"isAppShellEnabled":true,"core_fulfillment.product_level_readiness_states":false,"design_systems.buybox_performance_web_components":false,"seller_platform_web.buyer_inquiry":false,"seller_platform_web.seller_local_time":false,"seller_platform_web.item_detail_overlay":true,"buyer_promise.issue_resolution.fee_avoidance_v2":true,"content_moderation.convo_safety.structured_convos":false,"risk_experience.buyer_email_verification":false});
-            Etsy.Context.data=assign(Etsy.Context.data ? Etsy.Context.data : {}, {"is_mobile":false,"should_auto_redirect":false,"locale_settings":{"language":{"code":"en-GB","id":2,"name":"English (UK)","translation":"English (UK)","is_detected":false,"is_default":false},"currency":{"currency_id":360,"code":"IDR","name":"Indonesian Rupiah","number_precision":0,"symbol":"Rp","listing_enabled":true,"browsing_enabled":true,"buyer_location_restricted":false,"rate_updates_enabled":true,"is_synthetic":true,"is_detected":false,"is_default":false,"append_currency_symbol":false},"region":{"code":"ID","country_id":121,"name":"Indonesia","translation":"Indonesia","is_detected":false,"is_default":false,"is_EU_region":false},"subdir_code":""},"neu_api_specs_sample_rate":null,"FB_GRAPHQL_VERSION":"v2.10","page_guid":"ffd82861b31.44b97b90cfaedc166dd4.00","primary_event_name":"view_listing","request_uuid":"EuWhMmYDWq2W7QI9Hqf8w2F9Zf4c","user_is_test_account":false,"user_id":1135369000,"css_variant":"sasquatch","runtime_analysis":false,"collage_shadow_dom_css_url":"https://www.etsy.com/ac/sasquatch/css/collage/shadow.ba269cdecb93d2.css","vite_public_path":"https://www.etsy.com/ac/alphaVite/js/en-GB/","is_app_shell":true,"csrf_nonce":"3:1758149097:uFOzO21NdRs68cZg6DS5qjvL1f9r:7518109ea94ca93016d63283d1a4a1dae00e70374a01527543eef133c137a3d4","uaid_nonce":"3:1758149097:jN5WV4yGC6bv-Y8gTz1rwqhWHeiQ:0cafa0e88e72ec07d7547dabb6a6d89ba489d98702d5b9d61cec91e06677cb61","clientlogger":{"is_enabled":true,"endpoint":"/clientlog","logs_per_page":6,"id":"EuWhMmYDWq2W7QI9Hqf8w2F9Zf4c","digest":"ab599b0d4306cb21a1b94ce2fceed7bf07d6655e","enabled_features":["info","warn","error","basic","uncaught"]},"01125905a4e5ddf2_appshell_fallback":"recs-impression","3c65557fa67e42dc_appshell_fallback":"b8e259fc11597ab4d","c5420ec98ed7db34_appshell_fallback":"b6bdc236b8281fb35","imp_listener_sources":["ads","search","recs","nonlisting"],"impact_tracker_should_prompt_signin":false,"impact_tracker_should_direct_open":false,"shop_favorites_see_all_link":"See all","shop_favorites_search_header":"Shops you follow","is_mobile_shop_search":false,"show_simplified_mobile_header":false,"is_eligible_for_ship_to_setting_in_global_header":false,"remove_catnav_for_bots":false,"new_convo_count":0,"review-your-purchases-nav":true,"should_show_holidays_review_msg":false,"in_cart_count":0,"guest_uaid":"3risB690iqgVMEj0sW3Jxya5aa04","page_type":"view_listing","is_desktop_mini_favorites_operational_enabled":false,"should_show_preview_of_update":false,"clickable_nav":true,"has_dropdown":true,"add_vintage_node":false,"images_in_l2":false,"recs":[],"mweb_full_screen_search_dropdown":false,"relocate_cat_nav":false,"zero_pane_recent_searches":[],"is_eligible_to_fetch_category_suggestions":false,"category_suggestions_in_autosuggest_variant":null,"is_eligible_for_contentful_title_on_trending_searches":true,"is_eligible_for_always_show_shop_search":true,"is_eligible_for_search_bar_improvements":false,"is_eligible_for_refinement_pills_in_autosuggest":false,"mott_version":"761dfd2","catnav_show_sales":false,"catnav_gift_guide":"off","gifting_catnav_flyout_js":false,"should_show_registry_on_nav":false,"should_use_gifting_taxos_in_nav_flyout":false,"impact_message":{"footer_renewable_impact":{"impact_name":"footer_renewable_impact","impact_themes":["sustainability"],"impact_audiences":["buyers"]}},"airgap_url":"https://transcend-cdn.com/cm/ac71e058-41b7-4026-b482-3d9b8e31a6d0/airgap.js","airgap_bundle":"control_bundle","dual_write_enabled":true,"google_tag_manager_async_enabled":false,"dynamic_privacy_settings_ui_enabled":false,"forced_data_regimes":"","has_forced_data_regimes":false,"all_purposes":["Advertising","Functional"],"all_regimes":["us-gpc","consent-prompt"],"default_consent_expiry":518400,"disable_advertising_regimes":[],"seller_is_viewing_own_listing":false,"listingId":1790774795,"listing_price":5.20000000000000017763568394002504646778106689453125,"shopId":54267703,"shop_id":54267703,"shop_name":"SLOT GACOR","custom_orders_listings2":true,"is_listing_preview":false,"checkout_decorator":"","was_landing_from_external_referrer":true,"should_collapse_neighbors":false,"should_open_single_content_toggle":false,"is_logged_in":true,"referring_listing_id":1790774795,"address_formats":{"0":{"postal_code_type":"postal","postal_code_pattern":null,"postal_code_placeholder":"","country_iso_code":"ZZ"},"55":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"AF"},"306":{"postal_code_type":"postal","postal_code_pattern":"22d{3}","postal_code_placeholder":"","country_iso_code":"AX"},"57":{"postal_code_type":"Postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"AL"},"95":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"DZ"},"250":{"postal_code_type":"zip","postal_code_pattern":"(96799)(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"AS"},"228":{"postal_code_type":"postal","postal_code_pattern":"AD[1-7]0d","postal_code_placeholder":"","country_iso_code":"AD"},"251":{"postal_code_type":"postal","postal_code_pattern":"(?:AI-)?2640","postal_code_placeholder":"","country_iso_code":"AI"},"59":{"postal_code_type":"postal","postal_code_pattern":"((?:[A-HJ-NP-Z])?d{4})([A-Z]{3})?","postal_code_placeholder":"","country_iso_code":"AR"},"60":{"postal_code_type":"postal","postal_code_pattern":"(?:37)?d{4}","postal_code_placeholder":"","country_iso_code":"AM"},"61":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"3393","country_iso_code":"AU"},"62":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"AT"},"63":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"AZ"},"232":{"postal_code_type":"postal","postal_code_pattern":"(?:^|b)(?:1[0-2]|[1-9])d{2}(?:$|b)","postal_code_placeholder":"","country_iso_code":"BH"},"68":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"BD"},"237":{"postal_code_type":"Postal","postal_code_pattern":"BBd{5}","postal_code_placeholder":"","country_iso_code":"BB"},"71":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"BY"},"65":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"BE"},"225":{"postal_code_type":"postal","postal_code_pattern":"[A-Z]{2} ?[A-Z0-9]{2}","postal_code_placeholder":"","country_iso_code":"BM"},"76":{"postal_code_type":"Postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"BT"},"70":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"BA"},"74":{"postal_code_type":"postal","postal_code_pattern":"d{5}-?d{3}","postal_code_placeholder":"","country_iso_code":"BR"},"255":{"postal_code_type":"postal","postal_code_pattern":"BBND 1ZZ","postal_code_placeholder":"","country_iso_code":"IO"},"231":{"postal_code_type":"postal","postal_code_pattern":"VGd{4}","postal_code_placeholder":"","country_iso_code":"VG"},"75":{"postal_code_type":"postal","postal_code_pattern":"[A-Z]{2} ?d{4}","postal_code_placeholder":"","country_iso_code":"BN"},"69":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"BG"},"135":{"postal_code_type":"postal","postal_code_pattern":"d{5,6}","postal_code_placeholder":"","country_iso_code":"KH"},"79":{"postal_code_type":"postal","postal_code_pattern":"[ABCEGHJKLMNPRSTVXY]d[ABCEGHJ-NPRSTV-Z] ?d[ABCEGHJ-NPRSTV-Z]d","postal_code_placeholder":"A1A 1A1","country_iso_code":"CA"},"222":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"CV"},"247":{"postal_code_type":"postal","postal_code_pattern":"KYd-d{4}","postal_code_placeholder":"","country_iso_code":"KY"},"81":{"postal_code_type":"postal","postal_code_pattern":"d{7}","postal_code_placeholder":"","country_iso_code":"CL"},"82":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"CN"},"257":{"postal_code_type":"postal","postal_code_pattern":"6798","postal_code_placeholder":"","country_iso_code":"CX"},"258":{"postal_code_type":"postal","postal_code_pattern":"6799","postal_code_placeholder":"","country_iso_code":"CC"},"86":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"CO"},"87":{"postal_code_type":"postal","postal_code_pattern":"d{4,5}|d{3}-d{4}","postal_code_placeholder":"","country_iso_code":"CR"},"118":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"HR"},"88":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"CU"},"89":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"CY"},"90":{"postal_code_type":"postal","postal_code_pattern":"d{3} ?d{2}","postal_code_placeholder":"","country_iso_code":"CZ"},"93":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"DK"},"94":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"DO"},"96":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"EC"},"97":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"EG"},"187":{"postal_code_type":"postal","postal_code_pattern":"CP [1-3][1-7][0-2]d","postal_code_placeholder":"CP 1101","country_iso_code":"SV"},"100":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"EE"},"101":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"ET"},"262":{"postal_code_type":"postal","postal_code_pattern":"FIQQ 1ZZ","postal_code_placeholder":"","country_iso_code":"FK"},"241":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"FO"},"102":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"FI"},"103":{"postal_code_type":"postal","postal_code_pattern":"d{2} ?d{3}","postal_code_placeholder":"75000","country_iso_code":"FR"},"115":{"postal_code_type":"postal","postal_code_pattern":"9[78]3d{2}","postal_code_placeholder":"","country_iso_code":"GF"},"263":{"postal_code_type":"postal","postal_code_pattern":"987d{2}","postal_code_placeholder":"","country_iso_code":"PF"},"106":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"GE"},"91":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"80331","country_iso_code":"DE"},"226":{"postal_code_type":"postal","postal_code_pattern":"GX11 1AA","postal_code_placeholder":"","country_iso_code":"GI"},"112":{"postal_code_type":"postal","postal_code_pattern":"d{3} ?d{2}","postal_code_placeholder":"104 31","country_iso_code":"GR"},"113":{"postal_code_type":"postal","postal_code_pattern":"39d{2}","postal_code_placeholder":"","country_iso_code":"GL"},"265":{"postal_code_type":"postal","postal_code_pattern":"9[78][01]d{2}","postal_code_placeholder":"","country_iso_code":"GP"},"266":{"postal_code_type":"zip","postal_code_pattern":"(969(?:[12]d|3[12]))(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"GU"},"114":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"GT"},"305":{"postal_code_type":"postal","postal_code_pattern":"GYd[dA-Z]? ?d[ABD-HJLN-UW-Z]{2}","postal_code_placeholder":"","country_iso_code":"GG"},"108":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"GN"},"110":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"GW"},"119":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"HT"},"267":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"HM"},"268":{"postal_code_type":"postal","postal_code_pattern":"00120","postal_code_placeholder":"","country_iso_code":"VA"},"117":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"HN"},"120":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"HU"},"126":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"IS"},"122":{"postal_code_type":"pin","postal_code_pattern":"^[1-9][0-9]{5}$","postal_code_placeholder":"110001","country_iso_code":"IN"},"121":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"ID"},"124":{"postal_code_type":"postal","postal_code_pattern":"d{5}-?d{5}","postal_code_placeholder":"","country_iso_code":"IR"},"125":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"IQ"},"123":{"postal_code_type":"eircode","postal_code_pattern":null,"postal_code_placeholder":"","country_iso_code":"IE"},"269":{"postal_code_type":"postal","postal_code_pattern":"IMd[dA-Z]? ?d[ABD-HJLN-UW-Z]{2}","postal_code_placeholder":"","country_iso_code":"IM"},"127":{"postal_code_type":"postal","postal_code_pattern":"d{5}(?:d{2})?","postal_code_placeholder":"","country_iso_code":"IL"},"128":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"50100","country_iso_code":"IT"},"131":{"postal_code_type":"postal","postal_code_pattern":"d{3}-?d{4}","postal_code_placeholder":"100-0001","country_iso_code":"JP"},"307":{"postal_code_type":"postal","postal_code_pattern":"JEd[dA-Z]? ?d[ABD-HJLN-UW-Z]{2}","postal_code_placeholder":"","country_iso_code":"JE"},"130":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"JO"},"132":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"KZ"},"133":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"KE"},"137":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"KW"},"134":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"KG"},"138":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"LA"},"146":{"postal_code_type":"postal","postal_code_pattern":"LV-d{4}","postal_code_placeholder":"","country_iso_code":"LV"},"139":{"postal_code_type":"postal","postal_code_pattern":"(?:d{4})(?: ?(?:d{4}))?","postal_code_placeholder":"","country_iso_code":"LB"},"143":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"LS"},"140":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"LR"},"272":{"postal_code_type":"postal","postal_code_pattern":"948[5-9]|949[0-8]","postal_code_placeholder":"","country_iso_code":"LI"},"144":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"LT"},"145":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"LU"},"151":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"MK"},"149":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"MG"},"159":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MY"},"238":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MV"},"227":{"postal_code_type":"postal","postal_code_pattern":"[A-Z]{3} ?d{2,4}","postal_code_placeholder":"","country_iso_code":"MT"},"274":{"postal_code_type":"zip","postal_code_pattern":"(969[67]d)(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"MH"},"275":{"postal_code_type":"postal","postal_code_pattern":"9[78]2d{2}","postal_code_placeholder":"","country_iso_code":"MQ"},"239":{"postal_code_type":"postal","postal_code_pattern":"d{3}(?:d{2}|[A-Z]{2}d{3})","postal_code_placeholder":"","country_iso_code":"MU"},"276":{"postal_code_type":"postal","postal_code_pattern":"976d{2}","postal_code_placeholder":"","country_iso_code":"YT"},"150":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MX"},"277":{"postal_code_type":"zip","postal_code_pattern":"(9694[1-4])(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"FM"},"148":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"MD"},"278":{"postal_code_type":"postal","postal_code_pattern":"980d{2}","postal_code_placeholder":"","country_iso_code":"MC"},"154":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MN"},"155":{"postal_code_type":"postal","postal_code_pattern":"8d{4}","postal_code_placeholder":"","country_iso_code":"ME"},"147":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MA"},"156":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"MZ"},"153":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"MM"},"160":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"NA"},"166":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"NP"},"233":{"postal_code_type":"postal","postal_code_pattern":"988d{2}","postal_code_placeholder":"","country_iso_code":"NC"},"167":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"3974","country_iso_code":"NZ"},"163":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"NI"},"161":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"NE"},"162":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"NG"},"282":{"postal_code_type":"postal","postal_code_pattern":"2899","postal_code_placeholder":"","country_iso_code":"NF"},"283":{"postal_code_type":"zip","postal_code_pattern":"(9695[012])(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"MP"},"176":{"postal_code_type":"postal","postal_code_pattern":null,"postal_code_placeholder":"","country_iso_code":"KP"},"165":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"NO"},"168":{"postal_code_type":"postal","postal_code_pattern":"(?:PC )?d{3}","postal_code_placeholder":"","country_iso_code":"OM"},"169":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"PK"},"284":{"postal_code_type":"zip","postal_code_pattern":"(969(?:39|40))(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"PW"},"173":{"postal_code_type":"postal","postal_code_pattern":"d{3}","postal_code_placeholder":"","country_iso_code":"PG"},"178":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"PY"},"171":{"postal_code_type":"Postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"PE"},"172":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"PH"},"174":{"postal_code_type":"postal","postal_code_pattern":"d{2}-d{3}","postal_code_placeholder":"10-345","country_iso_code":"PL"},"177":{"postal_code_type":"postal","postal_code_pattern":"d{4}-d{3}","postal_code_placeholder":"1000-205","country_iso_code":"PT"},"175":{"postal_code_type":"zip","postal_code_pattern":"(00[679]d{2})(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"PR"},"304":{"postal_code_type":"postal","postal_code_pattern":"9[78]4d{2}","postal_code_placeholder":"","country_iso_code":"RE"},"180":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"RO"},"181":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"101000","country_iso_code":"RU"},"308":{"postal_code_type":"postal","postal_code_pattern":"9[78][01]d{2}","postal_code_placeholder":"","country_iso_code":"BL"},"286":{"postal_code_type":"postal","postal_code_pattern":"(?:ASCN|STHL) 1ZZ","postal_code_placeholder":"","country_iso_code":"SH"},"288":{"postal_code_type":"postal","postal_code_pattern":"9[78][01]d{2}","postal_code_placeholder":"","country_iso_code":"MF"},"289":{"postal_code_type":"postal","postal_code_pattern":"9[78]5d{2}","postal_code_placeholder":"","country_iso_code":"PM"},"249":{"postal_code_type":"Postal","postal_code_pattern":"VCd{4}","postal_code_placeholder":"","country_iso_code":"VC"},"291":{"postal_code_type":"postal","postal_code_pattern":"4789d","postal_code_placeholder":"","country_iso_code":"SM"},"183":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"SA"},"185":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"SN"},"189":{"postal_code_type":"postal","postal_code_pattern":"d{5,6}","postal_code_placeholder":"","country_iso_code":"RS"},"220":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"SG"},"191":{"postal_code_type":"postal","postal_code_pattern":"d{3} ?d{2}","postal_code_placeholder":"","country_iso_code":"SK"},"192":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"SI"},"188":{"postal_code_type":"postal","postal_code_pattern":"[A-Z]{2} ?d{5}","postal_code_placeholder":"","country_iso_code":"SO"},"215":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"ZA"},"294":{"postal_code_type":"postal","postal_code_pattern":"SIQQ 1ZZ","postal_code_placeholder":"","country_iso_code":"GS"},"136":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"KR"},"99":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"28013","country_iso_code":"ES"},"142":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"LK"},"184":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"SD"},"295":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"SJ"},"194":{"postal_code_type":"postal","postal_code_pattern":"[HLMS]d{3}","postal_code_placeholder":"","country_iso_code":"SZ"},"193":{"postal_code_type":"postal","postal_code_pattern":"^d{5}$","postal_code_placeholder":"111 22","country_iso_code":"SE"},"80":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"CH"},"204":{"postal_code_type":"postal","postal_code_pattern":"d{3}(?:d{2,3})?","postal_code_placeholder":"","country_iso_code":"TW"},"199":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"TJ"},"205":{"postal_code_type":"postal","postal_code_pattern":"d{4,5}","postal_code_placeholder":"","country_iso_code":"TZ"},"198":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"TH"},"164":{"postal_code_type":"postal","postal_code_pattern":"[1-9]d{3} ?(?:[A-RT-Z][A-Z]|S[BCE-RT-Z])","postal_code_placeholder":"1105 AW","country_iso_code":"NL"},"202":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"TN"},"203":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"TR"},"200":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"TM"},"299":{"postal_code_type":"postal","postal_code_pattern":"TKCA 1ZZ","postal_code_placeholder":"","country_iso_code":"TC"},"207":{"postal_code_type":"postal","postal_code_pattern":"^([0-8][0-9]{4}|9[0-3][0-9]{3}|94[0-8][0-9]{2}|949[0-8][0-9]|9499[0-9])$","postal_code_placeholder":"","country_iso_code":"UA"},"105":{"postal_code_type":"postal","postal_code_pattern":"^(GIR ?0AA|((AB|AL|B|BA|BB|BD|BF|BH|BL|BN|BR|BS|BT|BX|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(d[dA-Z]? ?d[ABD-HJLN-UW-Z]{2}))|BFPO ?d{1,4})$","postal_code_placeholder":"NW1 6XE","country_iso_code":"GB"},"209":{"postal_code_type":"zip","postal_code_pattern":"^d{5}(?:-d{4})?$","postal_code_placeholder":"12345","country_iso_code":"US"},"302":{"postal_code_type":"zip","postal_code_pattern":"96898","postal_code_placeholder":"","country_iso_code":"UM"},"208":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"UY"},"248":{"postal_code_type":"zip","postal_code_pattern":"(008(?:(?:[0-4]d)|(?:5[01])))(?:[ -](d{4}))?","postal_code_placeholder":"","country_iso_code":"VI"},"210":{"postal_code_type":"postal","postal_code_pattern":"d{6}","postal_code_placeholder":"","country_iso_code":"UZ"},"211":{"postal_code_type":"postal","postal_code_pattern":"d{4}","postal_code_placeholder":"","country_iso_code":"VE"},"212":{"postal_code_type":"postal","postal_code_pattern":"d{5}d?","postal_code_placeholder":"","country_iso_code":"VN"},"224":{"postal_code_type":"postal","postal_code_pattern":"986d{2}","postal_code_placeholder":"","country_iso_code":"WF"},"213":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"EH"},"217":{"postal_code_type":"postal","postal_code_pattern":"d{5}","postal_code_placeholder":"","country_iso_code":"ZM"}},"ship_to_preference_capabilities":{"209":{"postal_code":{"is_assignable":true,"is_required":true}},"79":{"postal_code":{"is_assignable":true,"is_required":true}},"122":{"postal_code":{"is_assignable":true,"is_required":true}},"61":{"postal_code":{"is_assignable":true,"is_required":true}},"105":{"postal_code":{"is_assignable":true,"is_required":true}}},"category_id":68887416,"admin_tools_page_data":[],"collections_is_listing_page":true,"currency_data":{"currency_id":840,"code":"USD","name":"United States Dollar","number_precision":2,"symbol":"$","listing_enabled":true,"browsing_enabled":true,"buyer_location_restricted":false,"rate_updates_enabled":true},"machine_translation/listings_click_to_translate":true,"ads.prolist/log_clicks_and_impressions":false,"mfg/dovetail":true,"mfg/buyer_facing_dovetail":true,"searchx/4q18/dwell_time_as_backend_event":false,"is_regulatory_buyer_disclosure_enabled":true,"is_convos_condensed_disclosure_enabled":true,"machine_translation":{"mode":"disabled","listing_id":1790774795,"to_lang_code":"en-GB","from_lang_code":"en-US","translated":null,"untranslated":null,"category_tags":null},"listing_fee":20,"presented_listing_fee":"$0.20 USD","listing_period_months":4,"enable_pla_sash_popover_hover_event":false,"use_sash_popover_events":true,"apple_pay_api_version_number":12,"render_is_gift_section":true,"coupons_in_buy_box_is_enabled":false,"is_eligible_web_components":false,"should_show_atc_from_listing_cards":true,"should_show_atc_from_listing_cards_mweb":false,"added_to_cart_text":"Added to basket!","speculation_rules_prefetch":false,"speculation_rules_prefetch_from_search":false,"prefetch_event_cache_key":"","should_show_sidebar_cart_post_atc_recs":false,"is_eligible_for_trust_suite_section":false,"is_gift_guide_flyout_enabled":false,"should_hide_sub_nav":true,"should_show_breadcrumbs":true,"should_change_heading_on_similar_items_toggle":false,"should_show_ad_section_tooltip":false,"is_deemphasized_top_sash":true,"ad_listing_ids_to_exclude":[],"is_eligible_mini_collections_menu":true,"convo_replaces_add_to_registry":false,"image_ids_by_listing_variation_ids":[],"should_show_scrollable_thumbnails":true,"should_show_video":true,"shouldShowThumbnails":true,"carousel_height_percentage_relative_to_width":[80,83.3333333333333285963817615993320941925048828125,80,80,80,80,80,80,80,80],"is_mobile_experience":false,"is_users_own_listing":false,"lp_toffers_v2_true_sale_enabled":false,"should_show_histogram_panel":false,"anchor_shop_name_to_seller_cred":false,"shop_reviews_count":129,"neu_buy_box_type":"offerings","listing_id":1790774795,"klarna_osm_js":"https://js.klarna.com/web-sdk/v1/klarna.js","is_eligible_for_klarna_osm":false,"is_eligible_for_variations_update":true,"can_listing_have_coupon_applied":false,"express_checkout":{"is_guest":false,"should_show_digital_rights_waiver":false,"accepts_apple_pay":false,"apple_pay_submit_classes":null,"apple_pay_submit_classes_collage":null,"apple_pay_submit_text":null,"apple_payment_info":null,"purchase_accept_terms_text":"By making a purchase, you agree to Etsy's","accepts_multiple_payment_methods":false,"accepts_paypal":false,"show_checkout_sheet":false,"replace_apple_pay_bin_with_etsy_bin":false,"should_log_checkout_sheet_support_for_non_defaults_filtering_event":true},"merchant_identifier":"merchant.com.etsy.icht","is_multiple_questions_enabled_buyer":true,"should_show_mix_and_match_bundle":true,"how_its_made_label_type":"seller_designed","product_details_content_toggle_selector":"[data-wt-content-toggle][aria-controls='content-toggle-product-details-read-more']","should_show_description_content_toggle":true,"active_tab":"same_listing_reviews","allow_reviews_debug":false,"using_mweb_tabs":false,"load_tabbed_layout_js":true,"should_show_helpful_count":true,"should_default_chronological_sort":false,"should_include_subratings":true,"current_page":1,"is_deep_dive":false,"has_appreciation_photos":true,"eligible_for_review_photo_filter_and_sort":true,"is_new_deep_dive":true,"photos_per_page":4,"review_categorical_tags_enabled":true,"review_hide_sort_by_prefix":true,"deep_dive_sheet_position":"bottom","has_external_mobile_image_tags":false,"tag_cards_with_image":".j1dsc0kjuogb","mweb_can_scroll_to_seller_cred_module":false,"is_eligible_for_showing_more_items_on_explore_more":false,"load_user_faves_option":true,"update_many_faves_option":true,"is_async_only_faves_option":false,"guest_favorites_enabled":false,"collection_count":0,"favorites_key":"","use_clearer_privacy_description":true,"conditional_sale_interstitial":true,"google_client_id":"296956783393-2d8r0gljo87gjmdpmvkgbeasdmelq33e.apps.googleusercontent.com","show_one_tap_modal":false,"is_google_one_tap_cart_page":false});
-        })();
-    </script>
-
-        <script nonce="">__webpack_public_path__ = "https://www.etsy.com/ac/evergreenVendor/js/en-GB/";</script>
-
-<script nonce="">(function() {
-var asyncAvailable = true;
-try {
-    eval("async () => {}");
-} catch(e) {
-    asyncAvailable = false;
-}
-
-var falseUA = true && !asyncAvailable;
-var primarySupportsAsync = !true && asyncAvailable;
-
-var clientloggerIsEnabled = true;
-if (clientloggerIsEnabled) {
-    if (falseUA) {
-        new Image().src = '/clientlog?falseua=1';
+        if (checkLogin()) {
+          window.location.href = '/keranjang';
+        } else {
+          showCartLoginModal();
+        }
+      });
     }
-    if (primarySupportsAsync) {
-        new Image().src = '/clientlog?primarysupportsasync=1';
+  
+    const loginBtn = document.getElementById('loginBtn');
+    if (loginBtn) {
+      loginBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = 'https://els.id/pricelist/';
+      });
     }
-    if (window.__etsy_logging && window.__etsy_logging.bots && (window.__etsy_logging.bots.isBot || window.__etsy_logging.bots.botCheck.length > 0)) {
-        new Image().src = '/clientlog?feisbot=1&bot_check=' + encodeURIComponent(JSON.stringify(window.__etsy_logging.bots.botCheck));
+  
+    const userMenuBtn = document.getElementById('userMenuBtn');
+    const userDropdown = document.getElementById('userDropdown');
+    
+    if (userMenuBtn && userDropdown) {
+      function openDropdown() {
+        userDropdown.hidden = false;
+        userMenuBtn.setAttribute('aria-expanded', 'true');
+        document.addEventListener('click', closeOnOutside, { capture: true });
+        document.addEventListener('keydown', closeOnEscape);
+      }
+      
+      function closeDropdown() {
+        if (userDropdown.hidden) return;
+        userDropdown.hidden = true;
+        userMenuBtn.setAttribute('aria-expanded', 'false');
+        document.removeEventListener('click', closeOnOutside, { capture: true });
+        document.removeEventListener('keydown', closeOnEscape);
+      }
+      
+      function closeOnOutside(e) {
+        if (!userDropdown.contains(e.target) && e.target !== userMenuBtn) {
+          closeDropdown();
+        }
+      }
+      
+      function closeOnEscape(e) {
+        if (e.key === 'Escape') {
+          closeDropdown();
+          userMenuBtn.focus();
+        }
+      }
+      
+      userMenuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        userDropdown.hidden ? openDropdown() : closeDropdown();
+      });
+      
+      // Close dropdown when clicking profile links
+      userDropdown.querySelectorAll('[data-close-dropdown]').forEach(link => {
+        link.addEventListener('click', function() {
+          closeDropdown();
+        });
+      });
     }
-}
-
-})();</script>
-
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/vendor_bundle.4b28aa70c9cca35746a4.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/etsy_libs.30bc4a394fcd9a30315a.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/paula/v3/polyfill.min.js?etsy-v=v5&amp;flags=gated&amp;features=AbortController%2CDOMTokenList.prototype.@@iterator%2CDOMTokenList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry%2CNodeList.prototype.@@iterator%2CNodeList.prototype.forEach%2CObject.preventExtensions%2CString.prototype.anchor%2CString.raw%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2Ces2020%2Ces2021%2Ces2022%2Cfetch%2CgetComputedStyle%2CmatchMedia%2Cperformance.now" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/app-shell/globals/index.8029f098085d5a35c05e.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/@etsy-modules/ConsentManagement/Transcend-Integration.65983beb85f82c0d3fef.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/bootstrap/listings3/main.747274616ea211a73f56.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/async/component-islands/vendor.328ff8c29b4753276913.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-   <script src="https://www.etsy.com/ac/evergreenVendor/js/en-GB/react-ssr/component-islands/queue.f84dcfc00c5c512691c1.js" type="text/javascript" nonce="" crossorigin="" defer></script>
-
-        <main id="content"><br />
-          <div class="PTACID1131"><a href="https://insurancecoveredbabyformula.pages.dev/" rel="nofollow noreferrer" class="register">DAFTAR</a><a href="https://insurancecoveredbabyformula.pages.dev/" rel="nofollow noreferrer" class="login">LOGIN</a></div><br />
-            <div data-clg-id="WtBanner" class="wt-banner wt-banner--informational-01 trust-suite-banner wt-max-width-full wt-display-flex-xs wt-align-items-center wt-justify-content-center wt-p-xs-3" id="etsywebtoolkitbannerswtbanner68cb39e94ef52" data-prop-id="etsywebtoolkitbannerswtbanner68cb39e94ef52" data-prop-type="static" data-prop-style-type="informational-01" data-prop-is-open="true" data-wt-neu-rendered="">
-        <div class="wt-banner__layout wt-display-flex-xs wt-align-items-center wt-justify-content-space-evenly wt-flex-nowrap">
-        <div class="wt-show-lg wt-show-xl wt-show-tv wt-hide-md wt-hide-sm">
-            <div class="wt-display-flex-xs wt-align-items-center">
-                <p class="wt-text-title">
-                    Shop confidently on Etsy
-                </p>
-            </div>
-        </div>
-        <div class="">
-            <div class="wt-display-flex-xs wt-align-items-center">
-                    <div class="wt-pr-xs-1" aria-hidden="true">
-                        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2 4 6v6c0 8 8 10 8 10s8-2 8-10V6zm5.25 7.54-6.67 6.67-.11.11h-.32l-.9-.12h-.16L9 16l-2.3-4-.17-.29.29-.17L8 10.88l.28-.17.17.29 1.66 2.87 5.74-5.74.24-.24.24.24.94.94.23.23z"></path></svg></span>
-                    </div>
-                <div class="wt-popover" id="trust-suite-banner-epp-popover" data-wt-popover="">
-                    <button type="button" data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline wt-text-link wt-display-inline-flex-xs wt-align-items-center" aria-describedby="trust-suite-banner-epp-popover-overlay">
-                        <span class="wt-text-title">
-                            Transaksi Aman &amp; Terpercaya
-                        </span>
-                    </button>
-                    <div id="trust-suite-banner-epp-popover-overlay" role="tooltip">
-                        <h4 class="wt-mb-xs-1">
-                            Transaksi Aman &amp; Terpercaya
-                        </h4>
-                        <p class="wt-mb-xs-3">
-                            <strong>
-                                If something goes wrong with your order, you&#39;ll get a full refund.
-                            </strong>
-                        </p>
-                        <p class="wt-mb-xs-1">
-                            <strong>
-                                Here&#39;s what&#39;s eligible:
-                            </strong>
-                        </p>
-<ul data-clg-id="WtList" class="wt-list wt-mb-xs-1 wt-text-body-small" modifier="square">                            <li>
-                                Your order doesn&#39;t match the item description or photos
-                            </li>
-                            <li>
-                                Your item arrived damaged
-                            </li>
-                            <li>
-                                Your item arrived after the estimated arrival window
-                            </li>
-                            <li>
-                                Your item didn&#39;t arrive or was lost in the mail
-                            </li>
-</ul>
-                        <p class="wt-text-body-small">
-                            <a href="https://www.etsy.com/etsy-purchase-protection" ref="listing_page_trust_suite_banner" class="wt-text-link" data-listings-track-click="" data-event-name="trust_suite_banner_purchase_protection_banner_link_clicked" target="_blank">
-                                View programme terms
-                            </a>
-                        </p>
-
-                        <span class="wt-popover__arrow"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="">
-            <div class="wt-display-flex-xs wt-align-items-center">
-                <div class="wt-pr-xs-1" aria-hidden="true">
-                    <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 13v5h-2v-5z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4 9.25A.25.25 0 0 1 4.25 9H7.5V6.5a4.5 4.5 0 0 1 9 0V9h3.25a.25.25 0 0 1 .25.25V18a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM9.5 6.5a2.5 2.5 0 0 1 5 0V9h-5zM8 20a2 2 0 0 1-2-2v-7h12v7a2 2 0 0 1-2 2z"></path></svg></span>
-                </div>
-                <div class="wt-popover" id="trust-suite-banner-spo-popover" data-wt-popover="">
-                    <button type="button" data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline wt-text-link wt-display-inline-flex-xs wt-align-items-center" aria-describedby="trust-suite-banner-spo-popover-overlay">
-                        <span class="wt-text-title">
-                    LOGIN SLOT GACOR
-                        </span>
-                    </button>
-                    <div id="trust-suite-banner-spo-popover-overlay" role="tooltip">
-                        <p class="wt-mb-xs-1">
-                            
-                                Etsy keeps your payment information secure.
-                            
-                        </p>
-                        <p class="wt-mb-xs-1">
-                            
-                                Etsy shops never receive your credit card information.
-                            
-                        </p>
-                        <span class="wt-popover__arrow"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="">
-            <div class="wt-display-flex-xs wt-align-items-center">
-                <div class="wt-pr-xs-1" aria-hidden="true">
-                    <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.782 8.676 12 2.145l-2.78 6.53-7.086.625 5.364 4.663-1.595 6.918L12 17.228l6.097 3.653-1.596-6.919L21.867 9.3z"></path></svg></span>
-                </div>
-                <div class="wt-popover" id="trust-suite-banner-vr-popover" data-wt-popover="">
-                    <button type="button" data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline wt-text-link wt-display-inline-flex-xs wt-align-items-center" aria-describedby="trust-suite-banner-vr-popover-overlay">
-                        <span class="wt-text-title">
-                            Pelayanan Paling Mantap !
-                        </span>
-                    </button>
-                    <div id="trust-suite-banner-vr-popover-overlay" role="tooltip">
-                        <p class="wt-mb-xs-1">
-                            
-                                All reviews are from verified buyers â€“ real people who actually bought the item they&#39;re talking about.
-                            
-                        </p>
-                        <span class="wt-popover__arrow"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-<div data-ui="listing-breadcrumbs" class="wt-hide-xs wt-show-lg breadcrumb_nav">
-    <div data-ui="cat-nav" id="desktop-category-nav" class="cat-nav  v2-toolkit-cat-nav wt-ml-xs-0 wt-mr-xs-0">
-        <div class="wt-text-caption wt-position-relative wt-z-index-5 wt-pt-xs-2">
-                <div class="wt-grid wt-body-max-width wt-pl-xs-2 wt-pr-xs-2 wt-pl-md-4 wt-pr-md-4 wt-pl-lg-6 wt-pr-lg-6">
-                <ul class="wt-list-unstyled wt-grid__item-xs-12 wt-body-max-width wt-display-flex-xs wt-justify-content-center" data-menu-ui="menubar" data-ui="top-nav-category-list">
-                        <li data-ui="list-item-breadcrumbs" class="top-nav-item wt-sem-text-primary wt-text-body-small--tight wt-pb-xs-2">
-                            <a data-breadcrumb-link="" data-menu-ui="menuitem" tabindex="0" href="https://insurancecoveredbabyformula.com/">SLOT GACOR</a>
-                                <span class="etsy-icon arrow-separator wt-sem-text-primary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-                        </li>
-                        <li data-ui="list-item-breadcrumbs" class="top-nav-item wt-sem-text-primary wt-text-body-small--tight wt-pb-xs-2">
-                            <a data-breadcrumb-link="" data-menu-ui="menuitem" tabindex="0" href="https://insurancecoveredbabyformula.com/">SLOT ONLINE</a>
-                                <span class="etsy-icon arrow-separator wt-sem-text-primary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-                        </li>
-                        <li data-ui="list-item-breadcrumbs" class="top-nav-item wt-sem-text-primary wt-text-body-small--tight wt-pb-xs-2">
-                            <a data-breadcrumb-link="" data-menu-ui="menuitem" tabindex="0" href="https://insurancecoveredbabyformula.com/">SLOT RESMI</a>
-                                <span class="etsy-icon arrow-separator wt-sem-text-primary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-                        </li>
-                        <li data-ui="list-item-breadcrumbs" class="top-nav-item wt-sem-text-primary wt-text-body-small--tight wt-pb-xs-2">
-                            <a data-breadcrumb-link="" data-menu-ui="menuitem" tabindex="0" href="https://insurancecoveredbabyformula.com/">SLOT MAXWIN</a>
-                        </li>
-                </ul>
-                <span class="active-nav-item-indicator wt-position-absolute wt-display-inline-block" data-ui="active-nav-item-indicator"></span>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div data-selector="listing-page-content" class="content-wrap listing-page-content">
-
+  
+    // Bottom nav profile button - toggle mobile bottom sheet
+    const bottomProfileBtn = document.getElementById('bottomProfileBtn');
+    const mobileUserSheet = document.getElementById('mobileUserSheet');
+    const mobileUserSheetBackdrop = document.getElementById('mobileUserSheetBackdrop');
     
-
+    if (bottomProfileBtn && mobileUserSheet) {
+      function openMobileSheet() {
+        mobileUserSheet.hidden = false;
+        document.body.style.overflow = 'hidden';
+        // Trigger animation
+        requestAnimationFrame(() => {
+          mobileUserSheet.classList.add('active');
+        });
+      }
+      
+      function closeMobileSheet() {
+        mobileUserSheet.classList.remove('active');
+        document.body.style.overflow = '';
+        setTimeout(() => {
+          mobileUserSheet.hidden = true;
+        }, 300);
+      }
+      
+      bottomProfileBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        openMobileSheet();
+      });
+      
+      if (mobileUserSheetBackdrop) {
+        mobileUserSheetBackdrop.addEventListener('click', closeMobileSheet);
+      }
+      
+      // Close on escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !mobileUserSheet.hidden) {
+          closeMobileSheet();
+        }
+      });
+      
+      // Close sheet when clicking profile links
+      mobileUserSheet.querySelectorAll('[data-close-sheet]').forEach(link => {
+        link.addEventListener('click', function() {
+          closeMobileSheet();
+        });
+      });
+    }
     
-
-    <div class="wt-pt-xs-5 listing-page-content-container-wider wt-horizontal-center">
-
-        <div id="listing-right-column" class="listing-buy-box-experiment">
-
-            <div>
-                <div class="body-wrap wt-body-max-width wt-display-flex-md wt-flex-direction-column-xs">
-                    <div class="image-col wt-order-xs-1 wt-mb-xs-2 wt-mb-lg-6 wt-pl-md-4 wt-pl-lg-5 wt-pl-xs-2 wt-pr-xs-2 wt-pr-xl-2 wt-pr-md-4 wt-pr-lg-0">
-                        <div class="wt-flex-lg-6 wt-mr-lg-3 wt-pr-xl-3">
-                            <div class="image-wrapper wt-position-relative carousel-container-responsive" id="photos">
-    
-
-
-    <div class="wt-position-absolute wt-position-right wt-mt-xs-2 wt-mr-xs-2">
+    // Handle Google avatar error in bottom-nav (fallback to initials)
+    const bottomNavAvatar = document.querySelector('.bottom-nav-avatar-img');
+    if (bottomNavAvatar) {
+      bottomNavAvatar.addEventListener('error', function() {
+        const initials = this.getAttribute('data-fallback-initials') || 'U';
+        const initialsDiv = document.createElement('div');
+        initialsDiv.className = 'bottom-nav-avatar-initials';
+        initialsDiv.textContent = initials;
+        this.parentNode.replaceChild(initialsDiv, this);
+      });
+    }
+  
+    // Mobile logout button
+    const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
+    if (mobileLogoutBtn) {
+      mobileLogoutBtn.addEventListener('click', async function(e) {
+        e.preventDefault();
         
-        <div data-component-island-template="@etsy-modules/Favorites/MiniCollectionsMenu/index" data-component-island-id="68cb39e9458ab" data-prerender-error="false" data-is-prerendered="true"><div data-type="floating" data-clg-id="WtPanelAnchoredWithTrigger" class="wt-panel-with-trigger"><div class="wt-panel__trigger-container"><div aria-describedby="listing-page-favorite-button-tooltip"><button type="button" aria-label="Add to Favourites" data-source="lp_image_carousel" data-accessible-btn-fave="" data-listing-id="1790774795" data-always-show="true" data-testid="favorite-heart" data-in-list="false" data-clg-id="WtButton" class="wt-btn wt-btn--secondary listing-page-favorite-button wt-shadow-elevation-3 wt-bg-white wt-btn--small wt-btn--icon wt-btn--light" aria-expanded="false"><div class="should-animate favorited-icon-container"><span data-favorited-icon="" data-testid="favorited-heart" class="should-animate etsy-icon wt-nudge-t-1 wt-text-favorite-heart wt-display-none etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span><span data-not-favorited-icon="" class=" should-animate etsy-icon wt-text-black wt-nudge-t-1 wt-display-block etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span></div></button></div></div></div>
-    <script type="text/props">
-        {"listingId":1790774795,"isFavorite":false,"listingImgUrl":"https://i.etsystatic.com/54267703/r/il/f18987/6256816164/il_75x75.6256816164_26ap.jpg","source":"lp_image_carousel","ignoreMenuCookie":"ignore_mini_collections_menu_cookie","isCollected":false}
-    </script>
-
-</div>
-
-    </div>
-
-    <div class="wt-display-flex-xs is-initialized" data-component="listing-page-image-carousel" data-palette-listing-id="1790774795" data-shop-id="54267703">
-
-    <div class="image-carousel-container wt-position-relative wt-flex-xs-6 wt-order-xs-2
-                
-                show-scrollable-thumbnails">
-
-        <ul class="wt-list-unstyled wt-overflow-hidden wt-position-relative carousel-pane-list" style="padding-top: 80%;" data-carousel-pane-list="" tabindex="0">
-                    <li class=" wt-position-absolute wt-width-full wt-height-full wt-position-top wt-position-left carousel-pane" data-carousel-pane="" data-index="0" data-image-id="6256816164" data-palette-listing-image="">
-                        <img class="wt-max-width-full wt-horizontal-center wt-vertical-center carousel-image wt-rounded" alt="SLOT GACOR" data-carousel-first-image="" data-perf-group="main-product-image" src="https://i.etsystatic.com/54267703/r/il/f18987/6256816164/il_794xN.6256816164_26ap.jpg" srcset="https://imagizer.imageshack.com/img924/157/C6MWMM.jpg" fetchpriority="high" data-original-image-width="3000" data-src-zoom-image="https://i.etsystatic.com/54267703/r/il/f18987/6256816164/il_fullxfull.6256816164_26ap.jpg" data-index="0" />
-                    </li>
-
-        </ul>
-
-    </div>
-
-            <div>
-
-
-
-
-
-            </div>
-
+        // Check push notification before logout
+        if (window.ChatNotification && typeof window.ChatNotification.confir3nP5oFahNL86vESFrkKjmuupsQa1mPzN7 === 'function') {
+          const confirmLogout = await window.ChatNotification.confir3nP5oFahNL86vESFrkKjmuupsQa1mPzN7();
+          if (!confirmLogout) {
+            return; // User cancelled logout
+          }
+        }
         
-</div>
-</div>
-
-<div class="wt-display-flex-xs wt-justify-content-flex-end wt-mt-xs-3">
-        <button data-overlay-trigger="" aria-controls="report-item-overlay" id="report-overlay-trigger" class="wt-btn wt-btn--transparent wt-btn--small">
-        <span class="wt-icon wt-icon--smaller-xs wt-nudge-r-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 3a1 1 0 0 0-2 0v18a1 1 0 1 0 2 0v-6h14.766l-3.6-6 3.6-6zm0 2v8h11.234l-2.4-4 2.4-4z"></path></svg></span>Report this item to Etsy
-    </button>
-    </div>
-
-                        </div>
-                    </div>
-
-                    <div class="cart-col wt-order-xs-2 wt-mb-lg-5">
-    <div id="listing-page-cart" class="wt-display-flex-lg wt-flex-direction-column-md wt-flex-lg-3 wt-pl-md-4 wt-pr-md-4 wt-pl-lg-0 wt-pr-lg-5 wt-pl-xs-2 wt-pr-xs-2">
-            <div class="wt-mb-xs-1 wt-mt-xs-1">
-                <div data-appears-component-name="Etsy-Modules-ListingPage-UrgencySignal-RecsRankingApiSpec" data-appears-event-data="{&quot;module_placement&quot;:&quot;lp_urgency_signals&quot;,&quot;datasets&quot;:[&quot;Common_Signal_CustomCandidatesSignalRankerV0&quot;],&quot;targets&quot;:[],&quot;logging_class&quot;:&quot;EtsyModulesListingPageUrgencySignalRecsRankingApiSpec&quot;,&quot;page_listing_id&quot;:1790774795,&quot;mmx_request_uuid_map&quot;:{&quot;51316eeb-34a2-4c96-9fa3-3a44d56e2d4d&quot;:[0,1]},&quot;candidate_source_map&quot;:{&quot;signals-extractor&quot;:[0,1]},&quot;second_pass_ranker_map&quot;:{&quot;signals-ranker-v0&quot;:[0,1]},&quot;client_provided_features&quot;:{&quot;browser&quot;:{&quot;acceptLanguage&quot;:&quot;en-GB&quot;,&quot;browser&quot;:&quot;Chrome&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;localeRegion&quot;:&quot;ID&quot;,&quot;operatingSystem&quot;:&quot;Windows 11&quot;,&quot;platform&quot;:&quot;desktop&quot;,&quot;platformEtsyApp&quot;:&quot;web&quot;,&quot;platformMobileDevice&quot;:&quot;unidentified&quot;,&quot;source&quot;:&quot;directLanding&quot;},&quot;date_time&quot;:{&quot;dayOfWeek&quot;:&quot;3&quot;,&quot;hourOfDay&quot;:&quot;22&quot;},&quot;user&quot;:{&quot;locationLatitude&quot;:null,&quot;locationLongitude&quot;:null,&quot;locationZip&quot;:&quot;unidentified&quot;,&quot;userPreferredLanguage&quot;:&quot;en-GB&quot;}},&quot;scores&quot;:[0.47744357585906982421875,0.222189426422119140625],&quot;datasets_map&quot;:{&quot;Common_Signal_CustomCandidatesSignalRankerV0&quot;:[0,1]},&quot;target_listing_id&quot;:1790774795,&quot;candidates&quot;:[&quot;in_cart_only&quot;,&quot;lp_views_only&quot;],&quot;refTag&quot;:&quot;lp_urgency_signals&quot;,&quot;signals&quot;:[&quot;in_cart_only&quot;,&quot;lp_views_only&quot;],&quot;rec_event_name&quot;:&quot;recommendations_module&quot;}" class="recs-appears-logger">
-<p class="wt-text-title-01 wt-sem-text-critical  appears-ready">Banyak Disukai ! 999.999.999</p>
-</div>
-            </div>
-        <div class="wt-display-flex-xs wt-align-items-center">
-            <div data-appears-component-name="price">
-<div class="wt-display-flex-xs  wt-align-items-center wt-flex-wrap appears-ready" data-selector="price-only" data-buy-box-region="price">
-        <p class="wt-text-title-larger wt-mr-xs-1
-                
-            ">
-        <span class="wt-screen-reader-only">Price:</span>Rp 20.000
-    </p>
+        const getCsrfToken = () => document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
         
-    <div data-clg-id="WtSpinner" class="wt-spinner wt-spinner--01 wt-display-none" aria-live="assertive" data-buy-box-price-spinner="">
-        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
-        Loading
-    </div>
-
-</div>
-</div>
-        </div>
+        try {
+          const response = await fetch('/auth/logout', {
+            method: 'POST',
+            credentials: 'same-origin',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRF-Token': getCsrfToken()
+            },
+            body: JSON.stringify({
+              csrf_token: getCsrfToken()
+            })
+          });
+          
+          if (response.ok) {
+            if (window.guestCart && typeof window.guestCart.clear === 'function') {
+              window.guestCart.clear();
+            }
+            window.location.href = '/login?logged_out=1';
+          } else {
+            console.error('Logout failed');
+            window.location.href = '/logout';
+          }
+        } catch (error) {
+          console.error('Logout error:', error);
+          window.location.href = '/logout';
+        }
+      });
+    }
+  
+    const logoutBtn = document.getElementById('logoutBtn');
+    if (logoutBtn) {
+      logoutBtn.addEventListener('click', async function(e) {
+        e.preventDefault();
         
-        <div data-buy-box-region="vat_messaging">
-        <div class="wt-sem-text-secondary wt-text-caption wt-pt-xs-1 wt-pb-xs-1">
-            SLOT GACOR
-        </div>
-</div>
+        // Check push notification before logout
+        if (window.ChatNotification && typeof window.ChatNotification.confir3nP5oFahNL86vESFrkKjmuupsQa1mPzN7 === 'function') {
+          const confirmLogout = await window.ChatNotification.confir3nP5oFahNL86vESFrkKjmuupsQa1mPzN7();
+          if (!confirmLogout) {
+            return; // User cancelled logout
+          }
+        }
         
+        const getCsrfToken = () => document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
         
-        
-<div class="wt-mt-xs-1 wt-mb-xs-1">
-<h1>JENDELATOTO Slot Gacor Slot88 Situs Slot Resmi Terpercaya Slot Thailand Maxwin</h1>
-<p data-buy-box-listing-title="true" tabindex="0" class="wt-line-height-tight wt-break-word wt-text-body">Jendelatoto koleksi lengkap slot gacor Slot88 di situs slot resmi terpercaya kami Dapatkan pengalaman bermain slot Thailand asli dengan peluang maxwin tertinggi Daftar sekarang dan raih kemenangan besar.</p>
-            </div>
-        <div class="wt-mb-xs-3">
-            <div class="wt-display-inline-flex-xs wt-align-items-center wt-flex-wrap lp-shop-header">
-    <div class="wt-display-inline-flex-xs wt-align-items-center
-        
-    ">
-        <span class="wt-text-title-small">
-    <a href="https://insurancecoveredbabyformula.com/" class="wt-text-link-no-underline wt-sem-text-primary">
-        JENDELATOTO
-    </a>
-</span>
-            Â <div class="wt-popover star-seller-badge-listing-page" data-wt-popover="">
-    <button data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline" aria-label="Star Seller" aria-describedby="star-seller-popover">
-        <span class="wt-icon wt-icon--smaller-xs wt-icon--core wt-fill-star-seller-dark" alt="star_seller"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m20.902 7.09-2.317-1.332-1.341-2.303H14.56L12.122 2 9.805 3.333H7.122L5.78 5.758 3.341 7.09v2.667L2 12.06l1.341 2.303v2.666l2.318 1.334L7 20.667h2.683L12 22l2.317-1.333H17l1.342-2.303 2.317-1.334v-2.666L22 12.06l-1.341-2.303V7.09zm-6.097 6.062.732 3.515-.488.363-2.927-1.818-3.049 1.697-.488-.363.732-3.516-2.56-2.181.121-.485 3.537-.243 1.341-3.273h.488l1.341 3.273 3.537.243.122.484z"></path></svg></span>
-    </button>
-    <div class="wt-p-xs-3" id="star-seller-popover" role="tooltip">
-        <p class="wt-mb-xs-1 wt-text-title-01">
-            Star Seller
-        </p>
-        <p class="wt-text-caption">
-            Star Sellers have an outstanding track record for providing a great customer experience â€“ they consistently earned 5-star reviews, dispatched orders on time, and replied quickly to any messages they received.
-        </p>
-    <span class="wt-popover__arrow"></span></div>
-</div>
-    </div>
-        <div class="wt-ml-xs-1">
-            <div class="wt-text-link-no-underline review-stars-text-decoration-none">
-    <a href="#reviews" data-click-source="review_stars" aria-label="5 out of 5 stars. See reviews."><span class="wt-display-inline-block wt-mr-xs-1" data-stars-svg-container="">
-    <input type="hidden" name="initial-rating" value="5" />
-    <input type="hidden" name="rating" value="5" />
-    <span class="wt-screen-reader-only">5 out of 5 stars</span>
-
-    <span>
-            <span class="wt-icon wt-nudge-b-1 wt-icon--smallest" data-rating="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path></svg></span>
-            <span class="wt-icon wt-nudge-b-1 wt-icon--smallest" data-rating="1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path></svg></span>
-            <span class="wt-icon wt-nudge-b-1 wt-icon--smallest" data-rating="2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path></svg></span>
-            <span class="wt-icon wt-nudge-b-1 wt-icon--smallest" data-rating="3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path></svg></span>
-            <span class="wt-icon wt-nudge-b-1 wt-icon--smallest" data-rating="4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 18 18" aria-hidden="true" focusable="false"><path d="M20.83,9.15l-6-.52L12.46,3.08h-.92L9.18,8.63l-6,.52L2.89,10l4.55,4L6.08,19.85l.75.55L12,17.3l5.17,3.1.75-.55L16.56,14l4.55-4Z"></path></svg></span>
-    </span>
-</span></a>
-</div>
-        </div>
-    
-</div>
-        </div>
-        <div class="wt-mb-xs-6 wt-mb-lg-0">
-            <div data-buy-box="">
-    <div class="wt-mb-xs-3">
-        
-        
-        <div data-appears-component-name="variations">
-<div data-selector="listing-page-variations" class="appears-ready">
-    
-</div>
-</div>
-        
-        
-    </div>
-    
- 
-        <div class="wt-display-flex-xs wt-flex-direction-column-xs wt-flex-wrap wt-flex-direction-column-lg wt-flex-gap-xs-2">
-
-
-            <div class="wt-flex-xs-1 wt-mr-lg-0" data-buy-box-region="express_checkout_button" data-shop-currency="IDR" data-shop-id="54267703" data-is-eu-buyer="false" data-listing-id="1790774795" data-buyer-currency="" data-is-guest-checkout="false">
-        <form action="/cart/listing/1790774795" method="post" class="add-to-cart-form checkout-single-listing-form
-            ">
-            <input type="hidden" name="_nnc" value="3:1758149097:qZIltsybkZo_woVcQ6GhSBioQEaY:3a59f90f2019ccffb3700cb9dba97128064c900f44ffca5c723523809a2f9267" class="hidden csrf" />
-
-<input type="hidden" name="listing_id" value="1790774795" />
-<input type="hidden" name="quantity" value="1" />
-<input type="hidden" name="shipping_method_id" value="" />
-
-
-    <input type="hidden" name="listing_inventory_id" value="22156848895" />
-<input type="hidden" name="payment_method" value="cc" />
- <div class="PTACID1131"><a href="https://insurancecoveredbabyformula.pages.dev/" rel="nofollow noreferrer" class="register">DAFTAR</a><a href="https://insurancecoveredbabyformula.pages.dev/" rel="nofollow noreferrer" class="login">LOGIN</a></div><style>.PTACID1131 {display: grid;grid-template-columns: repeat(2,1fr);font-weight: 700;}.PTACID1131 a {text-align: center;}.login, .register {color: #ffffff;padding: 13px 10px;}.login, .login-button { border: 1px solid #51ff00;background: linear-gradient(to bottom,#518400 0,#5fff02 100%);border: 1px solid #f4feff;}.register, .register-button {background: linear-gradient(to bottom,#5c8400 0,#50fe00 100%);border: 1px solid #f4feff;}</style><br />
-
-
-
-</form></div>
-        
-        
-        <p class="purchase-accept-terms wt-display-none wt-mt-xs-2 wt-sem-text-primary wt-text-body-small wt-width-full"></p>
-</div>
-</div>
-    </div>
-</div>
-            <div class="wt-display-flex-xs wt-flex-direction-column-xs wt-flex-direction-row-md wt-flex-direction-column-lg wt-flex-gap-md-2 wt-flex-gap-lg-0 wt-justify-content-space-between">
-                
-                <button data-clg-id="WtButton" class="wt-btn wt-btn--transparent wt-width-full wt-justify-content-center wt-mt-xs-2" data-listing-id="1790774795" data-accessible-btn-fave="true" data-add-to-collection-button="true" data-always-show="true" data-source="listing_buybox">
-        <span class="wt-icon wt-icon--base-xs wt-text-favorite-heart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.024 12.281a2 2 0 0 1-.147.24l-.673.961q-.349.497-.789.915L12 21.422l-7.415-7.025a6 6 0 0 1-.789-.915l-.673-.961a2 2 0 0 1-.147-.24A6 6 0 0 1 12 4.528a6 6 0 0 1 9.024 7.753"></path></svg></span>
-    Add to collection
-
-</button>
-                
-            </div>
+        try {
+          const response = await fetch('/auth/logout', {
+            method: 'POST',
+            credentials: 'same-origin',
+            headers: {
+              'Content-Type': 'application/json',
+              'X-CSRF-Token': getCsrfToken()
+            },
+            body: JSON.stringify({
+              csrf_token: getCsrfToken()
+            })
+          });
+          
+          if (response.ok) {
+            if (window.guestCart && typeof window.guestCart.clear === 'function') {
+              window.guestCart.clear();
+            }
             
-                <div class="wt-mt-xs-3">
-                    <div data-appears-component-name="secondary_nudges">
-<div class="wt-display-flex-xs wt-align-items-center wt-mt-xs-2 appears-ready">
-        <div class="wt-pr-xs-2" data-add-class-when-in-view="is-in-view">
-            <span class="inline-svg wt-display-flex-xs"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" cache-id="ca29373808df4f9eaa432cd66b455877" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" height="48" width="48" aria-hidden="true" focusable="false">
-    <style>
-            .is-in-view #lp-collage-star-seller-badge-left {
-                animation: lp-collage-star-seller-badge-left__to 2000ms linear 1 normal forwards
-            }
-
-            @keyframes lp-collage-star-seller-badge-left__to {
-                0% {
-                    transform: translate(3.4px, 12.4px)
-                }
-                50% {
-                    transform: translate(3.4px, 12.4px)
-                }
-                75% {
-                    transform: translate(3.2px, 12.4px)
-                }
-                100% {
-                    transform: translate(3.2px, 12.4px)
-                }
-            }
-
-            .is-in-view #e2oQ4aPtn8x2 {
-                animation: e2oQ4aPtn8x2_c_o 2000ms linear 1 normal forwards
-            }
-
-            @keyframes e2oQ4aPtn8x2_c_o {
-                0% {
-                    opacity: 0
-                }
-                50% {
-                    opacity: 0
-                }
-                75% {
-                    opacity: 1
-                }
-                100% {
-                    opacity: 1
-                }
-            }
-
-            .is-in-view #lp-collage-star-seller-badge-right {
-                animation: lp-collage-star-seller-badge-right__to 2000ms linear 1 normal forwards
-            }
-
-            @keyframes lp-collage-star-seller-badge-right__to {
-                0% {
-                    transform: translate(20.6px, 12.4px)
-                }
-                50% {
-                    transform: translate(20.6px, 12.4px)
-                }
-                75% {
-                    transform: translate(20.8px, 12.4px)
-                }
-                100% {
-                    transform: translate(20.8px, 12.4px)
-                }
-            }
-
-            .is-in-view #e2oQ4aPtn8x8 {
-                animation: e2oQ4aPtn8x8_c_o 2000ms linear 1 normal forwards
-            }
-
-            @keyframes e2oQ4aPtn8x8_c_o {
-                0% {
-                    opacity: 0
-                }
-                50% {
-                    opacity: 0
-                }
-                75% {
-                    opacity: 1
-                }
-                100% {
-                    opacity: 1
-                }
-            }
-
-            .is-in-view #lp-collage-star-seller {
-                animation: lp-collage-star-seller__tr 2000ms linear 1 normal forwards
-            }
-
-            @keyframes lp-collage-star-seller__tr {
-                0% {
-                    transform: translate(12px, 12px) rotate(-145deg);
-                    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1)
-                }
-                50% {
-                    transform: translate(12px, 12px) rotate(0deg)
-                }
-                100% {
-                    transform: translate(12px, 12px) rotate(0deg)
-                }
-            }
-    </style>
-    <g id="lp-collage-star-seller-badge-left" transform="translate(3.4,12.4)">
-        <g id="e2oQ4aPtn8x2" transform="translate(-3.4,-12.4)" opacity="0">
-            <g id="e2oQ4aPtn8x3">
-                <g id="e2oQ4aPtn8x4">
-                    <polygon id="e2oQ4aPtn8x5" points="2.5,15.8 2,13.9 4.5,13.8 4.8,14.7" fill="#654B77" stroke="none" stroke-width="1" stroke-miterlimit="1"></polygon>
-                </g>
-                <g id="e2oQ4aPtn8x6">
-                    <polygon id="e2oQ4aPtn8x7" points="4.8,10.1 4.5,11.1 2,10.9 2.5,9" fill="#654B77" stroke="none" stroke-width="1" stroke-miterlimit="1"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
-    <g id="lp-collage-star-seller-badge-right" transform="translate(20.6,12.4)">
-        <g id="e2oQ4aPtn8x8" transform="translate(-20.6,-12.4)" opacity="0">
-            <g id="e2oQ4aPtn8x9">
-                <polygon id="e2oQ4aPtn8x10" points="19.5,11.1 19.2,10.1 21.5,9 22,10.9" fill="var(--clg-color-pal-lavender-700, #654B77 )" stroke="none" stroke-width="1" stroke-miterlimit="1"></polygon>
-            </g>
-            <g id="e2oQ4aPtn8x11">
-                <polygon id="e2oQ4aPtn8x12" points="22,13.9 21.5,15.8 19.2,14.7 19.5,13.8" fill="var(--clg-color-pal-lavender-700, #654B77 )" stroke="none" stroke-width="1" stroke-miterlimit="1"></polygon>
-            </g>
-        </g>
-    </g>
-    <g id="lp-collage-star-seller" transform="translate(12,12) rotate(-145)">
-        <g id="e2oQ4aPtn8x13" transform="translate(-12,-12)">
-            <g id="e2oQ4aPtn8x14">
-                <path id="e2oQ4aPtn8x15" d="M17.6,8.8L16.1,7.9L15.2,6.4L13.5,6.4L12,5.5L10.5,6.4L8.7,6.4L7.9,7.9L6.4,8.8L6.4,10.5L5.5,12L6.4,13.5L6.4,15.2L7.9,16.1L8.8,17.6L10.5,17.6L12,18.5L13.5,17.6L15.2,17.6L16.1,16.1L17.6,15.2L17.6,13.5L18.5,12L17.6,10.5L17.6,8.8ZM13.7,12.7L14.2,14.9C14.1,15,14.1,15,13.9,15.1L12,14L10.1,15.2C10,15.1,10,15.1,9.8,15L10.3,12.8L8.6,11.3C8.7,11.1,8.7,11.1,8.7,11L11,10.8L11.9,8.7C12.1,8.7,12.1,8.7,12.2,8.7L13.1,10.8L15.4,11C15.5,11.2,15.5,11.2,15.5,11.3L13.7,12.7Z" fill="var(--clg-color-sem-background-surface-star-seller-dark, #9560B8)" stroke="none" stroke-width="1" stroke-miterlimit="1"></path>
-            </g>
-        </g>
-    </g>
-</svg></span>
-        </div>
-    <div class="wt-display-flex-xs wt-flex-direction-column-xs">
+            window.location.href = '/login?logged_out=1';
+          } else {
+            console.error('Logout failed');
+            window.location.href = '/logout';
+          }
+        } catch (error) {
+          console.error('Logout error:', error);
+          window.location.href = '/logout';
+        }
+      });
+    }
+  
+    const wishlistBtn = document.getElementById('wishlistBtn');
+    const notifBtn = document.getElementById('notifBtn');
+    
+    if (wishlistBtn) {
+      wishlistBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Fitur wishlist akan segera tersedia!');
+      });
+    }
+    
+    if (notifBtn) {
+      notifBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Fitur notifikasi akan segera tersedia!');
+      });
+    }
+  })();
+  
+  // ========== MOBILE BOTTOM NAVIGATION ==========
+  (function initBottomNav() {
+    // Sync cart badge with bottom nav
+    function syncBottomCartBadge() {
+      const mainBadge = document.getElementById('cartCount');
+      const bottomBadge = document.getElementById('bottomCartCount');
+      if (mainBadge && bottomBadge) {
+        const count = mainBadge.textContent;
+        bottomBadge.textContent = count;
+        bottomBadge.style.display = parseInt(count) > 0 ? 'flex' : 'none';
+      }
+    }
+  
+    // Sync compare badge with bottom nav
+    function syncBottomCompareBadge() {
+      const mainBadge = document.getElementById('compareCount');
+      const bottomBadge = document.getElementById('bottomCompareCount');
+      if (mainBadge && bottomBadge) {
+        const count = mainBadge.textContent;
+        bottomBadge.textContent = count;
+        bottomBadge.style.display = parseInt(count) > 0 ? 'flex' : 'none';
+      }
+    }
+  
+    // Initial sync
+    syncBottomCartBadge();
+    syncBottomCompareBadge();
+  
+    // Observe badge changes
+    const observer = new MutationObserver(function() {
+      syncBottomCartBadge();
+      syncBottomCompareBadge();
+    });
+  
+    const cartBadge = document.getElementById('cartCount');
+    const compareBadge = document.getElementById('compareCount');
+    
+    if (cartBadge) observer.observe(cartBadge, { childList: true, characterData: true, subtree: true });
+    if (compareBadge) observer.observe(compareBadge, { childList: true, characterData: true, subtree: true });
+  
+    // Bottom Cart Button
+    const bottomCartBtn = document.getElementById('bottomCartBtn');
+    if (bottomCartBtn) {
+      bottomCartBtn.addEventListener('click', function(e) {
+        e.preventDefault();
         
-        <p class="wt-text-caption">
-            <strong>Star Seller.</strong> This seller consistently earned 5-star reviews, dispatched on time, and replied quickly to any messages they received.
-        </p>
-    </div>
-</div>
-</div>
-                </div>
-        </div>
-
-    </div>
-</div>
-<div class="listing-info info-col description-right wt-order-xs-5">
-
-</div>
-
-
-        <div class="listing-info wider-review-col">
-            <div class="wt-bb-xs wt-mt-xs-3 wt-mb-xs-3 wt-ml-xs-2 wt-ml-md-4 wt-ml-lg-5 wt-order-xs-3">
-            </div>
-        </div>
-
-<div class="listing-info wider-review-col wt-order-xs-6">
-    <div class="wt-flex-lg-5 wt-align-items-flex-start wt-max-width-full wt-pl-md-4 wt-pr-md-4 wt-pr-lg-0 wt-pl-lg-5 wt-pl-xs-2 wt-pr-xs-2" data-appears-component-name="listing_page_reviews_container_top" data-offset="0.01" data-appears-event-data="{&quot;transaction_ids&quot;:[4556938481,4559852869,4455685549],&quot;reviews_with_text&quot;:3,&quot;reviews_older_than_three_months&quot;:3,&quot;reviews_under_three_stars&quot;:0,&quot;fired_on_plus_more&quot;:false,&quot;tab_fetched&quot;:&quot;same_listing_reviews&quot;,&quot;listing_rating_count&quot;:8,&quot;shop_rating_count&quot;:129,&quot;page&quot;:&quot;listing&quot;,&quot;listing_id&quot;:1790774795,&quot;page_number&quot;:1,&quot;sort_option&quot;:&quot;Relevancy&quot;,&quot;is_mobile_or_tablet&quot;:false,&quot;is_reviews_untabbed&quot;:false,&quot;is_initial_load&quot;:true,&quot;tag_filters&quot;:[]}">
-        <div class="wt-mb-xs-3 appears-ready">
-            <div data-lazy-loaded-bottom-section-before-reviews-trigger=""></div>
-            <div data-appears-component-name="listing_page_reviews" data-appears-event-data="{&quot;transaction_ids&quot;:[4556938481,4559852869,4455685549],&quot;reviews_with_text&quot;:3,&quot;reviews_older_than_three_months&quot;:3,&quot;reviews_under_three_stars&quot;:0,&quot;fired_on_plus_more&quot;:false,&quot;tab_fetched&quot;:&quot;same_listing_reviews&quot;,&quot;listing_rating_count&quot;:8,&quot;shop_rating_count&quot;:129,&quot;page&quot;:&quot;listing&quot;,&quot;listing_id&quot;:1790774795,&quot;page_number&quot;:1,&quot;sort_option&quot;:&quot;Relevancy&quot;,&quot;is_mobile_or_tablet&quot;:false,&quot;is_reviews_untabbed&quot;:false,&quot;is_initial_load&quot;:true,&quot;tag_filters&quot;:[]}">
-
-<div id="deep-dive-root" class="appears-ready"></div>
-</div>
-            <div data-lazy-loaded-bottom-section-after-reviews-trigger=""></div>
-            
-                
-
-
-        </div>
-    </div>
-</div>
-                </div>
-            </div> 
-        </div> 
-    </main></div>
-
-    <div class="listing-page-content-container-wider wt-horizontal-center">
-        <div data-lazy-loaded-collection-section-trigger=""></div>
-
-
-    <div class="other-info">
-
+        const checkLogin = () => {
+          return window.isUserLoggedIn ? window.isUserLoggedIn() : false;
+        };
         
+        if (checkLogin()) {
+          window.location.href = '/keranjang';
+        } else {
+          showCartLoginModal();
+        }
+      });
+    }
+  
+    // Bottom Compare Button
+    const bottomCompareBtn = document.getElementById('bottomCompareBtn');
+    if (bottomCompareBtn) {
+      bottomCompareBtn.addEventListener('click', function(e) {
+        e.preventDefault();
         
-        <div id="recs_ribbon_container">
-    <div class="wt-position-relative wt-body-max-width wt-pl-xs-2 wt-pr-xs-2 wt-pl-md-4 wt-pr-md-4 wt-pl-lg-5 wt-pr-lg-5">
-            <div data-listing-page-lazy-loaded-bottom-section="" data-ymal-and-prolist-section="">
-                <div class="wt-pt-xs-0 wt-mb-xs-8">
-                    <div data-neu-spec-placeholder="1" id="569e011a1e24cf28711f5a7429944dc3">
-    <script type="text/json" data-neu-spec-placeholder-data="1">{"spec_name":"EtsyModulesListingPageRecommendationsCombinedAdsAndRecsApiSpec","args":{"listing_id":1790774795,"user_id":1135369000,"module_placement":"external_bot","ymal_offset":2,"is_external_landing":true,"force_set_offset":true,"is_external_referrer":false,"hide_favorite_hearts":false,"is_from_OSA":false,"is_elp":false,"shop_id":54267703,"vat_region":"ID","ship_to_country":121,"selected_listing_variation_ids":[],"should_open_all_links_as_external":false,"swap_lp_recs_for_search":false,"ad_listing_ids_to_exclude":[]}}</script>
-    <p class="wt-screen-reader-only">Loading...</p>
-
-
-</div>
-                </div>
-            </div>
-    </div>
-</div>
-
-
-
-
-            <div class="wt-body-max-width wt-mb-xs-8" data-listing-page-lazy-loaded-bottom-section="">
-
-            </div>
-
+        // Close chat widget if open
+        if (window.plazaChat && window.plazaChat.isWidgetOpen) {
+          window.plazaChat.closeWidget();
+        }
         
-
+        const mainCompareBtn = document.getElementById('compareBtn');
+        if (mainCompareBtn) {
+          mainCompareBtn.click();
+        }
+      });
+    }
+  
+    // Bottom Category Button - triggers mega menu
+    const bottomCategoryBtn = document.getElementById('bottomCategoryBtn');
+    if (bottomCategoryBtn) {
+      bottomCategoryBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Trigger desktop mega menu
+        const desktopTrigger = document.querySelector('.mm2-trigger:not(#bottomCategoryBtn)');
+        if (desktopTrigger) {
+          desktopTrigger.click();
+        }
+      });
+    }
+  
+    // Bottom Login Button
+    const bottomLoginBtn = document.getElementById('bottomLoginBtn');
+    if (bottomLoginBtn) {
+      bottomLoginBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.location.href = '/login';
+      });
+    }
+  
+    // Bottom Chat Button
+    const bottomChatBtn = document.getElementById('bottomChatBtn');
+    if (bottomChatBtn) {
+      bottomChatBtn.addEventListener('click', function(e) {
+        e.preventDefault();
         
-    </div>
-</div>
-
-<div class="wt-body-max-width wt-mb-xs-6 wt-pr-xs-2 wt-pl-xs-2 wt-pl-md-4 wt-pr-md-4 wt-pl-lg-5 wt-pr-lg-5">
-        <div data-listing-page-lazy-loaded-collection-section="">
-            <div data-neu-spec-placeholder="1" id="681d824159ab046d042eda509ac40181">
-    <script type="text/json" data-neu-spec-placeholder-data="1">{"spec_name":"EtsyModulesCollectionRecsRecommendationsListingPageApiSpec","args":{"listing_ids":[1790774795],"is_external":true,"display_browsy_elp_collection_recs":false,"set_is_eligible_compare_lp_collections":false}}</script>
-
-
-</div>
-        </div>
-
-
-    
-    
-    
-    
-
-    <div data-listing-page-lazy-loaded-bottom-section="">
-        <div data-neu-spec-placeholder="1" id="6cda9cae1b041561742fb61d89cecec3">
-    <script type="text/json" data-neu-spec-placeholder-data="1">{"spec_name":"Listzilla_ApiSpecs_Tags_Landing","args":{"listing_id":1790774795,"shop_id":54267703,"is_raised_tags":false,"click_queries":[],"visual_internal_enabled":false,"visual_external_enabled":false}}</script>
-    <div>
-    
+        // Trigger chat widget (try multiple times if needed)
+        const triggerChat = () => {
+          const chatToggle = document.getElementById('chat-toggle-btn');
+          if (chatToggle) {
+            chatToggle.click();
+            return true;
+          }
+          return false;
+        };
         
-</div>
-</div>
-    </div>
-    
-    
-    
-    <div class="wt-display-flex-xs wt-justify-content-space-between wt-align-items-center wt-flex-direction-row-lg wt-flex-direction-column-xs wt-mb-md-4">
-    <div class="wt-display-flex-xs wt-align-items-center wt-flex-direction-row-lg wt-flex-direction-column-xs">
-            <div class="wt-pr-xs-2 wt-text-caption">
-                Luxe Axel
-            </div>
-            <div class="wt-text-caption">
-                <a rel="nofollow" class="wt-text-link" href="/listing/1790774795/book-club-print-bookish-poster-trendy/favoriters?ref=l2-collection-count">
-                159.115.789 Experience Puas !
-                </a>
-            </div>
-    </div>
-
-</div>
-    
-    <div class="wt-text-caption wt-text-center-xs wt-text-left-lg">
-        <a href="https://insurancecoveredbabyformula.com/">SLOT GACOR</a>
-            <span class="etsy-icon wt-sem-text-secondary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-        <a href="https://insurancecoveredbabyformula.com/">SLOT ONLINE</a>
-            <span class="etsy-icon wt-sem-text-secondary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-        <a href="https://insurancecoveredbabyformula.com/">SLOT MAXWIN</a>
-            <span class="etsy-icon wt-sem-text-secondary wt-icon--smallest-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21"></path></svg></span>
-        <a href="https://insurancecoveredbabyformula.com/">SLOT RESMI</a>
-</div>
-    
-    <div id="google-one-tap-modal-div" class="google-one-tap-modal-div">
-</div>
-
-    
-
-    
-</div>
-
-
-
-<div id="listing-page-post-add-to-cart-overlay">
-    
-</div>
-
-<div class="wt-overlay wt-overlay--peek" id="conditional-sale-interstitial-overlay" aria-hidden="true" data-wt-overlay="" role="dialog" aria-modal="false" aria-label="">
-    <div class="wt-overlay__modal" data-overlay-modal="">
-        <button type="button" class="wt-btn wt-btn--transparent wt-btn--icon wt-overlay__close-icon wt-btn--light" data-wt-overlay-close="">
-            <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.793 5.207 10.586 12l-6.793 6.793 1.414 1.414L12 13.414l6.793 6.793 1.414-1.414L13.414 12l6.793-6.793-1.414-1.414L12 10.586 5.207 3.793z"></path></svg></span>
-        </button>
-
-        <div data-conditional-sale-content=""></div>
-        <div data-conditional-sale-loading="" class="wt-width-full wt-height-full wt-z-index-3">
-            
-    <div data-clg-id="WtSpinner" class="wt-spinner wt-spinner--02" aria-live="assertive">
-        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle fill="transparent" cx="24" cy="24" r="21"></circle></svg></span>
-        Loading
-    </div>
-
-        </div>
-        <div data-conditional-sale-load-failure="">
-            <div data-clg-id="WtBanner" class="wt-banner wt-banner--warning-01" id="etsywebtoolkitbannerswtbanner68cb39e952e2d" data-prop-id="etsywebtoolkitbannerswtbanner68cb39e952e2d" data-prop-type="static" data-prop-style-type="warning-01" data-prop-is-open="true" data-wt-neu-rendered="">
-    <div data-clg-id="WtBannerContent" class="wt-banner__layout">
-    <div class="wt-display-flex-xs wt-align-items-center">
-        <div class="wt-banner__icon-frame wt-hide-xs wt-show-sm ">
-            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.035 2.627a2 2 0 0 1 3.93 0 6.7 6.7 0 0 1 4.56 4.905L21 18.333H3L5.475 7.532a6.7 6.7 0 0 1 4.56-4.905m1.921 1.706a4.694 4.694 0 0 0-4.531 3.645L5.51 16.333h12.98l-1.915-8.355a4.694 4.694 0 0 0-4.531-3.645z"></path><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2"></path></svg></span>
-        </div>
-        <div>
-            <div>
-                <p class="wt-banner__title">
-                    There was a problem loading the content
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="wt-banner__buttons">
-        <button data-clg-id="WtButton" class="wt-btn wt-btn--primary wt-btn--small" data-wt-banner-cta-button="" type="button">
-    Try again
-</button>
-
-    </div>
-</div>
-</div>
-        </div>
-
-    </div>
-</div>
-
-
-
-<div id="footer" class="content-wrap-inner-blank-noborder"></div>
-
-
-
-
+        // Immediate attempt
+        if (!triggerChat()) {
+          // Retry after 100ms if not found
+          setTimeout(() => {
+            if (!triggerChat()) {
+              // Last resort: manually show popup
+              const popup = document.getElementById('chat-popup');
+              if (popup) {
+                popup.style.display = 'block';
+              }
+            }
+          }, 100);
+        }
+      });
+    }
+  
+    // Sync chat unread badge
+    function syncBottomChatBadge() {
+      const chatBadge = document.getElementById('chat-unread-badge');
+      const bottomChatBadge = document.getElementById('bottomChatCount');
+      if (chatBadge && bottomChatBadge) {
+        const count = chatBadge.textContent;
+        bottomChatBadge.textContent = count;
+        bottomChatBadge.style.display = chatBadge.style.display;
+      }
+    }
+  
+    // Observe chat badge changes
+    const chatBadge = document.getElementById('chat-unread-badge');
+    if (chatBadge) {
+      observer.observe(chatBadge, { attributes: true, childList: true, characterData: true, subtree: true });
+      syncBottomChatBadge();
+    }
+  
+    // Active state management based on current page
+    function updateActiveState() {
+      const currentPath = window.location.pathname;
+      const bottomNavItems = document.querySelectorAll('.bottom-nav-item');
+      
+      bottomNavItems.forEach(item => {
+        item.classList.remove('active');
         
-
-        <div id="collage-footer" class="site-footer chrome-footer chrome-footer--ehi  ">
-    <footer>
-
+        const itemId = item.id;
+        const page = item.getAttribute('data-page');
+        const href = item.getAttribute('href');
         
-
-        <div data-appears-component-name="impact_message" data-appears-event-data="{&quot;impact_name&quot;:&quot;footer_renewable_impact&quot;,&quot;impact_themes&quot;:[&quot;sustainability&quot;],&quot;impact_audiences&quot;:[&quot;buyers&quot;]}">
-<div class="footer-impact-callout wt-position-relative appears-ready">
-    <div class="wt-bg-denim-light wt-sem-text-on-surface-dark wt-text-center-xs wt-text-body-01 wt-pb-xs-4 wt-pt-xs-4">
-        <div class="wt-popover wt-popover--top" data-wt-popover="">
-            <button data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline wt-display-flex-md wt-align-items-center" aria-describedby="footer-environmental-impact-popover-content">
-                <div class="wt-flex-md-auto wt-mb-xs-1 wt-mb-md-0">
-                    <span class="wt-icon wt-icon--larger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" aria-hidden="true" focusable="false">
-  <path d="M60.1 38H49v11h-2V38H35.9c1.931 9.368 6.626 17 12.1 17 5.474 0 10.171-7.632 12.1-17zm-25.145-9.5c-.003 2.511.19 5.019.577 7.5H47V18.522l-10.925.238a41.683 41.683 0 00-1.12 9.74zM47 2.31c-4.1 1.24-8.18 7.168-10.38 14.437L47 16.52V2.31z"></path>
-  <path d="M57.52 9.45l1.784-.9a31.775 31.775 0 012.558 7.65l9.117-.2.042 2-8.78.19c.55 3.41.818 6.857.8 10.31a50.836 50.836 0 01-.54 7.5H72v2h-9.846c-1.6 8.2-5.244 15.053-9.862 17.754C66.834 54.079 76 43.793 76 28.589c0-8.962-2.958-16.353-8.554-21.373A25.424 25.424 0 0049 1.04v15.438l10.83-.236a29.32 29.32 0 00-2.31-6.791zM43.51 55.643c-4.525-2.78-8.086-9.564-9.665-17.643H24v-2h9.5a50.84 50.84 0 01-.549-7.5 43.776 43.776 0 011.075-9.7l-9.009.2-.042-2 9.562-.208c1.89-6.667 5.317-12.436 9.432-15.143C29.71 4.412 20 15.13 20 28.589a27.636 27.636 0 0023.51 27.054z"></path>
-  <path d="M61.045 28.5a60.27 60.27 0 00-.818-10.265L49 18.479v17.52h11.468c.388-2.48.58-4.988.577-7.5zM91.7 60c-2.182 4.525-5.734 8.62-10.832 13.719l-1.414-1.414c6.6-6.6 10.511-11.424 12.08-17.7.072-.415.137-.832.215-1.278.607-3.48.262-5.951-1.027-6.068-.72-.066-1.559.68-1.947 2.3a30.158 30.158 0 01-2.454 8.148c-1.78 4.663-8.575 11.048-8.865 11.318l-1.366-1.461c.068-.063 6.8-6.391 8.381-10.62l.061-.133a30.644 30.644 0 002.526-9.148c.11-1.886.095-6.433-1.793-6.552-2.085-.132-2.537 3.505-3.367 7.379-.259 1.21-.89 3.456-1.153 4.243a1.55 1.55 0 01-.09.177c-1.386 4.053-5.32 7.859-5.515 8.045-2.984 2.983-9.707 9.74-9.707 9.74L64.01 69.3s6.726-6.761 9.727-9.761a28.158 28.158 0 003.064-3.6c.5-.788 1.452-2.646.55-3.572-1.148-1.178-3.287-.648-6.08.748-1.98.992-11.21 7.08-15.384 13.34-1.99 2.985-2.772 8.839-3.042 14.2l13.18 2.724 6.8 1.359a8.92 8.92 0 011-.778c7.075-4.74 14.663-11.833 17.317-16.54 3.566-6.32 1.988-7.52.558-7.42zM52.774 82.673l-.77 10.252 1.993.15.595-7.913 10.616 2.123 3.765.778L70.02 93.2l1.96-.4-.885-4.338 2.592.518.392-1.96-8.447-1.69-12.858-2.657zm-29.242 2.055l6.77-1.354 13.206-2.73c-.27-5.36-1.052-11.214-3.042-14.2-4.173-6.258-13.4-12.347-15.384-13.34-2.793-1.4-4.932-1.925-6.08-.747-.9.926.054 2.784.55 3.572a28.158 28.158 0 003.064 3.6c3 3 9.727 9.76 9.727 9.76l-1.418 1.41s-6.723-6.757-9.707-9.74c-.2-.186-4.129-3.992-5.515-8.045a1.74 1.74 0 01-.09-.177c-.263-.787-.894-3.033-1.153-4.243-.83-3.874-1.282-7.511-3.367-7.38-1.888.12-1.9 4.667-1.793 6.553a30.645 30.645 0 002.526 9.148l.061.133c1.58 4.229 8.313 10.557 8.381 10.62L18.9 69.034c-.29-.27-7.084-6.655-8.865-11.318a30.16 30.16 0 01-2.454-8.148c-.388-1.622-1.226-2.37-1.947-2.3-1.287.114-1.634 2.586-1.025 6.065.078.446.143.863.215 1.278C6.394 60.883 10.3 65.7 16.9 72.307l-1.41 1.414c-5.1-5.1-8.65-9.194-10.832-13.72-1.434-.104-3.013 1.1.553 7.42 2.654 4.706 10.238 11.8 17.321 16.529a8.92 8.92 0 011 .778zm7.175.605l-8.433 1.687.393 1.96 2.591-.518-.885 4.338 1.96.4 1.047-5.137 3.75-.775 10.631-2.126.595 7.913 1.994-.15-.77-10.252-12.873 2.66z"></path>
-</svg></span>
-                </div>
-                <div class="wt-mr-xs-2 wt-ml-xs-2 wt-mr-sm-0 wt-ml-sm-0 wt-ml-md-2 wt-text-body-01 wt-flex-md-auto">
-                    Etsy is powered by 100% renewable electricity.
-                </div>
-            </button>
-
-            <div id="footer-environmental-impact-popover-content" role="tooltip">
-                Etsyâ€™s 100% renewable electricity commitment includes the electricity used by the data centres that host Etsy.com, the Sell on Etsy app, and the Etsy app, as well as the electricity that powers Etsyâ€™s global offices and employees working remotely from home in the US.
-            <span class="wt-popover__arrow"></span></div>
-        </div>
-    </div>
-</div>
-</div>
-
-
-        <div class="chrome-footer__final-container">
-            <div class="chrome-footer__final">
-
-                    <div class="chrome-footer__final-col">
-                        <a id="locale-picker-trigger" class="wt-btn wt-btn--transparent wt-btn--transparent-flush-left wt-btn--transparent-flush-right  wt-btn--light  wt-btn--small" aria-label="Update your settings Indonesia English (UK) Rp (IDR)" href="https://www.etsy.com/your/account/locale_preferences?from_page=https%3A%2F%2Fwww.etsy.com%2Flisting%2F1790774795%2Fbook-club-print-bookish-poster-trendy%3Fls%3Dr%26ref%3Drlp-listing-grid-2%26external%3D1%26space_id%3D1359364143966%26sts%3D1%26dd%3D1%26content_source%3D52b99da6862466211894f724d195c6bb%25253A2ca474494f71c831169387d00a6b689c028b9d90%26logging_key%3D52b99da6862466211894f724d195c6bb%253A2ca474494f71c831169387d00a6b689c028b9d90" data-aria-controls="wt-locale-picker-overlay" role="button" aria-controls="wt-locale-picker-overlay">
-    <span class="wt-display-inline-block wt-nudge-t-2 wt-vertical-align-middle">    <span class="etsy-icon locale-icon-svg-default wt-display-block wt-text-white
-                    wt-icon--smaller-xs wt-nudge-b-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,2A10,10,0,1,0,22,12,10.012,10.012,0,0,0,12,2ZM9,18.883v0.528A7.938,7.938,0,0,1,4.06,11.06l3.385,3.385a2.967,2.967,0,0,0,1.649,4.4ZM17.5,15a2.509,2.509,0,0,0,.5-0.05V15a0.992,0.992,0,0,0,.927.985A8,8,0,0,1,12,20c-0.216,0-.427-0.016-0.639-0.032l1.254-2.5-0.015.006A2.968,2.968,0,0,0,13,16a2.988,2.988,0,0,0-5-2.221V11H9a1,1,0,0,0,1-1V9a1,1,0,0,0,1-1,1,1,0,0,0,0-2H6.726A7.9,7.9,0,0,1,14,4.263V6a1,1,0,0,0,2,0V5.082a8.047,8.047,0,0,1,2,1.649V7H17a1,1,0,0,0,0,2h2.411a7.941,7.941,0,0,1,.326,1H17a2.556,2.556,0,0,0-2,2.5A2.5,2.5,0,0,0,17.5,15Z"></path></svg></span>
-</span>
-    <span class="wt-display-inline-block wt-vertical-align-middle">  Indonesia   |   English (UK)   |   Rp (IDR)</span>
-</a>
-                    </div>
-
-                    <div class="chrome-footer__final-col">
-                        <span class="chrome-footer__copyright">
-                            Â© 2025 Etsy, Inc.
-                        </span>
-
-                        <ul class="chrome-footer__final-links wt-list-inline">
-                            <li class="wt-list-inline__item">
-                                <a href="#" class="chrome-footer__final-link">
-                                    Terms of Use
-                                </a>
-                            </li>
-                            <li class="wt-list-inline__item">
-                                <a href="#" class="chrome-footer__final-link">
-                                    Privacy
-                                </a>
-                            </li>
-                            <li class="wt-list-inline__item">
-                                <a href="#" class="chrome-footer__final-link">
-                                    Interest-based ads
-                                </a>
-                            </li>
-
-                            <li class="wt-list-inline__item">
-                                <a href="#" class="chrome-footer__final-link">
-                                    Local Shops
-                                </a>
-                            </li>
-
-                            <li class="wt-list-inline__item">
-                                <button aria-controls="country-picker" style-type="primary" class="wt-text-link chrome-footer__final-link">
-                                    Regions
-                                </button>
-                                
-                            </li>
-
-                        </ul>
-                    </div>
-            </div>
-        </div>
-
-        
-
-        
-
-    </footer>
-</div>
-
-        <div data-gdpr-consent-prompt="">
+        // Check by ID for specific pages
+        if (itemId === 'bottomHomeBtn' && currentPath === '/') {
+          item.classList.add('active');
+        } else if (itemId === 'bottomCartBtn' && (currentPath === '/keranjang' || currentPath === '/cart')) {
+          item.classList.add('active');
+        } else if (itemId === 'bottomProfileBtn' && currentPath.startsWith('/profile')) {
+          item.classList.add('active');
+        } else if (itemId === 'bottomCategoryBtn' && currentPath.startsWith('/kategori')) {
+          item.classList.add('active');
+        } else if (itemId === 'bottomCompareBtn' && currentPath === '/compare') {
+          item.classList.add('active');
+        } else if (itemId === 'bottomChatBtn' && currentPath === '/chat') {
+          item.classList.add('active');
+        }
+        // Fallback: check by data-page attribute
+        else if (page === 'home' && currentPath === '/') {
+          item.classList.add('active');
+        } else if (page === 'profile' && currentPath.startsWith('/profile')) {
+          item.classList.add('active');
+        }
+        // Fallback: check by href
+        else if (href && currentPath === href) {
+          item.classList.add('active');
+        }
+      });
+    }
+  
+    // Update active state on load
+    updateActiveState();
+  
+    // Bottom nav always visible - auto-hide disabled for better UX
+    // const bottomNav = document.querySelector('.bottom-nav');
+    // if (bottomNav && window.innerWidth <= 640) {
+    //   // Auto-hide feature disabled
+    // }
+  })();
+  // Cart Login Modal Handler (Global scope)
+  function showCartLoginModal() {
+    const modal = document.getElementById('cartLoginModal');
+    if (!modal) return;
     
-
-    <script type="text/html" data-gdpr-consent-success-alert="">
-        <div class="wt-alert wt-alert--success-01 wt-alert--fixed-floating wt-alert--fixed-bottom wt-mb-xs-4">
-            <div class="wt-display-flex-xs">
-                <p class="wt-text-body-01 wt-text-left-xs">Privacy settings saved</p>
-            </div>
-        </div>
-    </script>
-</div>
-
-        <div data-dialog-content="">
-            
-        </div>
-
-        <div id="wt-portals"><div id="wt-portal-blue" style="z-index: 80; position: relative;"></div><div id="wt-portal-green" style="z-index: 80; position: relative;"><div id="wt-modal-container"><div id="gdpr-privacy-settings" class="wt-overlay third-party-settings wt-text-left-xs" aria-labelledby="gdpr-full-settings-overlay-title" aria-hidden="true" role="dialog" data-gdpr-settings-overlay="" data-wt-overlay="">
-    <div class="wt-overlay__modal gdpr-overlay-view" data-overlay-modal="">
-        <div class="wt-overlay__header gdpr-overlay-header">
-            <h3 class="wt-text-heading" id="gdpr-full-settings-overlay-title">Privacy Settings</h3>
-        </div>
-
-
-        <div class="gdpr-overlay-body wt-pb-xl-2 wt-pb-lg-2 wt-pb-md-2 wt-pb-sm-2 wt-pb-xs-2">
-            <div>
-    <div data-section="intro">
-        <p>Etsy uses cookies and similar technologies to give you a better experience, enabling things like:</p>
-<ul><li>basic site functions</li>
-<li>ensuring secure, safe transactions</li>
-<li>secure account login</li>
-<li>remembering account, browser, and regional preferences</li>
-<li>remembering privacy and security settings</li>
-<li>analysing site traffic and usage</li>
-<li>personalised search, content, and recommendations</li>
-<li>helping sellers understand their audience</li>
-<li>showing relevant, targeted ads on and off Etsy</li>
-</ul><p>Detailed information can be found in Etsyâ€™s <a href="/legal/cookies-and-tracking-technologies">Cookies &amp; Similar Technologies Policy</a> and our <a href="/legal/privacy">Privacy Policy</a>.</p>
+    modal.classList.add('show');
+    
+    const confirmBtn = document.getElementById('cartLoginConfirm');
+    const registerBtn = document.getElementById('cartRegisterBtn');
+    const cancelBtn = document.getElementById('cartLoginCancel');
+    
+    const handleLogin = () => {
+      window.location.href = '/login?return=' + encodeURIComponent('/keranjang');
+    };
+    
+    const handleRegister = () => {
+      window.location.href = '/register?return=' + encodeURIComponent('/keranjang');
+    };
+    
+    const handleCancel = () => {
+      modal.classList.remove('show');
+      confirmBtn.removeEventListener('click', handleLogin);
+      registerBtn.removeEventListener('click', handleRegister);
+      cancelBtn.removeEventListener('click', handleCancel);
+    };
+    
+    confirmBtn.removeEventListener('click', handleLogin);
+    registerBtn.removeEventListener('click', handleRegister);
+    cancelBtn.removeEventListener('click', handleCancel);
+    
+    confirmBtn.addEventListener('click', handleLogin);
+    registerBtn.addEventListener('click', handleRegister);
+    cancelBtn.addEventListener('click', handleCancel);
+    
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        handleCancel();
+      }
+    });
+  }
+  </script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/cart-badge.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  
+  <!-- Product Compare Sidebar -->
+  <div class="compare-sidebar" id="compareSidebar">
+    <div class="compare-header">
+      <h4 class="compare-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+        </svg>
+        Bandingkan Produk
+        <span class="compare-count" id="compareCountSidebar">(0)</span>
+      </h4>
+      <button class="compare-close" id="compareClose" aria-label="Tutup">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.3 5.7a1 1 0 0 0-1.4 0L12 10.6 7.1 5.7a1 1 0 1 0-1.4 1.4L10.6 12l-4.9 4.9a1 1 0 0 0 1.4 1.4L12 13.4l4.9 4.9a1 1 0 0 0 1.4-1.4L13.4 12l4.9-4.9a1 1 0 0 0 0-1.4z"/>
+        </svg>
+      </button>
     </div>
-
-    <div class="wt-pt-xl-6 wt-display-flex-xl wt-pt-lg-6 wt-display-flex-lg wt-pt-md-6 wt-display-flex-md wt-pt-sm-6 wt-display-flex-sm wt-pt-xs-6 wt-display-flex-xs">
-        <div class="wt-flex-xl-5 wt-flex-lg-5 wt-flex-md-5 wt-flex-sm-5 wt-flex-xs-5">
-            <h2>Required Cookies &amp; Technologies</h2>
-<p>Some of the technologies we use are necessary for critical functions like security and site integrity, account authentication, security and privacy preferences, internal site usage and maintenance data, and to make the site work correctly for browsing and transactions.</p>
+    
+    <div class="compare-content">
+      <div class="compare-empty" id="compareEmpty">
+        <div class="empty-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+            <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+          </svg>
         </div>
-        <div class="wt-flex-xl-1 wt-flex-lg-1 wt-flex-md-1 wt-flex-sm-1 wt-flex-xs-1">
-            <div class="wt-display-flex-xl wt-display-flex-lg wt-display-flex-md wt-display-flex-sm wt-display-flex-xs wt-justify-content-flex-end">
-                <span class="wt-text-caption">Always on</span>
-            </div>
-        </div>
+        <h5>Belum ada produk dipilih</h5>
+        <p>Pilih produk yang ingin dibandingkan dengan klik tombol "Bandingkan Produk" di halaman produk.</p>
+      </div>
+      
+      <div class="compare-list" id="compareList">
+        <!-- Products will be populated here -->
+      </div>
     </div>
-
-    <div class="wt-text-caption wt-pt-xl-6 wt-display-flex-xl wt-pt-lg-6 wt-display-flex-lg wt-pt-lg-6 wt-display-flex-lg wt-pt-md-6 wt-display-flex-md wt-pt-sm-6 wt-display-flex-sm wt-pt-xs-6 wt-display-flex-xs" data-section="third_party_consent">
-        <div class="wt-flex-xl-5 wt-flex-lg-5 wt-flex-md-5 wt-flex-sm-5 wt-flex-xs-5">
-            <h2 class="wt-text-title-01 wt-mb-xs-4 wt-break-word">Personalised Advertising</h2>
-<p class="wt-text-caption wt-mb-xs-2">To enable personalised advertising (like interest-based ads), we may share your data with our marketing and advertising partners using cookies and other technologies. Those partners may have their own information theyâ€™ve collected about you. Turning off the personalised advertising setting wonâ€™t stop you from seeing Etsy ads, but it may make the ads you see less relevant or more repetitive.</p>
-<p class="wt-text-caption wt-mb-xs-2"> Personalised advertising may be considered a â€œsaleâ€  or â€œsharingâ€  of information under California and other state privacy laws, and you may have a right to opt out. Turning off personalised advertising allows you to exercise your right to opt out. Learn more in our <a class="wt-text-link" href="https://www.etsy.com/legal/privacy/">Privacy Policy</a>, <a class="wt-text-link" href="https://help.etsy.com/hc/en-us/articles/360042433614-How-to-Opt-out-of-Personalized-Advertising">Help Centre</a>, and <a class="wt-text-link" href="https://www.etsy.com/legal/cookies">Cookies &amp; Similar Technologies Policy</a>.</p>
-        </div>
-        <div class="wt-flex-xl-1 wt-flex-lg-1 wt-flex-md-1 wt-flex-sm-1 wt-flex-xs-1">
-            <div class="wt-display-flex-xl wt-display-flex-lg wt-display-flex-md wt-display-flex-sm wt-display-flex-xs wt-justify-content-flex-end">
-                <label for="third_party_consent" class="wt-text-caption wt-pt-xl-1 wt-pr-xl-2 wt-pt-lg-1 wt-pr-lg-2 wt-pt-md-1 wt-pr-md-2 wt-pt-sm-1 wt-pr-sm-2 wt-pt-xs-1 wt-pr-xs-2 wt-nudge-t-3" aria-hidden="true" data-gdpr-toggle-label="">
-                        On
-                </label>
-                <input class="wt-switch wt-switch--small" type="checkbox" name="third_party_consent" id="third_party_consent" checked data-gdpr-toggle="" data-checked-label="On" data-unchecked-label="Off" />
-                <label class="wt-switch__toggle" for="third_party_consent" aria-hidden="true"></label>
-            </div>
-        </div>
+    
+    <div class="compare-actions" id="compareActions">
+      <button class="btn btn-outline-danger btn-sm" id="compareClearAll">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+        </svg>
+        Hapus Semua
+      </button>
+      <button class="btn btn-primary btn-sm" id="compareAnalyze" disabled>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z"/>
+        </svg>
+        Analisis AI
+      </button>
     </div>
-</div>
+    
+    <!-- AI Disclaimer in Sidebar -->
+    <div class="compare-disclaimer">
+      <div class="ai-disclaimer">
+        <div class="disclaimer-text">
+          <strong>💡 Catatan:</strong> Analisis ini dihasilkan oleh AI dan dapat mengalami kesalahan. 
+          Gunakan sebagai referensi dan tetap pertimbangkan kebutuhan spesifik Anda sebelum membeli.
+          Untuk konsultasi lebih lanjut, silakan hubungi tim JENDELATOTO.
         </div>
-
-        <div class="wt-overlay__footer wt-align-items-center">
-            <div class="wt-overlay__footer__cancel">
-            </div>
-            <div class="wt-overlay__footer__action">
-                <div class="wt-display-flex-xl wt-flex-direction-row-xl wt-display-flex-lg wt-flex-direction-row-lg wt-display-flex-md wt-flex-direction-row-md wt-display-flex-sm wt-flex-direction-column-sm wt-display-flex-xs wt-flex-direction-column-xs">
-                    <div class="wt-pr-xl-7 wt-pt-xl-2 wt-pr-lg-7 wt-pt-lg-2 wt-pr-md-7 wt-pt-md-2 wt-pb-sm-4 wt-pb-xs-2 wt-horizontal-center wt-display-none" data-saving-indicator="">
-                        <div class="wt-spinner wt-spinner--01 wt-display-inline-block wt-vertical-align-middle">
-                            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
-                        </div>
-                    </div>
-                    <div class="wt-pr-xl-7 wt-pt-xl-2 wt-pr-lg-7 wt-pt-lg-2 wt-pr-md-7 wt-pt-md-2 wt-pb-sm-4 wt-pb-xs-2 wt-horizontal-center wt-display-none" data-saved-indicator="">
-                        <span class="etsy-icon wt-icon--smaller-xs"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.057,20.471L2.293,13.707a1,1,0,0,1,1.414-1.414l5.236,5.236,11.3-13.18a1,1,0,1,1,1.518,1.3Z"></path></svg></span>
-                        <span class="wt-display-inline-block wt-vertical-align-middle wt-text-body-01 wt-pl-xs-1">Saved</span>
-                    </div>
-                    <div>
-                        <button data-wt-overlay-close="" class="wt-btn wt-btn--primary wt-pl-xs-8 wt-pr-xs-8 wt-pl-sm-10 wt-pr-sm-10 wt-pl-md-3 wt-pr-md-3 wt-pl-lg-3 wt-pr-lg-3 wt-pl-xl-3 wt-pr-xl-3 wt-pl-tv-3 wt-pr-tv-3">
-                            <p class="wt-pl-xs-10 wt-pr-xs-10 wt-pl-sm-10 wt-pr-sm-10 wt-pl-md-0 wt-pr-md-0 wt-pl-lg-0 wt-pr-lg-0 wt-pl-xl-0 wt-pr-xl-0 wt-pl-tv-0 wt-pr-tv-0">Done</p>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div><div data-wt-overlay="" id="user-lists-overlay" class="wt-overlay wt-position-fixed wt-position-bottom wt-overlay--has-close-icon collection-list-overlay" role="dialog" aria-hidden="true" aria-modal="false" aria-labelledby="collection-modal-title" data-animations="{ &quot;open&quot;: { &quot;mask&quot;: &quot;wt-animated wt-animated--appear-02&quot;, &quot;content&quot;: &quot;wt-animated wt-animated--appear-02&quot; }, &quot;close&quot;: { &quot;mask&quot;: &quot;wt-animated wt-animated--disappear-02&quot;, &quot;content&quot;: &quot;wt-animated wt-animated--disappear-02&quot; } }">
-    <div class="wt-overlay__modal collection-list-overlay-view wt-display-flex-xs wt-pb-xs-0 wt-pb-md-4 " data-overlay-modal="">
-        <div data-collection-list="" data-max-characters="50" class="wt-overflow-hidden favorites-modal-collection-list wt-width-full">
-    <button class="wt-btn wt-btn--icon wt-btn--tertiary wt-btn--light  wt-overlay__close-icon
-        " data-wt-overlay-close="" data-overlay-initial-focus="" aria-label="Close">
-        <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
-    </button>
-    <div data-collection-list-section="" class="favorites-modal--collection-list-section wt-position-relative wt-flex-direction-column-xs wt-height-full wt-align-items-center">
-        <div class="wt-overlay__header wt-display-flex-xs wt-align-items-center wt-justify-content-center ">
-
-            <img src="https://www.etsy.com/images/grey.gif" alt="An image of the listing you can save" class="wt-mr-xs-2 wt-mr-md-3 add-to-list-overlay--img" />
-
-            <h2 class="wt-text-heading" id="collection-modal-title">
-                <span data-collections-modal-title="" class="">
-                    Add to collection
-                </span>
-                <span data-registry-modal-title="" class="wt-display-none">
-                    Add to registry
-                </span>
-            </h2>
-        </div>
-        <div class="collection-list-loading-container" data-spinner-container="">
-            <div class="wt-spinner wt-spinner--02">
-                <div>Loading</div>
-            </div>
-        </div>
-        <div class="wt-display-none collection-list-loading-container" data-collection-list-fail-state="">
-            <div class="wt-vertical-center wt-text-center-xs wt-sem-text-secondary">
-                <p>Hmm, something went wrong.</p>
-                <p>Try that again.</p>
-            </div>
-        </div>
-        <fieldset class="wt-max-width-full wt-pr-xs-2 wt-overflow-scroll">
-            <div class="wt-display-none wt-width-full wt-action-group wt-action-group--image wt-list-inline wt-mb-xs-0" data-collection-list-content="">
-                <span class="wt-p-xs-0 wt-width-full wt-mb-xs-2">
-                    <input type="checkbox" id="create_new_list" hidden="" />
-                    <label role="button" tabindex="0" data-add-list-trigger="" class="add-to-list-overlay-row wt-width-full wt-display-flex-xs wt-align-items-center">
-                        <div class="add-list--trigger add-to-list-overlay-row--icon wt-sem-text-on-surface-dark wt-rounded-02 wt-overflow-hidden wt-display-flex-xs wt-justify-content-center wt-align-items-center">
-                            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span>
-                        </div>
-                        <p class="wt-pl-xs-2 wt-text-title-01">
-                            Create new collection
-                        </p>
-                    </label>
-                </span>
-                
-                
-                
-            </div>
-        </fieldset>
-        <div class="wt-overlay__sticky-footer-container wt-bt-xs wt-width-full">
-            <div class="wt-overlay__footer wt-justify-content-flex-end wt-pt-md-4">
-                <div class="wt-overlay__footer__action">
-                    <button type="button" class="wt-btn wt-btn--primary wt-pr-md-7 wt-pl-md-7" data-wt-overlay-close="">Done</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wt-display-none" data-add-collection-section="" data-listing-id="">
-        <div data-collection-list-add="">
-    <div class="wt-overlay__header">
-        <h3 class="wt-text-heading wt-text-center-xs">
-            Create new collection
-        </h3>
-    </div>
-    <div class="wt-display-flex-xs wt-flex-direction-row-xs wt-align-items-baseline">
-        <div class="wt-validation wt-width-full">
-            <label class="wt-label" for="edit-list">Name</label>
-            <input data-add-collection-input="" autofocus="" aria-invalid="false" type="text" class="wt-input" id="edit-list" placeholder="Gifts, Home, Wedding, etc." />
-            <div class="wt-display-flex-xs wt-justify-content-space-between">
-                <div>
-                    <div data-duplicated-name-alert="" data-error="duplicate_name" class="wt-validation__message wt-validation__message--is-hidden wt-sem-text-critical">You&#39;ve already used that name</div>
-                    <div data-too-long-alert="" data-error="too_long" class="wt-validation__message wt-validation__message--is-hidden wt-sem-text-critical">
-                        Collection name is too long
-                    </div>
-                </div>
-                <p class="wt-text-right-xs wt-sem-text-secondary wt-mt-md-1" data-character-count="">50</p>
-            </div>
-        </div>
-    </div>
-    <div class="wt-display-flex-sm wt-flex-direction-column-xs wt-flex-direction-row-md wt-justify-content-space-between wt-mt-xs-1">
-            <div class="wt-mb-xs-5 wt-mb-md-0">
-                <legend class="wt-text-title-01 wt-mt-xs-1">
-                    Set to private?
-                </legend>
-                <p class="wt-text-body-01 wt-max-width-sm wt-ml-xs-0">
-                    Keep collections to yourself or inspire other shoppers! Keep in mind that anyone can view public collections â€“ they may also appear in recommendations and other places.
-                    <a href="https://www.etsy.com/legal/privacy/" target="_blank">View Etsyâ€™s Privacy Policy</a></p>
-            </div>
-            <div>
-                    <div id="collection-privacy-control" class="wt-display-flex-md wt-flex-direction-column-xs wt-align-items-center" data-label-yes="Private" data-label-no="Public" data-selector="toggle-switch">
-                        <div data-clg-id="WtSwitch" class="wt-switch__wrapper"><div class="wt-switch__frame"><div data-clg-id="WtSwitch" class="wt-switch__wrapper"><div class="wt-switch__frame"><div data-clg-id="WtSwitch" class="wt-switch__wrapper"><div class="wt-switch__frame"><div data-clg-id="WtSwitch" class="wt-switch__wrapper"><div class="wt-switch__frame"><input type="checkbox" id="wt-switch-7724b509-270a-42e7-8ea7-8e3741c354bb" class="wt-switch" /><label class="wt-switch__toggle" for="wt-switch-7724b509-270a-42e7-8ea7-8e3741c354bb"><span class="wt-screen-reader-only"></span></label></div></div><input type="checkbox" id="wt-switch-fe7c28d7-9a32-4d02-a523-f10917bffda9" class="wt-switch" /><label class="wt-switch__toggle" for="wt-switch-fe7c28d7-9a32-4d02-a523-f10917bffda9"><span class="wt-screen-reader-only"></span></label></div></div><input type="checkbox" id="wt-switch-cf7b4737-f7e5-43d2-9622-dd9fbe02117a" class="wt-switch" /><label class="wt-switch__toggle" for="wt-switch-cf7b4737-f7e5-43d2-9622-dd9fbe02117a"><span class="wt-screen-reader-only"></span></label></div></div><input type="checkbox" class="wt-switch wt-switch--small" id="wt-switch-bba54af6-43fc-42ab-a53d-e0eeac1e9e54" /><label class="wt-switch__toggle" for="wt-switch-bba54af6-43fc-42ab-a53d-e0eeac1e9e54"><span class="wt-screen-reader-only">Set to private?</span></label></div></div>
-
-                        <div class="wt-display-flex-xs wt-flex-direction-row-reverse-xs wt-align-items-center wt-justify-content-flex-end wt-nudge-t-2">
-                            <span data-toggle-private-text="" class="wt-text-body">
-                                Public
-                            </span>
-                            <span class="etsy-icon wt-icon--smaller-xs wt-mr-xs-1 wt-display-none" data-toggle-private-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 13v5h-2v-5z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4 9.25A.25.25 0 0 1 4.25 9H7.5V6.5a4.5 4.5 0 0 1 9 0V9h3.25a.25.25 0 0 1 .25.25V18a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM9.5 6.5a2.5 2.5 0 0 1 5 0V9h-5zM8 20a2 2 0 0 1-2-2v-7h12v7a2 2 0 0 1-2 2z"></path></svg></span>
-                            <span class="etsy-icon wt-icon--smaller-xs wt-mr-xs-1" data-toggle-public-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 1 0 10 10A10.01 10.01 0 0 0 12 2M9 18.883v.528a7.94 7.94 0 0 1-4.94-8.351l3.385 3.385a2.967 2.967 0 0 0 1.649 4.4zM17.5 15q.252 0 .5-.05V15a.99.99 0 0 0 .927.985A8 8 0 0 1 12 20c-.216 0-.427-.016-.639-.032l1.254-2.5-.015.006a2.97 2.97 0 0 0-.08-3.11A2.988 2.988 0 0 0 8 13.78V11h1a1 1 0 0 0 1-1V9a1 1 0 0 0 1-1 1 1 0 1 0 0-2H6.726A7.9 7.9 0 0 1 14 4.263V6a1 1 0 0 0 2 0v-.918a8 8 0 0 1 2 1.649V7h-1a1 1 0 1 0 0 2h2.411q.196.49.326 1H17a2.556 2.556 0 0 0-2 2.5 2.5 2.5 0 0 0 2.5 2.5"></path></svg></span>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    <div data-collection-list-add-footer="">
-        <div class="wt-overlay__footer">
-            <div class="wt-overlay__footer__cancel">
-                <button type="button" class="wt-btn wt-btn--transparent wt-btn--transparent-flush-left wt-btn--transparent-flush-right" data-overlay-back="">Cancel</button>
-            </div>
-            <div class="wt-overlay__footer__action">
-                <button type="button" class="wt-btn wt-btn--primary" data-add-collection-button="" disabled>
-                    Create collection
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-    </div>
-</div>
-    </div>
-</div><div class="wt-overlay wt-overlay--alert" id="make-public-list-modal" data-wt-overlay="" aria-hidden="true" role="alertdialog" aria-modal="false">
-    <div class="wt-overlay__modal" data-overlay-modal="">
-        <div class="wt-overlay__header">
-            <h2 class="wt-text-heading wt-text-center-xs">
-                Make your collection public?
-
-            </h2>
-        </div>
-        <div class="wt-display-flex-xs wt-justify-content-space-between">
-            <div>
-                <p>
-                    Public collections can be seen by the public, including other shoppers, and may show up in recommendations and other places.
-                </p>
-            </div>
-        </div>
-        <div class="wt-overlay__footer">
-            <div class="wt-overlay__footer__cancel">
-                <button type="button" data-selector="cancel-make-public-button" class="wt-btn wt-btn--transparent wt-btn--transparent-flush-left wt-btn--transparent-flush-right">Cancel</button>
-            </div>
-            <div class="wt-overlay__footer__action">
-                <button type="button" data-selector="make-public-button" class="wt-btn wt-btn--primary">Make Public</button>
-            </div>
-        </div>
-    </div>
-</div><div data-wt-overlay="" data-report-item-overlay="" id="report-item-overlay" class="wt-overlay" role="dialog" aria-hidden="true" aria-modal="false" aria-label="report-item-overlay-title">
-        <div class="wt-overlay__modal" data-overlay-modal="">
-            <button class="wt-btn wt-btn--icon wt-btn--tertiary wt-btn--light wt-overlay__close-icon" data-wt-overlay-close="" aria-label="Close">
-                <span class="etsy-icon wt-icon--smaller"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
-            </button>
-            <div data-report-item-form-container="" class="">
-    <div class="wt-overlay__header report-item-step">
-        <h2 class="wt-text-heading" id="report-item-overlay-title">Whatâ€™s wrong with this listing?</h2>
-    </div>
-    <div class="wt-overlay__header report-item-step wt-display-none">
-        <h3 class="wt-text-heading" id="report-item-overlay-title-more">Add more details</h3>
-        <h3 class="wt-text-body-01 wt-mt-xs-3">Share more specifics to help us review this item and protect our marketplace.</h3>
-    </div>
-    <form data-report-item-form="" action="/add_report.php" method="post">
-        <div class="report-item-step">
-            <div class="wt-select wt-mb-xs-3">
-                <select class="wt-select__element" id="report-item-choices" data-report-item-choices="">
-                    <optgroup>
-                        <option value="default" selected>Choose a reasonâ€¦</option>
-                        <option value="order-problem">Thereâ€™s a problem with my order</option>
-                        <option value="ip-policy">It uses my intellectual property without permission</option>
-                        <option value="flag-item">I donâ€™t think it meets Etsyâ€™s policies</option>
-                    </optgroup>
-                </select>
-                <label for="report-item-choices" class="wt-screen-reader-only">Choose a reasonâ€¦</label>
-            </div>
-            <div data-report-choice="order-problem" id="order-problem" class="wt-display-none" style="display: none;">
-                <p class="wt-mb-xs-2 prose">The first thing you should do is contact the seller directly.</p>
-                <p class="wt-mb-xs-2 ip-policy prose">If youâ€™ve already done that, your item hasnâ€™t arrived, or itâ€™s not as described, you can report that to Etsy by opening a case.</p>
-                <p class="wt-mb-xs-2 prose">
-                    <a href="/help/article/5307" target="_blank">
-                        Report a problem with an order
-                    </a>
-                </p>
-            </div>
-            <div data-report-choice="ip-policy" id="ip-policy" class="wt-display-none" style="display: none;">
-                <p class="wt-mb-xs-2 prose">We take intellectual property concerns very seriously, but many of these problems can be resolved directly by the parties involved. We suggest contacting the seller directly to respectfully share your concerns.</p>
-                <p class="wt-mb-xs-2 prose">If youâ€™d like to file an allegation of infringement, youâ€™ll need to follow the process described in our <a href="/legal/ip" target="_blank">Copyright and Intellectual Property Policy</a>.</p>
-            </div>
-            <div data-report-choice="flag-item" id="flag-item" class="wt-display-none" style="display: none;">
-                <div class="wt-mb-xs-2">
-                    <a href="/legal/sellers#allowed" target="_blank">
-                        Review how we define handmade, vintage and supplies
-                    </a>
-                </div>
-                <div class="wt-mb-xs-2">
-                    <a href="/legal/prohibited" target="_blank">
-                        See a list of prohibited items and materials
-                    </a>
-                </div>
-                <div class="wt-mb-xs-4">
-                    <a href="/legal/policy/listing-mature-content-correctly/242665462117" target="_blank">
-                        Read our mature content policy
-                    </a>
-                </div>
-                <div data-report-reason="" class="wt-validation">
-                    <fieldset class="wt-mb-xs-4">
-                        <legend class="wt-label wt-mb-xs-2">Tell us why you&#39;re reporting this item</legend>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="not_handmade_vintage_or_craft" type="radio" class="wt-radio" id="flag_not_handmade_vintage_or_craft" name="flag_type_mnemonic" value="LISTING_CSV_MEMBER_FLAG" />
-                                <label for="flag_not_handmade_vintage_or_craft">It&#39;s not handmade, vintage, or craft supplies</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="pornographic" type="radio" class="wt-radio" id="flag_pornographic" name="flag_type_mnemonic" value="OC_PORNOGRAPHY" />
-                                <label for="flag_pornographic">It&#39;s pornographic</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="hate_speech_or_harassment" type="radio" class="wt-radio" id="flag_hate_speech_or_harassment" name="flag_type_mnemonic" value="OC_HATE_VIOLENT_HARMFUL" />
-                                <label for="flag_hate_speech_or_harassment">It&#39;s hate speech or harassment</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="minor_safety" type="radio" class="wt-radio" id="flag_minor_safety" name="flag_type_mnemonic" value="LISTING_MINOR_SAFETY" />
-                                <label for="flag_minor_safety">It&#39;s a threat to minor safety</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="violence_or_self_harm" type="radio" class="wt-radio" id="flag_violence_or_self_harm" name="flag_type_mnemonic" value="OC_HATE_VIOLENT_HARMFUL" />
-                                <label for="flag_violence_or_self_harm">It promotes violence or self-harm</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="dangerous_or_hazardous" type="radio" class="wt-radio" id="flag_dangerous_or_hazardous" name="flag_type_mnemonic" value="LISTING_PROHIBITED" />
-                                <label for="flag_dangerous_or_hazardous">It&#39;s dangerous or hazardous</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="violates_law" type="radio" class="wt-radio" id="flag_violates_law" name="flag_type_mnemonic" value="CC_REPORTED_ILLEGAL_CONTENT" />
-                                <label for="flag_violates_law">It&#39;s violating a specific law or regulation</label>
-                            </div>
-                            <div class="wt-radio wt-mb-xs-1">
-                                <input data-report-reason-input="" data-flag-name="violates_not_listed_policy" type="radio" class="wt-radio" id="flag_violates_not_listed_policy" name="flag_type_mnemonic" value="LISTING_PROHIBITED" />
-                                <label for="flag_violates_not_listed_policy">It violates a policy that&#39;s not listed here</label>
-                            </div>
-                        <div data-error="no-report-reason" id="no-report-reason" class="wt-validation__message wt-validation__message--is-hidden wt-sem-text-critical">Please choose a reason</div>
-                    </fieldset>
-                </div>
-            </div>
-        </div>
-        <div class="report-item-step wt-display-none">
-            <div data-report-comment="" class="wt-validation" tabindex="0">
-                <label class="wt-screen-reader-only" for="report-item-reason">Include anything else we should know about this item</label>
-                <textarea id="report-item-reason" data-report-comment-input="" name="reason" class="wt-textarea" placeholder="Include anything else we should know about this item"></textarea>
-                <div data-error="no-report-comment" id="no-report-comment" class="wt-validation__message wt-validation__message--is-hidden wt-sem-text-critical wt-mt-xs-2">
-                    <span class="wt-icon wt-sem-text-on-surface-dark wt-validation__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 6v8h2V6zm1 9.25a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"></path></svg></span> Make sure to add more details.
-                </div>
-                <div data-error="comment-min-length-illegal-content" id="comment-min-length-illegal-content" class="wt-validation__message wt-validation__message--is-hidden wt-sem-text-critical wt-mt-xs-2">
-                    <span class="wt-icon wt-sem-text-on-surface-dark wt-validation__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 6v8h2V6zm1 9.25a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"></path></svg></span> Add more details, including a law or regulation name (10 characters min).
-                </div>
-            </div>
-        </div>
-        <div data-report-bonafide="" class="wt-mt-xs-2 wt-mb-xs-2 wt-sem-text-secondary wt-display-none">
-            By submitting this report, you confirm the information and claims in this form are accurate.
-        </div>
-        <div data-report-item-overlay-footer="" class="wt-overlay__footer wt-pt-xs-0 wt-display-none" id="overlay-footer" aria-hidden="true" style="display: none;">
-            <input type="hidden" name="_nnc" value="3:1758149097:4GUgvh8y5DkVyZZtcEO3WxW_bLVi:fb034c7c38a6074451032687692e755919fbe37e1c1c835e8258dc34b14fb936" class="hidden csrf" />
-            <input type="hidden" name="target_id" value="1790774795" />
-            <input type="hidden" name="target_type" value="listing" />
-            <input type="hidden" name="send_report" value="true" />
-            <input type="hidden" name="ref" value="rlp-listing-grid-2" />
-            <input type="hidden" name="platform" value="web" />
-            <input type="hidden" name="search_query" value="" />
-            <div class="wt-overlay__footer__cancel">
-                <button data-report-back-button="" type="button" class="wt-btn wt-btn-transparent report-item-step wt-display-none">
-                    Go back
-                </button>
-            </div>
-            <div class="wt-overlay__footer__action">
-                <button data-report-next-button="" type="button" class="wt-btn wt-btn--primary report-item-step">
-                    Next
-                </button>
-                <button data-report-submit-button="" type="submit" class="wt-btn wt-btn--primary report-item-step wt-display-none">
-                    Submit report
-                </button>
-            </div>
-        </div>
-    </form>
-</div>
-        </div>
-    </div><div class="wt-overlay image-overlay wt-justify-content-center" data-image-overlay="" data-animate-out="false" id="image-overlay" role="dialog" aria-hidden="true">
-    <div class="wt-display-flex-xs wt-justify-content-center wt-height-full image-overlay-main-image-container" data-overlay-modal="">
-<button data-clg-id="WtButton" class="wt-btn wt-btn--filled wt-btn--icon wt-btn--light wt-position-absolute wt-position-right wt-position-top wt-mt-xs-2 wt-mr-xs-2" data-wt-overlay-close="true" aria-label="close">
-                <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
-
-</button>
-        <div data-overlay-main-image-container="" class="wt-position-relative wt-mr-xl-4 wt-mr-xs-2 wt-ml-xs-2 wt-flex-grow-xs-1 wt-mb-xs-4 wt-mt-xs-10">
-<button data-clg-id="WtButton" class="wt-btn wt-btn--filled wt-btn--icon wt-btn--light wt-position-absolute wt-position-left wt-vertical-center wt-shadow-elevation-3 wt-ml-xs-2" data-image-overlay-prev="true" aria-label="previous">
-                        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16,21a0.994,0.994,0,0,1-.664-0.253L5.5,12l9.841-8.747a1,1,0,0,1,1.328,1.494L8.5,12l8.159,7.253A1,1,0,0,1,16,21Z"></path></svg></span>
-
-</button>
-<button data-clg-id="WtButton" class="wt-btn wt-btn--filled wt-btn--icon wt-btn--light wt-position-absolute wt-position-right wt-vertical-center wt-shadow-elevation-3 wt-mr-xs-2" data-image-overlay-next="true" aria-label="next">
-                        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8,21a1,1,0,0,1-.664-1.747L15.5,12,7.336,4.747A1,1,0,0,1,8.664,3.253L18.5,12,8.664,20.747A0.994,0.994,0,0,1,8,21Z"></path></svg></span>
-
-</button>
-            <ul class="wt-list-unstyled wt-overflow-hidden image-overlay-list wt-position-relative wt-vertical-center wt-display-flex-xs wt-justify-content-center" style="padding-top: 80%;" data-image-overlay-list="" tabindex="0">
-                    <li class="wt-display-none wt-position-absolute wt-position-top wt-position-left wt-width-full wt-height-full skeleton-background" data-listing-image="" data-index="0" data-image-id="6256816164">
-                        <img class="wt-rounded wt-overflow-hidden image-overlay-img wt-object-fit-contain wt-vertical-center image-overlay-image--portrait" alt="SLOT GACOR" data-delay-src="https://imagizer.imageshack.com/img924/157/C6MWMM.jpg" data-delay-srcset="https://imagizer.imageshack.com/img924/157/C6MWMM.jpg 1x, https://i.etsystatic.com/54267703/r/il/f18987/6256816164/il_1588xN.6256816164_26ap.jpg 2x" data-original-image-width="3000" data-original-image-height="3000" data-index="0" data-src-zoom-image="https://i.etsystatic.com/54267703/r/il/f18987/6256816164/il_fullxfull.6256816164_26ap.jpg" />
-                    </li>
+  </div><link rel="stylesheet" href="https://plazaitdotid.pages.dev/assets/css/pd-lightbox.css">
+  <style>.paylater-promo{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#f0fdf4 0,#dcfce7 100%);border:1px solid #86efac;border-radius:8px;padding:8px 12px;font-size:13px;line-height:1.4;margin:8px 0}.paylater-promo-sm{padding:6px 10px;font-size:11px;gap:6px}.paylater-promo-md{padding:8px 12px;font-size:13px;gap:8px}.paylater-promo-lg{padding:10px 16px;font-size:14px;gap:10px}.paylater-icon{font-size:1.2em;flex-shrink:0}.paylater-text{display:flex;flex-direction:column;gap:2px}.paylater-text strong{color:#15803d;font-weight:600}.paylater-text small{color:#16a34a;font-size:.85em;opacity:.9}.paylater-desktop-only{display:none}.paylater-mobile-only{display:flex}@media (min-width:641px){.paylater-desktop-only{display:flex}.paylater-mobile-only{display:none}}@media (max-width:640px){.paylater-promo{font-size:12px;padding:7px 10px}.paylater-promo-lg{font-size:13px;padding:8px 12px}}@media print{.paylater-promo{display:none!important}}.paylater-compact{display:inline-block;font-size:11px;font-weight:600;color:#059669;background:#d1fae5;padding:3px 8px;border-radius:4px;margin:6px 0 4px;line-height:1.3}@media (max-width:640px){.paylater-compact{font-size:10px;padding:2px 6px;margin:5px 0 3px}}@media print{.paylater-compact{display:none!important}}</style><style nonce="se3iyzEHMc9FQEB4wSyd0w==">.pd-voucher-minimal{margin:10px 0;display:flex;flex-direction:column;gap:6px}.pdv-min-item{display:flex;align-items:center;gap:8px;padding:0;height:32px;transition:all .2s ease}.pdv-min-hidden{display:none}.pdv-min-disabled{opacity:.5}.pdv-badge-btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#667eea 0,#764ba2 100%);border:none;border-radius:8px;padding:3px;cursor:pointer;transition:all .2s ease;width:auto}.pdv-badge-btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 4px 12px rgba(102,126,234,.3)}.pdv-badge-btn:disabled{opacity:.6;cursor:not-allowed}.pdv-badge-icon{color:#fff;flex-shrink:0}.pdv-badge-text{font-size:14px;font-weight:700;color:#fff;white-space:nowrap}.pdv-badge-code{font-family:'Courier New',monospace;font-size:13px;font-weight:700;color:#fff;background:rgba(255,255,255,.2);padding:4px 8px;border-radius:4px;border:none;white-space:nowrap}.pdv-min-copy,.pdv-min-more{padding:4px 12px;font-size:12px;font-weight:600;border-radius:5px;border:1px solid #e2e8f0;background:#fff;color:#667eea;cursor:pointer;transition:all .2s ease;white-space:nowrap}.pdv-min-copy:hover:not(:disabled),.pdv-min-more:hover{background:#667eea;color:#fff;border-color:#667eea}.pdv-min-copy:disabled{opacity:.4;cursor:not-allowed}.pdv-min-copy.copied{background:#22c55e;color:#fff;border-color:#22c55e}.pdv-min-more{margin-left:auto}.modal-close{position:absolute;top:20px;right:20px;background:none;border:none;cursor:pointer;color:#64748b;padding:4px;transition:color .2s ease}.modal-close:hover{color:#1e293b}.modal-body{margin-bottom:8px}.voucher-modal-content{text-align:center}.voucher-modal-badge{display:inline-flex;flex-direction:row;align-items:center;gap:6px;background:linear-gradient(135deg,#667eea 0,#764ba2 100%);border-radius:10px;padding:8px 16px;margin-bottom:12px}.vmb-value{font-size:18px;font-weight:700;color:#fff;line-height:1}.vmb-label{font-size:18px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.5px}.voucher-modal-code{font-family:'Courier New',monospace;font-size:14px;font-weight:700;color:#667eea;background:rgba(102,126,234,.1);padding:6px 12px;border-radius:6px;border:2px dashed rgba(102,126,234,.3);display:inline-block;margin-bottom:10px}.voucher-modal-name{font-size:14px;font-weight:600;color:#1e293b;margin-bottom:16px}.voucher-modal-details{text-align:left;background:#f8fafc;border-radius:8px;padding:12px;margin-bottom:16px}.vmd-item{display:flex;align-items:flex-start;gap:8px;padding:6px 0;font-size:13px;color:#64748b;border-bottom:1px solid #e2e8f0}.vmd-item:last-child{border-bottom:none}.vmd-item svg{color:#667eea;flex-shrink:0;margin-top:2px}.vmd-item strong{color:#1e293b}.modal-actions{padding:20px}.modal-btn-primary{background:linear-gradient(135deg,#667eea 0,#764ba2 100%);color:#fff}.modal-btn-primary:hover{opacity:.9;transform:translateY(-1px)}@media (max-width:640px){.pdv-min-item{gap:6px}.pdv-badge-btn{padding:3px;gap:6px}.pdv-badge-text{font-size:13px}.pdv-badge-code{font-size:12px;padding:3px 6px}.pdv-min-copy,.pdv-min-more{padding:3px 10px;font-size:11px}.modal-dialog{max-width:95%;margin:20px}.vmb-value{font-size:16px}.vmb-label{font-size:16px}.voucher-modal-code{font-size:13px;padding:5px 10px}}</style><style nonce="se3iyzEHMc9FQEB4wSyd0w==">.promo-endyear-mini-banner{display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(255,255,255,.8);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:2px solid rgba(242,140,26,.2);border-radius:12px;margin:16px 0;box-shadow:0 4px 16px rgba(0,0,0,.08);transition:all .3s ease}.promo-endyear-mini-banner:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.12);border-color:rgba(242,140,26,.4)}.pey-icon{font-size:32px;line-height:1;flex-shrink:0}.pey-content{flex:1;min-width:0}.pey-content strong{display:block;font-size:14px;font-weight:700;color:#F28C1A;margin-bottom:2px}.pey-content span{display:block;font-size:13px;color:#64748b;line-height:1.4}.pey-link{flex-shrink:0;padding:8px 16px;background:linear-gradient(135deg,#F28C1A,#FFB84D);color:#fff;text-decoration:none;font-size:13px;font-weight:700;border-radius:8px;white-space:nowrap;transition:all .2s ease;box-shadow:0 2px 8px rgba(242,140,26,.25)}.pey-link:hover{transform:translateX(2px);box-shadow:0 4px 12px rgba(242,140,26,.35)}@media(max-width:640px){.promo-endyear-mini-banner{flex-wrap:wrap;gap:8px;padding:10px 12px}.pey-icon{font-size:28px;align-self:flex-start}.pey-content{flex:1;min-width:0}.pey-content strong{font-size:12px}.pey-content span{font-size:11px;line-height:1.3}.pey-link{width:100%;flex-basis:100%;font-size:11px;padding:6px 12px;text-align:center}}@media print{.promo-endyear-mini-banner{display:none!important}}</style>
+  <style nonce="se3iyzEHMc9FQEB4wSyd0w==">
+  .pd-title-row{position:relative;margin-bottom:12px;padding-right:52px}.pd-title{margin:0!important}.pd-share-btn{position:absolute;top:0;right:0;width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;border:1px solid #e2e8f0;background:#fff;color:#64748b;cursor:pointer;transition:all .2s ease;-webkit-tap-highlight-color:transparent}.pd-share-btn:hover{background:#f8fafc;border-color:#cbd5e1;color:#0f172a;transform:translateY(-1px)}.pd-share-btn:active{transform:translateY(0)}.pd-share-btn svg{display:block}
+  
+  .pd-share-modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.75);backdrop-filter:blur(4px);z-index:99999;display:none;align-items:center;justify-content:center;padding:0;animation:fadeIn .2s ease}.pd-share-modal-overlay.show{display:flex}.pd-share-modal{background:#fff;border-radius:20px;box-shadow:0 25px 50px -12px rgba(0,0,0,.25);max-width:480px;width:100%;max-height:90vh;overflow:hidden;display:flex;flex-direction:column;animation:slideUp .3s cubic-bezier(.16,1,.3,1)}@keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes slideUp{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}
+  
+  .pd-share-header{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid #f1f5f9}.pd-share-title{font-size:18px;font-weight:700;color:#0f172a;margin:0}.pd-share-close{width:32px;height:32px;border-radius:8px;border:0;background:transparent;color:#64748b;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:all .15s ease}.pd-share-close:hover{background:#f1f5f9;color:#0f172a}.pd-share-body{padding:24px;overflow-y:auto}
+  
+  .pd-share-preview{display:flex;gap:12px;padding:16px;background:#f8fafc;border-radius:12px;margin-bottom:24px}.pd-share-preview-img{width:64px;height:64px;border-radius:8px;object-fit:cover;flex-shrink:0;border:1px solid #e2e8f0}.pd-share-preview-info{flex:1;min-width:0}.pd-share-preview-name{font-size:14px;font-weight:600;color:#0f172a;margin:0 0 4px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.pd-share-preview-price{font-size:16px;font-weight:700;color:#0ea5e9;margin:0}
+  
+  .pd-share-label{font-size:13px;font-weight:600;color:#475569;margin:0 0 12px 0;text-transform:uppercase;letter-spacing:.5px}.pd-share-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}.pd-share-option{display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 8px;border:1.5px solid #e2e8f0;border-radius:12px;background:#fff;cursor:pointer;transition:all .2s ease;text-decoration:none;color:inherit}.pd-share-option:hover{border-color:#94a3b8;background:#f8fafc;transform:translateY(-2px)}.pd-share-option:active{transform:translateY(0)}
+  
+  .pd-share-icon{width:40px;height:40px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;position:relative}.pd-share-icon svg{width:24px;height:24px;display:block}.pd-share-icon-whatsapp{background:linear-gradient(135deg,#25D366 0%,#128C7E 100%);color:#fff}.pd-share-icon-facebook{background:linear-gradient(135deg,#1877F2 0%,#0c63d4 100%);color:#fff}.pd-share-icon-twitter{background:linear-gradient(135deg,#1DA1F2 0%,#0d8bd9 100%);color:#fff}.pd-share-icon-telegram{background:linear-gradient(135deg,#0088cc 0%,#0077b3 100%);color:#fff}.pd-share-icon-email{background:linear-gradient(135deg,#EA4335 0%,#c5331f 100%);color:#fff}.pd-share-icon-copy{background:linear-gradient(135deg,#6366f1 0%,#4f46e5 100%);color:#fff}.pd-share-icon-pdf{background:linear-gradient(135deg,#ef4444 0%,#dc2626 100%);color:#fff}.pd-share-name{font-size:12px;font-weight:600;color:#475569;text-align:center}
+  
+  .pd-share-copy-section{background:#f8fafc;padding:16px;border-radius:12px}.pd-share-copy-input-wrap{display:flex;gap:8px}.pd-share-copy-input{flex:1;padding:12px 14px;border:1px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0f172a;background:#fff;font-family:'Segoe UI',system-ui,sans-serif}.pd-share-copy-input:focus{outline:0;border-color:#0ea5e9;box-shadow:0 0 0 3px rgba(14,165,233,.1)}.pd-share-copy-btn{padding:12px 20px;border:0;border-radius:10px;background:linear-gradient(135deg,#0ea5e9 0%,#0284c7 100%);color:#fff;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s ease;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}.pd-share-copy-btn:hover{background:linear-gradient(135deg,#0284c7 0%,#0369a1 100%);transform:translateY(-1px);box-shadow:0 4px 12px rgba(14,165,233,.3)}.pd-share-copy-btn:active{transform:translateY(0)}.pd-share-copy-btn svg{width:16px;height:16px}.pd-share-copy-btn.copied{background:linear-gradient(135deg,#22c55e 0%,#16a34a 100%);pointer-events:none}
+  
+  @media(max-width:640px){.pd-share-modal{border-radius:20px 20px 0 0;margin-top:auto;max-height:85vh}.pd-share-grid{grid-template-columns:repeat(3,1fr)}.pd-share-header{padding:16px 20px}.pd-share-body{padding:20px}.pd-share-btn{width:36px;height:36px}.pd-share-btn svg{width:18px;height:18px}}@media(max-width:480px){.pd-share-grid{grid-template-columns:repeat(3,1fr);gap:10px}.pd-share-option{padding:12px 6px}.pd-share-icon{width:36px;height:36px}.pd-share-icon svg{width:20px;height:20px}.pd-share-name{font-size:11px}}
+  
+  .mf-share{background:#fff;color:#fb923c;border:2px solid #fb923c;display:inline-flex;align-items:center;justify-content:center}.mf-share:active{transform:scale(.95)}.mf-share svg{display:block}
+  
+  @media(max-width:640px){.pd-share-btn{display:none!important}}
+  
+  .stock-badge.in{background:#e6f9ec;color:#15803d;border-radius:999px;padding:4px 10px;font-weight:700}.stock-badge.out{background:#fee2e2;color:#b91c1c;border-radius:999px;padding:4px 10px;font-weight:700}
+  
+  .stock-info-btn{--c:#0ea5e9;--b:#bae6fd;--bg:#f0f9ff;--bg-h:#e0f2fe;--b-h:#0ea5e9;margin-left:0;display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;padding:4px 10px;border-radius:999px;border:1.5px solid var(--b);background:var(--bg);color:var(--c);cursor:pointer;font-size:12px;font-weight:600;transition:all .2s ease;-webkit-tap-highlight-color:transparent}.stock-info-btn:hover{background:var(--bg-h);border-color:var(--b-h);color:#0284c7;transform:translateY(-1px);box-shadow:0 2px 8px rgba(14,165,233,.15)}.stock-info-btn:active{transform:translateY(0)}.stock-info-btn:focus-visible{outline:0;box-shadow:0 0 0 3px rgba(14,165,233,.2)}.stock-info-btn svg{width:14px;height:14px;flex-shrink:0}.stock-info-btn .btn-text{white-space:nowrap}
+  
+  .stock-popover{position:absolute;z-index:9999;min-width:280px;max-width:92vw;background:#0b1220;color:#eef3ff;border:1px solid rgba(255,255,255,.08);border-radius:14px;box-shadow:0 20px 40px rgba(12,12,20,.45);padding:12px 12px 8px;display:none}.stock-popover.show{display:block}.stock-popover::before{content:"";position:absolute;top:-8px;left:24px;width:14px;height:14px;background:#0b1220;border-left:1px solid rgba(255,255,255,.08);border-top:1px solid rgba(255,255,255,.08);transform:rotate(45deg)}.sp-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.sp-title{font-weight:800;font-size:14px}.sp-close{background:transparent;border:0;color:#98a2b3;cursor:pointer}
+  
+  .sp-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}.sp-item{display:grid;grid-template-columns:1fr auto 32px;column-gap:12px;align-items:center;padding:10px 10px;min-height:44px;border-radius:10px;background:rgba(255,255,255,.03)}.sp-left{display:flex;align-items:center;gap:10px}.sp-dot{width:10px;height:10px;border-radius:999px;background:var(--dot,#60a5fa);display:inline-block}.sp-label{font-weight:600;font-size:13px}
+  
+  
+  .sp-qty{grid-column:2;justify-self:end;min-width:40px;text-align:right;font-weight:800;font-size:13px;color:#cfe4ff;font-variant-numeric:tabular-nums}
+  
+  .sp-wa{
+    grid-column:3; justify-self:end;
+    width:32px; height:32px; min-width:32px; min-height:32px;
+    box-sizing:border-box;
+    padding:0; line-height:0; text-decoration:none; outline:0;
+    display:inline-flex; align-items:center; justify-content:center;
+    border-radius:999px; border:1px solid rgba(37,211,102,.60);  /* 1px untuk hasil “crisp” */
+    background:rgba(37,211,102,.08); color:#25D366;
+    transition:background-color .15s ease, border-color .15s ease, transform .05s ease;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .sp-wa:hover{background:rgba(37,211,102,.16);border-color:rgba(37,211,102,.75)}
+  .sp-wa:active{transform:translateY(.5px) scale(.98)}
+  
+  .sp-wa svg{width:18px;height:18px;display:block;vertical-align:middle}
+  .stock-popover a{text-decoration:none}
+  
+  #deskripsi img{max-width:450px!important;height:unset!important}@media(max-width:640px){.stock-popover{position:fixed;left:0;right:0;bottom:max(12px,env(safe-area-inset-bottom,12px));margin:0 10px;padding:14px 12px 10px;border-radius:16px}.stock-popover::before{display:none}.stock-info-btn{padding:4px 8px;gap:4px;border:0;background:transparent}.stock-info-btn:hover{background:transparent;box-shadow:none;transform:none}.stock-info-btn .btn-text{display:none}.stock-info-btn svg{width:16px;height:16px}.sp-item{grid-template-columns:1fr auto 36px}.sp-wa{width:36px;height:36px;min-width:36px;min-height:36px}.sp-wa svg{width:19px;height:19px}}
+  
+  .stock-dot{position:absolute;bottom:8px;right:8px;width:8px;height:8px;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,0.4);z-index:2;cursor:help}.stock-dot.ready{background:#10b981}.stock-dot.low{background:#f59e0b}.stock-dot.out{background:#ef4444}.stock-dot:hover{transform:scale(1.2);transition:transform 0.2s ease}@media(max-width:640px){.stock-dot{width:7px;height:7px;bottom:6px;right:6px}}
+  
+  .pd-related-card .spec-chips{font-size:11px;color:#64748b;margin:4px 0 6px 0;line-height:1.3;font-weight:500}.pd-related-card .spec-chips .spec-divider{margin:0 4px;opacity:0.6}@media(max-width:640px){.pd-related-card .spec-chips{font-size:10px;margin:3px 0 5px 0}#deskripsi img{max-width:300px!important;height:unset!important;justify-self:center!important}}
+  
+  .pwp-trigger-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 8px 4px;background:linear-gradient(135deg,#fbbf24 0%,#f59e0b 100%);color:#78350f;border-radius:6px;font-size:.65rem;font-weight:600;border:0}.pwp-trigger-badge svg{flex-shrink:0;width:12px;height:12px}
+  .pwp-deals-section{margin:0;padding:12px;background:linear-gradient(135deg,#fef3c7 0%,#fde68a 100%);border-radius:12px;border:2px solid #fbbf24}.pwp-deals-header{display:flex;gap:10px;margin-bottom:10px}.pwp-icon{flex-shrink:0;color:#f59e0b;width:18px;height:18px}.pwp-text .pwp-title{margin:0 0 2px 0;font-size:14px;font-weight:700;color:#78350f}.pwp-text .pwp-subtitle{margin:0;font-size:11px;color:#92400e;opacity:0.9}.pwp-deals-loading{text-align:center;padding:40px 0;color:#92400e}.pwp-spinner{width:40px;height:40px;border:3px solid #fbbf24;border-top-color:#f59e0b;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 12px}@keyframes spin{to{transform:rotate(360deg)}}
+  .pwp-deals-grid{display:flex;flex-direction:column;gap:6px}.pwp-deal-card{background:#fff;border-radius:6px;overflow:hidden;border:1px solid #fbbf24;display:flex;align-items:center;padding:8px;gap:10px}.pwp-deal-card:hover{background:#fef3c7}.pwp-deal-thumb{flex-shrink:0;width:50px;height:50px;background:#f8fafc;overflow:hidden;border-radius:4px}.pwp-deal-thumb img{width:100%;height:100%;object-fit:cover}.pwp-deal-badge{background:#dc2626;color:#fff;padding:2px 5px;border-radius:3px;font-size:9px;font-weight:700;margin-left:auto}.pwp-deal-info{flex:1;display:flex;flex-direction:column;gap:4px}.pwp-deal-name{font-size:12px;font-weight:600;color:#0f172a;margin:0;line-height:1.2}.pwp-deal-prices{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.pwp-deal-price{font-size:14px;font-weight:800;color:#dc2626;white-space:nowrap}.pwp-deal-original{font-size:11px;color:#64748b;text-decoration:line-through;white-space:nowrap}.pwp-cart-note{margin-top:8px;padding:6px 10px;background:#e0f2fe;border-left:2px solid#0ea5e9;font-size:11px;color:#0c4a6e;border-radius:4px}
+  @media(max-width:640px){.pwp-deals-section{margin:12px 0;padding:10px;border-radius:10px}.pwp-deals-header{gap:8px}.pwp-text .pwp-title{font-size:13px}.pwp-text .pwp-subtitle{font-size:10px}.pwp-deal-card{padding:6px;gap:8px}.pwp-deal-thumb{width:45px;height:45px}.pwp-deal-name{font-size:11px}.pwp-deal-price{font-size:13px}.pwp-deal-original{font-size:10px}}
+  
+  .preorder-badge{display:inline-flex;align-items:center;gap:5px;padding:6px 12px;background:linear-gradient(135deg,#8b5cf6 0%,#7c3aed 100%);color:#fff;border-radius:8px;font-size:13px;font-weight:700;border:0;box-shadow:0 2px 8px rgba(139,92,246,.25)}.preorder-badge svg{width:16px;height:16px;flex-shrink:0}.preorder-info{margin:12px 0;padding:14px;background:linear-gradient(135deg,#f5f3ff 0%,#ede9fe 100%);border:1.5px solid #c4b5fd;border-radius:12px}.preorder-info-header{display:flex;align-items:center;gap:8px;margin-bottom:10px}.preorder-info-icon{width:20px;height:20px;color:#7c3aed;flex-shrink:0}.preorder-info-title{font-size:14px;font-weight:700;color:#5b21b6;margin:0}.preorder-info-items{display:flex;flex-direction:column;gap:8px}.preorder-info-row{display:flex;align-items:center;justify-content:space-between;font-size:13px}.preorder-info-label{color:#6b21a8;font-weight:600}.preorder-info-value{color:#5b21b6;font-weight:700}.preorder-info-value.highlight{color:#dc2626;font-size:14px}.preorder-info-note{margin-top:10px;padding:8px 10px;background:#fef3c7;border-left:2px solid #f59e0b;font-size:12px;color:#78350f;border-radius:6px;line-height:1.4}@media(max-width:640px){.preorder-badge{font-size:12px;padding:5px 10px}.preorder-info{margin:10px 0;padding:12px}.preorder-info-title{font-size:13px}.preorder-info-row{font-size:12px}.preorder-info-note{font-size:11px;padding:6px 8px}}
+  </style>
+  
+  <div class="pd-sticky-header" id="pd-sticky-header"><div class="pd-sticky-header-container"><div class="pd-sticky-thumb"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" id="pd-sticky-thumb-img"></div><div class="pd-sticky-info"><h2 class="pd-sticky-title" id="pd-sticky-title">JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand</h2><div class="pd-sticky-price-row"><span class="pd-sticky-price" id="pd-sticky-price">Rp 5.000,-</span><span class="pd-sticky-price-original" id="pd-sticky-price-original">Rp 1.000.000</span><span class="pd-sticky-discount" id="pd-sticky-discount">-99.5%</span></div></div><div class="pd-sticky-actions"><button type="button" class="pd-sticky-share-btn" id="pd-sticky-share-btn" aria-label="Bagikan produk" title="Bagikan"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button><button type="button" class="pd-sticky-btn pd-sticky-btn-chat" id="pd-sticky-chat"><svg viewBox="0 0 640 640" fill="currentColor" aria-hidden="true"><path d="M320 128C241 128 175.3 185.3 162.3 260.7C171.6 257.7 181.6 256 192 256L208 256C234.5 256 256 277.5 256 304L256 400C256 426.5 234.5 448 208 448L192 448C139 448 96 405 96 352L96 288C96 164.3 196.3 64 320 64C443.7 64 544 164.3 544 288L544 456.1C544 522.4 490.2 576.1 423.9 576.1L336 576L304 576C277.5 576 256 554.5 256 528C256 501.5 277.5 480 304 480L336 480C362.5 480 384 501.5 384 528L384 528L424 528C463.8 528 496 495.8 496 456L496 435.1C481.9 443.3 465.5 447.9 448 447.9L432 447.9C405.5 447.9 384 426.4 384 399.9L384 303.9C384 277.4 405.5 255.9 432 255.9L448 255.9C458.4 255.9 468.3 257.5 477.7 260.6C464.7 185.3 399.1 127.9 320 127.9z"/></svg>Tanya</button><button type="button" class="pd-sticky-btn pd-sticky-btn-cart" id="pd-sticky-add-cart" disabled>+ Keranjang</button><button type="button" class="pd-sticky-btn pd-sticky-btn-buy" id="pd-sticky-buy" disabled>Beli Sekarang</button></div></div></div>
+  
+  <main class="product-single product-single--v3"><nav class="pd-breadcrumb" aria-label="breadcrumb"><a href="https://els.id/pricelist/">JENDELATOTO</a><span>/</span><a href="https://els.id/pricelist/">Situs Toto</a><span>/</span><a href="https://els.id/pricelist/">TOTO 4D</a><span>/</span><a href="https://els.id/pricelist/">Bandar Toto</a><span>/</span><a href="https://els.id/pricelist/">Situs TOTO 4D </a><span>/</span><span class="current">JENDELATOTO
+  
+  </span></nav>
+  
+  <div class="pd-top-layout"><section class="pd-media-card"><figure class="pd-main-image" id="pd-main-figure"><img id="pd-main-img" src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" data-slug="" loading="eager">
+  </figure>
+  
+  <div class="pd-mobile-slider-wrapper">
+  <div class="pd-mobile-slider" id="pd-mobile-slider" aria-label="Galeri gambar (geser)"><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="eager"></div><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></div><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></div><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></div><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></div><div class="pd-mslide"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></div></div><div class="pd-gallery-counter" id="pd-gallery-counter">1/6</div></div>
+  <div class="pd-thumb-gallery" id="pd-thumb-gallery" aria-label="Galeri gambar produk"><button type="button" class="pd-thumb-btn active" data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="" aria-label="Gambar 1"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button><button type="button" class="pd-thumb-btn " data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" aria-label="Gambar 2"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button><button type="button" class="pd-thumb-btn " data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-223.webp" aria-label="Gambar 3"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button><button type="button" class="pd-thumb-btn " data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-776.webp" aria-label="Gambar 4"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button><button type="button" class="pd-thumb-btn " data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-634.webp" aria-label="Gambar 5"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button><button type="button" class="pd-thumb-btn " data-full="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" data-alt="JENDELATOTO" data-slug="lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-892.webp" aria-label="Gambar 6"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" loading="lazy"></button></div></section><section class="pd-info-card"><div id="pd-variant-combined" class="pd-variant-combined" hidden></div><div class="pd-title-row">
+          <h1 class="pd-title" id="pd-title">JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand</h1><button type="button" class="pd-share-btn" id="pd-share-btn" aria-label="Bagikan produk" title="Bagikan"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
+  <div id="pd-price-anchor">
+  </div>
+  <div class="pd-price-qr-container">
+          <div class="pd-price-block" id="pd-price-block">
+                  <div class="pd-price-row">
+                          <span class="pd-price-current" id="pd-price-current" >Rp 5.000</span>
+                          <span class="pd-price-original" id="pd-price-original">Rp 100.000</span>
+                          <span class="pd-discount-badge" id="pd-discount-badge">-95%</span></div>
+                          <div class="pd-meta-row">
+                                  <span class="sold-inline" id="pd-sold-inline" data-role="sold-chip">Terjual Terjual 2</span>
+                                  <span class="pwp-trigger-badge" id="pwp-trigger-badge" hidden>
+                                          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                                  <path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"/></svg>Bisa PWP</span></div>
+                                                  <div class="pd-meta-inline"><span class="stock-badge out" id="pd-stock-badge">JENDELATOTO</span>
+                                                          <span class="sku">SKU: <span id="pd-sku">1S83N0990RID</span></span></div>
+  <div class="paylater-promo paylater-promo-sm paylater-mobile-only">
+      <span class="paylater-icon">💳</span>
+      <span class="paylater-text">
+          <strong>Autorized Server Gacor</strong>
+          <small>Link Login JENDELATOTO</small>
+      </span>
+  </div>
+  
+  <div class="stock-popover" id="pd-stock-popover" role="dialog" aria-hidden="true" aria-label="Informasi stok cabang"><div class="sp-head"><div class="sp-title">Stok Cabang</div><button type="button" class="sp-close" id="pd-stock-popover-close" aria-label="Tutup"><svg width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71L12 12.01l-6.3-6.3-1.4 1.41 6.3 6.3-6.3 6.3 1.4 1.41 6.3-6.3 6.3 6.3 1.41-1.41-6.3-6.3 6.3-6.3z"/></svg></button></div><ul class="sp-list">
+  <li class="sp-item"><div class="sp-left"><span class="sp-dot" style="--dot:#60a5fa;"></span><span class="sp-label">Asia Mega Mas</span></div><span class="sp-qty" id="sp-qty-meg">0</span><a class="sp-wa" href="https://wa.me/6281380009898?text=Halo%2C%20saya%20ingin%20tanya%20stok%20di%20Asia%20Mega%20Mas%20untuk%20produk%20https%3A%2F%2Fplazait.co.id%2Fproduct%2Flenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-black" target="_blank" rel="noopener" aria-label="WhatsApp Asia Mega Mas"><svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.273-.099-.471-.148-.669.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.411.248-.694.248-1.29.173-1.411-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.002a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.263c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.86 11.86 0 005.67 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.485-8.413"/></svg></a></li>
                   
-                <div class="wt-z-index-1 click-to-zoom-text wt-position-absolute wt-display-none" data-click-to-zoom-toast="">
-<span data-clg-id="WtBadge" class="wt-badge wt-badge--default wt-text-body-01 image-overlay-image--landscape">
-                        <span class="wt-icon wt-icon--smallest"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10,2a8,8,0,1,0,8,8A8.009,8.009,0,0,0,10,2Zm0,14a6,6,0,1,1,6-6A6.007,6.007,0,0,1,10,16Z"></path><path d="M14,9H11V6A1,1,0,1,0,9,6V9H6a1,1,0,0,0,0,2H9v3a1,1,0,1,0,2,0V11h3A1,1,0,0,0,14,9Z"></path><path d="M21.707,20.293l-4-4a1,1,0,0,0-1.414,1.414l4,4A1,1,0,0,0,21.707,20.293Z"></path></svg></span>
-                    Click to zoom
-
-</span>
-                </div>
-            </ul>
-        </div>
-
-    </div>
-</div><div data-toolkit-overlay="" data-wt-overlay="" aria-hidden="true" role="dialog" aria-labelledby="wt-locale-picker-overlay-title" data-overlay-transition="1" id="wt-locale-picker-overlay" class="v2-locale-picker-overlay wt-overlay">
-    <div class="wt-overlay__modal wt-text-left-xs" data-overlay-modal="">
-        <div class="wt-overlay__header">
-            <h2 class="wt-text-title-large" id="wt-locale-picker-overlay-title">Update your settings</h2>
-        </div>
-
-        <form method="post" action="" onsubmit="return false">
-
-            
-
-            <input type="hidden" name="region_code" value="" />
-
-
-
-                <div id="locale-picker-sections-wrap">
-                <!--
-                <div id="locale_picker_region_code" class="locale_picker_section wt-pb-xs-3 wt-text-left-xs wt-b-xs-none">
-
-                    <label class="wt-label wt-pb-xs-1" for="locale-overlay-select-region_code">Region</label>
-                    <div class="wt-select wt-text-body-01">
-                        <select id="locale-overlay-select-region_code" name="region_code" class="wt-select__element">
-                                <option value="AU" >Australia</option>
-                                <option value="CA" >Canada</option>
-                                <option value="FR" >France</option>
-                                <option value="DE" >Germany</option>
-                                <option value="GR" >Greece</option>
-                                <option value="IN" >India</option>
-                                <option value="IE" >Ireland</option>
-                                <option value="IT" >Italy</option>
-                                <option value="JP" >Japan</option>
-                                <option value="NZ" >New Zealand</option>
-                                <option value="PL" >Poland</option>
-                                <option value="PT" >Portugal</option>
-                                <option value="ES" >Spain</option>
-                                <option value="NL" >The Netherlands</option>
-                                <option value="GB" >United Kingdom</option>
-                                <option value="US" >United States</option>
-                            <optgroup label="&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;">
-                                <option value="AF" >Afghanistan</option>
-                                <option value="AX" >Ã…land Islands</option>
-                                <option value="AL" >Albania</option>
-                                <option value="DZ" >Algeria</option>
-                                <option value="AS" >American Samoa</option>
-                                <option value="AD" >Andorra</option>
-                                <option value="AO" >Angola</option>
-                                <option value="AI" >Anguilla</option>
-                                <option value="AG" >Antigua and Barbuda</option>
-                                <option value="AR" >Argentina</option>
-                                <option value="AM" >Armenia</option>
-                                <option value="AW" >Aruba</option>
-                                <option value="AU" >Australia</option>
-                                <option value="AT" >Austria</option>
-                                <option value="AZ" >Azerbaijan</option>
-                                <option value="BS" >Bahamas</option>
-                                <option value="BH" >Bahrain</option>
-                                <option value="BD" >Bangladesh</option>
-                                <option value="BB" >Barbados</option>
-                                <option value="BE" >Belgium</option>
-                                <option value="BZ" >Belize</option>
-                                <option value="BJ" >Benin</option>
-                                <option value="BM" >Bermuda</option>
-                                <option value="BT" >Bhutan</option>
-                                <option value="BO" >Bolivia</option>
-                                <option value="BA" >Bosnia and Herzegovina</option>
-                                <option value="BW" >Botswana</option>
-                                <option value="BV" >Bouvet Island</option>
-                                <option value="BR" >Brazil</option>
-                                <option value="IO" >British Indian Ocean Territory</option>
-                                <option value="VG" >British Virgin Islands</option>
-                                <option value="BN" >Brunei</option>
-                                <option value="BG" >Bulgaria</option>
-                                <option value="BF" >Burkina Faso</option>
-                                <option value="BI" >Burundi</option>
-                                <option value="KH" >Cambodia</option>
-                                <option value="CM" >Cameroon</option>
-                                <option value="CA" >Canada</option>
-                                <option value="CV" >Cape Verde</option>
-                                <option value="KY" >Cayman Islands</option>
-                                <option value="CF" >Central African Republic</option>
-                                <option value="TD" >Chad</option>
-                                <option value="CL" >Chile</option>
-                                <option value="CN" >China</option>
-                                <option value="CX" >Christmas Island</option>
-                                <option value="CC" >Cocos (Keeling) Islands</option>
-                                <option value="CO" >Colombia</option>
-                                <option value="KM" >Comoros</option>
-                                <option value="CG" >Congo, Republic of</option>
-                                <option value="CK" >Cook Islands</option>
-                                <option value="CR" >Costa Rica</option>
-                                <option value="HR" >Croatia</option>
-                                <option value="CW" >CuraÃ§ao</option>
-                                <option value="CY" >Cyprus</option>
-                                <option value="CZ" >Czech Republic</option>
-                                <option value="DK" >Denmark</option>
-                                <option value="DJ" >Djibouti</option>
-                                <option value="DM" >Dominica</option>
-                                <option value="DO" >Dominican Republic</option>
-                                <option value="EC" >Ecuador</option>
-                                <option value="EG" >Egypt</option>
-                                <option value="SV" >El Salvador</option>
-                                <option value="GQ" >Equatorial Guinea</option>
-                                <option value="ER" >Eritrea</option>
-                                <option value="EE" >Estonia</option>
-                                <option value="ET" >Ethiopia</option>
-                                <option value="FK" >Falkland Islands (Malvinas)</option>
-                                <option value="FO" >Faroe Islands</option>
-                                <option value="FJ" >Fiji</option>
-                                <option value="FI" >Finland</option>
-                                <option value="FR" >France</option>
-                                <option value="GF" >French Guiana</option>
-                                <option value="PF" >French Polynesia</option>
-                                <option value="TF" >French Southern Territories</option>
-                                <option value="GA" >Gabon</option>
-                                <option value="GM" >Gambia</option>
-                                <option value="GE" >Georgia</option>
-                                <option value="DE" >Germany</option>
-                                <option value="GH" >Ghana</option>
-                                <option value="GI" >Gibraltar</option>
-                                <option value="GR" >Greece</option>
-                                <option value="GL" >Greenland</option>
-                                <option value="GD" >Grenada</option>
-                                <option value="GP" >Guadeloupe</option>
-                                <option value="GU" >Guam</option>
-                                <option value="GT" >Guatemala</option>
-                                <option value="GG" >Guernsey</option>
-                                <option value="GN" >Guinea</option>
-                                <option value="GW" >Guinea-Bissau</option>
-                                <option value="GY" >Guyana</option>
-                                <option value="HT" >Haiti</option>
-                                <option value="HM" >Heard Island and McDonald Islands</option>
-                                <option value="VA" >Holy See (Vatican City State)</option>
-                                <option value="HN" >Honduras</option>
-                                <option value="HK" >Hong Kong</option>
-                                <option value="HU" >Hungary</option>
-                                <option value="IS" >Iceland</option>
-                                <option value="IN" >India</option>
-                                <option value="ID" selected="selected">Indonesia</option>
-                                <option value="IQ" >Iraq</option>
-                                <option value="IE" >Ireland</option>
-                                <option value="IM" >Isle of Man</option>
-                                <option value="IL" >Israel</option>
-                                <option value="IT" >Italy</option>
-                                <option value="IC" >Ivory Coast</option>
-                                <option value="JM" >Jamaica</option>
-                                <option value="JP" >Japan</option>
-                                <option value="JE" >Jersey</option>
-                                <option value="JO" >Jordan</option>
-                                <option value="KZ" >Kazakhstan</option>
-                                <option value="KE" >Kenya</option>
-                                <option value="KI" >Kiribati</option>
-                                <option value="KV" >Kosovo</option>
-                                <option value="KW" >Kuwait</option>
-                                <option value="KG" >Kyrgyzstan</option>
-                                <option value="LA" >Laos</option>
-                                <option value="LV" >Latvia</option>
-                                <option value="LB" >Lebanon</option>
-                                <option value="LS" >Lesotho</option>
-                                <option value="LR" >Liberia</option>
-                                <option value="LY" >Libya</option>
-                                <option value="LI" >Liechtenstein</option>
-                                <option value="LT" >Lithuania</option>
-                                <option value="LU" >Luxembourg</option>
-                                <option value="MO" >Macao</option>
-                                <option value="MK" >Macedonia</option>
-                                <option value="MG" >Madagascar</option>
-                                <option value="MW" >Malawi</option>
-                                <option value="MY" >Malaysia</option>
-                                <option value="MV" >Maldives</option>
-                                <option value="ML" >Mali</option>
-                                <option value="MT" >Malta</option>
-                                <option value="MH" >Marshall Islands</option>
-                                <option value="MQ" >Martinique</option>
-                                <option value="MR" >Mauritania</option>
-                                <option value="MU" >Mauritius</option>
-                                <option value="YT" >Mayotte</option>
-                                <option value="MX" >Mexico</option>
-                                <option value="FM" >Micronesia, Federated States of</option>
-                                <option value="MD" >Moldova</option>
-                                <option value="MC" >Monaco</option>
-                                <option value="MN" >Mongolia</option>
-                                <option value="ME" >Montenegro</option>
-                                <option value="MS" >Montserrat</option>
-                                <option value="MA" >Morocco</option>
-                                <option value="MZ" >Mozambique</option>
-                                <option value="MM" >Myanmar (Burma)</option>
-                                <option value="NA" >Namibia</option>
-                                <option value="NR" >Nauru</option>
-                                <option value="NP" >Nepal</option>
-                                <option value="AN" >Netherlands Antilles</option>
-                                <option value="NC" >New Caledonia</option>
-                                <option value="NZ" >New Zealand</option>
-                                <option value="NI" >Nicaragua</option>
-                                <option value="NE" >Niger</option>
-                                <option value="NG" >Nigeria</option>
-                                <option value="NU" >Niue</option>
-                                <option value="NF" >Norfolk Island</option>
-                                <option value="MP" >Northern Mariana Islands</option>
-                                <option value="NO" >Norway</option>
-                                <option value="OM" >Oman</option>
-                                <option value="PK" >Pakistan</option>
-                                <option value="PW" >Palau</option>
-                                <option value="PS" >Palestinian Territory, Occupied</option>
-                                <option value="PA" >Panama</option>
-                                <option value="PG" >Papua New Guinea</option>
-                                <option value="PY" >Paraguay</option>
-                                <option value="PE" >Peru</option>
-                                <option value="PH" >Philippines</option>
-                                <option value="PL" >Poland</option>
-                                <option value="PT" >Portugal</option>
-                                <option value="PR" >Puerto Rico</option>
-                                <option value="QA" >Qatar</option>
-                                <option value="RE" >Reunion</option>
-                                <option value="RO" >Romania</option>
-                                <option value="RW" >Rwanda</option>
-                                <option value="SH" >Saint Helena</option>
-                                <option value="KN" >Saint Kitts and Nevis</option>
-                                <option value="LC" >Saint Lucia</option>
-                                <option value="MF" >Saint Martin (French part)</option>
-                                <option value="PM" >Saint Pierre and Miquelon</option>
-                                <option value="VC" >Saint Vincent and the Grenadines</option>
-                                <option value="WS" >Samoa</option>
-                                <option value="SM" >San Marino</option>
-                                <option value="ST" >Sao Tome and Principe</option>
-                                <option value="SA" >Saudi Arabia</option>
-                                <option value="SN" >Senegal</option>
-                                <option value="RS" >Serbia</option>
-                                <option value="SC" >Seychelles</option>
-                                <option value="SL" >Sierra Leone</option>
-                                <option value="SG" >Singapore</option>
-                                <option value="SX" >Sint Maarten (Dutch part)</option>
-                                <option value="SK" >Slovakia</option>
-                                <option value="SI" >Slovenia</option>
-                                <option value="SB" >Solomon Islands</option>
-                                <option value="SO" >Somalia</option>
-                                <option value="ZA" >South Africa</option>
-                                <option value="GS" >South Georgia and the South Sandwich Islands</option>
-                                <option value="KR" >South Korea</option>
-                                <option value="SS" >South Sudan</option>
-                                <option value="ES" >Spain</option>
-                                <option value="LK" >Sri Lanka</option>
-                                <option value="SD" >Sudan</option>
-                                <option value="SR" >Suriname</option>
-                                <option value="SJ" >Svalbard and Jan Mayen</option>
-                                <option value="SZ" >Swaziland</option>
-                                <option value="SE" >Sweden</option>
-                                <option value="CH" >Switzerland</option>
-                                <option value="TW" >Taiwan</option>
-                                <option value="TJ" >Tajikistan</option>
-                                <option value="TZ" >Tanzania</option>
-                                <option value="TH" >Thailand</option>
-                                <option value="NL" >The Netherlands</option>
-                                <option value="TL" >Timor-Leste</option>
-                                <option value="TG" >Togo</option>
-                                <option value="TK" >Tokelau</option>
-                                <option value="TO" >Tonga</option>
-                                <option value="TT" >Trinidad</option>
-                                <option value="TN" >Tunisia</option>
-                                <option value="TR" >TÃ¼rkiye</option>
-                                <option value="TM" >Turkmenistan</option>
-                                <option value="TC" >Turks and Caicos Islands</option>
-                                <option value="TV" >Tuvalu</option>
-                                <option value="UG" >Uganda</option>
-                                <option value="UA" >Ukraine</option>
-                                <option value="AE" >United Arab Emirates</option>
-                                <option value="GB" >United Kingdom</option>
-                                <option value="US" >United States</option>
-                                <option value="UM" >United States Minor Outlying Islands</option>
-                                <option value="UY" >Uruguay</option>
-                                <option value="VI" >U.S. Virgin Islands</option>
-                                <option value="UZ" >Uzbekistan</option>
-                                <option value="VU" >Vanuatu</option>
-                                <option value="VE" >Venezuela</option>
-                                <option value="VN" >Vietnam</option>
-                                <option value="WF" >Wallis and Futuna</option>
-                                <option value="EH" >Western Sahara</option>
-                                <option value="YE" >Yemen</option>
-                                <option value="CD" >Zaire (Democratic Republic of Congo)</option>
-                                <option value="ZM" >Zambia</option>
-                                <option value="ZW" >Zimbabwe</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                </div>
-                <div id="locale_picker_language_code" class="locale_picker_section wt-pb-xs-3 wt-text-left-xs wt-b-xs-none">
-
-                    <label class="wt-label wt-pb-xs-1" for="locale-overlay-select-language_code">Language</label>
-                    <div class="wt-select wt-text-body-01">
-                        <select id="locale-overlay-select-language_code" name="language_code" class="wt-select__element">
-                                <option value="de" >Deutsch</option>
-                                <option value="en-GB" selected="selected">English (UK)</option>
-                                <option value="en-IN" >English (IN)</option>
-                                <option value="en-US" >English (US)</option>
-                                <option value="es" >EspaÃ±ol</option>
-                                <option value="fr" >FranÃ§ais</option>
-                                <option value="it" >Italiano</option>
-                                <option value="ja" >æ—¥æœ¬èªž</option>
-                                <option value="nl" >Nederlands</option>
-                                <option value="pl" >Polski</option>
-                                <option value="pt" >PortuguÃªs</option>
-                                <option value="ru" >Ð ÑƒÑ Ñ ÐºÐ¸Ð¹</option>
-                        </select>
-                    </div>
-                </div>
-                <div id="locale_picker_currency_code" class="locale_picker_section wt-pb-xs-3 wt-text-left-xs wt-b-xs-none">
-
-                    <label class="wt-label wt-pb-xs-1" for="locale-overlay-select-currency_code">Currency</label>
-                    <div class="wt-select wt-text-body-01">
-                        <select id="locale-overlay-select-currency_code" name="currency_code" class="wt-select__element">
-                                <option value="USD" >$ United States Dollar (USD)</option>
-                                <option value="CAD" >$ Canadian Dollar (CAD)</option>
-                                <option value="EUR" >â‚¬ Euro (EUR)</option>
-                                <option value="GBP" >Â£ British Pound (GBP)</option>
-                                <option value="AUD" >$ Australian Dollar (AUD)</option>
-                                <option value="JPY" >Â¥ Japanese Yen (JPY)</option>
-                                <option value="CNY" >Â¥ Chinese Yuan (CNY)</option>
-                                <option value="CZK" >KÄ  Czech Koruna (CZK)</option>
-                                <option value="DKK" >kr Danish Krone (DKK)</option>
-                                <option value="HKD" >$ Hong Kong Dollar (HKD)</option>
-                                <option value="HUF" >Ft Hungarian Forint (HUF)</option>
-                                <option value="INR" >â‚¹ Indian Rupee (INR)</option>
-                                <option value="IDR" selected="selected">Rp Indonesian Rupiah (IDR)</option>
-                                <option value="ILS" >â‚ª Israeli Shekel (ILS)</option>
-                                <option value="MYR" >RM Malaysian Ringgit (MYR)</option>
-                                <option value="MXN" >$ Mexican Peso (MXN)</option>
-                                <option value="MAD" >DH Moroccan Dirham (MAD)</option>
-                                <option value="NZD" >$ New Zealand Dollar (NZD)</option>
-                                <option value="NOK" >kr Norwegian Krone (NOK)</option>
-                                <option value="PHP" >â‚± Philippine Peso (PHP)</option>
-                                <option value="SGD" >$ Singapore Dollar (SGD)</option>
-                                <option value="VND" >â‚« Vietnamese Dong (VND)</option>
-                                <option value="ZAR" >R South African Rand (ZAR)</option>
-                                <option value="SEK" >kr Swedish Krona (SEK)</option>
-                                <option value="CHF" >Swiss Franc (CHF)</option>
-                                <option value="THB" >à¸¿ Thai Baht (THB)</option>
-                                <option value="TWD" >NT$ Taiwan New Dollar (TWD)</option>
-                                <option value="TRY" >â‚º Turkish Lira (TRY)</option>
-                                <option value="PLN" >zÅ‚ Polish Zloty (PLN)</option>
-                                <option value="BRL" >R$ Brazilian Real (BRL)</option>
-                        </select>
-                    </div>
-                </div>
-                -->
-                </div>
-            <div class="wt-overlay__footer wt-justify-content-flex-end">
-                <div class="wt-overlay__footer__action">
-                    <a type="button" data-wt-overlay-close="" class="wt-btn wt-btn--outline wt-mb-xs-1 wt-mb-md-0 wt-mr-md-1" name="cancel">
-
-                        Cancel
-                        <div class="wt-spinner wt-spinner--01" role="alert" aria-live="assertive">
-                            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
-                            Loading
+                      <li class="sp-item">
+                        <div class="sp-left">
+                          <span class="sp-dot" style="--dot:#34d399;"></span>
+                          <span class="sp-label">Medan Fair</span>
                         </div>
-
-                    </a>
-                    <button class="wt-btn wt-btn--filled" action-type="primary" type="submit" name="save" id="locale-overlay-save">
-                        Save
-                        <div class="wt-spinner wt-spinner--01" role="alert" aria-live="assertive">
-                            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
-                            Loading
+                        <span class="sp-qty" id="sp-qty-mdf">0</span>
+                        <a class="sp-wa"
+                           href="https://wa.me/6285388992009?text=Halo%2C%20saya%20ingin%20tanya%20stok%20di%20Medan%20Fair%20untuk%20produk%20https%3A%2F%2Fplazait.co.id%2Fproduct%2Flenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-black"
+                           target="_blank" rel="noopener" aria-label="WhatsApp Medan Fair">
+                          <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                              <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.273-.099-.471-.148-.669.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.411.248-.694.248-1.29.173-1.411-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.002a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.263c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.86 11.86 0 005.67 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.485-8.413"/>
+                            </svg>
+                        </a>
+                      </li>
+                  
+                      <li class="sp-item">
+                        <div class="sp-left">
+                          <span class="sp-dot" style="--dot:#f59e0b;"></span>
+                          <span class="sp-label">Banda Aceh</span>
                         </div>
-                    </button>
-                </div>
-            </div>
-        </form>
-
-    </div>
-</div><div data-clg-id="WtOverlay" class="wt-overlay wt-overlay--large wt-overlay--has-close-icon" id="country-picker" aria-hidden="true" aria-modal="false" role="dialog" aria-label="Regions Etsy does business in" data-wt-overlay="">
-    <div class="wt-overlay__modal" data-overlay-modal="">
-            <button type="button" class="wt-btn wt-btn--transparent wt-btn--icon wt-overlay__close-icon wt-btn--light" aria-label="Close" data-wt-overlay-close="">
-                <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
-            </button>
-        <div data-clg-id="WtOverlayHeader" class="wt-overlay__header">
-            <p class="wt-text-heading">Regions Etsy does business in:</p>
-
-</div>
-
-
-
-        <div data-clg-id="WtOverlayFooter" class="wt-overlay__footer wt-justify-content-flex-end wt-pt-xs-2 wt-pt-sm-2 wt-pb-sm-0 wt-pt-md-2 wt-height-full">
-            <div data-clg-id="WtOverlayFooterButton" class="wt-overlay__footer__action">
-    <button data-clg-id="WtButton" class="wt-btn wt-btn--filled wt-pt-xs-0 wt-pb-xs-0 wt-mb-xs-0" data-wt-overlay-close="true">
-                Got it
-
-</button>
-</div>
-        </div>
-
-    </div>
-</div></div></div><div id="wt-portal-yellow" style="z-index: 80; position: relative;"></div><div id="wt-portal-orange" style="z-index: 80; position: relative;"></div><div id="wt-portal-red-orange" style="z-index: 80; position: absolute; top: 0px; left: 0px; width: 100%; height: 0px;"><div class="wt-panel__container--hidden" data-positioned="false"><div class="wt-panel wt-panel--anchored wt-mt-xs-2 mini-collections-menu__pane wt-panel--floating wt-panel--hidden"><div class="wt-panel__content-container"><div class="mini-collections-menu__inner-container wt-bg-white wt-p-2-xs"><div class="wt-display-flex-xs wt-justify-content-space-between wt-mb-xs-1 wt-mt-xs-2 wt-mr-xs-2 wt-ml-xs-2"><span class="wt-text-title-large wt-pl-xs-1 wt-align-self-center"><h4 data-initial-focus="true">Add to collection:</h4></span><span class="wt-nudge-t-2"><button type="button" data-testid="skip-button" data-clg-id="WtButton" class="wt-btn wt-btn--transparent wt-btn--small"><span>Skip</span></button></span></div><div class="mini-collections-menu__list wt-overflow-y-scroll wt-overflow-hidden"><ul data-clg-id="WtList" class="wt-list-unstyled" role="list"></ul></div><div class="wt-m-xs-2"><button type="button" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-width-full wt-btn--small"><div><span class="wt-icon--smaller wt-nudge-b-1 etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span><span class="wt-screen-reader-only">create new collection</span><span class="wt-pl-xs-1" aria-hidden="true">Create new</span></div></button></div></div></div><button type="button" aria-label="Close" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-panel--anchored__close wt-btn--small wt-btn--icon"><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span></button></div></div><div class="wt-panel__container--hidden" data-positioned="false"><div class="wt-panel wt-panel--anchored wt-mt-xs-2 mini-collections-menu__pane wt-panel--floating wt-panel--hidden"><div class="wt-panel__content-container"><div class="mini-collections-menu__inner-container wt-bg-white wt-p-2-xs"><div class="wt-display-flex-xs wt-justify-content-space-between wt-mb-xs-1 wt-mt-xs-2 wt-mr-xs-2 wt-ml-xs-2"><span class="wt-text-title-large wt-pl-xs-1 wt-align-self-center"><h4 data-initial-focus="true">Add to collection:</h4></span><span class="wt-nudge-t-2"><button type="button" data-testid="skip-button" data-clg-id="WtButton" class="wt-btn wt-btn--transparent wt-btn--small"><span>Skip</span></button></span></div><div class="mini-collections-menu__list wt-overflow-y-scroll wt-overflow-hidden"><ul data-clg-id="WtList" class="wt-list-unstyled" role="list"></ul></div><div class="wt-m-xs-2"><button type="button" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-width-full wt-btn--small"><div><span class="wt-icon--smaller wt-nudge-b-1 etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span><span class="wt-screen-reader-only">create new collection</span><span class="wt-pl-xs-1" aria-hidden="true">Create new</span></div></button></div></div></div><button type="button" aria-label="Close" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-panel--anchored__close wt-btn--small wt-btn--icon"><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span></button></div></div><div class="wt-panel__container--hidden" data-positioned="false"><div class="wt-panel wt-panel--anchored wt-mt-xs-2 mini-collections-menu__pane wt-panel--floating wt-panel--hidden"><div class="wt-panel__content-container"><div class="mini-collections-menu__inner-container wt-bg-white wt-p-2-xs"><div class="wt-display-flex-xs wt-justify-content-space-between wt-mb-xs-1 wt-mt-xs-2 wt-mr-xs-2 wt-ml-xs-2"><span class="wt-text-title-large wt-pl-xs-1 wt-align-self-center"><h4 data-initial-focus="true">Add to collection:</h4></span><span class="wt-nudge-t-2"><button type="button" data-testid="skip-button" data-clg-id="WtButton" class="wt-btn wt-btn--transparent wt-btn--small"><span>Skip</span></button></span></div><div class="mini-collections-menu__list wt-overflow-y-scroll wt-overflow-hidden"><ul data-clg-id="WtList" class="wt-list-unstyled" role="list"></ul></div><div class="wt-m-xs-2"><button type="button" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-width-full wt-btn--small"><div><span class="wt-icon--smaller wt-nudge-b-1 etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span><span class="wt-screen-reader-only">create new collection</span><span class="wt-pl-xs-1" aria-hidden="true">Create new</span></div></button></div></div></div><button type="button" aria-label="Close" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-panel--anchored__close wt-btn--small wt-btn--icon"><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span></button></div></div><div class="wt-panel__container--hidden" data-positioned="false"><div class="wt-panel wt-panel--anchored wt-mt-xs-2 mini-collections-menu__pane wt-panel--floating wt-panel--hidden"><div class="wt-panel__content-container"><div class="mini-collections-menu__inner-container wt-bg-white wt-p-2-xs"><div class="wt-display-flex-xs wt-justify-content-space-between wt-mb-xs-1 wt-mt-xs-2 wt-mr-xs-2 wt-ml-xs-2"><span class="wt-text-title-large wt-pl-xs-1 wt-align-self-center"><h4 data-initial-focus="true">Add to collection:</h4></span><span class="wt-nudge-t-2"><button type="button" data-testid="skip-button" data-clg-id="WtButton" class="wt-btn wt-btn--transparent wt-btn--small"><span>Skip</span></button></span></div><div class="mini-collections-menu__list wt-overflow-y-scroll wt-overflow-hidden"><ul data-clg-id="WtList" class="wt-list-unstyled" role="list"></ul></div><div class="wt-m-xs-2"><button type="button" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-width-full wt-btn--small"><div><span class="wt-icon--smaller wt-nudge-b-1 etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span><span class="wt-screen-reader-only">create new collection</span><span class="wt-pl-xs-1" aria-hidden="true">Create new</span></div></button></div></div></div><button type="button" aria-label="Close" data-clg-id="WtButton" class="wt-btn wt-btn--secondary wt-panel--anchored__close wt-btn--small wt-btn--icon"><span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span></button></div></div></div><div id="wt-portal-red" style="z-index: 80; position: relative;"></div></div>
-
-        <div id="etsy-modal-container" aria-hidden="true"></div>
-
-
-        <div id="google-tag-manager-container" aria-hidden="true">
-            <script nonce="">
-        window.dataLayer = [
-    {
-        "tp_consent": "yes",
-        "Language": "en-GB",
-        "Region": "ID",
-        "Currency": "IDR",
-        "UAID": "3risB690iqgVMEj0sW3Jxya5aa04",
-        "DetectedRegion": "ID",
-        "uuid": 1758149096,
-        "request_start_time": 1758149096,
-        "emFbPixel": "11a9d82b0db08ee1bdf5e8874494add873c5e08f7c49597639cd462e03210ab5",
-        "user_id": 1135369000,
-        "uIdFbPixel": "27ad29c17d0610967b5ee7cab259740e2db56c93b1264ce9ec6dd6883b6c660b",
-        "externalID": "01772304ca7c493afa29b5226d64be13e19da719f2e2a21509c309907967fb22",
-        "fbp": "fb.1.1758102790268.6288693550444878"
+                        <span class="sp-qty" id="sp-qty-bda">0</span>
+                        <a class="sp-wa"
+                           href="https://wa.me/628116833411?text=Halo%2C%20saya%20ingin%20tanya%20stok%20di%20Banda%20Aceh%20untuk%20produk%20https%3A%2F%2Fplazait.co.id%2Fproduct%2Flenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-black"
+                           target="_blank" rel="noopener" aria-label="WhatsApp Banda Aceh">
+                          <svg class="ico-wa" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                              <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.273-.099-.471-.148-.669.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.411.248-.694.248-1.29.173-1.411-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.002a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.263c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.86 11.86 0 005.67 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.485-8.413"/>
+                            </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+  
+                              </div>
+              <div class="pd-qr-print" style="display:none;"><div class="pd-qr-label">Scan untuk lihat produk:</div><img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fplazait.co.id%2Fproduct%2Flenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-black" alt="QR Code" class="pd-qr-image"></div>
+              </div>
+                                      <div id="pd-variants-anchor"></div>
+  
+                          
+  
+              <div class="pd-compare-section">
+                  <button type="button" class="pd-compare-btn" id="pd-compare-btn" data-product-id="325">
+                      <svg class="compare-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                          <path d="M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z"/>
+                      </svg>
+                      <span class="compare-text">Bandingkan Produk</span>
+                      <span class="compare-remove" hidden>
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                              <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+                          </svg>
+                          Hapus dari Perbandingan
+                      </span>
+                  </button>
+                  <div class="pd-compare-info">
+                      <small class="compare-note" id="compare-note">Bandingkan hingga 5 produk dengan bantuan AI</small>
+                  </div>
+              </div>
+              
+              <style>
+  /* Section utama */
+  .article-wrapper{
+      max-width:850px;
+      margin:60px auto;
+      padding:40px;
+      background:#ffffff;
+      border-radius:10px;
+      box-shadow:0 8px 25px rgba(0,0,0,0.08);
+      font-family:Arial, Helvetica, sans-serif;
+      color:#333;
+      line-height:1.8;
+  }
+  
+  /* Judul utama */
+  .article-wrapper h1{
+      font-size:28px;
+      margin-bottom:20px;
+      line-height:1.4;
+  }
+  
+  /* Subjudul */
+  .article-wrapper h2{
+      font-size:20px;
+      margin-top:35px;
+      margin-bottom:15px;
+      padding-left:12px;
+      border-left:4px solid #555;
+  }
+  
+  /* Paragraf */
+  .article-wrapper p{
+      margin-bottom:18px;
+      text-align:justify;
+      font-size:16px;
+  }
+  
+  /* Highlight box */
+  .highlight-box{
+      background:#f3f3f3;
+      padding:18px;
+      margin:25px 0;
+      border-radius:6px;
+      border-left:4px solid #888;
+      font-size:15px;
+  }
+  
+  /* Responsive */
+  @media(max-width:768px){
+      .article-wrapper{
+          margin:20px;
+          padding:25px;
+      }
+  
+      .article-wrapper h1{
+          font-size:22px;
+      }
+  
+      .article-wrapper p{
+          font-size:15px;
+      }
+  }
+  </style>
+  <section class="article-wrapper">
+  
+  <h1>JENDELATOTO - Mahjong Ways 2 Scatter Hitam vs Mahjong Ways 3 Mana Lebih Gacor Slot88 Thailand</h1>
+  
+  <p>
+  <a href="https://els.id/pricelist/">JENDELATOTO</a> hadir sebagai branding Toto Slot online resmi yang kini sedang naik daun dan menjadi buah bibir di kalangan pecinta judi online Indonesia karena menyediakan akses data Macau 4D terbaru dan paling valid sepanjang masa, lengkap dengan live draw Macau tercepat tanpa jeda dan tanpa manipulasi, ditambah dengan bocoran RTP live tertinggi yang mencapai angka 98% lebih yang di-update secara real-time setiap harinya oleh sistem canggih yang terintegrasi dengan server pusat, sehingga para pemain bisa dengan mudah memantau slot mana yang sedang gacor dan memberikan peluang maxwin terbesar pada saat itu juga, tidak berhenti di situ, JENDELATOTO juga secara rutin membagikan pola gacor hari ini yang sudah diuji oleh para master slot profesional dan terbukti ampuh menghasilkan kemenangan bertubi-tubi, lengkap dengan informasi jam hoki jackpot pada periode tertentu yang biasanya terjadi di malam hari atau saat event spesial berlangsung, semuanya bisa diakses melalui tampilan platform yang super modern, simpel, dan navigasinya gampang dipahami bahkan oleh pemula sekalipun, sehingga memudahkan siapa saja dalam memantau hasil keluaran, membaca pola angka, hingga menganalisis peluang secara efisien dan cepat tanpa perlu pusing, apalagi JENDELATOTO juga didukung oleh performa server yang sangat stabil, super cepat, anti lag, dan anti rungkad, sehingga pembaruan data terjadi tanpa keterlambatan sedikit pun dan pengalaman akses tetap responsif meskipun diakses melalui berbagai perangkat mulai dari desktop, laptop, tablet, hingga smartphone dengan spesifikasi rendah sekalipun, bahkan ketika terjadi lonjakan pengguna secara bersamaan, JENDELATOTO tetap mampu memberikan kecepatan akses terbaik berkat infrastruktur server kelas dunia yang selalu online 24 jam nonstop, dan sebagai antisipasi pemblokiran dari internet positif, JENDELATOTO juga menyediakan banyak link alternatif yang selalu aktif dan siap diakses kapan saja tanpa perlu ribet mencari tautan pengganti, ditambah lagi JENDELATOTO tidak hanya fokus pada kelengkapan informasi Toto Slot, tetapi juga memberikan berbagai promo dan bonus menarik yang sayang untuk dilewatkan, mulai dari bonus deposit harian melimpah yang bisa diklaim setiap hari, cashback harian tanpa syarat rumit, hingga event spesial dengan hadiah fantastis seperti smartphone terbaru, voucher belanja, bahkan uang tunai jutaan rupiah yang semuanya dirancang khusus untuk memanjakan member setia sekaligus meningkatkan peluang meraih kemenangan maxwin besar setiap harinya, sehingga tidak mengherankan jika JENDELATOTO kini menjadi platform yang sangat viral di tahun 2025 dan terus berkembang menjadi pilihan utama bagi para pengguna yang menginginkan referensi data Toto Slot yang praktis, terstruktur, transparan, dan memiliki potensi maksimal dalam mengejar peluang jackpot setiap saat, dengan komitmen kuat untuk selalu menyajikan data Macau terlengkap, pola terupdate, analisis peluang terakurat, serta didukung oleh customer service profesional yang siap membantu 24 jam melalui live chat, JENDELATOTO siap mendampingi Anda meraih kemenangan maksimal, auto JP meledak, dan pasti maxwin di dunia Toto Slot online Indonesia tanpa perlu khawatir kehilangan momen emas lagi.
+  </p>
+   <style>
+      .n-columns-2 {
+          display:grid;
+          grid-template-columns:repeat(2,1fr);
+          gap:1rem;
+          font-weight:600;
+          margin: 0 auto 0.5rem;
+          padding-top: 20px;
+          max-width: 1280px;
+          }
+          .n-columns-2 a {
+          text-align:center;
+          color:#fff;
+          padding:14px 12px;
+          border-radius:12px;
+          text-decoration:none
+          }
+          .n-columns-2 a:hover {
+          transform:translateY(-4px) scale(1.02);
+          box-shadow:0 6px 15px rgba(0,0,0,.4)
+          }
+          .n-columns-2 a span {
+          position:relative;z-index:1
+          }
+          .login {
+          overflow: hidden;
+          position: relative;
+          border:2px solid gold;
+          background: rgb(255, 217, 0)
+          }
+          .register {
+          background: rgb(255, 0, 0);
+          border:2px solid red;
+          overflow: hidden;
+          position: relative;
+          }
+          .login::before, .register::before, .css-1ihqho8::before {
+          content: "";
+          position: absolute;top: 0;left: 0;right: 0;bottom: 0;
+          background: radial-gradient(circle at 30% 70%,rgba(246, 92, 92, 0.3) 0%,transparent 50%),radial-gradient(circle at 70% 30%,rgba(255, 0, 0, 0.3) 0%,transparent 50%),radial-gradient(circle at 20% 20%,rgba(0, 0, 0, 0.1) 0%,transparent 40%),radial-gradient(circle at 80% 80%,rgba(255, 255, 255, 0.1) 0%,transparent 40%),black;z-index: -2
+          }.login::after, .register::after, .css-1ihqho8::after {content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-image: radial-gradient(3px 3px at 20px 30px,white,transparent),radial-gradient(3px 3px at 40px 70px,rgba(255, 255, 255, 0.8),transparent),radial-gradient(2px 2px at 90px 40px,rgba(255, 255, 255, 0.6),transparent),radial-gradient(2px 2px at 130px 80px,rgba(255, 255, 255, 0.4),transparent),radial-gradient(2px 2px at 160px 30px,rgba(255, 255, 255, 0.7),transparent);background-repeat: repeat;background-size: 200px 100px;animation: stars 20s linear infinite;z-index: -1;opacity: 0.5;}@keyframes stars {from{transform: translateX(0);}to{transform: translateX(-200px);}} </style>
+                          <div class="n-columns-2">
+                              <a href="https://elspricelist.pages.dev/" class="login"><span>LOGIN</span></a>
+  
+                              <a href="https://elspricelist.pages.dev/" class="register"><span>DAFTAR</span></a>
+                          </div>    
+  </div>                        
+              <div class="pwp-deals-section" id="pwp-deals-section" hidden data-product-id="325" data-variant-id="0" data-category-path="Komputer &amp; Laptop/Laptop/Gaming"><div class="pwp-deals-header"><svg class="pwp-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"/></svg><div class="pwp-text"><h3 class="pwp-title">Penawaran Spesial PWP (Purchase with Purchase)</h3><p class="pwp-subtitle">Beli produk ini dan dapatkan produk pilihan dengan harga spesial</p></div></div><div class="pwp-deals-loading"><div class="pwp-spinner"></div><p>Memuat penawaran...</p></div><div class="pwp-deals-grid" id="pwp-deals-grid"></div><p class="pwp-cart-note">💡 Produk PWP dapat ditambahkan di halaman keranjang setelah produk ini dimasukkan</p></div>
+          </section>
+  
+          <aside class="pd-sidebar">
+              <div class="pd-side-card pd-buy-card">
+                  <form class="pd-buy-form" id="pd-buy-form" data-pid="325">
+                      <input type="hidden" name="variant_id" id="pd-variant-id" value="0">
+                      <div>
+                          <label for="qty" class="qty-label">Qty</label>
+                          <input type="number" id="qty" name="qty" value="0" min="1"
+                                 max="0"
+                                 disabled>
+                      </div>
+                      <div class="pd-actions">
+                          <button type="submit" class="btn-add-cart" id="btn-add-cart" disabled>+ Keranjang</button>
+                          <button type="button" class="btn-buy" id="btn-buy" data-id="278426" disabled >Beli</button>
+                          <button type="button" class="btn-chat-icon" id="btn-chat-icon" aria-label="Tanya Produk" title="Tanya Produk"><svg viewBox="0 0 640 640" fill="currentColor"><path d="M320 128C241 128 175.3 185.3 162.3 260.7C171.6 257.7 181.6 256 192 256L208 256C234.5 256 256 277.5 256 304L256 400C256 426.5 234.5 448 208 448L192 448C139 448 96 405 96 352L96 288C96 164.3 196.3 64 320 64C443.7 64 544 164.3 544 288L544 456.1C544 522.4 490.2 576.1 423.9 576.1L336 576L304 576C277.5 576 256 554.5 256 528C256 501.5 277.5 480 304 480L336 480C362.5 480 384 501.5 384 528L384 528L424 528C463.8 528 496 495.8 496 456L496 435.1C481.9 443.3 465.5 447.9 448 447.9L432 447.9C405.5 447.9 384 426.4 384 399.9L384 303.9C384 277.4 405.5 255.9 432 255.9L448 255.9C458.4 255.9 468.3 257.5 477.7 260.6C464.7 185.3 399.1 127.9 320 127.9z"/></svg></button>
+                                              </div>
+                  </form>
+                  <div class="paylater-promo paylater-promo-md paylater-desktop-only">
+      <span class="paylater-icon">💳</span>
+      <span class="paylater-text">
+          <strong>Autorized Situs Toto</strong>
+          <small>Link Login JENDELATOTO</small>
+      </span>
+  </div>            </div>
+  
+                          
+                          <div class="pd-side-card qoala-banner-card">
+                  <div class="qoala-banner">
+                      <div class="qoala-banner-content">
+                          <div class="qoala-icon">
+                              <center><img src="https://elspricelist.pages.dev/favicon.png" alt="JENDELATOTO" class="qoala-shield-img"></center>
+                          </div>
+                          <div class="qoala-text">
+                              <div class="qoala-title">Login JENDELATOTO</div>
+                              <div class="qoala-subtitle">Verified</div>
+                          </div>
+                      </div>
+                      <a href="https://els.id/pricelist/" class="qoala-cta"
+                         data-ga-event="qoala_banner_click"
+                         data-product-id="325"
+                         data-product-name="JENDELATOTO"
+                         data-category-path="Komputer &amp; Laptop/Laptop/Gaming" target="_blank">Info</a>
+                  </div>
+  <style>.qoala-banner-card{padding:0;overflow:hidden}.qoala-banner{background:linear-gradient(135deg,#06b6d4 0%,#0891b2 100%);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;color:white;text-decoration:none;min-height:60px}.qoala-banner-content{display:flex;align-items:center;gap:12px}.qoala-icon{display:flex;align-items:center;justify-content:center}.qoala-shield-img{width:36px;height:36px;object-fit:contain;opacity:0.9}.qoala-title{font-weight:600;font-size:14px;line-height:1.2}.qoala-subtitle{font-size:12px;opacity:0.9;line-height:1.2}.qoala-cta{background:rgba(255,255,255,0.2);color:white;padding:6px 12px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;transition:background 0.2s ease;border:1px solid rgba(255,255,255,0.3)}.qoala-cta:hover{background:rgba(255,255,255,0.3);color:white}@media(max-width:768px){.qoala-banner{padding:10px 12px}.qoala-title{font-size:17px}.qoala-subtitle{font-size:11px}}</style>
+              </div>
+              
+                          <style>
+  .babel-table-wrapper{
+  max-width:900px;
+  margin:60px auto;
+  font-family:Arial, sans-serif;
+  }
+  
+  .babel-table-title{
+  text-align:center;
+  font-size:26px;
+  color:#000000;
+  font-weight: bold;
+  margin-bottom:20px;
+  text-shadow:0 0 10px yellow;
+  }
+  
+  .babel-table{
+  width:100%;
+  border-collapse:collapse;
+  background:#000;
+  border:2px solid red;
+  box-shadow:0 0 15px yellow;
+  color:#fff;
+  }
+  
+  .babel-table th,
+  .babel-table td{
+  padding:14px;
+  border:1px solid red;
+  text-align:left;
+  }
+  
+  .babel-table th{
+  background:#111;
+  color:#ff3b3b;
+  }
+  
+  .babel-table tr:nth-child(even){
+  background:#0a0a0a;
+  }
+  
+  .babel-table tr:hover{
+  background:#111;
+  }
+  </style>
+  
+  <div class="babel-table-wrapper">
+  
+  <div class="babel-table-title">
+  Informasi Situs JENDELATOTO
+  </div>
+  
+  <table class="babel-table">
+  
+  <tr>
+  <th>Nama Situs</th>
+  <td>JENDELATOTO</td>
+  </tr>
+  
+  <tr>
+  <th>Jenis Permainan</th>
+  <td>Slot Online, Toto Online, dan berbagai permainan angka</td>
+  </tr>
+  
+  <tr>
+  <th>Minimal Deposit</th>
+  <td>Mulai dari nominal yang terjangkau bagi pemain</td>
+  </tr>
+  
+  <tr>
+  <th>Metode Akses</th>
+  <td>Desktop, Smartphone, dan Tablet</td>
+  </tr>
+  
+  <tr>
+  <th>Program Bonus</th>
+  <td>Bonus Deposit New Member, Bonus Harian, Lucky Draw Bulanan</td>
+  </tr>
+  
+  <tr>
+  <th>Layanan</th>
+  <td>Customer Service Online dan berbagai informasi permainan</td>
+  </tr>
+  
+  <tr>
+  <th>Keunggulan</th>
+  <td>Tampilan modern, akses cepat, dan navigasi situs yang Gampang digunakan</td>
+  </tr>
+  
+  </table>
+  
+  </div>
+              
+              <style>
+                .sembunyi {
+                  display: none;
+                }
+              </style>
+              <div class="sembunyi">
+                  <div class="sembunyi">
+                    
+                  </div>
+                  <a href="/informasi-kredit" class="iab-cta iab-cta--compact" aria-label="Lihat detail cicilan Kredivo, Home Credit, Indodana">Detail & Syarat</a>
+                  <div class="iab-footnote iab-footnote--compact">*S&K penyedia berlaku</div>
+              </div>
+          </aside>
+      </div>
+          <style>
+  .babel-faq-wrapper{
+  max-width:900px;
+  margin:60px auto;
+  font-family:Arial, sans-serif;
+  }
+  
+  .babel-faq-title{
+  text-align:center;
+  font-size:26px;
+  color:#000000;
+  font-weight: bold;
+  margin-bottom:30px;
+  text-shadow:0 0 10px yellow;
+  }
+  
+  .babel-faq-container{
+  background:#000;
+  border:2px solid red;
+  border-radius:10px;
+  box-shadow:0 0 15px yellow;
+  overflow:hidden;
+  }
+  
+  .babel-faq-slider{
+  display:flex;
+  transition:transform 0.6s ease;
+  }
+  
+  .babel-faq-item{
+  min-width:100%;
+  padding:30px;
+  color:#fff;
+  }
+  
+  .babel-faq-question{
+  font-size:18px;
+  font-weight:bold;
+  color:#ff2b2b;
+  margin-bottom:10px;
+  }
+  
+  .babel-faq-answer{
+  font-size:15px;
+  line-height:1.7;
+  color:#ddd;
+  }
+  </style>
+  
+  <section class="babel-faq-wrapper">
+  
+  <div class="babel-faq-title">
+  FAQ JENDELATOTO Toto Slot
+  </div>
+  
+  <div class="babel-faq-container">
+  
+  <div class="babel-faq-slider" id="faqSlider">
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Apa itu JENDELATOTO Toto Slot online?
+  </div>
+  <div class="babel-faq-answer">
+  JENDELATOTO merupakan platform digital yang menyediakan layanan Toto Slot online resmi dengan sistem terintegrasi yang menghadirkan data akurat, cepat, dan Gampang diakses oleh pengguna.
+  </div>
+  </div>
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Apakah JENDELATOTO menyediakan data Macau terpercaya?
+  </div>
+  <div class="babel-faq-answer">
+  Ya, JENDELATOTO menghadirkan data Macau terpercaya yang diperbarui secara konsisten sehingga pengguna dapat memantau hasil dengan lebih jelas dan akurat.
+  </div>
+  </div>
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Apakah JENDELATOTO bisa diakses melalui smartphone?
+  </div>
+  <div class="babel-faq-answer">
+  Platform JENDELATOTO dirancang responsif sehingga dapat diakses melalui smartphone, tablet, maupun desktop dengan tampilan yang tetap ringan dan stabil.
+  </div>
+  </div>
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Apa keunggulan JENDELATOTO dibanding platform lain?
+  </div>
+  <div class="babel-faq-answer">
+  Keunggulan JENDELATOTO terletak pada sistem pembaruan data yang cepat, tampilan yang terstruktur, serta akses yang stabil sehingga memberikan pengalaman penggunaan yang lebih efisien.
+  </div>
+  </div>
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Apakah tersedia fitur tambahan di JENDELATOTO?
+  </div>
+  <div class="babel-faq-answer">
+  JENDELATOTO menyediakan berbagai fitur modern yang membantu pengguna dalam memantau data, membaca hasil, serta meningkatkan kenyamanan dalam mengakses informasi setiap saat.
+  </div>
+  </div>
+  
+  <div class="babel-faq-item">
+  <div class="babel-faq-question">
+  Mengapa banyak pengguna memilih JENDELATOTO?
+  </div>
+  <div class="babel-faq-answer">
+  Banyak pengguna memilih JENDELATOTO karena sistemnya yang konsisten, data yang akurat, serta keGampangan akses yang membuat pengalaman menjadi lebih praktis dan terpercaya.
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  </section>
+  
+  <script>
+  let faqIndex = 0;
+  const faqSlider = document.getElementById("faqSlider");
+  const totalFAQ = faqSlider.children.length;
+  
+  function autoSlideFAQ(){
+  faqIndex++;
+  if(faqIndex >= totalFAQ){
+  faqIndex = 0;
+  }
+  faqSlider.style.transform = "translateX(-"+faqIndex*100+"%)";
+  }
+  
+  setInterval(autoSlideFAQ, 4000);
+  </script>
+  
+  <script>
+  const faqItems = document.querySelectorAll(".faq-item");
+  faqItems.forEach(item => {
+      item.querySelector(".faq-question").addEventListener("click", () => {
+          item.classList.toggle("active");
+      });
+  });
+  </script>
+          
+  
+  
+  
+  </section>
+      
+      
+      
+          <section class="pd-related-full">
+          <h2 class="pd-related-title">Produk Terkait</h2>
+          <div class="pd-related-grid pd-related-grid--full">
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="Situs TOTO 4D">
+                      <span class="mini-disc">-2%</span>                </div>
+                  <div class="info">
+                      <h3>Situs TOTO 4D</h3>
+                      <div class="spec-chips">RTP <span class="spec-divider">|</span> 99% <span class="spec-divider">|</span> Akurat by <span class="spec-divider">|</span> PGSoft</div>                    <span class="price">
+                          <span class="final">Rp 58.600.000</span>
+                                                    <span class="ori">Rp 12.799.000</span>
+                                              </span>
+                      <span class="sold">Terjual 200+</span>                    <span class="stock-dot low" title="Stok Terbatas"></span>
+                  </div>
+              </a>
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="TOTO 4D">
+                      <span class="mini-disc">-1%</span>                </div>
+                  <div class="info">
+                      <h3>TOTO 4D</h3>
+                      <div class="spec-chips">Bonus 50% <span class="spec-divider">|</span> Slot Games <span class="spec-divider">|</span> New <span class="spec-divider">|</span> Member</div>                    <span class="price">
+                          <span class="final">Rp 15.779.000</span>
+                                                    <span class="ori">Rp 16.999.000</span>
+                                              </span>
+                      <span class="sold">Terjual 20+</span>                    <span class="stock-dot out" title="Habis"></span>
+                  </div>
+              </a>
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="Agen Slot">
+                      <span class="mini-disc">-1%</span>                </div>
+                  <div class="info">
+                      <h3>Agen Slot</h3>
+                      <div class="spec-chips">Slot Withdraw <span class="spec-divider">|</span> Ratusan Juta <span class="spec-divider">|</span> Pasti <span class="spec-divider">|</span> Dibayar</div>                    <span class="price">
+                          <span class="final">Rp 121.200.000</span>
+                                                    <span class="ori">Rp 121.399.000</span>
+                                              </span>
+                      <span class="sold">Terjual 6</span>                    <span class="stock-dot ready" title="Ready"></span>
+                  </div>
+              </a>
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="Bandar Toto Online">
+                      <span class="mini-disc">-1%</span>                </div>
+                  <div class="info">
+                      <h3>Bandar Toto Online</h3>
+                      <div class="spec-chips">RTP <span class="spec-divider">|</span> 99% <span class="spec-divider">|</span> X500 <span class="spec-divider">|</span> Mahjong</div>                    <span class="price">
+                          <span class="final">Rp 99.600.000</span>
+                                                    <span class="ori">Rp 99.799.000</span>
+                                              </span>
+                      <span class="sold">Terjual 5</span>                    <span class="stock-dot ready" title="Ready"></span>
+                  </div>
+              </a>
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="Slot Server Thailand">
+                      <span class="mini-disc">-1%</span>                </div>
+                  <div class="info">
+                      <h3>Slot Server Thailand</h3>
+                      <div class="spec-chips">Server <span class="spec-divider">|</span> Premium <span class="spec-divider">|</span> Thailand <span class="spec-divider">|</span> 100%</div>                <span class="price">
+                          <span class="final">Rp 57.599.000</span>
+                                                    <span class="ori">Rp 57.999.000</span>
+                                              </span>
+                      <span class="sold">Terjual 6</span>                    <span class="stock-dot low" title="Stok Terbatas"></span>
+                  </div>
+              </a>
+                          <a class="pd-related-card" href="https://els.id/pricelist/">
+                  <div class="thumb">
+                      <img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="Situs Toto Resmi">
+                      <span class="mini-disc">-1%</span>                </div>
+                  <div class="info">
+                      <h3>Situs Toto Resmi</h3>
+                      <div class="spec-chips">Resmi <span class="spec-divider">|</span> Pagcor <span class="spec-divider">|</span> Cuma <span class="spec-divider">|</span> Disini</div>                    <span class="price">
+                          <span class="final">Rp 88.315.000</span>
+                                                    <span class="ori">Rp 88.499.000</span>
+                                              </span>
+                                          <span class="stock-dot low" title="Stok Terbatas"></span>
+                  </div>
+              </a>
+                          
+                      </div>
+      </section>
+      
+      <div class="pd-mobile-fab" id="pd-mobile-fab" data-pid="325" data-price="20789000" data-voucher-code="" data-voucher-value="0"><div class="mf-actions"><button type="button" class="mf-btn mf-share" id="mf-share" aria-label="Bagikan"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button><button type="button" class="mf-btn mf-chat" id="mf-chat" aria-label="Tanya Produk"><svg viewBox="0 0 640 640" fill="currentColor"><path d="M320 128C241 128 175.3 185.3 162.3 260.7C171.6 257.7 181.6 256 192 256L208 256C234.5 256 256 277.5 256 304L256 400C256 426.5 234.5 448 208 448L192 448C139 448 96 405 96 352L96 288C96 164.3 196.3 64 320 64C443.7 64 544 164.3 544 288L544 456.1C544 522.4 490.2 576.1 423.9 576.1L336 576L304 576C277.5 576 256 554.5 256 528C256 501.5 277.5 480 304 480L336 480C362.5 480 384 501.5 384 528L384 528L424 528C463.8 528 496 495.8 496 456L496 435.1C481.9 443.3 465.5 447.9 448 447.9L432 447.9C405.5 447.9 384 426.4 384 399.9L384 303.9C384 277.4 405.5 255.9 432 255.9L448 255.9C458.4 255.9 468.3 257.5 477.7 260.6C464.7 185.3 399.1 127.9 320 127.9z"/></svg></button><button type="button" class="mf-btn mf-cart" id="mf-cart" disabled aria-label="Tambah ke keranjang"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg></button><button type="button" class="mf-btn mf-buy" id="mf-buy" disabled><span class="mf-buy-text">Beli Sekarang</span><span class="mf-buy-price">Rp 20.789.000</span></button></div></div>
+  
+      <button type="button"
+              class="pd-scroll-top"
+              id="pd-scroll-top"
+              aria-label="Kembali ke atas"
+              title="Kembali ke atas">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+              <path fill="currentColor" d="M7.41 14.59 12 10l4.59 4.59L18 13.17l-6-6-6 6z"/>
+          </svg>
+      </button>
+  </main>
+  
+  <div class="pd-share-modal-overlay" id="pd-share-modal-overlay"><div class="pd-share-modal"><div class="pd-share-header"><h2 class="pd-share-title">Bagikan Produk</h2><button type="button" class="pd-share-close" id="pd-share-close" aria-label="Tutup"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></button></div><div class="pd-share-body"><div class="pd-share-preview"><img src="https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg" alt="JENDELATOTO" class="pd-share-preview-img"><div class="pd-share-preview-info"><h3 class="pd-share-preview-name">JENDELATOTO</h3><p class="pd-share-preview-price">Rp 20.789.000</p></div></div><p class="pd-share-label">Bagikan ke</p><div class="pd-share-grid"><a href="#" class="pd-share-option" data-share="whatsapp" target="_blank" rel="noopener"><span class="pd-share-icon pd-share-icon-whatsapp"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.029-.967-.273-.099-.471-.148-.669.149-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.411.248-.694.248-1.29.173-1.411-.074-.123-.272-.198-.57-.347m-5.421 7.403h-.002a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.263c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.887 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.86 11.86 0 005.67 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.485-8.413"/></svg></span><span class="pd-share-name">WhatsApp</span></a><a href="#" class="pd-share-option" data-share="facebook" target="_blank" rel="noopener"><span class="pd-share-icon pd-share-icon-facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span><span class="pd-share-name">Facebook</span></a><a href="#" class="pd-share-option" data-share="twitter" target="_blank" rel="noopener"><span class="pd-share-icon pd-share-icon-twitter"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></span><span class="pd-share-name">Twitter</span></a><a href="#" class="pd-share-option" data-share="telegram" target="_blank" rel="noopener"><span class="pd-share-icon pd-share-icon-telegram"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></span><span class="pd-share-name">Telegram</span></a><a href="#" class="pd-share-option" data-share="email"><span class="pd-share-icon pd-share-icon-email"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span><span class="pd-share-name">Email</span></a><button type="button" class="pd-share-option" data-share="copy"><span class="pd-share-icon pd-share-icon-copy"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg></span><span class="pd-share-name">Salin Link</span></button><button type="button" class="pd-share-option" data-share="pdf"><span class="pd-share-icon pd-share-icon-pdf"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.5h1.5c.83 0 1.5-.67 1.5-1.5v-1c0-.83-.67-1.5-1.5-1.5H8v4zm6 0h1c1.1 0 2-.9 2-2v-2c0-1.1-.9-2-2-2h-1v6zm-4.5-1.5H8v-1h1.5v1zM14 13h1v1h-1v-1z"/></svg></span><span class="pd-share-name">Export PDF</span></button></div><div class="pd-share-copy-section"><div class="pd-share-copy-input-wrap"><input type="text" class="pd-share-copy-input" id="pd-share-url-input" value="https://els.id/pricelist/" readonly><button type="button" class="pd-share-copy-btn" id="pd-share-copy-url-btn"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg><span class="pd-share-copy-text">Salin</span></button></div></div></div></div></div>
+  
+  <style>.toast-root{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);display:flex;flex-direction:column;gap:10px;z-index:99999;pointer-events:none;max-width:min(92vw,540px)}.toast{display:grid;grid-template-columns:28px 1fr auto;gap:12px;background:#0b1220;color:#eef3ff;border:1px solid rgba(255,255,255,.08);padding:12px 14px;border-radius:12px;box-shadow:0 10px 30px rgba(10,10,20,.35);pointer-events:auto;overflow:hidden}.toast .ico{align-self:start;margin-top:2px}.toast .ttl{font-weight:700;line-height:1.25;font-size:14px;margin-bottom:4px}.toast .msg{opacity:.95;line-height:1.45;font-size:13px}.toast .actions{display:flex;gap:8px;align-self:center}.toast .btn{background:#0ea5e9;color:#fff;border:0;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:700;cursor:pointer}.toast .btn.alt{background:transparent;color:#8fb5ff;border:1px solid rgba(143,181,255,.35)}.toast .close{background:transparent;border:0;color:#98a2b3;cursor:pointer;padding:4px;margin-left:6px}.toast.success{border-left:4px solid #22c55e}.toast.info{border-left:4px solid #0ea5e9}.toast.warn{border-left:4px solid #f59e0b}.toast .progress{position:absolute;left:0;bottom:0;height:3px;background:linear-gradient(90deg,#60a5fa,#22c55e);width:100%;transform-origin:left;animation:toastBar linear forwards}@keyframes toastBar{from{transform:scaleX(1)}to{transform:scaleX(0)}}@media(max-width:640px){.toast{grid-template-columns:24px 1fr auto;padding:12px}.toast .btn{padding:7px 10px}}</style>
+  <style>
+  .toast .msg { word-break: break-word; overflow-wrap: anywhere; }
+  
+  .toast-root { bottom: max(12px, env(safe-area-inset-bottom, 12px)); }
+  
+  @media (max-width: 540px) {
+    .toast-root {
+      left: 0; right: 0; transform: none;
+      padding: 0 12px;
+      bottom: calc(max(12px, env(safe-area-inset-bottom, 12px)) + var(--fab-offset, 72px));
+      max-width: none;
     }
-];
-    </script>
-
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWW5SS"
-                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script nonce="">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');
-        n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-KWW5SS');</script>
-        </div>
-
-        
-
-        <script type="text/javascript" nonce="">
-    window.__etsy_logging=window.__etsy_logging||{perf:{}};window.__etsy_logging.url="//www.etsy.com/bcn/beacon";window.__etsy_logging.defaults={"ab":{"xplat.runtime_config_service.ramp":["on","x","b4354c"],"orm_latency":["off","x","091448"],"ltv_tactics.extended_session_ttl_6mo":["on","w","575c58"],"fastly.cdn_experiment_framework_aa":["off","m","79b68d"],"neu_runtime_tracing_always_on":["off","x","106c3b"],"neu_runtime_tracing":["off","w","6631e5"],"structured_data_attributes_order_dependent":["on","x","691833"],"payments.vat.dont_cache_region":["off","x","1ed96c"],"payments.vat.region_override":["off","x","e81d25"],"google_tag_manager":["on","x","43dc13"],"site_chrome/buyer_to_seller_navbar_signed_out":["ineligible","e","0efe99"],"checkout.gift_card_cta_in_search_dropdown":["on","x","931866"],"local_pe.q3_2024.search.browser.traffic_split":["on","x","33df41"],"ranking/search.experience.xml_autosuggest_v4":["all_xml","x","2b2623"],"lingtools/trending_searches.gcp":["ineligible","e","5cfa03"],"user_persistent_experiment.q3_2025":["global_holdout_continuous","w","7803c7"],"collections.user_experiments.search_bar_shops":["off","x","75df5a"],"site_chrome/buyer_to_seller_navbar_signed_in":["ineligible","e","67649b"],"persistent_experiment.q3_2025":["on","w","6c0626"],"site_chrome/buyer_zipcode_in_header_desktop":["off","x","eb55bf"],"site_chrome/buyer_zipcode_in_header_mweb":["ineligible","e","5d612c"],"builda_scss":["sasquatch","x","96bd82"],"polyfills":["on","x","db574b"],"polyfill_experiment_4":["no_filtering","x","0e8409"],"engagement.notification_feed_aggregation":["on","x","8da111"],"web_deals.deals_and_nondeals_update_feeds":["on","x","a6a52b"],"buyer_support/etsy_service_holdout":["ineligible","e","fa33b2"],"buyer_support/etsy_service_launch_layers":["off","w","0f3241"],"web_deals.translate_nav_recs":["on","x","f054b7"],"ranking/search.experience.category_suggestions_in_autosuggest":["ineligible","e","6e2d9f"],"ranking/search.experience.contentful_title_on_trending_searches":["on","x","d0b108"],"ranking/search.experience.always_show_shop_search_in_autosuggest":["on","x","66727b"],"buyer_reviews.accurate_header_review_count":["on","x","426a8c"],"growth_regx.lp_rating_histogram_shop_header_desktop":["off","x","1c99da"],"growth_regx.lp_message_seller_replace_collections_buy_box_desktop_si":["off","x","f17d61"],"gcs_image_reads":["on","x","b7a48f"],"searchx.4q18.dwell_time_as_backend_event":["off","x","d3826b"],"seller_service_squad.convos_condensed_disclosure_copy_update_buyer":["on","x","cadf0d"],"disambiguate_usd_outside_usa":["ineligible","e","c8897d"],"gift_mode.lp_bin_sheet_tiag_v2":["on","x","1beeb9"],"cnc.atc_from_listing_cards_ymal_mfts_desktop":["on","x","58b479"],"perso_custo.buyer_read_from_new_perso_tables":["on","x","dffb8d"],"local_pe.q3_2025.buyer_trust_accelerator.browser.traffic_split":["on","w","eaad53"],"growth_regx.lp_seller_cred_shop_desc_desktop":["on","w","4bc04e"],"cnc.extend_elp_layout_desktop_external":["off","x","fb525e"],"local_pe.q3_2025.international.browser.traffic_split":["on","w","4ca9c3"],"iat.listing_page_hide_similar_items_sash.desktop":["off","x","e2a169"],"loyalty.frequency_override":["off","x","ced4cc"],"loyalty.purchase_days_override":["off","x","2f8ccb"],"cow_layer/desktop_lp_evolved_favoriting_v2":["on","x","2ca26f"],"growth_regx.lp_bb_trust_redesign_desktop":["off","x","df41b4"],"checkout.klarna_unified_pay_later":["ineligible","e","e11748"],"perso_buyer_squad_layer/variations_update":["on","x","0e428d"],"perso_custo.multiple_questions_enabled.buyer_side":["on","x","82e6f7"],"seo.listing_shop_faqs_machine_translation":["off","x","ad47eb"],"onsite_promos.superbowl_listing_page_banner":["ineligible","e","2deace"],"inventory.listing_inventory_quantity_select":["off","x","e2182e"],"seller_pricing.make_an_offer_auto_favorite_listing":["ineligible","e","6f5719"],"growth_regx.lp_production_partners_in_item_details":["on","x","3cd0fb"],"growth_regx.lp_review_photo_filter_and_sort_desktop":["on","x","acff7a"],"growth_regx.lp_review_engagement_aa_desktop":["off","x","bfb356"],"growth_regx.lp_new_seller_cred_foundational_desktop":["on","x","bccc3b"],"cnc.anchor_item_lp_recs_desktop":["off","x","315c33"],"cnc.visual_search_tags_external":["off","x","b589cb"],"cnc/experiment.related_search_pathways_v3_desktop":["ineligible","e","7e808d"],"lp_performance.css_import_cleanup":["on","x","ec2bd2"],"cnc/experiment.compare_lp_collections_v2_desktop":["ineligible","e","c0c984"],"local_pe.q3_2025.chops.browser.traffic_split":["on","w","2dd4c9"],"chops.elp_related_trends_module.desktop":["on","x","b11d14"],"ads/takerate.lp_ads_row_expansion.desktop":["ineligible","e","cad35c"],"cnc.listing_card_styling_desktop":["off","w","cef3b1"],"cnc.only_prompt_similar_listing_desktop":["off","x","1f1344"],"core_fulfillment.product_level_readiness_states.core_experience":["off","x","d06c95"],"fulfillment_platform.usps_pm_faster_ga_experiment.web":["on","x","498eec"],"fulfillment_platform.usps_pm_faster_ga_experiment.mobile":["ineligible","e","20f21b"],"fulfillment_ml.ml_predicted_acceptance_scan.uk.operational":["on","x","74db8e"],"fulfillment_ml.ml_predicted_acceptance_scan.uk.experiment_web":["prod","x","9a5255"],"fulfillment_ml.ml_predicted_acceptance_scan.uk.experiment_mobile":["ineligible","e","865516"],"fulfillment_ml.ml_predicted_acceptance_scan.germany.operational":["off","x","4528ab"],"fulfillment_ml.ml_predicted_acceptance_scan.germany.experiment_web":["off","x","cac266"],"fulfillment_ml.ml_predicted_acceptance_scan.germany.experiment_mobile":["ineligible","e","9a29ab"],"fulfillment_platform.edd_cart_caching.web":["edd_and_arizona_cache","x","e313fc"],"fulfillment_platform.edd_cart_caching.mobile":["ineligible","e","ffb947"],"fulfillment_platform.consolidated_country_to_country_ml_times.experiment_web":["prod","x","2eac66"],"fulfillment_platform.consolidated_country_to_country_ml_times.experiment_mobile":["ineligible","e","81b585"],"engagement.skip_notifications_cache":["off","x","4289e3"],"buyer_freq.collecting_flywheel.legacy_notification_set_deprecation":["on","x","34c88b"],"checkout/paypal_smart_button_desktop":["ineligible","e","07b533"],"checkout/paypal_smart_button_mweb":["ineligible","e","643355"],"mobile_dynamic_config.iphone.ApplePayPaymentMethods.Girocard":["ineligible","e","fbb78b"],"mobile_dynamic_config.iphone.ApplePayPaymentMethods.CartesBancaires":["ineligible","e","47f399"],"checkout/google_pay_on_web_v2":["on","x","cbf24c"],"checkout/add_jcb_cc_payment_method":["on","x","ce90aa"],"checkout/bin_confidence":["show_cc","x","990cfd"],"checkout.klarna_us_price_bands_v2":["ineligible","e","658ea6"],"checkout.klarna_uk_price_bands_v2":["ineligible","e","c4d855"],"checkout.etsy_bin_on_apple_pay_devices":["on","x","e77719"],"cnc.boe_dataset_related_searches":["on","x","d28934"],"perso_engine.recs.ssq_on_web_u2l_version":["on","x","c2a009"],"perso_engine.recs.ssq_on_web_u2l_version_internal":["on","x","4a8ed2"],"perso_engine.recs.listing_page_external_query_ranker_v2":["off","x","e3548f"],"perso_engine.recs.listing_page_internal_query_ranker_v2_fix":["on","x","e872dc"],"fulfillment_ml.ml_predicted_acceptance_scan.ups_fedex.experiment_web":["on","x","6ef73d"],"fulfillment_ml.ml_predicted_acceptance_scan.ups_fedex.experiment_mobile":["ineligible","e","81c794"],"fulfillment_ml.usps_route_predictor.web":["on","x","7f6b44"],"fulfillment_ml.usps_route_predictor.mobile":["ineligible","e","5a1b77"],"fulfillment_ml.only_display_edd_max.web":["ineligible","e","2d500c"],"fulfillment_ml.only_display_edd_max.mobile":["ineligible","e","07bd93"],"navx.always_images_in_l2":["off","x","d6d388"],"local_pe.q3_2025.search.browser.traffic_split":["on","w","b06317"],"ranking/search.experience.refinement_pills_in_autosuggest":["ineligible","e","2a2140"],"ranking/search.experience.trending_searches_in_zero_pane_v2":["on","x","cdb259"],"loyalty.web.reduce_listing_signup_prompts_exp":["on","x","bf6a41"],"cnc.remove_atc_mweb":["ineligible","e","699ff5"],"dynamic_experiments.Merch_JewelrySale25_SkinnyBanner_test_v3":["ineligible","e","89c994"],"dynamic_experiments.Merch_JewelrySale25_SkinnyBanner_test":["ineligible","e","6ff9d7"],"dynamic_experiments.Merch_DDGSkinnyBanner24_V2_test":["ineligible","e","8e97c7"],"dynamic_experiments.Merch_DDGSkinnyBanner24_test":["ineligible","e","5a291a"],"dynamic_experiments.Merch_LaborDay24_Link_test":["ineligible","e","63a995"],"dynamic_experiments.Merch_FDAY24_GiftTeaser_test":["ineligible","e","18d6f7"],"dynamic_experiments.Merch_GiftMode24_Teaser_test":["ineligible","e","3ad555"],"payments.simulate_giftcards_unavailable":["off","x","32e3df"],"api.ab_bubbling_experiment.browser_flag.listzilla_get_listing_state":["ineligible","e","f05e23"],"coreloc.listing_page_local_shipping_signal":["on","x","1bd157"],"eu_crd_compliance.buyer":["on","x","bfc6b5"],"checkout.checkout_sheet_support_for_non_defaults_bin_web":["off","x","4ef136"],"android_image_filename_hack":["ineligible","e","9c9013"],"seller_reach.promotions.mix_and_match.v2_bundles_no_filter":["on","x","cf2d87"],"growth_regx.lp_seller_cred_badges_desktop":["on","x","153a58"],"listing_process.how_its_made_properties.use_module_classifier":["on","x","a5aaed"],"buyer_reviews.seasonal.cyor_holiday_message_2022.desktop":["off","x","c8ee66"],"buyers_often_buying.peek_overlay_with_easier_help_and_shop_access_desktop":["off","x","4960a2"],"buyer_support/buyer_chatbot_on_help_center.help_menu_on_homepage":["on","x","34f43b"],"navx.fnb_gift_cards_multivariate":["ineligible","e","0fd1cc"],"ranking/recs.custom_candidates_signal_ranker_v4":["ineligible","e","9b2405"],"ranking/recs.custom_candidates_signal_ranker_v0":["on","x","3eae86"],"iat.listing_page_trust_suite_banner.desktop":["shield_icon","x","267e29"],"coreloc.digital_download_signal_placement_expansion_desktop":["on","x","70b59f"],"seller_onboarding_layer/svx.enhanced_verification":["on","x","bdd19d"],"growth_regx.lp_anchor_shop_name_to_seller_cred_desktop":["off","w","53f1a2"],"growth_regx.lp_review_feature_tags_buybox_desktop":["off","x","e7bed6"],"recs_systems.enable_recs_tracking_delivered_events":["on","x","a94bcf"],"growth_regx.lp_review_categorical_tags_in_deep_dive_desktop":["on","x","9d91d4"],"growth_regx.lp_reviews_new_deep_dive_desktop":["sheet_center","w","9a41a1"],"growth_regx.lp_reviews_this_item_badge_desktop":["on","x","1b4475"],"search.use_dark_cluster":["off","x","335bf8"],"search.force_x":["off","x","697d9b"],"cnc.updated_scarcity_signals_lp":["off","x","181046"],"cnc.sidebar_cart_post_atc_recs_v3":["off","x","13c110"],"site_chrome/cnc.sidebar_cart_zero_to_one":["ineligible","e","45076d"],"site_chrome/cnc.sidebar_cart_remove_quantity":["on","x","4ea54a"],"cnc.sidebar_cart_open_in_same_tab":["on","x","ed65a2"],"site_chrome/fullstory/use_track_event":["ineligible","e","ae465c"],"google_tag_manager_async":["off","x","7585d0"],"qualtrics_survey":["ineligible","e","c3c730"],"qualtrics_survey_non_en":["ineligible","e","5fec45"],"buyer_promise.issue_resolution.buyer_support/profile_dropdown_to_help_center":["on","x","2d4fea"],"buyers_often_buying.show_discount_prices_on_the_hp_listings":["on","x","e60c20"],"content_moderation.report_item.desktop":["on","x","4dfa1d"],"growth_regx.lp_mask_generated_names_in_reviews":["off","x","ea05d2"],"growth_regx.lp_sh_tenure_to_open_date":["off","w","0c6a3e"],"collections.privacy_clearer_setting_description":["on","x","412fbc"],"prodperfect/monthly_data_capture":["off","x","137afb"],"buyer_support/epp_promise_messaging":["ineligible","e","4ebacd"],"growth_regx.lp_view_shop_registration_details":["on","x","fec272"],"ranking/ad_delivery.ubo_obfuscated_grey_class":["on","x","264198"],"eu_cookie_nag":["ineligible","e","f8045f"],"cnc.related_searches_placement":["off","x","157607"],"gifting.gnav_desktop_flyout":["ineligible","e","55be9d"],"seller_platform_web.buyer_inquiry":["off","x","ee9de4"],"seller_platform_web.seller_local_time":["off","x","98a5ac"],"seller_platform_web.item_detail_overlay":["on","x","cf46a1"],"buyer_promise.issue_resolution.fee_avoidance_v2":["on","x","3a7a9c"],"risk_experience.buyer_email_verification":["ineligible","e","a98aad"]},"user_id":1135369000,"page_guid":"ffd82861b31.44b97b90cfaedc166dd4.00","version":1,"request_uuid":"EuWhMmYDWq2W7QI9Hqf8w2F9Zf4c","cdn-provider":"fastly","header_fingerprint":"ualc","header_signature":"69c9130808b6fc1a3dc577fcfe0bf284","ip_org":"PacketHub","ref":"","loc":"http://www.etsy.com/listing/1790774795/book-club-print-bookish-poster-trendy?ls=r&ref=rlp-listing-grid-2&external=1&space_id=1359364143966&sts=1&dd=1&content_source=52b99da6862466211894f724d195c6bb%253A2ca474494f71c831169387d00a6b689c028b9d90&logging_key=52b99da6862466211894f724d195c6bb%3A2ca474494f71c831169387d00a6b689c028b9d90","locale_currency_code":"IDR","pref_language":"en-GB","region":"ID","detected_currency_code":"IDR","detected_language":"en-GB","detected_region":"ID","accept-languages":"en-GB,en-US,en,id","ga_client_id":"GA1.1.1638654150.1758102791","isWhiteListedMobileDevice":false,"isMobileRequestIgnoreCookie":false,"isMobileRequest":false,"isMobileDevice":false,"isMobileSupported":false,"isTabletSupported":false,"isTouch":false,"isEtsyApp":false,"isPreviewRequest":false,"isChromeInstantRequest":false,"isMozPrefetchRequest":false,"isTestAccount":false,"isSupportLogin":false,"isInternal":false,"isInWebView":false,"isBot":false,"urlRef":"rlp-listing-grid-2","isAdmin":false,"isSyntheticTest":false,"ebid":"OcKTHyWOrdkY9__kmFV6X2wlf-U45QXJ","event_source":"web","browser_id":"3risB690iqgVMEj0sW3Jxya5aa04","gdpr_tp":3,"gdpr_p":3,"legacy_p":3,"legacy_tp":3,"cmp_tp":true,"cmp_p":true,"page_time":791,"load_strategy":"page_navigation"};
-    !function(e,t){var n=e.__etsy_logging,o=n.url,i=n.firedEvents,r=n.defaults,s=r.ab||{},a=n.bots.botCheck,c=n.bots.isBot;n.mergeObject=function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o])}return e};!r.ref&&(r.ref=t.referrer),!r.loc&&(r.loc=e.location.href),!r.webkit_page_visibility&&(r.webkit_page_visibility=t.webkitVisibilityState),!r.event_source&&(r.event_source="web"),r.event_logger="frontend",r.isIosApp&&!0===r.isIosApp?r.event_source="ios":r.isAndroidApp&&!0===r.isAndroidApp&&(r.event_source="android"),a.length>0&&(r.botCheck=r.botCheck||[],r.botCheck=r.botCheck.concat(a)),r.isBot=c,t.wasDiscarded&&(r.was_discarded=!0);var v=function(t){if(e.XMLHttpRequest){var n=new XMLHttpRequest;n.open("POST",o,!0),n.send(JSON.stringify(t))}};n.updateLoc=function(e){e!==r.loc&&(r.ref=r.loc,r.loc=e)},n.adminPublishEvent=function(n){"function"==typeof e.CustomEvent&&t.dispatchEvent(new CustomEvent("eventpipeEvent",{detail:n})),i.push(n)},n.sendEvents=function(t,i){var a=r;if("perf"===i){var c={event_logger:i};n.asyncAb&&(c.ab=n.mergeObject({},n.asyncAb,s)),a=n.mergeObject({},r,c)}var f={events:t,shared:a};e.navigator&&"function"==typeof e.navigator.sendBeacon?function(t){t.events.forEach((function(e){e.attempted_send_beacon=!0})),e.navigator.sendBeacon(o,JSON.stringify(t))||(t.events.forEach((function(e){e.send_beacon_failed=!0})),v(t))}(f):v(f),n.adminPublishEvent(f)}}(window,document);
-</script>
-<script type="text/javascript" nonce="">window.__etsy_logging.perf.event={"attributes":{"guid":"ffd82863095.3df1f9657cf4654ab662.00","event_name":"perf","event_logger":"perf","page_type":"view_listing","device_type":"Desktop","browser_name":"Chrome","browser_version":"140.0.7339.128","ip_city":"Jakarta","ip_region":"JK","ip_country_code":"ID","boromir":true}};!function(e,t){if(!t.hidden){var n=e.__etsy_logging||{},r=n.perf||{},i=n.url,a=n.defaults,o=r.event,s=n.sendEvents,c=0===Object.keys(r).length,u=e.webVitals||{},d=n.mergeObject,m=r.isDev||!1,_=r.skipLoggingEvent||!1,l=r.keepPerfObserverActive||!1,f=null,p=0;if(!c&&i&&a&&o&&s){var g=r.MARK_MEASURE_PREFIX||"_etsy_mark_measure_",v=function(e){var t=!1;return function(){t||(t=!0,e.apply(this,arguments))}},y=function(){return void 0!==e.PerformanceObserver},h=function(){return"onpagehide"in e},T=function(e,n){var r=function(e){var n=t.createElement("a");n.href=e;var r=n.pathname.split(".");return r[r.length-1]||""}(e);return/jpe?g|png|svg|gif/i.test(r)?"image":/eot|woff2?|ttf/i.test(r)?"font":"js"===r?"js":"css"===r?"css":"xmlhttprequest"===n?"xhr":"unknown"},E=function(e){return Math.round(e<Math.pow(2,64)-1?e:0)},b=function(e,n){var r=null,i=null;if(n.transferSize>0)for(var a=0;a<n.serverTiming.length;a++){var o=n.serverTiming[a];e.i_etsystatic_cdn||"cdn"!==o.name?"cache_status"===o.name&&(i=o.description):r=o.description}r&&(e.i_etsystatic_cdn=r);var s=null,c=null;i&&(e.cdn_image_caching||(e.cdn_image_caching={miss:0,hit:0}),s=0===i.indexOf("HIT"),c=0===i.indexOf("MISS"),s&&(e.cdn_image_caching.hit+=1),c&&(e.cdn_image_caching.miss+=1)),function(e,n,r,i){f||(f={},t.querySelectorAll("img[data-perf-group]").forEach((function(e){e.currentSrc&&(f[e.currentSrc]=e)})));var a=f[n.name];if(a){var o=a.dataset.perfGroup;e.categorized_images||(e.categorized_images=[]);var s={category:o,duration:E(n.duration),encodedBodySize:E(n.encodedBodySize),transferSize:E(n.transferSize),width:a.width,height:a.height};if(n.transferSize>0){(r||i)&&(s.cdn_hit=r);for(var c=0;c<n.serverTiming.length;c++){var u=n.serverTiming[c];"clientrtt"===u.name?s.clientrtt=E(u.duration):"clienttt"===u.name?s.clienttt=E(u.duration):"cdntime"===u.name?s.cdntime=E(u.duration):"origin"===u.name&&(s.origin=E(u.duration))}}e.categorized_images.push(s)}}(e,n,s,c)},S=function(e){var t={nav_start:E(e.navigationStart||e.startTime),activation_start:E(e.activationStart||0),fetch_start:E(e.fetchStart),dns_start:E(e.domainLookupStart),dns_end:E(e.domainLookupEnd),connect_start:E(e.connectStart),connect_end:E(e.connectEnd),interim_response_start:E(e.firstInterimResponseStart||0),request_start:E(e.requestStart),response_start:E(e.responseStart),response_end:E(e.responseEnd),dom_completed:E(e.domComplete),dom_interactive:E(e.domInteractive),secure_connect_start:E(e.secureConnectionStart)||null,loaded_start:E(e.loadEventStart)||null,loaded_end:E(e.loadEventEnd)||null,dom_content_loaded_start:E(e.domContentLoadedEventStart)||null,dom_content_loaded_end:E(e.domContentLoadedEventEnd)||null,html_tx_size:E(e.transferSize),html_enc_size:E(e.encodedBodySize),html_dec_size:E(e.decodedBodySize),type:e.type};return e.redirectStart&&(t.redirect_start=E(e.redirectStart)),e.redirectEnd&&(t.redirect_end=E(e.redirectEnd)),e.redirectCount&&(t.redirect_count=e.redirectCount),t},k=function(e){return e.reduce((function(e,t){if("entryType"in t){if("resource"===t.entryType)return function(e,t){var n=T(t.name,t.initiatorType);if("unknown"===n)return e;var r=t.name.match(/etsy(static)?(cloud)?.com/)?"etsy":"third";"image"===n&&"etsy"===r&&(t.name.match(/img0.etsystatic/)?e.img0_count=(e.img0_count||0)+1:t.name.match(/img1.etsystatic/)&&(e.img1_count=(e.img1_count||0)+1)),"image"===n&&"etsy"===r&&t.serverTiming&&t.name.match(/i.etsystatic.com/)&&b(e,t);var i="sum_"+r+"_"+n+"_bytes",a="sum_"+r+"_"+n+"_enc_bytes",o="sum_"+r+"_"+n+"_tx_bytes",s="sum_"+r+"_"+n+"_dur",c="count_"+r+"_"+n+"_req";return e[i]=(e[i]||0)+E(t.decodedBodySize),e[a]=(e[a]||0)+E(t.encodedBodySize),e[o]=(e[o]||0)+E(t.transferSize),e[s]=(e[s]||0)+E(t.duration),e[c]=(e[c]||0)+1,e}(e,t);if("paint"===t.entryType)return function(e,t){return e[t.name.replace(/-/g,"_")]=E(t.startTime),e}(e,t);if("longtask"===t.entryType)return function(e,t){return e.long_tasks_count=(e.long_tasks_count||0)+1,e.long_tasks_dur=(e.long_tasks_dur||0)+E(t.duration),e}(e,t);if("mark"===t.entryType||"measure"===t.entryType)return function(e,t){return 0===t.name.lastIndexOf(g,0)&&(e[0===t.name.lastIndexOf(g+"async_spec_",0)?t.name.substring(g.length):t.name]=E("mark"===t.entryType?t.startTime:t.duration)),e}(e,t);if("layout-shift"===t.entryType&&!t.hadRecentInput)return function(e,t){return e.layout_shift_count=(e.layout_shift_count||0)+1,e.layout_shift=(e.layout_shift||0)+t.value,t.value>.05&&(e.layout_shift_elements=e.layout_shift_elements||[],e.layout_shift_elements.push({value:t.value,elements:(t.sources||[]).filter((function(e){return!!e.node})).map((function(e){return{className:e.node.classList&&Array.prototype.slice.call(e.node.classList).join(" "),tagName:e.node.tagName,id:e.node.id}}))})),e}(e,t);if("navigation"===t.entryType)return r.t=!0,d(e,S(t));if("element"===t.entryType)return function(e,t){return e.element_timings||(e.element_timings={}),e.element_timings[t.identifier]=t.renderTime,e}(e,t);if("long-animation-frame"===t.entryType)return function(e,t){e.loaf_entries||(e.loaf_entries=[]);var n={start:E(t.startTime),duration:E(t.duration),blockingDuration:E(t.blockingDuration)},r=t.scripts.slice().sort((function(e,t){t.duration,e.duration}))[0];if(r){var i=r.invoker||r.name;n.longestScript={invokerType:r.invokerType||r.type,duration:E(r.duration),invoker:i.substring(0,1024),sourceURL:r.sourceURL||null}}return e.loaf_entries.push(n),e}(e,t)}else if("name"in t){if("INP"===t.name)return function(e,t){return e.interaction_next_paint=t.value,t.attribution&&(e.interaction_next_paint_element=t.attribution.eventTarget,e.interaction_next_paint_time=E(t.attribution.eventTime),e.interaction_next_paint_type=t.attribution.eventType,e.interaction_next_paint_loadstate=t.attribution.loadState),e}(e,t);if("LCP"===t.name)return function(e,t){var n=t.entries[0];return e.largest_contentful_paint=E(n.renderTime||n.loadTime),e.largest_contentful_paint_type=n.renderTime?"renderTime":"loadTime",n.element?(e.largest_contentful_paint_element={className:n.element.classList&&Array.prototype.slice.call(n.element.classList).join(" "),tagName:n.element.tagName,url:n.url},t.attribution.lcpResourceEntry&&(e.largest_contentful_paint_element.resource_size=E(t.attribution.lcpResourceEntry.encodedBodySize))):delete e.largest_contentful_paint_element,e.lcp_element_render_delay=E(t.attribution.elementRenderDelay),e.lcp_resource_load_delay=E(t.attribution.resourceLoadDelay),e.lcp_resource_load_time=E(t.attribution.resourceLoadTime),e}(e,t)}return e}),{})},L=function(){var n,i=!y()&&performance&&performance.getEntries?performance.getEntries():r.e,a=k(i);return r.e=[],r.t||(a.unixTimingNavigation=!0,d(a,S(e.performance.timing))),d(a,function(){if(performance&&performance.getEntriesByName){var e=performance.getEntriesByName("TTP","mark");if(e.length)return{time_to_parsing:E(e[0].startTime)}}return{}}()),d(a,{dom_count_server:p,dom_count_client:t.getElementsByTagName("*").length}),d(a,{dom_max_depth:(n=function(e){if(!e)return 0;for(var t=0,r=0,i=e.children.length;r<i;r++)t=Math.max(t,n(e.children[r]));return t+1})(t.documentElement)}),function(e){var t=navigator;t&&t.connection&&t.connection.effectiveType&&(e.effective_connection_type=t.connection.effectiveType)}(a),a.has_sendbeacon=navigator&&"function"==typeof navigator.sendBeacon,a.has_observer=y(),y()&&PerformanceObserver.supportedEntryTypes&&(a.observer_types=PerformanceObserver.supportedEntryTypes),a.has_pagehide=h(),r.vm_hostname&&(a.vm_hostname=r.vm_hostname),a},z=v((function(n){var r=d(n,o.attributes);r.beacon_send_time=0===r.nav_start?E(performance.now()):(new Date).getTime(),r.page_time=a.page_time,"function"==typeof e.CustomEvent&&t.dispatchEvent(new CustomEvent("perfDataSent",{detail:r})),s([r],"perf")}));!function(){var n=function(e){r.e.length&&(r.e=r.e.concat(e))};if(!!u.onINP&&u.onINP(n,{reportAllChanges:!0}),u.onLCP&&u.onLCP(n),y()&&PerformanceObserver.supportedEntryTypes&&PerformanceObserver.supportedEntryTypes.includes("long-animation-frame")){var i=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){e.duration>150&&e.firstUIEventTimestamp>0&&n(e)}))}));i.observe({type:"long-animation-frame",buffered:!0})}if(!_){var a,o=v((function(e){if(!t.hidden||"on_vischange"===e){clearTimeout(a);var n=L();!l&&y()&&(r.o.disconnect(),i&&i.disconnect()),n[e]=!0,z(n)}})),s=function(){return m&&e.__KEVIN_IS_STILL_BUILDING};m||(a=setTimeout((function(){o("on_fallbacktimeout")}),6e4),"complete"===t.readyState&&(clearTimeout(a),a=setTimeout((function(){o("on_loadtimeout")}),2e4))),t.addEventListener("readystatechange",(function(){"interactive"===t.readyState&&(p=t.getElementsByTagName("*").length)})),e.addEventListener("load",(function(){clearTimeout(a),s()||(a=setTimeout((function(){o("on_loadtimeout")}),2e4))}));var c=function(e){var t=e||"on_unload";s()?(0===performance.getEntriesByName(`${r.MARK_MEASURE_PREFIX}dev_kevin-overlay-end`).length&&performance.mark(`${r.MARK_MEASURE_PREFIX}dev_kevin-overlay-abandoned-before-done`),setTimeout((function(){o(t)}),0)):o(t)},d=h()?"pagehide":"unload";e.addEventListener(d,c),m&&e.addEventListener("beforeunload",c),t.addEventListener("visibilitychange",(function(){t.hidden&&c("on_vischange")}))}}(),r.logger={getMetricsFromQueue:k}}else n.eventpipe&&n.eventpipe.logEvent&&n.eventpipe.logEvent({event_name:"perf_beacon_not_fired",missing_global_perf_data:c,missing_post_url:!i,missing_defaults:!a,missing_perf_event:!o,missing_send_events:!s})}}(window,document);;</script>
-<script type="text/javascript" nonce="">window.__etsy_logging.eventpipe.primary_complement={"attributes":{"guid":"ffd82863091.aa4443168e8dd09088ac.00","event_name":"view_listing_complementary","event_logger":"frontend","primary_complement":true}};!function(e){var t=e.__etsy_logging,i=t.eventpipe,n=i.primary_complement,o=t.defaults.page_guid,r=t.sendEvents,a=i.q,c=void 0,d=[],h=0,u="frontend",l="perf";function g(){var e,t,i=(h++).toString(16);return o.substr(0,o.length-2)+((t=2-(e=i).length)>0?new Array(t+1).join("0")+e:e)}function v(e){e.guid=g(),c&&(clearTimeout(c),c=void 0),d.push(e),c=setTimeout((function(){r(d,u),d=[]}),50)}!function(t){var i=document.documentElement;i&&(i.clientWidth&&(t.viewport_width=i.clientWidth),i.clientHeight&&(t.viewport_height=i.clientHeight));var n=e.screen;n&&(n.height&&(t.screen_height=n.height),n.width&&(t.screen_width=n.width)),e.devicePixelRatio&&(t.device_pixel_ratio=e.devicePixelRatio),e.orientation&&(t.orientation=e.orientation),e.matchMedia&&(t.dark_mode_enabled=e.matchMedia("(prefers-color-scheme: dark)").matches)}(n.attributes),v(n.attributes),i.logEvent=v,i.logEventImmediately=function(e){var t="perf"===e.event_name?l:u;e.guid=g(),r([e],t)},a.forEach((function(e){v(e)}))}(window);</script>
-
-        
-
-        
-
-        
-
-            <script nonce="">if(window.console){console.log("Is code your craft? https://careers.etsy.com")}</script>
+    .toast {
+      grid-template-columns: 1fr; /* 1 kolom */
+      position: relative;
+      padding: 14px 14px 12px 14px;
+      border-radius: 16px;
+    }
+    .toast .ico {
+      position: absolute; left: 14px; top: 14px;
+      margin: 0; transform: translateY(1px);
+    }
+    .toast .cnt { padding-left: 34px; }
+    .toast .ttl { font-size: 15px; margin-bottom: 6px; }
+    .toast .msg { font-size: 13px; opacity: .96; }
+    .toast .actions {
+      margin-top: 12px; gap: 10px; width: 100%;
+      display: grid; grid-template-columns: 1fr 1fr;
+    }
+    .toast .btn { width: 100%; min-width: 0; padding: 10px 0; }
+    .toast .close { position: absolute; right: 6px; top: 6px; }
+  }
+  </style>
+  
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">
+  (function adjustToastFabOffset(){
+    const root = document.getElementById('toastRoot');
+    if (!root) return;
+  
+    function isVisible(el){
+      if (!el) return false;
+      const cs = getComputedStyle(el);
+      if (cs.display === 'none' || cs.visibility === 'hidden' || cs.opacity === '0') return false;
+      const r = el.getBoundingClientRect();
+      return r.width > 0 && r.height > 0;
+    }
+  
+    function update(){
+      const fab = document.getElementById('pd-mobile-fab');
+      let extra = 16;
+      if (isVisible(fab)) {
+        const h = Math.round(fab.getBoundingClientRect().height) || 56;
+        extra = h + 16; // FAB height + margin
+      }
+      root.style.setProperty('--fab-offset', extra + 'px');
+    }
+  
+    window.addEventListener('resize', update, { passive: true });
+    const fab = document.getElementById('pd-mobile-fab');
+    if (window.ResizeObserver && fab) {
+      const ro = new ResizeObserver(update);
+      ro.observe(fab);
+    }
     
-<div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><script type="text/javascript" id="" charset="">!function(c,d,g,e,a,f,b){c.ktag||(a=function(){a.sendEvent?a.sendEvent(arguments):a.ktq.push(arguments)},a.ktq=[],c.ktag=a,f=d.getElementsByTagName(e)[0],b=d.createElement(e),b.async=!0,b.src=g,f.parentNode.appendChild(b))}(window,document,"//resources.xg4ken.com/js/v2/ktag.js?tidx3dKT-N3E88-3EB","script");ktag("setup","KT-N3E88-3EB","x3cUSER_IDx3e");</script>
-<iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><noscript>
-	<img src="https://events.xg4ken.com/pixel/v2?tid=KT-N3E88-3EB&amp;noscript=1" width="1" height="1" style="display:none">
-</noscript><div id="batBeacon891122418688" style="width: 0px; height: 0px; display: none; visibility: hidden;"><img id="batBeacon536967725725" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=20013160&amp;tm=gtm002&amp;Ver=2&amp;mid=3f2fa233-444b-4e87-a5c4-0277499c4be4&amp;bo=1&amp;sid=b790d6b09fbc11f0bd73ef3ba36f6585&amp;vid=b791bc909fbc11f0967cbb74f0068489&amp;vids=1&amp;msclkid=N&amp;pi=0&amp;lg=en-US&amp;sw=412&amp;sh=732&amp;sc=24&amp;tl=JENDELATOTO Slot Gacor Slot88 Situs Slot Resmi Terpercaya Slot Thailand Maxwin;p=https://insurancecoveredbabyformula.com/;r=&amp;lt=20&amp;mtp=1&amp;evt=pageLoad&amp;sv=2&amp;cdb=AQAS&amp;rn=942530" style="width: 0px; height: 0px; display: none; visibility: hidden;" /></div>
-<div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><script type="text/javascript" id="" charset="">!function(c,d,g,e,a,f,b){c.ktag||(a=function(){a.sendEvent?a.sendEvent(arguments):a.ktq.push(arguments)},a.ktq=[],c.ktag=a,f=d.getElementsByTagName(e)[0],b=d.createElement(e),b.async=!0,b.src=g,f.parentNode.appendChild(b))}(window,document,"//resources.xg4ken.com/js/v2/ktag.js?tid\x3dKT-N3E88-3EB","script");ktag("setup","KT-N3E88-3EB","\x3cUSER_ID\x3e");</script>
-<noscript>
-	<img src="https://events.xg4ken.com/pixel/v2?tid=KT-N3E88-3EB&amp;noscript=1" width="1" height="1" style="display:none">
-</noscript><div id="batBeacon724761227844" style="width: 0px; height: 0px; display: none; visibility: hidden;"><img id="batBeacon777472680900" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=20013160&amp;tm=gtm002&amp;Ver=2&amp;mid=3f2fa233-444b-4e87-a5c4-0277499c4be4&amp;bo=1&amp;sid=e7c57780b5b711f0bd73ef3ba36f6585&amp;vid=e7c65d60b5b711f0967cbb74f0068489&amp;vids=1&amp;msclkid=N&amp;pi=0&amp;lg=en-US&amp;sw=1024&amp;sh=1024&amp;sc=24&amp;tl=SLOT GACOR%3A%20Situs%20Resmi%20Game%20Toto%204D%20%26%20Link%20Slot%20Online%20Gacor%20Hari%20Ini&amp;p=https%3A%2F%2Fpot.tenosique.gob.mx%2F&amp;r=&amp;lt=20&amp;evt=pageLoad&amp;sv=2&amp;cdb=AQAS&amp;rn=951673" style="width: 0px; height: 0px; display: none; visibility: hidden;" /></div>
-<div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><script type="text/javascript" id="" charset="">!function(c,d,g,e,a,f,b){c.ktag||(a=function(){a.sendEvent?a.sendEvent(arguments):a.ktq.push(arguments)},a.ktq=[],c.ktag=a,f=d.getElementsByTagName(e)[0],b=d.createElement(e),b.async=!0,b.src=g,f.parentNode.appendChild(b))}(window,document,"//resources.xg4ken.com/js/v2/ktag.js?tid\x3dKT-N3E88-3EB","script");ktag("setup","KT-N3E88-3EB","\x3cUSER_ID\x3e");</script>
-<noscript>
-	<img src="https://events.xg4ken.com/pixel/v2?tid=KT-N3E88-3EB&amp;noscript=1" width="1" height="1" style="display:none">
-</noscript><div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><div id="privacy-settings-manager-load-complete" style="display: none;"></div><div id="footer-script-loaded" style="display: none;"></div><script type="text/javascript" id="" charset="">!function(c,d,g,e,a,f,b){c.ktag||(a=function(){a.sendEvent?a.sendEvent(arguments):a.ktq.push(arguments)},a.ktq=[],c.ktag=a,f=d.getElementsByTagName(e)[0],b=d.createElement(e),b.async=!0,b.src=g,f.parentNode.appendChild(b))}(window,document,"//resources.xg4ken.com/js/v2/ktag.js?tid\x3dKT-N3E88-3EB","script");ktag("setup","KT-N3E88-3EB","\x3cUSER_ID\x3e");</script>
-<noscript>
-	<img src="https://events.xg4ken.com/pixel/v2?tid=KT-N3E88-3EB&amp;noscript=1" width="1" height="1" style="display:none">
-</noscript><div id="batBeacon945993263972" style="width: 0px; height: 0px; display: none; visibility: hidden;"><img id="batBeacon9090074570" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=20013160&amp;tm=gtm002&amp;Ver=2&amp;mid=3f2fa233-444b-4e87-a5c4-0277499c4be4&amp;bo=1&amp;sid=531e8bd0c12911f0bd73ef3ba36f6585&amp;vid=531f4aa0c12911f0967cbb74f0068489&amp;vids=1&amp;msclkid=N&amp;pi=0&amp;lg=en-US&amp;sw=1024&amp;sh=1024&amp;sc=24&amp;tl=SLOT GACOR%20%23%20Link%20Bandar%20Situs%20Slot%20Gacor%20Resmi%20Terpercaya%20Game%20Online%20Terbaik%20Hari%20Ini&amp;p=http%3A%2F%2Fesahub.rcmrd.org%2F&amp;r=&amp;lt=20&amp;evt=pageLoad&amp;sv=2&amp;cdb=AQAS&amp;rn=387380" style="width: 0px; height: 0px; display: none; visibility: hidden;" /></div></body></html>
+    update();
+  })();
+  </script>
+  <div class="toast-root" id="toastRoot" aria-live="polite" aria-atomic="true"></div>
+  
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">(function(){const root=document.getElementById('toastRoot');function svgIcon(kind){if(kind==='success')return '<svg width="24" height="24" viewBox="0 0 24 24" fill="#22c55e"><path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.7-7.7 1.4 1.4z"/></svg>';if(kind==='warn')return '<svg width="24" height="24" viewBox="0 0 24 24" fill="#f59e0b"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>';return '<svg width="24" height="24" viewBox="0 0 24 24" fill="#0ea5e9"><path d="M11 7h2v2h-2zm0 4h2v6h-2z"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" fill="none" stroke="#0ea5e9"/></svg>'}
+  window.showToast=function(opts){const o=Object.assign({title:'',message:'',type:'info',duration:4000,actions:[]},opts||{});const el=document.createElement('div');el.className='toast '+(o.type||'info');el.setAttribute('role','status');el.style.position='relative';const acts=(o.actions||[]).map(a=>{const lab=a.label||'OK';const cls='btn'+(a.variant==='alt'?' alt':'');return `<button type="button" class="${cls}" data-act="${lab}">${lab}</button>`}).join('');el.innerHTML=`<div class="ico" aria-hidden="true">${svgIcon(o.type)}</div><div class="cnt">${o.title?`<div class="ttl">${o.title}</div>`:''}${o.message?`<div class="msg">${o.message}</div>`:''}</div><div class="actions">${acts}</div><button type="button" class="close" aria-label="Tutup" title="Tutup"><svg width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71L12 12.01l-6.3-6.3-1.4 1.41 6.3 6.3-6.3 6.3 1.4 1.41 6.3-6.3 6.3 6.3 1.41-1.41-6.3-6.3 6.3-6.3z"/></svg></button><div class="progress" style="animation-duration:${Math.max(1500,o.duration)}ms"></div>`;
+  
+      const close = ()=> {
+        if (!el.parentNode) return;
+        el.style.transition = 'transform .2s ease, opacity .2s ease';
+        el.style.opacity = '0'; el.style.transform = 'translateY(10px)';
+        setTimeout(()=>{ if (el.parentNode) el.parentNode.removeChild(el); }, 220);
+      };
+  
+      el.querySelector('.close').addEventListener('click', close);
+      el.querySelectorAll('.actions .btn').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          const lab = btn.getAttribute('data-act');
+          try {
+            (o.actions||[]).forEach(a=>{ if (a.label===lab && typeof a.onClick==='function') a.onClick(); });
+          } catch(_){}
+          close();
+        });
+      });
+  
+      root.appendChild(el);
+      setTimeout(close, o.duration);
+      return el;
+    };
+  })();
+  
+  const _0x1a2b=[{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Win 11 Home/Eclipse Black/3Y","slug":""},{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Wi...","slug":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg"},{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Wi...","slug":"lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-223.webp"},{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Wi...","slug":"lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-776.webp"},{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Wi...","slug":"lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-634.webp"},{"url":"https://imagizer.imageshack.com/img922/9541/dbtEuo.jpg","alt":"Lenovo Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Wi...","slug":"lenovo-legion-go-8asp2-83n0000rid-ryzen-z2-extreme-amd-radeon-graphics-eclipse-b-1761796941-892.webp"}],_0x3c4d="Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Win 11 Home/Eclipse Black/3Y",_0x5e6f="1S83N0990RID";function getVariantSummaryText(){const a=document.getElementById('pd-variant-summary');if(!a)return '';const b=Array.from(a.querySelectorAll('.vs-item strong')).map(c=>c.textContent.trim()).filter(Boolean);return b.length?b.join(' / '):''}
+  function encodeVariantHash(id){if(!id||id<=0)return '';const xor=id^0x4A5D;return xor.toString(36)}
+  function decodeVariantHash(hash){if(!hash)return 0;const xor=parseInt(hash,36);return isNaN(xor)?0:xor^0x4A5D}
+  
+  function showSuccessToast(productId,qty,variantId){const variantText=getVariantSummaryText();const skuText=(function(){const el=document.getElementById('pd-sku');return el?el.textContent.trim():PD_SKU})();showToast({type:'warn',title:'Fitur Segera Hadir',message:`<strong>${escapeHtml(PD_NAME)}</strong>${variantText?` · <em>${escapeHtml(variantText)}</em>`:''}<br>SKU: ${escapeHtml(skuText)} · Qty: ${qty}`,duration:5000,actions:[{label:'Lihat Keranjang',onClick:()=>{}},{label:'Lanjut Belanja',variant:'alt',onClick:()=>{}}]});try{if(window.ga4Ecomm){const qtySend=qty||1;window.ga4Ecomm.addToCart({currency:'IDR',price:20789000,quantity:qtySend,item_id:"1S83N0990RID",item_name:"Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Win 11 Home/Eclipse Black/3Y",item_brand:"Lenovo ",item_category:(["Komputer & Laptop","Laptop","Gaming"]||[]).join(' / ')})}}catch(_){}return false}function showErrorToast(){showToast({type:'error',title:'Gagal Menambah ke Keranjang',message:'Terjadi kesalahan saat memproses permintaan. Silakan coba lagi.',duration:5000})}
+  
+  function executeBuyNowLegacy(id,variantId){const a=getVariantSummaryText(),b=(function(){const c=document.getElementById('pd-sku');return c?c.textContent.trim():_0x5e6f})();
+  
+      let willRedirect = false;
+      try {
+          if (window.addToCart) {
+              window.addToCart(id, 1, variantId);
+              willRedirect = false;
+          }
+      } catch(_){}
+  
+      if (willRedirect) {
+          showToast({
+              type: 'info',
+              title: 'Menuju Keranjang',
+              message: `<strong>${escapeHtml(PD_NAME)}</strong>${variantText?` · <em>${escapeHtml(variantText)}</em>`:''}<br>SKU: ${escapeHtml(skuText)} · Qty: 1`,
+              duration: 1800
+          });
+          setTimeout(()=>{ window.location.href='/keranjang'; }, 1200);
+      } else {
+          showToast({
+              type: 'warn',
+              title: 'Fitur Beli Langsung Segera Hadir',
+              message: `Sementara ini Anda bisa menambahkan produk ke keranjang terlebih dahulu.<br><strong>${escapeHtml(PD_NAME)}</strong>${variantText?` · <em>${escapeHtml(variantText)}</em>`:''}`,
+              duration: 6000,
+              actions: [
+                  { label: '+ Keranjang', onClick: ()=> { try{ if (window.addToCart) window.addToCart(id,1,variantId); }catch(_){} } },
+                  { label: 'Hubungi CS', variant: 'alt', onClick: ()=> { window.open('https://wa.me/6281380009898','_blank'); } }
+              ]
+          });
+      }
+  }
+  
+  document.addEventListener('DOMContentLoaded',function(){var a=document.getElementById('pd-buy-form');if(a){a.addEventListener('submit',function(e){var b=parseInt(a.getAttribute('data-pid'),10)||0;if(window.addToCartSubmit){return window.addToCartSubmit(e,b)}})}});document.addEventListener('DOMContentLoaded',function(){var a=document.getElementById('btn-buy');if(a){a.addEventListener('click',function(){var b=a.getAttribute('data-id');buyNow(b)})}});
+  
+  function _0x2m3n(s){return String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+  
+  (function initGallery(){const mainImg=document.getElementById('pd-main-img');const gallery=document.getElementById('pd-thumb-gallery');if(!mainImg||!gallery)return;gallery.addEventListener('click',function(ev){const btn=ev.target.closest('.pd-thumb-btn');if(!btn)return;const full=btn.getAttribute('data-full');if(full){mainImg.src=full;const alt=btn.getAttribute('data-alt')||'';if(alt)mainImg.alt=alt;const slug=btn.getAttribute('data-slug')||'';if(slug)mainImg.dataset.slug=slug;gallery.querySelectorAll('.pd-thumb-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active')}})})();
+  
+  (function initMobileSliderCounter(){const slider=document.getElementById('pd-mobile-slider');const counter=document.getElementById('pd-gallery-counter');if(!slider||!counter)return;let ticking=false;slider.addEventListener('scroll',function(){if(!ticking){window.requestAnimationFrame(function(){const slides=slider.querySelectorAll('.pd-mslide');if(!slides.length)return;const containerRect=slider.getBoundingClientRect();const containerCenter=containerRect.left+containerRect.width/2;let currentIdx=0;let minDist=Infinity;slides.forEach((slide,idx)=>{const slideRect=slide.getBoundingClientRect();const slideCenter=slideRect.left+slideRect.width/2;const dist=Math.abs(slideCenter-containerCenter);if(dist<minDist){minDist=dist;currentIdx=idx}});counter.textContent=(currentIdx+1)+'/'+slides.length;ticking=false});ticking=true}},{passive:true})})();
+  
+  /* ================= Simulasi Cicilan ================= */
+  (function initInstallmentList(){const card=document.getElementById('inst-card');if(!card)return;function getBasePrice(){return parseInt(card.getAttribute('data-base-price')||'0',10)||0}function setBasePrice(v){card.setAttribute('data-base-price',String(parseInt(v||'0',10)||0))}const zeroEligible=card.getAttribute('data-zero-smart')==='1';window.initMobile=zeroEligible;const listEl=document.getElementById('inst-month-list');const zeroNote=document.getElementById('inst-zero-note');const tenors=[3,6,12];const rates={BRI:{3:0.975,6:0.975,12:0.975},Mandiri:{3:0.984,6:0.9725,12:0.96},BCA:{3:0.97,6:0.94,12:0.91}};function formatRupiah(num){return 'Rp '+(Math.round(num)).toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.')}function activeBank(){const tab=card.querySelector('.bank-tab.active');return tab?tab.dataset.bank:'BRI'}
+  
+  function _0x4o5p(bank){const a=getBasePrice();listEl.innerHTML='';const b=rates[bank]||{};let c=false;tenors.forEach(m=>{let d=b[m]??1;if(zeroEligible&&(bank==='BRI'||bank==='Mandiri')){d=1;c=true}const e=a/d;const f=m>0?Math.ceil((e/m)/100)*100:0;const g=document.createElement('li');g.className='inst-month-item';g.innerHTML=`<span class="tenor-badge">${m}x</span><span class="amount">${formatRupiah(f)} / bln</span>${zeroEligible&&(bank==='BRI'||bank==='Mandiri')?'<span class="tag tag-zero">0%</span>':''}`;listEl.appendChild(g)});zeroNote.style.display=c?'block':'none'}
+  
+  card.addEventListener('click',function(ev){const a=ev.target.closest('.bank-tab');if(!a)return;card.querySelectorAll('.bank-tab').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false')});a.classList.add('active');a.setAttribute('aria-selected','true');_0x4o5p(a.dataset.bank)});
+  
+  window.instSetBasePrice=function(newPrice){setBasePrice(newPrice);_0x4o5p(activeBank())};_0x4o5p(activeBank());
+  })();
+  
+  /* ====== Fokus gambar varian ====== */
+  function _0x6q7r(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'')}function _0x8s9t(u){try{return new URL(u,window.location.origin).pathname.split('/').pop().toLowerCase()}catch(e){try{return(u||'').split('/').pop().toLowerCase()}catch(_){return ''}}}
+  function _0xau1v(url,altOpt){const a=document.getElementById('pd-main-img'),b=document.getElementById('pd-thumb-gallery'),c=document.getElementById('pd-mobile-slider');if(a&&url){a.src=url;if(altOpt)a.alt=altOpt}if(b){const d=_0x8s9t(url);let e=null;b.querySelectorAll('.pd-thumb-btn').forEach(btn=>{const f=btn.getAttribute('data-full')||'',g=_0x8s9t(f)===d;if(g)e=btn;btn.classList.toggle('active',g)});if(e){const h=e.getAttribute('data-alt')||'',i=e.getAttribute('data-slug')||'';if(h&&a)a.alt=h;if(i&&a)a.dataset.slug=i}}
+    if (c){
+      const targetName = _0x8s9t(url);
+      const slideImg = Array.from(c.querySelectorAll('img')).find(im => _0x8s9t(im.src) === targetName);
+      if (slideImg){
+        
+        try {
+          const container = c;
+          const imgRect = slideImg.getBoundingClientRect();
+          const contRect = container.getBoundingClientRect();
+          const offsetLeft = slideImg.offsetLeft - container.offsetLeft;
+          const center = offsetLeft - (container.clientWidth - slideImg.clientWidth) / 2;
+          container.scrollTo({ left: Math.max(0, center), behavior: 'smooth' });
+        } catch(_){
+          
+          slideImg.scrollIntoView({ behavior:'smooth', inline:'center', block:'nearest' });
+        }
+      }
+    }
+  }
+  function findImageForVariant(variant){
+    if (!variant || !variant.attrs) return null;
+    const tokens = [];
+    try{
+      Object.values(variant.attrs).forEach(v=>{
+        if (!v) return;
+        const raw = String(v);
+        tokens.push(raw);
+        tokens.push(normalize(raw));
+      });
+    }catch(_){}
+    if (variant.sku){
+      tokens.push(String(variant.sku));
+      tokens.push(normalize(String(variant.sku)));
+    }
+    if (variant.image_url) {
+        tokens.push(String(variant.image_url));
+    }
+    let best = null;
+    let bestScore = -1;
+  
+    for (const g of (galleryData||[])){
+      const slugN = normalize(g.slug||'');
+      const altN  = normalize(g.alt||'');
+      const file  = _0x8s9t(g.url||'');
+      const fileN = normalize(file);
+      const imgU  = g.url;
+  
+      for (const t of tokens){
+        const tN = normalize(t);
+        if (!tN) continue;
+  
+        let score = -1;
+        if (imgU === tN) score = 300;
+        if (slugN && slugN === tN) score = 300;
+        else if (fileN && fileN.includes(tN)) score = 200;
+        else if (altN && altN.includes(tN)) score = 120;
+  
+        if (score > bestScore){
+          bestScore = score;
+          best = g;
+        }
+        if (bestScore >= 300) break;
+      }
+      if (bestScore >= 300) break;
+    }
+    return bestScore >= 120 ? best : null;
+  }
+  function _0xey3z(variant){const a=_0xcw2x(variant);if(a&&a.url){_0xau1v(a.url,a.alt||'')}}
+  
+  /* ====== Layout mobile ====== */
+  (function _0xg04h(){const a=document.querySelector('.pd-media-card'),b=document.getElementById('pd-price-block'),c=document.getElementById('pd-price-anchor'),d=document.querySelector('.pd-info-card'),e=document.getElementById('pd-title'),f=document.getElementById('pd-variant-combined'),g=document.getElementById('pd-variants'),h=document.getElementById('pd-variants-anchor'),i=document.getElementById('pd-variant-summary'),j=document.getElementById('pd-summary-anchor'),titleRow=document.querySelector('.pd-title-row'),promoBanner=document.querySelector('.promo-endyear-mini-banner'),compareSection=document.querySelector('.pd-compare-section');if(!a||!b||!c||!d||!e)return;
+  
+      let pricePlaced = false;
+      let varPlaced = false;
+      let titlePlaced = false;
+      let promoPlaced = false;
+      const mq = window.matchMedia('(max-width: 640px)');
+  
+      function apply(){
+          if (mq.matches) {
+              if (!titlePlaced && a && titleRow && d.contains(titleRow)) { try{a.appendChild(titleRow);titlePlaced=true;}catch(_){} }
+              if (!pricePlaced && a && b) { try{a.appendChild(b);pricePlaced=true;}catch(_){} }
+              if (!varPlaced && f && d && e) {
+                  try{
+                      f.hidden = false;
+                      if (i && !f.contains(i)) f.appendChild(i);
+                      if (g && !f.contains(g)) f.appendChild(g);
+                      if(d.contains(e))d.insertBefore(f, e);
+                      varPlaced = true;
+                  }catch(_){}
+              }
+              if (!promoPlaced && promoBanner && compareSection && compareSection.parentNode) {
+                  try{
+                      compareSection.parentNode.insertBefore(promoBanner, compareSection);
+                      promoPlaced = true;
+                  }catch(_){}
+              }
+          } else {
+              if (titlePlaced && titleRow && d) {
+                  try{
+                      const vcombined = document.getElementById('pd-variant-combined');
+                      if (vcombined && d.contains(vcombined)) {
+                          d.insertBefore(titleRow, vcombined);
+                      } else {
+                          d.insertBefore(titleRow, d.firstChild);
+                      }
+                      titlePlaced=false;
+                  }catch(_){}
+              }
+              if (pricePlaced && b && c && c.parentNode) {
+                  try{c.parentNode.insertBefore(b, c.nextSibling);pricePlaced=false;}catch(_){}
+              }
+              if (varPlaced) {
+                  try{
+                      if (i && j && j.parentNode && !j.parentNode.contains(i)) j.parentNode.insertBefore(i, j.nextSibling);
+                      if (g && h && h.parentNode && !h.parentNode.contains(g)) h.parentNode.insertBefore(g, h.nextSibling);
+                      if (f) { f.hidden = true; f.innerHTML = ''; }
+                      varPlaced = false;
+                  }catch(_){}
+              }
+              if (promoPlaced && promoBanner && b) {
+                  try{
+                      b.appendChild(promoBanner);
+                      promoPlaced = false;
+                  }catch(_){}
+              }
+          }
+      }
+  
+      mq.addEventListener ? mq.addEventListener('change', apply) : mq.addListener(apply);
+      apply();
+  
+      const fab = document.getElementById('pd-mobile-fab');
+      if (fab) {
+          const pid = parseInt(fab.getAttribute('data-pid')||'0',10) || 325;
+          const btnCart = document.getElementById('mf-cart');
+  
+          if (btnCart) btnCart.addEventListener('click', function(){
+              const varInput = document.getElementById('pd-variant-id');
+              const variantId = varInput ? parseInt(varInput.value||'0',10) : 0;
+              try { if (window.addToCart) addToCart(pid, 1, variantId); } catch(_){}
+              const variantText = getVariantSummaryText();
+              const skuText = (function(){ const el=document.getElementById('pd-sku'); return el?el.textContent.trim():PD_SKU; })();
+              showToast({
+                  type: 'success',
+                  title: 'Berhasil ditambahkan ke Keranjang',
+                  message: `<strong>${escapeHtml(PD_NAME)}</strong>${variantText?` · <em>${escapeHtml(variantText)}</em>`:''}<br>SKU: ${escapeHtml(skuText)} · Qty: 1`,
+                  duration: 5000,
+                  actions: [
+                      { label: 'Lihat Keranjang', onClick: ()=> { window.location.href = '/keranjang'; } },
+                      { label: 'Lanjut Belanja', variant: 'alt', onClick: ()=>{} }
+                  ]
+              });
+          });
+      }
+  })();
+  
+  /* ====== Auto-hide installment banner if sidebar too tall (Desktop only) ====== */
+  (function(){
+      function adjustSidebarBanner() {
+          if (window.innerWidth <= 768) return;
+          const sidebar = document.querySelector('.pd-sidebar');
+          const infoCard = document.querySelector('.pd-info-card');
+          const banner = document.querySelector('.pd-side-card.inst-alt-banner.inst-alt-banner--compact');
+          if (!sidebar || !infoCard || !banner) return;
+          const sidebarHeight = sidebar.offsetHeight;
+          const infoCardHeight = infoCard.offsetHeight;
+          if (sidebarHeight > infoCardHeight) {
+              banner.style.display = 'none';
+          } else {
+              banner.style.display = '';
+          }
+      }
+      if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', adjustSidebarBanner);
+      } else {
+          adjustSidebarBanner();
+      }
+      let resizeTimer;
+      window.addEventListener('resize', function() {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(adjustSidebarBanner, 250);
+      });
+      const pwpSection = document.getElementById('pwp-deals-section');
+      if (pwpSection) {
+          const observer = new MutationObserver(function(mutations) {
+              let shouldRecheck = false;
+              mutations.forEach(function(mutation) {
+                  if (mutation.type === 'attributes' && mutation.attributeName === 'hidden') {
+                      shouldRecheck = true;
+                  } else if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                      shouldRecheck = true;
+                  }
+              });
+              if (shouldRecheck) {
+                  setTimeout(adjustSidebarBanner, 100);
+              }
+          });
+          observer.observe(pwpSection, {
+              attributes: true,
+              childList: true,
+              subtree: true
+          });
+      }
+      window.adjustSidebarBanner = adjustSidebarBanner;
+  })();
+  
+  /* ====== Global constants ====== */
+  const IS_DIGITAL=false;
+  const IS_PREORDER=false;
+  
+  /* ====== Variants state (REVISED) ====== */
+  (function initVariants(){
+  const _0x7g8h=[];window.variants=_0x7g8h;
+  window.isPreorderProduct=false;
+      const attrOrder = [];
+  
+      if (!variants.length || !attrOrder.length) return;
+  
+      function comboKey(sel){
+          return attrOrder.map(a => a + '=' + (sel[a] ?? '')).join('|');
+      }
+  
+      const variantMap = {};
+      variants.forEach(v=>{
+          const key = comboKey(v.attrs);
+          variantMap[key] = v;
+      });
+  
+      function readSelection(){
+          const sel = {};
+          attrOrder.forEach(a=>{
+              const r = document.querySelector(`.v-group[data-attr="${CSS.escape(a)}"] input[type=radio]:checked`);
+              sel[a] = r ? r.value : '';
+          });
+          return sel;
+      }
+  
+      function findVariant(sel){
+          return variantMap[comboKey(sel)] || null;
+      }
+  
+      function autoFillMissing(sel){
+          let changed = false;
+          for (const a of attrOrder) {
+              if (sel[a]) continue;
+              const possible = [];
+              const seen = new Set();
+              variants.forEach(v=>{
+                  let ok = true;
+                  for (const a2 of attrOrder) {
+                      if (a2 === a) continue;
+                      if (sel[a2] && v.attrs[a2] !== sel[a2]) { ok = false; break; }
+                  }
+                  if (ok) {
+                      const val = v.attrs[a];
+                      if (!seen.has(val)) { seen.add(val); possible.push(val); }
+                  }
+              });
+              if (possible.length === 1) {
+                  const val = possible[0];
+                  const input = document.querySelector(`.v-group[data-attr="${CSS.escape(a)}"] input[type=radio][value="${CSS.escape(val)}"]`);
+                  if (input && !input.checked) { input.checked = true; sel[a] = val; changed = true; }
+              }
+          }
+          return changed;
+      }
+  
+      function rupiah(n){
+          n = parseInt(n||0,10)||0;
+          return 'Rp ' + n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+      }
+      
+      function focusGalleryByUrl(imageUrl) {
+          const isMobile = window.matchMedia && window.matchMedia('(max-width: 640px)').matches;
+            if (isMobile) {
+              _0xau1v(imageUrl);
+              return;
+            }
+          
+            const gallery = document.getElementById('pd-thumb-gallery');
+            const targetName = _0x8s9t(imageUrl);
+          
+            if (gallery) {
+              const btns = Array.from(gallery.querySelectorAll('.pd-thumb-btn'));
+              const btn = btns.find(b => _0x8s9t(b.getAttribute('data-full') || '') === targetName);
+              if (btn) { btn.click(); return; }
+            }
+            
+            _0xau1v(imageUrl);
+      }
+      
+  
+  function formatStockLabel(n){n=parseInt(n||0,10)||0;return(n>10)?'10+':String(n)}
+  function updateBranchPopover(v){try{if(!v)return;const a=document.getElementById('sp-qty-meg'),b=document.getElementById('sp-qty-mdf'),c=document.getElementById('sp-qty-bda');if(a)a.textContent=formatStockLabel(Math.max(0,v.smm|0));if(b)b.textContent=formatStockLabel(Math.max(0,v.smf|0));if(c)c.textContent=formatStockLabel(Math.max(0,v.sba|0))}catch(_){}}
+  
+      function calcVoucherDisc(type,value,price,maxDisc){if(type==='PERCENTAGE'){let d=(price*value)/100;if(maxDisc>0&&d>maxDisc)d=maxDisc;return Math.round(d)}return Math.round(value)}
+  
+      function applyVariant(v, focusImage = true){
+          const elCur  = document.getElementById('pd-price-current');
+          const elOri  = document.getElementById('pd-price-original');
+          const elDisc = document.getElementById('pd-discount-badge');
+          const elSku  = document.getElementById('pd-sku');
+          const elStock= document.getElementById('pd-stock-badge');
+          const elQty  = document.getElementById('qty');
+          const btnAdd = document.getElementById('btn-add-cart');
+          const btnBuy = document.getElementById('btn-buy');
+          const hidVar = document.getElementById('pd-variant-id');
+  
+          const mfCart= document.getElementById('mf-cart');
+          const mfBuy = document.getElementById('mf-buy');
+          const fab = document.getElementById('pd-mobile-fab');
+  
+          if (hidVar) hidVar.value = v ? v.id : 0;
+          if (elCur) elCur.textContent = rupiah(v ? v.final : 0);
+          if (elSku && v && v.sku) elSku.textContent = v.sku;
+  
+          if (v && v.ori > v.final) {
+              if (elOri) { elOri.style.display='inline'; elOri.textContent = rupiah(v.ori); }
+              if (elDisc) { elDisc.style.display='inline'; elDisc.textContent = '-' + (v.disc||0) + '%'; }
+          } else {
+              if (elOri) elOri.style.display='none';
+              if (elDisc) elDisc.style.display='none';
+          }
+  
+          const stock = v ? (parseInt(v.stock||0,10)||0) : 0;
+          let effectiveStock = stock;
+          let isActivePreorder = false;
+          if (window.isPreorderProduct && v && 'preorder_remaining' in v && v.preorder_remaining !== null) {
+              effectiveStock = parseInt(v.preorder_remaining, 10);
+              if (isNaN(effectiveStock)) effectiveStock = 0;
+              isActivePreorder = true;
+          }
+          if (elStock){
+              elStock.classList.remove('in','out');
+              if (effectiveStock>0){ 
+                  elStock.classList.add('in'); 
+                  elStock.textContent = IS_DIGITAL ? 'Tersedia' : (isActivePreorder ? 'Sisa Slot: ' + effectiveStock : 'Stok: ' + formatStockLabel(effectiveStock)); 
+              } else { 
+                  elStock.classList.add('out'); 
+                  elStock.textContent = 'Habis'; 
+              }
+          }
+          if (elQty){
+              elQty.max = String(effectiveStock>0?effectiveStock:0);
+              if (effectiveStock<=0) { elQty.value = '0'; elQty.disabled = true; }
+              else { if (parseInt(elQty.value||'1',10) < 1) elQty.value='1'; elQty.disabled=false; }
+          }
+          
+          const shouldDisable = !(v && effectiveStock>0);
+          const updateButtons = () => {
+              const btnAddCart = document.getElementById('btn-add-cart');
+              const btnBuyNow = document.getElementById('btn-buy');
+              const mobileCart = document.getElementById('mf-cart');
+              const mobileBuy = document.getElementById('mf-buy');
+              [btnAddCart, btnBuyNow, mobileCart, mobileBuy].forEach(btn => {
+                  if (!btn) return;
+                  if (shouldDisable) {
+                      btn.disabled = true;
+                      btn.setAttribute('disabled', 'disabled');
+                      btn.classList.add('stock-disabled');
+                      btn.setAttribute('data-stock-blocked', 'true');
+                      btn.setAttribute('data-stock-reason', window.isPreorderProduct ? 'Pre-order habis' : 'Stok habis');
+                  } else {
+                      btn.disabled = false;
+                      btn.removeAttribute('disabled');
+                      btn.classList.remove('stock-disabled');
+                      btn.removeAttribute('data-stock-blocked');
+                      btn.removeAttribute('data-stock-reason');
+                  }
+              });
+          };
+          updateButtons();
+          setTimeout(updateButtons, 10);
+          setTimeout(updateButtons, 50);
+          setTimeout(updateButtons, 100);
+          if (mfBuy && v) {
+              const voucherBtn = document.getElementById('btn-buy-voucher');
+              const voucherCode = fab ? fab.dataset.voucherCode : '';
+              let voucherDiscount = 0;
+              
+              if (voucherBtn && voucherCode) {
+                  const vType = voucherBtn.dataset.voucherType;
+                  const vValue = parseFloat(voucherBtn.dataset.voucherValue) || 0;
+                  const vMax = parseFloat(voucherBtn.dataset.voucherMax) || 0;
+                  const finalPrice = v.final || 0;
+                  if (vType && vValue > 0) {
+                      voucherDiscount = calcVoucherDisc(vType, vValue, finalPrice, vMax);
+                      if (fab) fab.dataset.voucherValue = voucherDiscount.toString();
+                  }
+              }
+              
+              const finalPrice = v.final || 0;
+              const textEl = mfBuy.querySelector('.mf-buy-text');
+              const priceEl = mfBuy.querySelector('.mf-buy-price');
+              
+              if (effectiveStock > 0) {
+                      if (IS_PREORDER) {
+                          if (textEl) textEl.textContent = 'Pre Order Sekarang';
+                          if (priceEl) priceEl.textContent = rupiah(finalPrice);
+                      } else if (voucherCode && voucherDiscount > 0) {
+                          if (textEl) textEl.textContent = 'Beli dengan Voucher';
+                          if (priceEl) priceEl.textContent = rupiah(Math.max(0, finalPrice - voucherDiscount));
+                      } else {
+                          if (textEl) textEl.textContent = 'Beli Sekarang';
+                          if (priceEl) priceEl.textContent = rupiah(finalPrice);
+                      }
+                  } else {
+                      if (textEl) textEl.textContent = 'Stok Habis';
+                      if (priceEl) priceEl.textContent = rupiah(finalPrice);
+                  }
+              }
+          
+          const isMobile = window.initMobile ?? 0;
+          if (window.instSetBasePrice) window.instSetBasePrice(v ? (isMobile == '1' ? v.ori : v.final) : 0);
+          if (window.updateSoldBySku) window.updateSoldBySku(v.sku);
+          updateBranchPopover(v);
+          if (v && v.image_url && focusImage) focusGalleryByUrl(v.image_url);
+          if (v) {
+              window.dispatchEvent(new CustomEvent('pd-variant-changed', {
+                  detail: {
+                      price: v.final,
+                      originalPrice: v.ori,
+                      discount: v.disc,
+                      stock: effectiveStock,
+                      sku: v.sku,
+                      variant_id: v.id
+                  }
+              }));
+              
+              const encodedHash = encodeVariantHash(v.id);
+              if (encodedHash && window.history && window.history.replaceState) {
+                  const newHash = '#v=' + encodedHash;
+                  const newUrl = window.location.pathname + window.location.search + newHash;
+                  window.history.replaceState(null, '', newUrl);
+              }
+          }
+      }
+  
+      let sel = readSelection();
+      if (autoFillMissing(sel)) sel = readSelection();
+  
+      let v = findVariant(sel);
+      if (!v) {
+          const candidates = variants.filter(variant=>{
+              return attrOrder.every(a=>{
+                  if (!sel[a]) return true;
+                  return variant.attrs[a] === sel[a];
+              });
+          });
+          if (candidates.length >= 1) {
+              v = candidates[0];
+              attrOrder.forEach(a=> sel[a] = v.attrs[a]);
+              attrOrder.forEach(a=>{
+                  const val = sel[a];
+                  const input = document.querySelector(`.v-group[data-attr="${CSS.escape(a)}"] input[type=radio][value="${CSS.escape(val)}"]`);
+                  if (input) input.checked = true;
+              });
+          }
+      }
+  
+      const initSel = readSelection();
+      const initVar = findVariant(initSel) || variants[0] || null;
+      if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', () => applyVariant(initVar, false));
+      } else {
+          applyVariant(initVar, false);
+      }
+      
+  function updateSummary(sel){Object.entries(sel).forEach(([a,val])=>{const el=document.getElementById('vs-'+a);if(el)el.textContent=val||'-'})}
+      function refreshOptions(sel){
+          attrOrder.forEach(a=>{
+              const group = document.querySelector(`.v-group[data-attr="${CSS.escape(a)}"]`);
+              if (!group) return;
+              const chips = group.querySelectorAll('.v-chip');
+              chips.forEach(ch=>{
+                  const val = ch.getAttribute('data-value');
+                  const possible = variants.some(v=>{
+                      if (v.attrs[a] !== val) return false;
+                      for (const a2 of attrOrder) {
+                          if (a2 === a) continue;
+                          if (sel[a2] && v.attrs[a2] !== sel[a2]) return false;
+                      }
+                      return true;
+                  });
+                  const input = ch.querySelector('input[type=radio]');
+                  const disabled = !possible;
+                  if (input) input.disabled = disabled;
+                  ch.classList.toggle('disabled', disabled);
+  
+                  let candidateVariant = null;
+                  if (possible) {
+                      candidateVariant = variants.find(v=>{
+                          if (v.attrs[a] !== val) return false;
+                          for (const a2 of attrOrder) {
+                              if (a2 === a) continue;
+                              if (sel[a2] && v.attrs[a2] !== sel[a2]) return false;
+                          }
+                          return true;
+                      });
+                  }
+                  const outOfStock = candidateVariant ? (window.isPreorderProduct && candidateVariant.preorder_remaining !== null ? candidateVariant.preorder_remaining <= 0 : candidateVariant.stock <= 0) : false;
+                  ch.classList.toggle('out', !disabled && outOfStock);
+                  const badge = ch.querySelector('.chip-badge');
+                  if (badge) badge.hidden = !(candidateVariant && outOfStock);
+              });
+              group.querySelectorAll('.v-chip').forEach(ch=>{
+                  const input = ch.querySelector('input[type=radio]');
+                  ch.classList.toggle('selected', input && input.checked);
+              });
+          });
+      }
+      updateSummary(sel);
+      refreshOptions(sel);
+      document.querySelectorAll('.v-chip').forEach(chip=>{const input=chip.querySelector('input[type=radio]');if(input&&input.checked){chip.classList.add('selected');}});
+  
+      const container = document.getElementById('pd-variants');
+      container && container.addEventListener('change', function(ev){
+          const radio = ev.target.closest('input[type=radio]');
+          if (!radio) return;
+          sel = readSelection();
+          if (autoFillMissing(sel)) sel = readSelection();
+          const chosen = findVariant(sel);
+          applyVariant(chosen || null, true);
+          
+          updateSummary(sel);
+          refreshOptions(sel);
+      });
+      
+  window.applyVariant=applyVariant;
+  })();
+  
+  (function cleanBrokenDescImages(){
+      const containers = [
+          document.querySelector('.pd-full-desc-body'),
+          document.querySelector('.pd-short-desc')
+      ].filter(Boolean);
+  
+      containers.forEach(root => {
+          const imgs = root.querySelectorAll('img');
+          imgs.forEach(img => {
+              if (img.complete && img.naturalWidth === 0) {
+                  img.remove();
+                  return;
+              }
+              img.addEventListener('error', () => {
+                  img.remove();
+              }, { once:true });
+          });
+      });
+  })();
+  
+  /* ====== Scroll To Top ====== */
+  (function _0xi25j(){const a=document.getElementById('pd-scroll-top');if(!a)return;function b(){if(window.matchMedia('(max-width:640px)').matches){const d=document.querySelector('.bottom-nav'),e=document.querySelector('.pd-mobile-fab');if(!d&&!e){setTimeout(b,100);return}const f=d&&window.getComputedStyle(d).display!=='none'&&window.getComputedStyle(d).visibility!=='hidden',g=e&&window.getComputedStyle(e).display!=='none'&&window.getComputedStyle(e).visibility!=='hidden';let h;if(f&&g){h='calc(68px + 54px + env(safe-area-inset-bottom))'}else if(g){h='calc(68px + 8px + env(safe-area-inset-bottom))'}else if(f){h='calc(60px + env(safe-area-inset-bottom))'}else{h='calc(20px + env(safe-area-inset-bottom))'}a.style.setProperty('--scroll-top-bottom',h)}else{a.style.removeProperty('--scroll-top-bottom')}}function c(){const d=window.pageYOffset||document.documentElement.scrollTop||0,e=d>300;a.classList.toggle('visible',e);a.setAttribute('aria-hidden',e?'false':'true');b()}window.addEventListener('scroll',c,{passive:!0});window.addEventListener('resize',b,{passive:!0});setTimeout(b,100);c();a.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})})})();
+  
+  /* Format stok 10+ */
+  function _0xk67l(n){n=parseInt(n||0,10)||0;return n>10?'10+':String(n)}
+  
+  /* Toggle popover stok per cabang */
+  (function _0xm89n(){const a=document.getElementById('pd-stock-info-btn'),b=document.getElementById('pd-stock-popover'),c=document.getElementById('pd-stock-popover-close');if(!a||!b)return;function d(){if(window.matchMedia('(min-width: 641px)').matches){const e=document.getElementById('pd-stock-badge');if(!e)return;const f=e.getBoundingClientRect(),g=window.pageXOffset||document.documentElement.scrollLeft||0,h=window.pageYOffset||document.documentElement.scrollTop||0;b.style.left=(f.left+g-10)+'px';b.style.top=(f.bottom+h+10)+'px'}else{b.style.left='';b.style.top=''}}
+  function e(){d();b.classList.add('show');a.setAttribute('aria-expanded','true');b.setAttribute('aria-hidden','false');document.addEventListener('click',g,{capture:true});window.addEventListener('resize',d,{passive:true});window.addEventListener('scroll',d,{passive:true})}function f(){b.classList.remove('show');a.setAttribute('aria-expanded','false');b.setAttribute('aria-hidden','true');document.removeEventListener('click',g,{capture:true});window.removeEventListener('resize',d);window.removeEventListener('scroll',d)}function g(h){if(b.contains(h.target)||a.contains(h.target))return;f()}
+  a.addEventListener('click',function(h){h.preventDefault();b.classList.contains('show')?f():e()});if(c)c.addEventListener('click',f)})();
+  
+  /* ===== Share Product Modal ===== */
+  (function(){const a=document.getElementById('pd-share-btn'),z=document.getElementById('mf-share'),b=document.getElementById('pd-share-modal-overlay'),c=document.getElementById('pd-share-close'),d=document.getElementById('pd-share-copy-url-btn'),e=document.getElementById('pd-share-url-input');if((!a&&!z)||!b)return;const f="https://els.id/pricelist/",g="Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Win 11 Home/Eclipse Black/3Y",h="Rp 20.789.000";const discountPercent=1;let i='';if(discountPercent>0){i=`🔥 Lagi Promo Nih! Diskon ${discountPercent}%\n\n✨ ${g}\n💰 Cuma ${h} aja!\n\n🛒 Buruan cek sebelum kehabisan!\n👉 `}else{i=`✨ Ada barang bagus nih!\n\n📦 ${g}\n💸 Harga: ${h}\n\n🛍️ Yuk, langsung cek!\n👉 `}function j(){b.classList.add('show');document.body.style.overflow='hidden'}function k(){b.classList.remove('show');document.body.style.overflow=''}if(a)a.addEventListener('click',j);if(z)z.addEventListener('click',j);if(c)c.addEventListener('click',k);b.addEventListener('click',function(l){if(l.target===b)k()});document.addEventListener('keydown',function(l){if(l.key==='Escape'&&b.classList.contains('show'))k()});b.addEventListener('click',function(l){const m=l.target.closest('[data-share]');if(!m)return;const n=m.getAttribute('data-share'),o=encodeURIComponent(f),p=encodeURIComponent(i),q=encodeURIComponent(g);let r='';switch(n){case 'whatsapp':r=`https://wa.me/?text=${p}${o}`;break;case 'facebook':r=`https://www.facebook.com/sharer/sharer.php?u=${o}`;break;case 'twitter':r=`https://twitter.com/intent/tweet?text=${p}${o}`;break;case 'telegram':r=`https://t.me/share/url?url=${o}&text=${p}`;break;case 'email':r=`mailto:?subject=${encodeURIComponent('🔥 Cek Produk Keren Ini!')}&body=${p}${o}`;window.location.href=r;k();return;case 'copy':s();return;case 'pdf':const ps=document.querySelector('.product-single');if(ps){ps.setAttribute('data-print-date',new Date().toLocaleDateString('id-ID',{year:'numeric',month:'long',day:'numeric'}))}k();setTimeout(function(){window.print();try{if(window.ga4Ecomm&&window.ga4Ecomm.trackEvent)window.ga4Ecomm.trackEvent('share',{method:'pdf_export',content_type:'product',item_id:"1S83N0990RID"})}catch(_){}},300);return}if(r){window.open(r,'_blank','noopener,noreferrer');try{if(window.ga4Ecomm&&window.ga4Ecomm.trackEvent)window.ga4Ecomm.trackEvent('share',{method:n,content_type:'product',item_id:"1S83N0990RID"})}catch(_){}}});function s(){if(!e)return;e.select();e.setSelectionRange(0,99999);try{if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(f).then(function(){t()}).catch(function(){document.execCommand('copy');t()})}else{document.execCommand('copy');t()}}catch(u){console.error('Failed to copy:',u)}}function t(){if(!d)return;const v=d.innerHTML;d.classList.add('copied');d.innerHTML='<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg><span class="pd-share-copy-text">Tersalin!</span>';if(window.showToast)showToast({type:'success',title:'✨ Link Tersalin!',message:'Link produk berhasil disalin. Yuk bagikan ke teman!',duration:3000});setTimeout(function(){d.classList.remove('copied');d.innerHTML=v},2000)}if(d)d.addEventListener('click',s);if(navigator.share){const shareHandler=function(w){w.preventDefault();navigator.share({title:g,text:i+f,url:f}).catch(function(x){console.log('Native share cancelled or failed:',x)})};if(a)a.addEventListener('dblclick',shareHandler);if(z)z.addEventListener('dblclick',shareHandler)}})();
+  
+  /* ===== Embedding variants (server → client) ===== */
+  (function(){
+    window.__PD_VARIANTS_WITH_BRANCH__ = [];
+  })();
+  
+  /* ===== Helper: update angka popover ===== */
+  function updateStockPopoverForVariant(v){
+    try{
+      const elMeg = document.getElementById('sp-qty-meg');
+      const elMdf = document.getElementById('sp-qty-mdf');
+      const elBda = document.getElementById('sp-qty-bda');
+  
+      if (typeof v?.smm === 'number' && elMeg) elMeg.textContent = formatStockLabel(Math.max(0, v.smm|0));
+      if (typeof v?.smf === 'number' && elMdf) elMdf.textContent = formatStockLabel(Math.max(0, v.smf|0));
+      if (typeof v?.sba === 'number' && elBda) elBda.textContent = formatStockLabel(Math.max(0, v.sba|0));
+    }catch(_){}
+  }
+  
+  /* ===== applyVariant: 10+ dan update popover ===== */
+  (function patchApplyVariant(){
+    if (typeof applyVariant !== 'function') return;
+    const original = applyVariant;
+    window.applyVariant = function(v){
+      original(v);
+      
+      try {
+        const elStock = document.getElementById('pd-stock-badge');
+        if (elStock){
+          let txt = elStock.textContent || '';
+          let m = txt.match(/\d+/);
+          if (m) {
+            const n = parseInt(m[0]||'0',10)||0;
+            elStock.textContent = (n>0) ? ('Stok: ' + formatStockLabel(n)) : 'Habis';
+          }
+        }
+      } catch(_){}
+  if(window.__PD_VARIANTS_WITH_BRANCH__&&v){const vv=window.__PD_VARIANTS_WITH_BRANCH__.find(x=>x.id===v.id)||v;updateStockPopoverForVariant(vv)}
+    };
+  })();
+  
+  (function initCurrentVariantBranch(){
+    const list = window.__PD_VARIANTS_WITH_BRANCH__ || [];
+    if (!list.length) return;
+    const hid = document.getElementById('pd-variant-id');
+    const vid = hid ? parseInt(hid.value||'0',10) : 0;
+    const current = list.find(x => x.id === vid) || list[0] || null;
+    if (current) updateStockPopoverForVariant(current);
+  })();
+  
+  (function(){
+      if (!window.ga4Ecomm) return;
+      const catSegs = ["Komputer & Laptop","Laptop","Gaming"];
+      window.ga4Ecomm.viewItem({
+        currency: 'IDR',
+        value: 20789000,
+        item_id: "1S83N0990RID",
+        item_name: "Lenovo Legion Go 8ASP2 - 83N0000RID /AMD Ryzen Z2 Extreme/32GB/1TB SSD/AMD Radeon Graphics/8.8\" WUXGA OLED Touch/Win 11 Home/Eclipse Black/3Y",
+        item_brand: "Lenovo ",
+        item_category: catSegs && catSegs.length ? catSegs.join(' / ') : ''
+      });
+    })();
+    
+  (function patchApplyVariantFocus(){
+    if (typeof applyVariant !== 'function') return;
+    const original = applyVariant;
+    window.applyVariant = function(v, focusImage = true){
+      
+      original(v, focusImage);
+      
+      if (focusImage && v && v.image_url) {
+        _0xau1v(v.image_url);
+      }
+    };
+  })();
+  
+  (function() {
+    var soldMap = [];
+    var soldTotalLabel = "Terjual 2";
+  
+    function formatSoldLabel(qty) {
+      if (qty >= 1000000) {
+        var v = Math.floor((qty / 100000) ) / 10;
+        return 'Terjual ' + (String(v).replace('.', ',')) + 'jt+';
+      }
+      if (qty >= 1000) {
+        var v2 = Math.floor((qty / 100) ) / 10;
+        return 'Terjual ' + (String(v2).replace('.', ',')) + 'rb+';
+      }
+      if (qty >= 100) {
+        var v2 = Math.floor((qty / 100) ) * 100;
+        return 'Terjual ' + (String(v2).replace('.', ',')) + '+';
+      }
+      if (qty >= 10) {
+        var v2 = Math.floor((qty / 10) ) * 10;
+        return 'Terjual ' + (String(v2).replace('.', ',')) + '+';
+      }
+      return 'Terjual ' + (qty.toLocaleString('id-ID'));
+    }
+  
+    function updateSoldLabel(labelText) {
+      var el = document.querySelector('#pd-sold-inline, [data-role="sold-chip"]');
+      if (el) el.textContent = labelText;
+    }
+  
+    window.updateSoldBySku = function(sku) {
+      if (!sku || typeof sku !== 'string') {
+        updateSoldLabel(soldTotalLabel);
+        return;
+      }
+      var qty = soldMap[sku] || 0;
+      updateSoldLabel(formatSoldLabel(qty));
+    };
+  
+      updateSoldLabel(soldTotalLabel);
+    })();
+  
+  (function(){const h=document.getElementById('pd-sticky-header');if(!h)return;const p=document.getElementById('pd-price-anchor');const ac=document.getElementById('pd-sticky-add-cart');const by=document.getElementById('pd-sticky-buy');let lt=window.scrollY;let tk=false;function u(){if(!p)return;const r=p.getBoundingClientRect();const s=window.scrollY;if(r.top<0){h.classList.add('visible')}else{h.classList.remove('visible')}lt=s;tk=false}function rt(){if(!tk){window.requestAnimationFrame(u);tk=true}}window.addEventListener('scroll',rt,{passive:true});u();function sy(){const ma=document.getElementById('btn-add-cart');const mb=document.getElementById('btn-buy');if(ac&&ma){ac.disabled=ma.disabled}if(by&&mb){by.disabled=mb.disabled}}sy();const ob=new MutationObserver(sy);const ma=document.getElementById('btn-add-cart');const mb=document.getElementById('btn-buy');if(ma)ob.observe(ma,{attributes:true,attributeFilter:['disabled']});if(mb)ob.observe(mb,{attributes:true,attributeFilter:['disabled']});const ss=document.getElementById('pd-sticky-share-btn');const ms=document.getElementById('pd-share-btn');if(ss&&ms){ss.addEventListener('click',function(e){e.preventDefault();ms.click()})}if(ac){ac.addEventListener('click',function(e){e.preventDefault();if(ac.disabled)return;const m=document.getElementById('btn-add-cart');if(m&&!m.disabled){m.click()}})}if(by){by.addEventListener('click',function(e){e.preventDefault();if(by.disabled)return;const m=document.getElementById('btn-buy');if(m&&!m.disabled&&window.buyNow){window.buyNow(e)}})}
+  function getChatProductData(){const varInput=document.getElementById('pd-variant-id');const variantId=varInput?parseInt(varInput.value||'0',10):0;const variantSummary=getVariantSummaryText();const priceEl=document.getElementById('pd-price-current');const currentPrice=priceEl?priceEl.textContent.trim():'Rp 20.789.000';const pd={id:325,name:"Lenovo Legion Go 8ASP2 - 83N0000RID \/AMD Ryzen Z2 Extreme\/32GB\/1TB SSD\/AMD Radeon Graphics\/8.8\" WUXGA OLED Touch\/Win 11 Home\/Eclipse Black\/3Y",price:currentPrice,image:"\/uploads\/products\/lenovo-legion-go-8asp2-83n0000rid.webp",url:window.location.href};if(variantId>0){pd.variant_id=variantId}if(variantSummary){pd.variant_summary=variantSummary}return pd}
+  const ch=document.getElementById('pd-sticky-chat');if(ch){ch.addEventListener('click',function(e){e.preventDefault();if(!window.plazaChat){console.warn('Chat widget not loaded');return}window.plazaChat.attachProduct(getChatProductData());window.plazaChat.openWidget()})}const dch=document.getElementById('btn-chat-icon');if(dch){dch.addEventListener('click',function(e){e.preventDefault();if(!window.plazaChat){console.warn('Chat widget not loaded');return}window.plazaChat.attachProduct(getChatProductData());window.plazaChat.openWidget()})}const mch=document.getElementById('mf-chat');if(mch){mch.addEventListener('click',function(e){e.preventDefault();if(!window.plazaChat){console.warn('Chat widget not loaded');return}window.plazaChat.attachProduct(getChatProductData());window.plazaChat.openWidget()})}window.addEventListener('pd-variant-changed',function(e){const d=e.detail||{};if(d.price!==undefined){const sp=document.getElementById('pd-sticky-price');if(sp){sp.textContent=formatRupiah(d.price)}}if(d.originalPrice!==undefined&&d.originalPrice>d.price){const so=document.getElementById('pd-sticky-price-original');if(so){so.textContent=formatRupiah(d.originalPrice);so.style.display=''}}else{const so=document.getElementById('pd-sticky-price-original');if(so){so.style.display='none'}}if(d.discount!==undefined&&d.discount>0){const sd=document.getElementById('pd-sticky-discount');if(sd){sd.textContent='-'+d.discount+'%';sd.style.display=''}}else{const sd=document.getElementById('pd-sticky-discount');if(sd){sd.style.display='none'}}const hs=d.stock>0;if(ac){ac.disabled=!hs}if(by){by.disabled=!hs}});function formatRupiah(n){return'Rp'+Math.floor(n).toLocaleString('id-ID')}})();
+  
+  (function(){const t=document.getElementById('pdv-toggle-btn');const v=document.getElementById('pd-voucher-section');if(t&&v){const h=v.querySelectorAll('.pdv-min-hidden');const n=h.length;t.addEventListener('click',function(){const e=t.classList.toggle('expanded');h.forEach(function(i){if(e){i.classList.remove('pdv-min-hidden')}else{i.classList.add('pdv-min-hidden')}});t.textContent=e?'Tutup':'+'+n})}const m=document.getElementById('voucher-detail-modal');const mc=document.getElementById('voucher-modal-close');const ma=document.getElementById('voucher-modal-cancel');const mcp=document.getElementById('voucher-modal-copy');if(m){const bb=document.querySelectorAll('.pdv-badge-btn');bb.forEach(function(btn){btn.addEventListener('click',function(){if(btn.disabled)return;const c=btn.getAttribute('data-voucher-code');const nm=btn.getAttribute('data-voucher-name');const dl=btn.getAttribute('data-discount-label');const bl=btn.getAttribute('data-badge-label');const mp=parseInt(btn.getAttribute('data-min-purchase'));const md=parseInt(btn.getAttribute('data-max-discount'));const vu=btn.getAttribute('data-valid-until');document.getElementById('voucher-modal-badge').innerHTML='<span class="vmb-value">'+dl+'</span><span class="vmb-label">'+bl+'</span>';document.getElementById('voucher-modal-code').textContent=c;document.getElementById('voucher-modal-name').textContent=nm;const me=document.getElementById('voucher-modal-min');if(mp>0){me.style.display='';document.getElementById('voucher-modal-min-val').textContent=fr(mp)}else{me.style.display='none'}const xe=document.getElementById('voucher-modal-max');if(md>0){xe.style.display='';document.getElementById('voucher-modal-max-val').textContent=fr(md)}else{xe.style.display='none'}if(vu){const d=new Date(vu);const ft=d.toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'});document.getElementById('voucher-modal-valid-val').textContent=ft}mcp.setAttribute('data-code',c);m.classList.add('show');document.body.style.overflow='hidden'})});function cm(){m.classList.remove('show');document.body.style.overflow=''}if(mc)mc.addEventListener('click',cm);if(ma)ma.addEventListener('click',cm);m.addEventListener('click',function(e){if(e.target===m)cm()});if(mcp){mcp.addEventListener('click',function(){const c=mcp.getAttribute('data-code');if(!c)return;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(c).then(function(){smc()}).catch(function(err){fc(c)})}else{fc(c)}})}}const b=document.querySelectorAll('.pdv-min-copy');b.forEach(function(btn){btn.addEventListener('click',function(){if(btn.disabled)return;const code=btn.getAttribute('data-code');if(!code)return;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(code).then(function(){sc(btn)}).catch(function(err){fc(code,btn)})}else{fc(code,btn)}})});function fc(text,btn){const tx=document.createElement('textarea');tx.value=text;tx.style.position='fixed';tx.style.opacity='0';document.body.appendChild(tx);tx.select();try{document.execCommand('copy');if(btn)sc(btn);else smc()}catch(err){}document.body.removeChild(tx)}function sc(btn){const o=btn.textContent;btn.classList.add('copied');btn.textContent='✓ Tersalin';setTimeout(function(){btn.classList.remove('copied');btn.textContent=o},2000)}function smc(){const o=mcp.textContent;mcp.textContent='✓ Kode Tersalin';mcp.style.background='#22c55e';setTimeout(function(){mcp.textContent=o;mcp.style.background=''},2000)}function fr(a){return'Rp'+Math.floor(a).toLocaleString('id-ID')}})();
+  </script>
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">
+  window.PD_ID=325;window.PD_NAME=_0x3c4d;window.PD_SKU=_0x5e6f;window.PD_CATEGORY_PATH="Komputer & Laptop/Laptop/Gaming";window.PD_BEST_VOUCHER=null;
+  window.IS_DIGITAL=IS_DIGITAL;
+  window.isPreorderProduct=false;
+  window.PD_PREORDER_DATA=null;
+  </script>
+  
+  <script src="https://plazaitdotid.pages.dev/assets/js/pd-lightbox.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/cart.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/stock-validator-vanilla.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/pd-addtocart.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/pd-buynow.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/pd-voucher-recalc.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">document.addEventListener('DOMContentLoaded',function(){if(typeof ProductReviews!=='undefined'){ProductReviews.init(325);}const r=document.getElementById('pd-rating-inline');if(r){r.addEventListener('click',function(e){e.preventDefault();const s=document.getElementById('reviews');if(s){s.scrollIntoView({behavior:'smooth',block:'start'});s.classList.add('highlight-flash');setTimeout(()=>{s.classList.remove('highlight-flash')},1500)}});}});</script>
+  
+  <script nonce="se3iyzEHMc9FQEB4wSyd0w==">
+  (function(){function _0x9i0j(el){if(typeof gtag==='function'){gtag('event','qoala_insurance_click',{event_category:'Insurance',event_label:'Qoala Banner Click - Product Detail',link_url:'/plazait-protect',page_location:window.location.href,product_id:parseInt(el.getAttribute('data-product-id'))||0,product_name:el.getAttribute('data-product-name')||'',category_path:el.getAttribute('data-category-path')||'',custom_map:{custom_parameter_1:'qoala_banner_product_detail'}})}}
+  
+  function _0x1k2l(){var a=document.querySelector('.qoala-cta[data-ga-event="qoala_banner_click"]');if(a){a.addEventListener('click',function(e){_0x9i0j(this)})}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',_0x1k2l)}else{_0x1k2l()}})();
+  
+  (function(){const pwpSection=document.getElementById('pwp-deals-section');const pwpBadge=document.getElementById('pwp-trigger-badge');if(!pwpSection)return;const productId=parseInt(pwpSection.getAttribute('data-product-id'))||0;const variantId=parseInt(pwpSection.getAttribute('data-variant-id'))||0;const categoryPath=pwpSection.getAttribute('data-category-path')||'';if(!productId)return;function formatRupiah(n){return'Rp'+Math.floor(n).toLocaleString('id-ID')}function loadPWPDeals(){const url=`/api/pwp/get_by_product.php?product_id=${productId}${variantId?`&variant_id=${variantId}`:''}${categoryPath?`&category_path=${encodeURIComponent(categoryPath)}`:''}`;fetch(url).then(r=>r.json()).then(data=>{if(data.success&&data.promotions&&data.promotions.length>0){renderPWPDeals(data.promotions);pwpSection.hidden=false;if(pwpBadge)pwpBadge.hidden=false;setTimeout(function(){if(typeof window.adjustSidebarBanner==='function'){window.adjustSidebarBanner()}},150)}else{pwpSection.hidden=true;if(pwpBadge)pwpBadge.hidden=true}}).catch(err=>{console.error('PWP load error:',err);pwpSection.hidden=true;if(pwpBadge)pwpBadge.hidden=true})}function renderPWPDeals(promotions){const loading=pwpSection.querySelector('.pwp-deals-loading');const grid=document.getElementById('pwp-deals-grid');if(loading)loading.hidden=true;if(!grid)return;grid.innerHTML='';promotions.forEach(promo=>{promo.bundled_products.forEach(product=>{const card=document.createElement('div');card.className='pwp-deal-card';const discount=product.discount>0?product.discount:0;const discountPercent=product.regular_price>0?Math.round((discount/product.regular_price)*100):0;const imgUrl=product.image_url?`/uploads/products/${product.image_url}`:'/assets/img/no-image.png';card.innerHTML=`<div class="pwp-deal-thumb"><img src="${imgUrl}" alt="${escapeHtml(product.name)}" loading="lazy"></div><div class="pwp-deal-info"><h4 class="pwp-deal-name">${escapeHtml(product.name)}</h4><div class="pwp-deal-prices"><span class="pwp-deal-price">${formatRupiah(product.pwp_price)}</span>${product.regular_price>product.pwp_price?`<span class="pwp-deal-original">${formatRupiah(product.regular_price)}</span>`:''}</div></div>${discountPercent>0?`<span class="pwp-deal-badge">-${discountPercent}%</span>`:''}`;grid.appendChild(card)})})}function escapeHtml(str){const div=document.createElement('div');div.textContent=str||'';return div.innerHTML}loadPWPDeals();window.addEventListener('pd-variant-changed',function(e){const detail=e.detail||{};const newVid=detail.variant_id||0;const currentVid=parseInt(pwpSection.getAttribute('data-variant-id'))||0;if(newVid!==currentVid){pwpSection.setAttribute('data-variant-id',newVid);loadPWPDeals()}})})();
+  </script><footer class="site-footer footer-compact variant-stripes" role="contentinfo">
+    <div class="ft-top ft-collapsible" id="ftTop">
+      <div class="container ft-grid">
+  
+        <div class="ft-col ft-help">
+          <h4 class="ft-title">Butuh Bantuan?</h4>
+          <p class="ft-desc">Hubungi kami melalui Official WhatsApp interaktif sekarang.</p>
+          <a class="ft-wa-btn" href="#" target="_blank" rel="nofollow noopener">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="#25D366" d="M12.04 2c-5.52 0-10 4.43-10 9.9 0 1.75.47 3.45 1.38 4.94L2 22l5.3-1.38c1.43.78 3.05 1.19 4.7 1.19 5.52 0 10-4.43 10-9.9S17.56 2 12.04 2Zm5.86 13.9c-.25.7-1.23 1.28-1.7 1.33-.45.06-1.02.08-1.65-.1-.38-.12-.88-.29-1.52-.56-2.66-1.15-4.4-3.83-4.53-4.01-.13-.18-1.08-1.44-1.08-2.75 0-1.31.68-1.95.92-2.22.25-.27.54-.33.72-.33.18 0 .36.01.52.01.17 0 .39-.06.62.47.25.6.85 2.07.92 2.22.07.15.12.33.02.53-.1.2-.15.33-.3.5-.15.17-.32.39-.46.53-.15.15-.3.31-.13.6.18.3.8 1.31 1.73 2.12 1.19 1.03 2.17 1.36 2.48 1.5.31.14.49.12.67-.07.18-.18.77-.82.98-1.1.21-.27.42-.23.7-.14.27.09 1.72.81 2.02.95.3.14.5.22.58.35.08.13.08.72-.17 1.42Z"/></svg>
+            </span>
+            Kirim Pesan
+          </a>
+  
+          <p class="ft-desc sm-gap">Ikuti kami:</p>
+          <div class="ft-social">
+            <a aria-label="Facebook" href="https://facebook.com/PlazaIt/"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M13.5 22v-8.2h2.7l.4-3.2h-3.1V8c0-.9.3-1.5 1.6-1.5H17V3.7c-.3 0-1.2-.1-2.2-.1-2.2 0-3.8 1.3-3.8 3.9v2.2H8v3.2h3v8.1h2.5Z"/></svg></a>
+            <a aria-label="Instagram" href="https://www.instagram.com/plazait"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4A5.8 5.8 0 0 1 16.2 22H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm9.9 1.7a1.1 1.1 0 1 1 0 2.3 1.1 1.1 0 0 1 0-2.3ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></a>
+            <a aria-label="TikTok" href="https://www.tiktok.com/@plazait"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M18.9 7.4a6.4 6.4 0 0 1-3.2-1.2v6.3a5.47 5.47 0 1 1-5.5-5.5c.2 0 .4 0 .6.02v2.37a2.92 2.92 0 0 0-.6-.07 2.8 2.8 0 1 0 2.8 2.8V2h2.3a4.6 4.6 0 0 0 4.5 4.1v2.3Z"/></svg></a>
+          </div>
+        </div>
+  
+              <!-- Collapsible Content Wrapper (Non-Homepage Only) -->
+        <div class="ft-collapsible-content" id="ftCollapsible">
+        
+        <div class="ft-col">
+          <h4 class="ft-title">Tentang JENDELATOTO</h4>
+          <ul class="ft-links">
+            <li><a href="/tentang-kami">Tentang Kami</a></li>
+            <li><a href="/kontak-kami">Kontak Kami</a></li>
+            <li><a href="/lokasi-toko">Lokasi Toko</a></li>
+            <li><a href="/faq">FAQ</a></li>
+          </ul>
+          <div class="ft-address">
+            <p class="company">PT TOTO 4D.</p>
+                        <p>JL. Asia Raya Blok BB No. 12-A, Kel. Sukaramai II,</p>
+                        <p>Kec. Medan Area, Kota Medan, Sumatera Utara, 20216</p>
+                    </div>
+        </div>
+  
+        <div class="ft-col">
+          <h4 class="ft-title">Informasi</h4>
+          <ul class="ft-links">
+            <li><a href="/syarat-dan-ketentuan">Syarat &amp; Ketentuan</a></li>
+            <li><a href="/kebijakan-privasi">Kebijakan Privasi</a></li>
+            <li><a href="/kebijakan-cookie">Kebijakan Cookie</a></li>
+            <li><a href="/pengiriman-dan-pengembalian">Pengiriman &amp; Pengembalian</a></li>
+            <li><a href="/pembayaran-dan-cicilan">Pembayaran &amp; Cicilan</a></li>
+            <li><a href="/garansi-dan-layanan">Garansi &amp; Layanan</a></li>
+          </ul>
+  
+          <div class="ft-payments payments-small" aria-label="Metode Pembayaran">
+            <div class="pay-row">
+              <img src="https://plazaitdotid.pages.dev/assets/img/payments/mandiri.svg" alt="Mandiri" loading="lazy">
+              <img src="https://plazaitdotid.pages.dev/assets/img/payments/bni.svg" alt="BNI" loading="lazy">
+              <img src="https://plazaitdotid.pages.dev/assets/img/payments/bri.svg" alt="BRI" loading="lazy">
+              <img src="https://plazaitdotid.pages.dev/assets/img/payments/bsi.svg" alt="BSI" loading="lazy">
+              <img src="https://plazaitdotid.pages.dev/assets/img/payments/cimb-logo.svg" alt="ShopeePay" loading="lazy">
+            </div>
+          </div>
+        </div>
+  
+              </div>
+        <!-- End Collapsible Content -->
+        
+        <!-- Expand Button (Mobile Only) -->
+        <button class="ft-expand-btn" id="ftExpandBtn" aria-label="Lihat semua informasi footer">
+          <span class="expand-text">Selengkapnya</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+          </svg>
+        </button>
+        
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <div class="container ft-bottom-inner">
+        <div class="ft-copy">
+          <span>JENDELATOTO &copy; <span id="yearNow">2026</span></span>
+          <span>PT JENDELATOTO. All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+    
+            <style nonce="se3iyzEHMc9FQEB4wSyd0w==">
+              /* Chat Widget Styles - Lightweight & Minimal */
+              .chat-widget {
+                  position: fixed;
+                  bottom: 20px;
+                  right: 20px;
+                  z-index: 9999;
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+              }
+              
+              /* Hide floating button on mobile - use bottom nav instead */
+              @media (max-width: 640px) {
+                  .chat-toggle-btn {
+                      display: none !important;
+                  }
+                  
+                  /* Ensure popup is still visible on mobile even when button is hidden */
+                  .chat-widget {
+                      display: block !important;
+                  }
+                  
+                  .chat-popup {
+                      display: none; /* Hidden by default, shown via JS */
+                  }
+                  
+                  .chat-popup[style*="display: block"],
+                  .chat-popup[style*="display:block"] {
+                      display: block !important;
+                  }
+              }
+              
+              .chat-toggle-btn {
+                  width: 60px;
+                  height: 60px;
+                  border-radius: 50%;
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  border: none;
+                  color: white;
+                  cursor: pointer;
+                  box-shadow: 0 4px 12px rgba(242, 140, 26, 0.3);
+                  position: relative;
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+              
+              .chat-toggle-btn:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 6px 20px rgba(242, 140, 26, 0.4);
+              }
+              
+              #chat-toggle-btn .chat-icon {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 28px !important;
+                  height: 28px !important;
+              }
+              
+              .chat-unread-badge {
+                  position: absolute;
+                  top: -5px;
+                  right: -5px;
+                  background: #ef4444;
+                  color: white;
+                  border-radius: 12px;
+                  padding: 2px 6px;
+                  font-size: 11px;
+                  font-weight: 600;
+                  min-width: 20px;
+                  text-align: center;
+              }
+              
+              .chat-popup {
+                  position: absolute;
+                  bottom: 80px;
+                  right: 0;
+                  width: 380px;
+                  max-width: calc(100vw - 40px);
+                  height: 500px;
+                  max-height: calc(100vh - 120px);
+                  background: white;
+                  border-radius: 12px;
+                  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+                  display: flex;
+                  flex-direction: column;
+                  overflow: hidden;
+              }
+              
+              .chat-popup-header {
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  color: white;
+                  padding: 16px 20px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  flex-shrink: 0;
+              }
+              
+              .chat-header-title {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 2px;
+                  min-height: 0;
+              }
+              
+              .chat-popup-header h3 {
+                  margin: 0;
+                  font-size: 18px;
+                  font-weight: 600;
+                  line-height: 1.2;
+              }
+              
+              .chat-operating-hours {
+                  font-size: 11px;
+                  opacity: 0.9;
+                  font-weight: 400;
+                  display: flex;
+                  align-items: center;
+                  gap: 4px;
+                  line-height: 1.2;
+              }
+              
+              .chat-operating-hours svg {
+                  width: 12px;
+                  height: 12px;
+                  opacity: 0.8;
+                  flex-shrink: 0;
+              }
+              
+              .chat-header-actions {
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+              }
+              
+              /* Notification Toggle Button */
+              .btn-notif-toggle {
+                  background: none;
+                  border: none;
+                  color: white;
+                  font-size: 18px;
+                  cursor: pointer;
+                  padding: 4px 8px;
+                  transition: all 0.2s;
+                  opacity: 0.8;
+              }
+              
+              .btn-notif-toggle:hover {
+                  opacity: 1;
+                  transform: scale(1.1);
+              }
+              
+              /* Icon states */
+              .btn-notif-toggle[data-status="not-subscribed"] svg {
+                  opacity: 0.7;
+              }
+              
+              .btn-notif-toggle[data-status="not-subscribed"]:hover svg {
+                  opacity: 1;
+              }
+              
+              .btn-notif-toggle[data-status="subscribed"] svg {
+                  opacity: 1;
+                  animation: bellRing 2s ease-in-out;
+              }
+              
+              .btn-notif-toggle[data-status="blocked"] svg {
+                  color: #ff6b6b;
+              }
+              
+              .btn-notif-toggle[data-status="not-supported"] {
+                  display: none !important;
+              }
+              
+              @keyframes bellRing {
+                  0%, 100% { transform: rotate(0deg); }
+                  10%, 30% { transform: rotate(-10deg); }
+                  20%, 40% { transform: rotate(10deg); }
+              }
+              
+              /* Notification Info Bar */
+              .chat-notif-info-bar {
+                  position: absolute;
+                  top: 64px;
+                  left: 0;
+                  right: 0;
+                  background: linear-gradient(to right, #e3f2fd, #f5f5f5);
+                  border-bottom: 1px solid #bbdefb;
+                  padding: 8px 12px;
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  font-size: 12px;
+                  color: #616161;
+                  z-index: 10;
+                  animation: slideDown 0.3s ease;
+              }
+              
+              .chat-notif-info-bar svg {
+                  flex-shrink: 0;
+              }
+              
+              .chat-notif-info-bar .small {
+                  flex: 1;
+                  line-height: 1.4;
+              }
+              
+              .chat-notif-info-bar .btn-dismiss {
+                  background: none;
+                  border: none;
+                  color: #9e9e9e;
+                  cursor: pointer;
+                  padding: 0 4px;
+                  font-size: 16px;
+                  transition: color 0.2s;
+              }
+              
+              .chat-notif-info-bar .btn-dismiss:hover {
+                  color: #616161;
+              }
+              
+              @keyframes slideDown {
+                  from {
+                      max-height: 0;
+                      opacity: 0;
+                  }
+                  to {
+                      max-height: 50px;
+                      opacity: 1;
+                  }
+              }
+              
+              .chat-close-btn {
+                  background: none;
+                  border: none;
+                  color: white;
+                  font-size: 28px;
+                  line-height: 1;
+                  cursor: pointer;
+                  padding: 0;
+                  width: 30px;
+                  height: 30px;
+              }
+              
+              .chat-popup-body {
+                  flex: 1 1 auto;
+                  display: flex;
+                  flex-direction: column;
+                  min-height: 0;
+                  overflow: hidden;
+                  height: calc(100% - 64px);
+                  position: relative;
+                  transition: padding-top 0.3s ease;
+              }
+              
+              /* Add padding when info bar is visible */
+              .chat-popup-body.has-info-bar {
+                  padding-top: 40px;
+              }
+              
+              .chat-view {
+                  flex: 1 1 auto;
+                  display: none;
+                  flex-direction: column;
+                  min-height: 0;
+                  overflow: hidden;
+              }
+              
+              #chat-list-view {
+                  display: flex;
+              }
+              
+              #chat-messages-view {
+                  display: none;
+              }
+              
+              #chat-messages-view.active {
+                  display: flex;
+                  flex-direction: column;
+              }
+              
+              #chat-new-view {
+                  display: none;
+              }
+              
+              #chat-new-view.active {
+                  display: flex;
+              }
+              
+              .chat-conversations-list {
+                  flex: 1;
+                  overflow-y: auto;
+                  padding: 0;
+                  background: white;
+              }
+              
+              /* Custom Scrollbar for Conversations List */
+              .chat-conversations-list::-webkit-scrollbar {
+                  width: 6px;
+              }
+              
+              .chat-conversations-list::-webkit-scrollbar-track {
+                  background: #f1f1f1;
+              }
+              
+              .chat-conversations-list::-webkit-scrollbar-thumb {
+                  background: #F28C1A;
+                  border-radius: 3px;
+              }
+              
+              .chat-conversations-list::-webkit-scrollbar-thumb:hover {
+                  background: #D97809;
+              }
+              
+              /* Firefox */
+              .chat-conversations-list {
+                  scrollbar-width: thin;
+                  scrollbar-color: #F28C1A #f1f1f1;
+              }
+              
+              .chat-conversation-item {
+                  padding: 12px 16px;
+                  cursor: pointer;
+                  display: flex;
+                  gap: 12px;
+                  align-items: flex-start;
+                  transition: background 0.15s ease;
+                  color: #1f2937;
+                  border-bottom: 1px solid #f0f0f0;
+              }
+              
+              .chat-conversation-item:hover {
+                  background: #f5f5f5;
+              }
+              
+              .chat-conversation-item.active {
+                  background: #FFF5EB;
+              }
+              
+              /* WhatsApp-like Avatar */
+              .conversation-avatar {
+                  width: 48px;
+                  height: 48px;
+                  border-radius: 50%;
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  flex-shrink: 0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  font-weight: 600;
+                  font-size: 18px;
+              }
+              
+              .conversation-avatar svg {
+                  width: 24px;
+                  height: 24px;
+              }
+              
+              /* WhatsApp-like Content */
+              .conversation-content {
+                  flex: 1;
+                  min-width: 0;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 4px;
+              }
+              
+              .conversation-header {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 8px;
+              }
+              
+              .conversation-name {
+                  font-weight: 600;
+                  font-size: 15px;
+                  color: #111;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+              }
+              
+              .conversation-time {
+                  font-size: 12px;
+                  color: #667781;
+                  flex-shrink: 0;
+              }
+              
+              .conversation-preview {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 8px;
+              }
+              
+              .conversation-message {
+                  font-size: 14px;
+                  color: #667781;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  margin: 0;
+                  flex: 1;
+              }
+              
+              .conversation-unread {
+                  background: #25D366;
+                  color: white;
+                  border-radius: 12px;
+                  padding: 2px 8px;
+                  font-size: 12px;
+                  font-weight: 600;
+                  min-width: 20px;
+                  text-align: center;
+                  flex-shrink: 0;
+              }
+              
+              /* Active item styling */
+              .chat-conversation-item.active .conversation-name {
+                  color: #F28C1A;
+              }
+              
+              .chat-conversation-item.active .conversation-time {
+                  color: #F28C1A;
+              }
+              
+              .chat-new-btn {
+                  margin: 12px;
+                  padding: 12px;
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  color: white;
+                  border: none;
+                  border-radius: 8px;
+                  cursor: pointer;
+                  font-weight: 500;
+                  font-size: 14px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 8px;
+                  transition: all 0.2s;
+                  flex-shrink: 0;
+              }
+              
+              .chat-new-btn:hover {
+                  transform: translateY(-1px);
+                  box-shadow: 0 4px 8px rgba(242, 140, 26, 0.3);
+              }
+              
+              .chat-conversation-title {
+                  flex: 1;
+                  font-weight: 600;
+                  font-size: 16px;
+                  color: #1f2937;
+              }
+              
+              .chat-messages-container {
+                  flex: 1;
+                  overflow-y: auto;
+                  padding: 16px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 8px;
+                  min-height: 0;
+                  background: #E5DDD5;
+              }
+              
+              /* Custom Scrollbar for Messages Container */
+              .chat-messages-container::-webkit-scrollbar {
+                  width: 6px;
+              }
+              
+              .chat-messages-container::-webkit-scrollbar-track {
+                  background: rgba(0, 0, 0, 0.05);
+              }
+              
+              .chat-messages-container::-webkit-scrollbar-thumb {
+                  background: rgba(242, 140, 26, 0.6);
+                  border-radius: 3px;
+              }
+              
+              .chat-messages-container::-webkit-scrollbar-thumb:hover {
+                  background: #F28C1A;
+              }
+              
+              /* Firefox */
+              .chat-messages-container {
+                  scrollbar-width: thin;
+                  scrollbar-color: rgba(242, 140, 26, 0.6) rgba(0, 0, 0, 0.05);
+              }
+              
+              /* WhatsApp Group-like Messages */
+              .chat-message {
+                  display: flex;
+                  margin-bottom: 4px;
+                  animation: fadeIn 0.2s ease;
+              }
+              
+              @keyframes fadeIn {
+                  from { opacity: 0; transform: translateY(10px); }
+                  to { opacity: 1; transform: translateY(0); }
+              }
+              
+              .chat-message.mine {
+                  justify-content: flex-end;
+              }
+              
+              .chat-message-bubble {
+                  max-width: 80%;
+                  padding: 6px 8px 8px 10px;
+                  border-radius: 8px;
+                  position: relative;
+                  box-shadow: 0 1px 0.5px rgba(0,0,0,0.13);
+              }
+              
+              /* Bubble from others (Admin/CS) */
+              .chat-message:not(.mine) .chat-message-bubble {
+                  background: #FFFFFF;
+                  border-radius: 0 8px 8px 8px;
+              }
+              
+              /* Bubble tail for others */
+              .chat-message:not(.mine) .chat-message-bubble::before {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  left: -8px;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 0 8px 13px 0;
+                  border-color: transparent #FFFFFF transparent transparent;
+              }
+              
+              /* Bubble from user (mine) */
+              .chat-message.mine .chat-message-bubble {
+                  background: #D0E8F5; /* Light blue for user messages */
+                  border-radius: 8px 0 8px 8px;
+              }
+              
+              /* Bubble tail for mine */
+              .chat-message.mine .chat-message-bubble::before {
+                  content: '';
+                  position: absolute;
+                  top: 0;
+                  right: -8px;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 0 0 13px 8px;
+                  border-color: transparent transparent transparent #D0E8F5;
+              }
+              
+              .message-sender {
+                  font-size: 12.5px;
+                  font-weight: 600;
+                  color: #F28C1A !important;
+                  margin-bottom: 4px;
+              }
+              
+              .chat-message.mine .message-sender {
+                  display: none;
+              }
+              
+              /* Message text */
+              .message-text {
+                  font-size: 14px;
+                  line-height: 19px;
+                  color: #000000 !important;
+                  word-wrap: break-word;
+                  white-space: pre-wrap;
+                  margin-bottom: 4px;
+              }
+              
+              /* Message metadata (time + status) */
+              .message-meta {
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  gap: 4px;
+                  margin-top: 2px;
+              }
+              
+              .message-time {
+                  font-size: 11px;
+                  color: #667781 !important;
+                  line-height: 15px;
+              }
+              
+              /* Use multiple selectors to override global styles */
+              .chat-message-bubble .message-status,
+              .message-meta .message-status,
+              .chat-message .message-status {
+                  width: 16px !important;
+                  height: 16px !important;
+                  min-width: 16px !important;
+                  min-height: 16px !important;
+                  max-width: 16px !important;
+                  max-height: 16px !important;
+                  flex-shrink: 0;
+                  color: #667781 !important;
+                  fill: currentColor !important;
+              }
+              
+              .chat-message:not(.mine) .message-status {
+                  display: none;
+              }
+              
+              /* Loading dots animation */
+              @keyframes loadingDots {
+                  0%, 20% { content: '.'; }
+                  40% { content: '..'; }
+                  60%, 100% { content: '...'; }
+              }
+              
+              .message-status.loading::after {
+                  content: '...';
+                  animation: loadingDots 1.5s infinite;
+                  font-size: 16px;
+                  line-height: 16px;
+              }
+              
+              .message-status.loading path {
+                  display: none;
+              }
+              
+              .message-status.failed {
+                  color: #ef4444 !important;
+                  cursor: pointer;
+              }
+              
+              .message-status.sent {
+                  color: #667781 !important;
+              }
+              
+              .chat-new-form {
+                  flex: 1;
+                  overflow-y: auto;
+                  padding: 16px;
+                  display: flex;
+                  flex-direction: column;
+              }
+              
+              .chat-new-form form {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 16px;
+                  flex: 1;
+              }
+              
+              .chat-new-form .form-group {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 6px;
+              }
+              
+              .chat-new-form label {
+                  font-size: 14px;
+                  font-weight: 500;
+                  color: #374151;
+              }
+              
+              .chat-new-form .form-control {
+                  width: 100%;
+                  padding: 10px 12px;
+                  border: 1px solid #d1d5db;
+                  border-radius: 8px;
+                  font-size: 14px;
+                  font-family: inherit;
+                  transition: border-color 0.2s;
+                  box-sizing: border-box;
+              }
+              
+              .chat-new-form .form-control:focus {
+                  outline: none;
+                  border-color: #F28C1A;
+                  box-shadow: 0 0 0 3px rgba(242, 140, 26, 0.1);
+              }
+              
+              .chat-new-form textarea.form-control {
+                  resize: vertical;
+                  min-height: 100px;
+              }
+              
+              .chat-new-form .btn {
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 8px;
+                  font-size: 15px;
+                  font-weight: 500;
+                  cursor: pointer;
+                  transition: all 0.2s;
+                  text-align: center;
+              }
+              
+              .chat-new-form .btn-primary {
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  color: white;
+              }
+              
+              .chat-new-form .btn-primary:hover {
+                  transform: translateY(-1px);
+                  box-shadow: 0 4px 8px rgba(242, 140, 26, 0.3);
+              }
+              
+              .chat-new-form .btn-primary:active {
+                  transform: scale(0.98);
+              }
+              
+              .chat-new-form .btn-block {
+                  width: 100%;
+                  margin-top: auto;
+              }
+              
+              .chat-message-form {
+                  padding: 12px;
+                  border-top: 1px solid #e5e7eb;
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 8px;
+                  align-items: flex-end;
+                  flex-shrink: 0;
+                  background: white;
+              }
+              
+              .chat-product-card {
+                  flex: 1 1 100%;
+                  max-width: 100%;
+                  display: flex;
+                  gap: 12px;
+                  padding: 12px;
+                  background: #f3f4f6;
+                  border-radius: 8px;
+                  margin-bottom: 4px;
+                  border: 1px solid #e5e7eb;
+              }
+              
+              .chat-product-card img {
+                  width: 60px;
+                  height: 60px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                  flex-shrink: 0;
+              }
+              
+              .chat-product-card-content {
+                  flex: 1;
+                  min-width: 0;
+              }
+              
+              .chat-product-card-name {
+                  font-weight: 500;
+                  font-size: 14px;
+                  color: #1f2937;
+                  margin-bottom: 4px;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+              }
+              
+              .chat-product-card-variant {
+                  font-size: 12px;
+                  color: #6b7280;
+                  margin-bottom: 4px;
+              }
+              
+              .chat-product-card-price {
+                  font-size: 13px;
+                  color: #667eea;
+                  font-weight: 600;
+              }
+              
+              .chat-product-card-remove {
+                  align-self: flex-start;
+                  background: none;
+                  border: none;
+                  color: #9ca3af;
+                  cursor: pointer;
+                  padding: 4px;
+                  font-size: 18px;
+                  line-height: 1;
+                  transition: color 0.2s;
+              }
+              
+              .chat-product-card-remove:hover {
+                  color: #ef4444;
+              }
+              
+              /* Product card in messages (read-only display) */
+              .message-product-card {
+                  display: flex;
+                  gap: 10px;
+                  padding: 10px;
+                  background: rgba(255, 255, 255, 0.5);
+                  border-radius: 8px;
+                  margin-bottom: 6px;
+                  border: 1px solid rgba(0, 0, 0, 0.08);
+                  align-items: center;
+              }
+              
+              .chat-message.mine .message-product-card {
+                  background: rgba(255, 255, 255, 0.7);
+              }
+              
+              .message-product-card img {
+                  width: 50px;
+                  height: 50px;
+                  object-fit: cover;
+                  border-radius: 6px;
+                  flex-shrink: 0;
+              }
+              
+              .message-product-info {
+                  flex: 1;
+                  min-width: 0;
+              }
+              
+              .message-product-name {
+                  font-weight: 500;
+                  font-size: 13px;
+                  color: #1f2937;
+                  margin-bottom: 2px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical;
+                  line-height: 1.3;
+              }
+              
+              .message-product-variant {
+                  font-size: 11px;
+                  color: #6b7280;
+                  margin-bottom: 2px;
+              }
+              
+              .message-product-price {
+                  font-size: 12px;
+                  color: #667eea;
+                  font-weight: 600;
+              }
+              
+              .message-product-link {
+                  flex-shrink: 0;
+                  width: 32px;
+                  height: 32px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background: rgba(102, 126, 234, 0.1);
+                  border-radius: 6px;
+                  color: #667eea;
+                  text-decoration: none;
+                  transition: all 0.2s;
+              }
+              
+              .message-product-link:hover {
+                  background: #667eea;
+                  color: white;
+              }
+              
+              .message-product-link svg {
+                  width: 16px;
+                  height: 16px;
+              }
+              
+              .chat-message-input {
+                  flex: 1;
+                  border: 1px solid #d1d5db;
+                  border-radius: 20px;
+                  padding: 10px 16px;
+                  resize: none;
+                  max-height: 100px;
+                  font-family: inherit;
+                  font-size: 14px;
+                  line-height: 1.5;
+                  box-sizing: border-box;
+                  overflow-y: hidden;
+              }
+              
+              .chat-message-input:focus {
+                  outline: none;
+                  border-color: #F28C1A;
+                  box-shadow: 0 0 0 3px rgba(242, 140, 26, 0.1);
+              }
+              
+              .chat-send-btn {
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  background: linear-gradient(135deg, #F28C1A 0%, #D97809 100%);
+                  border: none;
+                  color: white;
+                  cursor: pointer;
+                  flex-shrink: 0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: all 0.2s;
+              }
+              
+              .chat-send-btn:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 2px 8px rgba(242, 140, 26, 0.3);
+              }
+              
+              .chat-send-btn:active {
+                  transform: scale(0.95);
+              }
+              
+              .chat-loading {
+                  text-align: center;
+                  padding: 20px;
+                  color: #6b7280;
+              }
+              
+              /* Date Separator (WhatsApp-style) */
+              .date-separator {
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  margin: 24px 0 16px;
+                  opacity: 0;
+                  animation: fadeInSeparator 0.3s ease forwards;
+              }
+  
+              @keyframes fadeInSeparator {
+                  from {
+                      opacity: 0;
+                      transform: translateY(-10px);
+                  }
+                  to {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+  
+              .date-separator-line {
+                  flex: 1;
+                  height: 1px;
+                  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1) 50%, transparent);
+              }
+  
+              .date-separator-text {
+                  flex-shrink: 0;
+                  padding: 4px 12px;
+                  background: #e9ecef;
+                  color: #6c757d;
+                  font-size: 11px;
+                  font-weight: 600;
+                  text-transform: uppercase;
+                  letter-spacing: 0.5px;
+                  border-radius: 12px;
+                  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+              }
+              
+              /* Mobile responsive */
+              @media (max-width: 640px) {
+                  .chat-popup {
+                      position: fixed !important; /* Override absolute positioning */
+                      bottom: 45px !important; /* Above bottom nav */
+                      right: 0 !important;
+                      left: 0 !important;
+                      width: 100% !important;
+                      max-width: 100% !important;
+                      /* Use dvh (dynamic viewport height) for browser UI awareness */
+                      height: calc(100dvh - 45px) !important;
+                      max-height: calc(100dvh - 45px) !important;
+                      /* Fallback for browsers that don't support dvh */
+                      height: calc(var(--viewport-height, 100vh) - 45px) !important;
+                      max-height: calc(var(--viewport-height, 100vh) - 45px) !important;
+                      border-radius: 0 !important;
+                      z-index: 9999 !important;
+                  }
+                  
+                  .chat-popup-header {
+                      border-radius: 0;
+                  }
+                  
+                  .chat-messages-container,
+                  .chat-conversations-list {
+                      /* Adjust for mobile keyboard using dynamic viewport */
+                      max-height: calc(100dvh - 190px);
+                      /* Fallback for browsers that don't support dvh */
+                      max-height: calc(var(--viewport-height, 100vh) - 190px);
+                  }
+              }
+          </style>
+                  <!-- Chat Widget Button -->
+          <div id="chat-widget" class="chat-widget" 
+               data-user-id=""
+               data-is-logged-in="false"
+               data-csrf-token="df5d776748b1ed8c8dd0d987bae99b1ee3dea6c6dcbe0eedb1bea766c56d569a">
+              
+                  <span id="chat-unread-badge" class="chat-unread-badge" style="display: none;">0</span>
+              </button>
+              
+              <div id="chat-popup" class="chat-popup" style="display: none;">
+                  <div class="chat-popup-header">
+                      <div class="chat-header-title">
+                          <h3>Bantuan</h3>
+                          <span id="chatOperatingHours" class="chat-operating-hours" style="display: none;"></span>
+                      </div>
+                      <div class="chat-header-actions">
+                          <button id="chatNotifToggle" class="btn-notif-toggle" data-status="not-supported" title="Push notification" style="display: none;">
+                              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                  <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+                              </svg>
+                          </button>
+                          <button id="chat-close-btn" class="chat-close-btn" aria-label="Close chat">×</button>
+                      </div>
+                  </div>
+                  
+                  <!-- Notification Info Bar (conditional) -->
+                  <div class="chat-notif-info-bar" id="chatNotifInfoBar" style="display:none;">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffc107">
+                          <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6C7.8 12.16 7 10.63 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z"/>
+                      </svg>
+                      <span class="small">Aktifkan notifikasi untuk pemberitahuan balasan</span>
+                      <button class="btn-dismiss" onclick="ChatNotification.dismissInfo()">✕</button>
+                  </div>
+                  
+                  <div class="chat-popup-body">
+                      <!-- Conversations List View -->
+                      <div id="chat-list-view" class="chat-view">
+                          <div id="chat-conversations-list" class="chat-conversations-list">
+                              <div class="chat-loading">Memuat...</div>
+                              <!-- Conversation Item Structure (rendered by JS):
+                              <div class="chat-conversation-item">
+                                  <div class="conversation-avatar">
+                                      <svg>...</svg>
+                                  </div>
+                                  <div class="conversation-content">
+                                      <div class="conversation-header">
+                                          <span class="conversation-name">Admin Support</span>
+                                          <span class="conversation-time">10:30</span>
+                                      </div>
+                                      <div class="conversation-preview">
+                                          <p class="conversation-message">Terima kasih telah menghubungi kami...</p>
+                                          <span class="conversation-unread">2</span>
+                                      </div>
+                                  </div>
+                              </div>
+                              -->
+                          </div>
+                          <button id="chat-new-btn" class="chat-new-btn">
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                              </svg>
+                              Percakapan Baru
+                          </button>
+                      </div>
+                      
+                      <!-- Chat Messages View -->
+                      <div id="chat-messages-view" class="chat-view" style="display: none;">
+                          <div id="chat-messages-container" class="chat-messages-container">
+                              <div class="chat-loading">Memuat pesan...</div>
+                              <!-- Message Structure (rendered by JS):
+                              <div class="chat-message"> (or .chat-message.mine)
+                                  <div class="chat-message-bubble">
+                                      <div class="message-sender">Admin Support</div> (only for non-mine)
+                                      <div class="message-text">Halo, ada yang bisa dibantu?</div>
+                                      <div class="message-meta">
+                                          <span class="message-time">10:30</span>
+                                          <svg class="message-status">...</svg> (only for mine)
+                                      </div>
+                                  </div>
+                              </div>
+                              -->
+                          </div>
+                          
+                          <form id="chat-message-form" class="chat-message-form">
+                              <input type="hidden" id="chat-current-conversation-id" value="">
+                              <textarea 
+                                  id="chat-message-input" 
+                                  class="chat-message-input" 
+                                  placeholder="Ketik pesan..."
+                                  rows="1"
+                                  maxlength="5000"
+                              ></textarea>
+                              <button type="submit" class="chat-send-btn" aria-label="Send message">
+                                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                  </svg>
+                              </button>
+                          </form>
+                      </div>
+                      
+                      <!-- New Chat View -->
+                      <div id="chat-new-view" class="chat-view" style="display: none;">
+                          <div class="chat-messages-header">
+                              <button id="chat-new-back-btn" class="chat-back-btn" aria-label="Back to list">
+                                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                      <path d="M19 12H5M12 19l-7-7 7-7"/>
+                                  </svg>
+                              </button>
+                              <div class="chat-conversation-title">Percakapan Baru</div>
+                          </div>
+                          
+                          <div class="chat-new-form">
+                              <form id="chat-start-form">
+                                  <div class="form-group">
+                                      <label for="chat-new-subject">Subjek</label>
+                                      <input 
+                                          type="text" 
+                                          id="chat-new-subject" 
+                                          class="form-control" 
+                                          placeholder="Bantuan Pelanggan"
+                                          maxlength="255"
+                                      >
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="chat-new-message">Pesan</label>
+                                      <textarea 
+                                          id="chat-new-message" 
+                                          class="form-control" 
+                                          rows="4" 
+                                          placeholder="Tulis pertanyaan Anda..."
+                                          required
+                                          maxlength="5000"
+                                      ></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary btn-block">Kirim</button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Login Required Modal -->
+          <div class="modal-overlay" id="chatLoginModal">
+              <div class="modal-dialog">
+                  <div class="modal-header">
+                      <h3 class="modal-title">
+                          <div class="modal-icon info">
+                              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                  <path d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z"/>
+                              </svg>
+                          </div>
+                          Login Diperlukan
+                      </h3>
+                  </div>
+                  <div class="modal-body">
+                      <p class="modal-message">Anda harus login terlebih dahulu untuk menggunakan fitur chat bantuan pelanggan.</p>
+                      <div class="modal-actions">
+                          <button class="modal-btn modal-btn-secondary" id="chatLoginCancel">Batal</button>
+                          <button class="modal-btn modal-btn-primary" id="chatLoginConfirm">Login Sekarang</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <script src="https://plazaitdotid.pages.dev/assets/js/chat-widget.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script><script src="https://plazaitdotid.pages.dev/assets/js/chat-notification.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>  
+      <!-- Footer Collapse Toggle Script -->
+    <script nonce="se3iyzEHMc9FQEB4wSyd0w==">
+    document.addEventListener('DOMContentLoaded', function() {
+      const ftTop = document.getElementById('ftTop');
+      const expandBtn = document.getElementById('ftExpandBtn');
+      
+      if (ftTop && expandBtn) {
+        const expandText = expandBtn.querySelector('.expand-text');
+        
+        expandBtn.addEventListener('click', function() {
+          ftTop.classList.toggle('expanded');
+          const isExpanded = ftTop.classList.contains('expanded');
+          if (expandText) {
+            expandText.textContent = isExpanded ? 'Sembunyikan' : 'Selengkapnya';
+          }
+        });
+      }
+    });
+    </script>
+    </footer>
+  
+  <!-- Compare Sidebar Overlay -->
+  <div class="compare-overlay" id="compareOverlay"></div>
+  
+  <!-- Floating Compare Badge (Sticky) -->
+  <button class="compare-floating-badge" id="compareFloatingBadge" aria-label="Lihat produk yang dibandingkan" style="display:none;">
+    <svg class="cfb-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M9.01 14H2v2h7.01v3L13 15l-3.99-4v3zm5.98-1v-3H22V8h-7.01V5L11 9l3.99 4z"/>
+    </svg>
+    <span class="cfb-text">Bandingkan</span>
+    <span class="cfb-count" id="cfbCount">0</span>
+  </button>
+  
+  <!-- AI Comparison Modal -->
+  <div class="ai-compare-modal" id="aiCompareModal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z"/>
+          </svg>
+          Analisis AI: Perbandingan Produk
+        </h3>
+        <button class="modal-close" id="aiCompareModalClose" aria-label="Tutup">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.3 5.7a1 1 0 0 0-1.4 0L12 10.6 7.1 5.7a1 1 0 1 0-1.4 1.4L10.6 12l-4.9 4.9a1 1 0 0 0 1.4 1.4L12 13.4l4.9 4.9a1 1 0 0 0 1.4-1.4L13.4 12l4.9-4.9a1 1 0 0 0 0-1.4z"/>
+          </svg>
+        </button>
+      </div>
+      
+      <div class="modal-content">
+        <!-- Loading State -->
+        <div class="ai-loading" id="aiLoading">
+          <div class="loading-animation">
+            <div class="typing-indicator">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <p>AI sedang menganalisis produk...</p>
+            <small>Proses ini membutuhkan waktu 10-30 detik</small>
+          </div>
+        </div>
+        
+        <!-- Error State -->
+        <div class="ai-error" id="aiError" hidden>
+          <div class="error-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="#ef4444">
+              <path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/>
+            </svg>
+          </div>
+          <h4>Analisis AI Gagal</h4>
+          <p id="aiErrorMessage">Terjadi kesalahan saat memproses analisis.</p>
+          <button class="btn btn-outline-primary" id="aiRetry">Coba Lagi</button>
+        </div>
+        
+        <!-- Analysis Results -->
+        <div class="ai-results" id="aiResults" hidden>
+          <!-- Summary Section -->
+          <div class="ai-summary-card">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+              </svg>
+              Ringkasan Analisis
+            </h4>
+            <p id="aiSummary" class="summary-text"></p>
+            <div class="winner-badge" id="winnerBadge">
+              <strong>Rekomendasi Terbaik:</strong> <span id="winnerProduct"></span>
+              <small id="winnerReason"></small>
+            </div>
+          </div>
+          
+          <!-- Comparison Table -->
+          <div class="ai-comparison-table">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3,3H21V5H3V3M3,7H21V9H3V7M3,11H21V13H3V11M3,15H21V17H3V15M3,19H21V21H3V19Z"/>
+              </svg>
+              Perbandingan Detail
+            </h4>
+            <div id="comparisonTable" class="comparison-grid"></div>
+          </div>
+          
+          <!-- Detailed Analysis -->
+          <div class="ai-detailed-analysis">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14,2A8,8 0 0,1 22,10A8,8 0 0,1 14,18A8,8 0 0,1 6,10A8,8 0 0,1 14,2M14,4A6,6 0 0,0 8,10A6,6 0 0,0 14,16A6,6 0 0,0 20,10A6,6 0 0,0 14,4M14,6A4,4 0 0,1 18,10A4,4 0 0,1 14,14A4,4 0 0,1 10,10A4,4 0 0,1 14,6M14,8A2,2 0 0,0 12,10A2,2 0 0,0 14,12A2,2 0 0,0 16,10A2,2 0 0,0 14,8Z"/>
+              </svg>
+              Analisis Mendalam
+            </h4>
+            <div id="detailedAnalysis" class="products-analysis"></div>
+          </div>
+          
+          <!-- Recommendations -->
+          <div class="ai-recommendations">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/>
+              </svg>
+              Rekomendasi Berdasarkan Kebutuhan
+            </h4>
+            <div class="recommendations-grid">
+              <div class="recommendation-card">
+                <h5>💰 Budget Conscious</h5>
+                <p id="budgetRecommendation"></p>
+              </div>
+              <div class="recommendation-card">
+                <h5>⚡ Performance Focused</h5>
+                <p id="performanceRecommendation"></p>
+              </div>
+              <div class="recommendation-card">
+                <h5>⚖️ Balanced Choice</h5>
+                <p id="balancedRecommendation"></p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Buying Tips -->
+          <div class="ai-tips">
+            <h4>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"/>
+              </svg>
+              Tips Pembelian
+            </h4>
+            <ul id="buyingTips" class="tips-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Cart Login Modal -->
+  <div class="modal-overlay" id="cartLoginModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          <div class="modal-icon info">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17,18A2,2 0 0,1 19,20A2,2 0 0,1 17,22C15.89,22 15,21.1 15,20C15,18.89 15.89,18 17,18M1,2H4.27L5.21,4H20A1,1 0 0,1 21,5C21,5.17 20.95,5.34 20.88,5.5L17.3,11.97C16.96,12.58 16.3,13 15.55,13H8.1L7.2,14.63L7.17,14.75A0.25,0.25 0 0,0 7.42,15H19V17H7C5.89,17 5,16.1 5,15C5,14.65 5.09,14.32 5.24,14.04L6.6,11.59L3,4H1V2M7,18A2,2 0 0,1 9,20A2,2 0 0,1 7,22C5.89,22 5,21.1 5,20C5,18.89 5.89,18 7,18M16,11L18.78,6H6.14L8.5,11H16Z"/>
+            </svg>
+          </div>
+          Login untuk Melanjutkan
+        </h3>
+      </div>
+      <div class="modal-body">
+        <p class="modal-message" style="margin-bottom: 16px;">Silakan login atau daftar untuk mengakses keranjang belanja dan menyelesaikan pesanan Anda.</p>
+        <div style="background: #f8fafc; border-radius: 8px; padding: 12px; margin-bottom: 20px;">
+          <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.6;">
+            <strong style="color: #0f172a;">Keuntungan dengan akun:</strong><br>
+            ✓ Simpan keranjang belanja Anda<br>
+            ✓ Lacak status pesanan secara real-time<br>
+            ✓ Checkout lebih cepat dengan data tersimpan<br>
+            ✓ Dapatkan notifikasi promo & diskon eksklusif
+          </p>
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn modal-btn-secondary" id="cartLoginCancel">Batal</button>
+          <button class="modal-btn modal-btn-primary" id="cartLoginConfirm" style="background: #ff6b35; border-color: #ff6b35;">Login</button>
+          <button class="modal-btn modal-btn-primary" id="cartRegisterBtn" style="background: #f7931e; border-color: #f7931e;">Daftar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="https://plazaitdotid.pages.dev/assets/js/app.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/site-notice.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/guest-cart.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/cart.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script defer src="https://plazaitdotid.pages.dev/assets/js/mega-menu-tiles.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+      <script src="https://plazaitdotid.pages.dev/assets/js/benchmark.js" nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+    <script src="https://plazaitdotid.pages.dev/assets/js/product-compare.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script src="https://plazaitdotid.pages.dev/assets/js/product-card-actions.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+      <script src="https://plazaitdotid.pages.dev/assets/js/product-reviews.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+      <script src="https://plazaitdotid.pages.dev/assets/js/review-submission.js" defer nonce="se3iyzEHMc9FQEB4wSyd0w=="></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c6e2065ed8664545b4545e771552f98c","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"ad99da6b8c3946298ed6bd2ee8e30817","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e4fbcc61d798561',t:'MTc3NDk2NDEyNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"d31e4505a72d4cefab2d786d5ca99e2f","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"08e0ba04ba6e421d9ff626486429e12a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+  </body>
+  </html>
